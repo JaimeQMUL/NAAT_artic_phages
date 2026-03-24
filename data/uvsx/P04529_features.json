@@ -1,0 +1,188 @@
+[
+  {
+    "type": "Chain",
+    "description": "Recombination and repair protein",
+    "start": 1,
+    "end": 391
+  },
+  {
+    "type": "Region",
+    "description": "Disordered",
+    "start": 364,
+    "end": 391
+  },
+  {
+    "type": "Compositional bias",
+    "description": "Basic and acidic residues",
+    "start": 364,
+    "end": 374
+  },
+  {
+    "type": "Compositional bias",
+    "description": "Acidic residues",
+    "start": 376,
+    "end": 391
+  },
+  {
+    "type": "Binding site",
+    "description": "",
+    "start": 60,
+    "end": 67
+  },
+  {
+    "type": "Sequence conflict",
+    "description": "in Ref. 1; CAB40822/AAA32552",
+    "start": 321,
+    "end": 324
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 37,
+    "end": 44
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 53,
+    "end": 65
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 66,
+    "end": 80
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 85,
+    "end": 92
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 97,
+    "end": 102
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 107,
+    "end": 109
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 110,
+    "end": 114
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 118,
+    "end": 130
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 138,
+    "end": 143
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 168,
+    "end": 185
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 189,
+    "end": 195
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 214,
+    "end": 217
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 218,
+    "end": 226
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 239,
+    "end": 246
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 248,
+    "end": 250
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 255,
+    "end": 260
+  },
+  {
+    "type": "Turn",
+    "description": "",
+    "start": 268,
+    "end": 271
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 272,
+    "end": 278
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 281,
+    "end": 283
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 289,
+    "end": 295
+  },
+  {
+    "type": "Turn",
+    "description": "",
+    "start": 297,
+    "end": 299
+  },
+  {
+    "type": "Beta strand",
+    "description": "",
+    "start": 302,
+    "end": 304
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 311,
+    "end": 314
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 317,
+    "end": 324
+  },
+  {
+    "type": "Helix",
+    "description": "",
+    "start": 327,
+    "end": 337
+  }
+]
