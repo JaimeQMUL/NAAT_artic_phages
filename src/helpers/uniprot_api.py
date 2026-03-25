@@ -80,4 +80,4 @@ def stage_uniprot_protein(uniprot_accession, save_directory):
         "num_features": len(features),
     }
 
-stage_uniprot_protein('P04529', '../../data/uvsx')
+# stage_uniprot_protein('P04529', '../../data/uvsx')
