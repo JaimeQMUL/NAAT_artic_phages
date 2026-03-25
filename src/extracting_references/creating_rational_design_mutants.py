@@ -60,5 +60,5 @@ with open('../data/ncbi/uvsx_sequences.fasta', 'r') as f:
 
 # Combine all sequence lines into a single string
 full_sequence = "".join(sequence_lines)
-print(f"{header_to_find}:\n{full_sequence}")
+# print(f"{header_to_find}:\n{full_sequence}")
 # idea for this was replicating the loop 2 swap from YP_003097304 into UvsX
