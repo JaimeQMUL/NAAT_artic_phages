@@ -1,7 +1,7 @@
 
 from src.helpers.directory_creation import CreateDirectoryStructure
 from src.extracting_references.creating_curated_database import *
-from src.helpers.fasta_tools import read_fasta
+from src.biotools.fasta_tools import read_fasta
 from src.helpers.uniprot_api import stage_uniprot_protein
 
 
