@@ -3,6 +3,7 @@ from src.helpers.directory_creation import CreateDirectoryStructure
 from src.extracting_references.creating_curated_database import *
 from src.biotools.fasta_tools import read_fasta
 from src.helpers.uniprot_api import stage_uniprot_protein
+from src.biotools.msa import RunMSA
 
 
 protein_name='uvsx'
@@ -20,8 +21,7 @@ QuerySearchUniprot("(recA OR uvsX OR recombinase) AND taxonomy_id:10239", protei
 sleep(2)
 
 # Use search terms to query NCBI databases, saving sequences along with all avaliable metadata
-QuerySearchNCBI("(uvsx OR recA)[Protein] AND txid10239[Organism:exp]", protein_name)
-
+QuerySearchNCBI("(uvsx OR recA) AND txid10239[Organism:exp]", protein_name)
 
 ### Add pfam identification step here. use model to pull out domain IDs. Or get them from uniprot/ncbi.
 
@@ -40,3 +40,4 @@ CreateMutants(mutants, reference, protein_name) #Creating reference sequences an
 # Sequences identified in paper from ice samples. 7Z3M is thermophilic and 9GBG is psychrophilic  https://academic.oup.com/nar/article/54/4/gkag069/8462617?login=true
 pdb_ids=['7Z3M','9GBG']
 IDSearchRCSB(pdb_ids, protein_name)
+

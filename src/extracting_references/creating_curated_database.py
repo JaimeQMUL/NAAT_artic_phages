@@ -84,9 +84,7 @@ def QuerySearchUniprot(query, protein_name):
 
 # Extracting the known UvsX-like sequences from NCBI as well as metadata.
 
-import requests
-from time import sleep
-import csv
+API_KEY ='eb2c0b97f55a588259931f07f1099b896207'
 
 def QuerySearchNCBI(query, protein_name):
 
@@ -102,23 +100,32 @@ def QuerySearchNCBI(query, protein_name):
             "term": query,
             "retstart": retstart,
             "retmax": retmax,
-            "retmode": "json"
+            "retmode": "json",
+            "api_key": API_KEY
         }
 
         res = requests.get(url, params=params).json()
-        ids = res["esearchresult"]["idlist"]
+        result = res.get("esearchresult", {})
+
+        if "ERROR" in result:
+            print(f"NCBI error: {result['ERROR']}")
+            break
+
+        ids = result.get("idlist", [])
 
         if not ids:
             break
 
         all_ids.extend(ids)
         retstart += retmax
+        sleep(0.4)
 
     url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
     params = {
         "db": "protein",
         "id": ",".join(all_ids[:200]),  # batch of IDs
-        "retmode": "json"
+        "retmode": "json",
+        "api_key": API_KEY
     }
 
     res = requests.get(url, params=params, verify=True)
@@ -143,7 +150,8 @@ def QuerySearchNCBI(query, protein_name):
             "db": "protein",
             "id": ",".join(batch),
             "rettype": "fasta",
-            "retmode": "text"
+            "retmode": "text",
+            "api_key": API_KEY
         }
         res = requests.get(fetch_url, params=params)
         all_sequences += res.text
@@ -159,13 +167,15 @@ def QuerySearchNCBI(query, protein_name):
     batch_size = 200
     summary_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
     metadata_records = []
+    sleep(1)
 
     for start in range(0, len(all_ids), batch_size):
         batch = all_ids[start:start + batch_size]
         params = {
             "db": "protein",
             "id": ",".join(batch),
-            "retmode": "json"
+            "retmode": "json",
+            "api_key": API_KEY
         }
         res = requests.get(summary_url, params=params).json()
 
@@ -183,6 +193,7 @@ def QuerySearchNCBI(query, protein_name):
                 "accession": rec.get("caption"),
                 "title": rec.get("title"),
                 "organism": rec.get("organism"),
+                "taxonId": rec.get("taxid"),
                 "sequence_length": rec.get("slen"),
                 "create_date": rec.get("createdate"),
                 "update_date": rec.get("updatedate"),

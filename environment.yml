@@ -1,0 +1,12 @@
+name: cold
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+  - biopython
+  - matplotlib
+  - numpy
+  - mafft
