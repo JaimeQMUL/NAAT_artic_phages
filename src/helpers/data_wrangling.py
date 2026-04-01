@@ -145,3 +145,6 @@ def WriteCleanedFasta(non_dupe_accessions, protein_name):
                 f.write(f'{seq[i:i + 60]}\n')
 
 
+
+
+
