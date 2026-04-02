@@ -127,10 +127,7 @@ def RemoveRedundancies(unique_accessions, protein_name):
     print(non_dupe_accessions[:10])
     return non_dupe_accessions
 
-    # # Adding p04529 to non dupes. Replacing the accession being used instead
-    #
-    # i = non_dupe_accessions.index('ADJ39758')
-    # non_dupe_accessions[i] = 'P04529'
+
 
 
 def WriteCleanedFasta(non_dupe_accessions, protein_name):
@@ -144,6 +141,44 @@ def WriteCleanedFasta(non_dupe_accessions, protein_name):
             for i in range(0, len(seq), 60):
                 f.write(f'{seq[i:i + 60]}\n')
 
+
+
+
+def FindAccession(accession, file_path):
+    accession = str(accession)
+
+    # -------------------------
+    # CSV (e.g. NCBI metadata)
+    # -------------------------
+    if file_path.endswith(".csv"):
+        df = pd.read_csv(file_path, low_memory=False)
+
+        # Try common column names
+        possible_cols = ['accession', 'caption', 'Accession', 'primaryAccession']
+
+        for col in possible_cols:
+            if col in df.columns:
+                match = df[df[col].astype(str) == accession]
+                if not match.empty:
+                    return match.to_dict(orient='records')[0]
+
+        return None
+
+    # -------------------------
+    # JSON (e.g. UniProt / NCBI)
+    # -------------------------
+    elif file_path.endswith(".json"):
+        with open(file_path) as f:
+            data = json.load(f)
+            for entry in data:
+                if entry.get("primaryAccession") == accession:
+                    return entry
+
+
+        return None
+
+    else:
+        raise ValueError("Unsupported file type (must be .csv or .json)")
 
 
 
