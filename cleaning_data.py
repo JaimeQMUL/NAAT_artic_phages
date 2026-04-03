@@ -39,6 +39,8 @@ for acc in non_dupes:
         discrepencies+=1
         dis_list.append(acc)
 print(f'discrepencies: {discrepencies}')
+print(f'Original Accession Count: {len(unique_accessions)}')
+print(f'Final Cleaned Accession Count: {len(non_dupes)}')
 
 
 

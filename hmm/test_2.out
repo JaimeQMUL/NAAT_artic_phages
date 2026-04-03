@@ -1,0 +1,165 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  test.hmm
+# target sequence database:        test_database.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       T4_UVSX_C  [M=65]
+Accession:   PF21134.3
+Description: Bacteriophage T4, Recombination and repair protein, C-terminal domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A097J0T4  [Enterobacteria phage RB3]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A097J376  [Enterobacteria phage RB7]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A097J3W3  [Enterobacteria phage RB9]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A097J4N0  [Enterobacteria phage RB10]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A097J5G0  [Enterobacteria phage RB27]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A173GAA3  [Escherichia phage UFV-AREG1]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A2K9VF90  [Escherichia phage vB_EcoM-fFiEco06]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A2K9VFU7  [Escherichia phage vB_EcoM-fHoEco02]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A2Z5WKD2  [Enterobacteria phage T2]
+    5.4e-42  132.1   0.1    1.1e-41  131.1   0.1    1.5  1  A0A346FJC7  [Enterobacteria phage T6]
+
+
+Domain annotation for each sequence (and alignments):
+>> A0A097J0T4  [Enterobacteria phage RB3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A097J0T4 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A097J376  [Enterobacteria phage RB7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A097J376 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A097J3W3  [Enterobacteria phage RB9]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A097J3W3 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A097J4N0  [Enterobacteria phage RB10]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A097J4N0 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A097J5G0  [Enterobacteria phage RB27]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A097J5G0 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A173GAA3  [Escherichia phage UFV-AREG1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A173GAA3 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A2K9VF90  [Escherichia phage vB_EcoM-fFiEco06]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A2K9VF90 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A2K9VFU7  [Escherichia phage vB_EcoM-fHoEco02]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A2K9VFU7 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A2Z5WKD2  [Enterobacteria phage T2]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A2Z5WKD2 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+>> A0A346FJC7  [Enterobacteria phage T6]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.1   0.1   5.3e-42   1.1e-41       1      65 []     271     335 ..     271     335 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 131.1 bits;  conditional E-value: 5.3e-42
+   T4_UVSX_C   1 ysGLLelaqelGfvvkPkngwYaRalldeetGemveeeksWrakdtdsleFWkPlFkhkeFrdai 65 
+                 ysGLL++a elGfvvkPkngwYaR++ldeetGem++eeksWrakdt+++ FW+PlFkh++Frdai
+  A0A346FJC7 271 YSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAI 335
+                 9***************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (65 nodes)
+Target sequences:                         20  (5794 residues searched)
+Passed MSV filter:                        10  (0.5); expected 0.4 (0.02)
+Passed bias filter:                       10  (0.5); expected 0.4 (0.02)
+Passed Vit filter:                        10  (0.5); expected 0.0 (0.001)
+Passed Fwd filter:                        10  (0.5); expected 0.0 (1e-05)
+Initial search space (Z):                 20  [actual number of targets]
+Domain search space  (domZ):              10  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 147.11
+//
+[ok]

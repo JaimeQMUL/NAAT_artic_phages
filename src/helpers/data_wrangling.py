@@ -62,27 +62,6 @@ def RemoveRedundancies(unique_accessions, protein_name):
         f'{protein_name}/data/curated_database/interpro_domain_matches.fasta'
     ]
 
-    seq_map = {}
-
-    #Map accessions to sequences, will show overlaps in accessions
-    for accession in unique_accessions:
-        seq = ''
-        for file in files:
-            seq = ExtractSequence(accession, file)
-            if seq:
-                break
-        seq_map[accession] = seq
-
-    sequence_groups = defaultdict(list)
-
-    for acc, seq in seq_map.items():
-        if seq:  # ignore empty
-            sequence_groups[seq].append(acc)
-
-    duplicates = {
-        seq: accs for seq, accs in sequence_groups.items() if len(accs) > 1
-    }
-
     # NCBI CSV
     ncbi_df = pd.read_csv(f'{protein_name}/data/curated_database/ncbi_query_search_metadata.csv', low_memory=False)
 
@@ -106,25 +85,46 @@ def RemoveRedundancies(unique_accessions, protein_name):
         for entry in interpro_data
     }
 
+    seq_map = {}
+
+    #Map accessions to sequences, will show overlaps in accessions
+    for accession in unique_accessions:
+        seq = ''
+        for file in files:
+            seq = ExtractSequence(accession, file)
+            if seq:
+                break
+        seq_map[accession] = seq
+
+    seq_tax_groups = defaultdict(list)
+
+    for acc, seq in seq_map.items():
+        if not seq:
+            continue
+
+        tax = (
+                uniprot_lookup.get(acc)
+                or ncbi_lookup.get(acc)
+                or interpro_lookup.get(acc)
+        )
+
+        tax = tax or "UNKNOWN"
+
+        key = (seq, tax)  # <-- critical change
+        seq_tax_groups[key].append(acc)
+
+    duplicates = {
+        key: accs for key, accs in seq_tax_groups.items() if len(accs) > 1
+    }
+
     non_dupe_accessions = []
-    for group in sequence_groups.values():
 
-        tax_results = {}
-
-        for acc in group:
-            tax = (
-                    uniprot_lookup.get(acc)
-                    or ncbi_lookup.get(acc)
-                    or interpro_lookup.get(acc)
-            )
-
-            tax_results[acc] = tax
-
-        non_dupe_accessions.append(acc)
+    for (seq, tax), accs in seq_tax_groups.items():
+        # keep one representative accession per (sequence, taxon)
+        non_dupe_accessions.append(accs[0])
 
 
     print(len(non_dupe_accessions))
-    print(non_dupe_accessions[:10])
     return non_dupe_accessions
 
 

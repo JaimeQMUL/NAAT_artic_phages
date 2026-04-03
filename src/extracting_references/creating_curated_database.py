@@ -356,29 +356,24 @@ def IDSearchRCSB(pdb_ids, protein_name):
 
 def CreateMutants(mutants, reference, protein_name):
 
-
-
-    positions = {}
-
     for mutant in mutants:
-        parts = mutant.split('/')  # handles both single + double
+        parts = mutant.split('/')  # handles single + multi mutants
 
-        pos_list = []
+        reference_list = list(reference)
+
         for part in parts:
+            # Format: A123B
+            original_aa = part[0]
             pos = int(part[1:-1]) - 1
-            pos_list.append(pos)
+            new_aa = part[-1]
 
-        positions[mutant] = pos_list
+            # Apply mutation
+            reference_list[pos] = new_aa
 
-    for item in positions.items():
-        new_base=item[0][-1]
-        name=item[0]
-        reference_list=list(reference)
-        for pos in item[1]:
-            reference_list[pos]=new_base
-        new_seq=''.join(reference_list)
-        safe_name = name.replace("/", "_")
-        with open(f"{protein_name}/data/references/{safe_name}.fasta",'w') as f:
+        new_seq = ''.join(reference_list)
+        safe_name = mutant.replace("/", "_")
+
+        with open(f"{protein_name}/data/references/{safe_name}.fasta", 'w') as f:
             f.write(f">{safe_name} Rational Design UvsX mutant\n{new_seq}")
 
 

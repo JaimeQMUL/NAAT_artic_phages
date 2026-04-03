@@ -1,0 +1,17 @@
+# I have an Alignment using MAFFT from alignment.py
+# This is an alignment of 7Z3M, 9GBG, K35G/E198R and P04529
+
+# Step 1: Converting aligned fasta to a stockholm file
+esl-reformat stockholm aligned.fasta > aligned.sto
+
+# Step 2: Creating HMM profile from alignment
+hmmbuild uvsx.hmm aligned.sto
+
+# Step 3: Search Curated Database using HMM profile
+hmmsearch uvsx.hmm ../curated_database/cleaned_curated_database.fasta > uvsx_hmm_results.out
+
+# Step 4: View results
+cat uvsx_hmm_results.out | tail -n 15
+
+# Results
+2521  [number of targets reported over threshold]
