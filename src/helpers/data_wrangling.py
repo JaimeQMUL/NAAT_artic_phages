@@ -2,6 +2,10 @@ import csv, json
 import pandas as pd
 import json
 from src.biotools.fasta_tools import ExtractSequence
+from pathlib import Path
+from time import sleep
+import requests
+import xml.etree.ElementTree as ET
 
 
 def GetUniqueAccessions(protein_name):
@@ -179,6 +183,156 @@ def FindAccession(accession, file_path):
 
     else:
         raise ValueError("Unsupported file type (must be .csv or .json)")
+
+
+
+
+def BuildTaxLookup(file_path):
+    file_path = Path(file_path)
+
+    if not file_path.exists():
+        raise FileNotFoundError(f"File not found: {file_path}")
+
+    # --- CSV (NCBI style) ---
+    if file_path.suffix == ".csv":
+        df = pd.read_csv(file_path, low_memory=False)
+
+        return dict(zip(df['accession'].astype(str), df['taxonId']))
+
+    # --- JSON (UniProt style) ---
+    elif file_path.suffix == ".json":
+        with open(file_path) as f:
+            data = json.load(f)
+
+        return {
+            entry.get('primaryAccession'): entry.get('organism', {}).get('taxonId')
+            for entry in data
+            if entry.get('primaryAccession')
+        }
+
+    else:
+        raise ValueError(f"Unsupported file type: {file_path.suffix}")
+
+
+
+def GetTaxonIds(df, lookups):
+    taxonids = []
+
+    for acc in df['accession']:
+        acc = str(acc)
+        taxid = None
+
+        # iterate through lookup dictionaries in order
+        for lookup in lookups:
+            if acc in lookup:
+                taxid = lookup[acc]
+                break  # stop at first match
+
+        taxonids.append(taxid)
+
+    print(f"Taxon ids: {len(taxonids)}\nNumber of accessions: {len(df['accession'])}")
+
+    return taxonids
+
+
+
+
+def fetch_taxonomy_ranked_lineage_list(taxids, batch_size=200):
+
+    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+
+    API_KEY = "eb2c0b97f55a588259931f07f1099b896207"
+
+    input_taxids = [str(t) for t in taxids if t is not None]
+
+    results = []
+
+    for i in range(0, len(input_taxids), batch_size):
+        batch = input_taxids[i:i + batch_size]
+
+        params = {
+            "db": "taxonomy",
+            "id": ",".join(batch),
+            "retmode": "xml",
+            "api_key": API_KEY
+        }
+
+        res = requests.get(url, params=params)
+        root = ET.fromstring(res.text)
+
+        # Build temporary lookup for this batch
+        batch_lookup = {}
+
+        for taxon in root.findall(".//Taxon"):
+            taxid_node = taxon.find("TaxId")
+            if taxid_node is None:
+                continue
+
+            taxid = taxid_node.text
+            lineage_dict = {}
+
+            lineage_ex = taxon.find("LineageEx")
+
+            if lineage_ex is not None:
+                for node in lineage_ex.findall("Taxon"):
+                    rank_node = node.find("Rank")
+                    name_node = node.find("ScientificName")
+
+                    if rank_node is not None and name_node is not None:
+                        rank = rank_node.text.lower()
+                        name = name_node.text
+
+                        if rank != "no rank":
+                            lineage_dict[rank] = name
+
+            current_rank = taxon.find("Rank")
+            current_name = taxon.find("ScientificName")
+
+            if current_rank is not None and current_name is not None:
+                rank = current_rank.text.lower()
+                name = current_name.text
+
+                if rank != "no rank":
+                    lineage_dict[rank] = name
+
+            batch_lookup[taxid] = lineage_dict
+
+        # ✅ Preserve original order + duplicates
+        for t in batch:
+            results.append({
+                "taxid": t,
+                "lineage": batch_lookup.get(t)
+            })
+
+        sleep(0.3)
+
+    return results
+
+
+def FindRanks(lineages, rank):
+    names = []
+    for i in range(len(lineages)):
+        if lineages[i] is not None:
+            lineage = lineages[i].get('lineage')
+            if lineage is not None:
+                classification = lineage.get(rank)
+            else:
+                classification = None
+        else:
+            classification = None
+
+        names.append(classification)
+    return names
+
+
+def FindUniqueCounts(ranks):
+    counts = {}
+
+    for rank in ranks:
+        if rank is not None:  # optional: skip missing values
+            counts[rank] = counts.get(rank, 0) + 1
+
+    return counts
 
 
 
