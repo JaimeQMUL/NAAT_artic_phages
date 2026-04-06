@@ -2,7 +2,7 @@
 # This is an alignment of 7Z3M, 9GBG, K35G/E198R and P04529
 
 # Step 1: Converting aligned fasta to a stockholm file
-esl-reformat stockholm aligned.fasta > aligned.sto
+esl-reformat stockholm ../../data/references/aligned.fasta > aligned.sto
 
 # Step 2: Creating HMM profile from alignment
 hmmbuild uvsx.hmm aligned.sto
