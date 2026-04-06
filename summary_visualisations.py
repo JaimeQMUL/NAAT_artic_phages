@@ -5,10 +5,10 @@ from src.helpers.data_wrangling import *
 fig, ax = PlotSequenceLengths('uvsx/data/curated_database/cleaned_curated_database.fasta')
 plt.show()
 
-#Get taxonomy Lookups
+#Get ncbi taxonomy Lookups
 ncbi_lookup=BuildTaxLookup('uvsx/data/curated_database/ncbi_query_search_metadata.csv')
 
-#Get taxonomy lookups
+#Get uniprot taxonomy lookups
 uniprot_lookup=BuildTaxLookup('uvsx/data/curated_database/uniprot_query_search_metadata.json')
 
 #Import current accessions
@@ -23,24 +23,26 @@ lineages=fetch_taxonomy_ranked_lineage_list(taxon_ids)
 #Plot the Family breakdown
 families=FindRanks(lineages, 'family')
 family_counts=FindUniqueCounts(families)
-fig, ax = PlotRankCounts(family_counts, rank='Family', top_n=10)
-plt.show()
+fam_fig, ax = PlotRankCounts(family_counts, rank='Family', top_n=10)
+fam_fig.savefig("uvsx/plots/family_counts.png", dpi=300, bbox_inches='tight')
+
 
 
 #Plot the Genus breakdown
 genera=FindRanks(lineages, 'genus')
 genus_counts=FindUniqueCounts(genera)
-fig, ax = PlotRankCounts(genus_counts, rank='Genus', top_n=10)
-plt.show()
+gen_fig, ax = PlotRankCounts(genus_counts, rank='Genus', top_n=10)
+gen_fig.savefig("uvsx/plots/genus_counts.png", dpi=300, bbox_inches='tight')
+
 
 #Plot the species breakdown
 species=FindRanks(lineages, 'species')
 species_counts=FindUniqueCounts(species)
-fig, ax = PlotRankCounts(species_counts, rank='Species', top_n=10)
-plt.show()
+spec_fig, ax = PlotRankCounts(species_counts, rank='Species', top_n=10)
+spec_fig.savefig("uvsx/plots/species_counts.png", dpi=300, bbox_inches='tight')
 
 #Plot overall summary of
-fig, ax= PlotRanksSummary(lineages)
-plt.show()
+sum_fig, ax= PlotRanksSummary(lineages)
+sum_fig.savefig("uvsx/plots/ranks_summary.png", dpi=300, bbox_inches='tight')
 
 
