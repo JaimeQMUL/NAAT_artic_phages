@@ -2,7 +2,7 @@
 from src.visualisations.fasta_summary_plots import *
 from src.helpers.data_wrangling import *
 
-fig, ax =PlotSequenceLengths('uvsx/data/curated_database/cleaned_curated_database.fasta')
+fig, ax = PlotSequenceLengths('uvsx/data/curated_database/cleaned_curated_database.fasta')
 plt.show()
 
 #Get taxonomy Lookups
