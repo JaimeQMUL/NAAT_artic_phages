@@ -32,7 +32,7 @@ InterproSearchUniprot(interpro_ids, protein_name)
 
 # From identified mutants in the literature, creating sequences with the mutations identified.
 mutants=['E198N', 'E198R', 'E198K', 'K35G', 'K35G/E198R', 'D274A'] #mutants identified from literature
-reference=read_fasta(f'{protein_name}/data/references/P04529_sequence.fasta') #getting protein sequence of UvsX reference
+reference=read_fasta(f'{protein_name}/data/references/P04529.fasta') #getting protein sequence of UvsX reference
 CreateMutants(mutants, reference, protein_name) #Creating reference sequences and writing them to a fasta file
 
 

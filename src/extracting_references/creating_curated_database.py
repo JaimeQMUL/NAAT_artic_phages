@@ -337,7 +337,7 @@ def IDSearchRCSB(pdb_ids, protein_name):
             sequence = entity["entity_poly"]["pdbx_seq_one_letter_code_can"]
             description = entity["rcsb_polymer_entity"]["pdbx_description"]
 
-            header = f">{pdb_id}_entity_{entity_id} {description}"
+            header = f">{pdb_id} entity {entity_id} {description}"
             fasta_lines.append(header)
             fasta_lines.append(sequence.replace("\n", ""))  # clean formatting
 

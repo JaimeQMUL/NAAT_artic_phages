@@ -15,3 +15,114 @@ cat uvsx_hmm_results.out | tail -n 15
 
 # Results
 2521  [number of targets reported over threshold]
+
+########################################################################################################################
+Creating 5 different HMMs to create scoring matrix
+########################################################################################################################
+
+#ADD new lind to every fasta file
+cd references
+for f in *.fasta; do
+    tail -c 1 "$f" | read -r _ || printf "\n" >> "$f"
+done
+
+
+# First HMM is of the full alignment of validated seqs. ['7Z3M.fasta', '9GBG.fasta', 'K35G_E198R.fasta', 'P04529.fasta']
+hmmbuild hmms/profiles/full_protein_sequence.hmm alignments/full_protein_sequence_alignment.sto
+
+# Second is extracting the alignment seeds from interpro of the two domains present PF21134 & PF00154
+cd alignments
+curl -L "https://www.ebi.ac.uk/interpro/wwwapi/entry/pfam/PF21134/?annotation=alignment:seed&download" --compressed -o PF21134_seed.sto.gz
+curl -L "https://www.ebi.ac.uk/interpro/wwwapi/entry/pfam/PF00154/?annotation=alignment:seed&download" --compressed -o PF00154_seed.sto.gz
+# Building hmm from alignments
+hmmbuild ../hmms/profiles/PF21134.hmm PF21134_seed.sto
+hmmbuild ../hmms/profiles/PF00154.hmm PF00154_seed.sto
+
+# Third is two HMMs from alignments of domains in the reference proteins
+# Using the profile HMMs from pfam ids I will extract the coords of each for each domain and store the seq in a fasta file.
+# combine seqs
+cd ../references
+cat 7Z3M.fasta 9GBG.fasta K35G_E198R.fasta P04529.fasta > combined_references.fasta
+cd ..
+hmmpress hmms/profiles/PF00154.hmm
+hmmpress hmms/profiles/PF21134.hmm
+hmmscan --domtblout hmms/tmp/PF00154_results.domtblout hmms/profiles/PF00154.hmm references/combined_references.fasta
+hmmscan --domtblout hmms/tmp/PF21134_results.domtblout hmms/profiles/PF21134.hmm references/combined_references.fasta
+
+#remove temp files
+rm hmms/profiles/*.hmm.h*
+rm references/combined_references.fasta
+
+# Now i have coords of seqs, will extract them and store them in a fasta
+#USing python scrip i extract coords from hmmscan and index protein and store domain sequence in a fasta
+CreateDomainFasta('../uvsx/data/hmms/tmp/PF00154_results.domtblout', '../uvsx/data/references/PF00154_domain.fasta')
+CreateDomainFasta('../uvsx/data/hmms/tmp/PF21134_results.domtblout', '../uvsx/data/references/PF21134_domain.fasta')
+rm hmms/tmp/*
+# Note in PF21134 there were not hits for 7Z3M and 9GBG.
+
+#Aligning the domains
+mafft references/PF00154_domain.fasta > alignments/PF00154_alignment.fasta
+mafft references/PF21134_domain.fasta > alignments/PF21134_alignment.fasta
+
+#Converting to stockholm format
+esl-reformat stockholm alignments/PF00154_alignment.fasta > alignments/PF00154_alignment.sto
+esl-reformat stockholm alignments/PF21134_alignment.fasta > alignments/PF21134_alignment.sto
+rm alignments/*.fasta
+
+#Creating hmm profile from alignment
+hmmbuild hmms/profiles/PF00154_custom.hmm alignments/PF00154_alignment.sto
+hmmbuild hmms/profiles/PF21134_custom.hmm alignments/PF21134_alignment.sto
+
+
+######################
+#All HMMs constructed#
+######################
+Searching curated database using all 5 HMMs
+cd hmms
+hmmsearch --tblout results/full_sequence_hmm_results.tblout profiles/full_protein_sequence.hmm ../curated_database/cleaned_curated_database.fasta
+
+hmmsearch --tblout results/PF00154_hmm_results.tblout profiles/PF00154.hmm ../curated_database/cleaned_curated_database.fasta
+
+hmmsearch --tblout results/PF21134_hmm_results.tblout profiles/PF21134.hmm ../curated_database/cleaned_curated_database.fasta
+
+hmmsearch --tblout results/PF00154_custom_hmm_results.tblout profiles/PF00154_custom.hmm ../curated_database/cleaned_curated_database.fasta
+
+hmmsearch --tblout results/PF21134_custom_hmm_results.tblout profiles/PF21134_custom.hmm ../curated_database/cleaned_curated_database.fasta
+
+# Summary of results
+full_sequence_hmm_results.out
+Initial search space (Z):              20549  [actual number of targets]
+Domain search space  (domZ):            2521  [number of targets reported over threshold]
+
+PF00154_hmm_results.out
+Initial search space (Z):              20549  [actual number of targets]
+Domain search space  (domZ):            2975  [number of targets reported over threshold]
+
+PF21134_hmm_results.out
+Initial search space (Z):              20549  [actual number of targets]
+Domain search space  (domZ):             739  [number of targets reported over threshold]
+
+PF00154_custom_hmm_results.out
+Initial search space (Z):              20549  [actual number of targets]
+Domain search space  (domZ):            2501  [number of targets reported over threshold]
+
+PF21134_custom_hmm_results.out
+Initial search space (Z):              20549  [actual number of targets]
+Domain search space  (domZ):             677  [number of targets reported over threshold]
+
+
+#########Notes############
+
+rows = seqs
+cols = hmms, interpro and custom ones
+1/0 based on detection
+
+walker motif
+
+
+reusable script,
+pairwise distance matrix to create. minimap2 path outoput. create simple neighbour joining tree.
+later on calculate maximum likelihood tree.
+
+
+DeepLearning models for optimal temperature prediction. seq2topt, classifies optimal temp based on sequence. Sandbox this make sure it works

@@ -134,9 +134,9 @@ def RemoveRedundancies(unique_accessions, protein_name):
 
 
 
-def WriteCleanedFasta(non_dupe_accessions, protein_name):
+def WriteCleanedFasta(non_dupe_accessions, filename, protein_name):
 
-    with open(f'{protein_name}/data/curated_database/cleaned_curated_database.fasta', 'w') as f:
+    with open(filename, 'w') as f:
         for acc in non_dupe_accessions:
             header, seq = ExtractSequence(acc, f'{protein_name}/data/curated_database/ncbi_query_search.fasta', header=True)
             if seq=='':
@@ -333,6 +333,26 @@ def FindUniqueCounts(ranks):
             counts[rank] = counts.get(rank, 0) + 1
 
     return counts
+
+
+
+def FindAccessionsInHMMResults(results_file):
+    found=[]
+    with open(results_file, 'r') as f:
+        lines = f.readlines()
+
+        for line in lines:
+            if line.startswith("#"):
+                continue
+            fields = line.split()
+            accession = fields[0]
+            if '.' in accession:
+                accession = accession.split('.')[0]
+            if '|' in accession:
+                accession = accession.split('|')[1]
+            found.append(accession)
+
+        return found
 
 
 

@@ -63,7 +63,7 @@ def stage_uniprot_protein(uniprot_accession, save_directory):
     save_directory = Path(save_directory)
 
     # Save sequence
-    sequence_path = save_directory / f"{uniprot_accession}_sequence.fasta"
+    sequence_path = save_directory / f"{uniprot_accession}.fasta"
     with open(sequence_path, "w") as f:
         f.write(f">{uniprot_accession}\n")
         f.write(sequence)

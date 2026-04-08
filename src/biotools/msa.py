@@ -2,7 +2,7 @@ from pathlib import Path
 import subprocess
 import os
 
-def RunMSA(protein_name, files):
+def RunMSA(protein_name, filename, files):
 
     fasta_dir = Path(f"{protein_name}/data/references")
     combined_file = Path("combined.fasta")
@@ -19,7 +19,7 @@ def RunMSA(protein_name, files):
                     out_f.write("\n")
 
     input_fasta = "combined.fasta"
-    aligned_fasta = f"{protein_name}/data/references/aligned.fasta"
+    aligned_fasta = f"{protein_name}/data/alignments/{filename}.fasta"
 
     subprocess.run(
         ["/opt/anaconda3/envs/cold/bin/mafft", "--auto", input_fasta],
@@ -29,3 +29,4 @@ def RunMSA(protein_name, files):
 
     # Delete combined fasta
     combined_file.unlink()
+

@@ -25,7 +25,7 @@ try:
 except ValueError:
     pass
 
-WriteCleanedFasta(non_dupes, 'uvsx')
+WriteCleanedFasta(non_dupes, 'uvsx/data/curated_database/cleaned_curated_database.fasta','uvsx')
 
 #Check there are no discrepencies
 discrepencies=0
