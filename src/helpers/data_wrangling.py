@@ -6,6 +6,8 @@ from pathlib import Path
 from time import sleep
 import requests
 import xml.etree.ElementTree as ET
+import numpy as np
+import re
 
 
 def GetUniqueAccessions(protein_name):
@@ -353,6 +355,69 @@ def FindAccessionsInHMMResults(results_file):
             found.append(accession)
 
         return found
+
+
+
+def FilterFasta(fasta_file, metadata_file, output_file):
+
+
+    df=pd.read_csv(metadata_file, low_memory=True)
+    lengths=[]
+    filtered=[]
+    for acc in df['accession']:
+        seq=ExtractSequence(acc,fasta_file )
+        length=len(seq)
+        lengths.append(length)
+
+    mean_length = np.mean(lengths)
+    std_length = np.std(lengths)
+
+    lower = mean_length - 50
+    upper = mean_length + 50
+    print(upper)
+    print(lower)
+
+    for acc in df['accession']:
+        seq=ExtractSequence(acc, fasta_file )
+        length=len(seq)
+        if length > lower and length < upper:
+            filtered.append(acc)
+
+
+    print(f'Upper Threshold: {upper}')
+    print(f'Lower Threshold: {lower}')
+
+    WriteCleanedFasta(filtered, output_file, 'uvsx')
+
+
+
+def CleanNewickTree(tree):
+    with open(tree) as f:
+        text = f.read()
+
+    # remove internal node labels like )0.000:
+    cleaned = re.sub(r"\)\d+\.?\d*:", "):", text)
+
+    parts = tree.split('/')[:-1]
+    new_name = '/'.join(parts) + '/tree_clean.nwk'
+
+
+
+
+    with open(new_name, "w") as f:
+        f.write(cleaned)
+
+
+def MapAccessionsToHMMResults(files):
+    mapping = {}
+    for file in files:
+        names = file.split('/')
+        name = names[-1].split('.')[0]
+        found = FindAccessionsInHMMResults(file)
+        print(f'{name}: Number of hits {len(found)}')
+        mapping[name] = found
+
+    return mapping
 
 
 

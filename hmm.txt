@@ -89,6 +89,7 @@ hmmsearch --tblout results/PF00154_custom_hmm_results.tblout profiles/PF00154_cu
 
 hmmsearch --tblout results/PF21134_custom_hmm_results.tblout profiles/PF21134_custom.hmm ../curated_database/cleaned_curated_database.fasta
 
+#Results from before i used tblout, still same models used just different output format
 # Summary of results
 full_sequence_hmm_results.out
 Initial search space (Z):              20549  [actual number of targets]
