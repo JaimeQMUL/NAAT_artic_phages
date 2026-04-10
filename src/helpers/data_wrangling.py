@@ -389,6 +389,8 @@ def FilterFasta(fasta_file, metadata_file, output_file):
 
     WriteCleanedFasta(filtered, output_file, 'uvsx')
 
+    return filtered
+
 
 
 def CleanNewickTree(tree):

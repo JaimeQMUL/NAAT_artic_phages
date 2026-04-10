@@ -1,0 +1,35 @@
+
+# Geminin Based Analysis (Of Error Log)
+
+Based on an analysis of your error log and the attached files, the ESPript 3.3 web server is failing because of how it handles incomplete residues (residues missing side-chain atoms) in your `.cif` structure file. 
+
+Here is the step-by-step breakdown of why this error is occurring and how you can fix it.
+
+### **The Cause of the Error**
+
+1. **Missing Side-Chain Atoms in the Structure:** In X-ray crystallography, it is very common for flexible side-chains to be excluded from the final model if they lack clear electron density. [cite_start]When we look at the `9GBG.cif` file, there is a specific section (`_pdbx_unobs_or_zero_occ_atoms`) that lists all the atoms missing from the structure[cite: 130]. 
+2. **A Perfect Match to the Error Log:**
+   [cite_start]Every single residue that ESPript complains about in the error log directly matches a residue in the `9GBG.cif` file that is missing side-chain atoms[cite: 130, 131, 132]. For example:
+   * [cite_start]**Lysine 6 (K 6):** Missing its side-chain atoms (CG, CD, CE, NZ)[cite: 130].
+   * [cite_start]**Isoleucine 7 (I 7):** Missing its side-chain atoms (CG1, CG2, CD1)[cite: 131, 132].
+   * [cite_start]**Glutamate 10 (E 10):** Missing its side-chain atoms (CG, CD, OE1, OE2)[cite: 133, 134].
+3. **ESPript's Internal Parsing (DSSP/SPDB):** ESPript uses an internal program to calculate secondary structure from your 3D coordinates. When this program encounters a residue that only has backbone atoms and no side-chain, it fails to recognize the amino acid and defaults to labeling it as **`X`** (Unknown).
+4. **The Fatal Mismatch:**
+   [cite_start]ESPript expects the sequence extracted from the 3D structure to perfectly match the sequence in your alignment file (`UvsX_Ortholog_MSA_9GBG_Secondary_Structure.fasta`)[cite: 2]. [cite_start]When ESPript compares its extracted sequence (full of `X`s) against your alignment sequence (which has the correct letters `...KIIE...` [cite: 2]), it registers dozens of mismatches. Because the number of mismatches exceeds ESPript's tolerance threshold, it triggers a fatal error, assuming the secondary structure will be mapped to the wrong sequences.
+
+### **How to Fix It**
+
+To get ESPript to run successfully, you need to bypass its inability to read the incomplete residues. You can do this using one of the following methods:
+
+**Option 1: Rebuild the missing side-chains (Recommended)**
+You can use a molecular visualization software like **PyMOL** or **Swiss-PdbViewer** to automatically rebuild the missing side-chain atoms. 
+* Open `9GBG.cif` in PyMOL.
+* PyMOL will automatically assign idealized side-chains to the incomplete residues. 
+* Save the molecule as a standard `.pdb` file.
+* Upload this new `.pdb` file to ESPript. Because DSSP only calculates secondary structure using the backbone (which is intact), these "fake" side-chains won't negatively alter your secondary structure output, but they *will* trick ESPript into reading the correct amino acid letters.
+
+**Option 2: Generate the Secondary Structure File Manually**
+Instead of uploading the `.cif` file to ESPript and relying on its internal parser, you can provide the secondary structure directly:
+* Run a standalone version of **DSSP** or **STRIDE** on your `9GBG.cif` file locally (or via a modern web server that correctly parses `.cif` format).
+* In the ESPript interface, skip the `file.pdb` upload box in **Step 1**. 
+* Instead, upload your generated `.dssp` file into **Step 2** ("Secondary structure file(s)"). ESPript will map the provided secondary structure to your sequence without trying to run the coordinate parser that causes the crash.
