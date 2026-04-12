@@ -1,15 +1,26 @@
 name: cold
 
 channels:
+  - pytorch
   - conda-forge
   - bioconda
 
 dependencies:
   - python=3.11
+
   - biopython
   - matplotlib
   - numpy
+  - pandas
+  - scikit-learn
+
   - mafft
   - hmmer
   - wget
   - fasttree
+
+  - pytorch
+  - pip
+
+  - pip:
+      - fair-esm

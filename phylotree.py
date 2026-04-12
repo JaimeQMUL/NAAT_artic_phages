@@ -4,12 +4,6 @@ from src.biotools.fasta_tools import ExtractSequence
 from src.helpers.data_wrangling import *
 from src.visualisations.phylogenetic_trees import *
 
-
-# # Cleaning short and long seqs from database
-FilterFasta('uvsx/data/curated_database/cleaned_curated_database.fasta',
-            'uvsx/data/curated_database/cleaned_metadata.csv',
-            'uvsx/data/curated_database/filtered_curated_database.fasta')
-
 # Align the filtered_database_fasta
 # mafft filtered_curated_database.fasta > ../alignments/filtered_curated_database_alignment.fasta
 
