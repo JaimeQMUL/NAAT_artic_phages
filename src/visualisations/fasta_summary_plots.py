@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from collections import defaultdict
 
-def PlotSequenceLengths(fasta_file):
+def PlotSequenceLengths(fasta_file, bins=1000):
     seq_lengths = []
 
     with open(fasta_file) as f:
@@ -23,7 +23,7 @@ def PlotSequenceLengths(fasta_file):
             seq_lengths.append(len(seq))
 
     fig, ax = plt.subplots()
-    ax.hist(seq_lengths, bins=1000)
+    ax.hist(seq_lengths, bins)
     ax.set_xlabel("Sequence length")
     ax.set_ylabel("Frequency")
     ax.set_title("Distribution of sequence lengths")

@@ -1,8 +1,8 @@
-# UVSX DOMAINS
+# UvsX Protein Domains
 
-# ATP-ase Domain
+## ATP-ase Domain
 Superposition of the UvsX and RecA9 structures reveals that the ATP-binding site of UvsX is conserved both in terms of 
-location (Figure 1A and Figure 1B) and residue composition (Figure 1C). The Walker A or ‘P loop’ of RecA encompasses
+location (Figure 1A and Figure 1B) and residue composition (Figure 1C). The Walker A or 'P loop' of RecA encompasses
 residues 65–73 and is equivalent to residues 59–67 of UvsX. The Walker B motif of RecA (residues 139–144) is also
 present in UvsX (residues 138–143) and contains the highly conserved aspartic acid (Asp144 in RecA and Asp143 in UvsX)
 that coordinates the Mg2+ ion in the ATP complex. In RecA, the ATP adenine ring π-stacks with Tyr103, and Tyr99 of UvsX
@@ -16,9 +16,9 @@ dimer structure of UvsX, the ATP binding site is occluded at the dimer interface
 been able to introduce nucleotide into our crystals. However, each Walker A motif contains strong electron density
 consistent with a bound phosphate group that occupies the β phosphate binding site of ATP (Figure 1A and Figure 1B).
 
-# DNA Binding Domians
+## DNA Binding Domains
 
-## ssDNA Binding Domain
+### ssDNA Binding Domain
 
 **Description**: Single-stranded DNA binding domain of UvsX responsible for recognizing and binding to ssDNA substrates during homologous recombination.
 
@@ -37,10 +37,9 @@ consistent with a bound phosphate group that occupies the β phosphate binding s
 - Shin DS et al., "Crystal structure of a RecA monomer with ADP and a DNA analog," *Proc Natl Acad Sci*. 1998; DOI: 10.1073/pnas.93.21.11368
 - Liu Y et al., "DNA binding by the RecA family proteins," *J Biol Chem*. 1999; DOI: 10.1074/jbc.274.48.34121
 
-## dsDNA Binding Domain
+### dsDNA Binding Domain
 
-**Description**: 
-Double-stranded DNA binding domain that recognizes and binds to dsDNA substrates, particularly during the search for homology and strand invasion steps of homologous recombination.
+**Description**: Double-stranded DNA binding domain that recognizes and binds to dsDNA substrates, particularly during the search for homology and strand invasion steps of homologous recombination.
 
 **Key Features**:
 - Binds to dsDNA with sequence-dependent specificity

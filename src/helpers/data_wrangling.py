@@ -380,7 +380,7 @@ def FilterFasta(fasta_file, metadata_file, output_file):
     for acc in df['accession']:
         seq=ExtractSequence(acc, fasta_file )
         length=len(seq)
-        if length > lower and length < upper:
+        if length > lower and length < upper and seq.startswith('M'):
             filtered.append(acc)
 
 

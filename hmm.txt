@@ -20,7 +20,7 @@ cat uvsx_hmm_results.out | tail -n 15
 Creating 5 different HMMs to create scoring matrix
 ########################################################################################################################
 
-#ADD new lind to every fasta file
+#ADD new line to every fasta file
 cd references
 for f in *.fasta; do
     tail -c 1 "$f" | read -r _ || printf "\n" >> "$f"
