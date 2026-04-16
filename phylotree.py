@@ -3,25 +3,19 @@ import subprocess
 from src.biotools.fasta_tools import ExtractSequence
 from src.helpers.data_wrangling import *
 from src.visualisations.phylogenetic_trees import *
-
-#Establish directories
-ref_dir='uvsx/data/references/'
-align_dir='uvsx/data/alignments/'
-data_dir='uvsx/data/curated_database/'
-
+import os
 
 # Align the filtered_database_fasta
-# Add references to the database
-subprocess.run(f'cat {ref_dir}P04529.fasta {ref_dir}7Z3M.fasta {ref_dir}9GBG.fasta {ref_dir}K35G_E198R.fasta >> {data_dir}filtered_curated_database.fasta', shell=True)
-
-
-# Run alignment
-
-subprocess.run(f'/opt/anaconda3/envs/cold/bin/mafft --localpair --maxiterate 1000 {data_dir}filtered_curated_database.fasta > {align_dir}filtered_curated_database_alignment.fasta', shell=True)
+os.chdir('uvsx/data')
+subprocess.run('/opt/anaconda3/envs/cold/bin/famsa curated_database/filtered_curated_database.fasta  alignments/filtered_curated_database_alignment.fasta', shell=True)
 print('Alignment completed successfully')
 
 #Trim alignments from highly gapped regions
+os.chdir('alignments')
+subprocess.run('/opt/anaconda3/envs/cold/bin/trimal -automated1 -in filtered_curated_database_alignment.fasta -out filtered_curated_database_alignment_trimmed.fasta', shell=True)
 
+#Get pairwise distance matrix of alignment from uvsx_t4
+subprocess.run('/opt/anaconda3/envs/cold/bin/famsa -dist_export -square_matrix filtered_curated_database_alignment.fasta filtered_database_alignment_distance_matrix.csv', shell=True )
 
 # # Create newick tree
 # subprocess.run(f'FastTree {align_dir}filtered_curated_database_alignment.fasta > {align_dir}tree.nwk', shell=True)

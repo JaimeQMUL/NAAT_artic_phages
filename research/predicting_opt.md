@@ -13,10 +13,10 @@ This repo has options for predicting optimal temperature
 https://github.com/EngqvistLab/Tome
 
 
-Enhancing ML prediction of topt
+**TPHO** - Enhancing ML prediction of topt
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11173260/#sec3-ijms-25-06252
 This study removes conserved amino acids as they believe them to have little effect on thermostability
-Which makes sense as regardless of thermostability conserved residues will remain, thermostability must dance around cnservation of keys functions
+Which makes sense as regardless of thermostability, conserved residues will have to remain. Thermostability must dance around conservation of keys residues
 https://github.com/cyinyin/Tpho/tree/main
 
 

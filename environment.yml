@@ -13,11 +13,18 @@ dependencies:
   - numpy
   - pandas
   - scikit-learn
-
+  - pydpi
+  - keras
+  - langchain>=0.3.0
+  - langchain-ollama>=0.2.0
+  - langgraph>=0.2.0
+  - trimal
   - mafft
   - hmmer
   - wget
   - fasttree
+  - famsa
+  - iqtree
 
   - pytorch
   - pip
