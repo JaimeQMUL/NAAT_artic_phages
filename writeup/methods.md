@@ -59,6 +59,11 @@ Found in T4 UvsX at position 138-143 it is characterized by a sequence of hhhh[D
 ### DNA binding sites
 (Structural, do not have a cnonical sequence)
 
+# Predicting Optimal temperatures
+We used seq2topt to predict the optimal temperatures. This is an ab-initio method that uses only the sequence to output
+a thermal optima. When sandboxing it on our wet-lab validated gold standards we found it performed poorly,
+classifying the deep sea ortholog found at 1000m below sea level at 0.4c, as having a much higher optimal temperature
+than the ortholog discovered in a volcano. 
 
 # Phylogeny construction
 To explore relationships between sequences in our database and their relation to our gold standards we wanted to
@@ -69,12 +74,6 @@ Interestingly this trimmed alignment had only 6 residues for each sequence which
 This highlighted that the creation of the curated database was mainly influenced by the prescence of this motif. Highlighting 
 a limitation in the computational annotation tools used by the uniprot and ncbi databases. 
 
-
-# Predicting Optimal temperatures
-We used seq2topt to predict the optimal temperatures. This is an ab-initio method that uses only the sequence to output
-a thermal optima. When sandboxing it on our wet-lab validated gold standards we found it performed poorly,
-classifying the deep sea ortholog found at 1000m below sea level at 0.4c, as having a much higher optimal temperature
-than the ortholog discovered in a volcano. 
 
 # Scoring system
 From the hidden markov models and the walker a and b motif checks we compliled a scoring system.
