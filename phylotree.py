@@ -5,17 +5,61 @@ from src.helpers.data_wrangling import *
 from src.visualisations.phylogenetic_trees import *
 import os
 
-# Align the filtered_database_fasta
+
+# ================================================== FILTERED DATABASE =================================================
+# # File for analysis
+# file='filtered_curated_database'
+#
+# # Create neccessary directories
+# os.chdir('uvsx/data')
+# os.makedirs(f'alignments/{file}', exist_ok=True)
+# os.makedirs(f'iqtree/{file}', exist_ok=True)
+#
+# # Align the database fasta
+# subprocess.run(f'/opt/anaconda3/envs/cold/bin/famsa curated_database/{file}.fasta  alignments/{file}/{file}.aln.fasta', shell=True)
+# print('Alignment completed successfully')
+#
+# #Trim alignments from highly gapped regions
+# os.chdir(f'alignments/{file}')
+# subprocess.run(f'/opt/anaconda3/envs/cold/bin/trimal -automated1 -in {file}.aln.fasta -out {file}.aln.trm.fasta', shell=True)
+#
+# #Get pairwise distance matrix of alignment from uvsx_t4
+# subprocess.run(f'/opt/anaconda3/envs/cold/bin/famsa -dist_export -square_matrix {file}.aln.trm.fasta {file}_distance_matrix.csv', shell=True )
+#
+# #Get Phylogenetic tree from iqtree
+# os.chdir('../..')
+# subprocess.run(f'/opt/anaconda3/envs/cold/bin/iqtree3 -s alignments/{file}/{file}.aln.trm.fasta --prefix iqtree/{file}/{file}_tree', shell=True)
+
+# ======================================================================================================================
+# ====================================================== TOP HITS ======================================================
+# File for analysis
+file='top_hits'
+
+# Create neccessary directories
 os.chdir('uvsx/data')
-subprocess.run('/opt/anaconda3/envs/cold/bin/famsa curated_database/filtered_curated_database.fasta  alignments/filtered_curated_database_alignment.fasta', shell=True)
+os.makedirs(f'alignments/{file}', exist_ok=True)
+os.makedirs(f'iqtree/{file}', exist_ok=True)
+
+# Align the database fasta
+subprocess.run(f'/opt/anaconda3/envs/cold/bin/famsa curated_database/{file}.fasta  alignments/{file}/{file}.aln.fasta', shell=True)
 print('Alignment completed successfully')
 
 #Trim alignments from highly gapped regions
-os.chdir('alignments')
-subprocess.run('/opt/anaconda3/envs/cold/bin/trimal -automated1 -in filtered_curated_database_alignment.fasta -out filtered_curated_database_alignment_trimmed.fasta', shell=True)
+os.chdir(f'alignments/{file}')
+subprocess.run(f'/opt/anaconda3/envs/cold/bin/trimal -automated1 -in {file}.aln.fasta -out {file}.aln.trm.fasta', shell=True)
 
 #Get pairwise distance matrix of alignment from uvsx_t4
-subprocess.run('/opt/anaconda3/envs/cold/bin/famsa -dist_export -square_matrix filtered_curated_database_alignment.fasta filtered_database_alignment_distance_matrix.csv', shell=True )
+subprocess.run(f'/opt/anaconda3/envs/cold/bin/famsa -dist_export -square_matrix {file}.aln.trm.fasta {file}_distance_matrix.csv', shell=True )
+
+#Get Phylogenetic tree from iqtree
+os.chdir('../..')
+subprocess.run(f'/opt/anaconda3/envs/cold/bin/iqtree3 -s alignments/{file}/{file}.aln.trm.fasta --prefix iqtree/{file}/{file}_tree', shell=True)
+
+
+
+
+
+
 
 # # Create newick tree
 # subprocess.run(f'FastTree {align_dir}filtered_curated_database_alignment.fasta > {align_dir}tree.nwk', shell=True)

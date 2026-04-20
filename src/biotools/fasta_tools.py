@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import re
 
 def read_fasta(filename):
 
@@ -78,4 +78,48 @@ def CreateDomainFasta(results_file, output_file, reference_file):
             domain=seq[start:end]
 
             f.write(f'>{c[0]} {id} Domain \n{domain}\n\n')
+
+
+
+
+#Finding Walker A motif in whole database
+def MotifDatabaseSearch(accessions, database, regex):
+    results={}
+    present=[]
+    for acc in accessions:
+        seq = ExtractSequence(acc, database)
+
+        matches = []
+        for match in re.finditer(regex, seq):
+            matches.append({
+                "match": match.group(),
+                "start": match.start(),
+                "end": match.end()
+            })
+
+        results[acc] = matches
+        if len(matches)==0:
+            present.append(0)
+        else:
+            present.append(1)
+
+    return results, present
+
+def FindAccessionsInHMMResults(results_file):
+    found=[]
+    with open(results_file, 'r') as f:
+        lines = f.readlines()
+
+        for line in lines:
+            if line.startswith("#"):
+                continue
+            fields = line.split()
+            accession = fields[0]
+            if '.' in accession:
+                accession = accession.split('.')[0]
+            if '|' in accession:
+                accession = accession.split('|')[1]
+            found.append(accession)
+
+        return found
 

@@ -55,7 +55,9 @@ was updated and we scored protein on whether this string was present Gxxxx[G/F]K
 
 #### Walker B
 Found in T4 UvsX at position 138-143 it is characterized by a sequence of hhhh[D/E] with h being any hydrophobic residue
+
 ### DNA binding sites
+(Structural, do not have a cnonical sequence)
 
 
 # Phylogeny construction
@@ -73,6 +75,12 @@ We used seq2topt to predict the optimal temperatures. This is an ab-initio metho
 a thermal optima. When sandboxing it on our wet-lab validated gold standards we found it performed poorly,
 classifying the deep sea ortholog found at 1000m below sea level at 0.4c, as having a much higher optimal temperature
 than the ortholog discovered in a volcano. 
+
+# Scoring system
+From the hidden markov models and the walker a and b motif checks we compliled a scoring system.
+for each sequence we recorded in a binary format whether the sequence was found in the results for each of the 3 HMMs
+used, as well as presence of the walker a and b motif (1 for present and 0 for absent).
+We then filtered for sequences that hit for every check. We could then run an alignment and create a phylogeny.
 
 
  
