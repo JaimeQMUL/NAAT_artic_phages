@@ -31,3 +31,4 @@ dependencies:
 
   - pip:
       - fair-esm
+      - git+https://github.com/JDuarteNiemen/agentic_thermal_classifier.git

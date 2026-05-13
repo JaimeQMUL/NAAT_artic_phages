@@ -1,0 +1,22 @@
+=============Reasoning for YDD38469 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The lab host is 'Escherichia coli O157:H7 ATCC43888', which is typically associated with mesophilic environments. The isolation source is 'sewage water', which is also generally considered a mesophilic environment. No explicit temperature is given.
+
+
+=============Reasoning for YDD38469 from accession literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." The optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: 41990421.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "MM-1 and MM-2 were infectious at a broad temperature (4°C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range (4°C to 60°C) encompasses this range, and the optimal growth temperature is not specified, the most appropriate classification based on the provided range is mesophile, as it covers the typical mesophilic range. The explicit range suggests suitability across a wide range, including mesophilic conditions.
+
+
