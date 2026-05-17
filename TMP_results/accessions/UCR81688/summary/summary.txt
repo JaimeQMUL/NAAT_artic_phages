@@ -1,0 +1,171 @@
+Summary file for UCR81688
+Number of papers: 11
+=============Summaries=============
+
+Paper: 41942208.txt
+Thermal Evidence:
+- Cold tolerance demonstrated: Phage effectively suppressed bacterial populations in chickens at low temperatures (4 °C) within a few hours.
+
+Environmental Context:
+- The phage was tested in conditions simulating space sterilization environments and on food surfaces, including low-temperature storage (4 °C).
+
+Concise Summary:
+The phage exhibited demonstrable cold tolerance, effectively reducing bacterial populations in chickens stored at 4 °C. Testing was conducted under simulated space sterilization conditions, indicating stability and efficacy in non-standard, potentially low-temperature environments. No explicit optimal growth temperature, growth range, or classification (e.g., psychrophilic/mesophilic) was provided for the phage itself, but its performance at 4 °C suggests robust cold tolerance for its application in food safety and decontamination contexts.
+
+
+Paper: 42023893.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions was provided.
+- No specific adaptations (thermophilic, psychrophilic, mesophilic, heat/cold tolerance, enzyme/membrane adaptations, or thermal stress responses) were detailed.
+
+Environmental Context:
+- Isolated from river water in a tropical/subtropical region (Colombia).
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+
+Paper: 41990421.txt
+Thermal Evidence:
+- Growth temperature range: 4°C to 60°C
+- Survival temperature range: 4°C to 60°C
+- Incubation conditions: Not specified, but activity was tested across 4°C to 60°C.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the broad range encompassing typical mesophilic conditions.
+- Heat tolerance: Demonstrated activity up to 60°C.
+- Cold tolerance: Demonstrated activity down to 4°C.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Local sewage water plant.
+- Extreme environment isolation: No.
+- Explicit classification: None provided by the authors regarding thermal classification.
+
+
+Paper: PMC13153029.1.txt
+Thermal Evidence:
+- Optimal stability range: 4 °C to 50 °C.
+- Stability observed at 4 °C, 28 °C, 37 °C, and 50 °C.
+- Decline noted after 80 min at 60 °C, with an 87.8% reduction in titer.
+- Rapid decline observed at 70 °C.
+- Stable titer maintained after 1 year of storage at 4 °C.
+- Optimal stability range for pH was 4–10.
+
+Environmental Context:
+- Isolated from untreated sewage at a hospital.
+
+Concise Summary:
+The phage exhibits robust thermal stability, maintaining activity across a broad range from 4 °C up to 50 °C. Long-term storage stability was confirmed at 4 °C for over a year. While activity significantly declines at elevated temperatures (e.g., 60 °C and 70 °C), the phage demonstrates good tolerance to moderate temperatures, including physiological (37 °C) and room temperature (28 °C) conditions. The phage was isolated from untreated sewage, suggesting an environmental origin. The stability profile indicates suitability for various storage and application temperatures, with optimal stability noted up to 50 °C.
+
+
+Paper: PMC13127935.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 36°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 36°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 36°C for initial culture growth.
+- Environmental source/habitat: Aquaculture water from *Litopenaeus vannamei* systems.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the optimal growth temperature of 36°C.
+- Heat tolerance: The method involves boiling samples at 100°C for 5 minutes to lyse cells, indicating the target organism can survive or be processed under these conditions.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: The LAMP assay uses Bst 2.0 WarmStart DNA polymerase, which is designed for isothermal amplification at 62°C.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/source: Aquaculture water from *Litopenaeus vannamei* systems.
+
+Concise Summary:
+The organism was cultured and maintained at an optimal temperature of 36°C, suggesting mesophilic growth characteristics. The methodology involves a thermal process where samples are boiled at 100°C for 5 minutes to lyse cells, indicating the organism's resilience to high temperatures during sample preparation. The detection assay itself is performed isothermally at 62°C using a specialized DNA polymerase. The organism was isolated from the complex matrix of *Litopenaeus vannamei* aquaculture water.
+
+
+Paper: 40154666.txt
+Thermal Evidence:
+- No specific optimal or growth temperature ranges were provided for either organism.
+- Survival conditions tested involved Vacuum Microwave Drying (VMD) and storage at $25^	ext{o}	ext{C}$.
+- The study assessed survivability under drying and storage conditions, implying thermal stress exposure.
+
+Environmental Context:
+- No information regarding extreme environments, specific habitats, or explicit thermal adaptations (thermophilic, psychrophilic, mesophilic) was provided by the authors.
+
+
+Paper: 41579760.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions related to temperature were mentioned.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The organism was studied in the context of food preservation (tomato juice) and was not explicitly stated to be isolated from an extreme environment.
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+
+Paper: PMC13114035.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Constant-temperature incubator at 37 °C, shaking at 150 rpm for 12–18 h
+- Environmental source/habitat: Not specified
+- Mention of adaptations: None
+
+Environmental Context:
+- Habitat/source: Not specified
+
+Concise Summary:
+The analysis of the provided paper focuses on the development and characterization of a microfluidic absorbance detection platform for analyzing samples, including bacterial suspensions. The only mention of microbial growth conditions pertains to the culture of a specific bacterium, which was incubated at a constant temperature of 37 °C with shaking at 150 rpm for 12–18 hours. No information regarding optimal growth temperature ranges, survival temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.) was provided for any organism. The organism was cultured in standard laboratory media (TSA/TSB) and was not explicitly stated to be isolated from an extreme environment. The authors did not provide any explicit thermal classification for the microorganism studied.
+
+
+Paper: 38465674.txt
+Thermal Evidence:
+- Drying process temperature: 75°C (for 195 min).
+- Drying temperature range explored: 55-75°C.
+- Pulsed light treatment fluence: 0.444 J/cm² (achieved via 1.8 kV for 150 s).
+- No specific survival or growth temperature ranges for the contaminating organisms were provided.
+
+Environmental Context:
+- The study focuses on the decontamination of dehydrated minced onion, which is a food product.
+
+Concise Summary:
+The study details the processing of minced onion, involving hot air drying at 75°C for 195 minutes, resulting in a final water activity of 0.5. Decontamination was achieved using pulsed light treatment at a fluence of 0.444 J/cm². The analysis focuses on the effect of these physical treatments on microbial load reduction, rather than characterizing the physiological temperature adaptations of the contaminating microorganisms. No information regarding the optimal growth temperature, survival temperature range, or specific thermal adaptations (e.g., thermophilic, psychrophilic) of the microbes was presented.
+
+
+Paper: PMC13074765.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C for 2 h (gastric phase); 37 °C for 4 h (intestinal phase); 37 °C for 24 h (antibacterial/anti-inflammatory assays)
+- Environmental source/habitat: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by optimal growth at 37 °C
+- Heat tolerance: Not explicitly tested/mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/source: Not specified
+
+Concise Summary:
+The study utilized *E. coli* (0157:H7 derived from ATCC® 43888™) as the bacterial strain. The physiological assays were conducted under controlled temperature conditions, with optimal growth and incubation temperatures consistently set at 37 °C. Simulated gastrointestinal digestion involved incubation at 37 °C for 2 hours (gastric phase) followed by incubation at 37 °C for 4 hours (intestinal phase). The antibacterial and anti-inflammatory assays were also performed at 37 °C over 24 hours. The organism was not isolated from an extreme environment, and no explicit thermal classification (e.g., mesophile) was provided by the authors; however, the consistent use of 37 °C strongly suggests mesophilic growth conditions for the tested assays.
+
+
+Paper: PMC13141734.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37°C for 14 hours.
+- Environmental source/habitat: Food samples (meats, milk, juices) were tested.
+- Mention of adaptations: None mentioned.
+- Explicit classification: None given by the authors regarding temperature adaptation.
+
+

@@ -1,0 +1,200 @@
+Summary file for XYM58736
+Number of papers: 14
+=============Summaries=============
+
+Paper: PMC13041748.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- Incubation conditions mentioned include 24° ± 2°C for growth assays.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism is a marine cyanobacterium, with studies conducted in both in silico models and in vitro growth assays using BG-11 medium.
+
+Concise Summary:
+This study focuses on the metabolic hijacking mechanisms employed by bacteriophages infecting a marine cyanobacterium. The experimental validation was performed using a genetically tractable model relative of the host organism, which was cultured at 24° ± 2°C. The analysis is centered on metabolic flux modeling, phage-host coevolution, and the impact of auxiliary metabolic genes (AMGs) on core metabolic pathways (e.g., carbon fixation, nucleotide synthesis). No direct thermal adaptation data was provided for downstream classification.
+
+
+Paper: 41930475.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes was made.
+- Membrane adaptations were noted in the context of phage infection and resistance, but not in relation to temperature stress.
+
+Environmental Context:
+- Estuarine ecosystems (China).
+
+Concise Summary:
+The study investigated the coevolution between cyanophages and picocyanobacteria in estuarine environments. The analysis focused on metagenomic and whole-genome sequencing of cyanophages and resistant cyanobacterial mutants. Key findings relate to metabolic gene acquisition by phages (e.g., glycosyltransferases, radical S-adenosyl methionine proteins) and genetic pathways conferring phage resistance in the host. Mutations in host genes related to membrane function and photosynthesis were observed in both field samples and laboratory isolates. No direct data regarding the optimal, growth, or survival temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.), were presented for the organisms or the experimental conditions.
+
+
+Paper: PMC12284385.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the cyanophage or the cyanobacterial symbiont.
+- Incubation conditions for phage isolation were specified as 24°C.
+
+Environmental Context:
+- The study was conducted using sponge samples collected from the Mediterranean Sea (depth of 25 m).
+- The controlled aquarium environment used for initial maintenance was 18°C.
+
+Concise Summary:
+The study details the investigation of cyanophage infections in an intracellular cyanobacterial symbiont found within a sponge. While the research utilized controlled laboratory conditions for phage isolation, the specific thermal parameters (optimal, growth, or survival temperatures) for the involved microorganisms were not reported. The isolation and plaque assays were conducted at 24°C, and initial sample maintenance occurred at 18°C. The environmental source is a marine sponge habitat in the Mediterranean Sea. No evidence of thermophilic, psychrophilic, or extreme temperature adaptation was documented for the organisms or the phages studied.
+
+
+Paper: 42053500.txt
+Thermal Evidence:
+- No specific temperature data (optimal, range, survival) was provided for any organism.
+
+Environmental Context:
+- The study focuses on marine picocyanobacteria and their associated phages, indicating an oceanic/marine habitat.
+
+Concise Summary:
+This study investigates the auxiliary metabolic gene *pebS* found in T4-like cyanophages infecting marine picocyanobacteria. The research compares the function of *pebS* (encoding a phycoerythrobilin synthase) to the native two-step reduction pathway found in cyanobacteria (*PebA* and *PebB*). Phylogenetic and genomic context analyses strongly suggest that *pebS* is phage-derived and absent from the core cyanobacterial genomes. No information regarding the thermal physiology, growth temperature, or adaptation (thermophilic, psychrophilic, etc.) of the organisms or enzymes was presented.
+
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 1 hour at 22°C with illumination (for cyanophages); overnight incubation at 37°C (for phages against *Enterobacter* group).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The isolation protocols utilized incubation temperatures ranging from 22°C to 37°C, suggesting adaptation to mesophilic conditions typical of environmental reservoirs.
+
+
+Paper: 41549294.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The viromes were analyzed from an estuarine creek (khazan ecosystem) and a tropical freshwater lake.
+- The organisms were not explicitly stated to be isolated from an extreme environment, but the source habitats are described as inland aquatic ecosystems.
+
+
+Paper: PMC10100731.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 24°C
+- Growth temperature range: Not explicitly stated, but growth was maintained at 24°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultures were grown at 24°C.
+- Environmental source/habitat: Marine environment (ocean).
+- Thermophilic adaptation: No evidence.
+- Psychrophilic adaptation: No evidence.
+- Mesophilic growth: Implied by growth at 24°C.
+- Heat tolerance: No evidence.
+- Cold tolerance: No evidence.
+- Enzymes adapted to temperature: No specific temperature-adapted enzymes mentioned.
+- Membrane adaptations: No evidence.
+- Thermal stress responses: No evidence.
+
+Environmental Context:
+- Habitat/source: Marine environment (ocean).
+
+Concise Summary:
+The study utilized laboratory culture conditions at 24°C for the growth of the analyzed marine picocyanobacteria strains. The organisms were sourced from the marine environment. The authors did not provide specific data regarding optimal, survival, or growth temperature ranges beyond the 24°C incubation temperature used in the experiments. No evidence of thermophilic, psychrophilic, or extreme temperature adaptations was reported. The general growth conditions suggest mesophilic adaptation within the studied temperature range.
+
+
+Paper: 39445547.txt
+Thermal Evidence:
+- Low temperature (17°C) was tested as a condition affecting pseudocobalamin quota.
+
+Environmental Context:
+- Northwest Atlantic Ocean
+
+Concise Summary:
+Analysis of pseudocobalamin metabolism in a cyanobacterium revealed that pseudocobalamin quota decreased under low temperature (17°C) and low nitrogen to phosphorus ratio. The study measured pseudocobalamin and the associated enzyme (MetH) in culture and community settings. The organism was studied under varying culture methods and growth phases. The findings suggest that environmental and physiological conditions influence pseudocobalamin metabolism, providing data for understanding its role in marine microbial communities.
+
+
+Paper: PMC10846223.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- The study utilized Differential Scanning Fluorimetry (DSF) to measure protein-ligand interactions, which involves heating samples over a temperature gradient of 20°C–95°C.
+- The analysis of protein stability ($\Delta T_m$) was performed across this temperature range.
+- The study mentioned that the MAPEG protein is associated with protection against oxidative and metabolic stress, specifically mentioning 'heat and cold temperature stress' in the context of its function, but did not quantify thermal adaptation.
+
+Environmental Context:
+- The organism was isolated from the Sargasso Sea, described as an oligotrophic region of the Atlantic Ocean.
+- The organism is classified as inhabiting 'ultraoligotrophic oceanic regions' and 'low-P marine environments.'
+- The authors did not provide an explicit thermal classification (e.g., mesophile, psychrophile) for the organism, but the environmental context points to adaptation to nutrient limitation in marine surface waters.
+
+
+Paper: PMC9337993.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 23°C
+- Growth temperature range: Not explicitly stated, but growth was maintained at 23°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Continuous illumination (10 $\mu E m^{-2} s^{-1}$ white light).
+- Environmental source/habitat: Oligotrophic ocean gyres (Sargasso Sea).
+- Mention of adaptation: None explicitly mentioned regarding temperature adaptation (thermophilic, psychrophilic, etc.).
+
+Environmental Context:
+- Habitat/source: Oligotrophic ocean gyres (Sargasso Sea).
+
+Concise Summary:
+The organism was cultured in artificial seawater (ASW) medium under continuous illumination at a constant temperature of 23°C. The source habitat is characterized as the oligotrophic ocean gyres, specifically the Sargasso Sea. The study details growth conditions but provides no explicit data or classification regarding the organism's thermal adaptation (e.g., thermophilic, psychrophilic, or mesophilic). The growth was maintained under standard laboratory conditions simulating a marine environment.
+
+
+Paper: PMC13012070.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 18°C (for one strain), 22°C (for one strain), 27°C (for one strain), 24°C (for one strain), 23°C (for one strain).
+- Growth temperature range: The reported optimal temperatures suggest growth within a mesophilic range, with observed optimal temperatures spanning from 18°C to 27°C.
+- Survival temperature range: Not explicitly provided.
+- Incubation conditions: Cultures were maintained under controlled light-dark cycles (e.g., 14:10 h light–dark cycle, or 13:11 h light–dark cycle for one strain).
+- Thermophilic/Psychrophilic/Mesophilic: The reported optimal temperatures place the organisms within a mesophilic growth range.
+- Extreme Environment Isolation: No mention of isolation from extreme temperature environments.
+- Explicit Classification: No explicit thermal classification (e.g., psychrotolerant, mesophile) was provided by the authors for the strains tested.
+
+Environmental Context:
+- Habitat/Source: The strains were isolated from various marine environments, including the Sargasso Sea, South Pacific, and coastal waters (Vineyard Sound, MA). The study models global ocean distributions, suggesting relevance to diverse marine thermal regimes.
+
+
+Paper: PMC12750528.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 20 °C (for one species) and 25 °C (for another species).
+- Growth temperature range: Not explicitly stated, but cultures were maintained at 20 °C and 25 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Controlled photoperiods (12:12 h and 14:10 h) and specific PAR levels (150 μmol photons m⁻² s⁻¹ and 50 μmol photons m⁻² s⁻¹).
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the culture conditions (20-25 °C).
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Cultures were maintained in controlled laboratory media (Aquil* medium and BG11 medium).
+- Extreme Environment Isolation: One strain was isolated from the North Sea, and another from the Southern Ocean.
+- Explicit Classification: No explicit thermal classification was provided by the authors.
+
+
+Paper: 35193048.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Open ocean, described as one of the most nutrient-poor environments on Earth.
+
+Concise Summary:
+The organism was isolated from the open ocean, a nutrient-poor marine environment. No specific thermal parameters (optimal, growth, or survival temperatures) or adaptations related to temperature extremes were reported in the provided text.
+
+
+Paper: PMC12807369.1.txt
+Thermal Evidence:
+- No specific optimal or growth temperature ranges were provided for the general metabolic pathways or the organisms in a consistent manner across the review. 
+- **Heat Tolerance/Thermal Stress:** The text repeatedly mentions that Glycine betaine (GB) helps maintain the normal function of biological membranes and proteins at elevated temperatures. Specifically, GB mitigates protein misfolding by acting as a molecular chaperone and helps preserve membrane fluidity. Furthermore, the addition of GB during microbial fermentation improves fermentation efficiency and reduces the inhibitory effect of high temperature on microorganisms. 
+- **Cold Tolerance/Thermal Stress:** GB is noted for enhancing resistance to cold stress in plants. The text also mentions that GB helps maintain the structural integrity of cell membranes and stabilizes enzyme activity under various stresses, which includes cold.
+- **Enzyme Adaptation:** The review discusses the general role of GB in maintaining enzyme activity under stress, but does not detail temperature-specific adaptations of the enzymes themselves.
+
+Environmental Context:
+- The organisms discussed are derived from diverse environments, including soil, and are often characterized by their ability to thrive under extreme conditions (e.g., halophiles, which are often associated with high salinity, which can correlate with temperature extremes).
+- Specific environmental sources mentioned for enzyme-producing organisms include: halophilic methanogenic archaea, photosynthetic sulfur bacteria, and various halophilic bacteria/cyanobacteria, which are typically isolated from hypersaline or extreme environments.
+
+Concise Summary:
+Glycine betaine (GB) is a critical compatible solute that confers broad protection against various abiotic stresses, including heat and cold. Its protective mechanisms involve stabilizing cell membranes, preventing lipid peroxidation, and acting as a molecular chaperone to mitigate protein misfolding at elevated temperatures. In microbial systems, the exogenous application of GB during fermentation enhances process efficiency and reduces temperature-related inhibition. While the paper reviews the biosynthesis pathways in various microorganisms, it focuses more on the *effect* of GB on thermal stability rather than providing specific optimal growth temperatures for the enzymes or organisms. The enzymes and organisms discussed are frequently sourced from extreme environments, such as halophiles, suggesting inherent adaptations to harsh physicochemical conditions, which often include temperature fluctuations.
+
+

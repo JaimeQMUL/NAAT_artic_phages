@@ -1,0 +1,64 @@
+Summary file for XAG94916
+Number of papers: 3
+=============Summaries=============
+
+Paper: PMC12430668.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated for the general bacterial pathogens, but specific studies mention activity at 37 °C (for *Salmonella* spp. in TSB medium) and 25 °C (for *Salmonella* spp. in chicken meat).
+- Growth temperature range: Studies report activity/inhibition at 4 °C, 10 °C, 12 °C, 18 °C, 22 °C, 25 °C, 37 °C, and 65 °C (for phage stability).
+- Survival temperature range: Phages are generally reported as stable at pH 4–11 and temperatures up to 65 °C. Specific phage preparations showed expected efficacy at 0–35 °C (refrigeration).
+- Incubation conditions: Storage conditions tested include 4 °C, 10 °C, 12 °C, 18 °C, 22 °C, 25 °C, and 37 °C.
+- Environmental source/habitat: Meat and meat products (e.g., beef, chicken, pork, dry-cured ham).
+- Thermophilic adaptation: *Campylobacter* spp. are noted as thermophilic bacteria.
+- Psychrophilic adaptation: Phage activity was observed at 4 °C, suggesting activity under refrigerated conditions.
+- Mesophilic growth: General storage and processing temperatures (e.g., 20–30 °C) suggest mesophilic conditions for many pathogens.
+- Heat tolerance: Phages were found to be heat-unstable, losing activity after 5 min at 60 °C. However, some studies noted phage stability after heat treatment at 65 °C (for *L. monocytogenes*).
+- Enzymes adapted to temperature: Endolysins were noted to remain active at 4 °C.
+- Membrane adaptations: Not explicitly detailed in relation to temperature.
+- Thermal stress responses: The study notes that the lytic activity of phages in meat is influenced by storage temperature, with lower reduction rates observed at refrigeration temperatures compared to higher temperatures.
+
+Environmental Context:
+- Habitat/Source: Meat and meat products, including poultry, red meat, and processed/cured meats.
+
+Concise Summary:
+Bacteriophages and endolysins are investigated as biocontrol agents in meat, with efficacy tested across a range of temperatures relevant to food storage (0–37 °C). Phage stability is noted up to 65 °C, though some phages show reduced activity at lower temperatures. Pathogens like *Campylobacter* spp. are characterized as thermophilic, while the general storage conditions tested are mesophilic (e.g., 20–30 °C) or refrigerated (4 °C). Phage activity is observed to persist at 4 °C, and endolysins maintain activity at this temperature. The literature highlights that the lytic activity of phages in the solid meat matrix is temperature-dependent, with significant reductions observed at both refrigerated and higher storage temperatures. The study emphasizes the importance of understanding these thermal dynamics for effective food preservation strategies.
+
+
+Paper: PMC11767321.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 4 to 37 °C (activated range); 37 °C (stability testing)
+- Survival temperature range: 4 to 37 °C (activated); stable at pH 4–10 (pH stability)
+- Incubation conditions: 4 °C and 25 °C (for biocontrol efficacy testing)
+- Environmental source/habitat: Sewage wastewater
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by optimal growth at 37 °C
+- Heat tolerance: Significant inactivation observed at temperatures above 45 °C
+- Cold tolerance: Effective activity observed at 4 °C
+- Enzymes adapted to temperature: Not specified
+- Membrane adaptations: Not specified
+- Thermal stress responses: Not specified
+
+Environmental Context:
+- Habitat/source: Sewage wastewater
+- Extreme environment isolation: No
+- Explicit classification: No explicit classification given, but stability suggests suitability for moderate food processing/storage temperatures.
+
+
+Paper: PMC12630848.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial growth/lysis assays).
+- Growth temperature range: 25–55°C (stability tested).
+- Survival temperature range: Stable titer observed at 25–55°C. Significant reduction observed at 65°C and 75°C.
+- Incubation conditions: Assays performed at 37°C (bacterial growth/lysis) and stability tests conducted at 25°C to 75°C.
+- Environmental source/habitat: Isolated from drainage samples.
+- Adaptation notes: Demonstrated stability within the temperature danger zone (25–55°C).
+
+Environmental Context:
+- Habitat/Source: Drainage samples.
+
+Concise Summary:
+The phage exhibited robust bacteriolytic activity at 37°C. Stability testing revealed that the phage maintains its effective bacteriolytic property across a temperature range of 25–55°C, which encompasses the critical temperature danger zone for food safety applications. While the phage showed significant titer reduction at higher temperatures (65°C and 75°C), its stability profile suggests suitability for use in food matrices. The phage was isolated from environmental drainage samples, indicating natural presence in such sources.
+
+

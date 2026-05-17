@@ -1,0 +1,116 @@
+Summary file for USL85923
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC10791037.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C (for plaque assays) and 4°C (for initial phage stock collection).
+- Environmental source/habitat: Not specified, but the phages infect *E. coli* strains, some of which are associated with human/animal pathogens (ESBL *E. coli*).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations was found.
+
+Environmental Context:
+- Habitat/Source: The phages were isolated from and tested against *E. coli* strains, including those carrying Extended Spectrum $\beta$-Lactamases (ESBL) and associated with various pathogenic *E. coli* O-antigens (O8, O82, O153, O159). The study context relates to the study of bacterial pathogens and phage therapy.
+
+Concise Summary:
+The experimental procedures for phage propagation and host range analysis were conducted under standard laboratory conditions, with primary incubation temperatures set at 37°C for bacterial growth and plaque assays. Phage stocks were also collected and stored at 4°C. The study focuses on the molecular mechanisms of host recognition via Tail Spike Proteins (TSPs) of the bacteriophage, which infect Gram-negative bacteria, specifically *E. coli* strains, including ESBL-producing isolates. No data regarding the thermal adaptation, optimal growth temperature range, or survival temperature range of the phage or its host bacteria were provided; the conditions described are standard mesophilic laboratory culture conditions.
+
+
+Paper: PMC13158018.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the organisms discussed.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organisms were studied in the context of human infections, with sources mentioned including urinary tract infections, lower-risk intra-abdominal infections, bloodstream infections, and pneumonia.
+
+Concise Summary:
+The provided text is a cross-sectional survey evaluating clinical and microbiologic practice patterns for managing infections caused by Enterobacterales at risk of inducible AmpC production. The analysis focuses on antimicrobial stewardship, preferred $\beta$-lactam antibiotics (e.g., cefepime, ceftriaxone, meropenem), and susceptibility reporting practices based on the risk level (moderate vs. low) of AmpC induction. There is no microbiological or physiological data presented regarding the thermal characteristics, growth temperatures, or environmental adaptation of these bacterial species.
+
+
+Paper: PMC13165833.1.txt
+Thermal Evidence:
+- Incubation temperature for MIC/MBC determination: 37 °C.
+- Incubation temperature for MICA determination: 37 °C.
+- Incubation temperature for hemolytic activity: 22 ± 2 °C.
+
+Environmental Context:
+- No specific environmental source or habitat information regarding temperature adaptation was provided for the microorganisms tested.
+
+Concise Summary:
+The study details antimicrobial testing protocols conducted at specific temperatures. Minimum Inhibitory Concentration (MIC) and Minimum Bactericidal Concentration (MBC) assays were performed by incubating samples at 37 °C. Similarly, the Minimum Inhibitory Concentration for Adhesion (MICA) was determined using incubation at 37 °C. Cytotoxicity testing, assessing hemolytic activity, was conducted at a controlled temperature of 22 ± 2 °C. No information regarding the optimal growth temperature, growth temperature range, survival temperature range, or any specific thermal adaptation (thermophilic, psychrophilic, mesophilic, etc.) was reported for the tested microorganisms.
+
+
+Paper: PMC13172314.1.txt
+Thermal Evidence:
+- Incubation conditions for general culturing: 37°C and 250 RPM.
+- Incubation conditions for wastewater/Aeromonas experiments: 37°C and 250 RPM.
+- Incubation conditions for synthetic community experiments: 37°C and 250 RPM.
+- Incubation conditions for general lysis/growth steps: 37°C and 250 RPM.
+- Incubation conditions for DNA removal: 37°C for 1h.
+- Incubation conditions for RT-qPCR: Standard thermocycler conditions (not specified).
+- Incubation conditions for RT-PCR: 37°C and 250 RPM.
+- No explicit mention of optimal growth temperature, growth temperature range, or survival temperature range.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- Wastewater influent from a wastewater treatment plant in Houston, Texas.
+- Synthetic microbial community (containing ESKAPE pathogens).
+
+Concise Summary:
+The study utilized standard laboratory incubation conditions, primarily at 37°C and 250 RPM, for culturing and performing transduction assays. The environmental source material was wastewater influent from a wastewater treatment plant, and the experiments were conducted using synthetic microbial communities containing ESKAPE pathogens. No specific thermal adaptations or temperature ranges beyond the standard incubation temperature were detailed for the organisms or the processes described.
+
+
+Paper: PMC13108393.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but optimal growth is at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 37°C for 24 hours (for enumeration on agar plates); 37°C for 30 min (for opsonization assays).
+- Environmental source/habitat: Gut/colonization (natural habitat).
+- Mention of adaptations: None mentioned.
+- Explicit classification: None given.
+
+Environmental Context:
+- Habitat/source: Gut/colonization (natural habitat).
+
+Concise Summary:
+The organism was cultured and tested under standard laboratory conditions, with optimal growth and enumeration performed at 37°C. Specific thermal adaptations (thermophilic, psychrophilic, etc.) were not discussed in relation to the physiological studies presented.
+
+
+Paper: 42133148.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The isolates were collected from urine samples.
+
+Concise Summary:
+The study characterized resistance genes in bacterial isolates recovered from urine samples. No data regarding the thermal physiology, including optimal growth temperature, temperature ranges, or specific adaptations (thermophilic, psychrophilic, mesophilic), were reported in the provided text.
+
+
+Paper: 42128682.txt
+Thermal Evidence:
+- Survival temperature range: Up to 60 ℃
+- Optimal growth temperature: Not explicitly stated
+- Growth temperature range: Not explicitly stated
+- Incubation conditions: Not explicitly stated
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Not explicitly stated
+- Heat tolerance: Demonstrated tolerance up to 60 ℃
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/source: Untreated hospital sewage
+
+Concise Summary:
+A novel, broad-host-range lytic phage was isolated from untreated hospital sewage. The phage exhibits robust environmental stability, demonstrating tolerance to temperatures up to 60 ℃. The phage's biological characteristics were analyzed using a clinically relevant bacterial strain as the host. The phage was found to be highly effective against multiple sequence types of a carbapenem-resistant Enterobacter complex. Genomic analysis confirmed the phage is lytic and lacks genes associated with lysogeny or antibiotic resistance, suggesting therapeutic potential. The phage's stability across a wide pH range (2 to 11) further indicates environmental robustness.
+
+

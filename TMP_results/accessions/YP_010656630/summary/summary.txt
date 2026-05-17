@@ -1,0 +1,182 @@
+Summary file for YP_010656630
+Number of papers: 11
+=============Summaries=============
+
+Paper: PMC9964418.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 22 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 22 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 22 °C under continuous white light (20 µmol photons m⁻² s⁻¹).
+- Mention of adaptation: The phage was isolated from an estuarine environment, and the host strain was grown at 22 °C. The paper mentions the phage's ability to cope with the highly dynamic estuarine environment, suggesting adaptation to fluctuating conditions, but no specific thermal adaptation (thermophilic, psychrophilic, etc.) was explicitly classified.
+
+Environmental Context:
+- Habitat/Source: Estuarine surface seawater (Changjiang River Estuary).
+- Extreme Environment Isolation: No explicit classification of the isolation environment as extreme, but it is described as an estuarine environment with dynamic gradients.
+
+Concise Summary:
+The phage was isolated from the surface seawater of an estuarine environment. The host strain was cultured and the phage was propagated under controlled laboratory conditions at 22 °C with continuous white light. The study notes that estuarine cyanophages develop unique genomic characteristics to cope with the highly dynamic estuarine environment, suggesting adaptation to fluctuating conditions, although no specific thermal classification (e.g., psychrotolerant) was provided by the authors.
+
+
+Paper: PMC9146016.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 22–25 °C
+- Growth temperature range: 22–25 °C
+- Survival temperature range: Not specified
+- Incubation conditions: Co-cultivation in liquid medium; incubation for a week.
+- Mention of thermal adaptation: None.
+
+Environmental Context:
+- Habitat/Source: Surface seawater from Shenzhen Bay, Guangdong, China.
+- Extreme environment isolation: No explicit mention of isolation from an extreme environment.
+- Explicit classification: None provided regarding thermal adaptation.
+
+
+Paper: PMC9927357.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but the optimal growth temperature for the host cyanobacteria is noted as 25 to 30°C.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: The phage showed continuous titer decrease with increasing temperature starting at 35°C, with complete loss of titer at 50°C. It was stable at 30°C and 35°C for 1 hour.
+- Incubation conditions: The phage was tested for stability at 30°C, 35°C, 40°C, 45°C, 50°C, and 60°C for 1 hour.
+- Environmental source/habitat: Freshwater (Donghu Lake).
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: No evidence of psychrophilic adaptation.
+- Mesophilic growth: The phage exhibited stability at 30°C and 35°C, consistent with mesophilic conditions.
+- Heat tolerance: The phage was sensitive to high temperatures, losing viability above 50°C.
+- Cold tolerance: Not explicitly tested or mentioned.
+- Enzymes adapted to temperature: No specific temperature-adapted enzymes were detailed.
+- Membrane adaptations: Not discussed.
+- Thermal stress responses: The phage was sensitive to high temperatures (>50°C).
+
+Environmental Context:
+- Habitat/Source: Freshwater (Donghu Lake).
+- Extreme Environment Isolation: No evidence of isolation from an extreme environment.
+- Explicit Classification: No explicit thermal classification (e.g., mesophile) was given by the authors, but stability data suggest mesophilic tendencies within the tested range.
+
+
+Paper: PMC12654330.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for *E. coli* strains in LB medium).
+- Growth temperature range: Not explicitly stated for the general marine bacteria, but the study involves deep-sea and hadal zone samples.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 37 °C with shaking at 220 rpm in LB medium for *E. coli* strains.
+- Environmental source/habitat: Deep-sea trenches (hadal zones), hydrothermal vents, and general marine ecosystems.
+- Thermophilic adaptation: The study analyzes samples from deep-sea environments, including MAGs from the Mariana Trench Environment and Ecology Research (MEER) database, which implies adaptation to extreme conditions.
+- Psychrophilic adaptation: The analysis covers global ocean microbiomes, suggesting adaptation to low temperatures.
+- Mesophilic growth: The *E. coli* assays were conducted at 37 °C, representing mesophilic conditions.
+- Heat tolerance: The study notes the potential for enzymes to possess properties such as heat stability.
+- Cold tolerance: The study notes the potential for enzymes to possess properties such as cryotolerance.
+- Enzymes adapted to temperature: No specific enzymes adapted to temperature were detailed, but the general concept of temperature-dependent adaptation is implied.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: The study discusses adaptation to extreme conditions, including high hydrostatic pressure (HHP) and low temperature (LT), which are forms of thermal/physical stress.
+
+Environmental Context:
+- Habitat/Source: Global Ocean Microbiome Catalogue (GOMC) and Mariana Trench Environment and Ecology Research (MEER) databases, covering surface seawater to hadal zones (6000–11,000 m).
+
+Concise Summary:
+This research analyzed toxin-antitoxin (TA) systems across diverse marine bacteria sourced from global ocean and deep-sea (hadal) environments. While laboratory assays for functional validation were conducted at 37 °C (mesophilic), the source material originates from extreme habitats, including deep-sea trenches and hydrothermal vents, indicating the presence of microorganisms adapted to high hydrostatic pressure, low temperature, and oligotrophic conditions. The findings highlight that marine TA systems are crucial for adaptation to these extreme environmental stresses, suggesting the potential for enzymes with inherent heat stability and cryotolerance. The deep-sea prokaryotes analyzed exhibit specialized adaptations, with the study noting a potential for novel TA systems to facilitate survival under high-stress conditions, including those related to temperature and pressure gradients.
+
+
+Paper: PMC10665897.1.txt
+Thermal Evidence:
+- **Optimal Growth Temperature ($	ext{T}_{	ext{opt}}$):** Warm-temperature isolates showed a higher mean $	ext{T}_{	ext{opt}}$ ($	ext{average} = 29.8 	ext{ }^	ext{o}	ext{C}$) compared to cool-temperature isolates ($	ext{average} = 27.6 	ext{ }^	ext{o}	ext{C}$). The specific warm isolate analyzed had a $	ext{T}_{	ext{opt}}$ of $29.7 	ext{ }^	ext{o}	ext{C}$, while the cool isolate had a $	ext{T}_{	ext{opt}}$ of $27.1 	ext{ }^	ext{o}	ext{C}$.
+- **Maximum Growth Temperature ($	ext{T}_{	ext{max}}$):** Warm-temperature isolates exhibited a significantly higher mean $	ext{T}_{	ext{max}}$ ($35.6 	ext{ }^	ext{o}	ext{C}$) compared to cool-temperature isolates ($33.4 	ext{ }^	ext{o}	ext{C}$), with the warm isolate reaching $35.3 	ext{ }^	ext{o}	ext{C}$.
+- **Minimum Growth Temperature ($	ext{T}_{	ext{min}}$) and Niche Width:** $	ext{T}_{	ext{min}}$ and niche width ($	ext{T}_{	ext{max}} - 	ext{T}_{	ext{min}}$) did not show significant differences between the two groups.
+- **Thermal Performance Curves (TPC):** The TPC analysis revealed distinct thermal response curves, with the warm phenotype showing a clear advantage at higher temperatures.
+- **Photophysiology:** At $28 	ext{ }^	ext{o}	ext{C}$, the warm-temperature isolate maintained significantly higher photosynthetic efficiency ($	ext{Fv/Fm}$) compared to the cool-temperature isolate. Furthermore, the warm isolate showed lower fluorescence at physiologically relevant temperatures, suggesting better maintenance of functionality under thermal stress.
+- **Enzymatic/Molecular Adaptation:** Methylation patterns were observed in coding regions of photosystem-related genes (e.g., phycobilisome linker proteins, ATPase subunits, photosystem I/II components) that differed between the warm and cool isolates, suggesting an epigenetic mechanism potentially linked to thermal specialization.
+- **Growth/Survival:** The warm phenotype demonstrated a growth advantage above the maximum historical summer surface water temperature recorded at the collection site, suggesting potential adaptation to future warming.
+
+Environmental Context:
+- **Habitat/Source:** Isolated from a coastal marine environment (Narragansett Bay). The study compared strains enriched at ambient/cool temperatures ($18-22 	ext{ }^	ext{o}	ext{C}$) against strains enriched at elevated/warm temperatures ($30 	ext{ }^	ext{o}	ext{C}$). The warm phenotype was tested at a temperature exceeding current site records.
+
+Concise Summary:
+This study demonstrates the coexistence of distinct, cryptic thermal phenotypes within a single, genetically highly similar population of a marine cyanobacterium. Thermal selection experiments separated the population into distinct cool- and warm-temperature thermotypes. Phenotypic differences were pronounced: warm-adapted isolates exhibited significantly higher maximum growth temperatures ($	ext{T}_{	ext{max}}$) and optimal growth temperatures ($	ext{T}_{	ext{opt}}$) compared to cool-adapted isolates. These thermal differences were correlated with superior photosynthetic efficiency ($	ext{Fv/Fm}$) and maintenance of function under thermal stress in the warm phenotype. Crucially, these functional differences were not attributable to detectable genomic variations (ANI $>99.99%$). Instead, the study identified differential cytosine methylation patterns within genes related to the photosynthetic machinery (e.g., phycobilisome components) as the only observed molecular difference correlating with thermal specialization. The findings suggest that epigenetic mechanisms, rather than core genome changes, may underpin thermal microdiversity, providing a potential mechanism for population resilience to projected ocean warming.
+
+
+
+Paper: PMC12413379.1.txt
+The provided text details various aspects of microbial ecology and genetics, but it does not contain a comprehensive, structured dataset of temperature optima for multiple species. Therefore, a generalized summary of temperature ranges cannot be generated. The text focuses on molecular techniques, phylogenetic analysis, and general ecological roles of microorganisms, rather than providing specific physiological data points for temperature optima.
+
+
+Paper: PMC12838246.1.txt
+Thermal Evidence:
+- Temperature abuse was simulated at 25°C for 24 hours, simulating post-harvest handling under warm ambient conditions.
+- The study noted that *Vibrio* species can increase up to 100-fold within 10 hours when stored at ambient temperatures.
+- An increase in the levels of Vibrionaceae in oysters was observed as the temperature increased during commercial transport and storage.
+- The MPN-qPCR results suggested that stable conditions in bottom cages may support *Vibrio* populations that remain metabolically active, potentially leading to higher counts in enrichment.
+- Post-harvest temperature abuse provided favorable conditions for *Vibrio* proliferation directly within oyster tissues.
+
+Environmental Context:
+- The organisms were studied in the context of aquaculture systems (bottom and floating cages) in coastal bay waters, and in post-harvest handling scenarios (temperature abuse).
+
+Concise Summary:
+The study investigated the impact of aquaculture practices and post-harvest handling on microbial dynamics. Key thermal observations include the simulation of temperature abuse at 25°C for 24 hours, which was noted to favor *Vibrio* proliferation. General findings indicate that *Vibrio* species exhibit rapid growth potential, with concentrations increasing significantly (up to 100-fold) within 10 hours at ambient temperatures. The stability of bottom cage environments was associated with metabolically active *Vibrio* populations, while temperature abuse was shown to favor proliferation in floating cage oysters. The research emphasizes that post-harvest temperature abuse is a critical factor influencing pathogen load, suggesting that thermal stress responses are highly relevant to the observed microbial dynamics.
+
+
+Paper: PMC12099654.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were explicitly provided for the general cyanobacterial populations or picocyanobacteria in the provided text.
+- One mention noted that certain ASVs showed positive relationships with temperature, suggesting adaptation to warmer conditions.
+- Another finding indicated that ASVs belonging to certain clades were less abundant when the temperature was higher, suggesting a preference for cooler conditions.
+
+Environmental Context:
+- The study was conducted in the Albemarle Pamlico Sound System (APES), an estuarine environment, with environmental variables including temperature being identified as significant drivers of cyanobacterial community composition.
+- The analysis identified distinct ecotypes related to temperature, including putative warm-temperature estuarine ecotypes and temperate/cold ecotypes.
+
+Concise Summary:
+The study analyzed cyanobacterial diversity across salinity gradients in the APES, identifying community structure influenced by temperature. While specific physiological temperature optima were not detailed, the analysis revealed distinct ecotypes correlated with temperature gradients. Certain ASVs showed positive correlations with temperature, suggesting warm-adapted populations, while other clades exhibited lower abundance at higher temperatures, suggesting a preference for cooler conditions. The overall context is an estuarine system where temperature is a significant environmental driver of community composition.
+
+
+Paper: PMC9964418.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 22 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 22 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 22 °C under continuous white light (20 µmol photons m⁻² s⁻¹).
+- Mention of adaptation: The phage was isolated from an estuarine environment, and the host strain was grown at 22 °C. The paper mentions the phage's ability to cope with the highly dynamic estuarine environment, suggesting adaptation to fluctuating conditions, but no specific thermal adaptation (thermophilic, psychrophilic, etc.) was explicitly classified.
+
+Environmental Context:
+- Habitat/Source: Estuarine surface seawater (Changjiang River Estuary).
+- Extreme Environment Isolation: No explicit classification of the isolation environment as extreme, but it is described as an estuarine environment with dynamic gradients.
+
+Concise Summary:
+The phage was isolated from the surface seawater of an estuarine environment. The host strain was cultured and the phage was propagated under controlled laboratory conditions at 22 °C with continuous white light. The study notes that estuarine cyanophages develop unique genomic characteristics to cope with the highly dynamic estuarine environment, suggesting adaptation to fluctuating conditions, although no specific thermal classification (e.g., psychrotolerant) was provided by the authors.
+
+
+Paper: PMC6715862.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 25°C
+- Growth temperature range: Not explicitly stated, but growth was performed at 25°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Constant light (20 to 30 $\mu E m^{-2} s^{-1}$) in an illuminated incubator.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the optimal growth temperature of 25°C.
+- Heat tolerance: Not explicitly detailed, but the strain shows high tolerance to environmental stressors.
+- Cold tolerance: Not explicitly detailed.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not explicitly detailed, but the strain possesses genes for sensing and responding to environmental stress.
+
+Environmental Context:
+- Habitat/Source: Estuarine environment (Chesapeake Bay).
+- Extreme environment isolation: The strain is noted for having much higher tolerance to temperature, salinity, and heavy metals compared to coastal and oceanic strains, suggesting adaptation to dynamic environments.
+- Explicit classification: The authors do not provide an explicit thermal classification (e.g., mesophile, psychrotolerant), but the growth conditions suggest mesophilic characteristics.
+
+
+Paper: PMC3886946.1.txt
+Thermal Evidence:
+- Growth temperature range: 0 to 30°C
+- Survival temperature range: Wide range of temperatures (implied by estuarine adaptation)
+- Specific adaptations mentioned: None explicitly detailed regarding thermophilic, psychrophilic, or cold tolerance mechanisms (e.g., membrane adaptations, specific enzymes).
+
+Environmental Context:
+- Habitat/Source: Estuarine system (Chesapeake Bay estuary), characterized by dynamic conditions.
+- Extreme Environment Isolation: Not explicitly stated as extreme, but isolated from a dynamic estuarine environment with varying salinity (0 to 30 ppt) and temperature (0 to 30°C).
+- Explicit Classification: None provided by the authors regarding thermal classification (e.g., mesophile, psychrotolerant). The organism is noted for thriving in a wide range of temperatures and salinities.
+
+Concise Summary:
+The organism is a picocyanobacterium isolated from a dynamic estuarine environment (Chesapeake Bay). Its physiological profile indicates adaptation to a broad temperature range, specifically cited as 0 to 30°C, alongside variable salinity (0 to 30 ppt). The genomic analysis highlights its capacity to sense and respond to environmental changes, suggesting general adaptability to complex estuarine niches. No specific evidence of thermophilic, psychrophilic, or extreme thermal adaptation mechanisms was detailed in the provided text.
+
+

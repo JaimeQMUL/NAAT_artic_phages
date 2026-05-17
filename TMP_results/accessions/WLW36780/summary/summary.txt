@@ -1,0 +1,75 @@
+Summary file for WLW36780
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC13041748.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- Incubation conditions mentioned include 24° ± 2°C for growth assays.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism is a marine cyanobacterium, with studies conducted in both in silico models and in vitro growth assays using BG-11 medium.
+
+Concise Summary:
+The study focuses on the metabolic hijacking mechanisms of bacteriophages in a marine cyanobacterium. While the experimental validation was performed at 24° ± 2°C, the paper does not provide any specific data regarding the organism's optimal, range, or survival temperatures, nor does it discuss any thermal adaptations (thermophilic, psychrophilic, etc.). The environmental context is marine, and the research utilizes genome-scale metabolic modeling to analyze phage-host interactions, which are shown to be complex and system-wide.
+
+
+Paper: 41930475.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes was made.
+- Membrane adaptations were noted in the context of phage infection and resistance, but not in relation to temperature stress.
+
+Environmental Context:
+- Estuarine ecosystems (China).
+
+Concise Summary:
+The study investigated the coevolution between cyanophages and picocyanobacteria in estuarine environments. The analysis focused on genetic adaptations related to phage interaction, including metabolic pathways and mutations in membrane-associated functions. No direct data regarding the optimal, growth, or survival temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.), were presented for the organisms or viruses.
+
+
+Paper: 42053500.txt
+Thermal Evidence:
+- No specific temperature data (optimal, range, survival) was provided for any organism.
+
+Environmental Context:
+- The study focuses on marine picocyanobacteria and their associated phages, indicating an oceanic/marine habitat.
+
+Concise Summary:
+This study investigates the auxiliary metabolic gene *pebS* found in T4-like cyanophages infecting marine picocyanobacteria. The research compares the function of *pebS* (encoding a phycoerythrobilin synthase) to the native two-step reduction pathway found in the host cyanobacteria. Phylogenetic and genomic context analyses strongly suggest that *pebS* is phage-derived and absent from the host cyanobacterial genomes. No information regarding the thermal physiology, growth temperature, or adaptation of the organisms was presented.
+
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 1 hour at 22°C with illumination (for cyanophages); overnight incubation at 37°C (for phages against *Enterobacter* group).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The isolation conditions varied, with some protocols requiring incubation at 22°C and others at 37°C.
+
+
+Paper: 41549294.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The samples were sourced from an estuarine creek (khazan ecosystem) and a tropical freshwater lake. The creek virome showed sequence resemblance to marine ecosystems, while the lake virome was distinct. The study does not indicate isolation from an extreme environment, nor does it provide any explicit thermal classification for the viral communities.
+
+
+Paper: PMC9024877.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the general group of strains.
+- The study mentions that the identified SSRs may facilitate fast acclimation to fluctuating environments.
+- The analysis notes that the strains are associated with marine niches.
+
+Environmental Context:
+- The strains were isolated from global marine environments.
+- The study mentions that the strains are associated with marine niches.
+
+Concise Summary:
+Analysis of 54 Parasynechococcus-like strains revealed genomic characteristics, including the distribution and abundance of microsatellites (SSRs) and compound microsatellites (CSSRs). While the study does not provide explicit temperature profiles, the identified SSRs are hypothesized to facilitate rapid acclimation to fluctuating environments, supporting the species' extensive distribution in global marine niches. The strains were generally associated with marine environments.
+
+

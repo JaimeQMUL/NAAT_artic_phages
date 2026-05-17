@@ -1,0 +1,101 @@
+Summary file for XIJ69057
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC12704722.1.txt
+Thermal Evidence:
+- Incubation conditions for *E. coli* were 37 °C with shaking at 220 rpm.
+- Cultures were cooled for 2 h at 4 °C before IPTG addition.
+- The study utilized a broad range of organisms spanning bacteria, archaea, phages, and eukaryotes, with specific growth conditions detailed for *E. coli*.
+
+Environmental Context:
+- The study surveyed homologs across diverse life forms, including bacteria, archaea, phages, and eukaryotes, without specifying a single environmental source for all analyzed proteins.
+
+Concise Summary:
+The experimental procedures detailed for protein expression and purification were conducted using *E. coli* grown in LB medium, with specific incubation steps involving 37 °C shaking followed by a cooling period at 4 °C. The analysis covered a vast phylogenetic scope (bacteria, archaea, phages, eukaryotes), suggesting the studied proteins originate from diverse ecological niches, but no specific thermal adaptation or extreme environment isolation was explicitly classified for the entire group of homologs.
+
+
+Paper: PMC10956176.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 30°C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Incubation was performed at 30°C and 220 rpm for 5 days (small-scale) and 7 days (large-scale).
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the optimal growth temperature of 30°C.
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Sponge symbiotic association.
+- Extreme environment isolation: No explicit mention of isolation from an extreme environment.
+- Explicit classification: No explicit thermal classification provided by the authors.
+
+
+Paper: PMC11413697.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28 °C (for initial seed culture and kanamycin feeding experiment).
+- Optimal growth temperature: 34 °C (for large scale industrial fermentation).
+- Growth temperature range: 28 °C (for initial seed culture) to 34 °C (for industrial fermentation).
+- Incubation conditions: Incubated at 28 °C and 220 rpm for 3 days (seed culture); 28 °C and 220 rpm for 5 days (kanamycin feeding).
+- Incubation conditions: 34 °C and 220 rpm for 3 days (seed culture); 34 °C and 220 rpm for 5 days (industrial fermentation).
+- Environmental source/habitat: Soil bacteria (implied by isolation from *Streptomyces* species).
+- Explicit classification: No explicit classification (e.g., mesophile) was given by the authors.
+
+Environmental Context:
+- Habitat/source: Soil bacteria (implied by isolation from *Streptomyces* species).
+
+Concise Summary:
+The organism was cultured under controlled laboratory conditions, with optimal growth temperatures reported at 28 °C for initial small-scale production and 34 °C for large-scale industrial fermentation. The growth conditions involved specific agitation rates (220 rpm) and incubation periods (3-5 days). No evidence of thermophilic, psychrophilic, or extreme environment adaptation was reported; the conditions suggest mesophilic growth within a controlled laboratory setting.
+
+
+Paper: PMC10690885.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 30 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 30 °C for 1 to 2 days.
+- Environmental source/habitat: Soil samples.
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: Soil samples.
+
+
+Paper: PMC7170507.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C (for fermentation).
+- Growth temperature range: 30 °C (for fermentation); 37 °C (for cell culture).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 30 °C, 220 rpm (for fermentation); 37 °C, 5% CO2 (for cell culture).
+- Environmental source/habitat: Not explicitly stated.
+- Mention of adaptations: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: The organism was isolated from fermentation extracts, and the cell lines used for testing were cultured under standard laboratory conditions (37 °C, 5% CO2).
+
+Concise Summary:
+The organism was cultured under standard laboratory conditions, with fermentation performed at 30 °C and cell cultures maintained at 37 °C. No information regarding extreme temperature adaptation (thermophilic, psychrophilic) or specific thermal stress responses was provided. The enzymes were characterized for activity across a broad pH range (pH 6.5–8.5) at 35 °C, but this does not define the organism's optimal growth temperature range.
+
+
+Paper: 2516871.txt
+Thermal Evidence:
+- No specific optimal or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit mention of thermophilic, psychrophilic, mesophilic, or cold tolerance was made.
+- No information regarding heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was provided.
+- The study focused on sporulation induction by nutritional downshift (phosphate/Ca2+), not temperature shifts.
+
+Environmental Context:
+- No environmental source or habitat was mentioned.
+
+Concise Summary:
+Sporulation of several species of *Streptomyces* was observed in submerged cultures following nutritional downshift, specifically triggered by phosphate depletion, which was induced by $	ext{Ca}^{2+}$ addition. Spores formed in submerged cultures were reported to be viable and as thermoresistant as aerial spores. The thermoresistance of spore-shaped bodies formed under $	ext{Ca}^{2+}$ and proline supplementation differed from that of aerial spores. No data regarding optimal growth temperature, temperature ranges, or thermal adaptations were presented.
+
+

@@ -1,64 +1,46 @@
 Summary file for YDI88709
-Number of papers: 5
+Number of papers: 3
 =============Summaries=============
 
-Paper: 42126665.txt
+Paper: PMC13170677.1.txt
 Thermal Evidence:
-- No temperature-related data provided.
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but activity was observed at 37°C and thermal sensing was triggered at temperatures exceeding 42°C.
+- Incubation conditions: 37°C for various assays and incubations.
+- Environmental source/habitat: Human body/in vivo environment.
+- Mention of adaptations: None explicitly mentioned.
 
 Environmental Context:
-- The case involves a patient with severe sepsis, and the causative agent was identified as *Escherichia coli*.
+- Habitat/source: Human body/in vivo environment.
 
 Concise Summary:
-The paper describes the observation of Howell-Jolly body-like inclusions in multiple leukocyte lineages in a patient with severe sepsis caused by *Escherichia coli*. The analysis focuses on hematological morphology and clinical correlation, providing no data regarding the optimal growth temperature, growth temperature range, survival temperature range, incubation conditions, or any specific thermal adaptations (thermophilic, psychrophilic, mesophilic, etc.) for the associated microbes.
+The organism was cultured and maintained under standard physiological conditions, with an optimal growth temperature of 37°C. Assays and incubations were consistently performed at 37°C. The system utilized a thermal sensor (TcI) that was designed to detect temperature increases above 42°C, which was achieved via magnetic hyperthermia, demonstrating a controlled thermal response mechanism rather than inherent thermophilic adaptation. The overall context is the physiological environment of the human body, making the organism functionally mesophilic for therapeutic application.
 
 
-Paper: 42126801.txt
+Paper: PMC13168922.1.txt
 Thermal Evidence:
-- Optimal activity temperature: 25-37 °C
-- Activity tested range: 25-80 °C
-- No explicit optimal growth temperature or survival temperature range provided.
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: 37°C with shaking at 250 rpm (for initial growth/induction); 18°C for 18h (for protein expression/induction); 15°C with shaking at 300 rpm (for secondary screening).
+- Environmental source/habitat: Not specified.
 
 Environmental Context:
-- Source: Sheep milk
+- No mention of extreme environments, thermophilic, psychrophilic, or specific thermal adaptations.
 
 Concise Summary:
-An antibacterial peptide was characterized from a bacterium isolated from sheep milk. The peptide exhibited optimal antibacterial activity between 25-37 °C, with activity tested across a broad range of 25-80 °C. The study does not provide explicit data on the optimal growth temperature or survival temperature range of the source organism. The peptide's activity profile suggests suitability for mesophilic conditions. The mechanism of action involves membrane disruption, which is a general physiological process, but no specific thermal adaptations (thermophilic, psychrophilic, etc.) were reported for the organism or the peptide in relation to temperature stress.
+The experimental procedures utilized various incubation temperatures, including 37°C for initial growth and 250 rpm shaking, 18°C for protein induction and expression, and 15°C for secondary screening. The organism was cultured under standard laboratory conditions, with no evidence provided regarding its natural thermal niche or adaptation to extreme temperatures.
 
 
-Paper: PMC13164941.1.txt
+Paper: 42131215.txt
 Thermal Evidence:
-- The antibacterial performance of the catalyst remained stable over a temperature range of 20–80 °C.
-- The catalyst retained full activity after exposure at 80 °C for 15 min.
-- The catalyst retained > 90% activity across a broad pH range (2–8), demonstrating significantly greater acid–base tolerance than the conventional zinc oxide.
+- Survival temperature range: Tested at -80 °C.
+- Incubation conditions: Storage/testing periods mentioned at 4 °C and up to 60 days.
+- Psychrophilic adaptation: Implied by adaptation to extreme cold and freezing conditions.
 
 Environmental Context:
-- The study utilized an *in vivo* model involving poultry infection, simulating conditions within the gastrointestinal tract.
-
-Concise Summary:
-The catalyst demonstrated excellent thermal stability, maintaining full antimicrobial activity after exposure to 80 °C for 15 minutes. Its antibacterial efficacy was stable across a broad temperature range of 20–80 °C. This high thermal stability, coupled with superior acid tolerance across a pH range of 2–8, suggests suitability for harsh gastrointestinal environments. The *in vivo* testing was conducted using an infected poultry model, simulating the physiological conditions encountered in the gut.
-
-
-Paper: 42126644.txt
-Thermal Evidence:
-- No specific optimal, growth, or survival temperature ranges were provided.
-- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes was made.
-
-Environmental Context:
-- Isolated from endophytic associations within seaweed species (marine environment).
-
-Concise Summary:
-The study investigated endophytic fungi isolated from seaweed hosts. The analysis focused on the antimicrobial potential and metabolic profiles of these fungi. No specific data regarding the optimal, growth, or survival temperatures, or any explicit thermal adaptations (e.g., thermophilic, psychrophilic) were reported for the isolated fungal species. The organisms were sourced from a marine endophytic habitat.
-
-
-Paper: 42126907.txt
-Thermal Evidence:
-- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided.
-
-Environmental Context:
-- The study utilized extracts from plant material, not isolated microorganisms from specific environmental habitats.
-
-Concise Summary:
-This study assessed the antimicrobial activity of ethanolic extracts from a plant source against bacterial pathogens producing a specific beta-lactamase. The analysis focused on bioactive compound identification (phenolics, etc.), ADMET profiling, and molecular docking against the enzyme. No data regarding the thermal physiology, growth temperatures, or environmental adaptation of the target bacteria were reported.
+- Habitat/Source: Antarctic environment.
+- Extreme Environment Isolation: Yes, isolated from Antarctic microorganisms.
+- Explicit Classification: None provided in the text regarding specific temperature classification (e.g., psychrophilic, mesophilic). The adaptation is described generally as being to extreme cold and freezing conditions.
 
 

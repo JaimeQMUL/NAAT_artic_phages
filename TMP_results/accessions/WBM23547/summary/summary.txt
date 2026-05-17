@@ -1,0 +1,65 @@
+Summary file for WBM23547
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC11150434.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but assays were conducted at 37°C.
+- Incubation conditions: Incubated at 37°C with 5% CO2 (for cell culture) or at 37°C (for various assays).
+- Environmental source/habitat: Murine gut/gastrointestinal tract (in vivo models); Gut-on-a-chip microfluidic model simulating intestinal conditions.
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, or cold tolerance adaptations.
+
+Environmental Context:
+- Habitat/Source: Murine gut/gastrointestinal tract (in vivo models); Gut-on-a-chip microfluidic model simulating intestinal conditions.
+
+Concise Summary:
+The organism was studied in models simulating the mammalian gastrointestinal tract. The primary incubation and assay temperature used throughout the study was 37°C, which represents the optimal growth temperature for the bacterial host and the physiological temperature of the murine gut. The study utilized gut-on-a-chip microfluidic devices and in vivo murine models to simulate the intestinal environment, confirming the relevance of 37°C for observing phage-bacterial interactions and pathogenesis.
+
+
+
+Paper: PMC13153029.1.txt
+Thermal Evidence:
+- Stable from 4 °C to 50 °C.
+- Optimal activity observed at 37 °C (physiological temperature).
+- Stability maintained at 4 °C for over a year (long-term storage).
+- Stability declined after 80 min at 60 °C, with an 87.8% reduction in titer.
+- Rapid decline observed at 70 °C.
+- Stable within the temperature range of 4 °C−50 °C.
+
+Environmental Context:
+- Isolated from untreated sewage at a hospital.
+
+Concise Summary:
+The phage exhibits robust thermal stability, maintaining activity across a broad range from 4 °C to 50 °C. It shows optimal activity at 37 °C, consistent with physiological conditions, and demonstrates excellent long-term storage stability at 4 °C. Thermal inactivation begins to occur significantly above 50 °C, with notable decline observed at 60 °C and rapid loss of titer at 70 °C. The phage was isolated from untreated sewage, suggesting adaptation to a complex, potentially variable environmental matrix, though no explicit classification (e.g., thermophilic, psychrophilic) was provided by the authors.
+
+
+Paper: PMC13167280.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organisms were isolated from the vaginal and urogenital tract of human women.
+
+Concise Summary:
+The provided literature review focuses on the role of vaginal microbiota, particularly the protective function of *Lactobacillus* species, in preventing recurrent cystitis. The discussion centers on the physiological mechanisms (e.g., lactic acid production, antimicrobial compound secretion) and clinical efficacy of vaginal suppositories. There is no scientific data presented regarding the thermal physiology, optimal growth temperatures, or temperature adaptations of the microorganisms discussed.
+
+
+Paper: PMC13168905.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Incubation was performed at 37 °C for various time points (up to 48 h).
+- Environmental source/habitat: Gut commensal bacteria (representative of the gut).
+- Mention of specific adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Gut commensal bacteria.
+
+Concise Summary:
+The study utilized two bacterial strains, representative commensal bacteria found in the gut. All experimental procedures, including growth curve determination, MIC testing, ROS measurement, and transcriptome sequencing, were conducted under controlled incubation conditions at 37 °C. The authors did not provide specific data regarding optimal, growth, or survival temperature ranges, nor did they discuss any adaptations related to thermophilic, psychrophilic, or thermal stress responses. The organisms were cultured under standard laboratory conditions simulating gut residence.
+
+

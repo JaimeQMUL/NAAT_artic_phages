@@ -1,0 +1,73 @@
+Summary file for YCL15783
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC12977953.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but viability was assessed at 37 °C.
+- Growth temperature range: Viability was maintained between 25 °C and 42°C.
+- Survival temperature range: Viable between 25 °C and 42°C; inactivated at 80°C.
+- Incubation conditions: Assessed at 25 °C, 37 °C, 42°C, 65°C, and 80°C for 60 min.
+- Environmental source/habitat: Sewage samples from livestock farms.
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: No evidence of psychrophilic adaptation.
+- Mesophilic growth: Indicated by optimal viability range (25–42°C) and assessment at 37°C.
+- Heat tolerance: Viability significantly reduced at 65°C and completely lost at 80°C.
+- Cold tolerance: Viability maintained at 25°C.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Not specified.
+
+Environmental Context:
+- Habitat/source: Sewage samples from livestock farms.
+
+Concise Summary:
+Three lytic bacteriophages were isolated from sewage samples originating from livestock farms. The phages demonstrated viability across a temperature range of 25°C to 42°C, with optimal stability observed at 37°C. Viability was significantly reduced at 65°C and completely lost at 80°C. The phages were assessed under controlled incubation conditions simulating environmental and physiological temperatures. The overall profile suggests mesophilic characteristics, with robust survival at ambient and body temperatures, but limited heat tolerance above 42°C.
+
+
+Paper: PMC13170677.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but activity was observed at 37°C and thermal sensing was triggered at temperatures exceeding 42°C.
+- Incubation conditions: 37°C for various assays and incubations.
+- Environmental source/habitat: Human body/in vivo environment.
+- Mention of adaptations: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/source: Human body/in vivo environment.
+
+Concise Summary:
+The organism was cultured and maintained under standard physiological conditions, with an optimal and tested growth temperature of 37°C. The system utilized a thermal sensor (TcI) that was designed to detect temperature increases above 42°C, indicating a functional response to hyperthermia, which was used as a trigger for autonomous activity. The overall context is the human body, suggesting mesophilic conditions for normal function, while the experimental setup specifically induced supra-physiological temperatures for therapeutic activation.
+
+
+Paper: PMC13168922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: 37°C with shaking at 250 rpm (for initial growth/induction); 18°C for 18h (for protein expression/induction); 15°C with shaking at 300 rpm (for secondary screening); 18°C for 24h (for protein expression).
+- Environmental source/habitat: Not specified.
+- Mention of adaptation: None.
+
+Environmental Context:
+- Habitat/source: Not specified.
+
+Concise Summary:
+The experimental procedures utilized various incubation temperatures for bacterial growth and protein expression. Initial growth and induction for several assays were performed at 37°C with shaking at 250 rpm. Protein expression and induction were also conducted at 37°C, 18°C, and 15°C. The study does not provide information regarding the organism's natural environmental source, extreme environment isolation, or any explicit thermal classification (e.g., mesophile, thermophile). The enzymes were tested under controlled *in vitro* conditions across a range of temperatures (room temperature, 18°C, 15°C) rather than characterizing natural thermal adaptation.
+
+
+Paper: 42131215.txt
+Thermal Evidence:
+- Survival temperature range: Tested at -80 °C.
+- Incubation conditions: Storage/testing periods mentioned at 4 °C and 30-60 days.
+- Psychrophilic adaptation: Implied by adaptation to extreme cold and freezing conditions.
+
+Environmental Context:
+- Habitat/Source: Antarctic environment.
+- Extreme Environment Isolation: Yes, isolated from Antarctic microorganisms.
+- Explicit Classification: None provided (Adaptation to cold/freezing is noted).
+
+Concise Summary:
+Antarctic microorganisms were studied for their cryoprotective potential. The isolates were screened for freezing resistance at -80 °C. The study utilized storage and testing conditions at 4 °C over periods up to 60 days. The organisms are sourced from the Antarctic environment, indicating adaptation to extreme cold and freezing conditions, suggesting psychrophilic characteristics. The research focuses on the cryoprotective properties of their extracted proteins for cell and viral preservation under cold storage conditions.
+
+

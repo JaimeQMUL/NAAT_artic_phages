@@ -1,0 +1,93 @@
+Summary file for WOL24921
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC12685585.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 27°C (mentioned for adsorption assay, one-step growth, and initial phage isolation).
+- Growth temperature range: 4–37°C (stability tested).
+- Survival temperature range: 4°C to 37°C (stability tested).
+- Incubation conditions: 27°C (used for phage adsorption, one-step growth, and initial phage isolation).
+- Environmental source/habitat: Marine/coastal environments (source of the pathogen).
+- Thermal adaptation: The phage exhibited notable stability across a broad temperature range (4–37°C).
+- Heat tolerance: The phage retained infectivity at 37°C but showed significant reduction at 50°C.
+- Cold tolerance: The phage retained infectivity at 4°C.
+
+Environmental Context:
+- Habitat/Source: Marine/coastal environments; the pathogen is associated with aquaculture and foodborne illness.
+- Extreme Environment Isolation: Not explicitly stated, but the pathogen is associated with marine/coastal environments.
+- Explicit Classification: No explicit classification (e.g., mesophile, psychrotolerant) was provided by the authors regarding the phage or pathogen's thermal adaptation, other than noting stability across 4–37°C.
+
+
+Paper: 39762632.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions were detailed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was made.
+
+Environmental Context:
+- The phage was isolated from seawater.
+- The authors did not classify the phage based on temperature adaptation (e.g., mesophile, psychrotolerant). 
+
+Concise Summary:
+Phage characterization details include morphology (icosahedral head, contractible tail), extensive lytic activity against multiple *Vibrio* species, and genomic data (244,027 bp, 42.89% GC content). The phage was isolated from seawater and demonstrated the ability to eradicate mature biofilms. Crucially, the provided text lacks any quantitative or qualitative data regarding optimal growth temperature, temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.).
+
+
+Paper: PMC11246558.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the organisms discussed.
+
+Environmental Context:
+- The studies utilized metagenomic data from diverse sources, including simulated datasets (CAMISIM), semi-simulated environmental samples (marine water samples), and real-world metagenomic samples from a pilot-scale staged anaerobic fluidized membrane bioreactor (SAF-MBR) treating municipal wastewater. The recovered viral material is generally associated with environmental reservoirs, particularly prokaryotic viruses from wastewater/bioreactor systems.
+
+Concise Summary:
+This review focuses on the bioinformatic methodologies for detecting and classifying viruses from metagenomic data using Profile Hidden Markov Models (pHMMs). The analysis covers database comparison, taxonomic purity assessment via entropy calculation, and empirical performance testing across simulated, semi-simulated, and real-world environmental metagenomic datasets. The source material for the viral sequences analyzed originates from complex, diverse environmental reservoirs, such as wastewater bioreactors and marine environments, suggesting the presence of a wide range of viral populations, including many prokaryotic viruses. No direct physiological data regarding temperature optima, ranges, or thermal adaptations were reported for the viruses or associated microbes.
+
+
+Paper: 39762632.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions were detailed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was made.
+
+Environmental Context:
+- The phage was isolated from seawater.
+- The authors did not classify the phage based on temperature adaptation (e.g., mesophile, psychrotolerant). 
+
+Concise Summary:
+Phage characterization details include morphology (icosahedral head, contractible tail), extensive lytic activity against multiple *Vibrio* species, and genomic data (244,027 bp, 42.89% GC content). The phage was isolated from seawater and demonstrated the ability to eradicate mature biofilms. Crucially, the provided text lacks any quantitative or qualitative data regarding optimal growth temperature, temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.).
+
+
+Paper: PMC12614218.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not specified
+- Incubation conditions: 37°C (for *E. coli* and *V. cholerae* cultures); 30°C (for *V. cholerae* natural transformation assays)
+- Environmental source/habitat: Not specified
+- Mention of adaptations: None
+- Explicit classification: None
+
+Environmental Context:
+- Habitat/source: Not specified
+
+Concise Summary:
+The experimental procedures utilized a range of incubation temperatures, primarily 37°C for general bacterial growth of both *E. coli* and *V. cholerae*. Specific assays involving natural transformation were conducted at 30°C. No information regarding optimal, survival, or growth temperature ranges, or any specific thermal adaptations (thermophilic, psychrophilic, etc.) were provided in the text. The organisms were cultured under standard laboratory conditions, and no extreme environmental isolation or explicit thermal classification was mentioned.
+
+
+Paper: PMC3216949.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- Incubation conditions were not specified in terms of temperature.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or enzymes adapted to temperature was made.
+- Membrane adaptations were not discussed in relation to temperature.
+
+Environmental Context:
+- The organism is a gram-negative, facultative anaerobic, rod-shaped bacterium belonging to the family Enterobacteriaceae.
+- The organism was not explicitly stated to be isolated from an extreme environment.
+- No explicit thermal classification was given by the authors.
+
+

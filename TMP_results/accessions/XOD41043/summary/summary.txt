@@ -1,0 +1,144 @@
+Summary file for XOD41043
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC13082176.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37°C (for growth curves, biofilm formation, and phage assays)
+- Environmental source/habitat: Soil, plants, surface water, hospital/clinical settings (nosocomial)
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by optimal growth at 37°C
+- Heat tolerance: Not explicitly tested
+- Cold tolerance: Not explicitly tested
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Soil, plants, surface water, and hospital/clinical environments.
+
+Concise Summary:
+The organism exhibits optimal growth at 37°C, which is the temperature used for all growth curve measurements, biofilm formation, and phage assays. The organism is described as having environmental reservoirs spanning soil, plants, and surface water, in addition to being an opportunistic pathogen in hospital settings. The growth conditions utilized throughout the study were consistently maintained at 37°C. No specific data regarding thermophilic, psychrophilic, or extreme temperature adaptations were provided; the growth profile is consistent with a mesophile.
+
+
+
+Paper: PMC12403702.1.txt
+Thermal Evidence:
+- Optimal culture temperature was determined to be 37°C.
+- The phage demonstrated good stability within the temperature range of 4°C, 21°C, 37°C, and 50°C, showing no statistically significant difference in titer across these conditions.
+- Titer decreased significantly when the temperature exceeded 50°C, with near complete inactivation observed at 70°C.
+- The phage maintained activity at 37°C for host range testing and optimal plaque formation.
+- The one-step growth curve was monitored at 37°C.
+
+Environmental Context:
+- The phage was isolated from the gut of an insect species (*Periplaneta americana* L.).
+
+Concise Summary:
+The phage exhibits optimal growth and stability at 37°C, which was used for plaque assays, host range testing, and one-step growth curve determination. It shows good thermal stability across a range including 4°C, 21°C, 37°C, and 50°C. However, stability significantly declines above 50°C, with near complete inactivation noted at 70°C. The phage was isolated from the gut of an insect species. The analysis suggests mesophilic growth characteristics, with robust activity maintained up to 50°C, indicating good general environmental tolerance within the physiological range of the host pathogen, but lacking thermophilic adaptation.
+
+
+Paper: PMC13170220.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 35°C ± 2°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 35°C ± 2°C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Aerobic incubation at 35°C ± 2°C for 16–20 hours (for ETEST AZA) and 18–24 hours (for BMD).
+- Environmental source/habitat: Clinical specimens/routine clinical specimens.
+- Mention of adaptations: None mentioned.
+- Explicit classification: None given by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/Source: Clinical specimens/routine clinical specimens.
+
+Concise Summary:
+The study details susceptibility testing procedures for Enterobacterales isolates recovered from routine clinical specimens. The standardized incubation conditions utilized for both the ETEST AZA gradient diffusion method and the reference broth microdilution method were aerobic incubation at 35°C ± 2°C. No information regarding the optimal, survival, or environmental temperature ranges, or any specific thermal adaptations (thermophilic, psychrophilic, etc.) of the tested organisms was provided in the manuscript.
+
+
+Paper: PMC13170668.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- Incubation conditions mentioned for fungal assays were $27^	ext{o}	ext{C}$ for 2 days.
+
+Environmental Context:
+- The organism was studied in the context of its natural habitat (nesting materials, brood) and laboratory culture conditions.
+
+Concise Summary:
+The study focused on the biochemical composition and bioactivity of venom peptides from carpenter ants. While the peptides were tested for antifungal activity using an incubation period of 2 days at $27^	ext{o}	ext{C}$, no data regarding the optimal growth temperature, temperature range, or thermal adaptation (thermophilic, psychrophilic, mesophilic) of the organism or its associated enzymes were presented. The peptides' function in antifungal defense was demonstrated *in vitro* and *in vivo* under controlled, moderate temperature conditions.
+
+
+Paper: PMC13170271.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for *E. coli* and *M. tuberculosis* assays).
+- Growth temperature range: 37°C (for *E. coli* and *M. tuberculosis* assays); 30°C (for *S. oneidensis* assays).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C (for *E. coli* and *M. tuberculosis* assays); Overnight incubation at 30°C (for *S. oneidensis* assays).
+- Environmental source/habitat: Not explicitly stated for the tested organisms, though *M. tuberculosis* is mentioned in the context of infection/pathogen studies.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided for the tested organisms regarding temperature adaptation.
+
+Environmental Context:
+- Not explicitly stated.
+
+Concise Summary:
+The study utilized *E. coli* and *Mycobacterium tuberculosis* for assays, with optimal growth and incubation temperatures set at 37°C. For assays involving *Shewanella oneidensis*, the incubation temperature was 30°C. The research focused on the biochemical inhibition of cytochrome c biogenesis pathways (Systems I, II, and III) using various compounds, rather than characterizing the thermal physiology of the tested microorganisms. No data regarding thermophilic, psychrophilic, or general thermal adaptation was presented.
+
+
+Paper: PMC13149954.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 20°C (for maintenance on E. coli DA837).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 37°C (for bacterial culture).
+- Optimal growth temperature: 37°C (for bacterial culture).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+- Optimal growth temperature: 20°C (for survival experiments).
+
+Environmental Context:
+- The organism was maintained on E. coli DA837, a commonly used streptomycin resistant variant of OP50.
+- Pathogen exposure experiments were conducted on EZ worm plates without streptomycin.
+
+Concise Summary:
+The organism was maintained and tested under controlled laboratory conditions, with optimal growth and survival experiments conducted at 20°C. Bacterial cultures, including the pathogen, were grown at 37°C. No evidence of thermophilic, psychrophilic, or extreme environment adaptation was reported. The authors did not provide an explicit thermal classification for the organism.
+
+
+Paper: PMC13156979.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: 37°C for 24 h (conjugation assays) and 37°C for 17 h (growth curve assays).
+- Environmental source/habitat: Clinical infection samples in a hospital setting.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/Source: Clinical infection samples from a tertiary hospital setting.
+
+Concise Summary:
+The organism was cultured and assayed under standard laboratory conditions, with all growth and conjugation experiments conducted at 37°C. The study details the growth kinetics of transconjugants compared to the recipient strain, noting that the growth curves were constructed by measuring OD600 hourly over 17 hours at this temperature. No data regarding optimal, range, or survival temperatures, nor any mention of thermophilic, psychrophilic, or mesophilic adaptation, were provided. The isolation source was exclusively clinical infection samples from a hospital setting.
+
+
+Paper: PMC13169923.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, or survival range was provided for the isolated microorganisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organisms were isolated from clinical samples (bloodstream cultures and catheter tip cultures) of hemodialysis patients.
+
+Concise Summary:
+This study focuses on the microbiology, antimicrobial resistance, and clinical outcomes of catheter-related bloodstream infections (CRBSI) in hemodialysis patients. The microbiological data details the isolation of Gram-positive organisms (predominantly coagulase-negative staphylococci and *Staphylococcus aureus*) and Gram-negative bacteria from clinical specimens. No information regarding the thermal physiology, growth temperatures, or environmental adaptation of the causative pathogens was presented in the text.
+
+

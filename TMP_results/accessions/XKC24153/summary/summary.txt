@@ -1,0 +1,114 @@
+Summary file for XKC24153
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC11782027.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were reported for the identified microbial taxa.
+
+Environmental Context:
+- The study analyzed gut microbiota associated with diabetic nephropathy, implying an intestinal/gut environment.
+
+Concise Summary:
+This study utilized Mendelian randomization to investigate the causal links between gut microbiota, blood metabolites, and diabetic nephropathy. The analysis identified several protective and risk-associated bacterial taxa and metabolites. However, the provided text contains no information regarding the optimal growth temperature, temperature range, survival temperature range, or any specific thermal adaptations (thermophilic, psychrophilic, mesophilic) for the analyzed microbial species. The environmental context is limited to the gut microbiota associated with diabetic nephropathy.
+
+
+Paper: PMC6022435.1.txt
+Thermal Evidence:
+- The study investigated 106 thermophilic eubacteria and 21 thermophilic archaea.
+- Specific temperature ranges mentioned for isolated organisms include: (70-<100) °C, 80 °C, 113 °C, 110 °C, 75 °C, (70–100) °C, 60 °C, 80 °C, 70–100 °C, and 100 °C.
+- The general context is the study of organisms thriving at high temperatures.
+
+Environmental Context:
+- Habitats/Sources include deep-sea hydrothermal vents, decaying vegetables, and general high-temperature environments.
+
+Concise Summary:
+This research focused on quorum sensing mechanisms in thermophilic bacteria and archaea. The organisms analyzed were sourced from high-temperature environments, with reported growth/survival temperatures spanning from 60 °C up to 113 °C. The study explicitly addresses the adaptation of these microbes to high temperatures, noting that the investigation was motivated by the known biofilm formation capabilities of thermophiles. The analysis of quorum sensing systems (AI-1, peptide, AI-2) was conducted across a diverse group of thermophiles, confirming the relevance of AI-2 as a stable signaling molecule in hot environments, while AI-1 was deemed heat labile. The findings suggest that the primary mode of communication investigated in these thermophiles is related to the AI-2 system, involving the presence of LuxS, Pfs, LsrB, and RbsB homologs, which are crucial for signal synthesis and detection under thermophilic conditions. The study highlights the metabolic adaptations, such as the detoxification of S-adenosylhomocysteine (SAH) via SAH hydrolase, which is highly conserved across many thermophiles, suggesting a general adaptation to high-temperature metabolic stress beyond just quorum sensing.
+
+
+Paper: PMC9614321.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: 37°C for 24 hours.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the optimal growth temperature of 37°C.
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Poultry farms (cloacal swabs) in the Banaskantha District, India. The organism is associated with the poultry food chain and is considered a potential reservoir for human transmission.
+
+Concise Summary:
+The organism was isolated from poultry fecal samples in India. The standard laboratory incubation condition used for isolation and initial characterization was 37°C for 24 hours, suggesting mesophilic growth characteristics. No specific data regarding optimal growth temperature range, survival temperature range, or adaptation to extreme temperatures (thermophilic or psychrophilic) were provided in the text.
+
+
+Paper: PMC13154413.1.txt
+Thermal Evidence:
+- No specific temperature parameters (optimal, range, survival, or incubation) were reported for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- The organism was isolated from diverse sources including humans, livestock, fish, and the environment (soil and water). No explicit classification regarding temperature adaptation was provided by the authors.
+
+
+Paper: PMC13118254.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for any organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- No environmental source or habitat information related to temperature was provided.
+
+
+Paper: PMC13127887.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 37 °C for various periods (e.g., 18 to 24 h on rich media, 3 to 5 days on minimal media).
+- Environmental source/habitat: Clinical UTI isolates.
+- Mention of temperature adaptation: None.
+- Explicit classification: None provided regarding temperature adaptation (e.g., mesophile, thermophile).
+
+Environmental Context:
+- Habitat/Source: Clinical urinary tract infection (UTI) isolates.
+
+Concise Summary:
+The study utilized clinical isolates of a common Gram-negative bacterium, which were cultured and incubated under standard laboratory conditions at 37 °C. The experimental procedures involved culturing these isolates on rich media (LB) or minimal media (M9) at this temperature for periods ranging from 18 to 24 hours to several days. No data regarding the organism's optimal, growth, or survival temperature ranges, or any specific adaptations to extreme temperatures (thermophilic, psychrophilic, etc.), were reported. The isolates were sourced from clinical UTI samples.
+
+
+Paper: PMC7188308.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The model organism was studied under various *in vitro* conditions (aerobic LB rich media, aerobic M9+glucose defined minimal media, and anaerobic M9+glucose defined minimal media).
+- The model was also tested using *in vivo* metatranscriptomic data from the cecum of mice, representing a host-associated gut environment.
+
+Concise Summary:
+The study focuses on predicting context-specific metabolic activity in a model bacterium using transcriptomic data integrated with genome-scale metabolic networks. The physiological context explored includes growth in rich media (LB), defined minimal media (M9+glucose) under both aerobic and anaerobic conditions, and *in vivo* conditions within the mammalian gut. The analysis demonstrates the method's ability to capture distinct metabolic strategies associated with these varying environmental niches, such as differential utilization of NADPH sources and substrate preferences, without requiring explicit knowledge of the precise growth conditions. The organism was studied in both controlled laboratory settings and a complex host-associated environment.
+
+
+Paper: PMC13112000.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for initial incubation/shaking).
+- Growth temperature range: 30°C (set for bioreactor incubation).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Orbital shaker at 200 rpm, 37°C; Bioreactor incubation at 30°C.
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/Source: Not specified; laboratory/bioprocess setting.
+
+Concise Summary:
+The organism was cultured under controlled laboratory and bioreactor conditions. Optimal initial incubation was performed at 37°C, while the main bioreactor fermentation was conducted at 30°C. The study details controlled temperature maintenance throughout the process but provides no information regarding the organism's natural isolation from extreme thermal environments, nor does it classify the organism based on thermal adaptation (e.g., mesophile, thermophile). The focus remains on optimizing performance under controlled, non-extreme bioprocess conditions.
+
+

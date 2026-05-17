@@ -1,0 +1,62 @@
+Summary file for XLQ29474
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 10°C (implied by storage at 4°C for phages).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The incubation conditions varied, with some isolations occurring at 22°C and others at 37°C.
+
+Concise Summary:
+The study details the development of a high-throughput, low-cost sequencing method for bacteriophages. The phages were isolated from diverse environmental sources, including wastewater, pig trough water, and seawater. Incubation and plaque assays were conducted at varying temperatures, specifically noting conditions at 22°C (for cyanophages) and 37°C (for phages against *Enterobacter* group). The methodology itself does not focus on characterizing the thermal adaptation of the phages, but rather on the genomic sequencing process, which was applied to phages isolated under these varied temperature regimes.
+
+
+Paper: PMC13121708.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but 37°C is used for incubation.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 37°C (e.g., for phage propagation and droplet incubation).
+- Environmental source/habitat: Not specified for the general system, but the context involves studying phage-host interactions.
+- Mention of specific adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Not specified.
+
+Concise Summary:
+The experimental procedures consistently utilize an incubation temperature of 37°C for bacterial culture preparation, phage propagation, and the incubation of the microfluidic droplets. No specific information regarding the optimal growth temperature range, survival temperature range, or adaptations (thermophilic, psychrophilic, etc.) was provided for the organisms studied. The system is designed to operate under controlled, isothermal conditions at 37°C.
+
+
+Paper: 42026126.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The analyzed genomes spanned diverse environmental and clinical sources.
+- The study identified previously uncharacterized capsule types enriched in undersampled environments and associated with disease.
+
+
+Paper: PMC13156834.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: 37°C
+- Environmental source/habitat: Broiler chickens (in vivo/in vitro culture)
+
+Environmental Context:
+- Habitat/Source: Poultry/Broiler chickens
+
+Concise Summary:
+The organism was cultured and maintained under standard physiological conditions, with optimal and consistent growth and incubation temperatures recorded at 37°C. No information regarding extreme temperature adaptation (thermophilic, psychrophilic) or specific thermal stress responses was provided. The organism was isolated from a poultry/broiler chicken source, indicating a mesophilic lifestyle consistent with mammalian hosts.
+
+
+Paper: PMC13153321.1.txt
+No information found.
+
+

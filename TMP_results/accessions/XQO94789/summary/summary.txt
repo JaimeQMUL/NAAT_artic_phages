@@ -1,0 +1,121 @@
+Summary file for XQO94789
+Number of papers: 8
+=============Summaries=============
+
+Paper: 42114400.txt
+Thermal Evidence:
+- Accelerated stability test conducted at 37 °C.
+- Long-term stability test conducted at 4 °C.
+
+Environmental Context:
+- Not specified.
+
+
+Paper: 42080579.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organisms or processes studied.
+
+Environmental Context:
+- The study utilized a naturalistic host model (zebrafish larvae) for *in vivo* investigation, simulating a gut environment. The bacteria were studied in the context of colonization within this host.
+
+Concise Summary:
+This study investigated the interaction between a pathogenic bacterium and a bacteriophage in the zebrafish larval intestine, a naturalistic host model. The research focused on phage-mediated clearance of the pathogen during colonization, examining the role of the resident microbiome. No specific data regarding the optimal, growth, or survival temperatures, or any thermal adaptations (thermophilic, psychrophilic, etc.) were reported in the provided text.
+
+
+Paper: PMC13169385.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the organism.
+
+Environmental Context:
+- The organism was isolated from the small intestinal epithelium (SI) of humans, which is a mammalian host environment.
+
+Concise Summary:
+This study focuses on the molecular interactions between a bacterial enterotoxin's B subunit and synthetic glycopolymers using Surface Plasmon Resonance (SPR) to develop potential oral antitoxin therapies. The research details the binding kinetics, stability, and structural requirements for inhibiting the toxin, with no information provided regarding the organism's optimal growth temperature, temperature range, or thermal adaptations.
+
+
+Paper: PMC13142089.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but one-step growth analysis was performed at 28°C.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: Viable at 40°C; activity began to decline at 50°C, losing activity entirely when heated at more than 60°C for 1 hour.
+- Incubation conditions: One-step growth analysis was conducted at 28°C.
+- Environmental source/habitat: Isolated from the sandy area of Kota Kinabalu, Sabah, Malaysia.
+- Thermophilic adaptation: No evidence provided.
+- Psychrophilic adaptation: No evidence provided.
+- Mesophilic growth: The phage was stable at 40°C, suggesting mesophilic tolerance, but the optimal range is not defined.
+- Heat tolerance: Lytic activity was lost above 60°C for 1 hour.
+- Cold tolerance: The phage was stable at 40°C.
+- Enzymes adapted to temperature: No specific enzymes adapted to temperature were detailed.
+- Membrane adaptations: No information provided.
+- Thermal stress responses: The phage showed stability at 40°C, but activity decreased significantly above 60°C.
+
+Environmental Context:
+- Habitat/Source: Sandy area of Kota Kinabalu, Sabah, Malaysia.
+
+Concise Summary:
+The phage was isolated from the sandy area of Kota Kinabalu, Sabah, Malaysia. In vitro kinetic studies were performed at 28°C. Regarding thermal stability, the phage maintained viability at 40°C but showed a marked decline in activity starting at 50°C, with complete inactivation observed after incubation at temperatures exceeding 60°C for one hour. These findings suggest a mesophilic nature with limited high-temperature tolerance, which is critical for downstream application considerations.
+
+
+Paper: 42090863.txt
+Thermal Evidence:
+- Survival temperature range: 4 °C to 85 °C (retaining >99% activity after 30 min pre-incubation).
+- Incubation conditions: Tested over a wide temperature range (4 °C to 85 °C).
+
+Environmental Context:
+- Habitat/Source: Food and environmental settings (related to a seafood-borne pathogen).
+
+Concise Summary:
+One characterized lysin demonstrated exceptional thermostability, retaining over 99% of its antibacterial activity after pre-incubation for 30 minutes across a broad temperature range spanning 4 °C to 85 °C. The activity was tested across this range, indicating significant thermal robustness. The application context suggests relevance for environmental and food-contact surface control.
+
+
+Paper: PMC8667730.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C (for culturing in LB broth).
+- Growth temperature range: 28°C (for culturing in LB broth).
+- Incubation conditions: 28°C (for FIECs incubation).
+- Incubation conditions: 37°C (for *E. coli* transformation/culture).
+- Incubation conditions: 28°C (for *in vivo* feeding experiment).
+- Incubation conditions: 18°C (for Native PAGE analysis).
+- Incubation conditions: 30°C (for yeast growth).
+- Survival temperature range: Not explicitly stated.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by optimal growth at 28°C and 37°C.
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Marine environment (coastal and estuarine seawater).
+- Extreme Environment Isolation: No explicit mention of isolation from an extreme environment.
+- Explicit Classification: No explicit thermal classification provided by the authors.
+
+
+Paper: 24931498.txt
+Thermal Evidence:
+- Optimal enzymatic activity observed at 5°C.
+- PPIase expression was increased under low temperature (15°C) incubation conditions.
+- No explicit optimal growth temperature or general survival temperature range was provided for the organism.
+
+Environmental Context:
+- The organism is a marine bacterium.
+
+Concise Summary:
+The study investigated protein expression changes in a marine bacterium when incubated at low temperatures (15°C) and alkaline pH (pH 10), noting increased expression of a peptidyl-prolyl cis/trans isomerase (PPIase) under these conditions. While the organism's general optimal growth temperature is not stated, the purified recombinant PPIase exhibited peak enzymatic activity at 5°C. The organism is sourced from a marine environment. The data strongly suggest adaptation or activity under cold conditions (psychrophilic/cold tolerance) for the characterized enzyme, but no explicit classification (e.g., psychrotolerant) was provided by the authors.
+
+
+Paper: 25747528.txt
+Thermal Evidence:
+- Optimal activity observed at low temperature (5°C).
+- No explicit optimal growth or survival temperature range provided.
+- Incubation conditions for activity assay were alkaline (pH 10).
+
+Environmental Context:
+- Isolated from a marine bacterium (Vibrio anguillarum).
+
+Concise Summary:
+An enzyme isolated from a marine bacterium exhibited optimal enzymatic activity at low temperatures (5°C). The study assessed its chaperone-like activity and biochemical properties under these specific low-temperature conditions. No information regarding the organism's optimal growth temperature, survival temperature range, or specific thermal adaptation classification (e.g., psychrophilic, mesophilic) was provided in the text.
+
+

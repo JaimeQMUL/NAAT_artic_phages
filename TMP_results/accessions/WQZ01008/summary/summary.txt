@@ -1,0 +1,119 @@
+Summary file for WQZ01008
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC9776900.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptations were reported for the systems or organisms studied.
+
+Environmental Context:
+- The study focuses on *in vitro* and *in vivo* visualization of chromatin dynamics in various cell types (e.g., CHO cells, HeLa cells, mouse embryonic stem cells, *Arabidopsis thaliana* cells, human cells) under standard laboratory culture conditions, not on the isolation or growth of microorganisms from extreme environments.
+
+Concise Summary:
+This review details advanced experimental approaches for visualizing chromatin dynamics in live cells, covering techniques like FROS, ParB-INT, ZFP, TALE, and CRISPR imaging. The focus is entirely on molecular biology, genome organization, and live-cell imaging methodologies. There is no information provided regarding the optimal growth temperature, temperature range, survival temperature, or any thermal adaptations (thermophilic, psychrophilic, mesophilic) of any organism studied.
+
+
+Paper: PMC13172174.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37°C under aerobic conditions
+- Environmental source/habitat: Clinical infections (veterinary context)
+- Mention of thermal adaptation: None
+
+Environmental Context:
+- Habitat/source: Clinical infections (veterinary context)
+
+Concise Summary:
+The microbiological assays were conducted under controlled laboratory conditions, with the optimal and standard incubation temperature consistently set at 37°C under aerobic conditions. The bacterial strains tested were clinical isolates obtained from infections, indicating a typical mammalian host environment. No data regarding the organism's adaptation to extreme temperatures (thermophilic, psychrophilic) or specific thermal stress responses were reported in the study.
+
+
+Paper: PMC13171946.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C
+- Growth temperature range: 30 °C (log phase culture)
+- Survival temperature range: Tested at 30 °C (for growth/viability) and subjected to acid shock (pH 4).
+- Incubation conditions: Growth monitored at 30 °C for 48 h; Western blot analysis involved growth at 30 °C followed by harvesting at 37 °C for specific assays.
+- Environmental source/habitat: Not explicitly stated, but the organism is described as an 'aquatic bacterium' and adapted to 'oligotrophic environments'.
+- Thermal adaptation: No explicit classification (e.g., mesophile, thermophile) is given, but the primary growth temperature is 30 °C, suggesting mesophilic growth.
+
+Environmental Context:
+- Habitat/Source: Aquatic environment; adapted to oligotrophic conditions.
+
+Concise Summary:
+The organism exhibits optimal growth at 30 °C, with standard culture and viability assays performed at this temperature. While the organism is described as an 'aquatic bacterium' adapted to 'oligotrophic environments,' no explicit classification regarding thermal adaptation (e.g., mesophile) is provided. The study utilized a comparative temperature approach, growing the organism at 30 °C for routine assays, but also subjected cells to a higher temperature of 37 °C for specific protein localization studies. The physiological responses investigated (e.g., stress adaptation, cell differentiation) are linked to environmental cues like calcium and pH, rather than thermal extremes, suggesting adaptation to moderate, stable aquatic conditions.
+
+
+Paper: PMC13163687.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 15 °C (for intracellular protein extraction).
+- Growth temperature range: 4 °C, 15 °C, 25 °C (for various assays/growth).
+- Survival temperature range: -80 °C (screening criterion); -18 °C (cryopreservation assays); 4 °C (viral stability assays).
+- Incubation conditions: Cultivation at 25 °C (for *E. coli*); 37 °C (for HEK293 cells).
+- Environmental source/habitat: Antarctic soil, moss, permafrost, marine sediment.
+- Psychrophilic adaptation: Explicitly mentioned; isolates are adapted to extreme cold and freezing conditions.
+- Cold tolerance: Demonstrated through survival screening at -80 °C and functional assays at -18 °C.
+- Heat tolerance: Extracellular proteins showed resistance to high temperatures (100 °C for 30 min).
+
+Environmental Context:
+- Habitat/Source: Antarctic soil, moss, permafrost, and marine sediment.
+
+Concise Summary:
+Antarctic microorganisms were isolated from extreme environments including soil, moss, permafrost, and marine sediment. These isolates exhibit strong adaptations to cold and freezing conditions, with survival screening conducted at -80 °C and functional assays performed at -18 °C. Optimal growth conditions utilized in the study included 15 °C for protein extraction, while other assays were conducted at 4 °C, 25 °C, or 37 °C. The organisms are characterized as psychrophilic/cold-adapted. The study noted that extracellular proteins retained cryoprotective activity after heat treatment at 100 °C for 30 minutes, indicating high thermal stability for these secreted biomolecules. The overall findings confirm the relevance of these psychrophilic microbes as sources of cryoprotective compounds for various biological systems.
+
+
+Paper: PMC13172129.1.txt
+Thermal Evidence:
+- Optimal temperature for enzyme assays and cascade reactions was $30^	ext{o}	ext{C}$.
+- Optimal pH was 6.5.
+- The co-immobilized cascade demonstrated enhanced tolerance to elevated temperatures, retaining over 50% of its relative activity after incubation at $70^	ext{o}	ext{C}$, compared to free enzymes which retained only about 10% activity.
+- The system showed enhanced stability across a broad temperature range ($30^	ext{o}	ext{C}$ to $70^	ext{o}	ext{C}$). 
+
+Environmental Context:
+- The study utilized *E. coli* BL21(DE3) for protein expression and purification, which are generally mesophilic laboratory strains.
+
+Concise Summary:
+The biocatalytic system was optimized and tested under mild conditions, with the optimal reaction temperature determined to be $30^	ext{o}	ext{C}$ and optimal pH of 6.5. The co-immobilization strategy conferred significant thermal robustness, allowing the system to retain over 50% of its activity after incubation at $70^	ext{o}	ext{C}$, substantially exceeding the stability of the free enzyme preparation. The enzymes were expressed using standard laboratory strains (*E. coli*), and the operational stability testing confirmed the system's enhanced tolerance to elevated temperatures, suggesting a degree of engineered thermal resilience for industrial application. No specific thermophilic or psychrophilic adaptations were reported for the enzymes or the system itself.
+
+
+Paper: 42136996.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range were provided for the organism.
+- No mention of incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses was provided.
+
+Environmental Context:
+- The organism was produced in a laboratory setting (implied by 'produced in E. coli').
+- No extreme environment source was mentioned.
+- No explicit thermal classification was given by the authors.
+
+
+Paper: 42133148.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The isolates were collected from urine samples.
+- The organisms were not isolated from an extreme environment.
+- No explicit thermal classification was given by the authors.
+
+
+Paper: PMC13171638.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C (mentioned for initial screening and subsequent assays).
+- Growth temperature range: 30 °C (primary incubation temperature).
+- Survival temperature range: Growth was tested at 30 °C and 50 °C.
+- Incubation conditions: Cultivation was performed in minimal medium under high osmolarity conditions (e.g., 240 mM TPA, $\sim$1.2 Osm).
+- Environmental source/habitat: Compost enrichment cultures.
+- Thermal adaptation notes: The absence of microbial growth at 50 °C indicated that the TPA-degrading populations in the tested compost are predominantly mesophilic.
+- Explicit classification: The authors noted that the observed growth pattern is consistent with mesophilic organisms.
+
+Environmental Context:
+- Habitat/Source: Compost enrichment cultures.
+
+Concise Summary:
+The isolated strains were sourced from compost enrichment cultures. Growth screening was conducted at 30 °C and 50 °C. The results indicated that the TPA-degrading populations are predominantly mesophilic, as no growth was observed at 50 °C. The primary incubation conditions utilized for high-load TPA degradation involved minimal medium under substantial osmotic stress ($\sim$1.2 Osm) at 30 °C. The strains demonstrated robustness under these osmotically and nutritionally challenging conditions.
+
+

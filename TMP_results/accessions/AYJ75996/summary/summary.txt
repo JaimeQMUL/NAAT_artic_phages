@@ -1,0 +1,92 @@
+Summary file for AYJ75996
+Number of papers: 5
+=============Summaries=============
+
+Paper: 41985590.txt
+Thermal Evidence:
+- Growth temperature range: 30-60°C
+- Survival temperature range: 30-60°C
+- Optimal growth temperature: Not explicitly stated
+- Incubation conditions: Not explicitly stated
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by the tested range (30-60°C)
+- Heat tolerance: Demonstrated stability up to 60°C
+- Cold tolerance: Demonstrated stability down to 30°C
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Isolated from an animal species (T. sinensis) infected with a pathogenic bacterium.
+- Extreme environment isolation: No.
+- Explicit classification: No explicit classification given regarding temperature adaptation (e.g., mesophile, thermophile).
+
+
+Paper: 41950871.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The phages were isolated from the rhizosphere of canola plants.
+- No indication that the organism was isolated from an extreme environment.
+- The authors provided taxonomic classification for the phages (Reminisvirus genus and proposed Zaviarvirus genus) but did not provide explicit physiological classifications regarding temperature adaptation (e.g., mesophile, thermophile).
+
+
+Paper: PMC13064462.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37 °C.
+- Survival temperature range: Phages retained titers after incubation at 4 °C, 37 °C, 50 °C, 60 °C, and 70 °C; PJNB030 and PJNB032 retained titers after 80 °C for 60 min.
+- Incubation conditions: Assays were performed at 37 °C for various durations (e.g., 1 h for pH stability, 12 h for plaque assay, 72 h for biofilm assay).
+- Environmental source/habitat: Isolated from a contaminated fermentation broth.
+- Thermophilic adaptation: No explicit mention.
+- Psychrophilic adaptation: No explicit mention.
+- Mesophilic growth: Implied by optimal growth at 37 °C.
+- Heat tolerance: Demonstrated by the retention of phage titers after exposure to 80 °C for 60 min for two of the three phages.
+- Cold tolerance: Assays were performed at 4 °C.
+- Enzymes adapted to temperature: Not discussed.
+- Membrane adaptations: Not discussed.
+- Thermal stress responses: Demonstrated by phage survival at elevated temperatures.
+
+Environmental Context:
+- Habitat/source: Contaminated fermentation broth.
+
+Concise Summary:
+Three phages were isolated from a contaminated fermentation broth. Phenotypic characterization showed that the phages maintained stability across a broad pH range (pH 4–10). Thermal stability assays indicated that while one phage was inactivated at 80 °C for 40 min, the other two phages retained measurable titers even after prolonged exposure to 80 °C (up to 60 min). The optimal growth and assay temperature was consistently 37 °C, with assays also conducted at 4 °C. The phages exhibited significant environmental resilience, suggesting robust stability beyond typical mesophilic conditions. The study utilized these thermal parameters to characterize the phages' environmental tolerance for industrial application.
+
+
+
+Paper: PMC13125745.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial growth/phage propagation).
+- Growth temperature range: 37°C (for bacterial growth).
+- Survival temperature range: The phage retained infectivity over a temperature range of -20 to 50°C. The endolysin and its fusion protein retained activity over a temperature range of -20 to 60°C.
+- Incubation conditions: Bacterial growth was typically performed with shaking at 37°C. Phage stability was tested at various temperatures.
+- Environmental source/habitat: Sewage samples were used for phage isolation.
+- Mention of adaptations: No explicit classification (e.g., thermophilic, psychrophilic) was given. The stability data indicates tolerance across a wide range, suggesting robustness, but no specific adaptation mechanism was detailed.
+
+Environmental Context:
+- Habitat/Source: Sewage samples were the source of the bacteriophage.
+
+Concise Summary:
+The bacterial host was cultured optimally at 37°C. The bacteriophage exhibited stability across a broad temperature range, retaining infectivity between -20°C and 50°C. The derived endolysin and its fluorescent fusion protein demonstrated even greater thermal stability, maintaining activity between -20°C and 60°C. The phage was isolated from sewage. The data supports the use of these components in various temperature regimes, indicating significant thermal robustness for downstream applications.
+
+
+Paper: PMC5977233.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated, but fermentation was conducted at 37 °C.
+- Incubation conditions: Incubation at 37 °C for various periods (e.g., 12 h, 72 h).
+- Environmental source/habitat: Isolated from Meju (a dried fermented soybean brick) and tested in Cheonggukjang (a soybean fermented food).
+- Adaptation notes: No explicit mention of thermophilic, psychrophilic, or specific thermal adaptation mechanisms were provided for the phage or host bacterium.
+
+Environmental Context:
+- Habitat/Source: Soybean-based fermented foods (Meju, Cheonggukjang).
+
+Concise Summary:
+Bacteriophage BSP10 was isolated from Meju, a dried fermented soybean brick, and its activity was tested in Cheonggukjang, a soybean fermented food. The optimal and tested growth temperature for both the host bacterium and the phage was 37 °C. The study details incubation conditions at this temperature for periods up to 72 hours. No specific thermal adaptations (thermophilic, psychrophilic) were characterized, but the organism was sourced from a fermented food matrix, indicating adaptation to mesophilic conditions typical of such environments.
+
+

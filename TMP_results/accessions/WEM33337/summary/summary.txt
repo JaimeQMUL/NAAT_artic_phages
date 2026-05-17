@@ -1,0 +1,201 @@
+Summary file for WEM33337
+Number of papers: 12
+=============Summaries=============
+
+Paper: PMC11877940.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubations were carried out at 37°C.
+- Environmental source/habitat: Isolated from a commercial phage therapy cocktail.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by optimal growth at 37°C.
+- Heat tolerance: No specific data provided.
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Isolated from a commercial phage therapy cocktail, targeting a pathogen associated with healthcare-associated infections.
+
+Concise Summary:
+The phage was isolated from a commercial phage therapy cocktail and was characterized using standard laboratory conditions, with all bacterial growth and phage assays conducted at an optimal temperature of 37°C. The data supports mesophilic growth conditions typical for human pathogens. No information regarding extreme temperature adaptations (thermophilic or psychrophilic) was provided in the study.
+
+
+
+Paper: PMC12805682.1.txt
+Thermal Evidence:
+- Optimal stability observed at pH 7, with good thermal stability up to 45 °C.
+- Significant reduction in titer observed at 55 °C, with further reductions at 65 °C and 75 °C.
+- The phage demonstrated good thermal stability across a range of 4 °C to 55 °C.
+- The phage showed good tolerance to different pH values ranging from 3 to 11, with maximum stability at pH 7.
+
+Environmental Context:
+- Isolated from sewage water.
+
+Concise Summary:
+The phage exhibited good thermal stability up to 45 °C, with viability decreasing significantly at 55 °C and further at 65 °C and 75 °C. The phage maintained stability across a broad pH range (3 to 11), peaking at pH 7. These stability profiles suggest suitability for use in various formulations. The phage was isolated from sewage water, and the overall characterization points to mesophilic characteristics, with demonstrated tolerance to moderate temperature fluctuations.
+
+
+Paper: PMC12837969.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but stability assays were performed at 37 °C for some tests.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: Stable at psychrotrophic and mesophilic temperatures (10–50 °C).
+- Incubation conditions: Stability assays were conducted at 10–50 °C for 1 h. 
+- Environmental source/habitat: Aquaculture pond water.
+- Thermophilic adaptation: No evidence.
+- Psychrophilic adaptation: Evidence of stability at psychrotrophic temperatures.
+- Mesophilic growth: Evidence of stability at mesophilic temperatures.
+- Heat tolerance: Activity terminated at 60–80 °C.
+- Cold tolerance: Stable at 10 °C.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Not specified.
+
+Environmental Context:
+- Habitat/Source: Aquaculture pond water.
+- Extreme environment isolation: No evidence of isolation from an extreme environment.
+- Explicit classification: The phage was noted to be stable at psychrotrophic and mesophilic temperatures, suggesting adaptation to these ranges.
+
+
+Paper: PMC12898486.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C (for plaque assays and propagation)
+- Incubation conditions: Overnight incubation at 37 °C (for plaque assays); Incubation at 37 °C with shaking (for initial enrichment/propagation).
+- Environmental source/habitat: Poultry-farm environment (soil, water, and chicken waste).
+- Mention of thermal adaptation: None explicitly mentioned.
+- Explicit classification: None given regarding temperature adaptation (e.g., mesophile, thermophile).
+
+Environmental Context:
+- Habitat/Source: Poultry-farm environment (Saudi Arabia).
+
+Concise Summary:
+The phage was isolated from a poultry-farm environment (soil, water, and chicken waste). In vitro characterization and propagation were conducted under standard laboratory conditions, with optimal growth and plaque assays performed at 37 °C. No specific data regarding the phage's thermal adaptation, survival temperature range, or enzymes adapted to temperature extremes were reported. The study utilized standard mesophilic incubation conditions for its initial isolation and subsequent phenotyping against clinical isolates.
+
+
+Paper: PMC10213699.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C and 37°C (for bacterial growth/infection assays).
+- Growth temperature range: 30°C and 37°C (for bacterial growth/infection assays).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 30°C for at least 12h (for plaque formation); Incubation at 30°C for 2h (for bacterial challenge assay); Incubation at 37°C (for bacterial growth/plasmid curing).
+- Environmental source/habitat: Animal fecal samples.
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes.
+- Explicit classification: No explicit thermal classification provided by the authors.
+
+Environmental Context:
+- Habitat/Source: Animal fecal samples.
+
+Concise Summary:
+The phage was isolated from animal fecal samples. Bacterial growth and phage assays were conducted under controlled laboratory conditions, with optimal growth and infection temperatures noted at 30°C and 37°C. The study details incubation periods at these temperatures for plaque formation and bacterial challenge assays. No evidence of isolation from extreme thermal environments or specific thermal adaptations (thermophilic, psychrophilic, etc.) was reported.
+
+
+Paper: 42139236.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No incubation conditions were specified.
+- The assay utilized a commercial DNA Taq polymerase with specified thermal cycling parameters (TRR: 2.2 °C/s, annealing and extension hold time: 1 s).
+- The assay involved distinct time points for PCR (30 min) and CRISPR detection (20 min).
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific enzyme temperature adaptations was made.
+
+Environmental Context:
+- The assay was tested using spiked poultry fecal samples.
+- The organism was not stated to be isolated from an extreme environment.
+- No explicit thermal classification was given by the authors.
+
+
+Paper: PMC12475279.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C for plaque assays; growth to mid-log phase at 37°C for other assays.
+- Environmental source/habitat: Not specified, but the organism is *E. coli*.
+- Mention of adaptations: None mentioned.
+- Explicit classification: None given by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/source: Not specified.
+
+Concise Summary:
+The experimental procedures utilized *E. coli* MG1655 and other *E. coli* strains. The primary growth and incubation conditions for the assays (plaque assays, bacterial growth assays, and tRNA sequencing) were consistently maintained at 37°C. No information regarding the organism's natural habitat, extreme environment isolation, or specific thermal adaptations (thermophilic, psychrophilic, etc.) was provided in the text. The study focuses on molecular mechanisms of antiphage defense rather than physiological temperature profiling.
+
+
+Paper: 42139344.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The discussion references environmental niches: 'soil where tryptophan is scarce and unevenly distributed' and 'fluctuating gut environments'.
+- No explicit classification regarding temperature adaptation was given.
+
+
+Paper: 42139650.txt
+Thermal Evidence:
+- Thermal stability observed: 60% activity retained at 75 °C.
+
+Environmental Context:
+- Source organism is a halotolerant bacterium capable of growing in environments containing up to 25% NaCl.
+- The enzyme exhibits good thermostability, suggesting potential for use in processes requiring extreme temperatures.
+
+Concise Summary:
+The enzyme was characterized from a halotolerant bacterium capable of growth in high salt concentrations (up to 25% NaCl). The enzyme demonstrated significant thermal stability, retaining 60% activity at 75 °C. The authors highlight the enzyme's potential for industrial processes requiring extreme temperature, salt, and pH conditions, indicating good thermostability.
+
+
+Paper: PMC11974896.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37 °C for plaque assays; growth to mid-log phase at 37 °C for other assays.
+- Environmental source/habitat: Not specified, but the organism is *E. coli* MG1655, a common laboratory strain.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/Source: The study utilized *E. coli* MG1655, a common laboratory strain, and the retron system was identified in *E. coli* FORC 82.
+
+Concise Summary:
+The experimental procedures were conducted using *E. coli* MG1655 and *E. coli* FORC 82 strains. The primary growth and incubation conditions utilized throughout the study were at 37 °C. No information regarding the optimal, range, or survival temperatures, or any specific thermal adaptations (thermophilic, psychrophilic, etc.) for the organism or its components, was provided in the text. The organism was not reported to be isolated from an extreme environment.
+
+
+Paper: PMC10213699.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C and 37°C (for bacterial growth/infection assays).
+- Growth temperature range: 30°C and 37°C (for bacterial growth/infection assays).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 30°C for at least 12h (for plaque formation); Incubation at 30°C for 2h (for bacterial challenge assay); Incubation at 37°C (for bacterial growth/plasmid curing).
+- Environmental source/habitat: Animal fecal samples.
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes.
+- Explicit classification: No explicit thermal classification provided by the authors.
+
+Environmental Context:
+- Habitat/Source: Animal fecal samples.
+
+Concise Summary:
+The phage was isolated from animal fecal samples. Bacterial growth and phage assays were conducted under controlled laboratory conditions, with optimal growth and infection temperatures noted at 30°C and 37°C. The study details incubation periods at these temperatures for plaque formation and bacterial challenge assays. No evidence of isolation from extreme thermal environments or specific thermal adaptations (thermophilic, psychrophilic, etc.) was reported.
+
+
+Paper: PMC6780365.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C with constant shaking
+- Environmental source/habitat: Retail raw chicken
+- Mention of specific adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Retail raw chicken (food source).
+
+Concise Summary:
+The study utilized standard laboratory incubation conditions for bacterial growth, specifically maintaining cultures at 37 °C with constant shaking. The isolates were sourced from retail raw chicken, indicating a foodborne environmental reservoir. No data regarding optimal, growth, or survival temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.), were reported for the bacteria. The physiological context is limited to standard mesophilic growth conditions typical for human/animal pathogens.
+
+

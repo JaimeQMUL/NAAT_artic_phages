@@ -1,0 +1,126 @@
+Summary file for WKV22974
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC12685909.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 37 °C.
+- Environmental source/habitat: The bacterial hosts were drawn from the well-characterized ECOR collection, representing diverse ecological sources, including strains from the gut.
+- Mention of temperature adaptation: No specific mention of thermophilic, psychrophilic, mesophilic, heat tolerance, or cold tolerance adaptations was found.
+
+Environmental Context:
+- Habitat/Source: The study utilized *E. coli* strains from the ECOR collection, representing diverse phylogenetic backgrounds and ecological sources, including strains from the gut.
+
+Concise Summary:
+The experimental conditions for phage evolution and virulence assays were consistently maintained at 37 °C. The bacterial hosts were sourced from the ECOR collection, representing diverse ecological niches, including the gut microbiota. The paper does not provide specific data regarding the optimal, range, or survival temperatures for the organisms, nor does it discuss any adaptations related to extreme temperatures (thermophilic, psychrophilic, etc.). The physiological context is confined to standard laboratory incubation at 37 °C.
+
+
+Paper: PMC11782027.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were reported for the identified microbial taxa.
+
+Environmental Context:
+- The study analyzed gut microbiota associated with diabetic nephropathy, implying an intestinal/gut environment.
+
+Concise Summary:
+This study utilized Mendelian randomization to investigate the causal links between 412 gut microbiota taxa, 1,400 blood metabolites, and diabetic nephropathy. The analysis identified specific taxa (e.g., *Escherichia coli* str. K-12 substr. MG1655, *Listeria monocytogenes* 10403S, *Adlercreutzia*, *Haemophilus*, *Bacteroides*) and metabolites associated with the condition. The findings are based on genetic association data and do not contain any explicit information regarding the optimal growth temperature, temperature range, or thermal adaptations of the analyzed microorganisms. The context is the human gut microbiota in relation to diabetic nephropathy.
+
+
+Paper: PMC6022435.1.txt
+Thermal Evidence:
+- The study investigated 106 thermophilic eubacteria and 21 thermophilic archaea.
+- Specific temperature ranges mentioned for isolated organisms include: (70-<100) °C, 80 °C, 113 °C, 110 °C, 75 °C, (70–100) °C, 60 °C, 80 °C, 70–100 °C, and 100 °C.
+- The general context is the study of organisms thriving at high temperatures.
+
+Environmental Context:
+- Habitats/Sources include deep-sea hydrothermal vents, decaying vegetables, and general high-temperature environments.
+
+Concise Summary:
+This research focused on quorum sensing mechanisms in thermophilic bacteria and archaea. The organisms analyzed were sourced from high-temperature environments, with reported growth/survival temperatures spanning from 60 °C up to 113 °C. The study explicitly addresses the adaptation of these microbes to high temperatures, noting that the investigation was motivated by the known biofilm formation capabilities of thermophiles. The analysis of quorum sensing systems (AI-1, peptide, AI-2) was conducted across a diverse group of thermophiles, confirming the relevance of AI-2 as a stable signaling molecule in hot environments, while AI-1 was deemed heat labile. The findings suggest that the utilization of AI-2 signaling, alongside metabolic pathways like SAH detoxification, is a key adaptation for communication and biofilm formation in these extremophiles.
+
+
+Paper: PMC9614321.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: 37°C for 24 hours.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the optimal growth temperature of 37°C.
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Poultry farms (cloacal swabs) in the Banaskantha District, India. The organism is associated with the poultry food chain and is considered a potential reservoir for human transmission.
+
+Concise Summary:
+The organism was isolated from poultry fecal samples in India. The standard laboratory incubation condition used for isolation and initial characterization was 37°C for 24 hours, suggesting mesophilic growth characteristics. No specific data regarding optimal growth temperature range, survival temperature range, or adaptation to extreme temperatures (thermophilic or psychrophilic) were provided in the text.
+
+
+Paper: PMC13113784.1.txt
+Thermal Evidence:
+- No specific optimal, growth range, or survival temperature ranges were reported.
+- Incubation conditions mentioned were $37^	ext{o}	ext{C}$ for antibiotic susceptibility testing.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The isolates were sourced from dewatered sludge cakes collected from a municipal wastewater treatment plant (WWTP) in a temperate region (Republic of Korea).
+- The study does not classify the organism based on temperature adaptation (e.g., mesophile, thermophile). The source is an anthropogenically influenced, mesophilic environment (WWTP sludge). 
+
+Concise Summary:
+The study characterizes antibiotic resistance genes and mobile genetic elements in multidrug-resistant *E. coli* isolated from dewatered sludge cakes of a municipal wastewater treatment plant. The primary physiological data provided relates to antibiotic susceptibility testing, which was conducted at $37^	ext{o}	ext{C}$ incubation. No information regarding the optimal growth temperature, temperature range, or thermal adaptation (thermophilic, psychrophilic, or mesophilic) of the isolates was presented. The environmental context is restricted to the sludge cake byproduct of a WWTP, indicating an exposure to anthropogenically influenced, mesophilic conditions.
+
+
+Paper: PMC13154413.1.txt
+Thermal Evidence:
+- No specific temperature parameters (optimal, range, survival, incubation) were reported for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- The organism was isolated from diverse sources including humans, livestock, fish, and the environment (soil and water). No explicit classification regarding temperature adaptation was provided by the authors.
+
+
+Paper: PMC13118254.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for any organism.
+
+Environmental Context:
+- No information regarding the environmental source, habitat, or extreme environment isolation was provided for any organism.
+
+Concise Summary:
+This paper focuses on developing a novel topology-based deep learning approach (GHCN-SE) for predicting and filling gaps in Genome-Scale Metabolic Models (GEMs). The methodology involves using Graph Convolutional Networks (GCNs) and Hypergraph Convolutional Networks (HGCNs) to extract topological features, followed by feature enhancement using a Squeeze-and-Excitation (SE) network. The model was validated using 108 high-quality BiGG GEMs. The research is purely computational and metabolic modeling in nature, with no physiological data related to temperature, growth conditions, or thermal adaptation being discussed or utilized.
+
+
+Paper: PMC13113462.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Incubated aerobically at 37 °C for 24 h
+- Environmental source/habitat: Soil, effluent, cow dung, and milk samples
+- Mention of thermal adaptation: None
+- Explicit classification: None
+
+Environmental Context:
+- Habitat/Source: Dairy farm environments (soil, effluent, cow dung, milk). The study focuses on the persistence and dissemination of resistant bacteria across interconnected ecological systems, suggesting adaptation to ambient environmental conditions rather than extreme thermal niches.
+
+
+Paper: PMC7188308.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was studied in various in vitro conditions (aerobic LB rich media, aerobic M9+glucose defined minimal media, anaerobic M9+glucose defined minimal media) and in vivo conditions (cecal content of mice).
+
+Concise Summary:
+The study focuses on elucidating context-specific metabolic pathways in a model bacterium using transcriptomic data integrated with genome-scale metabolic networks. The analysis compares metabolic profiles derived from growth in rich media, defined minimal media (aerobic and anaerobic), and in vivo gut samples. The metabolic plasticity observed is linked to changes in nutrient availability and environmental context, rather than temperature-specific adaptations. The methodology successfully captures distinct metabolic strategies associated with different growth environments, including resource scarcity (minimal media/in vivo) versus nutrient surplus (rich media).
+
+

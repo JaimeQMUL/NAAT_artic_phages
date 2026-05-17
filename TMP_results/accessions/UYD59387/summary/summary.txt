@@ -1,0 +1,112 @@
+Summary file for UYD59387
+Number of papers: 7
+=============Summaries=============
+
+Paper: 42043570.txt
+Thermal Evidence:
+- Phage persistence in receiving waters is modulated by temperature, exhibiting a Q₁₀ of ~2-3.
+
+Environmental Context:
+- Wastewater treatment plants (WWTPs) and receiving waters.
+
+
+Paper: PMC13029702.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (Control for bacterial growth and phage assays).
+- Growth temperature range: Not explicitly stated for the phages, but bacterial growth was monitored at 37 °C.
+- Survival temperature range: The encapsulated phages maintained viability at 4 °C, 21 °C, and even showed detectable titres at 80 °C (10 min) compared to unencapsulated phages.
+- Incubation conditions: Assays were conducted at 37 °C for bacterial growth and phage assays. Long-term storage was tested at 4 °C and 21 °C.
+- Environmental source/habitat: Wastewater treatment plants (WWTPs) and wastewater samples.
+- Thermophilic adaptation: No mention of thermophilic adaptation.
+- Psychrophilic adaptation: No mention of psychrophilic adaptation.
+- Mesophilic growth: The bacterial hosts were incubated at 37 °C, indicating mesophilic growth conditions for the bacterial component.
+- Heat tolerance: Encapsulation significantly enhanced phage survival at elevated temperatures, with detectable titres maintained at 80 °C (10 min) for encapsulated phages, compared to unencapsulated phages.
+- Cold tolerance: Both free and encapsulated phages maintained high viability at 4 °C over 3 months.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No specific mention of membrane adaptations.
+- Thermal stress responses: Encapsulation provided protection against thermal stress, particularly at elevated temperatures (up to 80 °C).
+
+Environmental Context:
+- Habitat/Source: Wastewater treatment plants (WWTPs) and wastewater samples.
+
+Concise Summary:
+The study utilized wastewater-derived bacteriophages isolated from WWTPs. The bacterial hosts were maintained under mesophilic conditions (optimal growth at 37 °C). The primary focus regarding temperature was the stability of the phages. Encapsulation in alginate beads provided significant thermal protection, allowing encapsulated phages to retain detectable viability even after exposure to 80 °C for 10 minutes, a condition that rapidly inactivated free phages. Furthermore, the encapsulated phages demonstrated robust cold tolerance, maintaining high viability over 3 months at 4 °C. The overall thermal analysis confirms that the alginate matrix confers enhanced thermal stability to the phages, which were sourced from environmental wastewater.
+
+
+
+Paper: PMC13172314.1.txt
+Thermal Evidence:
+- Incubation conditions for general culturing: 37°C and 250 RPM.
+- Incubation conditions for wastewater/Aeromonas experiments: 37°C and 250 RPM.
+- Incubation conditions for synthetic community experiments: 37°C and 250 RPM.
+- Incubation conditions for general lysis/growth steps: 37°C and 250 RPM.
+- Incubation conditions for DNA removal: 37°C for 1h.
+- Incubation conditions for RT-qPCR: Standard thermocycler conditions (not specified).
+- Incubation conditions for RT-PCR: 37°C and 250 RPM.
+- No explicit mention of optimal growth temperature, growth temperature range, or survival temperature range.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- Wastewater influent from a wastewater treatment plant in Houston, Texas.
+- Synthetic microbial community (containing ESKAPE pathogens).
+
+Concise Summary:
+The study utilized standard laboratory incubation conditions, primarily at 37°C and 250 RPM, for culturing and performing transduction assays. The environmental source material was wastewater influent from a wastewater treatment plant, and the experiments were conducted using synthetic microbial communities containing ESKAPE pathogens. No specific thermal adaptations or temperature ranges beyond the standard incubation temperature were detailed for the organisms or the processes described.
+
+
+Paper: PMC12837969.1.txt
+Thermal Evidence:
+- Optimal MOI determination was performed at $37^	ext{o}	ext{C}$.
+- Phage stability was tested across a range of temperatures: $10^	ext{o}	ext{C}$ to $50^	ext{o}	ext{C}$ (stable), $50^	ext{o}	ext{C}$ (reduced titer), and $60^	ext{o}	ext{C}$ to $80^	ext{o}	ext{C}$ (terminated activity).
+- The phage exhibited stability at psychrotrophic and mesophilic temperatures ($10–50^	ext{o}	ext{C}$). 
+- The phage was stable across mesophilic temperatures ($10–50^	ext{o}	ext{C}$). 
+- The phage was stable at temperatures typical of aquaculture conditions ($10–25^	ext{o}	ext{C}$). 
+- The phage was stable at temperatures up to $50^	ext{o}	ext{C}$ but activity was lost at $60^	ext{o}	ext{C}$ and above.
+
+Environmental Context:
+- The phage was isolated from an aquaculture pond.
+
+Concise Summary:
+The phage demonstrated excellent thermal stability, remaining viable across psychrotrophic and mesophilic temperature ranges ($10–50^	ext{o}	ext{C}$). While it maintained titer stability at $10–50^	ext{o}	ext{C}$ and was noted to be stable across typical aquaculture temperatures ($10–25^	ext{o}	ext{C}$), its activity was significantly reduced at $50^	ext{o}	ext{C}$ and completely terminated at $60^	ext{o}	ext{C}$ and higher. The organism was isolated from an aquaculture pond, indicating adaptation to ambient aquatic temperatures.
+
+
+Paper: PMC13041473.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C (for *A. bivalvium*); 37°C (for *A. veronii* and *A. schubertii*).
+- Growth temperature range: 28°C to 37°C.
+- Survival temperature range: Not explicitly stated, but growth was monitored at 28°C and 37°C.
+- Incubation conditions: Incubation at 28°C or 37°C with shaking at 950 rpm.
+- Environmental source/habitat: Water bodies (aquatic/terrestrial).
+- Classification: The organism is generally associated with mesophilic growth conditions (28°C–37°C). No specific classification (e.g., psychrotolerant, mesophile) was explicitly given by the authors, but the growth temperatures fall within the typical mesophilic range.
+
+Environmental Context:
+- Habitat/Source: Indigenous microbial communities in water bodies; aquatic and terrestrial environments.
+
+
+Paper: 42126281.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions were mentioned.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The agent was isolated from sewage.
+- No indication that the organism was isolated from an extreme environment.
+- The authors did not provide an explicit thermal classification for the agent.
+
+
+Paper: PMC8941963.1.txt
+Thermal Evidence:
+- Incubation temperature for bacterial growth/assays: 28°C.
+- Incubation temperature for bacterial growth/assays: 35°C (for total plate count).
+- Incubation temperature for bacterial growth/assays: 28°C (for resazurin assay and spot test).
+- Incubation temperature for bacterial growth/assays: 24°C (for initial isolation).
+
+Environmental Context:
+- The study monitored water parameters during the experiment, noting an average water temperature of 26.07°C.
+
+Concise Summary:
+The bacterial assays and challenge tests were conducted under controlled laboratory conditions. The primary incubation temperatures reported for bacterial growth and assays were 28°C and 35°C. The environmental water temperature monitored during the experiment was 26.07°C. No specific information regarding the organism's optimal growth temperature range, survival temperature range, or adaptations (thermophilic, psychrophilic, etc.) was provided. The organism was isolated from a freshwater aquaculture setting (Nile tilapia). The authors did not provide an explicit thermal classification for the pathogen.
+
+

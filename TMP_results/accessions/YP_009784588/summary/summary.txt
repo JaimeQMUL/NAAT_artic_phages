@@ -1,0 +1,26 @@
+Summary file for YP_009784588
+Number of papers: 2
+=============Summaries=============
+
+Paper: 42127294.txt
+Thermal Evidence:
+- No temperature-related data provided.
+
+Environmental Context:
+- No environmental source or habitat information provided.
+
+Concise Summary:
+This paper describes a novel fluorescent probe, Golgi-proRed, designed for the imaging of Golgiphagy. The probe is engineered with multiple components: a GA-homing entity (blue-to-green fluorescence), a rhodamine-lactam entity that becomes red-emissive in acidic lysosomes, and a DBCO moiety for bioorthogonal conjugation. The probe is covalently anchored to the Golgi apparatus (GA) inner membrane. Upon successful autophagic delivery of GA into acidic lysosomes, the probe yields a red fluorescence signal, which serves as the readout for Golgiphagy. The method's fidelity was confirmed using starvation-induced conditions, lysosome-dependent assays, and by demonstrating the absence of signal in cells deficient in autophagy machinery (ATG5-knockout). The technique was successfully applied to observe Golgiphagy in cell lines treated with nigericin and lipopolysaccharides (LPSs) or infected with *Listeria monocytogenes*. The study focuses on cellular organelle dynamics and does not report on the thermal physiology of any organism.
+
+
+Paper: PMC13170973.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptations were reported for the organisms analyzed.
+
+Environmental Context:
+- The study utilized standardized microbial community DNA standards (ZymoBIOMICS) and did not specify the natural habitat or isolation source for the organisms being sequenced.
+
+Concise Summary:
+This paper details the development and application of Sequenoscope, a bioinformatics pipeline for analyzing Oxford Nanopore Technologies (ONT) adaptive sampling (AS) sequencing data in metagenomics. The analysis was performed using standardized microbial community DNA standards (Log and Even distributions) to simulate targeted depletion of a specific pathogen. The methodology focuses entirely on sequencing technology, bioinformatics processing (filtering, read mapping, statistical analysis), and comparative visualization of sequencing performance metrics (e.g., taxon coverage depth, read length, and pore-level sequencing decisions). No information regarding the optimal growth temperature, temperature range, or thermal adaptations of the microbial taxa was provided or discussed.
+
+

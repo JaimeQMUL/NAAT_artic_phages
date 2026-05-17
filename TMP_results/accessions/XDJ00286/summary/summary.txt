@@ -1,0 +1,87 @@
+Summary file for XDJ00286
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC13170677.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but activity was observed at 37°C and thermal sensing was triggered at temperatures exceeding 42°C.
+- Incubation conditions: 37°C for various procedures (e.g., culturing, polymerization).
+- Environmental source/habitat: Human body/in vivo environment.
+- Mention of adaptations: None explicitly mentioned.
+- Explicit classification: None provided by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/source: The organism was used in a context simulating the human body (in vivo/in vitro). The probiotic strain used was *Escherichia coli Nissle 1917* (EcN).
+
+Concise Summary:
+The system utilizes a probiotic organism (*Escherichia coli Nissle 1917*) engineered to function within the physiological environment, with optimal growth and incubation conditions maintained at 37°C. The system's functionality is designed to respond to thermal stimuli, specifically detecting temperature increases above 42°C via a genetically encoded thermal sensor. The overall application context is the human body, simulating in vivo conditions for autonomous therapeutic action.
+
+
+Paper: PMC13129232.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: 37°C (for bacterial growth/susceptibility testing); 42°C (for soft LB agar preparation).
+- Environmental source/habitat: Sewage water, river water, ground meat, and human clinical samples.
+
+Environmental Context:
+- The study utilized standard microbiological techniques for bacterial isolation and susceptibility testing, which were conducted at 37°C. Phage isolation and subsequent assays were also performed at 37°C. No specific mention of thermophilic, psychrophilic, or extreme temperature adaptations was made for the bacteria or phages. The bacteria were isolated from mesophilic sources (human/food/sewage).
+
+Concise Summary:
+The study investigated antimicrobial resistance in *Salmonella* isolates from clinical and food sources, and tested bacteriophages against these strains. All microbiological procedures, including bacterial isolation, susceptibility testing, and phage assays, were conducted under standard mesophilic conditions, with the optimal and primary incubation temperature set at 37°C. Phage preparation involved a brief incubation step at 42°C. The environmental sources included sewage water, river water, ground meat, and human clinical samples. No evidence of thermophilic or psychrophilic adaptation, or specific thermal stress responses, was reported for the organisms studied.
+
+
+Paper: 42129025.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions related to temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was provided.
+
+Environmental Context:
+- The isolates were recovered from retail meat, anal swabs of food handlers, and stool cultures of paediatric inpatients.
+- The authors did not state whether the organism was isolated from an extreme environment.
+- The authors did not provide an explicit classification regarding temperature adaptation.
+
+
+Paper: PMC13164475.1.txt
+Thermal Evidence:
+- Biofilm formation was tested across a range of temperatures: 4 °C, 14 °C, 23 °C, and 37 °C.
+- Biofilm formation was found to be significantly enhanced at 4 °C, particularly in the presence of a specific medium.
+- Biofilm formation was generally observed to be more pronounced at higher temperatures (23 °C and 37 °C) compared to 14 °C.
+- A significant difference in biofilm formation was noted between 23 °C and 37 °C, with 37 °C showing the highest overall biofilm formation potential in one set of assays.
+- Biofilm degradation studies indicated that essential oils were most effective at 14 °C and 37 °C, and least effective at 23 °C.
+- The study compared biofilm formation across different temperatures, suggesting temperature is a significant influencing factor.
+
+Environmental Context:
+- The isolates were primarily obtained from chicken feces and chicken appendix, indicating a food/animal-associated source.
+
+Concise Summary:
+The study investigated biofilm formation and essential oil efficacy against the pathogen across a temperature gradient (4 °C to 37 °C). Biofilm formation was found to be significantly influenced by temperature, with enhanced formation observed at 4 °C, 23 °C, and 37 °C, and the highest overall potential noted at 37 °C. The pathogen was isolated from poultry sources. The research utilized these temperature variations to test the antibacterial and biofilm-modulating effects of essential oils, noting that biofilm degradation was most effective at 14 °C and 37 °C, suggesting temperature-dependent physiological responses related to biofilm matrix stability and antimicrobial action.
+
+
+Paper: 42124451.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+- No data on thermal stress responses were presented.
+
+Environmental Context:
+- The organism was isolated from mid-Atlantic irrigation ponds (spring or rain-fed). The detection was sporadic and at low abundance.
+
+Concise Summary:
+The study reports the isolation and semi-quantification of the pathogen from agricultural pond water collected between June and October. The environmental source is surface water in mid-Atlantic irrigation ponds. No specific physiological data regarding temperature optima, growth ranges, or thermal adaptations (e.g., thermophilic, psychrophilic, mesophilic) were provided in the manuscript for downstream thermal classification.
+
+
+Paper: PMC13162980.1.txt
+Thermal Evidence:
+- No specific temperature data regarding the organism's optimal growth, survival, or adaptation range was provided in the text.
+
+Environmental Context:
+- The study utilized a controlled environment for the chicks, maintained at 32–34 °C, with 55 ± 5% relative humidity.
+
+Concise Summary:
+The study focused on the prophylactic and therapeutic use of a natural polyphenol extract derived from bamboo waste to combat an enteric pathogen in broiler chicks. The experimental animal housing was maintained under controlled conditions of 32–34 °C. No direct thermal characterization, such as optimal growth temperature, survival temperature range, or specific adaptations (thermophilic, psychrophilic, mesophilic) for the pathogen or the tested compounds, was reported. The pathogen was studied in the context of poultry gut infection, which is typically associated with mesophilic conditions.
+
+

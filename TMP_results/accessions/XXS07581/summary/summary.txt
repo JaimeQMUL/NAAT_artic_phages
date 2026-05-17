@@ -1,0 +1,134 @@
+Summary file for XXS07581
+Number of papers: 10
+=============Summaries=============
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 1 hour at 22°C with illumination (for cyanophages); overnight incubation at 37°C (for phages against *Enterobacter* group).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The isolation conditions varied, with some protocols requiring incubation at 22°C and others at 37°C.
+
+Concise Summary:
+The study details the development of a high-throughput, low-cost sequencing method for bacteriophages. The phages were isolated from diverse environmental sources, including wastewater, pig trough water, and seawater. The optimal growth and incubation temperatures observed during the validation steps were 37°C (for phages against *Enterobacter* group) and 22°C (for cyanophages against *Synechococcus* sp. WH7803). The methodology itself is focused on genomic characterization and does not provide direct evidence of the phages' inherent thermal adaptation profiles (e.g., thermophilic, psychrophilic). The environmental context confirms isolation from natural, non-controlled sources.
+
+
+Paper: PMC13121708.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but 37°C is used for incubation.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 37°C, 250 rpm in shaking incubators; emulsions incubated at 37°C, 250 rpm.
+- Environmental source/habitat: Not specified for the general system, but the phage stock preparation used a host culture grown at 37°C.
+- Mention of specific adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Not specified; the system is designed for general phage-host interactions, with the primary experimental setup using standard laboratory conditions (37°C).
+
+Concise Summary:
+The experimental methodology is optimized for studying phage-host dynamics under standard laboratory conditions, specifically utilizing an incubation temperature of 37°C for bacterial cultures and phage stock preparation. The system's design allows for the precise control of parameters like exposure time and phage-to-bacteria ratios, making it applicable to diverse phage-host systems without inherent constraints related to extreme temperature adaptation. No specific thermal adaptations (thermophilic, psychrophilic, etc.) or environmental sources suggesting extreme temperature origins were detailed for the general system components.
+
+
+Paper: 42026126.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The analyzed genomes spanned diverse environmental and clinical sources.
+- The study identified previously uncharacterized capsule types enriched in undersampled environments and associated with disease.
+
+
+Paper: 40555013.txt
+Thermal Evidence:
+- Bacterial growth was faster at 25°C.
+- Viral survival varied with temperature, persisting longer at lower temperatures.
+- Temperature fluctuations (4°C to 25°C) were tested.
+- Constant 25°C was tested.
+
+Environmental Context:
+- Organic lettuce during cold-chain transportation.
+
+Concise Summary:
+Bacterial growth was observed to be temperature-dependent, with proliferation rates increasing at 25°C. Viral survival demonstrated a correlation with temperature, showing enhanced persistence at lower temperatures. The study investigated the impact of temperature fluctuations (4°C to 25°C) and constant 25°C on viral survival. No specific adaptations (thermophilic, psychrophilic, etc.) or enzyme/membrane adaptations were detailed in relation to temperature stress responses. The organisms were studied in the context of fresh produce storage during cold-chain transportation.
+
+
+Paper: PMC13139102.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 25°C (for biofilm formation).
+- Growth temperature range: 25°C (for biofilm formation).
+- Survival temperature range: Not explicitly stated for the organism, but the study utilized 4°C for storage of beef exudate and 10°C for contamination incubation.
+- Incubation conditions: 16 hours at 10°C for contamination; 6 days at 25°C for biofilm development.
+- Environmental source/habitat: Bovine feces (source of the pathogenic strain).
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, or cold tolerance for the organism itself.
+- Enzymes adapted to temperature: Enzymes were tested and selected for activity at reduced operating temperatures (40–50°C).
+
+Environmental Context:
+- Habitat/Source: Red meat processing plants, contaminated with beef residues.
+
+Concise Summary:
+The pathogenic strain was cultured and studied in conditions mimicking a meat processing environment, with biofilm formation occurring over 6 days at 25°C. Contamination simulations involved incubation at 10°C for 16 hours. The study focused on enzymatic sanitation efficacy at reduced operating temperatures (40–50°C), which is significantly milder than conventional hot water cleaning (60°C). The enzymes selected for the cocktail were screened for activity at these lower, energy-efficient temperatures, indicating a focus on mild, low-temperature sanitation protocols rather than high-temperature microbial inactivation.
+
+
+
+Paper: PMC13128281.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided for the phages or their host bacteria.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The phages were discussed in the context of being found 'everywhere bacteria exist,' indicating a broad environmental source.
+- The paper discusses applications across various settings, including food matrices, which implies diverse environmental sources, but no specific extreme environment isolation was detailed for the phages themselves.
+
+
+Paper: PMC13148639.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for *E. coli* on oyster meat, *E. coli* on lettuce, cucumber, and carrot, and raw beef inoculation).
+- Growth temperature range: 37°C (for *E. coli* on oyster meat, *E. coli* on lettuce, cucumber, and carrot, and raw beef inoculation).
+- Survival temperature range: Not explicitly stated for survival, but treatments were tested at 24°C and 37°C.
+- Incubation conditions: 37°C (for *E. coli* on oyster meat, *E. coli* on lettuce, cucumber, and carrot, and raw beef inoculation).
+- Environmental source/habitat: Oyster meat, milk, meat, lettuce, cucumber, and carrot (food matrices).
+- Thermophilic adaptation: None mentioned.
+- Psychrophilic adaptation: None mentioned.
+- Mesophilic growth: Implied by the use of 37°C incubation conditions for foodborne pathogens.
+- Heat tolerance: Not explicitly detailed.
+- Cold tolerance: Cell loss was noted under chilled storage circumstances (for *E. coli* on green pepper and spinach).
+- Enzymes adapted to temperature: None mentioned.
+- Membrane adaptations: None mentioned.
+- Thermal stress responses: None mentioned.
+
+Environmental Context:
+- Food matrices (oyster meat, milk, meat, fresh produce).
+
+Concise Summary:
+The study details phage applications in food safety, testing phage efficacy against *E. coli* in various matrices (oyster meat, milk, meat, lettuce, cucumber, carrot, green pepper, spinach). Incubation and treatment conditions were primarily set at 37°C, with some tests conducted at 24°C. The data indicates that cell loss was observed under chilled storage conditions, suggesting a sensitivity to low temperatures. The organisms were isolated from food sources, and the context implies mesophilic growth conditions typical for foodborne pathogens. No specific information regarding thermophilic, psychrophilic, or specialized thermal adaptations was provided for the tested bacteria or phages.
+
+
+Paper: PMC12300086.1.txt
+The provided abstracts do not contain specific information regarding the growth temperature ranges or thermal stability of the organisms or enzymes. Therefore, I cannot extract data on temperature requirements.
+
+
+Paper: 40382031.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The bacteria were studied in laboratory culture media and acidified/acidified foods.
+- No information regarding isolation from extreme environments was provided.
+- No explicit thermal classification was given by the authors.
+
+
+Paper: 38637072.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The organism was isolated from feces, carcasses, meat cuts, employee feces, and slaughterhouse water.
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+

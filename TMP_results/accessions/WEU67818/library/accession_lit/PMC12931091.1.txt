@@ -1,0 +1,505 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: BMC Microbiol
+Journal ID: BMC Microbiol
+
+BMC Microbiology
+
+EISSN: 1471-2180
+Publisher: BMC
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12931091
+PMID: 41699453
+DOI: 10.1186/s12866-026-04737-x
+Article ID: 4737
+Article version: 1
+Subjects: Research
+
+Large-genome phage vB_Eco_ZCEC15 targets gastrointestinal MDR E. coli: evidence from in vitro and Caco-2 cell models
+
+Essam Kareem 1
+Mohamed Amira A. 1
+Makky Salsabil 1
+Kamel Azza G. 1
+El-Shibiny Ayman aelshibiny@zewailcity.edu.eg
+1 2
+1 https://ror.org/04w5f4y88 grid.440881.1 0000 0004 0576 5483 Center for Microbiology and Phage Therapy, Zewail City of Science and Technology, Giza, 12578 Egypt
+2 https://ror.org/02nzd5081 grid.510451.4 Faculty of Environmental Agricultural Sciences, Arish University, Arish, 45511 Egypt
+Electronic publication date: 2026 Feb 17
+Publication date: 2026
+Volume: 26
+Electronic Location ID: 163
+Received 2025 Jun 16; Accepted 2026 Jan 7
+Copyright: © The Author(s) 2026
+Copyright year: 2026
+License: Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Funding: Zewail City of Science & Technology Open access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB).
+
+issue-copyright-statement: © BioMed Central Ltd., part of Springer Nature 2026
+
+==============================
+Background
+
+Bacterial resistance to traditional antibiotics is spreading at an alarming rate, threatening public health and various industrial applications. Phage therapy has emerged as a promising alternative for combating multidrug-resistant (MDR) bacterial infections. However, most studies have focused on in vitro interactions, often overlooking phage dynamics within human cell environments.
+
+Methodology
+
+In this study, we characterized MDR stool-derived Escherichia coli isolates and assessed their antibiotic resistance profiles. We then isolated, characterized and evaluated the efficacy of bacteriophage vB_Eco_ZCEC15 (ΦZCEC15) against selected strains under optimized culture conditions (pH 7.3) and acidic conditions mimicking the human gastrointestinal tract. To assess host safety, we tested the impact of ΦZCEC15 on Caco-2 colon carcinoma cells. Furthermore, we explored the effect of bacterial lysis by ΦZCEC15 on Caco-2 cell viability to optimize its therapeutic applications.
+
+Results
+
+Whole-genome sequencing revealed a large ΦZCEC15 genome (170,313 bp) encoding 272 annotated ORFs, eight tRNAs, and multiple accessory genes. The phage exhibited remarkable stability under diverse physical stressors, including pH 3. Notably, ΦZCEC15 achieved optimal antibacterial activity at a low multiplicity of infection (MOI 0.1), efficiently reducing bacterial titers without compromising eukaryotic host cell viability. In contrast, untreated bacterial infections induced cytotoxic effects in Caco-2 cells.
+
+Conclusion
+
+These findings highlight the potential of ΦZCEC15 as a safe and effective therapeutic agent against MDR E. coli and encourage the importance of addressing resistance mechanisms to optimize clinical outcomes.
+
+Supplementary Information
+
+The online version contains supplementary material available at 10.1186/s12866-026-04737-x.
+
+Introduction
+
+Escherichia coli species are among the most diverse taxonomic groups of bacteria, containing both pathogenic and commensal strains. Most E. coli strains are part of the normal microbiota in the intestinal tracts of humans and animals, where they generally pose no harm [1]. However, certain pathogenic E. coli strains cause a wide range of diseases, primarily in the gastrointestinal tract (GIT), such as diarrhea. Severe diarrhea is the most typical complication of pathogenic E. coli infection and the second significant cause of death among children under the age of five. According to WHO reports [2]Over 1.7 billion cases of diarrheal illness occur worldwide each year [3, 4]. Over 2 million people die every year from diarrheal diseases, and that number might be underestimated because it doesn’t account for deaths caused by other symptoms of enteric infections like meningitis, hepatitis, encephalitis, hemolytic uremic syndrome, and others [5].
+
+Furthermore, antibiotic resistance in E. coli has been a significant issue and is one of the most challenging health concerns worldwide [6]. Furthermore, antibiotic misuse or random use, particularly in developing countries, has resulted in the widespread emergence of extensively drug-resistant (XDR) E. coli strains that do not respond to widely available antibiotics [7]. According to a recent study, approximately 50% of infections caused by E. coli, Staphylococcus aureus, Klebsiella pneumoniae, and Pseudomonas aeruginosa strains are resistant to potent or newly developed antibiotics [8].
+
+Recent studies suggest that phage therapy may be essential in restoring gut microbiome balance and controlling disease progression [9]. Bacteriophages, also known as “phages,” are viruses that attack and kill specific strains of bacterial hosts. The use of virulent phages as therapeutic agents has been reconsidered due to antibiotic ineffectiveness and side effects, which have resulted in the catastrophic rise of new antibiotic-resistant bacteria [10, 11]. Unlike conventional antimicrobial agents, bacteriophages have many advantages for the biocontrol of pathogenic bacteria, including self-replication, high specificity, abundance in nature, and low toxicity [12]. Interest in using phages to treat bacterial infections has grown in recent years as they have been evaluated and utilized in this capacity. Phages reached clinical phase II to prove their therapeutic efficacy as pharmaceuticals, and they are now widely regarded as safe [13].
+
+Despite this growing interest in phage therapy, most existing research has focused on phage-bacteria interactions in simplified environments, such as liquid cultures or animal models. Relatively few studies have explored the dynamics between phages, bacteria, and human cells, particularly in human-relevant in vitro systems [14, 15]. For example, Caco-2 cells, derived from human colon cancer cells, are commonly used to study the intestinal barrier. These cells naturally differentiate into intestinal-like cells under standard laboratory conditions, making them an ideal model for evaluating substances that interact with the human gut [16].
+
+However, to date, most studies on phage efficacy have not incorporated these cell models, which limits our understanding of phage behavior in a more physiologically relevant context. For example, studying phage-bacteria interactions in human cell lines allows researchers to assess not only antibacterial efficacy but also cytotoxicity and the cellular response to phage treatment. Ignoring the cellular context could lead to an incomplete understanding of phage behavior, such as its ability to penetrate bacterial cells, its adsorption efficiency, and potential immunogenicity. Therefore, integrating human cell models into phage research is essential to better bridge the gap between preclinical studies and therapeutic applications [17].
+
+This research study isolated and characterized virulent phage ΦZCEC15 against MDR E. coli isolates from stool samples, evaluated its therapeutic potential in treating gastrointestinal infections, and tested its cytotoxicity and efficacy on Caco-2 cells.
+
+Materials and methods
+
+Bacterial characterization
+
+Bacterial identification by Vitek MS
+
+Forty-three multidrug-resistant stool isolates were gifted to the Center for Microbiology and Phage Therapy (CMP) at Zewail City. All bacterial cultures were tested for viability and purity by sub-culturing on Tryptic Soy Agar (TSA; Merck, USA). Fresh single colonies were picked and identified using Vitek MS The E. coli ATCC® 8739™ was used as a quality control (QC). Then, the VITEK® MS-CHCA matrix solution was added to the QC spot. A portion of each isolated colony was collected using a 1 µL loop, and the sample was applied to the center of the spot. The same steps were taken for all the bacterial isolates. The crystal formation on the spots was checked after approximately five minutes [18].
+
+Bacterial isolates and culture conditions
+
+A fresh single colony of each isolate was picked for overnight culture and stored in Tryptic Soy Broth (TSB; Merck, USA) for 25% (v/v) glycerol for storage − 80 °C after the confirmation Vitek MS. Before each experiment, fresh bacterial cultures were prepared by inoculating a single colony from MacConkey agar into 1 mL of TSB in 1.5 mL Eppendorf and incubating for 20 h at 37 °C with shaking at 200 rpm. All methods were performed following the relevant guidelines and regulations [19]. For all experiments, the tested bacteria were cultivated in TSB (E. coli, Salmonella and K. pneumoniae) liquid medium at 37 °C on a rotary shaker at a rate of 120 rpm. TSA was used as solid media. Plates with bacterial strains were incubated overnight at 37 °C.
+
+Antibiotic sensitivity profile
+
+Isolates were prepared for the antimicrobial susceptibility testing using the VITEK 2 automated system using the AST-N222 cards, in accordance with the manufacturer’s instructions [20]. Results were analyzed using VITEK 2 Systems Version: 9.02 software, an AES specifically designed to evaluate the results generated by the VITEK 2 system.
+
+Phage isolation and characterization
+
+Isolation and purification of bacteriophages
+
+The protocol described by Clokie and Kropinski (2009) was used for phage isolation with minor modifications [21]. The sewage samples were centrifuged at 5,000 ×g for 15 min, and then the supernatant of the sewage was transferred to a 50 mL sterile tube. 100 µL of bacterial isolates was added to 4 mL TSB in a shaking incubator at 37 °C for 20 h. After overnight culture, 500 µL of the overnight culture was added to 10 mL TSB in a sterile flask and incubated for 2 h at 37 °C, and then 5 mL of sewage was mixed flask and incubated at 37 °C for 20 h. The mixture was centrifuged 5,000 ×g for 30 min. The supernatant was filtered through a 0.45 μm syringe membrane filter (Membrane Solution, USA) [22].
+
+An agar overlay method was used to examine bacteriophage activity [23]An overnight bacterial culture was mixed with molten soft nutrient agar (0.3% agar) and immediately poured onto a 1.5% agar plate. 10µL of supernatant was dropped onto the plate, and the plate was incubated overnight at 37 °C. The phages were purified by picking the single plaques from the plate with a sterile pipette tip, transferred to sterile SM buffer (100 mM NaCl, 8 mM MgSO4 • 7H2O, 50 mM Tris-Cl; pH 7.5), and stored at 4 °C. The solution was diluted tenfold in SM buffer and mixed with TSB containing 200µL of log-phase bacterial culture at an optical density (OD)600 of 0.2. An agar overlay method was used to purify and determine the phage titer. The single plaque isolation procedure was repeated 7 times to obtain purified bacteriophage.
+
+Amplification of bacteriophage
+
+The phage was amplified in liquid culture (TSB), and the lysates were centrifuged at 5,000 × g at 4 °C for 15 min. Then, the phage supernatant was centrifuged for 1 h at 15,300 × g at 4 °C. The pellet was resuspended in SM buffer (100 mM MgSO4.7 H2O; 10 mM NaCl; 50 mM Tris-HCl; pH 7.5) and purified through 0.22 μm syringe filters (Chromtech, Taiwan). The phage titer was determined using double agar overlay plaque assays and spotted in triplicate onto bacterial lawns. The phage was enriched and propagated in TSB; 100 µL of the host was infected with the phage and incubated at 37 °C with 120 rpm shaking to increase phage stocks. This enrichment repeated till reaching a high-titer phage stock (1010 PFU/mL) that was used for the rest of the experiments.
+
+Pulsed-Field gel electrophoresis
+
+For Pulsed Field Gel Electrophoresis (PFGE), DNA was prepared from the phage with titer 1010 PFU/mL to determine the genome size. The phage suspended in agarose plugs was digested with lysis buffer (0.2% w/v SDS [Sigma, Gillingham, UK]; 1% w/N-Lauryl sarcosine [Sigma, Gillingham, UK]; 100 mM EDTA; 1 mg/mL Proteinase K [Fischer Scientific]), then left overnight at 55 °C. After being washed with a washing buffer, two slices of agarose-containing DNA were placed into wells that contain 1% w/v agarose gel. By using a Bio-Rad CHEF DRII system, the gel was run in 0.5 X Tris-borate-EDTA, at 200 V at 14 °C for 18 h with a switch time of 30 to 60 s[24]. The genome’s size was calculated by comparing using standard concatenated lambda DNA markers of range 48.5–1,018 kb (Sigma Aldrich, Gillingham, UK).
+
+Morphological characterization
+
+The phage morphology was examined through transmission electron microscopy (TEM) at the Faculty of Science, University of Alexandria, Egypt. A 10 µl phage sample with a titer of 1010 PFU/mL was initially stained with 2.5% uranyl acetate. The sample was then placed on a carbon-coated Cu-grid and incubated for 10 min before being analyzed with TEM [25]. Imaging of the stained phage was performed using a JEOL 1230 TEM (Tokyo, Japan) TEM images were analyzed using ImageJ software version 1.53n [26].
+
+Phage host range & relative efficiency of platting
+
+The lytic activity of the isolated phage was investigated using the spot assay in triplicate against sixteen E. coli, five Enterobacter asburiae, and five Enterobacter kobei clinical isolates, as previously described [27]. The appearance of clear zones confirmed the susceptibility of the bacteria to the phage in the spotting area.
+
+The relative efficacy of phage plating (EoP) was evaluated by counting the clear lysis plaques that appeared after applying 10-fold serial dilutions of the phage onto freshly prepared bacterial lawns of each susceptible isolate. The plaque enumeration was carried out using a double agar overlay spotting assay [28].\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\:EoP=\frac{the\:titer\:of\:\varPhi\:ZCEC15\:on\:the\:tested\:bacteria}{the\:maximum\:titer\:of\:\varPhi\:ZCEC15\:\:\left(\:on\:2B\:bacteria\right)}$$\end{document}
+
+Phage Temperature, pH, and UV stability
+
+The thermal stability of the phage with a high titer 109 PFU/mL, was performed by incubating tubes containing the 100 µL phage suspended in 900 µL SM buffer at −80, −20, 4, 37, 50, 60, 70, and 80 °C for 1 h. By incubating 1 h of 100 µL of each with a high titer 109 PFU/mL suspensions in different pH values (2–12) adjusted using HCL and NaOH. After incubation, the phage was enumerated through a ten-fold serial dilution and spotted in triplicate by the spot test assay. The phage’s resistance to UV exposure was tested at 15, 30, 45, 60, 80, and 90-min intervals. Phage stability was determined by measuring the reduction in phage titer relative to the initial titer in the SM buffer [29, 30].
+
+Phage stability in bile salt
+
+The bile salt stability of the phage with a titer 108 PFU/mL, was performed by incubating tubes containing 100 µL phage suspended in 900 µL bile salt of nutrient broth supplemented with 0 (control), 0.15, 0.3 and 1.0% w/v of bile salts (LOBA CHEMIE, India). After 60, 120, 180, and 240 min of incubation at 37°C[31]. Phage survival was assayed by diluting and enumerating phage using the methods described above.
+
+Time kill kinetics assay
+
+The kinetic behavior of bacterial killing by the isolated phage was assessed at varying multiplicities of infection (MOIs: 0.1, 1, 10, 100) using the established time-killing curve assay [32].In brief, bacterial cultures at a concentration of 10⁵ CFU/mL were incubated with phages at specified MOIs in a 96-well microtiter plate. The bacterial culture’s optical density (OD) at 600 nm was measured at hourly intervals over a 12-hour period using a FLUOstar® Omega plate reader (BMG LABTECH, Germany). A control group consisting of a bacterial culture without phage treatment and a blank containing only the culture medium was included for comparison.
+
+Phage genome sequencing
+
+Genome sequencing and bioinformatics analysis
+
+The genomic DNA of the phage was extracted using the phenol-chloroform-isoamyl alcohol method, as previously described[33]. DNA sequencing was carried out using the Illumina MiSeq platform. The analysis of obtained reads was conducted using FastQC (v0.12.1) and de novo assembled with Unicycler (v0.4.8) on the BV-BRC platform. Genome orientation and comparison were conducted by ProgressiveMauve and Ugene, with the Escherichia phage Killian (accession number OQ446694.1) as a reference[34, 35]. The resultant contig was annotated by Rapid Annotation using the Subsystem Technology Toolkit (RASTtk)[36]. The predicated ORFs were subjected to a second round of annotation using InterProScan, PhageScope, HHPred, UniProt Blast, and NCBI BLASTp. The circular genomic map of phage vB_Eco_ZCEC15 was visualized on the PROKSEE server[37]. Temperate genetic markers, antimicrobial resistance genes, and bacterial virulence factors were identified using PhageLeads[38]. Amino acid sequences’ topology were screened for transmembrane domains (TMDs) by DeepTMHMM[39].
+
+Phylogenetic analysis
+
+The circular and rectangular proteomic trees of the phage with the related phages genome were constructed using the ViPTree server [40]. ViPTree output was used to identify phages with the highest tBLASTx scores (SG) and outgroup phages with the lowest SG scores to use as an input for the virus intergenomic distance calculator (VIRIDIC) to compute pairwise intergenomic similarities between these phages and the new [41]. Additionally, a detailed analysis of the closely related phages was performed to identify conserved signature proteins at the genus and family levels by CoreGenes 5.0[42]. Accordingly, terminase large subunit (TerL) was selected to construct phylogenetic tree using MEGA11[43], using the best Maximum Likelihood fit model.
+
+Cell cytotoxicity assay
+
+The safety of the phage was assessed on the colon carcinoma (Caco-2) cell line using an MTT assay [44]. Caco-2 cells were cultured in 96-well plates at a density of 104 cells/well and cultured in DMEM medium supplemented with 10% fetal bovine serum, 100 I.U./mL penicillin, and 100 µg/mL streptomycin, then incubated for 24 h at 37 °C with 5% CO2. Subsequently, serial dilutions of phage with a titer of 109 (PFU/mL) were added to the adherent cells, and incubation continued for another 24 h under the same conditions. After incubation, the medium was removed, and 100 µL of MTT solution (10 µLMTT (stock 5 mg/mL) and 90 µLof DMEM) was added and incubated for 4 h at 37 °C with 5% CO2. Afterward, 100 µL of DMSO was added as a solvent, and the mixture was incubated in the dark for 15 min. The optical density was then measured at 590 nm using a FLUOstar® Omega plate reader (BMG LABTECH, Germany).
+
+Phage-bacteria dynamics on colon carcinoma (Caco-2) cell line
+
+Bacteria and Caco-2 cell lines were co-cultured, and phages were introduced at different MOIs to assess the phage’s efficacy in the cell culture model [44]. Throughout the experiment, bacterial and phage titers were determined at different time points, but Caco-2 cell viability was only evaluated following a 24-hour assay.
+
+Phage-bacteria interaction was studied in vitro using the colon (Caco-2) cell line as a model. The culture was conducted at 37 °C with 5% CO2 in DMEM media supplemented with 10% fetal bovine serum, 100 I.U./mL penicillin, and 100 (µg/mL streptomycin). Cells were trypsinized and cultivated in 96-well plates with a seeding density of 5 × 104 cells/well once it reached confluency. They were then incubated for 24 h at 37 °C with 5% CO2. The E. coli strain was incubated at 37 °C overnight. After 24 h, the culture was centrifuged at 8000 × g for 1 min, and the resulting pellet was resuspended in phosphate-buffered saline (PBS) (MP Biomedicals, LLC, Ohio). The optical density (OD) was measured to confirm the final concentration of 106 CFU/mL. After additional centrifugation, the bacterial culture was reconstituted in a complete DMEM medium without antibiotics.
+
+After evaluating cell adhesion on a 96-well plate, the medium was discarded, and the wells were washed twice with PBS. Then, 100 µL of bacterial suspension in DMEM was added to each well, resulting in a final concentration of 105 CFU/well. The cells were incubated for 1 h at 37 °C in a 5% CO2 incubator. Following this, the planktonic bacteria were discarded, and 100 µL of phage at different MOIs (0.1, 1, 10, and 100) was added to each well. Subsequently, 100 µL of DMEM without antibiotics was added to all wells. The wells were then compared to the control, which contained only bacteria, and to the wells with free cells that were not exposed to bacteria. The plate count method determined the viable bacterial count and phage titer at 0, 2, 6 and 24 h. After 24 h, the cells were counted by removing the supernatant and washing twice with PBS. Then, 40 µL of trypsin was added, and the cells were incubated for 15 min. Following incubation, 60 µL of complete DMEM was added and mixed thoroughly. The cells were then counted using a hemocytometer with trypan blue staining.
+
+Live/dead staining
+
+The cells were cultured on a coverslip with a seeding density of 5 × 10⁴ cells per well in complete DMEM (supplemented with 10% FBS and 1% penicillin-streptomycin) and incubated at 37 °C with 5% CO2 for 24 h. Following, the medium was discarded, and the cells were washed twice with PBS. A bacterial suspension (10⁶ CFU/mL) was then added to antibiotic-free DMEM and incubated for 1 h to facilitate bacterial adherence. Then, non-adherent bacteria were removed and phage with different MOIs were added (0.1, 1, 10 and 100) and incubated for 6 h. Control groups included: (i) untreated Caco-2 cells (cell control), and (ii) Caco-2 cells exposed to bacteria only (bacteria control). Following the incubation, the media was removed from the cells, washed, stained with DAPI and propidium iodide (PI) dyes, and incubated for 15 min at 37 °C. The cells were visualized under a Fluorescence microscope (Olympus CX43, Japan).
+
+Statistical analysis
+
+The experiments were conducted in triplicate and plotted using GraphPad Prism 9.5.1software. The statistical analyses were done using a One-way ANOVA test to evaluate the significance of p < 0.01.
+
+Result
+
+Bacterial characterization
+
+Bacterial identification by VITEK®MS
+
+A total of 42 bacterial isolates were obtained from stool samples and identified using VITEK® MS (Fig. 1; Table 1). Among the isolates, E. coli was the most prevalent species, accounting for 38.1% of the total samples. Other bacterial species were less frequently identified, with E. kobei and E. asburiae, each of which comprised 11.9% (5 isolates). Moreover, P. aeruginosa, K. pneumoniae, and Salmonella enterica represented 7.1% each (3 isolates), while Klebsiella oxytoca was detected in 2 isolates only. The remaining six isolates (14.3%) were distributed across several species: Bifidobacterium spp., Campylobacter jejuni, Citrobacter amalonaticus, Citrobacter youngae, Proteus mirabilis, and Providencia stuartii.
+
+Table 1 Bacterial identifications by VITEK® MS
+
+No.	Bacteria	Code	Source	Vitek MS	Ages (Y)	Gender	
+1	Escherichia coli	2 A	Stool	√	20	M	
+2	Escherichia coli	2B	Stool	√	18	F	
+3	Escherichia coli	15 A	Stool	√	7	M	
+4	Escherichia coli	15B	Stool	√	7	F	
+5	Escherichia coli	16	Stool	√	23	M	
+6	Escherichia coli	18B	Stool	√	20	M	
+7	Escherichia coli	20 A	Stool	√	27	M	
+8	Escherichia coli	24 C	Stool	√	22	M	
+9	Escherichia coli	25 A	Stool	√	2	M	
+10	Escherichia coli	25B	Stool	√	2	M	
+11	Escherichia coli	25 C	Stool	√	2	M	
+12	Escherichia coli	27 A	Stool	√	39	F	
+13	Escherichia coli	27B	Stool	√	39	F	
+14	Escherichia coli	30 A	Stool	√	0.42	M	
+15	Escherichia coli	30B	Stool	√	0.42	M	
+16	Klebsiella oxytoca	10	Stool	√	4	M	
+17	Klebsiella oxytoca	14B	Stool	√	39	M	
+18	Klebsiella pneumonaie	6B	Stool	√	18	M	
+19	Klebsiella pneumonaie	19	Stool	√	53	F	
+20	Klebsiella pneumonaie	28 A	Stool	√	0.25	M	
+21	Pseudomonas aeruginosa	8B	Stool	√	39	F	
+22	Pseudomonas aeruginosa	13 A	Stool	√	6	F	
+23	Pseudomonas aeruginosa	13B	Stool	√	6	F	
+24	Salmonella enterica	2 C	Stool	√	32	M	
+25	Salmonella enterica	5B	Stool	√	27	M	
+26	Salmonella enterica	6 A	Stool	√	29	F	
+27	Enterobacter asburiae	1 A	Stool	√	18	F	
+28	Enterobacter asburiae	1B	Stool	√	16	M	
+29	Enterobacter asburiae	3B	Stool	√	38	M	
+30	Enterobacter asburiae	4 A	Stool	√	29	M	
+31	Enterobacter asburiae	17	Stool	√	36	M	
+32	Enterobacter kobei	9	Stool	√	62	F	
+33	Enterobacter kobei	11	Stool	√	46	F	
+34	Enterobacter kobei	12	Stool	√	37	M	
+35	Enterobacter kobei	21	Stool	√	11	M	
+36	Enterobacter kobei	26B	Stool	√	3	F	
+37	Bifidobacterium spp	22	Stool	√	32	M	
+38	Campylobacter jejuni	20B	Stool	√	26	M	
+39	Citrobacter amalonaticus	4B	Stool	√	60	F	
+40	Citrobacter youngae	3 A	Stool	√	14	F	
+41	Proteus mirabilis	23	Stool	√	3	F	
+42	Providencia stuartii	7B	Stool	√	16	F	
+
+Fig. 1 The number and species of stool bacterial isolates, according to VITEK® MS
+
+Antibiotic sensitivity profile
+
+Antibiotic susceptibility tests were conducted on all E. coli isolates using the VITEK® system, and the results are visually represented in the heatmap (Fig. 2). The results revealed varying susceptibility patterns among E. coli.
+
+The E. coli isolates demonstrate a diverse range of antibiotic resistance profiles. A resistance was predominantly observed against betalactam antibiotics, including Ticarcillin, Piperacillin, Aztreonam, and Trimethoprim/Sulfamethoxazole. Conversely, carbapenems (such as Imipenem and Meropenem), as well as aminoglycosides (like Amikacin and Gentamicin) were largely effective against E. coli isolates, showing sensitivity across most strains. Most E. coli isolates (46.6%) displayed MAR indices ranging from 0.3 to 0.46. However, four isolates (26.6%) showed no resistance, and three isolates (20%) presented a MAR index of 0.5, 0.6, and 0.7, respectively. Moreover, no significant association was observed between the resistant isolates and age or gender.
+
+Fig. 2 Antibiotic profile of the E. coli Isolates. Green indicates sensitivity, red indicates resistance, and yellow indicates intermediate resistance
+
+Phage morphological characterization by TEM
+
+The sewage sample contained phages with similar plaque morphology, indicating the presence of the same phage. Therefore, a single plaque was selected for purification and further characterization. The morphology of phage was observed using TEM, where the phage vB_Eco_ZCEC15 (ΦZCEC15) displayed the morphotype of mycoviruses as it has a hexagonal head with a length of around 106 nm, width of around 77 nm, and a contractile tail with a length of around 100 nm, and a baseplate at the end of the tail (Fig. 3A), with a large genome size lies between 145.5 kb and 197.0 kb (Fig. 3B). In addition, phage ΦZCEC15 formed consistent, small, well-defined, and circular plaques on the bacterial lawn of 2B (Fig. 3C). Indicating efficient bacterial lysis and a lytic phage.
+
+Fig. 3 Phage morphological characterization. A Transmission electron microscopic image of ΦZCEC15 phage. B PFGE image. The yellow arrow points to the DNA extracted from ΦZCEC15 phage. C Phage ΦZCEC15 plaques formed in double-layer agar plates on the 2B lawn with 0.3% concentration
+
+Phage genome sequencing
+
+Consistent with PFGE results (Fig. 3B), the genome of phage ΦZCEC15 was assembled as one contig of size 170,313 bp, with a GC content of 35.38%, and 272 ORF. The complete phage genome was submitted to the NCBI GenBank database under the accession number PQ871103. The predicted ORFs are highlighted on the genomic map (Fig. 4), which contributed to various protein functions, including DNA replication, packaging, infection, assembly, lysis, and hypothetical proteins. In addition to tRNA genes that carry anticodons for arginine (Arg), methionine (Met), threonine (Thr), serine (Ser), proline (Pro), glycine (Gly), leucine (leu) and glutamine (Gln). PhageLeads screened the phage genome and did not detect any genes associated with a temperate lifestyle, antimicrobial resistance, or bacterial virulence, confirming the safety and therapeutic potential of phage ΦZCEC15. DeepTMHMM predicted the presence of transmembrane domains (TMDs). The topology of 1 TMDs was identified in a phage holin (ORF 3), with ** alpha-helical transmembrane domains detected with 100% probability (Fig. 5).
+
+Fig. 4 Genomic map of vB_Eco_ZCEC15. The color coding represents the coding sequences (CDS) according to different categories of the predicted function: packaging (purple), assembly (green), infection (blue, lysis (red), DNA replication (orange), immune (pink), phage and hypothetical proteins (shades of grey), GC content (light red), and GC skew (light green and purple). The genomics maps were created on Proksee server
+
+Fig. 5 Predicted topology of phage holin encoded by ORF 3. DeepTMHMM was used to predict the topology of ORF 3. The top part represents the topology of predicted domains in correspondence to the amino acid sequence: transmembrane (in red), intracellular (in pink), and extracellular (in blue)
+
+Phylogenetic analysis
+
+Proteomic analysis by VipTree compared ΦZCEC15 phage with the related phages (Fig. 6A), classifying the group into the Pseudomonadota phylum of the Straboviridae family. From the related phages, 40 with the highest SG scores were selected, along with ΦZCEC15 phage, to construct the rectangular phylogenetic tree (Fig. 6B). The intergenomic similarities between ΦZCEC15 phage and other phages with the highest (SG) scores and phages with the lowest (SG) scores were calculated by VIRIDIC and visually shortlisted as a heat map (Fig. 6C). The homologous genes in ΦZCEC15 along with its 29 top-matched phages on BLASTn were detected by CoreGenes5, including genes encoding for DNA polymerase, terminase large subunit, and capsid protein. Accordingly, the terminase large subunit was used as a conserved signature protein to construct a phylogenetic tree by MEGA11, employing the CLUSTAL-W aligner (Fig. 6D). The findings strongly suggest that phage ΦZCEC15 is classified as a Straboviridae within the Caudoviricetes order.
+
+Fig. 6 Phylogenetic study of phage vB_Eco_ZCEC15 (marked by red stars). A The circular protein tree generated by ViPtree. B The rectangular proteomic tree highlights phages that are closely related, based on high ViPtree similarity scores (SG > 0.5). C The heatmap showing the intergenomic similarities of 30 Escherichia phages was created with the VIRIDIC tool. The aligned genome fraction, genome length ratio, and intergenomic similarity are displayed for each pairwise comparison. The color gradient from light to dark teal represents increasing intergenomic similarity. Phages are grouped based on genomic similarities, with ‘S’ referring to isolate-level clustering and ‘G’ referring to genus-level clustering. Species and genus classification is based on ICTV thresholds for ANI. D phylogenetic tree based on the viral conserved signature protein (terminase large subunit) comparing phage vB_Eco_ZCEC15 with other phages. The tree was constructed using MEGA11
+
+Phage temperature, pH and UV stability
+
+The stability of phage ΦZCEC15 was assessed under various environmental conditions, including temperature, pH, and UV exposure. The phage exhibited high stability at −80 °C and 4 °C, maintaining a titer of 109 PFU/mL, which was comparable to its optimal growth temperature of 37 °C. However, a significant decline in titer was observed as the temperature increased from 50 °C to 85 °C, with no detectable activity at 90 °C (Fig. 7A). The phage exhibited acceptable stability within a pH range of 3 to 12, maintaining a titer of approximately 109 PFU/mL, compared to pH 7 (Fig. 7B). However, no activity was observed at highly acidic conditions (≤ pH 2.0). In addition, the ΦZCEC15 phage showed resistance to UV inactivation for 45 min under UV light with reduction after 60 min (Fig. 7C).
+
+Fig. 7 Phage characterization for ΦZCEC15. ATemperature stability of the phage after one hour incubation at different temperatures, (B) pH stability of the phage after one hour incubation at different pH values and (C) UV Exposure stability after 90 min to UV-C
+
+Phage stability in bile salt
+
+The stability of ΦZCEC15 was evaluated in the presence of bile salts at varying concentrations (0.15%, 0.3%, and 1%) over a series of time intervals (0, 60, 120, 180, and 240 min). The phage exhibited notable stability across all tested concentrations up to 120 min. After 120 min, ΦZCEC15 showed a minimal gradual reduction in phage viability, indicating a slight time-dependent sensitivity to extended bile salt exposure (Fig. 8).
+
+Fig. 8 Phage ΦZCEC15 stability in the presence of bile salt at different concentrations 0.15%, 0.3%, and 1% for 240 min
+
+Phage host range and efficiency of plating (EOP)
+
+The host range of ΦZCEC15 was evaluated using spot assays on 25 bacterial isolates from human stool samples. The results indicated that ΦZCEC15 could lyse 50% (n = 13) of the isolates (Fig. 9A). Phage ΦZCEC15 demonstrated a high efficiency of plating (EOP = 1) on the 2B isolate, while the 2 A and 8B isolates showed moderate EOP values of 0.16 and 0.26, respectively. The remaining isolates exhibited minimal EOP values (Fig. 9B).
+
+Fig. 9 The susceptibility of bacterial isolates to phage ΦZCEC15. A The host range of ΦZCEC15, where light green indicates susceptible isolates and light red represents non-susceptible ones. B The efficiency of plating (EOP) of ΦZCEC15. Spot-test-positive isolates were selected for the EOP test, where EOP values were calculated as the ratio of phage titer on the test bacterium to the phage titer on the host bacteria. High production efficiency was defined as EOP ≥ 0.5, moderate production efficiency as 0.5 > EOP ≥ 0.1, and low production efficiency as 0.1 > EOP ≥ 0
+
+Phage-bacterial dynamics
+
+The time-kill curves were done to study the interaction between the phage and its host, E. coli bacteria. The curves demonstrated a reduction in optical density (OD) at 600 nm for the phage-treated groups compared to the untreated group (Fig. 10). The bacterial culture without phage treatment exhibited gradual growth, reaching an OD of 1.3254 ± 0.04. During the first 7 h. All MOIs showed similar trends, with no significant differences with average OD of 0.0058 ± 0.003 after 7 h. However, the variations in MOIs started at the 8-hour time point and were clear by the 12-hour time point. Later, OD values varied significantly compared to the preceding timepoints. The OD at MOI 0.1 reached 0.0202 ± 0.01, indicating a substantial reduction in bacterial density, while MOI 1 reached 0.1532 ± 0.27. MOI 10 and MOI 100 displayed slightly higher OD values of 0.1942 ± 0.34 and 0.185 ± 0.31. respectively, indicating a dose-dependent response.
+
+Fig. 10 Time killing curve of 2B isolate using ΦZCEC15 phage at different MOIs (0.1, 1, 10, and 100) over 12 h
+
+Phage cytotoxicity
+
+The efficacy, safety, and cytotoxicity of ΦZCEC15 phage were evaluated using Caco-2 cell lines. The results showed that ΦZCEC15 phage had no cytotoxic effects on the Caco-2 cells, as cell viability remained unaffected across a range of titers (109 to 106 PFU/mL) when compared to the control (Caco-2 cells only) (Fig. 11).
+
+Fig. 11 The cell viability of ΦZCEC15 phage. It represents the cytotoxicity of ΦZCEC15 phage with different concentrations (109 to 106 PFU/mL) on Caco-2 cells compared to the untreated with phage control
+
+Phage-bacteria dynamics on colon carcinoma (Caco-2) cell line
+
+Plate count experiments were done over time to study the interaction between the phage and its E. coli bacteria on the mammalian cell line. At the initial time of phage infection, the bacterial count decreased across MOIs (0.1 to 100) for the groups treated with ΦZCEC15 phage, compared to the control (Fig. 12A). The number of bacterial cells decreased significantly for MOIs of 0.1 and 1 at 6 h, reaching below the limit of detection. After 6 h, the bacterial regrowth started rapidly, reaching the titer of 104 CFU/mL at the group treated with MOI 0.1. While the regrowth was109 CFU/mL with MOIs 1, 10, and 100 (Fig. 11A). In addition to the CFU reduction, ΦZCEC15 phage titer was increased throughout the time points, indicating successful phage replication (Fig. 12B). For the Caco-2 cells lines, the cell viability was assessed after 24 h, and the results showed that with all selected MOIs, the cell numbers were affected compared to the control (bacterial cell only) except MOI 0.1 (Fig. 12C and D).
+
+Fig. 12 Dynamics of ΦZCEC15 Phage and 2B Bacteria Interaction with A549 Cells. Viable bacterial cells (A), Phage titer (B), Cell viability % (C) and Caco-2 cells images (D1) control cells (D2) cells with bacteria (D3) cells after phage treatment (MOI:100), (D4) cells after phage treatment (MOI:10), (D5) cells after phage treatment (MOI:1), and (D6) cells after phage treatment (MOI:0.1)
+
+Live/dead imaging
+
+Live/dead fluorescence imaging provided that phage ΦZCEC15 was effective in reducing bacterial presence across all tested MOIs (Fig. 13). At MOI 0.1, the Caco-2 cell remained almost viable, with no toxicity observed, with a reduction in extracellular bacteria, which indicated efficient bacterial clearance without harming host cell integrity. In contrast, with MOI 1 and 10 both extracellular and intracellular bacteria (Live and dead) were observed, suggesting partial bacterial elimination and potential regrowth of phage-resistant bacteria. With MOI 100, complete bacterial clearance was achieved following phage incubation, with complete destruction of Caco-2 cell line. The cell destruction could be attributed to the excessive bacterial lysis and subsequent release of bacterial endotoxins such as lipopolysaccharides (LPS), which induce an inflammatory and cytotoxic response in human cell line. Compared to the bacteria-only control, all MOI-treated groups showed a reduction in bacterial load. In contrast, the untreated cell control maintained intact, viable monolayers with no observable cytotoxicity, confirming that the observed effects were specifically due to the bacteria-phage interactions.
+
+Fig. 13 The Live/Dead imaging for Bacterial-phage interaction with the Caco2 cell line following 6 h of incubation
+
+Discussion
+
+This study investigated the phage-bacterial dynamics on human cells. For instance, it focused on the interaction between 2B, a MDR human stool E. coli isolate, and ΦZCEC15 phage, which is a large-genome phage that effectively lyses the bacteria. Both phage and bacteria were characterized, and then the phage-bacteria interaction was evaluated on the Caco-2 cell, human colon cell line that mimicked the colon environment. The results revealed that phage alone was safe for the cells, but the MDR bacteria was cytotoxic to the Caco-2 cells. Moreover, the bacteria treated with phage showed promising treatment effects with high levels of safety to the cell line.
+
+We first presented the characterization of 42 bacterial isolates from human stool samples. The isolates were identified using Vitek MS, where various bacteria were detected, including K. pneumonaie P. aeruginosa, S. enterica, E. kobei, E. asburiae, and E. coli that was the most common isolate (15 isolates accounting for around 36% of the isolates). Thus, the study focused on E. coli characterization and phage isolation. The antibiotic profile of all E. coli isolates was established using Vitek 2, and it showed that almost half of the E. coli isolates (46.6%) have MAR indices between 0.3 and 0.46. Respectively, we focused on 2B isolate, a representative isolate that was isolated from an 18-year-old female with a MAR index of 0.4.
+
+For the phage part, ΦZCEC15 phage was isolated from sewage water and tested against the E. coli isolates. The phage presented reproducible plaque zones on more than half of the E. coli isolates (8 strains, 53%). Moreover, when the phage was tested against the ten Enterobacteriaceae strains, clear zones were detected for all five E. asburiae, but not the E. kobei strains. This was also confirmed by the bioinformatic analysis of the whole genome sequence of the phage and phylogenetic analysis (Fig. 6). For instance, the closely related phages to the ΦZCEC15 phage were E. coli and Enterobacteriaceae phages. Although displaying host range on both E. coli and E. asburiae, ΦZCEC15 phage had better efficiency of plating on E. coli, with the best EOP (100%) on the 2B isolate (Fig. 8).
+
+Based on the sequencing data, the ΦZCEC15 phage has a large genome of 170,638 bp. This relatively large genome put ΦZCEC15 phage on the borderline of jumbo phages that are characterized by genome size (> 200 kbp), large head, and tail length [45]. The ΦZCEC15 phage has 140 coding domain sequences (CDSs), multiple accessory genes, eight tRNAs, Phage holin and Phage lysozyme. The holin protein plays a critical role in controlling the timing of bacterial lysis by forming pores in the cytoplasmic membrane, which allows lysozyme to degrade the peptidoglycan layer [46, 47]. This relatively high genome plasticity of ΦZCEC15 phage can contribute to unique traits compared to other small-genome phages [48]. For example, the phage displayed adaptation in response to environmental pressures at extreme pH values (from pH 3 to pH 12), and temperature values (from − 80 °C to 85 °C) and after long exposure to UV-C (> 60 min). The ability of the phage to remain active at such high temperatures is likely associated with the capsid and scaffold protein encoded by ORF 206, which could protect the phage genome from high temperature [49]. Large phage genomes have shown that under harsh conditions such as high temperature, they can protect themselves [50]. The results correlate with other studies [51, 52], demonstrating that bacteriophages mainly maintain stability across various pH levels and temperatures, which can be utilized in different formulations for treating patients with multidrug-resistant bacterial diseases. This may contribute to many applications in human or animal phage therapy at different sites of infections, in addition to the potential stability with various drug formulations and at different storage conditions.
+
+For phage-bacteria dynamics on the culture media, the ΦZCEC15 phage (at different MOIs: 100, 10, 1 and 0.1) succeeded in inhibiting the growth of bacteria for the first seven hours of incubation. However, bacterial regrowth was noticed in the following hours, with a higher rate of regrowth at the higher MOI (100), then, the rate is declined as the MOI decreases (regrowth at MOI 1 < MOI 10 < MOI 100 at the culture media). On the contrary, no bacterial regrowth was detected throughout the experiment time (12 h) at MOI 0.1. This supported the dose-dependent response of the phage on the host 2B bacteria [53, 54]. In addition, the phage’s ability to diminish the bacterial load at different MOIs is still promising for therapeutic applications, as the immune system can eliminate slower-growing infections during this period [55].
+
+Our findings of the phage-Caco-2 cells interactions showed that the phage was completely safe, with no cytotoxicity on Caco-2 cells (Figs. 11 and 12). These results were confirmed in several studies [56, 57], where the isolated phages showed no cytotoxicity on several cell lines (HSF) and (HT-29). For the phage-bacteria dynamic in colon cells, the phage treatment was effective with minimal to no cytotoxic effect (Fig. 12). For instance, the phage controlled the bacterial growth at the start of the experiment (after 6 h), yet bacterial regrowth was detected by the end of the experiment (after 24 h). These results agreed with the phage-bacterial dynamics in the culture media (Fig. 12) (in which the bacterial regrowth was in an MOI-dependent manner (regrowth at MOI 1 < MOI 10 < MOI 100 on Caco-2 cells).
+
+The cytotoxicity on cell lines was observed with higher MOIs, which could be due to the massive release of bacterial components such as bacterial endotoxins, peptidoglycan fragments, and pro-inflammatory molecules [58]. For instance, the rapid lysis of bacteria releasing lipopolysaccharide (LPS) can activate the pathway of pattern recognition receptors (e.g., TLR4) and thus trigger pro-inflammatory cytokines (e.g., IL-8 and TNF-α). These molecules could induce cytokine production in human cells, which in turn causes oxidative stress and apoptosis [59, 60]. Recent studies suggested that those immune factors are directly related to phage inflammatory modulation. On the other hand, the regrowth of bacteria at high MOIs (100, 10 and 1) affects the cell viability, and this might be due to the detrimental impact of the bacterial pathogen or the induction of cytokines with the higher titer of phage, as suggested before in several studies [61, 62]. Further comprehensive research is required to validate and expand these hypotheses [44, 45].
+
+Meanwhile, the development of resistant bacteria affects mainly the cell line with the higher MOIs, and this might be due to the detrimental impact of resistant pathogens or the induction of cytokines with the higher titer of phage, as suggested before in several studies. However, such effects are less likely to occur in experimental animals because phages are diluted and distributed before reaching the infection site, resulting in a lower effective MOI at the target tissue than the initial inoculum. Therefore, high MOIs are often used in vitro to compensate for this difference [63]. Further comprehensive research is required to validate and expand these hypotheses. Moreover, the findings were compatible with several studies in which the phage eliminated the bacterial host without deleterious effect on the cell line [64, 65]. For example, Shan et al. (2018) demonstrated that bacteriophages eradicated the E. coli from co-cultures with HT-29 human intestinal epithelial cells, with no observable cytotoxicity or impairment of cell viability [66]. Moreover, Alemayehu et al. (2012) reported that both phages φMR299-2 and φNH-4 successfully cleared Pseudomonas aeruginosa in lung infection models and cystic fibrosis airway epithelial cell cultures, showing no harmful effects on the host cells [65, 67]. These results reinforce the safety and efficiency of the phages in killing the bacterial infection when interacting with mammalian epithelial cells.
+
+Conclusion
+
+This study focused on the potential therapeutic activity of the ΦZCEC15 phage against MDR bacteria. The phage extended host range against both E. coli and E. asburiae. It demonstrated a large genome size with many tRNA and accessory genes. This might contribute to the phage`s remarkable environmental stability to pH, thermal and UV exposure. Furthermore, phages are safe to human cells and efficient in controlling bacterial growth in the Caco-2 cell environment, supporting their clinical relevance. Further studies are needed to study bacterial regrowth at high MOIs and optimize the doss for better understanding the host responses. Finally, the findings from ΦZCEC15 phage presented valuable insights into the utilization of phages in treating MDR bacteria.
+
+Supplementary Information
+
+Supplementary Material 1.
+
+Supplementary Material 2.
+
+Acknowledgements
+
+We are especially grateful to Basmala M. Emam, Mohamed Shokry Fayez, and Assmaa H. Hussein for their significant contributions and encouragement. We would also like to thank Adham A. Saad, Hazem M. Ahmed, Rania H. Maamoun, Mai M. El-Sayed and all CMP members at Zewail City for their valuable advice and support.
+
+Authors’ contributions
+
+K.E. designed and performed the experiments in the laboratory, wrote the main manuscript text and prepared figures. A.A. contributed to genome annotation and phage sequence analysis. S.M. provided critical feedback and helped shape the analysis and performed the statistical analyses. A.Z. contributed to phage cytotoxicity and Phage-bacteria dynamics on colon carcinoma (Caco-2) cell line. A.E. reviewed the final draft and approved the submitted version. All authors reviewed and approved the manuscript.
+
+Funding
+
+Open access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB). This work is supported by M.A.R.C For Medical Services and Scientific Research [grant number MR_GR_464].
+
+Data availability
+
+The vB_Eco_ZCEC15 phage whole genome sequence is deposited in the NCBI nucleotide database under accession number (PQ871103).
+
+Declarations
+
+Ethics approval and consent to participate
+
+Not applicable.
+
+Consent for publication
+
+Not applicable.
+
+Competing interests
+
+The authors declare no competing interests.
+
+Abbreviations
+
+AST Antibiotic Sensitivity Testing
+
+Caco-2 Colon carcinoma
+
+DMEM Dulbecco’s Modified Eagle Medium
+
+GIT Gastrointestinal tract
+
+MAR Multiple Antibiotic Resistance
+
+MOI Multiplicity of Infection
+
+OD Optical density
+
+ORF Open Reading Frame
+
+PBS Phosphate Buffer Saline
+
+PCR Polymerase Chain Reaction
+
+PFGE Pulsed Field Gel Electrophoresis
+
+RASTtk Rapid Annotation using the Subsystem Technology Toolkit
+
+TMDs Transmembrane domains
+
+TSA Tryptic Soy Agar
+
+TSB Tryptic Soy Broth
+
+VIRIDIC Virus Intergenomic Distance Calculator
+
+Publisher’s note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+
+References
+
+1. Ramos S Silva V de Lurdes Enes Dapkevicius M Escherichia coli as commensal and pathogenic bacteria among Food-Producing animals: health implications of extended spectrum β-Lactamase (ESBL) production Anim (Basel) 2020 10 12 2239 10.3390/ANI10122239 PMC7761174 33260303
+Ramos S, Silva V, de Lurdes Enes Dapkevicius M, et al. Escherichia coli as commensal and pathogenic bacteria among Food-Producing animals: health implications of extended spectrum β-Lactamase (ESBL) production. Anim (Basel). 2020;10(12):2239. 10.3390/ANI10122239.10.3390/ani10122239 PMC7761174 33260303
+2. Diarrhoeal disease. Accessed June 2. 2025. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease.
+3. Pakbin B Brück WM Rossen JWA Virulence factors of enteric pathogenic Escherichia coli: A review Int J Mol Sci 2021 22 18 9922 10.3390/IJMS22189922 34576083 PMC8468683
+Pakbin B, Brück WM, Rossen JWA. Virulence factors of enteric pathogenic Escherichia coli: A review. Int J Mol Sci. 2021;22(18):9922. 10.3390/IJMS22189922.34576083 10.3390/ijms22189922 PMC8468683
+4. Hartman RM Cohen AL Antoni S Risk factors for mortality among children younger than age 5 years with severe diarrhea in Low- and Middle-income countries: findings from the world health Organization-coordinated global rotavirus and pediatric diarrhea surveillance networks Clin Infect Dis 2022 76 3 e1047 10.1093/CID/CIAC561 PMC9907489 35797157
+Hartman RM, Cohen AL, Antoni S, et al. Risk factors for mortality among children younger than age 5 years with severe diarrhea in Low- and Middle-income countries: findings from the world health Organization-coordinated global rotavirus and pediatric diarrhea surveillance networks. Clin Infect Dis. 2022;76(3):e1047. 10.1093/CID/CIAC561.10.1093/cid/ciac561 PMC9907489 35797157
+5. Fowoyo PT. Phage therapy: clinical Applications, Efficacy, and implementation hurdles. Open Microbiol J. 2024;18(1). 10.2174/0118742858281566231221045303.
+6. Salam MA Al-Amin MY Salam MT Antimicrobial resistance: A growing serious threat for global public health Healthcare 2023 11 13 1946 10.3390/HEALTHCARE11131946 37444780 PMC10340576
+Salam MA, Al-Amin MY, Salam MT, et al. Antimicrobial resistance: A growing serious threat for global public health. Healthcare. 2023;11(13):1946. 10.3390/HEALTHCARE11131946.37444780 10.3390/healthcare11131946 PMC10340576
+7. Almutairy B Extensively and multidrug-resistant bacterial strains: case studies of antibiotics resistance Front Microbiol 2024 15 1381511 10.3389/FMICB.2024.1381511 39027098 PMC11256239
+Almutairy B. Extensively and multidrug-resistant bacterial strains: case studies of antibiotics resistance. Front Microbiol. 2024;15:1381511. 10.3389/FMICB.2024.1381511.39027098 10.3389/fmicb.2024.1381511 PMC11256239
+8. Abdelaziz AA Abo Kamer AM Nosair AM Al-Madboly LA Exploring the potential efficacy of phage therapy for biocontrol of foodborne pathogenic extensively drug-resistant Escherichia coli in Gastrointestinal tract of rat model Life Sci 2023 315 121362 10.1016/J.LFS.2022.121362 36610637
+Abdelaziz AA, Abo Kamer AM, Nosair AM, Al-Madboly LA. Exploring the potential efficacy of phage therapy for biocontrol of foodborne pathogenic extensively drug-resistant Escherichia coli in Gastrointestinal tract of rat model. Life Sci. 2023;315:121362. 10.1016/J.LFS.2022.121362.36610637 10.1016/j.lfs.2022.121362
+9. Emencheta SC Olovo CV Eze OC The role of bacteriophages in the gut microbiota: implications for human health Pharmaceutics 2023 15 10 2416 10.3390/PHARMACEUTICS15102416 37896176 PMC10609668
+Emencheta SC, Olovo CV, Eze OC, et al. The role of bacteriophages in the gut microbiota: implications for human health. Pharmaceutics. 2023;15(10):2416. 10.3390/PHARMACEUTICS15102416.37896176 10.3390/pharmaceutics15102416 PMC10609668
+10. Lin DM Koskella B Lin HC Phage therapy: an alternative to antibiotics in the age of multi-drug resistance World J Gastrointest Pharmacol Ther 2017 8 3 162 10.4292/WJGPT.V8.I3.162 28828194 PMC5547374
+Lin DM, Koskella B, Lin HC. Phage therapy: an alternative to antibiotics in the age of multi-drug resistance. World J Gastrointest Pharmacol Ther. 2017;8(3):162. 10.4292/WJGPT.V8.I3.162.28828194 10.4292/wjgpt.v8.i3.162 PMC5547374
+11. Kakkar A Kandwal G Nayak T Jaiswal LK Srivastava A Gupta A Engineered bacteriophages: A panacea against pathogenic and drug resistant bacteria Heliyon 2024 10 14 e34333 10.1016/J.HELIYON.2024.E34333 39100447 PMC11295868
+Kakkar A, Kandwal G, Nayak T, Jaiswal LK, Srivastava A, Gupta A. Engineered bacteriophages: A panacea against pathogenic and drug resistant bacteria. Heliyon. 2024;10(14):e34333. 10.1016/J.HELIYON.2024.E34333.39100447 10.1016/j.heliyon.2024.e34333 PMC11295868
+12. Aldayel MF Biocontrol strategies of antibiotic-resistant, highly pathogenic bacteria and fungi with potential bioterrorism risks: bacteriophage in focus J King Saud Univ Sci 2019 31 4 1227 34 10.1016/J.JKSUS.2019.08.002
+Aldayel MF. Biocontrol strategies of antibiotic-resistant, highly pathogenic bacteria and fungi with potential bioterrorism risks: bacteriophage in focus. J King Saud Univ Sci. 2019;31(4):1227–34. 10.1016/J.JKSUS.2019.08.002.
+13. Onallah H Hazan R Nir-Paz R Refractory Pseudomonas aeruginosa infections treated with phage PASA16: A compassionate use case series Med 2023 4 9 600 e6114 10.1016/J.MEDJ.2023.07.002 37562400
+Onallah H, Hazan R, Nir-Paz R, et al. Refractory Pseudomonas aeruginosa infections treated with phage PASA16: A compassionate use case series. Med. 2023;4(9):600–e6114. 10.1016/J.MEDJ.2023.07.002.37562400 10.1016/j.medj.2023.07.002
+14. Nichols AC Black M Yoo J Exploiting high-throughput cell line drug screening studies to identify candidate therapeutic agents in head and neck cancer BMC Pharmacol Toxicol 2014 15 1 66 10.1186/2050-6511-15-66 25428177 PMC4258049
+Nichols AC, Black M, Yoo J, et al. Exploiting high-throughput cell line drug screening studies to identify candidate therapeutic agents in head and neck cancer. BMC Pharmacol Toxicol. 2014;15(1):66. 10.1186/2050-6511-15-66.25428177 10.1186/2050-6511-15-66 PMC4258049
+15. Niu N Wang L In vitro human cell line models to predict clinical response to anticancer drugs Pharmacogenomics 2015 16 3 273 10.2217/PGS.14.170 25712190 PMC4358765
+Niu N, Wang L. In vitro human cell line models to predict clinical response to anticancer drugs. Pharmacogenomics. 2015;16(3):273. 10.2217/PGS.14.170.25712190 10.2217/pgs.14.170 PMC4358765
+16. Cui T Jia A Yao M Characterization and Caco-2 cell transport assay of Chito-Oligosaccharides Nano-Liposomes based on Layer-by-Layer coated Molecules 2021 2021 26 14 4144 10.3390/MOLECULES26144144 PMC8306128 34299419
+Cui T, Jia A, Yao M, et al. Characterization and Caco-2 cell transport assay of Chito-Oligosaccharides Nano-Liposomes based on Layer-by-Layer coated. Molecules 2021. 2021;26(14):4144. 10.3390/MOLECULES26144144.10.3390/molecules26144144 PMC8306128 34299419
+17. Rousset M The human colon carcinoma cell lines HT-29 and Caco-2: two in vitro models for the study of intestinal differentiation Biochimie 1986 68 9 1035 40 10.1016/S0300-9084(86)80177-8 3096381
+Rousset M. The human colon carcinoma cell lines HT-29 and Caco-2: two in vitro models for the study of intestinal differentiation. Biochimie. 1986;68(9):1035–40. 10.1016/S0300-9084(86)80177-8.3096381 10.1016/s0300-9084(86)80177-8
+18. Luo L Liang L Zhang R Using Vitek MS v3.0 to identify nontuberculous mycobacteria in liquid media in a clinical microbiology laboratory Microbiol Spectr 2022 10 6 e02018 22 10.1128/SPECTRUM.02018-22 36287015 PMC9769768
+Luo L, Liang L, Zhang R, et al. Using Vitek MS v3.0 to identify nontuberculous mycobacteria in liquid media in a clinical microbiology laboratory. Microbiol Spectr. 2022;10(6):e02018–22. 10.1128/SPECTRUM.02018-22.36287015 10.1128/spectrum.02018-22 PMC9769768
+19. Kragh KN Alhede M Rybtke M The inoculation method could impact the outcome of Microbiological experiments Appl Environ Microbiol 2018 84 5 e02264 17 10.1128/AEM.02264-17 29269495 PMC5812950
+Kragh KN, Alhede M, Rybtke M, et al. The inoculation method could impact the outcome of Microbiological experiments. Appl Environ Microbiol. 2018;84(5):e02264–17. 10.1128/AEM.02264-17.29269495 10.1128/AEM.02264-17 PMC5812950
+20. Nakasone I Kinjo T Yamane N Kisanuki K Shiohira CM Laboratory-based evaluation of the colorimetric VITEK-2 compact system for species identification and of the advanced expert system for detection of antimicrobial resistances: VITEK-2 compact system identification and antimicrobial susceptibility testing Diagn Microbiol Infect Dis 2007 58 2 191 8 10.1016/j.diagmicrobio.2006.12.008 17300904
+Nakasone I, Kinjo T, Yamane N, Kisanuki K, Shiohira CM. Laboratory-based evaluation of the colorimetric VITEK-2 compact system for species identification and of the advanced expert system for detection of antimicrobial resistances: VITEK-2 compact system identification and antimicrobial susceptibility testing. Diagn Microbiol Infect Dis. 2007;58(2):191–8. 10.1016/j.diagmicrobio.2006.12.008.17300904 10.1016/j.diagmicrobio.2006.12.008
+21. Soontarach R, Srimanote P, Enright MC, et al. Isolation and characterisation of bacteriophage selective for key acinetobacter baumannii capsule chemotypes. Pharmaceuticals. 2022;15(4). 10.3390/PH15040443/S1.10.3390/ph15040443 PMC9027227 35455440
+22. Göller PC Haro-Moreno JM Rodriguez-Valera F Loessner MJ Gómez-Sanz E Uncovering a hidden diversity: optimized protocols for the extraction of DsDNA bacteriophages from soil Microbiome 2020 8 1 17 10.1186/S40168-020-0795-2 32046783 PMC7014677
+Göller PC, Haro-Moreno JM, Rodriguez-Valera F, Loessner MJ, Gómez-Sanz E. Uncovering a hidden diversity: optimized protocols for the extraction of DsDNA bacteriophages from soil. Microbiome. 2020;8(1):17. 10.1186/S40168-020-0795-2.32046783 10.1186/s40168-020-0795-2 PMC7014677
+23. David B. Fankhauser’s lab protocols | BioLabProtocols. Accessed January 20, 2025. https://www.biolabprotocols.com/author/3614/David-B-Fankhauser.html.
+24. Senczek D Stephan R Untermann F Pulsed-field gel electrophoresis (PFGE) typing of Listeria strains isolated from a meat processing plant over a 2-year period Int J Food Microbiol 2000 62 1–2 155 9 10.1016/S0168-1605(00)00395-0 11139016
+Senczek D, Stephan R, Untermann F. Pulsed-field gel electrophoresis (PFGE) typing of Listeria strains isolated from a meat processing plant over a 2-year period. Int J Food Microbiol. 2000;62(1–2):155–9. 10.1016/S0168-1605(00)00395-0.11139016 10.1016/s0168-1605(00)00395-0
+25. Schneider CA, Rasband WS, Eliceiri KW. NIH Image to ImageJ: 25 years of image analysis. Nature Methods 2012 9:7. 2012;9(7):671–675. 10.1038/nmeth.2089.10.1038/nmeth.2089 PMC5554542 22930834
+26. Schneider CA Rasband WS Eliceiri KW NIH image to imageJ: 25 years of image analysis Nat Methods 2012 9 7 671 5 10.1038/NMETH.2089 22930834 PMC5554542
+Schneider CA, Rasband WS, Eliceiri KW. NIH image to imageJ: 25 years of image analysis. Nat Methods. 2012;9(7):671–5. 10.1038/NMETH.2089.22930834 10.1038/nmeth.2089 PMC5554542
+27. Mangieri N Picozzi C Cocuzzi R Foschino R Evaluation of a potential bacteriophage cocktail for the control of Shiga-Toxin producing Escherichia coli in food Front Microbiol 2020 11 1801 10.3389/FMICB.2020.01801/FULL 32793183 PMC7393728
+Mangieri N, Picozzi C, Cocuzzi R, Foschino R. Evaluation of a potential bacteriophage cocktail for the control of Shiga-Toxin producing Escherichia coli in food. Front Microbiol. 2020;11:1801. 10.3389/FMICB.2020.01801/FULL.32793183 10.3389/fmicb.2020.01801 PMC7393728
+28. Kutter E Phage host range and efficiency of plating Methods Mol Biol 2009 501 141 9 10.1007/978-1-60327-164-6_14 19066818
+Kutter E. Phage host range and efficiency of plating. Methods Mol Biol. 2009;501:141–9. 10.1007/978-1-60327-164-6_14.19066818 10.1007/978-1-60327-164-6_14
+29. Capra ML Quiberoni A Reinheimer JA Thermal and chemical resistance of Lactobacillus casei and Lactobacillus paracasei bacteriophages Lett Appl Microbiol 2004 38 6 499 504 10.1111/J.1472-765X.2004.01525.X 15130146
+Capra ML, Quiberoni A, Reinheimer JA. Thermal and chemical resistance of Lactobacillus casei and Lactobacillus paracasei bacteriophages. Lett Appl Microbiol. 2004;38(6):499–504. 10.1111/J.1472-765X.2004.01525.X.15130146 10.1111/j.1472-765X.2004.01525.x
+30. Capra ML Quiberoni A Reinheimer J Phages of Lactobacillus casei/paracasei: response to environmental factors and interaction with collection and commercial strains J Appl Microbiol 2006 100 2 334 42 10.1111/J.1365-2672.2005.02767.X 16430510
+Capra ML, Quiberoni A, Reinheimer J. Phages of Lactobacillus casei/paracasei: response to environmental factors and interaction with collection and commercial strains. J Appl Microbiol. 2006;100(2):334–42. 10.1111/J.1365-2672.2005.02767.X.16430510 10.1111/j.1365-2672.2005.02767.x
+31. Ahmadi M, Amir Karimi Torshizi M, Rahimi S, Dennehy JJ. Prophylactic bacteriophage administration more effective than post-infection administration in reducing Salmonella enterica serovar enteritidis shedding in quail. Front Microbiol. 2016;7(AUG). 10.3389/FMICB.2016.01253.10.3389/fmicb.2016.01253 PMC4977285 27555842
+32. Niu YD, Liu H, Johnson RP, McAllister TA, Stanford K. Effect of a bacteriophage T5virus on growth of Shiga toxigenic Escherichia coli and Salmonella strains in individual and mixed cultures. Virol J. 2020;17(1). 10.1186/S12985-019-1269-7.10.1186/s12985-019-1269-7 PMC6947960 31910855
+33. Lázaro-Silva DN Mattos JCP De, Castro HC The use of DNA extraction for molecular biology and biotechnology training: A practical and alternative approach Creat Educ 2015 6 8 762 72 10.4236/CE.2015.68079
+Lázaro-Silva DN, Mattos JCP, De, Castro HC, et al. The use of DNA extraction for molecular biology and biotechnology training: A practical and alternative approach. Creat Educ. 2015;6(8):762–72. 10.4236/CE.2015.68079.
+34. Darling AE Mau B Perna NT ProgressiveMauve: multiple genome alignment with gene Gain, loss and rearrangement PLoS ONE 2010 5 6 e11147 10.1371/JOURNAL.PONE.0011147 20593022 PMC2892488
+Darling AE, Mau B, Perna NT. ProgressiveMauve: multiple genome alignment with gene Gain, loss and rearrangement. PLoS ONE. 2010;5(6):e11147. 10.1371/JOURNAL.PONE.0011147.20593022 10.1371/journal.pone.0011147 PMC2892488
+35. Okonechnikov K Golosova O Fursov M Unipro UGENE: a unified bioinformatics toolkit Bioinformatics 2012 28 8 1166 7 10.1093/BIOINFORMATICS/BTS091 22368248
+Okonechnikov K, Golosova O, Fursov M, et al. Unipro UGENE: a unified bioinformatics toolkit. Bioinformatics. 2012;28(8):1166–7. 10.1093/BIOINFORMATICS/BTS091.22368248 10.1093/bioinformatics/bts091
+36. Aziz RK, Bartels D, Best A, et al. The RAST server: rapid annotations using subsystems technology. BMC Genomics. 2008;9. 10.1186/1471-2164-9-75.10.1186/1471-2164-9-75 PMC2265698 18261238
+37. Stothard P Wishart DS Circular genome visualization and exploration using CGView Bioinformatics 2005 21 4 537 9 10.1093/BIOINFORMATICS/BTI054 15479716
+Stothard P, Wishart DS. Circular genome visualization and exploration using CGView. Bioinformatics. 2005;21(4):537–9. 10.1093/BIOINFORMATICS/BTI054.15479716 10.1093/bioinformatics/bti054
+38. Yukgehnaish K, Rajandas H, Parimannan S, et al. PhageLeads: rapid assessment of phage therapeutic suitability using an ensemble machine learning approach. Viruses. 2022;14(2). 10.3390/V14020342.10.3390/v14020342 PMC8879740 35215934
+39. Hallgren J, Tsirigos KD, Damgaard Pedersen M et al. DeepTMHMM predicts alpha and beta transmembrane proteins using deep neural networks. BioRxiv Published Online April 10, 2022:2022.04.08.487609.10.1101/2022.04.08.487609.
+40. Nishimura Y Yoshida T Kuronishi M Uehara H Ogata H Goto S ViPTree: the viral proteomic tree server Bioinformatics 2017 33 15 2379 80 10.1093/BIOINFORMATICS/BTX157 28379287
+Nishimura Y, Yoshida T, Kuronishi M, Uehara H, Ogata H, Goto S. ViPTree: the viral proteomic tree server. Bioinformatics. 2017;33(15):2379–80. 10.1093/BIOINFORMATICS/BTX157.28379287 10.1093/bioinformatics/btx157
+41. Moraru C Varsani A Kropinski AM VIRIDIC—A novel tool to calculate the intergenomic similarities of Prokaryote-Infecting viruses Viruses 2020 2020 12 11 1268 10.3390/V12111268 PMC7694805 33172115
+Moraru C, Varsani A, Kropinski AM. VIRIDIC—A novel tool to calculate the intergenomic similarities of Prokaryote-Infecting viruses. Viruses 2020. 2020;12(11):1268. 10.3390/V12111268.10.3390/v12111268 PMC7694805 33172115
+42. Davis P Seto D Mahadevan P CoreGenes5.0: an updated User-Friendly webserver for the determination of core genes from sets of viral and bacterial genomes Viruses 2022 2022 14 11 2534 10.3390/V14112534 PMC9693508 36423143
+Davis P, Seto D, Mahadevan P. CoreGenes5.0: an updated User-Friendly webserver for the determination of core genes from sets of viral and bacterial genomes. Viruses 2022. 2022;14(11):2534. 10.3390/V14112534.10.3390/v14112534 PMC9693508 36423143
+43. Tamura K Stecher G Kumar S MEGA11: molecular evolutionary genetics analysis version 11 Mol Biol Evol 2021 38 7 3022 7 10.1093/MOLBEV/MSAB120 33892491 PMC8233496
+Tamura K, Stecher G, Kumar S. MEGA11: molecular evolutionary genetics analysis version 11. Mol Biol Evol. 2021;38(7):3022–7. 10.1093/MOLBEV/MSAB120.33892491 10.1093/molbev/msab120 PMC8233496
+44. Mirzaei MK Haileselassie Y Navis M Cooper C Sverremark-Ekström E Nilsson AS Morphologically distinct Escherichia coli bacteriophages differ in their efficacy and ability to stimulate cytokine release in vitro Front Microbiol 2016 7 MAR 437 10.3389/FMICB.2016.00437 27065990 PMC4814447
+Mirzaei MK, Haileselassie Y, Navis M, Cooper C, Sverremark-Ekström E, Nilsson AS. Morphologically distinct Escherichia coli bacteriophages differ in their efficacy and ability to stimulate cytokine release in vitro. Front Microbiol. 2016;7(MAR):437. 10.3389/FMICB.2016.00437.27065990 10.3389/fmicb.2016.00437 PMC4814447
+45. Yuan Y Gao M Jumbo bacteriophages: an overview Front Microbiol 2017 8 MAR 226872 10.3389/FMICB.2017.00403/BIBTEX PMC5348500 28352259
+Yuan Y, Gao M. Jumbo bacteriophages: an overview. Front Microbiol. 2017;8(MAR):226872. 10.3389/FMICB.2017.00403/BIBTEX.10.3389/fmicb.2017.00403 PMC5348500 28352259
+46. Zheng C Di Y Wang Y Biological function identification of phage Holin Hol-4086 and treatment of Staphylococcus aureus infection Front Microbiol 2025 16 1499566 10.3389/FMICB.2025.1499566 40071209 PMC11893567
+Zheng C, Di Y, Wang Y, et al. Biological function identification of phage Holin Hol-4086 and treatment of Staphylococcus aureus infection. Front Microbiol. 2025;16:1499566. 10.3389/FMICB.2025.1499566.40071209 10.3389/fmicb.2025.1499566 PMC11893567
+47. Shi Y Yan Y Ji W Characterization and determination of Holin protein of Streptococcus suis bacteriophage SMP in heterologous host Virol J 2012 9 70 10.1186/1743-422X-9-70 22436471 PMC3359269
+Shi Y, Yan Y, Ji W, et al. Characterization and determination of Holin protein of Streptococcus suis bacteriophage SMP in heterologous host. Virol J. 2012;9:70. 10.1186/1743-422X-9-70.22436471 10.1186/1743-422X-9-70 PMC3359269
+48. Moura de Sousa JA Pfeifer E Touchon M Rocha EPC Causes and consequences of bacteriophage diversification via genetic exchanges across lifestyles and bacterial taxa Mol Biol Evol 2021 38 6 2497 512 10.1093/MOLBEV/MSAB044 33570565 PMC8136500
+Moura de Sousa JA, Pfeifer E, Touchon M, Rocha EPC. Causes and consequences of bacteriophage diversification via genetic exchanges across lifestyles and bacterial taxa. Mol Biol Evol. 2021;38(6):2497–512. 10.1093/MOLBEV/MSAB044.33570565 10.1093/molbev/msab044 PMC8136500
+49. White HE Sherman MB Brasilès S Capsid structure and its stability at the late stages of bacteriophage SPP1 assembly J Virol 2012 86 12 6768 10.1128/JVI.00412-12 22514336 PMC3393595
+White HE, Sherman MB, Brasilès S, et al. Capsid structure and its stability at the late stages of bacteriophage SPP1 assembly. J Virol. 2012;86(12):6768. 10.1128/JVI.00412-12.22514336 10.1128/JVI.00412-12 PMC3393595
+50. Jończyk E Kłak M Międzybrodzki R Górski A The influence of external factors on bacteriophages—review Folia Microbiol (Praha) 2011 56 3 191 10.1007/S12223-011-0039-8 21625877 PMC3131515
+Jończyk E, Kłak M, Międzybrodzki R, Górski A. The influence of external factors on bacteriophages—review. Folia Microbiol (Praha). 2011;56(3):191. 10.1007/S12223-011-0039-8.21625877 10.1007/s12223-011-0039-8 PMC3131515
+51. Malik S Nehra K Mann A Jagdish R Rana JS Characterization and synergy studies of caudoviricete Escherichia phage FS2B infecting multi-drug resistant uropathogenic Escherichia coli isolates Int Microbiol 2024 27 1 155 66 10.1007/S10123-023-00381-X 37247084
+Malik S, Nehra K, Mann A, Jagdish R, Rana JS. Characterization and synergy studies of caudoviricete Escherichia phage FS2B infecting multi-drug resistant uropathogenic Escherichia coli isolates. Int Microbiol. 2024;27(1):155–66. 10.1007/S10123-023-00381-X.37247084 10.1007/s10123-023-00381-x
+52. Devi BA Sugumar KVL Isolation and characterization of bacteriophages against E.coli urinary tract infection and evaluating their anti-biofilm activity and antibiotic synergy Microb Pathog 2024 193 106789 10.1016/J.MICPATH.2024.106789 38972365
+Devi BA, Sugumar KVL. Isolation and characterization of bacteriophages against E.coli urinary tract infection and evaluating their anti-biofilm activity and antibiotic synergy. Microb Pathog. 2024;193:106789. 10.1016/J.MICPATH.2024.106789.38972365 10.1016/j.micpath.2024.106789
+53. Geng Y, Nguyen TVP, Homaee E, Golding I. Using bacterial population dynamics to count phages and their lysogens. Nature Communications 2024 15:1. 2024;15(1):1–18. 10.1038/s41467-024-51913-6.10.1038/s41467-024-51913-6 PMC11379933 39242585
+54. Hosseini N Chehreghani M Moineau S Charette SJ Centroid of the bacterial growth curves: a metric to assess phage efficiency Commun Biol 2024 7 1 673 10.1038/S42003-024-06379-Z 38822127 PMC11143336
+Hosseini N, Chehreghani M, Moineau S, Charette SJ. Centroid of the bacterial growth curves: a metric to assess phage efficiency. Commun Biol. 2024;7(1):673. 10.1038/S42003-024-06379-Z.38822127 10.1038/s42003-024-06379-z PMC11143336
+55. Tkhilaishvili T Lombardi L Klatt AB Trampuz A Di Luca M Bacteriophage Sb-1 enhances antibiotic activity against biofilm, degrades exopolysaccharide matrix and targets persisters of Staphylococcus aureus Int J Antimicrob Agents 2018 52 6 842 53 10.1016/J.IJANTIMICAG.2018.09.006 30236955
+Tkhilaishvili T, Lombardi L, Klatt AB, Trampuz A, Di Luca M. Bacteriophage Sb-1 enhances antibiotic activity against biofilm, degrades exopolysaccharide matrix and targets persisters of Staphylococcus aureus. Int J Antimicrob Agents. 2018;52(6):842–53. 10.1016/J.IJANTIMICAG.2018.09.006.30236955 10.1016/j.ijantimicag.2018.09.006
+56. Górski A, Borysowski J, Miȩdzybrodzki R. Bacteriophage interactions with epithelial cells: therapeutic implications. Front Microbiol. 2021;11. 10.3389/FMICB.2020.631161.10.3389/fmicb.2020.631161 PMC7848012 33537024
+57. Wintachai P, Surachat K, Chaimaha G, Septama AW, Smith DR. Isolation and characterization of a phapecoctavirus infecting Multidrug-Resistant acinetobacter baumannii in A549 alveolar epithelial cells. Viruses. 2022;14(11). 10.3390/V14112561.10.3390/v14112561 PMC9695679 36423170
+58. Kosznik-Kwaśnicka K, Stasiłojć M, Stasiłojć G, Kaźmierczak N, Piechowicz L. The influence of bacteriophages on the metabolic condition of human fibroblasts in light of the safety of phage therapy in Staphylococcal skin infections. Int J Mol Sci. 2023;24(6). 10.3390/IJMS24065961.10.3390/ijms24065961 PMC10055722 36983034
+59. Cavaillon JM Exotoxins and endotoxins: inducers of inflammatory cytokines Toxicon 2018 149 45 53 10.1016/j.toxicon.2017.10.016 29056305
+Cavaillon JM. Exotoxins and endotoxins: inducers of inflammatory cytokines. Toxicon. 2018;149:45–53. 10.1016/j.toxicon.2017.10.016.29056305 10.1016/j.toxicon.2017.10.016
+60. Wang JE JØrgensen PF Almlöf M Peptidoglycan and Lipoteichoic acid from Staphylococcus aureus induce tumor necrosis factor alpha, Interleukin 6 (IL-6), and IL-10 production in both T cells and monocytes in a human whole blood model Infect Immun 2000 68 7 3965 70 10.1128/IAI.68.7.3965-3970.2000 10858210 PMC101674
+Wang JE, JØrgensen PF, Almlöf M, et al. Peptidoglycan and Lipoteichoic acid from Staphylococcus aureus induce tumor necrosis factor alpha, Interleukin 6 (IL-6), and IL-10 production in both T cells and monocytes in a human whole blood model. Infect Immun. 2000;68(7):3965–70. 10.1128/IAI.68.7.3965-3970.2000.10858210 10.1128/iai.68.7.3965-3970.2000 PMC101674
+61. Górski A Miȩdzybrodzki R Jończyk-Matysiak E Zaczek M Borysowski J Phage-specific diverse effects of bacterial viruses on the immune system Future Microbiol 2019 14 14 1171 10.2217/FMB-2019-0222 31535921 PMC6802706
+Górski A, Miȩdzybrodzki R, Jończyk-Matysiak E, Zaczek M, Borysowski J. Phage-specific diverse effects of bacterial viruses on the immune system. Future Microbiol. 2019;14(14):1171. 10.2217/FMB-2019-0222.31535921 10.2217/fmb-2019-0222 PMC6802706
+62. Zhang L Hou X Sun L Staphylococcus aureus bacteriophage suppresses LPS-induced inflammation in MAC-T bovine mammary epithelial cells Front Microbiol 2018 9 JUL 391354 10.3389/FMICB.2018.01614/BIBTEX PMC6064726 30083140
+Zhang L, Hou X, Sun L, et al. Staphylococcus aureus bacteriophage suppresses LPS-induced inflammation in MAC-T bovine mammary epithelial cells. Front Microbiol. 2018;9(JUL):391354. 10.3389/FMICB.2018.01614/BIBTEX.10.3389/fmicb.2018.01614 PMC6064726 30083140
+63. Abedon ST Phage therapy dosing: the problem(s) with multiplicity of infection (MOI) Bacteriophage 2016 6 3 e1220348 10.1080/21597081.2016.1220348 27738558 PMC5056779
+Abedon ST. Phage therapy dosing: the problem(s) with multiplicity of infection (MOI). Bacteriophage. 2016;6(3):e1220348. 10.1080/21597081.2016.1220348.27738558 10.1080/21597081.2016.1220348 PMC5056779
+64. Shan J, Ramachandran A, Thanki AM, Vukusic FBI, Barylski J, Clokie MRJ. Bacteriophages are more virulent to bacteria with human cells than they are in bacterial culture; insights from HT-29 cells. Scientific Reports 2018 8:1. 2018;8(1):1–8. 10.1038/s41598-018-23418-y.10.1038/s41598-018-23418-y PMC5865146 29572482
+65. Alemayehu D, Casey PG, Mcauliffe O, et al. Bacteriophages φMR299-2 and φNH-4 can eliminate Pseudomonas aeruginosa in the murine lung and on cystic fibrosis lung airway cells. mBio. 2012;3(2). 10.1128/MBIO.00029-12.10.1128/mBio.00029-12 PMC3302570 22396480
+66. Shan J, Ramachandran A, Thanki AM, Vukusic FBI, Barylski J, Clokie MRJ. Bacteriophages are more virulent to bacteria with human cells than they are in bacterial culture; insights from HT-29 cells. Sci Rep. 2018;8(1). 10.1038/S41598-018-23418-Y.10.1038/s41598-018-23418-y PMC5865146 29572482
+67. Essam K Kamel AG Zaki BM Isolation and characterization of phages ΦZC2 and ΦZC3 against carbapenem-resistant acinetobacter baumannii, and efficacy of ΦZC3 on A549 cells Virol J 2025 22 1 1 17 10.1186/S12985-025-02885-6/METRICS 40739242 PMC12308983
+Essam K, Kamel AG, Zaki BM, et al. Isolation and characterization of phages ΦZC2 and ΦZC3 against carbapenem-resistant acinetobacter baumannii, and efficacy of ΦZC3 on A549 cells. Virol J. 2025;22(1):1–17. 10.1186/S12985-025-02885-6/METRICS.40739242 10.1186/s12985-025-02885-6 PMC12308983

@@ -1,0 +1,145 @@
+Summary file for XAN60209
+Number of papers: 9
+=============Summaries=============
+
+Paper: 42107219.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions were mentioned.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was made.
+
+Environmental Context:
+- The organism is associated with foodborne contamination, specifically in dairy products (milk).
+
+Concise Summary:
+The study focuses on the rapid electrochemical detection of a pathogenic bacterium in milk and PBS. No data regarding the organism's optimal growth temperature, growth range, survival temperature, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic) were presented. The organism is associated with foodborne contamination in dairy products.
+
+
+Paper: PMC11769469.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (implied by standard incubation).
+- Growth temperature range: Not explicitly stated, but optimal activity observed at 37 °C.
+- Survival temperature range: Stable activity maintained between 40 °C and 60 °C. Activity ceased after 40 minutes at 70 °C and 80 °C.
+- Incubation conditions: Standard incubation was performed at 37 °C.
+- Environmental source/habitat: Fecal waste and sewage from large-scale pig farms.
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: No evidence of psychrophilic adaptation.
+- Mesophilic growth: The optimal activity range (40–60 °C) and standard incubation (37 °C) suggest mesophilic characteristics.
+- Heat tolerance: Demonstrated stability up to 60 °C, with activity loss observed at higher temperatures (70 °C, 80 °C).
+- Cold tolerance: Not explicitly tested or mentioned.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Stability was maintained across the tested range (40–60 °C).
+
+Environmental Context:
+- Habitat/Source: Fecal waste and sewage from pig farms.
+
+Concise Summary:
+This bacteriophage was isolated from fecal waste and sewage collected from large-scale pig farms. Its biological activity was tested under various temperature conditions. The phage maintained stable activity within a temperature range of 40 °C to 60 °C. Standard incubation and optimal activity were observed at 37 °C. Activity was lost after incubation at 70 °C and 80 °C. The phage exhibits characteristics consistent with mesophilic organisms, showing good thermal stability within the tested range, making it a potential candidate for use in agricultural or industrial settings where temperatures are relatively stable.
+
+
+Paper: PMC13153029.1.txt
+Thermal Evidence:
+- Stable from 4 °C to 50 °C.
+- Active at 37 °C (physiological temperature).
+- Stability declined after 80 min at 60 °C, with an 87.8% reduction in titer.
+- Rapid decline observed at 70 °C.
+- Stable after 1 year of storage at 4 °C.
+- Optimal activity observed between room temperature and human physiological temperature (20 °C–37 °C).
+
+Environmental Context:
+- Isolated from untreated sewage at a hospital.
+- No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided; the stability profile suggests mesophilic characteristics with good cold tolerance (stable at 4 °C) and moderate heat tolerance up to 50 °C.
+
+Concise Summary:
+The phage exhibits robust stability across a wide temperature range, maintaining activity from 4 °C up to 50 °C. It is optimal at physiological temperatures (20 °C–37 °C) and demonstrated long-term stability when stored at 4 °C for over a year. Thermal stability testing showed a significant decline in titer after 80 minutes at 60 °C and rapid loss of activity at 70 °C. The phage was isolated from untreated sewage, suggesting an environmental origin. The stability profile indicates mesophilic characteristics with notable cold tolerance and moderate heat tolerance, but no specific classification (e.g., thermophilic) was assigned by the authors.
+
+
+Paper: PMC13163687.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 15 °C (for intracellular protein extraction).
+- Growth temperature range: 4 °C, 15 °C, 25 °C (for various assays/growth).
+- Survival temperature range: -80 °C (screening criterion); -18 °C (cryopreservation assays); 4 °C (viral stability assays).
+- Incubation conditions: Cultivation at 25 °C (for *E. coli*); 37 °C (for HEK293 cells).
+- Environmental source/habitat: Antarctic soil, moss, permafrost, marine sediment.
+- Psychrophilic adaptation: Explicitly mentioned; isolates are adapted to extreme cold and freezing conditions.
+- Cold tolerance: Demonstrated through survival screening at -80 °C and functional assays at -18 °C.
+- Heat tolerance: Extracellular proteins showed resistance to high temperatures (100 °C for 30 min).
+
+Environmental Context:
+- Habitat/Source: Antarctic soil, moss, permafrost, and marine sediment.
+
+Concise Summary:
+Antarctic microorganisms were isolated from extreme environments including soil, moss, permafrost, and marine sediment. These isolates exhibit strong adaptations to cold and freezing conditions, with survival screening conducted at -80 °C and functional assays performed at -18 °C. Optimal growth conditions utilized in the study included 15 °C and 25 °C, while cell culture for eukaryotic assays was maintained at 37 °C. The organisms are characterized as psychrophilic/cold-adapted. The study noted that extracellular proteins retained cryoprotective activity after thermal challenge (100 °C), suggesting inherent thermostability in these secreted biomolecules. The overall evidence points to a robust adaptation to subzero temperatures, making these microbes valuable sources for cryoprotectants.
+
+
+Paper: PMC13162333.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for initial co-transformation/selection).
+- Incubation conditions: 37°C (for initial co-transformation/selection); 16°C (for induction); 25°C (for subsequent cultivation/shake-flask fermentation).
+- Growth temperature range: Not explicitly stated, but optimal activity was observed at 30°C (for in vitro enzyme assays).
+- Survival temperature range: Not explicitly stated.
+- Thermal stress responses: No mention of thermophilic, psychrophilic, or specific thermal stress responses.
+
+Environmental Context:
+- Habitat/Source: Plant material source (leaves, roots, stem epidermis, trichomes) from a temperate/subtropical region (Himalayas to southwestern China).
+- Extreme Environment Isolation: No mention of isolation from an extreme environment.
+- Explicit Classification: No explicit thermal classification provided by the authors.
+
+
+Paper: PMC13170677.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but activity was observed at 37°C and thermal sensing was triggered at temperatures exceeding 42°C.
+- Incubation conditions: 37°C for various procedures (e.g., culturing, polymerization).
+- Environmental source/habitat: Human body/in vivo environment.
+- Mention of adaptations: None explicitly mentioned.
+- Explicit classification: None provided by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/source: The organism was used in a context simulating the human body (in vivo/in vitro). The probiotic strain used was *Escherichia coli Nissle 1917* (EcN).
+
+Concise Summary:
+The system utilizes a probiotic organism (*Escherichia coli Nissle 1917*) engineered with a genetic circuit. The optimal and standard incubation temperature for culturing and in vitro assays is 37°C, simulating the physiological environment. The system incorporates a thermal sensor (TcI) designed to detect temperature increases above 42°C, which serves as the trigger for the memory module and subsequent therapeutic action. The overall context is the use of a biocompatible, mesophilic organism platform for autonomous, temperature-responsive medical applications within the human body.
+
+
+Paper: PMC13161134.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the microorganisms tested.
+
+Environmental Context:
+- The study utilized standardized Petri dish images containing antibiotic-impregnated disks tested against three bacterial species. The context is a controlled laboratory diagnostic setting, not an environmental isolation source.
+
+Concise Summary:
+The provided paper details the development and validation of an AI framework for automated antimicrobial susceptibility testing (AST) using disk diffusion assays. The methodology focuses entirely on image processing, object detection (YOLO11n), quantitative measurement of inhibition zones, and automated classification against CLSI breakpoints. There is no microbiological data presented regarding the thermal physiology, growth temperatures, or environmental adaptation of the tested bacterial species. The analysis is purely computational and diagnostic, making it irrelevant for downstream thermal classification.
+
+
+Paper: PMC13168922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: 37°C with shaking at 250 rpm (for initial growth/induction); 18°C for 18h (for protein expression/induction); 15°C with shaking at 300 rpm (for secondary screening); 18°C for 24h (for protein expression/induction); 18°C for 18h (for initial growth/induction).
+- Environmental source/habitat: Not specified.
+- Mention of adaptations: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: Not specified.
+
+Concise Summary:
+The experimental procedures utilized various incubation temperatures, including optimal growth at 37°C, protein expression/induction at 18°C, and secondary screening at 15°C. The enzymes were tested under controlled *in vitro* conditions, with no information provided regarding the organism's natural thermal niche, extreme environment isolation, or specific thermal adaptations (thermophilic, psychrophilic, etc.).
+
+
+Paper: PMC13160763.1.txt
+Thermal Evidence:
+- No temperature-related data was provided for any microorganisms.
+
+Environmental Context:
+- No environmental context related to temperature was provided for any microorganisms.
+
+Concise Summary:
+This paper focuses on the diagnostic value of gut microbiota profiling and circulating biomarkers to predict post-stroke infection in acute ischemic stroke patients. The analysis involves 16S rRNA sequencing of stool samples and measurement of various biomarkers (NMDAR, butyrate, TMAO, RANKL, iFABP, LPS) in blood. The study details microbial dysbiosis characterized by reduced evenness and depletion of SCFA-producing commensals, alongside enrichment of pathogenic taxa. No information regarding the optimal growth temperature, temperature range, or thermal adaptations of the analyzed microbiota was present in the text.
+
+

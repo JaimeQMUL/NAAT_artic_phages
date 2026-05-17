@@ -1,0 +1,112 @@
+Summary file for WWS23156
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC12358502.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were reported.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The isolates were collected from clinical samples (sputum, urine, blood, cerebrospinal fluid) of hospitalized patients in a medical setting.
+- The study does not report isolation from an extreme environment.
+
+Concise Summary:
+This study focuses on the molecular epidemiology and resistance mechanisms of colistin-resistant Enterobacterales isolates recovered from clinical specimens (sputum, urine, blood, CSF) of hospitalized patients. The analysis details antibiotic susceptibility testing, genetic typing (PFGE, MLST, WGS), and molecular characterization of resistance genes ($mgrB$, $mcr-1$, etc.). No data regarding the thermal physiology, optimal growth temperature, or adaptation to extreme temperatures were provided in the manuscript.
+
+
+Paper: PMC6141743.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial growth and phage activity).
+- Growth temperature range: Not explicitly stated, but bacterial growth was optimized at 37°C.
+- Survival temperature range: Stable at 45°C and 55°C for 1 hour. Decreased after 40 min at 65°C, and showed significant decline at 75°C and 85°C. Recoverable at 75°C after 1 hour (titer of $10^3$ PFU/ml). Not recoverable after 40 min at 85°C.
+- Incubation conditions: Bacterial growth and phage activity were tested at 37°C. Stability tests were conducted over 1 hour in adjusted water baths.
+- Environmental source/habitat: Freshwater.
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: No evidence of psychrophilic adaptation.
+- Mesophilic growth: Implied, as optimal activity was observed at 37°C.
+- Heat tolerance: Demonstrated stability up to 55°C for 1 hour; showed reduced stability at higher temperatures (e.g., 65°C, 75°C).
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No specific enzymes adapted to temperature were detailed.
+- Membrane adaptations: No information provided.
+- Thermal stress responses: Stability was tested across a range of temperatures, indicating some degree of thermal resilience, though optimal stability was noted at lower temperatures (45-55°C).
+
+Environmental Context:
+- Habitat/Source: Freshwater.
+- Extreme Environment Isolation: Not explicitly stated as isolated from an extreme environment.
+- Explicit Classification: No explicit classification (e.g., mesophile) was given by the authors regarding the phage's thermal profile, but optimal activity was observed at 37°C, consistent with mesophilic organisms.
+
+
+Paper: PMC11920706.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the phages or bacteria discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The phages are described as ubiquitous in the biosphere.
+- The bacteria are associated with various sites, including the gastrointestinal (GI) tract, biofilms, and mucosal surfaces.
+
+Concise Summary:
+The provided review article focuses on the research, development, and clinical applications of phage therapy in the context of antimicrobial resistance. It details biological challenges such as phage host-specificity, biofilm formation, and the need for combination therapies (phage/antibiotic synergy). The discussion covers advanced technological approaches like AI and synthetic phage production, and models for therapy delivery (e.g., *à la carte* vs. *prêt-à-porter*). Crucially, the paper does not contain specific physiological data regarding the thermal ecology of the phages or their bacterial hosts, thus no temperature-related evidence can be extracted for downstream thermal classification.
+
+
+Paper: PMC12459788.1.txt
+Thermal Evidence:
+- Optimal lytic activity was observed between pH 5 and 9, and stability was assessed across temperatures up to 60°C.
+- The study assessed stability at 25°C (room temperature), 37°C (normal body temperature), and 40, 50, 60, and 70°C.
+- All phages remained stable and viable within the temperature range of 25°C to 60°C.
+- Phages showed no lytic activity at 70°C, with titers decreasing by approximately 90% compared to 25°C.
+- Three phages were noted to survive at 70°C, while five phages showed no lytic activity at this temperature.
+- The stability up to 60°C suggests a degree of thermal resilience.
+
+Environmental Context:
+- Samples were collected from environmental sources including hospital sewages, wastewater, and soils.
+
+Concise Summary:
+The isolated phages demonstrated physiological stability across a range of temperatures, showing effective lytic activity up to 60°C. The optimal lytic activity was noted within the pH range of 5 to 9. The study assessed viability across 25°C to 70°C, confirming stability up to 60°C, although titers significantly decreased at higher temperatures. The phages were isolated from environmental reservoirs such as hospital sewage, wastewater, and soil. The findings indicate that the phages possess thermal resilience suitable for moderate temperature applications, with optimal activity observed near physiological conditions (37°C) and within the pH range of 5–9.
+
+
+Paper: PMC12943021.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 42 °C
+- Growth temperature range: 42 °C
+- Incubation conditions: 42 °C for 18–24 h; 37 °C for 24 h
+- Environmental source/habitat: Surface water (rivers, canals, lakes) in Southern Italy
+- Mention of adaptation: None explicitly mentioned.
+- Explicit classification: None provided regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Surface waters (rivers, canals, lakes) receiving wastewater and agricultural/livestock runoff.
+
+Concise Summary:
+The study utilized selective culturing and enrichment steps with defined incubation temperatures. Specifically, isolation of ESBL- and carbapenemase-producing Enterobacterales was performed by incubating filters in selective media at 42 °C for 18–24 hours. Subsequent plating and enrichment steps were also conducted at 42 °C. For general identification and susceptibility testing, incubation was performed at 37 °C for 24 hours. The isolates were recovered from surface water bodies in Southern Italy, which are influenced by wastewater discharge and agricultural runoff. No specific evidence regarding thermophilic, psychrophilic, or extreme temperature adaptation was reported; the observed growth conditions are within the mesophilic range (37–42 °C).
+
+
+Paper: 42135663.txt
+Thermal Evidence:
+- No specific data provided regarding optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- Isolated from wastewater samples collected from various sources, including hospital wastewater, community wastewater, WWTP influent, and WWTP effluent.
+- The organism was isolated from an environmental reservoir (wastewater) but no extreme environment was specified.
+- No explicit thermal classification was provided by the authors.
+
+
+Paper: PMC13162225.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 37°C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: 37°C for 18 hours (for biofilm/antibiofilm assays) and 37°C for 2 hours (for gene expression analysis).
+- Environmental source/habitat: Clinical/hospital setting (source of the resistant strain).
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: Clinical/hospital setting.
+
+Concise Summary:
+The organism was studied under standard laboratory incubation conditions, with assays performed at 37°C for extended periods (e.g., 18 hours for biofilm assays) and shorter periods (e.g., 2 hours for gene expression analysis). The source of the clinical isolate was a hospital setting. No data regarding optimal growth temperature range, survival temperature range, or specific thermal adaptations (thermophilic, psychrophilic, etc.) were provided in the text. The study focused on antimicrobial resistance mechanisms and the effect of xylitol, not on the organism's thermal physiology.
+
+

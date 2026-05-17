@@ -1,0 +1,110 @@
+Summary file for YP_010665831
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC12274912.1.txt
+Thermal Evidence:
+- No specific optimal, growth range, or survival temperature ranges were provided for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was found.
+
+Environmental Context:
+- The organism was isolated from a wide variety of sources, including soils, water, and animal and human digestive systems.
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+
+Paper: 37689848.txt
+Thermal Evidence:
+- Survival temperature range: The phage titer was not significantly affected by heating at 60 °C for one hour.
+- Thermal processing conditions: The phage was applied after thermal processing at 63 °C for 30 min.
+- Incubation conditions: Inhibition was observed after incubation at 37 °C (over 9 hours) and at 23 °C.
+
+Environmental Context:
+- Habitat/Source: Isolated from environmental water samples.
+
+Concise Summary:
+Phage activity was tested under specific thermal conditions. The phage maintained its titer after exposure to 60 °C for one hour. The application was performed following a thermal processing step at 63 °C for 30 minutes. Post-application efficacy was demonstrated under incubation at 37 °C (showing reduction below detection limit within 9 hours) and at 23 °C (delaying bacterial increase). The phage was isolated from environmental water samples. No explicit classification regarding temperature adaptation (e.g., mesophile, psychrophile) was provided for the phage or the target organism, but the study details its stability and efficacy across moderate temperatures (23–37 °C) following pasteurization-like heat treatments.
+
+
+Paper: 41652740.txt
+Thermal Evidence:
+- Tested at ambient (23 °C), physiological (37 °C), and refrigeration (4 °C) temperatures.
+- Retained antibacterial activity at 4 °C.
+- Demonstrated thermal tolerance up to 60 °C.
+- Molecular analysis identified 25 cold-adaptive proteins, suggesting cold adaptation.
+
+Environmental Context:
+- Tested in food matrices (milk, RPIF, lettuce) contaminated with a foodborne pathogen.
+
+Concise Summary:
+This phage exhibits robust activity across a range of temperatures relevant to food preservation, maintaining lytic activity at refrigeration temperatures (4 °C) and ambient conditions (23 °C), while also showing tolerance up to 60 °C. The molecular characterization specifically points to cold adaptation, evidenced by the encoding of numerous cold-adaptive proteins. The phage was tested in food matrices contaminated with a foodborne pathogen, confirming its efficacy under cold-chain storage conditions.
+
+
+Paper: PMC12671138.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial growth and phage assays).
+- Growth temperature range: 37°C (standard incubation).
+- Survival temperature range: Maintained bioactivity at 50°C for 60 min; showed activity at 60°C and 70°C for 60 min; complete inactivation occurred at 80°C within 40 min.
+- Incubation conditions: Assays were conducted at 37°C for various durations (e.g., 2 h for pH stability, 12 h for SEM, 24 h for PIF model).
+- Thermophilic adaptation: No explicit mention of thermophilic adaptation.
+- Psychrophilic adaptation: No explicit mention of psychrophilic adaptation.
+- Mesophilic growth: The optimal growth temperature of 37°C indicates mesophilic growth.
+- Heat tolerance: Demonstrated tolerance up to 70°C for 60 minutes, with activity observed at 50°C and 60°C.
+- Cold tolerance: No specific data provided regarding cold tolerance.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No specific mention of membrane adaptations related to temperature.
+
+Environmental Context:
+- Habitat/Source: Isolated from environmental wastewater.
+- Extreme Environment Isolation: No explicit classification of the source as extreme (e.g., hot spring, deep sea). The source is environmental wastewater.
+- Explicit Classification: The phage exhibited stability across varied thermal and pH conditions, suggesting robustness, but no formal classification (e.g., mesophile) was provided by the authors based on temperature alone.
+
+
+Paper: PMC13160508.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, or survival range were provided for any microorganisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The study utilized *in vivo* animal models (pregnant rats) and *in vitro* assays (cell culture/tissue analysis) rather than culturing microorganisms in defined media with temperature parameters.
+- The bacterial strain used for infection was isolated from a source that was not specified in terms of environmental temperature adaptation.
+
+Concise Summary:
+The provided scientific paper focuses on the neurodevelopmental and behavioral consequences of maternal infection in a neonatal rat model using *Cronobacter sakazakii*. The analysis covers molecular markers (e.g., TNF-$	ext{a}$, IL-6, MMP-9, PSD-95, SHANK3, BDNF), physiological measurements ($	ext{Na}^+/	ext{K}^+$-ATPase activity), and behavioral tests (NOR, TST). There is no microbiological or physiological data presented regarding the thermal characteristics, growth temperature, or environmental adaptation of the causative bacterial agent or any associated enzymes. The study's focus is entirely on neuroinflammation, oxidative stress, and synaptic plasticity following infection.
+
+
+Paper: PMC13114433.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was explicitly stated.
+- Survival temperature range was not provided.
+- Incubation conditions were not detailed.
+- The organism was noted for its desiccation tolerance and biofilm formation capacity, which contribute to its environmental persistence.
+- No explicit classification (e.g., thermophilic, psychrophilic, mesophile) was provided by the authors.
+
+Environmental Context:
+- The organism is associated with environmental sources, including powdered infant formula manufacturing environments and environmental reservoirs, suggesting adaptation to varied, potentially fluctuating, conditions.
+
+
+Paper: PMC13164342.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for any microorganisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The study utilized *in vivo* models (pregnant rats) and *in vitro* assays (Western blotting, qRT-PCR) on tissue samples (cortex). The bacterial pathogen was cultured on HiCrome™ Enterobacter sakazakii agar and in Luria–Bertani (LB) broth. The general laboratory conditions mentioned for animal maintenance were a standard 12 h light/dark cycle and a temperature of 26 ± 2 °C.
+
+Concise Summary:
+The provided scientific paper focuses on the neurobiological consequences of maternal infection in an experimental rat model. The analysis covers behavioral deficits (gait, limb coordination), inflammatory markers (C5a, IL-6), matrix metalloproteinases (MMP-2, -3, -9), epigenetic modifications (DNMT3A, MeCP2, H3K4me3), and synaptic proteins (PSD-95, Reelin). The study details molecular mechanisms linking maternal infection to impaired motor coordination via altered Reelin methylation and synaptic plasticity. Crucially, the paper contains no microbiological data regarding the thermal physiology, growth conditions, or temperature adaptations of the involved organisms.
+
+
+Paper: 42116425.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range were provided.
+- No mention of incubation conditions related to temperature was provided.
+- No specific evidence regarding thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was provided.
+
+Environmental Context:
+- The organism is an opportunistic foodborne pathogen.
+- No indication that the organism was isolated from an extreme environment.
+- The authors did not provide an explicit thermal classification for the organism.
+
+

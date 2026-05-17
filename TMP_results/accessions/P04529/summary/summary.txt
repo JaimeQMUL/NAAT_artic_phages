@@ -1,0 +1,46 @@
+Summary file for P04529
+Number of papers: 3
+=============Summaries=============
+
+Paper: PMC13170677.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but activity was observed at 37°C and thermal sensing was triggered at temperatures exceeding 42°C.
+- Incubation conditions: 37°C for various assays and incubations.
+- Environmental source/habitat: Human body/in vivo environment.
+- Mention of adaptations: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/source: Human body/in vivo environment.
+
+Concise Summary:
+The organism was cultured and maintained under standard physiological conditions, with an optimal growth temperature of 37°C. Assays and incubations were consistently performed at 37°C. The system utilized a thermal sensor (TcI) that was designed to detect temperature increases above 42°C, which was achieved via magnetic hyperthermia, demonstrating a controlled thermal response mechanism rather than inherent thermophilic adaptation. The overall context is the physiological environment of the human body, making the organism functionally mesophilic for therapeutic application.
+
+
+Paper: PMC13168922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: 37°C with shaking at 250 rpm (for initial growth/induction); 18°C for 18h (for protein expression/induction); 15°C with shaking at 300 rpm (for secondary screening).
+- Environmental source/habitat: Not specified.
+
+Environmental Context:
+- No mention of extreme environments, thermophilic, psychrophilic, or specific thermal adaptations.
+
+Concise Summary:
+The experimental procedures utilized various incubation temperatures, including 37°C for initial growth and 250 rpm shaking, 18°C for protein induction and expression, and 15°C for secondary screening. The organism was cultured under standard laboratory conditions, with no evidence provided regarding its natural thermal niche or adaptation to extreme temperatures.
+
+
+Paper: 42131215.txt
+Thermal Evidence:
+- Survival temperature range: Tested at -80 °C.
+- Incubation conditions: Storage/testing periods mentioned at 4 °C and up to 60 days.
+- Psychrophilic adaptation: Implied by adaptation to extreme cold and freezing conditions.
+
+Environmental Context:
+- Habitat/Source: Antarctic environment.
+- Extreme Environment Isolation: Yes, isolated from Antarctic microorganisms.
+- Explicit Classification: None provided in the text regarding specific temperature classification (e.g., psychrophilic, mesophilic). The adaptation is described generally as being to extreme cold and freezing conditions.
+
+

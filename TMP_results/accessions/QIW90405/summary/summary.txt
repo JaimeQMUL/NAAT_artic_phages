@@ -1,0 +1,117 @@
+Summary file for QIW90405
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC10213691.1.txt
+Thermal Evidence:
+- Optimal adsorption time determination was performed at $37^	ext{o}	ext{C}$.
+- The one-step growth curve experiment was conducted at $37^	ext{o}	ext{C}$.
+- The thermal stability assay tested temperatures of $40^	ext{o}	ext{C}$, $50^	ext{o}	ext{C}$, $60^	ext{o}	ext{C}$, $70^	ext{o}	ext{C}$, and $80^	ext{o}	ext{C}$.
+- The phage was found to be fairly stable at temperatures below $60^	ext{o}	ext{C}$, but was completely inactivated at $80^	ext{o}	ext{C}$.
+- The phage titer remained stable for a long time when stored at $-80^	ext{o}	ext{C}$.
+- The phage was stable over a wide temperature span of $-80^	ext{o}	ext{C}$ to $60^	ext{o}	ext{C}$.
+- The optimal adsorption time was determined at $37^	ext{o}	ext{C}$.
+- The phage was stable over a broad pH range of $4.0$ to $12.0$ for at least $2$ hours, but was completely inactivated under harsh pH conditions (below pH $3.0$ or above pH $13.0$).
+
+Environmental Context:
+- Isolated from sewage water in an aquatic market.
+- The phage demonstrated stability across a wide temperature range ($-80^	ext{o}	ext{C}$ to $60^	ext{o}	ext{C}$), suggesting robust environmental tolerance, consistent with mesophilic/psychrotolerant characteristics.
+
+Concise Summary:
+The bacteriophage exhibits robust thermal stability, remaining active across a wide range from $-80^	ext{o}	ext{C}$ to $60^	ext{o}	ext{C}$. Optimal adsorption and growth kinetics were measured at $37^	ext{o}	ext{C}$. While the phage is stable at refrigeration temperatures ($-80^	ext{o}	ext{C}$), it is inactivated at $80^	ext{o}	ext{C}$. The phage demonstrates excellent $	ext{pH}$ tolerance, maintaining activity between $	ext{pH } 4.0$ and $12.0$ for at least $2$ hours. These stability profiles, combined with its isolation from sewage water, suggest high environmental resilience, making it a promising candidate for diverse application settings.
+
+
+Paper: PMC13170039.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the detected pathogens.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was made.
+- No details regarding temperature-adapted enzymes or membrane adaptations were reported.
+
+Environmental Context:
+- The pathogens were detected in fecal samples collected from healthy community adults across four seasons, with seasonal variations noted for pathogen prevalence (e.g., peak detection rates for certain pathogens in September or November).
+- The study discussed environmental factors influencing pathogen carriage, such as temperature fluctuations and rainfall, particularly in relation to *Vibrio parahaemolyticus* (highest detection in September, decline in autumn/winter) and *Plesiomonas shigelloides* (peak detection in September).
+- The study did not report isolation from extreme environments, but rather from the general community/fecal samples.
+
+Concise Summary:
+The study analyzed fecal samples from healthy community adults over one year, detecting various gastrointestinal pathogens. While seasonal variations in pathogen carriage were observed (e.g., *V. parahaemolyticus* peaking in September), the paper provided no specific physiological data regarding the optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) for the identified organisms. The pathogens were detected in human fecal samples, with environmental factors like seasonal temperature fluctuations noted as influencing carriage rates, but no direct evidence of extreme environment isolation or specific thermal stress responses was documented.
+
+
+Paper: PMC13171169.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided in the abstract or main text.
+
+Environmental Context:
+- The study focuses on computational methods for detecting population structure in time-scaled phylogenetic trees using genomic data from various pathogens (e.g., SARS-CoV-2, Neisseria gonorrhoeae, Ebola virus, HIV-1, Vibrio parahaemolyticus). No environmental source or habitat information related to temperature adaptation was provided for the organisms studied.
+
+Concise Summary:
+The provided paper details the development and enhancement of the 'treestructure' R package, a statistical tool based on coalescent theory designed to detect unobserved population structure within time-scaled phylogenetic trees. The methodology involves testing subclades for deviations in their Time to the Most Recent Common Ancestor (TMRCA) distributions. Key enhancements include automatic selection of clustering hyperparameters using the Caliński–Harabasz index, the ability to filter clusters based on branch support values (e.g., bootstrap/posterior probability) to ensure phylogenetic confidence, and a function to update cluster assignments online with new samples. The analysis is purely computational and phylogenetic, focusing on population genetics and evolutionary dynamics, and contains no physiological data regarding temperature adaptation, growth conditions, or thermal tolerance for any associated microorganisms.
+
+
+Paper: PMC13168795.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 28°C (for initial culture/assay) and 30°C (for antibacterial assay).
+- Environmental source/habitat: Marine sediments (for isolation).
+- Mention of adaptations: None explicitly mentioned.
+- Explicit classification: None provided.
+
+Environmental Context:
+- Habitat/Source: Marine sediments.
+
+Concise Summary:
+The study utilized initial culture and antibacterial assays conducted at 28°C and 30°C, respectively. The source material for the yeast strains was marine sediments. No specific data regarding optimal growth temperature, survival temperature range, or explicit thermal adaptations (thermophilic, psychrophilic, mesophilic) were reported for the organism or its polysaccharides. The physiological testing was conducted on red tilapia cultured under seawater conditions (water temperature ranged from 23.2°C to 28.5°C during the 16-week feeding trial).
+
+
+Paper: 42116445.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes.
+- Membrane adaptations were discussed in the context of bile resistance and permeability changes following gene deletion, but no direct thermal stress response mechanisms were detailed.
+
+Environmental Context:
+- The organism is associated with food-related environments and is a seafood-borne pathogen.
+- No explicit classification regarding temperature preference was given by the authors.
+
+
+Paper: PMC13162714.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 29.93 ± 0.65 °C
+- Growth temperature range: Not explicitly stated, but maintained at 29.93 ± 0.65 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Not explicitly stated.
+- Environmental source/habitat: Marine/saltwater system.
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: Marine/saltwater system.
+
+Concise Summary:
+The study was conducted in a closed recirculating saltwater system, maintaining stable water quality parameters. The optimal temperature recorded for the experimental period was $29.93 	ext{ ± } 0.65 	ext{ °C}$. The organism was maintained in a marine/saltwater environment. No specific data regarding the organism's thermal adaptation, such as thermophilic, psychrophilic, or mesophilic classification, or temperature tolerance ranges beyond the controlled experimental temperature, were provided in the text.
+
+
+Paper: PMC13169944.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not specified.
+- Growth temperature range: Not specified.
+- Survival temperature range: Not specified.
+- Incubation conditions: Incubated at 27°C for bacterial isolation and culturing.
+- Environmental source/habitat: Marine aquaculture farm setting.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the ambient water temperature range (24–27°C).
+- Heat tolerance: Not specifically assessed.
+- Cold tolerance: Not specifically assessed.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not explicitly detailed, but the study occurred during a period of high water temperatures.
+
+Environmental Context:
+- Habitat/Source: Marine aquaculture farm.
+
+Concise Summary:
+The study was conducted in a marine aquaculture setting where water quality parameters were maintained with a temperature range of 24–27°C. Bacterial isolation and culturing were performed at 27°C. The overall context suggests the organism thrives under mesophilic conditions typical of marine aquaculture. No specific data regarding thermophilic, psychrophilic, or extreme temperature adaptations were provided.
+
+

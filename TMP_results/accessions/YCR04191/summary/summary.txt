@@ -1,0 +1,53 @@
+Summary file for YCR04191
+Number of papers: 3
+=============Summaries=============
+
+Paper: PMC6394723.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages or their associated bacteria.
+- Incubation conditions mentioned for phage propagation included 'soft-agar overlay method' and 'overnight incubation at the desired temperature' (specific temperature not listed).
+- The PCR process involved heating at $95^	ext{o}	ext{C}$ for 10 minutes.
+- No mention of thermophilic, psychrophilic, mesophilic, or specific thermal adaptations was found.
+
+Environmental Context:
+- Phages were isolated from various environmental samples, including ponds, sewage water, soil, and animal feces.
+
+Concise Summary:
+The study details the development and validation of a multiplex PCR assay for the rapid identification of selected virulent bacteriophage types (T4, T7, N4, SP6, FO1, GJ1, Vi1-like) using the major capsid protein (MCP) as a marker. The phages were isolated from diverse environmental sources such as ponds, sewage water, soil, and animal feces. Phage propagation utilized the soft-agar overlay method with incubation at a 'desired temperature' over an overnight period. The methodology involved thermal steps such as heating samples to $95^	ext{o}	ext{C}$ for 10 minutes during template preparation for PCR. No specific thermal adaptations (e.g., thermophilic, psychrophilic) or temperature ranges were characterized for the phages or their hosts.
+
+
+Paper: 42131215.txt
+Thermal Evidence:
+- Survival temperature range: Tested at -80 °C.
+- Incubation conditions: Storage/testing periods mentioned at 4 °C and up to 60 days.
+- Psychrophilic adaptation: Implied by adaptation to extreme cold and freezing conditions.
+
+Environmental Context:
+- Habitat/Source: Antarctic environment.
+- Extreme Environment Isolation: Yes, isolated from Antarctic microorganisms.
+- Explicit Classification: None provided in the text regarding specific temperature classification (e.g., psychrophilic, mesophilic). The adaptation is described generally as being to extreme cold and freezing conditions.
+
+
+Paper: PMC11895373.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Stable at 4°C to 50°C; significant decline observed at 60°C.
+- Incubation conditions: Assays performed at 37°C for one-step growth curve and stability tests.
+- Environmental source/habitat: Isolated from chicken feces.
+- Thermophilic adaptation: No evidence.
+- Psychrophilic adaptation: No evidence.
+- Mesophilic growth: Implied by optimal growth at 37°C.
+- Heat tolerance: Stable up to 50°C, but significantly reduced at 60°C.
+- Cold tolerance: Stable at 4°C.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Stability tested across a range of temperatures.
+
+Environmental Context:
+- Habitat/Source: Chicken feces.
+
+Concise Summary:
+The phage was isolated from chicken feces. Phenotypic characterization demonstrated that the phage is stable at 4°C and exhibits optimal growth/stability at 37°C. Its thermal stability was tested across 4°C to 60°C, showing stability up to 50°C, with a significant decline noted at 60°C. The phage is characterized as mesophilic based on its optimal growth temperature of 37°C.
+
+

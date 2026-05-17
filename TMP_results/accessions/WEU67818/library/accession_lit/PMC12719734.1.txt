@@ -1,0 +1,366 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Poult Sci
+Journal ID: Poult Sci
+
+Poultry Science
+
+ISSN: 0032-5791
+EISSN: 1525-3171
+Publisher: Elsevier
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12719734
+PMID: 41344094
+DOI: 10.1016/j.psj.2025.106122
+Article ID: S0032-5791(25)01362-8
+Article ID: 106122
+Article version: 1
+Subjects: IMMUNOLOGY, HEALTH AND DISEASE
+
+Development and preliminary application of a multiplex qPCR assay for the detection of avian leukosis virus subgroup J, Reticuloendotheliosis virus, and chicken infectious anemia virus
+
+Wang Minle a b
+Wang Yali a b
+Zhou Guixian a b
+Wu Shihui a b
+Jiang Tao a b
+Deng Qiaomu a b c
+Wen Guilan a b c
+Wen Ming a b c
+Yang Ying yyang17@gzu.edu.cn a b c ⁎
+a College of Animal Science, Guizhou University, Guiyang 550025, China
+b Institute of Veterinary Medicine and Immunology Drugs, Veterinary Department in College of Animal Science, State Key Laboratory of Green Pesticide, GuiZhou University, Guiyang 550025, China
+c Guizhou Engineering Research Center of Animal and Biological Products, Guiyang 550025, China
+⁎ Corresponding author at. College of Animal Science, Guizhou University (West Campus), Huaxi, Guiyang, Guizhou 550025, PR China. yyang17@gzu.edu.cn
+Publication date: 2026 Jan
+Electronic publication date: 2025 Nov 15
+Volume: 105
+Issue: 1
+Electronic Location ID: 106122
+Received 2025 Sep 22; Accepted 2025 Nov 14
+Copyright: © 2025 The Authors. Published by Elsevier Inc. on behalf of Poultry Science Association Inc.
+Copyright year: 2025
+Copyright holder:
+License: This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Breeder-derived pathogens in chicken, Guizhou local chicken, ALV-J, REV, CIAV
+
+==============================
+Avian leukosis virus subgroup J (ALV-J), Reticuloendotheliosis virus (REV), and Chicken infectious anemia virus (CIAV) are important breeder-derived pathogens (BDPs) that continue to threaten poultry health and productivity. These viruses are frequently associated with immunosuppression and coinfections, which complicate eradication efforts, particularly in indigenous chicken breeds. In this study, a TaqMan-based multiplex qPCR (M-qPCR) assay was developed for the simultaneous detection of ALV-J, REV, and CIAV. The assay exhibited excellent linearity (R2 > 0.99), high repeatability (intra-/inter-assay coefficient of variation < 5%), strong specificity with no cross-reactivity against common non-target avian pathogens, and high sensitivity with a detection limit of 10 copies/μL. Moreover, it reliably identified mixed infections even under conditions of unbalanced target concentrations. Parallel testing with commercial singleplex qPCR kits further demonstrated its reliability, yielding concordance rates of 95.8% for ALV-J, 98.3% for REV, and 100% for CIAV. Application of the assay to three local chicken breeds in Guizhou revealed positivity rates of 33.9% (40/118) for ALV-J, 9.3% (11/118) for REV, and 7.6% (9/118) for CIAV, with 20.4% mixed (double and triple) out of all positives. Moreover, serum samples proved more suitable than cloacal swabs for virus detection using the developed M-qPCR assay. In conclusion, the developed M-qPCR assay provides a reliable and efficient tool for surveillance of infections and coinfections in poultry flocks, supporting the prevention and control of BDPs.
+
+Introduction
+
+Breeder-derived pathogens (BDPs) in chickens, also known as vertically transmitted or egg-transmitted pathogens, are those passed from breeder hens to their offspring through the ovary or oviduct during embryonic development (Liao et al., 2022; Fandino et al., 2023). These pathogens can persist across generations and often spread horizontally within flocks, making them difficult to manage (Mugunthan et al., 2023; Song et al., 2024). BDPs are commonly linked to immunosuppression, which increases the risk of secondary infections and leads to poor growth, lower productivity, and higher mortality (Li et al., 2020; Chen et al., 2022). Due to their transmission pattern and economic impact, eradication at the breeder level is considered the most effective and cost-efficient strategy (Kreager, 1998; Borodin et al., 2022).
+
+Recent reports indicate the widespread presence of BDPs in China’s poultry industry (Ma et al., 2024). Unlike commercial broilers and layers raised under intensive management, indigenous chicken breeds are often reared in small-scale or free-range systems, which commonly lack effective biosecurity, standardized breeding, and veterinary oversight. These limitations, along with the absence of purification programs and mixed breeding sources, pose significant challenges to the eradication of BDPs in local breeds (Conan et al., 2012; Mujyambere et al., 2022; Lei et al., 2024).
+
+Common BDPs in chickens include Salmonella pullorum (S. pullorum), Mycoplasma gallisepticum (MG), Avian leukosis virus (ALV), Reticuloendotheliosis virus (REV), Chicken infectious anemia virus (CIAV), Egg drop syndrome virus (EDSV), and Avian encephalomyelitis virus (AEV) (Welchman et al., 2009; Mcilwaine et al., 2021; Schat et al., 2021; Yadav et al., 2022). These pathogens can cause acute clinical signs such as anemia and tumors, as well as subclinical effects including reduced egg production, poor hatchability, and decreased chick quality, posing serious threats to the sustainable development of the poultry industry (Kannaki et al., 2021; Xu et al., 2022; Shosha et al., 2024).
+
+Subgroup J of ALV (ALV-J) has become a major target for surveillance because of its rapid spread, wide distribution, vertical transmission potential, and lack of effective control measures (Li et al., 2019). Recent studies revealed that REV and CIAV share similar transmission patterns with ALV-J and are frequently detected together in co-infected breeder flocks. Conventional single-target assays, such as virus isolation, ELISA, and standard PCR, can detect only one pathogen at a time, making it difficult to obtain a timely and comprehensive understanding of infection dynamics. Therefore, establishing a reliable multi-pathogen detection system is essential for improving breeder flock monitoring and reducing transmission risks.
+
+Multiplex quantitative real-time PCR (M-qPCR) using TaqMan probe technology allows multiple pathogens to be detected in a single reaction by assigning distinct fluorescent channels to each target (Sun et al., 2023). Owing to its high accuracy, speed, and automation, M-qPCR has been widely applied in multi-pathogen surveillance (Wei et al., 2024; Fan et al., 2025). For example, Li et al. established a multiplex RT-qPCR assay capable of detecting six vertically transmitted avian viruses, which was successfully applied in clinical investigations of infection and coinfection patterns in poultry flocks, demonstrating the value of M-qPCR for rapid and accurate pathogen monitoring (Li et al., 2020).
+
+A well-designed M-qPCR assay depends largely on the selection of primers and probes that target conserved sequences (Jeong et al., 2022). Among the major BDPs—ALV-J, REV, and CIAV—the gp85 gene of ALV-J determines subgroup specificity and mediates receptor binding, making it a critical molecular diagnostic target (Qu et al., 2022; Wu et al., 2022). The gp90 gene of REV, encoding the major immunogenic envelope protein, is highly conserved and suitable for specific detection (Xue et al., 2012). The VP3 gene of CIAV, which induces apoptosis and exhibits strong sequence conservation across strains, serves as an ideal target for sensitive molecular assays (Sreekala et al., 2024). These conserved regions provide reliable targets for the design of primers and probes, ensuring the assay’s specificity and diagnostic performance.
+
+In this study, we aim to develop a rapid, sensitive, and efficient M-qPCR assay for ALV-J, REV, and CIAV, three major BDPs. Specific primers and probes will be designed based on conserved genomic regions, and the assay will be optimized and preliminarily applied to indigenous chicken breeds in Guizhou Province. This method is expected to improve pathogen detection and provide technical support for the eradication of BDPs and conservation of local poultry genetic resources.
+
+Materials and methods
+
+Nucleic acids of viral and bacterial strains
+
+Nucleic acids used for plasmid construction
+
+The ALV-J isolate GZ2024GY04J (GenBank accession no. PV239795) was isolated and preserved in our laboratory (College of Animal Science, Guizhou University). The target gene fragments of REV (GenBank accession no. PP526161) and CIAV (GenBank accession no. NC_001427) were synthesized by Tsingke Biotechnology Co., Ltd. (Beijing, China).
+
+Nucleic acids used for specificity evaluation
+
+Nucleic acids of ALV group E (ALV-E), ALV group K (ALV-K), Marek’s disease virus (MDV), Fowl adenovirus serotype 4 (FAdV-4), Avian influenza virus subtype H6N6 (H6N6 AIV), Escherichia coli(E. coli), and S. pullorum were maintained in our laboratory.
+
+Primer and probe design
+
+Conserved sequences selection
+
+Representative reference sequences of ALV-J, REV, and CIAV were randomly selected from the GenBank database, the selected sequences are listed in Table 1. The gp85, gp90, and VP3 genes were aligned using MAFFT, and conserved sequences were visualized and selected using Jalview as target sites.Table 1 Strain information used for multiple sequence alignment.
+
+Table 1Organism	Virus strains(GenBank accession number)	
+ALV-J	HPRS103(Z46390), ADOL-7501(AY027920), 5701(AF247386), 6683(AF247387), ADOL-Hc-1(AF097731), Hc1(AF247391), SD9901(AY897220), YZ9901(AY897222), NX0101(DQ115805), GD06SL1(EF107624), SD07K1(FJ216405), LN08SY10(HQ634802), SX090912J(HQ386988), SD09DP04(HQ634808), JS09GY3(GU982308), HLJ10SH03(HQ634813), SD13QJ01(KJ922510), GX14ZS14(KX037423),
+GM0209-1(MH379642)	
+REV	HA9901(NC_006934), REV-A(DQ237900), CH-GD2019(MN812764), SD2101(OM864267), GDBL1402(KU204703),
+SX/TY/PPV-REV01/23(PP526161), HLJR0901(GQ415646), GX18NNR1(MN943308), BJ1503(MG471384)	
+CIAV	CIAV RefSeq(NC_001427), zhangzhou-1(PP932485), U4LM5(LC817950), JS22101784(PP355008), 19AD011(MW239170), CAV-EG-11(MH001559), Anhui1998-64(OM799940), HLJ15108(KY486137), GD-1-12(JX260426), SD24(AY999018), 10(U66304)	
+
+Primer and probe design
+
+Three candidate primer–probe sets were designed using Beacon Designer 8, and their specificity was evaluated using Primer-BLAST. Further analysis of Tm values, GC content, and potential secondary structures was performed using Oligo 7. Based on the combined evaluation results, the most specific and optimally designed primer–probe set was synthesized by Tsingke Biotechnology Co., Ltd. (Beijing, China).
+
+Preparation of recombinant plasmids as positive standards
+
+Construction of recombinant plasmids
+
+To obtain stable target gene templates for downstream analysis, recombinant plasmids were constructed and used as positive standards in this study. The target gene fragments of ALV-J, REV, and CIAV were amplified by PCR, confirmed by agarose gel electrophoresis, and purified using the Fast Pure Gel DNA Extraction Mini Kit (Vazyme, Nanjing, China). The purified amplicons were ligated into the pMD19-T vector (Takara, Beijing, China), followed by transformation into E. coli DH5α (Sangon, Shanghai, China) competent cells. Positive clones were confirmed by Sanger sequencing. The recombinant plasmids were extracted using the EasyPure Plasmid MiniPrep Kit (TransGen, Beijing, China), and plasmid concentrations were measured using a NanoDrop 2000 spectrophotometer (Thermo Scientific, USA).
+
+Preparation of standard dilutions
+
+The positive recombinant plasmids of the three viruses were diluted from their initial concentrations, based on calculated copy numbers, using double distilled water (ddH2O). Each was adjusted to 1 × 1010 copies/μL, followed by 10-fold serial dilutions down to 1 copy/μL. Dilutions at different concentrations were aliquoted and stored at −20 ℃ as positive standards. The plasmid copy number, equivalent to the viral genome copy number, was calculated using the following formula: Copies/μL = (6.02 × 1023) × (plasmid concentration in g/μL) / (plasmid length in bp × 660).
+
+Establishment of a M-qPCR assay for the detection of ALV-J, REV, and CIAV
+
+S-qPCR system establishment
+
+Singleplex qPCR (S-qPCR) systems were first established for ALV-J, REV, and CIAV. Each 25 μL reaction contained 12.5 μL of Premix Ex Taq (Probe qPCR) (2×) (Takara), each primer (10 μM) and probe (10 μM) at four test volumes (0.25, 0.50, 0.75, and 1.00 μL), 2 μL of the corresponding positive standard, and ddH2O to complete the volume. A total of 16 reaction combinations were tested, and the optimal concentrations were selected based on the lowest Ct value.
+
+Amplification was performed using a two-step protocol: 95 ℃ for 30 s, followed by 40 cycles of 95 ℃ for 5 s and annealing/extension. Eight protocols with annealing/extension temperatures ranging from 56.0 ℃ to 64.0 ℃ were tested, and the one yielding the lowest Ct value was selected as optimal. Reactions were run on a CFX96 Touch Real-Time PCR System (Bio-Rad, USA).
+
+M-qPCR system establishment
+
+To establish the M-qPCR system, equal volumes of each probe (100 μM) were combined and diluted with ddH2O (7/3 of the total volume) to yield a 10 μM mixed probe. Using the same approach, mixed forward primers, mixed reverse primers, and a mixed positive standard were obtained. These were used to develop the M-qPCR system, and the final reaction system and cycling conditions were optimized as described above.
+
+Standard curve and performance evaluation
+
+Based on the finalized M-qPCR reaction system and cycling conditions, the mixed positive standard at 1 × 109 copies/μL was serially diluted 10-fold using ddH2O to a final dilution of 1 × 10° copies/μL. Six concentrations ranging from 1 × 103 to 1 × 108 copies/μL were used as templates to construct the standard curve, with each concentration tested in triplicate. For specificity evaluation, the assay was conducted using the mixed positive standard and nucleic acids of ALV-E, ALV-K, MDV, FAdV-4, H6N6 AIV, E. coli, and S. pullorum, to confirm that amplification occurs exclusively in the presence of the target templates. Sensitivity was assessed using serial dilutions of the mixed positive standard ranging from 1 × 106 to 1 × 101 copies/μL to determine the lowest detectable template concentration. Reproducibility was evaluated at 1 × 107, 1 × 105, and 1 × 103 copies/μL using three intra- and inter-assay replicates. Intra-assay variation was evaluated within the same run, while inter-assay variation was assessed across independent runs using standards from different batches. The coefficient of variation (CV) was calculated as CV = (SD / x̄) × 100%, where SD is the standard deviation and x̄ is the mean Ct value.No template controls (NTC) were included in all experiments to monitor for potential contamination.
+
+Coinfection simulation
+
+To assess the suitability of the established M-qPCR assay for detecting co-infections, mixtures of ALV-J, REV, and CIAV positive standards at two concentration levels were prepared in various combinations. These templates were used to evaluate potential competitive inhibition and assay performance when large concentration differences existed among targets.
+
+Clinical sample collection, processing and detection
+
+Collection of samples
+
+From May to August 2025, a total of 40 Puding high-legged chickens, 48 Xianglushan chickens, and 30 Qianshantun chickens—local breeds in Guizhou Province with unknown health status—were randomly sampled. For each bird, both serum and cloacal swab specimens were collected and transported to the laboratory under chilled conditions.a. Serum Samples
+
+For serum collection, approximately 2 mL of blood was aseptically drawn from the wing vein into plain tubes, allowed to clot at room temperature for 30 min, and centrifuged at 3,000 r/min for 10 min; the supernatant was collected as serum (Ministry of Agriculture and Rural Affairs of the People's Republic of China, 2016).b. Swabs Samples
+
+Cloacal swabs were rotated three times inside the cloaca and gently touched with fecal material, then placed into sterile tubes containing 1.5 mL PBS supplemented with penicillin (100 IU/mL) and streptomycin (100 μg/mL). The suspensions were centrifuged at 10,000 r/min for 5 min at 4 ℃, and the supernatants were filtered through 0.22 μm disposable filters (Ministry of Agriculture and Rural Affairs of the People's Republic of China, 2016).
+
+Following the above procedures, a total of 118 serum samples and 118 cloacal swab samples were collected from the three chicken breeds.
+
+Nucleic acid extraction
+
+Viral nucleic acids were extracted using the MiniBEST Viral RNA/DNA Extraction Kit Ver.5.0 (Takara) for subsequent sample detection.
+
+Validation of the M-qPCR assay
+
+To validate the reliability of the developed M-qPCR assay, all serum samples were also tested in parallel using three commercial TaqMan-based singleplex qPCR kits: ALV-J (Zhengzhou Zhongdao Biotechnology, China), REV (Wuhan Keqian Biology, China), and CIAV (Wuhan Keqian Biology, China). All assays were performed according to the manufacturers’ instructions, and the results were compared with those from the M-qPCR method to assess diagnostic concordance.
+
+Statistical analysis
+
+For experiments with a repetition in duplicate or more (n ≥ 2), results such as Ct value and plasmid concentration are expressed as arithmetic means. The standard curve equation, coefficient of determination (R2), and amplification efficiency (E), as well as SD for repeatability analysis, were calculated using Microsoft Excel 2021. Numerical data were rounded to one or two decimal places according to measurement precision.
+
+Results
+
+Result of primer and probe design
+
+The conserved regions of ALV-J gp85, REV gp90, and CIAV VP3 were successfully identified based on multiple sequence alignment and Jalview visualization. Fig.1A–1C present selected alignment views of these conserved regions. Based on these sequences, three primer–probe sets were designed and evaluated, and the most suitable set was finalized for use in the M-qPCR assay in Table 2.Fig. 1 Selection of conserved regions in Jalview visualization. A: ALV-J; B: REV; C: CIAV.
+
+Fig 1
+
+Table 2 Primers and probes used in the M-qPCR assay.
+
+Table 2Organism	Probe/Primer sequence (5′–3′)	Product size(bp)	
+ALV-J	F:ACCTGGGCAAATAAGACGG	108	
+R:GGTGTTCAGAGGATACTGTGG	
+P:FAM-AGTCTACAGTCAGCGACCTCACCATTCCG-BHQ1	
+REV	F:AGAGGAGTAGATCTGGATCCC	120	
+R:TGGAGTTCCAAGAGTCATACA	
+P:CY5-AAGCTACTCACCAGGTCCTTAACGCCACT-BHQ3	
+CIAV	F:AGCACTGGTTTCAAGAATGTG	130	
+R:TGGGAGTAGTGGTAATCAAGC	
+P:HEX-ATCAACCCAAGCCTCCCTCGAAGAAGCG-BHQ1	
+Note: F: forward primer; R: reverse primer; P: TaqMan probe.
+
+Each probe was labeled with a fluorescent reporter dye at the 5′ end (FAM, CY5, or HEX) and a quencher group at the 3′ end (BHQ1 or BHQ3).
+
+Preparation of recombinant plasmids as positive standards
+
+Target gene fragments of ALV-J, REV, and CIAV were amplified and cloned into plasmids using primers listed in Table 2. Gel electrophoresis confirmed expected product sizes with no amplification in negative controls (Fig. 2). Sequencing showed 100% identity with reference sequences. Plasmid concentrations were 161.5, 155.0, and 153.1 ng/μL, corresponding to 5.25 × 1010, 5.00 × 1010, and 4.90 × 1010 copies/μL for ALV-J, REV, and CIAV, respectively.Fig. 2 Agarose gel electrophoresis verification of recombinant plasmid inserts. M: DL2000 DNA marker; Lane 1: ALV-J PCR product; Lane 2: ALV-J negative control; Lane 3: REV PCR product; Lane 4: REV negative control; Lane 5: CIAV PCR product; Lane 6: CIAV negative control.
+
+Fig 2
+
+Optimization and performance evaluation of the M-qPCR assay
+
+Based on the optimized S-qPCR results, the M-qPCR assay was further refined using a matrix approach for reaction components and a temperature gradient for cycling conditions. Optimization was guided by the lowest average Ct values across all three fluorescence channels. The final 25 μL reaction system included 12.5 μL of 2× Premix Ex Taq (Probe qPCR), 0.5 μL of each mixed primer (10 μM), 1 μL of mixed probe (10 μM), 2 μL of DNA template, and 8.5 μL of sterilized ddH2O. The optimized cycling conditions were: 95 °C for 30 s, followed by 40 cycles of 95 °C for 5 s and 56.7 °C for 30 s.
+
+Establishment of the standard curve for the M-qPCR assay
+
+The standard curves for ALV-J, REV, and CIAV demonstrated good amplification performance (Fig. 3). All replicates showed standard deviations below 0.15, and no amplification was observed in the NTC. The amplification efficiencies and corresponding R2 values were 108.1% (R2 = 0.999) for ALV-J, 108.7% (R2 = 0.999) for REV, and 103.6% (R2 = 0.998) for CIAV. The high correlation coefficients (R2 > 0.99) and amplification efficiencies (<110%) indicate that the established assay provides reliable quantification with good linearity across all three targets.Fig. 3 Standard curves of the M-qPCR assay.
+
+Fig 3
+
+Specificity of the M-qPCR assay
+
+The M-qPCR assay exhibited high specificity, with amplification observed only in the mixed positive standard (Fig. 4). No amplification signals were detected from nucleic acids of endogenous avian leukosis virus (ALV-E) or common avian pathogens including ALV-K, MDV, FAdV-4, H6N6 AIV, E. coli, S. pullorum, or in the NTC, confirming the assay’s ability to distinguish target viruses without cross-reactivity.Fig. 4 Sensitivity evaluation of the M-qPCR assay.FAM channel: detection of ALV-J; HEX channel: detection of CIAV; Cy5 channel: detection of REV.
+
+Fig 4
+
+Sensitivity of the M-qPCR assay
+
+The M-qPCR assay successfully detected all targets using mixed positive standards diluted from 1.0 × 106 to 1.0 × 101 copies/μL, with clear amplification signals and no amplification in the NTCs (Fig. 5). The lowest detectable template concentration for ALV-J, REV, and CIAV was determined to be 10 copies/μL.Fig. 5 Specificity analysis of the the M-qPCR assay.FAM channel: detection of ALV-J; HEX channel: detection of CIAV; Cy5 channel: detection of REV.
+
+Fig 5
+
+Reproducibility of the M-qPCR assay
+
+The reproducibility of the assay was assessed at concentrations of 1.0 × 107, 1.0 × 105, and 1.0 × 103 copies/μL using intra- and inter-assay replicates. As shown in Table 3, Ct values were highly consistent across runs. Intra-assay CVs ranged from 0.19% to 0.89%, and inter-assay CVs from 0.94% to 4.82%, all below 5%, indicating excellent repeatability.Table 3 Reproducibility of the M-qPCR assay at three concentrations.
+
+Table 3Organism	copies/μL	Intra-assay	Inter-assay	
+Ct value (x̄ ± s)	CV (%)	Ct value (x̄ ± s)	CV (%)	
+ALV-J	1×107	19.20 ± 0.11	0.56	18,81 ± 0.34	1.81	
+1×105	24.45 ± 0.05	0.20	24.96 ± 0.45	1.79	
+1×103	32.23 ± 0.06	0.19	31.91 ± 0.30	0.94	
+REV	1×107	18.46 ± 0.08	0.44	18.25 ± 0.28	1.53	
+1×105	23.91 ± 0.07	0.29	23.60 ± 0.34	1.45	
+1×103	31.75 ± 0.14	0.43	31.21 ± 1.02	3.26	
+CIAV	1×107	18.53 ± 0.16	0.89	18.97 ± 0.53	2.79	
+1×105	24.12 ± 0.12	0.49	23.43 ± 0.63	2.69	
+1×103	31.94 ± 0.13	0.42	30.29 ± 1.46	4.82	
+Note: Each concentration was tested in triplicate (n = 3).
+
+Evaluation of coinfection simulation
+
+To simulate potential co-infection scenarios, combinations of ALV-J, REV, and CIAV positive standards at two concentration levels were grouped as shown in Table 4 and tested using the M-qPCR assay. As shown in Fig. 6, Ct values of high-concentration templates remained largely unchanged compared to singleplex qPCR. In contrast, Ct values for low-concentration templates increased to varying degrees in most combinations, especially in groups such as B2 and B4 where two high-concentration targets were present. Nevertheless, all three viruses were successfully detected, confirming the assay’s ability to identify co-infections despite concentration imbalances.Table 4 Concentration settings for simulated co-infection conditions.
+
+Table 4Infection Type	Group	ALV-J (copies/μL)	REV (copies/μL)	CIAV (copies/μL)	
+Dual infection	A1	1×108	1×103	-	
+A2	1×103	1×108	-	
+A3	1×108	-	1×103	
+A4	1×103	-	1×108	
+A5	-	1×108	1×103	
+A6	-	1×103	1×108	
+Triple infection	B1	1×108	1×108	1×103	
+B2	1×108	1×103	1×108	
+B3	1×108	1×103	1×103	
+B4	1×103	1×108	1×108	
+B5	1×103	1×108	1×103	
+B6	1×103	1×103	1×108	
+Note: "–" indicates that no positive standard of the corresponding virus was included in the reaction.
+
+Fig. 6 Amplification results of M-qPCR under simulated co-infection conditions. Each group corresponds to the concentration combinations listed in Table 4.
+
+Fig 6
+
+Detection of clinical samples from three local chicken breeds in Guizhou
+
+Among 118 serum samples, 40 were positive for ALV-J (33.9%), 9 for CIAV (7.6%), and 11 for REV (9.3%), with the highest prevalences in Puding high-legged, Xianglushan, and Qianshantun chickens, respectively (Fig. 7A, B; Table 5). In comparison, cloacal swab samples yielded higher Ct values and fewer positive detections, suggesting that serum is a more reliable sample type for virus detection. Therefore, serum was selected for subsequent analyses. Fig. 7C illustrates the infection types detected in serum samples. A total of 49 positives were identified, including 79.6% single infections and 20.4% mixed infections. ALV-J was the predominant pathogen, being the most common in both single and mixed infections, indicating that it is the major virus associated with infections in the three local chicken breeds in Guizhou.Fig. 7 Detection results of clinical samples. A show the detection results of serum samples; B show the detection results of cloacal swab samples. C show the proportions of single and mixed infections of serum samples with detailed subtype distribution. The horizontal lines in panels A and B represent the mean Ct values for each group.
+
+Fig 7
+
+Table 5 Detection rates of ALV-J, REV, and CIAV in different indigenous chicken breeds in Guizhou Province, China.
+
+Table 5Breed	Region	Sample type	Positive rate (%; n/N)	
+			ALV-J	REV	CIAV	
+Puding high-legged chicken	Anshun City	Serum	40.0 (16/40)	0.0 (0/40)	7.5 (3/40)	
+		Cloacal swab	32.5 (13/40)	0.0 (0/40)	2.5 (1/40)	
+Xianglushan chicken	Qiandongnan Miao and Dong Autonomous Prefecture	Serum	27.1 (13/48)	4.2 (2/48)	12.5 (6/48)	
+		Cloacal swab	20.8 (10/48)	4.2 (2/48)	8.3 (4/48)	
+Qianshantun chicken	Anshun City	Serum	36.7 (11/30)	30.0 (9/30)	0.0 (0/30)	
+		Cloacal swab	30.0 (9/30)	20.0 (6/30)	0.0 (0/30)	
+Total	Serum	33.9 (40/118)	9.3 (11/118)	7.6 (9/118)		
+	Cloacal swab	27.1 (32/118)	6.8 (8/118)	4.2 (5/118)		
+Note: n = number of positive samples; N = total number of tested samples.
+
+Validation of the M-qPCR assay
+
+Comparison with commercial kits showed high concordance with the M-qPCR assay: ALV-J 95.8%, REV 98.3%, and CIAV 100% (Table 6). These results demonstrate that the established M-qPCR assay provides reliable and efficient detection, comparable to or exceeding that of commercial kits.Table 6 Diagnostic performance of the M-qPCR assay compared with commercial kits.
+
+Table 6	Commercial kit	Concordance rate	
+Positive	Negative	
+M-qPCR	ALV-J	Positive	35a	5b	95.76%	
+Negative	0c	78d	
+REV	Positive	9	2	98.31%	
+Negative	0	107	
+CIAV	Positive	9	0	100.00%	
+Negative	0	109	
+Note:Concordance rate=(a+d)/(a+b+c+d)
+
+Discussion
+
+Breeder-derived pathogens in chickens are characterized by vertical and horizontal transmission, often accompanied by immunosuppression, which facilitates their rapid spread through the pyramidal breeding structure of modern poultry production. This poses significant challenges for disease control and causes substantial economic losses (Li and Liu, 2014; Ma et al., 2024). Among the major BDPs, ALV-J, REV, and CIAV are of particular concern. Because coinfection among ALV-J, REV, and CIAV may lead to genetic recombination or mutation (Davidson and Silva, 2008), which can enable viral variants to escape detection, selecting conserved genomic regions as targets for primer and probe design is critical for the successful development of an M-qPCR assay. Previous studies have demonstrated the effectiveness of using multiple sequence alignment to extract conserved sequences for diagnostic primer design (Chauhan et al., 2021; Ameen et al., 2022). For instance, Jeong et al. successfully identified conserved genomic regions of the rapidly evolving SARS-CoV-2 and detected nine RNA variants through RT-qPCR validation (Jeong et al., 2022). In this study, a total of 19 gp85 gene sequences of ALV-J, 9 gp90 gene sequences of REV, and 11 VP3 gene sequences of CIAV were retrieved from the NCBI GenBank database and used as targets for primer and TaqMan probe design to minimize the risk of variant escape and ensure reliable detection.
+
+TaqMan probe-based qPCR supports multi-channel fluorescence output and enables the simultaneous detection of multiple targets in a single tube, making it an ideal choice for developing multiplex detection systems (Hawkins and Guest, 2017; Liu et al., 2023; Li et al., 2024). In this study, we developed an M-qPCR assay for the simultaneous detection of three major BDPs in chickens: ALV-J, REV, and CIAV. The assay demonstrated excellent linearity (R2 > 0.99) (Fig. 3), robust repeatability (intra-/inter-assay CV < 5%) (Table 3), and high specificity, with no cross-reactivity observed with common non-target pathogens such as ALV-E, MDV, and AIV (Fig. 4). The assay exhibited high sensitivity, with the lowest detectable template concentration determined to be 10 copies/μL (Fig. 5). Moreover, it reliably identified mixed infections even under unbalanced template concentrations (Fig. 6). The results showed strong agreement with those obtained from three commercial TaqMan-based S-qPCR kits (Table 6). Compared with various S-qPCR and multiplex M-qPCR assays developed for avian pathogen detection, the method developed in this study offers comparable or higher sensitivity while maintaining high efficiency and cost-effectiveness (Li et al., 2020; Kannaki et al., 2021; Dou et al., 2023). Overall, this M-qPCR assay is suitable for investigating the infection and co-infection status of these three viruses in clinical samples.
+
+Nowadays, the eradication of BDPs in China mainly relies on pathogen detection to remove positive individuals and establish entirely negative breeder flocks (Tan et al., 2024; Ma et al., 2024). Among these, ALV-J is commonly screened using ELISA, a method that is labor-intensive and time-consuming (Chen et al., 2024). To improve the efficiency of eradication, various alternative methods have been explored. For example, Qian et al. developed a peptide ELISA based on a novel B-cell epitope, which demonstrated higher sensitivity than commercial ELISA kits (Chen et al., 2024); Yu et al. developed a colloidal gold strip test targeting the p27 antigen, which showed high sensitivity and specificity and was highly consistent with ELISA results (Yu et al., 2019); Li et al. identified LMH cell lines, which better support ALV-J proliferation, thereby shortening the detection cycle (Li et al., 2018). However, these methods primarily focus on ALV-J itself, neglecting the synergistic interference from other viruses such as CIAV and REV (Li et al., 2020; Zhang et al., 2021). Previous studies have shown that CIAV and REV can significantly reduce ALV-J eradication efficiency by inducing immunosuppression (Cui et al., 2022; Ma et al., 2024). Therefore, simultaneous detection of multiple pathogens is crucial during the eradication process. In this study, we developed a M-qPCR assay capable of simultaneously detecting ALV-J, CIAV, and REV, providing significant practical value and potential for widespread application.
+
+Detection results often vary among different sample types collected from the same population (Wu et al., 2020). Therefore, proper selection of sample type is crucial to minimize the risk of false-negative results. In avian pathogen detection, serum and cloacal swabs are the most commonly used materials (Stokes et al., 2020; Fagrach et al., 2023), although semen, egg albumen, and oropharyngeal swabs have also been reported (Li et al., 2017; Killian, 2020). In this study, only serum and cloacal swabs were compared due to limited resources. Serum yielded lower Ct values and higher detection rates (Fig. 7A, 7B; Table 5), indicating it was more suitable for the developed assay. This result may be attributed to the higher viral load and lower interference typically found in serum samples.
+
+ALV-J is highly pathogenic, rapidly spreading, and widely distributed, with reports from many countries and regions (Fandino et al., 2023). As one of the countries most severely affected by ALV-J, China’s poultry industry has suffered significant losses multiple times (Zhou et al., 2019). In this study, the serum positivity rate for ALV-J in three local chicken breeds from Guizhou was 33.9% (40/118), higher than that reported in large-scale farms in the same province (Liu et al., 2022). This rate was comparable to that of the Qiandongnan Xiaoxiang chicken (42.7%, 192/450)(Wang et al., 2023), suggesting that local breeds may have a higher prevalence of ALV-J than commercial poultry, consistent with previous studies (Chen et al., 2021). In addition to ALV-J, this study identified REV (9.3%, 11/118) and CIAV (7.6%, 9/118), providing updated epidemiological data on local chicken populations in Guizhou. Co-infection with multiple viruses is a common phenomenon in nature, and during co-infection, the biological characteristics such as viral replication, pathological changes, host range, and infection rate can all be altered (Mascia and Gallitelli, 2016). ALV-J, REV, and CIAV share highly similar epidemiological characteristics, and cases of coinfection with ALV-J have been reported (Cui et al., 2009; Xu et al., 2024). Here, mixed infections accounted for 20.4% of all positives, all associated with ALV-J, indicating that ALV-J not only plays a dominant role in single infections but also serves as the central pathogen in mixed infections. This suggests that, in the control and prevention of ALV-J, attention must also be given to the potential coinfection with viruses like CIAV to prevent more severe losses.
+
+Notably, qPCR, with its high sensitivity, enables pooling multiple samples in a single reaction, which significantly reduces both detection costs and labor intensity (Mathevon et al., 2019).Previous studies have combined qPCR with sample pooling strategies to establish a blood nucleic acid screening method for ALV-J, which offers a short detection cycle, low cost, and high sensitivity, making it particularly suitable for rapid screening of large chicken populations in low-prevalence settings (Dong et al., 2024). Therefore, building upon the detection methods established in this study, further development of multiplex pooling assays for pathogen eradication will be a key direction for future research.
+
+CRediT authorship contribution statement
+
+Minle Wang: Writing – original draft. Yali Wang: Investigation. Guixian Zhou: Data curation. Shihui Wu: Supervision. Tao Jiang: Investigation. Qiaomu Deng: Project administration. Guilan Wen: Supervision. Ming Wen: Funding acquisition. Ying Yang: Writing – review & editing.
+
+Disclosures
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Scientific section: Immunology, Health and Disease
+
+
+References
+
+Conan A. Goutard F.L. Sorn S. Vong S. Biosecurity measures for backyard poultry in developing countries: a systematic review BMC. Vet. Res. 8 2012 240 23216706 10.1186/1746-6148-8-240 PMC3538710
+Fagrach A. Arbani O. Karroute O. El-Ftouhy F.Z. Kichou F. Bouslikhane M. Fellahi S. Prevalence of major infectious diseases in backyard chickens from rural markets in Morocco Vet. World 16 9 2023 1897 1906 37859951 10.14202/vetworld.2023.1897-1906 PMC10583883
+Borodin A.M. Emanuilova Z.V. Smolov S.V. Ogneva O.A. Konovalova N.V. Terentyeva E.V. Serova N.Y. Efimov D.N. Fisinin V.I. Greenberg A.J. Alekseev Y.I. Eradication of avian leukosis virus subgroups J and K in broiler cross chickens by selection against infected birds using multilocus PCR PLoS. One 17 6 2022 e0269525 10.1371/journal.pone.0269525 PMC9231750 35749432
+Sun A. Wang L. Zhang Y. Yang X. Wei Y. Yang D. Li W. Wu X. Establishment of a triplex TaqMan quantitative real-time PCR assay for simultaneous detection of Cymbidium mosaic virus, Odontoglossum ringspot virus and Cymbidium ringspot virus Front. Microbiol. 14 2023 1129259 10.3389/fmicb.2023.1129259 PMC10235546 37275143
+Welchman D.D.B. Cox W.J. Gough R.E. Wood A.M. Smyth V.J. Todd D. Spackman D. Avian encephalomyelitis virus in reared pheasants: a case study Avian Pathol. 38 3 2009 251 256 19468944 10.1080/03079450902912168
+Zhou D. Xue J. Zhang Y. Wang G. Feng Y. Hu L. Shang Y. Cheng Z. Outbreak of myelocytomatosis caused by mutational avian leukosis virus subgroup J in China, 2018 Transbound. Emerg. Dis. 66 2 2019 622 626 30548833 10.1111/tbed.13096
+Shosha E. Zanaty A.M. Darwesh M.M. Fotouh A. Molecular characterization and immunopathological investigation of Avian reticuloendotheliosis virus in breeder flocks in Egypt Virol. J. 21 1 2024 259 39438969 10.1186/s12985-024-02525-5 PMC11515750
+Qu G. Li Y. Zhao Z. Miao L. Wei F. Tang N. Xu Q. Nair V. Yao Y. Shen Z. Establishment and application of a real-time recombinase polymerase amplification assay for the detection of avian leukosis virus subgroup J. Front. Vet. Sci. 9 2022 847194 10.3389/fvets.2022.847194 PMC9301284 35873679
+Li H.F. Liu Y. Epidemiologic survey of avian embryo disease in Zhangjiakou area from 2012 to 2013 J. Hebei. N. Univ. (Nat. Sci.) 30 04 2014 39 41
+Jeong H. Lee S. Ko J. Ko M. Seo H.W. Identification of conserved regions from 230,163 SARS-CoV-2 genomes and their use in diagnostic PCR primer design Genes. Genomics. 44 8 2022 899 912 35653026 10.1007/s13258-022-01264-7 PMC9160177
+Li H. Wang P. Lin L. Shi M. Gu Z. Huang T. Mo M.L. Wei T. Zhang H. Wei P. The emergence of the infection of subgroup J avian leucosis virus escalated the tumour incidence in commercial Yellow chickens in Southern China in recent years Transbound. Emerg. Dis. 66 1 2019 312 316 30248239 10.1111/tbed.13023
+Song H. Kim H. Kwon Y. Kim H. Genetic characterization of chicken infectious anaemia viruses isolated in Korea and their pathogenicity in chicks Front. Cell Infect. Microbiol. 14 2024 1333596 10.3389/fcimb.2024.1333596 PMC10900523 38420609
+Stokes H.S. Martens J.M. Walder K. Segal Y. Berg M.L. Bennett A. Species, sex and geographic variation in chlamydial prevalence in abundant wild Australian parrots Sci. Rep. 10 1 2020 20478 10.1038/s41598-020-77500-5 PMC7686501 33235241
+Xu H. Li W. Nie Y. Chen S. Li H. Zhang X. Xie Q. Chen W. Synergy of subgroup J avian leukosis virus and chicken infectious anemia virus enhances the pathogenicity in chickens Microorganisms. 12 4 2024 10.3390/microorganisms12040740 PMC11052190 38674684
+Davidson I. Silva R.F. Creation of diversity in the animal virus world by inter-species and intra-species recombinations: lessons learned from poultry viruses Virus. Genes. 36 1 2008 1 9 17922180 10.1007/s11262-007-0165-1
+Dou J. Wang Z. Li L. Lu Q. Jin X. Ling X. Cheng Z. Zhang T. Shao H. Zhai X. Luo Q. A multiplex quantitative polymerase chain reaction for the rapid differential detection of subgroups A, B, J, and K avian leukosis viruses Viruses. 15 9 2023 10.3390/v15091789 PMC10535029 37766196
+Yadav J.P. Tomar P. Singh Y. Khurana S.K. Insights on Mycoplasma gallisepticum and Mycoplasma synoviae infection in poultry: a systematic review Anim. Biotechnol. 33 7 2022 1711 1720 33840372 10.1080/10495398.2021.1908316
+Wu J. Liu J. Li S. Peng Z. Xiao Z. Wang X. Yan R. Luo J. Detection and analysis of nucleic acid in various biological samples of COVID-19 patients Travel. Med. Infect. Dis. 37 2020 101673 10.1016/j.tmaid.2020.101673 PMC7165102 32311437
+Zhang J. Ma L. Li T. Li L. Kan Q. Yao X. Xie Q. Wan Z. Shao H. Qin A. Ye J. Synergistic pathogenesis of chicken infectious anemia virus and J subgroup of avian leukosis virus Poult. Sci. 100 11 2021 101468 10.1016/j.psj.2021.101468 PMC8503663 34624772
+Schat K.A. Nagaraja K.V. Saif Y.M. Pullorum disease: evolution of the eradication strategy Avian Dis. 65 2 2021 227 236 34412452 10.1637/aviandiseases-D-21-00024
+Chauhan K. Aly S.S. Lehenbauer T.W. Tonooka K.H. Glenn K. Rossitto P. Marco M.L. Development of a multiplex qPCR assay for the simultaneous detection of Mycoplasma bovis, Mycoplasma species, and acholeplasma laidlawii in milk PeerJ. 9 2021 e11881 10.7717/peerj.11881 PMC8364749 34447623
+Li K. Zhang Y. Luo T. Li C. Yu H. Wang W. Zhang H. Chen H. Xia C. Gao C. Development of a triplex qPCR Assay based on the TaqMan probe for the detection of Haemophilus parasuis, Streptococcus suis serotype 2 and Pasteurella multocida Microorganisms. 12 10 2024 10.3390/microorganisms12102017 PMC11509477 39458326
+McIlwaine K. Law C.J. Lemon K. Grant I.R. Smyth V.J. A review of the emerging white chick hatchery disease Viruses. 13 12 2021 10.3390/v13122435 PMC8703500 34960704
+Qian K. Tian X. Shao H. Ye J. Yao Y. Nair V. Qin A. Identification of novel B-cell epitope in gp85 of subgroup J avian leukosis virus and its application in diagnosis of disease BMC. Vet. Res. 14 1 2018 295 30257680 10.1186/s12917-018-1622-x PMC6158924
+Kreager K.S. Chicken industry strategies for control of tumor virus infections Poult. Sci. 77 8 1998 1213 1216 9706092 10.1093/ps/77.8.1213
+Li L. Zhuang P. Cheng Z. Yang J. Bi J. Wang G. Avian leukosis virus subgroup J and reticuloendotheliosis virus coinfection induced TRIM62 regulation of the actin cytoskeleton J. Vet. Sci. 21 3 2020 e49 32476322 10.4142/jvs.2020.21.e49 PMC7263916
+Liao L. Chen W. Zhang X. Zhang H. Li A. Yan Y. Xie Z. Li H. Lin W. Ma J. Zhang X. Xie Q. Semen extracellular vesicles mediate vertical transmission of subgroup J avian leukosis virus Virol. Sin. 37 2 2022 284 294 35527223 10.1016/j.virs.2022.01.026 PMC9170978
+Ma L. Zhang Y. Wang J. Wang Y. Chang S. Zhao P. Synergistic pathogenicity of vertically transmitted chicken infectious anemia virus and avian leukosis virus subgroup J coinfection in chickens Poult. Sci. 103 7 2024 103835 10.1016/j.psj.2024.103835 PMC11131072 38772092
+Tan L. Li J. Duan Y. Liu J. Zheng S. Liang X. Fang C. Zuo M. Tian G. Yang Y. Current knowledge on the epidemiology and prevention of Avian leukosis virus in China Poult. Sci. 103 9 2024 104009 10.1016/j.psj.2024.104009 PMC11298916 39002365
+Killian M.L. Avian Influenza virus sample types, collection, and handling Methods Mol. Biol. 2123 2020 113 121 32170684 10.1007/978-1-0716-0346-8_9
+Ministry of Agriculture and Rural Affairs of the People's Republic of China Technical Specifications for Collection, Storage and Transportation of Veterinary Diagnostic Specimens 2016 NY/T 541 2016
+Xu M. Hang F. Qian K. Shao H. Ye J. Qin A. Chicken hepatomegaly and splenomegaly associated with novel subgroup J avian leukosis virus infection BMC. Vet. Res. 18 1 2022 32 35027055 10.1186/s12917-022-03139-1 PMC8756617
+Xue M. Shi X. Zhang J. Zhao Y. Cui H. Hu S. Gao H. Cui X. Wang Y. Identification of a conserved B-cell epitope on reticuloendotheliosis virus envelope protein by screening a phage-displayed random peptide library PLoS. One 7 11 2012 e49842 10.1371/journal.pone.0049842 PMC3504085 23185456
+Yu M. Bao Y. Wang M. Zhu H. Wang X. Xing L. Chang F. Liu Y. Farooque M. Wang Y. Qi X. Liu C. Zhang Y. Cui H. Li K. Gao L. Pan Q. Wang X. Gao Y. Development and application of a colloidal gold test strip for detection of avian leukosis virus Appl. Microbiol. Biotechnol. 103 1 2019 427 435 30349931 10.1007/s00253-018-9461-z
+Liu Q. Jin X. Cheng J. Zhou H. Zhang Y. Dai Y. Advances in the application of molecular diagnostic techniques for the detection of infectious disease pathogens (Review) Mol. Med. Rep. 27 5 2023 10.3892/mmr.2023.12991 PMC10086565 37026505
+Chen S. Li Y. Liao R. Liu C. Zhou X. Wang H. Wang Q. Lan X. Detection of avian leukosis virus subgroup J (ALV-J) using RAA and Crispr-Cas13a combined with fluorescence and lateral flow assay Int. J. Mol. Sci. 25 19 2024 10.3390/ijms251910780 PMC11476368 39409109
+Hawkins S.F.C. Guest P.C. Multiplex analyses using real-time quantitative PCR Methods Mol. Biol. 1546 2017 125 133 27896761 10.1007/978-1-4939-6730-8_8
+Fan S. Zhang M. Li Y. Tian J. Xian J. Chen Q. A TaqMan probe-based multiplex real-time quantitative pcr for simultaneous detection of kobuvirus, parechovirus B, rosavirus B, and hunnivirus carried by murine rodents and shrews Virol. J. 22 1 2025 61 40050884 10.1186/s12985-025-02671-4 PMC11883910
+Fandino S. Gomez-Lucia E. Benitez L. Domenech A. Avian Leukosis: will we Be able to get rid of it? Animals. (Basel) 13 14 2023 10.3390/ani13142358 PMC10376345 37508135
+Ameen S.M. Adel A. Selim A. Magouz A. AboElKhair M. Bazid A.H. A multiplex real-time reverse transcription polymerase chain reaction assay for differentiation of classical and variant II strains of avian infectious bronchitis virus Arch. Virol. 167 12 2022 2729 2741 36175795 10.1007/s00705-022-05603-7 PMC9741560
+Sreekala S.M. Kaur G. Dwivedi P.N. Subclinical circulation of Chicken infectious anaemia virus- A sero-molecular study Braz. J. Microbiol. 55 1 2024 925 932 38155335 10.1007/s42770-023-01223-8 PMC10920532
+Mugunthan S.P. Kannan G. Chandra H.M. Paital B. Infection, transmission, pathogenesis and vaccine development against Mycoplasma gallisepticum Vaccines. (Basel) 11 2 2023 10.3390/vaccines11020469 PMC9967393 36851345
+Lei T. Zhuang L. Dai T. Niu Q. Bao Y. Lin W. Huang C. Zheng X. Isolation, molecular characterisation, and pathogenicity analysis of a novel recombinant ALV-J strain isolated from Chinese hetian chickens Vet. Med. Sci. 10 6 2024 e70053 10.1002/vms3.70053 PMC11430172 39331484
+Li T. Xie J. Lv L. Sun S. Dong X. Xie Q. Liang G. Xia C. Shao H. Qin A. Ye J. A chicken liver cell line efficiently supports the replication of ALV-J possibly through its high level viral receptor and efficient protein expression system Vet. Res. 49 1 2018 41 29720272 10.1186/s13567-018-0537-7 PMC5932828
+Mascia T. Gallitelli D. Synergies and antagonisms in virus interactions Plant Sci. 252 2016 176 192 27717453 10.1016/j.plantsci.2016.07.015
+Kannaki T.R. Priyanka E. Subbiah M. Haunshi S. Development and validation of high throughput real-time polymerase chain reaction assay for quantitative detection of chicken infectious anemia virus Virusdisease 32 2 2021 343 346 34423101 10.1007/s13337-020-00648-1 PMC8324608
+Mujyambere V. Adomako K. Olympio S.O. Ntawubizi M. Nyinawamwiza L. Mahoro J. Conroy A. Local chickens in East African region: their production and potential Poult. Sci. 101 1 2022 101547 10.1016/j.psj.2021.101547 PMC8633685 34844110
+Chen W. Chen S. Nie Y. Li W. Li H. Zhang X. Chen F. Xie Q. Synergistic immunosuppression of avian leukosis virus subgroup J and infectious bursal disease virus is responsible for enhanced pathogenicity Viruses. 14 10 2022 10.3390/v14102312 PMC9608456 36298866
+Cui X. Zhang X. Xue J. Yao Y. Zhou D. Cheng Z. TMT-based proteomic analysis reveals integrins involved in the synergistic infection of reticuloendotheliosis virus and avian leukosis virus subgroup J. BMC Vet. Res. 18 1 2022 131 35379256 10.1186/s12917-022-03207-6 PMC8978386
+Wu X.H. Yao Z.Q. Zhao Q.Q. Chen S. Hu Z.Z. Xie Z. Chen L.Y. Ji J. Chen F. Zhang X.H. Xie Q.M. Development and application of a reverse-transcription recombinase-aided amplification assay for subgroup J Avian leukosis virus Poult. Sci. 101 4 2022 101743 10.1016/j.psj.2022.101743 PMC8889409 35240352
+Ma X.L. Xu H.Y. Gao Y.H. Yu K.X. Liu L.P. Hu F. Qin Z.M. Analysis on epidemic dynamics of diseases transmitted through breeding chickens from 2022 to 2023 Chin. J. Anim. Infect. Dis. 2024 1 11
+Li X. Zhang K. Pei Y. Xue J. Ruan S. Zhang G. Development and application of an MRT-qPCR assay for detecting coinfection of six vertically transmitted or immunosuppressive avian viruses Front. Microbiol. 11 2020 1581 32765453 10.3389/fmicb.2020.01581 PMC7379340
+Chen X.Q. Zhang S.Z. Zheng M. Lin S. Zhu Z.M. Huang M.Q. Lin F.Q. Epidemiological investigation of subgroup J avian leukemia of breeding birds in Fujian Chin. J. Vet. Sci. 41 9 2021 1734 1738
+Wang X. Zhang X.K. Li T. Zhao Y. Zhang T. Pan Y. Wang Q.H. Zhang L.J. Pan S.H. Jin X.F. Wen Z.C. Detection and analysis of avian leukosis, reticuloendotheliosis, and pullorum disease infections in Qiandongnan Xiaoxiang chicken population Agric. Tech. Serv. 40 12 2023 60 62
+Dong X.Y. Li J.Q. Chen Q.X. Liao M. Cao W.S. Establishment of blood nucleic acid screening technology for subgroup J avian leukosis virus Acta Veterinaria Et Zootechnica Sinica 55 3 2024 1115 1126
+Liu Y.J. Wu C.H. Meng H.H. Li T. Seroprevalence survey of J subgroup avian leukosis in large-scale chicken farms in Anshun City Guizhou Province. Chin. J. Vet. Med. 58 06 2022 25 28
+Li Y. Cui S. Li W. Wang Y. Cui Z. Zhao P. Chang S. Vertical transmission of avian leukosis virus subgroup J (ALV-J) from hens infected through artificial insemination with ALV-J infected semen BMC. Vet. Res. 13 1 2017 204 28662658 10.1186/s12917-017-1122-4 PMC5492345
+Mathevon Y. Foucras G. Corbiere F. Flock sensitivity and specificity of pooled fecal qPCR and pooled serum ELISA for screening ovine paratuberculosis PLoS. One 14 12 2019 e0226246 10.1371/journal.pone.0226246 PMC6932769 31877160
+Wei Y. Lin Y. Zhao J. Li D. Yang Z. Chen F. Han L. Development of a TaqMan probe-based multiplex real-time PCR for the simultaneous detection of four clinically important filamentous fungi Microbiol. Spectr. 12 9 2024 e0063424 10.1128/spectrum.00634-24 PMC11370266 39078160
+Cui Z. Sun S. Zhang Z. Meng S. Simultaneous endemic infections with subgroup J avian leukosis virus and reticuloendotheliosis virus in commercial and local breeds of chickens Avian Pathol. 38 6 2009 443 448 19937533 10.1080/03079450903349188

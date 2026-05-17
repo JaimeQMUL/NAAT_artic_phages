@@ -1,0 +1,101 @@
+Summary file for YP_013606416
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC10054541.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 35 °C (for phage adsorption, one-step growth, and endolysin activity assays).
+- Growth temperature range: Assays were conducted at 35 °C, with phage stability tested across a range from 5 °C to 95 °C.
+- Survival temperature range: Phage stability was assessed up to 95 °C, with significant loss of titer observed at 65 °C (1000-fold reduction) and complete inactivation at 75 °C and higher.
+- Incubation conditions: Endolysin activity was tested at 35 °C for 10 hours (turbidimetry) and thermal stability was tested at 20–70 °C for 1 hour.
+- Heat tolerance: Endolysin Gp84 retained activity after incubation at 60 °C, while Gp82 showed significant loss of activity at 60 °C. Gp84 was completely inactivated at 70 °C.
+- Cold tolerance: Phage titers remained similar to the control sample incubated at 5 °C, indicating stability at lower temperatures.
+- Enzymes adapted to temperature: The thermal stability of endolysins was specifically tested, showing differential retention of activity across the tested temperature gradient.
+
+Environmental Context:
+- Habitat/Source: The phage was isolated from a commercial phage cocktail used in clinical settings. The host bacteria are associated with human infections (Enterococcus species).
+- Extreme Environment Isolation: No evidence suggests isolation from an extreme environment.
+- Explicit Classification: No explicit classification (e.g., mesophile, thermophile) was provided for the phage or its associated enzymes based on the thermal data presented.
+
+
+Paper: PMC7563437.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated, but assays were conducted at 37 °C.
+- Incubation conditions: 37 °C with shaking (150 rpm) for bacterial growth; 37 °C for phage propagation and co-culture assays.
+- Environmental source/habitat: Farm animal faeces (for phage isolation); Intestinal gut environment (modeled using Caco-2/HT29-MTX co-culture).
+- Thermal adaptation: No mention of thermophilic, psychrophilic, mesophilic, or specific temperature-adapted enzymes.
+
+Environmental Context:
+- Habitat/Source: Intestinal gut/Faecal matter.
+
+Concise Summary:
+The organism was cultured and tested under conditions mimicking the human intestinal tract, with optimal growth and incubation temperatures consistently maintained at 37 °C. The phage was initially isolated from farm animal faeces. The study utilized a complex in vitro model (Caco-2/HT29-MTX co-culture) to simulate the intestinal barrier, mucus layer, and host-pathogen interactions, all conducted at physiological temperature (37 °C). No evidence of adaptation to extreme temperatures (thermophilic or psychrophilic) was reported; the conditions described are consistent with mesophilic growth typical of the gut environment.
+
+
+Paper: PMC11360260.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C (implied for optimal activity)
+- Survival temperature range: −80 °C to 37 °C
+- Incubation conditions: Static conditions at 37 °C, 5% CO2 (for biofilm assays); 37 °C with shaking at 200 rpm (for general assays).
+- Heat tolerance: Stable up to 37 °C; titer declined at 40 °C and above.
+- Cold tolerance: Stable down to −80 °C.
+- Thermophilic/Psychrophilic Adaptation: No explicit classification given; exhibits stability across a wide range, suggesting robust mesophilic characteristics.
+
+Environmental Context:
+- Habitat/Source: Sewage treatment plant wastewater in Nairobi, Kenya.
+- Extreme Environment Isolation: No explicit classification of the source as extreme, but the phage demonstrated stability across a very broad range of conditions (pH 3–11, −80 °C to 37 °C), suggesting high environmental robustness.
+
+Concise Summary:
+The phage exhibits remarkable thermal stability, maintaining viability from −80 °C up to 37 °C. Optimal activity and growth were observed at 37 °C. The phage demonstrated stability across a wide temperature range, declining only at 40 °C and above. This broad thermal tolerance, combined with stability across pH 3–11, suggests high environmental robustness, making it suitable for various formulation and therapeutic applications.
+
+
+Paper: PMC7999683.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37 °C in a CO2 incubator set at 5% CO2.
+- Environmental source/habitat: Human intestinal cells (in vitro model).
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Human intestinal cells (in vitro model).
+
+Concise Summary:
+The study utilized an in vitro model simulating the human intestinal environment, with bacterial biofilm formation and subsequent treatment assays conducted at 37 °C in a 5% CO2 incubator. The host cells used were a human intestinal cell line. No specific information regarding the organism's optimal growth temperature range, survival temperature range, or adaptation to extreme temperatures (thermophilic, psychrophilic) was provided; the physiological assays were conducted under standard mammalian body temperature conditions (37 °C).
+
+
+Paper: PMC8322680.1.txt
+Thermal Evidence:
+- Optimal pH for storage was 7.
+- Viability was lost when pH was lower than 4 or higher than 11.
+- Stable at different temperatures, maintaining a titer of $10^5$ after 60 min incubation at $70^	ext{o}	ext{C}$.
+- Wholly inactivated over $80^	ext{o}	ext{C}$.
+- Stable for 3 months when stored at $4^	ext{o}	ext{C}$.
+
+Environmental Context:
+- Isolated from hospital sewage.
+
+Concise Summary:
+The phage was found to be stable at $4^	ext{o}	ext{C}$ for up to 3 months. It demonstrated thermal stability, maintaining titer after incubation at $70^	ext{o}	ext{C}$ for 60 minutes, but was completely inactivated above $80^	ext{o}	ext{C}$. Optimal storage pH was 7, with viability lost below pH 4 or above pH 11. The phage was isolated from hospital sewage. The study does not provide explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation, but the stability profile suggests robustness under moderate temperature fluctuations relevant to storage and use.
+
+
+Paper: PMC12273212.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not specified
+- Incubation conditions: Anaerobic conditions at 37°C
+- Environmental source/habitat: Human fecal samples/gut microbiota
+- Mention of adaptation: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/Source: Human fecal samples/gut microbiota
+
+Concise Summary:
+The study utilized *in vitro* fermentation conditions simulating the gut environment, specifically maintaining an incubation temperature of 37°C under anaerobic conditions for bacterial growth assays. The source material for the microbiota analysis was human fecal samples. No specific data regarding thermophilic, psychrophilic, or extreme temperature adaptations were reported for the utilized microbial strains or the process conditions.
+
+
