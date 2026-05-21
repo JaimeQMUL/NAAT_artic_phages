@@ -1,0 +1,30 @@
+=============Reasoning for QMV29093 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage' and the country is 'India: Mangalore'. Sewage and environmental samples from temperate/tropical regions are typically associated with mesophilic conditions, as no extreme temperatures are mentioned.
+
+
+=============Reasoning for QMV29093 from accession literature=============
+Paper: PMC12651447.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several phage experiments. For instance, when determining the optimal MOI, the mixture was incubated at "30 °C for 12 h." For phage amplification, the mixture was incubated "overnight at 30 °C with shaking at 180 rpm/min." For the one-step growth curve, the pellet was resuspended and incubated "at 30° C with shaking at 180 rpm/min." For the initial phage isolation and subsequent steps, 30°C is the primary temperature mentioned. The general optimal growth temperature for the host bacteria (Pss) is also stated as 30°C ("The strain was cultured in Luria–Bertani (LB) broth at 30° C with shaking at 180 rpm/min."). Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: 33420733.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states: "Temperature stability studies showed that the phage vB-AhyM-AP1 was active over temperatures ranging from 4 to 45°C for 1 h." Since the defined range for mesophile is 15–45°C, and the observed range (4–45°C) encompasses this, and the upper limit is 45°C, it falls within the mesophilic classification based on the provided definitions.
+
+
+=============Reasoning for QMV29093 from host literature=============
+=============Reasoning for QMV29093 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for Aeromonas phage AP1. 2. **Check for environmental context:** The isolation source is 'sewage' and the collection date is '19-May-2019' from 'India: Mangalore'. Sewage environments are typically associated with mesophilic conditions (15–45°C). 3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context (sewage) suggests mesophily. 4. **Fallback:** Given the general nature of the source (sewage) and the lack of specific temperature data, the most probable classification is mesophile. This assignment relies on the general assumption that phages isolated from typical environmental sources like sewage are mesophilic, as per the fallback rule (Rule 4) if environmental context is weak or absent, or Rule 2 if context is present but not definitive. Therefore, 'mesophile' is selected.
+
+

@@ -1,0 +1,33 @@
+=============Reasoning for XXS07581 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('chicken feces') and the lab host ('Escherichia sp. STEC O157'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for XXS07581 from accession literature=============
+Paper: PMC13176240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the antibacterial activity of Ali24-His was evaluated in industrial-relevant conditions, exhibiting effective inhibitory features under acidic pH and moderate heating (up to 50 °C), which are environments typical of fruit processing workflows, pre-pasteurization steps. Furthermore, the DLS analysis showed that Ali24-His remained stable and resistant to aggregation up to 50 °C, and the nanoDSF analysis showed that the control condition (pH 4.0) resulted in a Tm of 60.4 °C, indicating stability above 50 °C, but the overall context of 'moderate heating' and 'pre-pasteurization steps' points towards the mesophilic range (15–45°C) as the relevant operational window, while the stability data suggests resilience up to 50°C, which is near the upper limit of mesophilic classification.
+
+
+=============Reasoning for XXS07581 from host literature=============
+Paper: PMC13139102.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that the enzymatic cocktail was applied at a constant temperature of 40°C in the context of biofilm treatment (Section 2.2.2.2). Furthermore, the optimal operating temperatures for the enzyme-based cleaning strategy were identified as 'reduced operating temperatures (40–50 °C)' (Section 1, Introduction). Since 40°C falls within the mesophilic range (15–45°C), this is the relevant thermal characteristic.
+
+
+=============Reasoning for XXS07581 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'chicken feces' and the host is 'Escherichia sp. STEC O157'. *Escherichia coli* and related pathogenic strains are generally considered mesophiles, thriving optimally between 35°C and 45°C, which falls within the mesophilic range (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is drawn from the known biology of the host organism (E. coli/STEC), suggesting a mesophilic lifestyle. This inference is strong enough to assign a classification.
+4. **Fallback/Final Assignment:** The most probable classification, based on the host's typical ecology, is mesophile. This assignment is made using the fallback rule (Rule 3) because the evidence is contextual rather than direct.
+
+

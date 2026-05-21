@@ -1,0 +1,19 @@
+=============Reasoning for YP_010355759 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal range of the bacteriophage or its host.
+
+
+=============Reasoning for YP_010355759 from accession literature=============
+=============Reasoning for YP_010355759 from host literature=============
+=============Reasoning for YP_010355759 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Synechococcus phage ACG-2014e) but contains no explicit information regarding its optimal growth temperature or the temperature of its natural habitat.
+2. There is no environmental context provided to infer a specific thermal range (psychrophile, mesophile, or thermophile).
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile' as the fallback class.
+4. Therefore, the classification is mesophile, and the inference type is 'forced'.
+
+

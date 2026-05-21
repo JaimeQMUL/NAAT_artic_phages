@@ -1,0 +1,19 @@
+=============Reasoning for DAP15226 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the 'isolation_source' is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAP15226 from accession literature=============
+=============Reasoning for DAP15226 from host literature=============
+=============Reasoning for DAP15226 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the bacteriophage. 
+2. The isolation source is 'Human metagenome' and the country is 'USA', suggesting an association with human-associated environments. 
+3. In the absence of specific thermal data, the default classification rule mandates assigning 'mesophile' as the most probable classification, as this represents the most common and general range for human-associated microbes/phages (15–45°C).
+4. Therefore, 'mesophile' is selected by fallback rule.
+
+

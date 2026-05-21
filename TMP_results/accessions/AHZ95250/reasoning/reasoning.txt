@@ -1,0 +1,51 @@
+=============Reasoning for AHZ95250 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The metadata states the isolation_source is 'hot spring', which strongly implies a thermophilic environment. Additionally, the title mentions 'Thermus phage T72' and the host is 'Thermus thermophilus MAT72', which are associated with high temperatures.
+
+
+=============Reasoning for AHZ95250 from accession literature=============
+Paper: 24786823.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is named 'Thermus phage T72' and its gene was discovered from 'Thermus thermophilus MAT72'. Furthermore, the biochemical characterization of the purified Tt72 RecA protein showed activity at '60°C'. Since the host bacterium is 'Thermus thermophilus' (a thermophile) and the enzyme activity was tested at 60°C, this suggests a thermophilic nature. 60°C is greater than 45°C, fitting the definition of a thermophile.
+
+
+=============Reasoning for AHZ95250 from host literature=============
+Paper: PMC9324360.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the enzyme's optimal activity temperature: "It was found that Tt72 pol was active over a wide temperature range, with the highest activity at 55 °C (Figure 8a)" and later, "The enzyme retained >80% of its activity after heating at 55 °C and 60 °C, and the enzyme’s activity was residual at higher temperatures (>60 °C)". Furthermore, the text notes that the optimal growth temperature for the host bacterium, *T. thermophilus MAT72*, is "65–72 °C, with minimal and maximal temperatures of 47 °C and 85 °C, respectively [72]", and the enzyme exhibits characteristics of proteins derived from thermophiles. Since the optimal growth temperature of the host is $>45^	ext{o}	ext{C}$ (65–72 °C), and the enzyme is derived from this system and shows high stability, it is classified as thermophile.
+
+
+Paper: PMC10423840.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The table entry for 'vB_Tt72 PolA' explicitly states that it 'performed optimally at 55°C'. The definition for thermophile is '> 45°C'.
+
+
+Paper: 40580998.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text describes the phage Tt72 as originating from 'extremophilic Thermus thermophilus MAT72 phage vB_Tt72'. Furthermore, it states that the protein 'is highly thermostable (Tm = 98.3 °C)' and 'retains ∼ 50 % of its lytic activity after 90 min of incubation at 99 °C'. Since the defined threshold for thermophile is > 45°C, and the observed stability is at high temperatures, the classification is thermophile.
+
+
+Paper: 24786823.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is named 'Thermus phage T72' and its gene was discovered from 'Thermus thermophilus MAT72'. Furthermore, the biochemical characterization of the purified Tt72 RecA protein showed activity at '60°C'. Since the host bacterium is 'Thermus thermophilus' (a thermophile) and the enzyme activity was tested at 60°C, this suggests a thermophilic nature. 60°C is greater than 45°C, fitting the definition of a thermophile.
+
+
+=============Reasoning for AHZ95250 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is 'Thermus phage T72'. The metadata explicitly lists the host as 'Thermus thermophilus MAT72' and the isolation source as 'hot spring'. Thermus species are well-known thermophiles, and isolation from a 'hot spring' strongly suggests a high-temperature environment. Therefore, the phage is classified as a thermophile (>45°C).
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for QEA10278 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'municipal wastewater'. Wastewater environments are generally considered mesophilic environments, which suggests a mesophilic thermal range for the associated phage/host.
+
+
+=============Reasoning for QEA10278 from accession literature=============
+Paper: PMC6753281.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host bacteria, Salmonella enterica serovar Heidelberg, were cultured on tryptic soy broth or agar (Difco) at 37°C. The phage isolation and propagation were done using the soft agar overlay method, implying the use of the host's optimal growth conditions. Since 37°C falls within the mesophile range (15–45°C), the phage is inferred to be mesophilic.
+
+
+=============Reasoning for QEA10278 from host literature=============
+=============Reasoning for QEA10278 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Salmonella phage Matapan.
+2. **Check for environmental context:** The isolation source is 'municipal wastewater'. While wastewater can vary widely, the general context of bacterial/phage isolation from such sources, especially when the host is Salmonella enterica (a mesophilic bacterium), suggests a moderate temperature range.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (wastewater/Salmonella) points towards typical environmental bacteria, the most probable classification is mesophile (15–45°C).
+4. **Fallback:** As no useful metadata exists to strongly suggest psychrophile or thermophile, the default fallback classification is mesophile.
+
+

@@ -1,0 +1,25 @@
+=============Reasoning for AXH66591 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for AXH66591 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text provides multiple explicit temperature mentions for culturing related organisms or processes. For the phage-related context (which is inferred from the upregulation of phage tail-like particles, CIS), the most relevant explicit growth conditions for the host *S. clavuligerus* are: 1. Spores were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days). 2. Spores of *S. clavuligerus* wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm. 3. Mycelium cultures were stored as 20% glycerol and stocked at −80ºC. 4. Cultures were incubated for 120 h, at 220 rpm and 28 ◦C. Since 28°C falls within the mesophilic range (15–45°C), this is the most direct thermal characteristic associated with the phage's host growth conditions.
+
+
+=============Reasoning for AXH66591 from host literature=============
+=============Reasoning for AXH66591 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of the phage.
+2. Check for environmental context: The isolation source is 'soil', and the collection coordinates are '33.208359 N 97.150032 W' (Denton, TX, USA). Soil environments generally support mesophilic life forms, although temperature can vary widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil from a temperate region) suggests moderate conditions, the most probable classification is mesophile. This assignment relies on the fallback rule (Rule 4) due to the lack of specific thermal data, defaulting to mesophile.
+
+

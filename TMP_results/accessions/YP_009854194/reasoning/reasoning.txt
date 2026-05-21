@@ -1,0 +1,19 @@
+=============Reasoning for YP_009854194 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('River Kuja') but does not specify any temperature or thermal conditions associated with this source or the phage/host.
+
+
+=============Reasoning for YP_009854194 from accession literature=============
+=============Reasoning for YP_009854194 from host literature=============
+=============Reasoning for YP_009854194 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'River Kuja' and the country is 'Kenya'. Rivers generally experience temperatures that fluctuate but are typically within the moderate range (15–45°C) unless extreme conditions are specified.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (river) suggests moderate temperatures, the inference leans towards mesophile. However, because the environmental context is general and not a definitive temperature reading, and no specific temperature data is present, the fallback rule (Rule 4) is invoked.
+4. **Fallback:** Defaulting to 'mesophile' as per the mandatory fallback rule.
+
+

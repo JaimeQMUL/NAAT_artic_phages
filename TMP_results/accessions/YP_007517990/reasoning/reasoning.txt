@@ -1,0 +1,20 @@
+=============Reasoning for YP_007517990 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Pelagibacter phage HTVC008M') and its host ('Candidatus Pelagibacter ubique HTCC1062'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is provided to determine the thermal range.
+
+
+=============Reasoning for YP_007517990 from accession literature=============
+=============Reasoning for YP_007517990 from host literature=============
+=============Reasoning for YP_007517990 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Pelagibacter phage HTVC008M') and its host ('Candidatus Pelagibacter ubique HTCC1062').
+2. **Analyze Host Context:** *Pelagibacter ubique* is a known member of the SAR11 clade, often associated with oligotrophic (nutrient-poor) open ocean environments. While the ocean itself has varying temperatures, the general context for marine phages, especially those associated with widespread oceanic bacteria, often defaults to mesophilic conditions unless specific deep-sea or polar sampling data is provided.
+3. **Check for Explicit Evidence:** There is no explicit temperature range provided in the metadata.
+4. **Apply Decision Rules:** Since no explicit evidence exists, the system must infer. The environment (open ocean) is broad. Given the lack of specific temperature data (e.g., deep-sea vent vs. surface water), the most conservative and standard default classification for marine microbes/phages, following the fallback rule (Rule 4), is 'mesophile'.
+5. **Conclusion:** Assign 'mesophile' as the most probable classification.
+
+

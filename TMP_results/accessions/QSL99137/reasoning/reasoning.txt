@@ -1,0 +1,16 @@
+=============Reasoning for QSL99137 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Shaanbei White Cashmere Goat') and collection date, but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range.
+
+
+=============Reasoning for QSL99137 from accession literature=============
+=============Reasoning for QSL99137 from host literature=============
+=============Reasoning for QSL99137 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the isolation source ('Shaanbei White Cashmere Goat') and collection date ('21-Jun-2018') from China, but no explicit temperature range is given for the phage or its environment. 2. There is no explicit evidence for psychrophile (<15°C) or thermophile (>45°C) conditions. 3. Following the decision rules, since environmental context is weak or absent, the system must assign the MOST PROBABLE classification. 4. The fallback rule dictates defaulting to 'mesophile'.
+
+

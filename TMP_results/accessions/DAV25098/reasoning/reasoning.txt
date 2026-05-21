@@ -1,0 +1,18 @@
+=============Reasoning for DAV25098 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAV25098 from accession literature=============
+=============Reasoning for DAV25098 from host literature=============
+=============Reasoning for DAV25098 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit temperature ranges for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2015-06-02. Human environments are generally considered mesophilic.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The source (human) suggests mesophilic conditions (15–45°C). However, the context is weak (only the source, not the specific temperature). Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

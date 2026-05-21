@@ -1,0 +1,30 @@
+=============Reasoning for WWS23646 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the phage, its host (Klebsiella pneumoniae), collection location (India), and altitude (22 m), but no explicit or strongly implied temperature or thermal environment is provided to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for WWS23646 from accession literature=============
+Paper: PMC11390652.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions incubation temperatures for phage stability testing: "For thermal testing, 100 µl of the working stock phage was suspended in 1 ml of SM buffer and incubated at -80°C, -20°C, 4°C, 21°C, 37°C, and 60°C for 1 h, 24 h and 168 h (Bae et al., 2012; Senhaji-Kacha et al., 2020)". Furthermore, the text describes incubation for plaque assays and biofilm tests at 37°C: "Agar plates and broth cultures were incubated at 37°C overnight." and "The plate was statically incubated at 37°C for 18 h." and "The plate was incubated under agitation (80–100 rpm) for 1 h at 37°C.". Since 37°C is the optimal growth temperature for the host bacteria (Klebsiella pneumoniae) and is used for multiple assays, and the stability tests include 37°C, the phage is characterized as mesophilic.
+
+
+Paper: PMC12307530.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature used for plaque assays and growth curve analysis. For plaque assays, it mentions: "The plates were incubated at 37 °C overnight". For growth curves, it states: "Cocultures were incubated at 37ºC with shaking at 100 rpm." Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for WWS23646 from host literature=============
+=============Reasoning for WWS23646 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KP5), its host (Klebsiella pneumoniae), and collection details (India, 2020). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The environmental context (India, collection date) is too broad to definitively place the phage in a psychrophile or thermophile range. 4. Following the decision rules, since no explicit evidence exists, and the environmental context is weak, the system must default to 'mesophile' as the fallback classification.
+
+

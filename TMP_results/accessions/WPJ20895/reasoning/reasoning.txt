@@ -1,0 +1,40 @@
+=============Reasoning for WPJ20895 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the phage, its host (Klebsiella pneumoniae), collection details (India, 22 m altitude), and dates, but no explicit or strongly implied temperature or thermal environment is mentioned.
+
+
+=============Reasoning for WPJ20895 from accession literature=============
+Paper: PMC12307530.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature used for plaque assays and growth curve analysis. For plaque assays, it mentions: "The plates were incubated at 37 °C overnight". For growth curves, it states: "Cocultures were incubated at 37ºC with shaking at 100 rpm." Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for WPJ20895 from host literature=============
+Paper: PMC13179404.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth conditions for the strains: "The optimum growth of both strains, when grown on LB medium, was at pH 9 with 3% salinity at 35 °C (Table S1)." Furthermore, when discussing the initial inoculum preparation, it states: "For all subsequent experiments, inoculum was prepared by growing the strains in 10 mL LB medium amended with 1 mg L− 1 Cr(VI) in 15 mL culture tubes at 35 °C under anaerobic conditions." The temperature of 35°C falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13179436.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature used for establishing fresh bacterial cultures: "Fresh bacterial cultures were established under standardized conditions using Mueller-Hinton agar medium with precise temperature control (37°C ± 0.5°C) for 18 hours." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for WPJ20895 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Klebsiella phage NU-KP11.
+2. Check for environmental context: The metadata provides collection details (India, altitude: 22 m) but no specific temperature data.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient to strongly infer a specific temperature class (psychrophile or thermophile), the system must default to the 'mesophile' classification as per the mandatory fallback rule.
+4. Conclusion: Assign 'mesophile' with 'forced' inference type and 'low' confidence due to the lack of supporting data.
+
+

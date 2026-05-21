@@ -1,0 +1,36 @@
+=============Reasoning for YP_009784362 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Bacillus pumilus GR8') and collection details, but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range.
+
+
+=============Reasoning for YP_009784362 from accession literature=============
+=============Reasoning for YP_009784362 from host literature=============
+Paper: PMC8778260.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures for various assays involving the bacteria or their metabolites. For the general growth/assay conditions, the following temperatures are mentioned: 
+1. Preculture of strain ATR2: "Strain ATR2 was precultured overnight in 10 mL of Luria-Bertani (LB) liquid medium... at 28 °C and 180 rpm".
+2. Incubation for CFS acquisition: "...and then incubated at 28 °C and 180 rpm with a rotatory shaker for 64 h."
+3. Bacterial culture for antibacterial assays: "...the pathogenic bacteria were cultured in LB liquid mediums at 37 °C except Ralstonia solanacearum in 950 liquid medium... at 28 °C using a rotatory shaker (180 rpm)".
+4. Incubation for antifungal assays: "The pathogenic fungi were cultured on potato dextrose agar (PDA) plates... at 28 °C for 5 days".
+5. Incubation for biocontrol assays: "...incubated at 30 °C and 40 to 70% relative humidity for about 2 days."
+6. The most frequently cited and representative temperature for bacterial growth/assay setup is 28°C or 37°C. Since 28°C falls within the mesophilic range (15–45°C), and 37°C is also within this range, the overall classification is mesophile.
+
+
+Paper: PMC9201493.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states that the endophytic bacteria strains were grown in nutrient broth (NB) medium for 24 h at "26–28°C with shaking". This temperature range (26–28°C) falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009784362 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Bacillus phage Bp8p-T), its host (Bacillus pumilus GR8), and its collection date/location (China, 2013). 2. There is no explicit mention of optimal growth temperature, minimum, or maximum temperature for the phage or its host. 3. The host, Bacillus pumilus, is generally considered a mesophilic bacterium, often isolated from soil environments. 4. Since no thermal data is available, the decision rules mandate defaulting to 'mesophile' as the most probable classification. 5. This classification is therefore 'forced'.
+
+

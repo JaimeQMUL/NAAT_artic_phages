@@ -1,0 +1,16 @@
+=============Reasoning for CBW37924 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Salmonella phage Vi01') and its host ('Salmonella enterica subsp. enterica serovar Typhi'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for CBW37924 from accession literature=============
+=============Reasoning for CBW37924 from host literature=============
+=============Reasoning for CBW37924 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage Vi01) and its host (Salmonella enterica subsp. enterica serovar Typhi). 2. No explicit thermal range is provided in the metadata. 3. The host, Salmonella, is a common human/animal pathogen, and most clinically relevant bacteria and their associated phages are generally considered mesophiles, thriving in moderate body temperatures (around 37°C). 4. Since no environmental context is given, and the host suggests a typical mammalian/gut environment, the most probable classification is mesophile. 5. As no evidence supports this, the classification defaults to 'mesophile' based on the fallback rule.
+
+

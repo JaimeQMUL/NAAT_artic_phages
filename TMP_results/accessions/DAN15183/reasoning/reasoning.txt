@@ -1,0 +1,19 @@
+=============Reasoning for DAN15183 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAN15183 from accession literature=============
+=============Reasoning for DAN15183 from host literature=============
+=============Reasoning for DAN15183 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is listed as 'Human metagenome' and the collection date is '2014-02-06'. Human-associated environments typically suggest mesophilic conditions (body temperature range).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'Human metagenome' context strongly suggests a mesophilic origin (15–45°C).
+4. Final assignment: As the environmental context is suggestive but not definitive, and no other rule applies, the fallback rule (Rule 4) is invoked, defaulting to 'mesophile'.
+
+

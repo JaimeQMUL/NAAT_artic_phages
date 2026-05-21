@@ -1,0 +1,27 @@
+=============Reasoning for QPX64713 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range. No explicit temperature is given.
+
+
+=============Reasoning for QPX64713 from accession literature=============
+=============Reasoning for QPX64713 from host literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for bacterial growth and phage propagation multiple times. For example, when describing the growth of C. jejuni, it mentions: "...and incubated at 42 °C under microaerobic conditions (85% N2, 10% CO2, 5% O2)" (Section 2.1). Furthermore, for phage propagation, it states: "...and incubating at 42 °C for 4 h under microaerobic condition" (Section 2.1). The incubation temperature of 42 °C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for QPX64713 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage F367'), its host ('Campylobacter jejuni NCTC12662'), and the isolation source ('chicken fecal sample').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common human/animal pathogen often associated with gastrointestinal tracts. *Campylobacter* species are generally known to be mesophiles, thriving in the mammalian gut environment (which is typically around 37°C).
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The most probable classification is based on the known ecology of the host organism. The mesophile range (15–45°C) encompasses the typical physiological temperature of the host.
+5. **Conclusion:** Assign 'mesophile' as the most probable classification. This assignment relies on the general knowledge of the host's ecology, which is a reasonable inference given the context of fecal isolation.
+
+

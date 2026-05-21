@@ -1,0 +1,16 @@
+=============Reasoning for DAW41554 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'Human metagenome' and the collection date is '2010-08-09'. However, no specific temperature or thermal condition (e.g., hot spring, deep sea) is mentioned to classify the thermal range as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for DAW41554 from accession literature=============
+=============Reasoning for DAW41554 from host literature=============
+=============Reasoning for DAW41554 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2010-08-09' from the USA. Human-associated microbes and phages are generally considered mesophilic unless specific extreme environments are noted. 3. Apply decision rules: Since no explicit evidence exists, and the environmental context (human gut/associated) suggests moderate conditions, the most probable classification is mesophile. 4. Fallback: As no useful metadata exists to strongly support psychrophile or thermophile, the default classification rule mandates assigning 'mesophile'.
+
+

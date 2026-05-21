@@ -1,0 +1,47 @@
+=============Reasoning for WPH58411 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for WPH58411 from accession literature=============
+Paper: PMC10793280.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phages were isolated from soil samples and the initial enrichment was performed by incubating the suspension '...and seeded with 150 μL Streptomyces griseus (ATCC 10137), and incubated for 72 hours at 20°C.' Subsequently, the enriched culture was plated and 'incubated for 2 days at 30°C.' Since the host bacterium, Streptomyces griseus, was cultured at 30°C for plaque purification, and this temperature is within the mesophilic range (15–45°C), the phage is inferred to be adapted to this temperature range.
+
+
+=============Reasoning for WPH58411 from host literature=============
+Paper: PMC11294657.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states: "TSS is a thermostable and halotolerant subtilisin-like protease derived from the thermophile Brevibacillus sp. WF146." It also provides optimal activity conditions: "TSS exhibits optimal activity at 70°C and pH 9.0". Furthermore, it mentions "retaining approximately 80% of its initial activity even after a 30-min incubation at 75°C".
+
+
+Paper: PMC11705968.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for the killing assay and MIC determination: "At each time point of exposure, the sample was dropped onto Luria agar (LA), which was subsequently incubated at 30°C overnight to examine bacterial growth." and "The treatments were subsequently incubated overnight at 30°C before measuring OD600." The paper also mentions that ESKAPE strains were grown at "30–37°C". Since 30°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that 'Characterization on cultural characteristic and viable count at different temperatures (37ºC and 28ºC)... were performed.' Since 37°C and 28°C both fall within the mesophilic range (15–45°C), and these are the tested temperatures for the isolates (which are associated with the phage's host, *Streptomyces*), the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for WPH58411 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage Spelly'.
+2. Check for environmental context: The isolation source is 'soil', and the geographical coordinates are provided (38.44025 N 87.01399 W). Soil environments are generally considered mesophilic, though they can vary widely. The host, 'Streptomyces griseus', is a common soil bacterium typically associated with mesophilic conditions.
+3. Apply decision rules: Since no explicit evidence exists, inference is required. The most probable classification, given the association with soil and a common mesophilic host, is mesophile. This classification is assigned by default because the environmental context is suggestive but not definitive enough to override the fallback rule.
+4. Conclusion: Defaulting to 'mesophile' based on the general nature of soil isolation and the host organism.
+
+

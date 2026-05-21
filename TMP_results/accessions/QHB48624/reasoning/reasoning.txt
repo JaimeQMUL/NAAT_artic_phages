@@ -1,0 +1,21 @@
+=============Reasoning for QHB48624 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are typically associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for QHB48624 from accession literature=============
+=============Reasoning for QHB48624 from host literature=============
+=============Reasoning for QHB48624 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'enterotoxigenic Escherichia coli', isolation source is 'sewage', and the country is 'China'.
+2. There is no explicit mention of optimal growth temperature for the phage or its host.
+3. The host, *Escherichia coli*, is a well-known mesophilic bacterium, typically thriving in the mammalian gut environment (around 37°C).
+4. The isolation source, 'sewage', is generally associated with mesophilic microbial communities.
+5. Since no explicit evidence is available, the most probable classification is based on the known ecology of the host organism (*E. coli*), which dictates a mesophilic lifestyle. Therefore, 'mesophile' is assigned as the most probable classification (Rule 3).
+6. The classification is assigned by default based on host ecology, resulting in a 'forced' inference type.
+
+

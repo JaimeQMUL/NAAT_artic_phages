@@ -1,0 +1,55 @@
+=============Reasoning for YP_010093088 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Shigella sonnei'), and accession details, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, or thermophile) is mentioned.
+
+
+=============Reasoning for YP_010093088 from accession literature=============
+Paper: PMC9404725.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for bacterial growth and phage propagation. For bacterial growth (STEC O157:H7), the text mentions: "E. coli cells were grown in tryptone soy broth (TSB) for 18 h at 37 °C with shaking at 180 rpm. Subsequently, 40 μL broth culture were introduced into 4 mL TSB and incubated for 4 h at 37 °C with shaking at 180 rpm [19]" and "The plates were incubated at 37°C/24 h." For phage enrichment and plaque formation, the text states: "...incubated at 37 °C/24 h with shaking at 100 rpm." For MOI determination, the text mentions: "After incubation at 37 °C/4 h with shaking at 100 rpm". These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." The optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13098420.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for the bacteria used in the study. Under 'Bacterial strains and growth conditions,' it notes: 'Shigella was grown aerobically at 37 °C on TSB agar with 0.01% Congo red dye.' Furthermore, for assays, it states: 'For all assays, bacteria were grown in the desired medium overnight, then subcultured 1:100 into fresh growth medium and grown aerobically at 250 rpm, 37 °C.' Since the phage targets *Shigella* species, and the optimal growth temperature for the host bacteria is 37°C, this indicates the relevant biological temperature range for the phage/host interaction is mesophilic.
+
+
+=============Reasoning for YP_010093088 from host literature=============
+Paper: PMC13002800.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions that 'S. flexneri strain 301 was incubated in BHI broth overnight at 37 °C' during the optimization of PMAxx treatment conditions. Since the phage is associated with Shigella species (S. flexneri and S. sonnei), and the host strain was incubated at 37 °C, this suggests the optimal growth temperature for the associated biology is around 37 °C. According to the definitions, 15–45°C corresponds to mesophile.
+
+
+Paper: PMC13169791.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial culture: "The culture was incubated overnight at 37 °C under continuous shaking at 180 rpm. The seed culture was transferred (1:100 v/v) into Terrific Broth medium (Sino Biological Co., Ltd., China), and cultured at 37 °C to mid-logarithmic growth phase (OD600 = 0.6–0.8) [14]. Protein expression was induced by adding 0.5 mM isopropyl β-D-1-thiogalactopyranoside (IPTG), followed by incubation at 18 °C for 16–18 h under continuous shaking at 180 rpm [15]." The primary growth/culture temperature mentioned is 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_010093088 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Shigella phage phi25-307') and its host ('Shigella sonnei').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range.
+3. The host, *Shigella sonnei*, is a human pathogen typically associated with moderate human body temperatures (37°C), which falls within the mesophilic range (15–45°C).
+4. Since no explicit evidence exists, the most probable classification is inferred from the known biology of the host organism, defaulting to mesophile as per the decision rules.
+5. Because the evidence is indirect (based on host biology rather than direct phage thermal data), the classification is considered 'forced' based on the fallback rule.
+
+

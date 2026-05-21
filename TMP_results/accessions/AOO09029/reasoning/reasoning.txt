@@ -1,0 +1,16 @@
+=============Reasoning for AOO09029 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the collection location ('USA: Block Island Sound, Rhode Island') and date ('Jul-2009'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for AOO09029 from accession literature=============
+=============Reasoning for AOO09029 from host literature=============
+=============Reasoning for AOO09029 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Synechococcus phage S-RIM2. 2. **Check for environmental context:** The collection location is 'USA: Block Island Sound, Rhode Island' and the collection date is 'Jul-2009'. Coastal/marine environments in temperate regions like Rhode Island typically experience moderate temperatures, especially during summer collection periods (July). 3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The environment suggests moderate conditions. 4. **Assign classification:** The mesophile range (15–45°C) is the most appropriate default classification for a phage isolated from a temperate marine environment when specific thermal data is missing. 5. **Fallback:** Since environmental context points towards moderate conditions, and no other rule applies, 'mesophile' is selected. This classification is therefore 'forced' based on the general nature of the metadata.
+
+

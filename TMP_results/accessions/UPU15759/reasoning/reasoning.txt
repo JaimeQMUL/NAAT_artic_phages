@@ -1,0 +1,34 @@
+=============Reasoning for UPU15759 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for UPU15759 from accession literature=============
+Paper: 36056994.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal tolerance of the phage: "It had a wide range of pH (4-12) and thermal (30-60 °C) tolerances." Since the defined mesophile range is 15–45°C, and the phage's stated tolerance (30-60°C) significantly overlaps and extends beyond this, but the core operational range includes mesophilic conditions, and the upper limit (60°C) suggests thermophilic potential, we must rely on the explicit range. Given the defined categories, 30-60°C spans mesophilic to thermophilic. However, since the range *includes* the mesophilic range (15-45°C) and the text provides a specific range, we classify it based on the provided range. As 30-60°C is stated, and 30-45°C falls within mesophile, we select mesophile as the best fit based on the provided definitions, while noting the full range.
+
+
+=============Reasoning for UPU15759 from host literature=============
+Paper: PMC13032263.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that preliminary antibacterial activity assays were conducted by incubating bacterial cells in 96-well plates and subsequently incubating the plate at "37 ℃ without shaking." Furthermore, the assessment of combined activity with PMBN was performed after "24 h of incubation at 37 °C."
+
+
+=============Reasoning for UPU15759 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028', and the isolation source is 'sewage'.
+2. There is no explicit mention of optimal growth temperature for the phage.
+3. The host, Salmonella enterica, is a common human/animal pathogen typically associated with mesophilic environments (15–45°C).
+4. The isolation source, 'sewage', is a complex environment, but without specific temperature data, the most scientifically conservative and probable default classification, following the decision rules, is mesophile.
+5. Since no explicit evidence exists, and the environmental context (sewage/Salmonella) points towards moderate conditions, the classification defaults to mesophile.
+
+

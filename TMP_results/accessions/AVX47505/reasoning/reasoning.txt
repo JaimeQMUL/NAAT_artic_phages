@@ -1,0 +1,16 @@
+=============Reasoning for AVX47505 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Staphylococcus aureus 0414'), and accession information, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned.
+
+
+=============Reasoning for AVX47505 from accession literature=============
+=============Reasoning for AVX47505 from host literature=============
+=============Reasoning for AVX47505 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Staphylococcus phage vB_SauM_0414_108) and its host (Staphylococcus aureus 0414). 2. No explicit thermal range (e.g., optimal growth temperature) is provided in the metadata. 3. The decision rules require assigning a classification. Since no environmental context is given, the system must default to the 'mesophile' classification as per Rule 4 and the fallback rule. 4. The confidence is low because the assignment is based purely on the default fallback rule, not on any supporting evidence.
+
+

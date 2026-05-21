@@ -1,0 +1,44 @@
+=============Reasoning for QPX64056 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for QPX64056 from accession literature=============
+Paper: PMC6760510.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper repeatedly mentions incubation temperatures for culturing and testing the bacteria. For example, 'Freeze dry bacteria were revived in Heart Infusion Broth (HIB) medium at 37°C for 24 h.' and 'The bacteria were then cultured on Xylose Lysine Deoxycholate (XLD) and Rapid Salmonella Agar (RSA) media which were incubated at 37°C for 24 h.' Multiple other tests also specify incubation at 37°C (e.g., 'Indole test was done using Sulfide Indole Motility (SIM) media and incubated at 37°C for 24 h.'). Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the one associated with phage F358 (NCTC12662). In the 'Materials and methods' section, under 'Bacterial strains, growth conditions, and media', it is mentioned that C. jejuni NCTC12662 and resistant strains were 'incubated at 37°C under microaerobic conditions'. Furthermore, in the 'Phage adsorption assay' section, the incubation is described as 'incubated aerobically at 37°C'. The definition for mesophile is 15–45°C, which encompasses 37°C.
+
+
+Paper: PMC8713573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard growth conditions for C. jejuni strains used in the study: "C. jejuni strains were standardly grown on base II agar plates containing 5% calf blood at 41.6°C under microaerobic conditions..." and "Bacterial cultures were then incubated for 4 h at 41.6°C under microaerobic conditions..." and "Plates were then incubated for 18–24 h at 41.6°C under microaerobic conditions." Since the phage work is conducted using C. jejuni strains, the relevant temperature is 41.6°C. According to the definitions, 15–45°C corresponds to mesophile.
+
+
+=============Reasoning for QPX64056 from host literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and phage assays. For bacterial growth (e.g., on MH agar, in cBHI broth, or during co-culture), the temperature used is consistently 42 °C. For E. coli DH5α, 37 °C is used, but this is not relevant to the phage's primary host/assay. Since the host, *C. jejuni*, is grown and assayed at 42 °C, and 42 °C falls within the mesophile range (15–45°C), the phage's thermal characteristic is inferred to be mesophilic based on the experimental conditions.
+
+
+=============Reasoning for QPX64056 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Campylobacter phage F358. 2. **Check for environmental context:** The host organism is 'Campylobacter jejuni NCTC12662'. Campylobacter species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens, as indicated by the isolation source 'chicken fecal sample'). 3. **Apply inference rules:** Since no explicit temperature data is available, we must infer. The typical physiological range for *Campylobacter* species and their associated phages in mammalian hosts is moderate (mesophilic). 4. **Fallback:** Given the strong association with a mesophilic host and the lack of specific temperature data, 'mesophile' is the most probable classification. This classification is assigned by default due to insufficient direct evidence.
+
+

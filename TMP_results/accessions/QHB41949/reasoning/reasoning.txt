@@ -1,0 +1,25 @@
+=============Reasoning for QHB41949 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Dickeya phage Ds16CZ') and its host ('Dickeya solani'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for QHB41949 from accession literature=============
+=============Reasoning for QHB41949 from host literature=============
+Paper: 41676063.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "thermal stability tests indicated that all three phages maintained infectivity across a broad temperature range (-20 °C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range includes this range, the classification is mesophile. The upper limit (60°C) exceeds the mesophile definition, but the broad range encompasses the mesophile range, and no specific optimal temperature is given to classify it as thermophile or psychrophile.
+
+
+=============Reasoning for QHB41949 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the phage 'Dickeya phage Ds16CZ'.
+2. There is no environmental context to infer a psychrophile or thermophile classification.
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+
+

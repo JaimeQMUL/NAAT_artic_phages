@@ -1,0 +1,19 @@
+=============Reasoning for DAL87323 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAL87323 from accession literature=============
+=============Reasoning for DAL87323 from host literature=============
+=============Reasoning for DAL87323 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is listed as 'Human metagenome' and the collection date is '2016-10-15'. Human-associated environments typically suggest mesophilic conditions (body temperature range).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'Human metagenome' context strongly suggests a mesophilic origin. However, as the context is not a direct temperature measurement, and the rules prioritize explicit evidence, the fallback rule (Rule 4) is invoked if the context is deemed weak. Given the strong association with human hosts, 'mesophile' is the most probable classification.
+4. Conclusion: Assign 'mesophile' based on the association with human-derived samples, defaulting to the most common biological range when specific data is absent.
+
+

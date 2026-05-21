@@ -1,0 +1,47 @@
+=============Reasoning for QNJ55093 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name, host, and geographical origin, but no explicit or strongly implied temperature or growth condition information is present to determine the thermal range.
+
+
+=============Reasoning for QNJ55093 from accession literature=============
+Paper: PMC10213691.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature stability of the phage: "...and it was stable over a broad pH range (4.0–11.0) and a wide temperature span (−80°C to 60°C), respectively, which may benefit its feasibility for phage therapy." The optimal growth/incubation temperatures mentioned for related assays are 37°C (e.g., "The growth conditions were all 2216E agar and broth at 37°C.", "Phage plaques appearance was observed after the overnight incubation at 37°C.", "The lysate of the pure single plaque in 100 μL PBS was mixed with equal amount of fresh culture of the host strain, and then was added into 5 mL of 2216E tube and incubated at 37°C with shaking at 220 rpm to getting phage proliferation solution.", "All experiments were performed in triplicate."). Since the phage is stable up to 60°C and the host bacteria are cultured and tested optimally at 37°C, the mesophilic range (15–45°C) is the most appropriate classification based on the operational data provided.
+
+
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+Paper: 36680175.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that the phage was "stable over a broad pH range (5.0−11.0) and a wide temperature span (−80 °C to 60 °C), respectively." Since the defined mesophile range is 15–45°C, and the phage is stable up to 60°C, it encompasses the mesophilic range. Given the explicit mention of stability up to 60°C, and the absence of a stated optimal growth temperature, we classify it based on the provided range encompassing mesophilic conditions, but the explicit stability range is used for confidence.
+
+
+=============Reasoning for QNJ55093 from host literature=============
+Paper: PMC12943105.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the isothermal incubation temperature used for the RPA reaction: "The assays were performed at 39 °C for 20 min using the Genie-II instrument, strictly following the manufacturer’s instructions for the TwistAmpTM exo kit." Since 39 °C falls within the defined mesophile range (15–45°C), the phage/assay is characterized as mesophilic.
+
+
+=============Reasoning for QNJ55093 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the phage.
+2. Check for environmental context: The metadata indicates the host is 'Vibrio alginolyticus NBRC 15630 = ATCC 17749' and the collection country is 'China: Dongshan'. Vibrio species are generally associated with moderate aquatic environments.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The host, *Vibrio alginolyticus*, is a common marine/aquatic bacterium typically associated with mesophilic conditions (15–45°C). Therefore, the most probable classification is mesophile.
+4. Final assignment: Defaulting to 'mesophile' based on the known ecology of the host organism, as per rule 3.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for YP_004323311 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Red Sea') and coordinates ('29.47 N 34.92 E'), but no explicit temperature or environmental condition is stated to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_004323311 from accession literature=============
+=============Reasoning for YP_004323311 from host literature=============
+=============Reasoning for YP_004323311 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'Red Sea' and the coordinates are '29.47 N 34.92 E'.
+2. **Environmental Context Inference:** The Red Sea is a subtropical/tropical marine environment. The coordinates suggest a location with moderate, warm temperatures, but not necessarily extreme high temperatures (>45°C) or consistently near freezing (<15°C).
+3. **Classification Application:** Given the tropical/subtropical marine origin, the most appropriate general classification is mesophile (15–45°C). There is no explicit temperature data, so inference is used.
+4. **Fallback Check:** Since the environmental context points strongly towards moderate temperatures, 'mesophile' is selected over 'psychrophile' or 'thermophile'.
+
+

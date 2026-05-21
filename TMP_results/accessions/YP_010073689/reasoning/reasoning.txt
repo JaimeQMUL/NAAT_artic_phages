@@ -1,0 +1,23 @@
+=============Reasoning for YP_010073689 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for YP_010073689 from accession literature=============
+Paper: PMC13182724.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the optimal amplification temperature for the RAA-LFD assay: "To minimize instrument dependency, 37.5 °C (close to human axillary temperature) was selected as the optimal amplification temperature for the RAA-LFD assay." Since 37.5°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_010073689 from host literature=============
+=============Reasoning for YP_010073689 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Escherichia phage T2) but contains no explicit data regarding its optimal growth temperature or the environmental conditions it is isolated from. 2. There is no environmental context to infer a specific thermal range (psychrophile, mesophile, or thermophile). 3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile' as the fallback class. 4. Escherichia coli, the host organism, is typically associated with mesophilic environments (15–45°C), supporting the mesophile classification.
+
+

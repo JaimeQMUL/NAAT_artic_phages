@@ -1,0 +1,27 @@
+=============Reasoning for YBB95084 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage', which typically implies mesophilic conditions. The host is 'Staphylococcus aureus (MRSA)', which is generally associated with mesophilic environments.
+
+
+=============Reasoning for YBB95084 from accession literature=============
+Paper: PMC12134071.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the environmental stability of phage SPB: "Environmental stability assays revealed that phage SPB maintained infectivity across temperatures ranging from 4°C to 50°C". The definition for mesophile is 15–45°C. Since the optimal range includes temperatures within this range (e.g., 37°C, which is used for incubation in multiple sections), and the overall stable range encompasses the mesophilic range, the classification is mesophile. Furthermore, the optimal MOI determination used incubation at "37°C" and the one-step growth curve used incubation at "37°C".
+
+
+=============Reasoning for YBB95084 from host literature=============
+=============Reasoning for YBB95084 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Staphylococcus phage SPB), its host (Staphylococcus aureus (MRSA)), and its isolation source ('sewage') and collection date ('Oct-2023').
+2. There is no explicit mention of the optimal growth temperature or the environmental temperature range.
+3. The isolation source is 'sewage'. While sewage can vary widely, general microbial ecology often associates sewage-associated pathogens/phages with mesophilic conditions (15–45°C) unless specific extreme conditions are noted.
+4. Since no explicit evidence exists, and the environmental context (sewage) is not strongly indicative of extreme cold or heat, the decision rules mandate defaulting to 'mesophile' as the most probable classification.
+5. Therefore, 'mesophile' is assigned based on the fallback rule.
+
+

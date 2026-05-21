@@ -1,0 +1,19 @@
+=============Reasoning for AOO19082 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the collection location ('USA: Block Island Sound, Rhode Island') and collection date ('Sep-2010'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for AOO19082 from accession literature=============
+=============Reasoning for AOO19082 from host literature=============
+=============Reasoning for AOO19082 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The collection location is 'USA: Block Island Sound, Rhode Island' and the collection date is 'Sep-2010'. Coastal/marine environments in temperate regions like Rhode Island typically support mesophilic organisms.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environment suggests moderate temperatures. If environmental context is weak or absent (or only suggests moderate conditions), the fallback rule (Rule 4) is applied, or the most probable classification based on the temperate marine context is chosen.
+4. Conclusion: The most probable classification for a phage isolated from a temperate coastal marine environment is mesophile. This classification is assigned by default/fallback.
+
+

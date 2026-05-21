@@ -1,0 +1,16 @@
+=============Reasoning for QEG10538 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Klebsiella michiganensis') and the phage ('Klebsiella phage KMI9'), but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is mentioned.
+
+
+=============Reasoning for QEG10538 from accession literature=============
+=============Reasoning for QEG10538 from host literature=============
+=============Reasoning for QEG10538 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KMI9), its host (Klebsiella michiganensis), and its origin (Australia). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. Since no explicit evidence exists, the decision rules require inferring from environmental context or defaulting. 4. The host, Klebsiella michiganensis, is a common bacterium often associated with moderate environmental conditions. 5. Given the lack of specific thermal data, the system must default to 'mesophile' as per the mandatory fallback rule (Rule 4).
+
+

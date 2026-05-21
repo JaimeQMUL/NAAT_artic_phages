@@ -1,0 +1,30 @@
+=============Reasoning for QBX06081 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Vibrio phage Va3') and its host ('Vibrio alginolyticus'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for QBX06081 from accession literature=============
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+=============Reasoning for QBX06081 from host literature=============
+Paper: PMC13142089.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the stability of ValKK3 at various temperatures. It states: "ValKK3 was stable at 40°C but began to lose activity at 50°C to 80% following heating for 60 min. The lytic activity disappeared entirely when heated at more than 60°C for 1 h (Figure 6A)." Since the phage is stable at 40°C and loses activity above 60°C, its optimal or effective range falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for QBX06081 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Vibrio phage Va3) and its host (Vibrio alginolyticus). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The fallback rule (Rule 4) dictates defaulting to 'mesophile' when no useful metadata exists. 4. Vibrio species are generally associated with moderate aquatic environments, supporting a mesophilic classification, but this is an inference based on general knowledge rather than explicit data, leading to a forced classification.
+
+

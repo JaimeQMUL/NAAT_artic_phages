@@ -1,0 +1,34 @@
+=============Reasoning for YP_009213881 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'wastewater', but does not specify any temperature or thermal condition associated with this source to classify the organism as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for YP_009213881 from accession literature=============
+Paper: PMC8307508.1.txt
+Classification: psychrophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that the bacteriophage vB_EcoM_VR26 (VR26) is a "Low-Temperature Virus" and that it was "adapted to grow at common refrigeration temperatures (4 and 8 °C)". Furthermore, the conclusion notes that "the greatest efficacy of VR26 on food was observed at common refrigeration temperatures (4 and 8 °C)". These conditions (4–8 °C) fall within the definition of psychrophile (< 15°C).
+
+
+Paper: 25753428.txt
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper discusses 'Low-temperature bacterial viruses VR' and subsequently sequences four phages, including 'vb_EcoM-VR26'. The grouping of these phages under the general heading 'Low-temperature bacterial viruses VR' strongly implies a psychrophilic characteristic for this group, including vb_EcoM-VR26. The text states: 'Low-temperature bacterial viruses VR - a small but diverse group of E. coli phages.'
+
+
+=============Reasoning for YP_009213881 from host literature=============
+=============Reasoning for YP_009213881 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the host is 'Escherichia coli'. *E. coli* is a model mesophile, and wastewater environments typically fluctuate around moderate temperatures.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The most probable classification, given the association with *E. coli* and wastewater, is mesophile. 
+4. **Fallback:** As the environmental context points towards moderate conditions and no other information is available, 'mesophile' is assigned as the most probable classification (forced).
+5. **Conclusion:** Assigning 'mesophile' based on the default assumption for phages associated with common environmental bacteria like *E. coli*.
+
+

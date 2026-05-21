@@ -1,0 +1,33 @@
+=============Reasoning for AHB80791 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host, and collection date, but no explicit or strongly implied temperature or environmental condition (like hot springs or deep sea) is mentioned to determine the thermal range.
+
+
+=============Reasoning for AHB80791 from accession literature=============
+=============Reasoning for AHB80791 from host literature=============
+Paper: PMC13101131.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that 'Cyanobacterium aponinum PCC 10605 (Cyan10605), a thermophilic, halotolerant single-cell cyanobacterium, can grow under extreme conditions including high temperature and high salinity.' Additionally, the 'Results' section notes that 'The thermophilic strain Cyan10605 was originally isolated from hot springs and can therefore grow at high temperatures of up to 45 °C [5, 7, 15].'
+
+
+Paper: PMC9430850.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states in the 'MATERIALS AND METHODS' section under 'Synechococcus strain and culture conditions': 'Cells were grown in polycarbonate Nalgene flasks in a culture room set at 24°C under continuous blue irradiance (40 μmol quanta m−2 s−1).'. Furthermore, in the 'MATERIALS AND METHODS' section under 'Experiments and preparation of cell extracts', it mentions: '...at 24°C using an Avanti J-25 Beckman centrifuge equipped with a JA-14 rotor.' The growth temperature of 24°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for AHB80791 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-MbCM25.
+2. Check for environmental context: The metadata indicates the host is 'Synechococcus sp. WH7803' and the collection date is 'Oct-2009' from the 'USA'. Synechococcus species are generally associated with aquatic environments, which typically fall within mesophilic ranges (15–45°C) unless specified otherwise.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests an aquatic origin, favoring mesophily. However, the environmental context (USA, Oct-2009) is too broad to strongly infer a specific temperature class (psychrophile vs. mesophile vs. thermophile).
+4. Fallback: As per the rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for QYC51163 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage water'. Sewage water is typically associated with moderate environmental temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for QYC51163 from accession literature=============
+Paper: PMC8778798.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature used for bacterial growth and phage experiments: "In each case, strains were incubated at 37 °C with shaking (180 rpm)\
+
+
+=============Reasoning for QYC51163 from host literature=============
+=============Reasoning for QYC51163 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'sewage water' and the collection date is 'Sep-2020'. Sewage water environments typically fluctuate but are generally associated with moderate temperatures, not extreme cold or high heat.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (sewage water) suggests moderate conditions, the most probable classification is mesophile.
+4. Fallback: As no useful metadata dictates a specific range, the default fallback classification is 'mesophile'.
+
+

@@ -1,0 +1,40 @@
+=============Reasoning for XEN13287 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for XEN13287 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for obtaining spores of S. clavuligerus: "Spores of S. clavuligerus were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days)". It also states that "Spores of S. clavuligerus wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm." Furthermore, the general cultivation conditions for the main experiments were "Cultures were incubated for 120 h, at 220 rpm and 28 ◦C." Since 28°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC13097060.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the initial incubation for the soil samples was performed "and incubated for 3 days at 20°C." A subsequent plating step was "and was incubated for 2 days at 30°C." Both 20°C and 30°C fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for XEN13287 from host literature=============
+Paper: PMC11413697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation temperatures for bacterial growth and fermentation. For the initial seed culture of *M. echinospora* ATCC 15835, the temperature used was 28°C: "The seed culture (in liquid ATCC 172 medium) was incubated at 28 °C and 220 rpm for 3 days". For the subsequent 50 mL culture, the incubation temperature was also 28°C: "The culture was incubated at 28 °C and 220 rpm for 5 days." For the large-scale industrial fermentation, the initial incubation temperature was 34°C: "the seed culture (in liquid ATCC 172 medium with 25 μg/mL thiostrepton) was incubated at 34 °C and 220 rpm for 3 days". The general range of 28°C to 34°C falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for XEN13287 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.64778 N 90.30361 W). Soil environments are generally considered mesophilic, though they can vary widely. The collection date is 2015, and the location suggests temperate terrestrial conditions.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) points towards moderate conditions, the most probable classification is mesophile. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'.
+4. Conclusion: Assign mesophile based on the general nature of soil isolation and the fallback rule.
+
+

@@ -1,0 +1,33 @@
+=============Reasoning for UUV43823 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'water' and the location is 'Little Kickapoo Creek', which suggests a freshwater or surface water environment. This environment is typically associated with mesophilic organisms.
+
+
+=============Reasoning for UUV43823 from accession literature=============
+Paper: PMC11946847.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for phage propagation and stability testing. For phage propagation, the text mentions: "After an 18 h incubation at 37 °C..." and "To propagate the phage from a single plaque, we infected P. aeruginosa PAO1 in a liquid culture at 37 °C". For stability testing, the text mentions: "This suspension was then incubated at −20 °C (freezer), +4 °C, +28 °C, +37 °C, +50 °C, and +60 °C for 1 h..." and "These mixtures were incubated at 37 °C for 30 min with shaking". The optimal growth/activity range observed is centered around 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11089165.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for liquid cultures: "For liquid cultures R. capsulatus was cultivated in malate minimal medium under microaerobic conditions (25–30 μM dissolved oxygen) in the dark at 32°C." The incubation temperature of 32°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UUV43823 from host literature=============
+=============Reasoning for UUV43823 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for the phage.
+2. **Check for environmental context:** The phage was isolated from 'water' near 'Little Kickapoo Creek' in Illinois, USA. This location suggests a temperate, non-extreme environment.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The source (freshwater creek) does not strongly suggest psychrophilic (<15°C) or thermophilic (>45°C) conditions. Therefore, the most probable classification, following the fallback rule (Rule 4), is 'mesophile' (15–45°C).
+4. **Conclusion:** Assign 'mesophile' based on the fallback rule due to insufficient thermal data.
+
+

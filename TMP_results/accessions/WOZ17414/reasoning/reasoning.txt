@@ -1,0 +1,40 @@
+=============Reasoning for WOZ17414 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('waste water') but does not specify a temperature range, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for WOZ17414 from accession literature=============
+Paper: PMC12748576.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the phage's activity at 37 °C: "Adsorption assays showed that over 80% of particles bound to host cells within 10 min at 37 °C (Fig. 5b)." and "One-step growth analysis indicated a latent period of ~ 50 min and a burst size of 56 PFU/cell (Fig. 5c), demonstrating efficient replication in vitro." Furthermore, the thermal stability test shows activity at 37 °C, but viability dropped significantly at 40 °C and 50 °C, and was lost above 60 °C. Since the optimal/tested temperature is 37 °C, which falls within the 15–45°C range, the phage is classified as mesophile.
+
+
+Paper: PMC12737361.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures for phage propagation and assays. For example, in section 2.5, 'The Petri dishes were incubated for 18–24 h at 37 °C to reveal the lytic zones...'. Also, in section 2.5, '...and a semisolid (0.6%) TSA agar warmed to 40 °C was added.' Furthermore, in section 2.13, 'The plate was incubated from 4 to 24 h at 37 °C temperature.' These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+Paper: 41406564.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "phage vB_Sa_2868B2 exhibited a... broad tolerance to temperature (4-60 °C)". Since the mesophile range is defined as 15–45°C, and the phage shows activity across this range (and beyond), the classification leans towards mesophile based on the defined ranges, although the stated range is broader. The endolysin LytN showed stability across a wide temperature (0-45 °C) range, which also encompasses the mesophile range.
+
+
+=============Reasoning for WOZ17414 from host literature=============
+=============Reasoning for WOZ17414 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Staphylococcus phage vB_SauM-V1SA09.
+2. Check for environmental context: The isolation source is 'waste water' and the collection date is 2020. While wastewater can vary, it generally supports mesophilic conditions, but this is not a strong indicator.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with low confidence due to the reliance on the default fallback.
+
+

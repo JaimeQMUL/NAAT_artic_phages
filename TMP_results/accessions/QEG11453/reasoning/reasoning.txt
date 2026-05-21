@@ -1,0 +1,23 @@
+=============Reasoning for QEG11453 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organisms ('Klebsiella oxytoca; Klebsiella penumoniae') and the phage name, but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for QEG11453 from accession literature=============
+Paper: PMC12502666.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states the incubation conditions for bacterial growth and phage isolation/testing. For bacterial growth, it mentions: "Bacteria were incubated in LB broth... in a shaking incubator (180–200 rpm) at 37°C." For phage isolation and optimal MOI/one-step growth curve, it states: "The mixture was incubated overnight at 37°C in 200 rpm shaking condition" and "The host strain in logarithmic phase was mixed with the phage at the optimal MOI and incubated at 37°C in 20 mL LB broth." Furthermore, the phage stability evaluation tested temperatures including 37°C: "About 10^8 PFU phages were incubated at 25°C, 37°C, 50°C, 60°C, 70°C, 80°C, 90°C, and 100°C and pH from 3 to 13 (phage suspension was diluted in sodium-magnesium buffer at varying pH levels, adjusted using HCl and NaOH solutions) for 1 h, respectively." Since the optimal and standard working temperature for the phage is 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for QEG11453 from host literature=============
+=============Reasoning for QEG11453 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KMI13), its host (Klebsiella oxytoca; Klebsiella penumoniae), and its origin (Australia). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The host organisms, *Klebsiella* species, are generally associated with mammalian or environmental niches that typically fall within moderate temperature ranges (15–45°C). 4. Since no explicit evidence is available, and the environmental context is weak regarding specific temperature optima, the decision rules mandate defaulting to 'mesophile'.
+
+

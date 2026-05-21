@@ -1,0 +1,33 @@
+=============Reasoning for AFN37242 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Vibrio parahaemolyticus'), and accession details, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for AFN37242 from accession literature=============
+Paper: 22676552.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The text states, "The phage can survive at 50°C for more than one hour." This indicates a survival temperature but does not define the optimal growth temperature required to classify it as psychrophile, mesophile, or thermophile based on the provided definitions (optimal growth < 15°C, 15–45°C, > 45°C).
+
+
+=============Reasoning for AFN37242 from host literature=============
+Paper: PMC13188858.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions growth conditions for V. diabolicus 3098: "Vibrio diabolicus grew at a maximum growth rate of 0.90 h−1 at 37°C in M9G 3% NaCl..." and "At 30°C, V. diabolicus grew in the absence of NaCl, but showed poor growth with an OD and growth rate of 0.14 and 0.14 h−1..." and "At 30°C, growth was optimal in M9G 3% NaCl with a final OD of 0.63 and maximum growth rate of 0.60 h−1". Since 30°C and 37°C fall within the mesophile range (15–45°C), the phage's thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for AFN37242 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Vibrio phage phi-pp2') and its host ('Vibrio parahaemolyticus').
+2. No explicit thermal range is provided in the metadata.
+3. Vibrio species, including V. parahaemolyticus, are generally associated with moderate marine/estuarine environments, typically thriving in temperatures between 15°C and 30°C, which falls within the mesophilic range (15–45°C).
+4. Since no explicit evidence exists, the classification defaults to mesophile based on the known ecology of the host organism, following the fallback rule (Rule 4).
+
+

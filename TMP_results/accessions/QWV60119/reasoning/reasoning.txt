@@ -1,0 +1,27 @@
+=============Reasoning for QWV60119 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'piglets intestine', which is a mammalian gastrointestinal tract, suggesting a host environment that is typically mesophilic.
+
+
+=============Reasoning for QWV60119 from accession literature=============
+=============Reasoning for QWV60119 from host literature=============
+Paper: PMC13041623.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that for the initial purification steps, 'Cultures were grown at 37°C in 2×YT medium... Protein expression was induced by the addition of 1 mM isopropyl β-d-1-thiogalactopyranoside (IPTG) and continued for 4 h at 37°C.' Furthermore, in the discussion section, it mentions that 'Mukherjee et al. (2020 ▸) recommend incubation of the bacterial lysate at 60–63°C for 30 min to denature bacterial proteins'. Since the phage is associated with the *Escherichia* phage S143_2 (implied by the context of *Escherichia* phage S143_2 being the subject, although the phage name itself is not in the text, the host *Escherichia* is repeatedly mentioned), and the optimal growth/expression conditions for the associated proteins/host are centered around 37°C (the standard growth temperature for *E. coli*), this suggests a mesophilic nature. The explicit mention of 37°C for growth and induction is the primary evidence.
+
+
+=============Reasoning for QWV60119 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'Escherichia coli 143', and the isolation source is 'piglets intestine'.
+2. Escherichia coli is a common bacterium associated with the mammalian gut, which typically maintains a temperature range compatible with mesophilic life (around 37°C).
+3. There is no explicit mention of optimal growth temperature for the phage.
+4. Based on the known ecology of the host organism (E. coli in the intestine), the most probable thermal classification is mesophile (15–45°C).
+5. Since no explicit evidence exists, and the environmental context points strongly towards mammalian gut conditions, mesophile is assigned as the most probable classification (Rule 3).
+
+

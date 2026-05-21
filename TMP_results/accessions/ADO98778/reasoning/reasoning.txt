@@ -1,0 +1,18 @@
+=============Reasoning for ADO98778 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Prochlorococcus sp. MED4') and collection location ('22.75 N 158.00 W'), but no explicit temperature or environmental condition is stated to determine the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for ADO98778 from accession literature=============
+=============Reasoning for ADO98778 from host literature=============
+=============Reasoning for ADO98778 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Eurybiavirus PHM1.
+2. Check for environmental context: The metadata provides geographical coordinates ('lat_lon': '22.75 N 158.00 W') and a collection date ('collection_date': '09-Mar-2006'). These coordinates place the collection site in a temperate/subtropical marine environment (near the coast of Australia). The host, Prochlorococcus sp. MED4, is a marine cyanobacterium typically associated with surface waters.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. Marine environments associated with surface waters generally support mesophilic life forms (15–45°C). However, the environmental context is not strong enough to definitively classify it as psychrophile or thermophile, as marine environments span a wide range. Therefore, following the fallback rule (Rule 4), the classification defaults to 'mesophile'.
+
+

@@ -1,0 +1,25 @@
+=============Reasoning for WIL01900 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage water'. Sewage water typically represents an environment associated with moderate temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for WIL01900 from accession literature=============
+Paper: PMC11137056.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that the phage cocktail was tested for stability in simulated gastrointestinal fluid (GIT) at "42 °C, mimicking the gastrointestinal tract (GIT) temperature of chickens" (Figure 8a caption). Furthermore, the stability test in simulated intestinal fluid (SIF) was conducted at "42 °C" (Figure 8b caption). Since 42°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic based on the tested conditions.
+
+
+=============Reasoning for WIL01900 from host literature=============
+=============Reasoning for WIL01900 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Salmonella phage D5lw.
+2. Check for environmental context: The isolation source is 'sewage water' and the collection date is 'May-2021'. Sewage water environments typically fluctuate but are generally associated with mesophilic conditions (15–45°C) for common enteric bacteria and phages.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environment suggests mesophilic conditions. However, the context is weak for a definitive inference. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

@@ -1,0 +1,20 @@
+=============Reasoning for QPX63048 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'duck intestine'. Intestines are typically associated with mesophilic environments, which is the most appropriate classification based on the provided metadata.
+
+
+=============Reasoning for QPX63048 from accession literature=============
+=============Reasoning for QPX63048 from host literature=============
+=============Reasoning for QPX63048 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage F336'), the host ('Campylobacter jejuni 1447'), and the isolation source ('duck intestine').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common gastrointestinal pathogen. *Campylobacter* species are generally associated with mammalian intestinal environments, which typically maintain mesophilic temperatures (37°C). The isolation source ('duck intestine') also points towards a moderate, mammalian-associated environment.
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is used. The most probable classification based on the known ecology of the host organism is mesophile (15–45°C).
+5. **Fallback:** As the inference is based on general knowledge of the host rather than direct metadata evidence, and no other rule applies, the default/most probable classification is mesophile.
+
+

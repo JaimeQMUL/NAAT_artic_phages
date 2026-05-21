@@ -1,0 +1,39 @@
+=============Reasoning for WWS24067 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') and geographical location ('India: Kerala'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for WWS24067 from accession literature=============
+Paper: PMC12930573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper text mentions the phage's thermal stability evaluation: "For thermal stability, phage solution was incubated at a temperature range of (5℃ − 80℃) for 1 h, followed by counting of the infective plaques." It then states, "vB_AbaM_MU1 exhibited remarkable thermal tolerance, remaining stable at temperatures ranging from 5 °C to 60 °C. The phage titer decreased by 1 log at 5℃ (p ≈ 0.01), whereas remained steady at 12 log10 PFU/mL at 10, 37, and 50℃. Although vB_AbaM_MU1 maintained its activity at 60℃, the phage titer was promptly reduced by 2 logs (p ≈ 0.0001), comparable to that of 50℃. No activity was determined at 70 ℃ and above as explained in Fig. (3 A).". The optimal/steady activity is observed at 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WWS24067 from host literature=============
+Paper: PMC13063575.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various assays involving the 3K isolate. For general growth, the MRS broth tubes were incubated at "37 °C for 24 h". For hemolytic activity assessment, incubation was done "at 37 °C for 24 h". For AST, plates were incubated "anaerobically at 37 °C for 24 h". For bile salt tolerance, the mixture was "incubated at 37 °C for 24 h". For DNA extraction, the isolate was "cultured in MRS broth and cultured at 37 °C for approximately 18 h". The consistent use of 37°C for multiple growth and activity assays indicates the optimal or standard growth temperature, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13043183.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that 'All strains were grown in tryptic soy broth (TSB) overnight at 37°C, with shaking, or streaked out on tryptic soy agar (TSA) plates and grown overnight at 37°C.' Furthermore, the incubation conditions for the DFR were specified: 'The reactor system was then incubated at 35°C (for Gram-positive organisms) or room temperature (18–27°C; for Gram-negative organisms) for 6 h; this static incubation is the batch phase... This continuous flow phase was sustained for 42 h at room temperature (18–27°C)'. Since the host bacteria (Klebsiella pneumoniae) are grown and tested under conditions centered around 37°C (initial growth) and 18–35°C (biofilm incubation), the optimal growth temperature is considered mesophilic (15–45°C).
+
+
+=============Reasoning for WWS24067 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal stability range for the phage.
+2. Check for environmental context: The isolation source is 'sewage' from 'India: Kerala', and the collection date is '2022-01'. Sewage environments are generally considered mesophilic, fluctuating around ambient temperatures.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context (sewage/ambient) suggests mesophilic conditions (15–45°C). However, the geographical location and source alone are not definitive proof of optimal temperature. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

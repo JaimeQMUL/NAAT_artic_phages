@@ -1,0 +1,16 @@
+=============Reasoning for DAY38963 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'Human metagenome' and the collection date is '2015-02-19', but no specific temperature or thermal condition is mentioned for the organism or phage.
+
+
+=============Reasoning for DAY38963 from accession literature=============
+=============Reasoning for DAY38963 from host literature=============
+=============Reasoning for DAY38963 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2015-02-19. Human-associated samples generally imply mesophilic conditions (human body temperature is ~37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a human host, pointing towards mesophily. 4. Final assignment: Because the environmental context (human metagenome) strongly suggests moderate temperatures, 'mesophile' is chosen. If the context were completely absent, the fallback rule mandates 'mesophile'.
+
+

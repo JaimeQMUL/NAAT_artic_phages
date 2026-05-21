@@ -1,0 +1,33 @@
+=============Reasoning for WWT39338 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Microcystis elabens'), and accession details, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned.
+
+
+=============Reasoning for WWT39338 from accession literature=============
+Paper: PMC12510456.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions temperature conditions used for culturing the host strains (M. aeruginosa PCC7806 wildtype and ΔmcyB mutant). The text states: "In brief, strains were grown in 25 ml of modified CT media at 26° C and ~35 μmol photons m−2 s−1 under a 14-h/10-h day/night cycle." Furthermore, when discussing gene expression analysis, it mentions: "The transcriptomes were previously generated during a chemostat temperature experiment (n = 2), during growth at 19° C and 26° C." Since the phage is associated with the host, and the host was grown at 26°C (which falls within the mesophile range of 15–45°C), the thermal characteristic is inferred to be mesophilic.
+
+
+=============Reasoning for WWT39338 from host literature=============
+Paper: PMC12724129.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature used for co-culturing phage Cute with its host: "We used the specific primer of phage Cute A1 gene to detect the Ct value of phage Cute at the initial time (blue column, 0 min) and in the supernatant after co-culturing with the original host Klebsiella pneumoniae (K. pneumoniae) 100, 37°C for 200 min (red column, 200 min) by RT-qPCR method." Additionally, the 'Growth curve experiment' section mentions culturing at "37°C with shaking at 200 rpm." Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for WWT39338 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Microcystis phage Mel-JY01') and its host ('Microcystis elabens').
+2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata.
+3. The host, *Microcystis*, is a cyanobacterium commonly found in freshwater environments. While specific environmental data is missing, freshwater microbial systems are generally associated with mesophilic conditions (15–45°C) unless otherwise specified.
+4. Since no evidence is available, the decision rules mandate defaulting to 'mesophile' as the fallback class.
+
+

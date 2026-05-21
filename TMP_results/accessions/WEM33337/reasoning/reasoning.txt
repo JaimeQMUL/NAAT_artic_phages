@@ -1,0 +1,83 @@
+=============Reasoning for WEM33337 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Escherichia coli FORC82') and isolation source ('animal feces'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for WEM33337 from accession literature=============
+Paper: PMC12837969.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of the phage Z90 particles: "The phage Z90 particles were stable at psychrotrophic and mesophilic temperatures (10–50 °C)..." The definition for mesophile is 15–45°C, and the stated range (10–50°C) encompasses the mesophilic range. Furthermore, the stability assay section details incubation at "10, 20, 30, 40, 50, 60, 70, and 80 °C for 1 h," and the discussion section notes that "Phage Z90 remained viable across psychrotrophic and mesophilic temperatures (<50 °C)".
+
+
+Paper: PMC12805682.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability of phage UE-S1: "The thermal tolerance of phage UE-S1 was assessed by calculating the titer of the phage at various temperatures (4 °C, 25 °C, 37 °C, 45 °C, 55 °C, 65 °C and 75 °C) through a double-layer agar assay (Fig. 2a). Phage UE-S1 demonstrated good thermal stability up to 45 °C." Since the optimal growth range for mesophiles is 15–45°C, and the phage shows good stability up to 45°C, this suggests a mesophilic characteristic. Furthermore, the phage was incubated at 37 °C for various assays, which is a mesophilic temperature.
+
+
+Paper: PMC13070987.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that 'All bacteria and phage incubations were performed at 37 °C using Lysogeny Broth (LB).' Furthermore, the phage stability test involved incubating the phage suspension at 'temperatures ranging from 4 °C to 80 °C for 1 h,' and the pH-tolerance test was conducted after incubation at '37 °C for 1 h.' The optimal growth/incubation temperature used throughout the characterization was 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC10213699.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions several incubation temperatures for bacterial growth and phage assays. For general bacterial growth and phage propagation, the following temperatures are explicitly stated: 
+1. "All bacteria were grown in Luria-Bertani (LB) broth and agar plates at 30°C and/or 37°C..."
+2. "...LB soft agar [0.3% (supplemented with appropriate antibiotic and IPTG, if necessary)]. Mixture was poured on LB agar plates and solidified for 30 min. Ten microliters of serially diluted (10-fold) phage lysates were spotted on the bacterial lawn and dried for 20 min at room temperature. The plates were incubated at 30°C for at least 12 h to obtain single plaques."
+3. "For phage propagation, host strain was incubated at 30°C for 2 h 30 min."
+4. "Bacterial cultures were incubated at 30 and 37°C for 2 h and infected with phage EJP2 at a MOI of 1."
+5. "...and incubated at 25°C without shaking for 48 h."
+6. "Mixtures were incubated at 30°C for 12 h."
+Since the optimal growth temperatures mentioned for the host bacteria (E. coli) and the assays are 30°C and 37°C, which fall within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC12898486.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature used for obtaining high-titer lysates: "High-titer lysates were obtained following propagation at 37 °C, reaching 4 × 10⁸ PFU/mL (Figure 2)". It also mentions incubation temperatures for plaque assays and host-range screening: "The plates were incubated overnight at 37 °C," and "Plates were incubated overnight at 37 °C". Since 37°C falls within the defined mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for WEM33337 from host literature=============
+Paper: PMC10213699.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions several incubation temperatures for bacterial growth and phage assays. For general bacterial growth and phage propagation, the following temperatures are explicitly stated: 
+1. "All bacteria were grown in Luria-Bertani (LB) broth and agar plates at 30°C and/or 37°C..."
+2. "...LB soft agar [0.3% (supplemented with appropriate antibiotic and IPTG, if necessary)]. Mixture was poured on LB agar plates and solidified for 30 min. Ten microliters of serially diluted (10-fold) phage lysates were spotted on the bacterial lawn and dried for 20 min at room temperature. The plates were incubated at 30°C for at least 12 h to obtain single plaques."
+3. "For phage propagation, host strain was incubated at 30°C for 2 h 30 min."
+4. "Bacterial cultures were incubated at 30 and 37°C for 2 h and infected with phage EJP2 at a MOI of 1."
+5. "...and incubated at 25°C without shaking for 48 h."
+6. "Mixtures were incubated at 30°C for 12 h."
+Since the optimal growth temperatures mentioned for the host bacteria (E. coli) and the assays are 30°C and 37°C, which fall within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC6780365.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states that the bacterial strains were cultured on Luria–Bertani (LB) media at 37 °C. This temperature (37 °C) falls within the mesophile range (15–45°C). The conjugation assay was also performed by 'incubation at 37 °C for 4 h'.
+
+
+=============Reasoning for WEM33337 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'Escherichia coli FORC82', isolation source is 'animal feces', and the country is 'South Korea'.
+2. There is no explicit mention of optimal growth temperature for the phage or its host.
+3. The host, Escherichia coli, is a well-known mesophilic bacterium, typically thriving in the mammalian gut environment (around 37°C).
+4. Since no explicit evidence is available, the most probable classification is inferred from the known biology of the host organism (E. coli), which dictates a mesophilic lifestyle.
+5. Therefore, the classification defaults to 'mesophile' based on the host's typical environmental niche.
+
+

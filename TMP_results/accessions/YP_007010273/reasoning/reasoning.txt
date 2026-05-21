@@ -1,0 +1,16 @@
+=============Reasoning for YP_007010273 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are typically associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for YP_007010273 from accession literature=============
+=============Reasoning for YP_007010273 from host literature=============
+=============Reasoning for YP_007010273 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Phage: Aeromonas phage CC2, Host: Aeromonas hydrophila, Isolation Source: sewage. 2. There is no explicit mention of optimal growth temperature for the phage or its host. 3. The host, Aeromonas hydrophila, is a common bacterium often associated with environmental water sources, including sewage. 4. In the absence of explicit thermal data, the default classification rule (Rule 4) mandates assigning 'mesophile'. 5. The environmental context (sewage) is generally associated with mesophilic conditions (15–45°C), supporting the default assignment.
+
+

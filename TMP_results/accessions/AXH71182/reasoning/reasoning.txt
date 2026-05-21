@@ -1,0 +1,19 @@
+=============Reasoning for AXH71182 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Bacillus subtilis KCCM 12052') and the phage ('Bacillus phage BSP38'), but no explicit or strongly implied temperature or growth condition is provided to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for AXH71182 from accession literature=============
+=============Reasoning for AXH71182 from host literature=============
+=============Reasoning for AXH71182 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Bacillus phage BSP38.
+2. Check for environmental context: The metadata indicates the host is 'Bacillus subtilis KCCM 12052' and the country is 'South Korea'. Bacillus species are generally known to be mesophiles, and the absence of extreme temperature indicators suggests a moderate range.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (host organism) points towards a common bacterial genus (Bacillus) typically associated with moderate temperatures, the most probable classification is mesophile.
+4. Fallback: As no useful metadata exists to strongly suggest psychrophile or thermophile, the default classification rule mandates assigning 'mesophile'.
+
+

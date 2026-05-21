@@ -1,0 +1,16 @@
+=============Reasoning for WBM23547 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('chicken feces') and collection date, but no explicit or strongly implied temperature or thermal condition is mentioned for the bacteriophage or its host.
+
+
+=============Reasoning for WBM23547 from accession literature=============
+=============Reasoning for WBM23547 from host literature=============
+=============Reasoning for WBM23547 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Escherichia phage PNJ-6. 2. **Check for environmental context:** The isolation source is 'chicken feces' and the collection date is 2019. Feces are generally associated with ambient or moderate temperatures, but this is not a strong indicator for a specific thermal classification. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is weak, the system must default to the 'mesophile' classification as per Rule 4. 4. **Conclusion:** Mesophile is the most probable classification based on the fallback rule.
+
+

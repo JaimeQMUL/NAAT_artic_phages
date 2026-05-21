@@ -1,0 +1,33 @@
+=============Reasoning for XIJ69057 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for XIJ69057 from accession literature=============
+Paper: PMC12956337.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions the following temperature shifts related to the host/pathogen: 1. "In Shigella species, the causative agents of bacillary dysentery [17–20], at 30°C, the histone-like nucleoid structuring protein, H-NS, silences many virulence genes encoded on the large virulence plasmid [21–23]." 2. "Subsequently, upon a temperature shift to 37°C, the virulence cascade is activated, leading to the synthesis of a key transcriptional regulator of Shigella virulence, VirB [24–26]." 3. "...if VirB is artificially produced at 30°C, VirB still alleviates H-NS-mediated silencing, even at this non-permissive temperature." 4. "Liquid cultures were grown overnight at 37°C in LB broth." 5. "Overnight cultures were diluted 1:100 and subcultured at 37°C with aeration in the specified media." 6. "...incubated with increasing concentrations of VirB (0.1175 μM, 0.235 μM, 1.175 μM) for 30 min at 37°C with either CTP or UTP (1 mM; NEB #N0450S)." 7. "...incubated with increasing concentrations of VirB (0.1175 μM, 0.235 μM, 1.175 μM) for 30 min at 37°C with either CTP or UTP (1 mM; NEB #N0450S)." 8. "...grown for 3 h at 37°C." 9. "...grown for an additional 2 h at 37°C." The host/pathogen activity is consistently described around 30°C and 37°C. Since 37°C falls within the mesophilic range (15–45°C), and the phage/virulence mechanism is linked to these temperatures, the thermal range is inferred as mesophile.
+
+
+=============Reasoning for XIJ69057 from host literature=============
+Paper: PMC11413697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation temperatures for bacterial growth and fermentation processes. For the initial seed culture of *M. echinospora* ATCC 15835, the temperature used was 28°C: "The seed culture (in liquid ATCC 172 medium) was incubated at 28 °C and 220 rpm for 3 days". For the subsequent kanamycin feeding experiment, the incubation temperature was also 28°C: "The culture was incubated at 28 °C and 220 rpm for 5 days". For the large-scale industrial fermentation, the initial incubation temperature was 34°C: "the seed culture (in liquid ATCC 172 medium with 25 μg/mL thiostrepton) was incubated at 34 °C and 220 rpm for 3 days". Since 28°C and 34°C both fall within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for XIJ69057 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.640312 N 90.283562 W). Soil environments are generally considered mesophilic, though temperature varies widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. If the environmental context is weak or absent, the fallback rule dictates assigning 'mesophile'.
+4. Conclusion: Assign mesophile based on the fallback rule due to lack of specific thermal data.
+
+

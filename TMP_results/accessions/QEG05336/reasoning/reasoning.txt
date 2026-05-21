@@ -1,0 +1,18 @@
+=============Reasoning for QEG05336 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('river') and collection date, but no explicit or strongly implied temperature or thermal condition is mentioned to classify the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for QEG05336 from accession literature=============
+=============Reasoning for QEG05336 from host literature=============
+=============Reasoning for QEG05336 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal stability of Shigella phage JK32.
+2. Check for environmental context: The isolation source is listed as 'river'. River environments typically fluctuate but are generally associated with moderate temperatures, making mesophilic conditions the most probable default.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('river') suggests moderate conditions, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

@@ -1,0 +1,40 @@
+=============Reasoning for YP_010656630 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'Shenzhen Bay' and the host as 'Synechococcus sp. CB0101', but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_010656630 from accession literature=============
+Paper: PMC9927357.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper tested the thermal stability of MaMV-DH01 by incubating it at 30°C, 35°C, 40°C, 45°C, 50°C, and 60°C for 1 h. The results showed that the phage titer 'decreased continuously with increasing temperature starting at 35°C, with the phage titer being completely lost at 50°C'. This indicates a temperature sensitivity rather than defining an optimal growth temperature for the phage itself. The paper notes that the optimal growth temperature for most cyanobacteria (the host) is 25 to 30°C, but this is a general statement about the host, not a direct measurement of the phage's optimal growth temperature. Since no optimal growth temperature for the phage is explicitly stated, the thermal range cannot be classified.
+
+
+=============Reasoning for YP_010656630 from host literature=============
+Paper: PMC10665897.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper describes the isolation and characterization of two thermal phenotypes: 'cool-temperature isolates' (from 18 °C and 22 °C) and 'warm-temperature isolates' (from 30 °C). The optimal growth temperatures (Topt) were reported as: cool-temperature isolates (average = 27.6 °C, ±1.2 SD) and warm-temperature isolates (average = 29.8 °C, ±1.8 SD). The general temperature range discussed for the site is 18 °C to 30 °C, and the average summertime surface water temperature was 20.6 °C. Since the optimal growth temperatures (27.6 °C and 29.8 °C) fall within the 15–45°C range, the organism is classified as a mesophile.
+
+
+Paper: PMC3886946.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that the water temperature in the Chesapeake Bay, where the host organism (Synechococcus sp. strain CB0101) was isolated, "ranges from 0 to 30°C". The definition for mesophile is 15–45°C. Since the host thrives in this range, and no specific thermal characteristics for the phage are given, we infer the phage's potential thermal range based on the host's environment, which falls within the mesophilic range (15-30°C is within 15-45°C).
+
+
+=============Reasoning for YP_010656630 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'Shenzhen Bay', which is a coastal marine environment. While specific temperature data for Shenzhen Bay is not provided, marine environments generally support mesophilic life forms, especially for phages infecting common cyanobacteria like Synechococcus.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (coastal bay) suggests moderate conditions, the most probable classification is mesophile. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'.
+4. **Conclusion:** Assigning mesophile based on the fallback rule due to lack of temperature data.
+
+

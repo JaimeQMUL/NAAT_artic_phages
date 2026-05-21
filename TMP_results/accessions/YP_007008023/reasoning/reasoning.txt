@@ -1,0 +1,26 @@
+=============Reasoning for YP_007008023 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host, and accession details, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned.
+
+
+=============Reasoning for YP_007008023 from accession literature=============
+=============Reasoning for YP_007008023 from host literature=============
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the phage "exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the mesophile range is defined as 15–45°C, and the observed range (4°C to 60°C) encompasses this range, the phage is characterized as mesophilic based on the provided definitions and the explicit data.
+
+
+=============Reasoning for YP_007008023 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (title, host, accession) but contains no explicit data regarding optimal growth temperature or thermal stability.
+2. There is no environmental context provided to infer a specific temperature range (psychrophile, mesophile, or thermophile).
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile' as the fallback class.
+4. The host, Salmonella typhimurium, is a mesophilic bacterium, which strongly suggests the phage itself is likely adapted to mesophilic conditions, supporting the default assignment.
+
+

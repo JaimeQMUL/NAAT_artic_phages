@@ -1,0 +1,18 @@
+=============Reasoning for QHB49384 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'wastewater treatment plant'. Wastewater treatment plants are generally associated with mesophilic conditions, which is the most appropriate classification given the available metadata.
+
+
+=============Reasoning for QHB49384 from accession literature=============
+=============Reasoning for QHB49384 from host literature=============
+=============Reasoning for QHB49384 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Klebsiella phage PhiKpNIH-6.
+2. Check for environmental context: The isolation source is 'wastewater treatment plant' and the collection date is 2016. Wastewater environments are generally characterized by fluctuating, moderate temperatures, typically falling within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context (wastewater) suggests mesophily. However, the inference is not strong enough to be classified as 'inferred' with high confidence, and the metadata is otherwise sparse regarding temperature. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

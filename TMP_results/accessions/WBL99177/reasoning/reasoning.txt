@@ -1,0 +1,47 @@
+=============Reasoning for WBL99177 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage', which typically implies mesophilic conditions. The host is 'Salmonella enterica subsp. enterica serovar Typhimurium', which is generally associated with mesophilic environments.
+
+
+=============Reasoning for WBL99177 from accession literature=============
+=============Reasoning for WBL99177 from host literature=============
+Paper: PMC12998861.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal reaction temperature for the RPA-CRISPR/Cas12b-Fluo assay: "The reaction was immediately transferred to an isothermal amplification instrument (Gene II, OptiGene, UK) for CRISPR/Cas12b detection at 42°C for 60 min..." and later confirms this optimization: "...42°C samples reached the highest fluorescence intensity, significantly (P < 0.01) exceeding other temperature conditions(Fig 3b). These results highlight the temperature-dependent performance of the RPA-CRISPR/Cas12b system, with 42°C providing optimal conditions for both amplification efficiency and signal generation. Based on these findings, all subsequent RPA-CRISPR/Cas12b experiments were conducted at 42°C..." Since 42°C falls within the 15–45°C range, the classification is mesophile.
+
+
+Paper: PMC12829423.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability assessment was performed by incubating the phage lysate at 'simulated chicken gut temperature (41°C)' and that 'titers remained stable across the pH range of 4–10, at 41 °C'. Furthermore, the initial incubation for phage isolation and purification was done at '37 °C' and the bacterial growth inhibition assay was performed at '37 °C'. Since 37°C and 41°C fall within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC9774383.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature used for culturing the bacteria: "STATCC and STCCARM were sequentially cultured for 3 days at 37 °C in trypticase soy broth..." and "After inoculation, the plates were incubated at 37 °C for 18 h..." and "STATCC and STCCARM were successively cultured in TSB containing 1/2 × MICs of cefotaxime... for 3 days at 37 °C." Since the phage is associated with Salmonella, and the host bacteria were cultured at 37 °C, this temperature is used for phage-related assays (e.g., Figure 1 caption: "...after incubating at 37 °C for 18 h."). 37 °C falls within the mesophile range (15–45°C).
+
+
+Paper: 39448152.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions that the inhibition effects were evaluated after "12-h incubation at 37 °C." Since 37°C falls within the mesophile range (15–45°C), and this temperature was used for the bacterial growth/inhibition assay involving the phage-derived endolysin (LysPB32), the thermal characteristic is inferred to be mesophilic.
+
+
+=============Reasoning for WBL99177 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Salmonella phage SPTD1.
+2. Check for environmental context: The isolation source is 'sewage' and the collection date is 2017. Sewage environments are generally considered mesophilic, fluctuating around moderate temperatures.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'sewage' source suggests a mesophilic environment. However, the inference is not strong enough to override the fallback rule.
+4. Fallback: As per the rules, if environmental context is weak or absent (or if the inference is not strong enough), the system must default to 'mesophile'.
+
+

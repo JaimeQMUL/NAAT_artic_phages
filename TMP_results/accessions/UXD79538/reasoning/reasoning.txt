@@ -1,0 +1,19 @@
+=============Reasoning for UXD79538 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('river') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for UXD79538 from accession literature=============
+=============Reasoning for UXD79538 from host literature=============
+=============Reasoning for UXD79538 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal stability range for Klebsiella phage 150040.
+2. Check for environmental context: The isolation source is 'river' and the collection date is '2021-07-05' from China. River environments typically fluctuate but are generally associated with mesophilic conditions (15–45°C) rather than extreme cold or heat.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (river) suggests moderate conditions, the most probable classification is mesophile. As the environmental context is not strongly defining (it could be any temperature within the river's range), the classification defaults to mesophile based on the general nature of environmental isolation and the fallback rule.
+4. Conclusion: Assign mesophile.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for AAA32552 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage T4') and general identifiers, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for AAA32552 from accession literature=============
+=============Reasoning for AAA32552 from host literature=============
+=============Reasoning for AAA32552 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Escherichia phage T4) but contains no explicit data regarding its optimal growth temperature or the environmental conditions it is associated with.
+2. No explicit evidence is present (Rule 1 fails).
+3. The organism, Escherichia coli, is a model bacterium typically associated with moderate environmental temperatures (mesophilic range, 15–45°C). Phages that infect such organisms are generally assumed to be mesophilic unless evidence suggests otherwise (Rule 2 applied).
+4. Since the environmental context is weak/absent regarding temperature, the fallback rule (Rule 4) dictates assigning 'mesophile'.
+
+

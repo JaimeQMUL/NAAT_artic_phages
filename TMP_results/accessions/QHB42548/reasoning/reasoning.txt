@@ -1,0 +1,47 @@
+=============Reasoning for QHB42548 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Dickeya phage Ds25CZ') and its host ('Dickeya solani'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for QHB42548 from accession literature=============
+Paper: PMC10458263.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several experiments involving the phage or host bacteria. For instance, in Section 2.2, the incubation of the phage lysate with host bacteria was done at "37 °C for 24 h." In Section 2.4, the spot tests were incubated "at 37 °C for 16 h." In Section 2.7, the one-step growth curve was incubated "at 37 °C." In Section 2.8, the growth monitoring was done "for a duration of 24 h," and the second experiment was cultured "to the exponential phase with 20 mL each." The thermal stability test (Section 2.5) tested temperatures including 40 °C, 50 °C, 60 °C, 70 °C, 80 °C, and 90 °C, but the optimal/most frequently used temperature for growth/activity was 37 °C. Since 37 °C falls within the mesophilic range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC8432352.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that for the phage S117, the initial growth was performed in LB media and grown to the exponential phase at "37 °C and 180 rpm." Furthermore, the subsequent incubation for plaque assay was done "overnight at 37 °C." The DNA extraction step also involved incubation at "37 °C in a thermoshaker." The phage plaque assay incubation was also at "37 °C". Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QHB42548 from host literature=============
+Paper: PMC12886445.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "thermal stability tests indicated that all three phages maintained infectivity across a broad temperature range (−20 °C to 60 °C)". The optimal growth temperature for the host, D. solani, was used for multiple assays, including "incubated at 28 °C" (Section 2.2, 2.3, 2.6, 2.8, 2.9). The general optimal growth range for mesophiles is 15–45°C. Since the phages maintained infectivity up to 60°C but were tested and used in assays centered around 28°C, and the host growth was optimized at 28°C, the classification points towards mesophile, as 28°C falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC10931765.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for culturing the wild-type strain and the Tn5 mutants: "Solid bacterial cultures were cultivated on tryptone soya agar plates (TSA, Oxoid) or M9 minimal medium agar plates with glucose (M9 + 0.4% glucose, supplemented with 15 g L−1 bacteriological agar (Oxoid)) at 28 °C for 24–48 h." Additionally, the qRT-PCR section mentions incubation at "16 h at 28 °C with shaking (200 rpm)\
+
+
+=============Reasoning for QHB42548 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Dickeya phage Ds25CZ') and its host ('Dickeya solani').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or thermal stability.
+3. The host, *Dickeya solani*, is a species commonly associated with plant pathogens, which typically inhabit moderate environmental temperatures (mesophilic range).
+4. Since no explicit evidence is available, the decision rules mandate defaulting to 'mesophile' as the fallback class.
+
+

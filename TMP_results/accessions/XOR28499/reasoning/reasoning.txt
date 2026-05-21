@@ -1,0 +1,40 @@
+=============Reasoning for XOR28499 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'metal' and the country as 'Nigeria: Ilorin', but no specific temperature or thermal condition is mentioned for the bacteriophage or its host.
+
+
+=============Reasoning for XOR28499 from accession literature=============
+Paper: PMC12963601.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth experiment for both phages was conducted using incubation temperatures of 25 °C and 30 °C. The co-culture assays were also performed at 25 °C and 30 °C. Since the mesophilic range is defined as 15–45°C, these tested temperatures fall within this range.
+
+
+Paper: 42026481.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is characterized in relation to 'Antarctic temperate phage Perkons' and the host is 'Psychrobacillus sp. L4'. The presence of 'Antarctic' strongly suggests adaptation to cold environments, leading to the classification of psychrophile. The text does not provide explicit temperature measurements for the phage's optimal growth.
+
+
+=============Reasoning for XOR28499 from host literature=============
+Paper: PMC12963601.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth experiment for both phages was conducted using incubation temperatures of 25 °C and 30 °C. The co-culture assays were also performed at 25 °C and 30 °C. Since the mesophilic range is defined as 15–45°C, these tested temperatures fall within this range.
+
+
+=============Reasoning for XOR28499 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following context: 'isolate': 'MSP1161', 'metagenome_source': 'metal metagenome', 'country': 'Nigeria: Ilorin', 'isolation_source': 'metal'.
+2. There is no explicit mention of temperature ranges for the phage or its isolation environment.
+3. The isolation source is 'metal' and the location is 'Nigeria: Ilorin'. While some metals can be associated with extreme environments, the provided context is too general to strongly infer psychrophile or thermophile conditions.
+4. Following the decision rules, since environmental context is weak or absent, the system must default to 'mesophile'.
+
+

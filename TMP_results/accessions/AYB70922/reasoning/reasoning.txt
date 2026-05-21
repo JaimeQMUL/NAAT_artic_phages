@@ -1,0 +1,25 @@
+=============Reasoning for AYB70922 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for AYB70922 from accession literature=============
+=============Reasoning for AYB70922 from host literature=============
+Paper: PMC11413697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation temperatures for bacterial growth and fermentation processes. For the initial seed culture of *M. echinospora* ATCC 15835, the temperature used was 28°C: "The seed culture (in liquid ATCC 172 medium) was incubated at 28 °C and 220 rpm for 3 days". For the subsequent 50 mL culture, the incubation temperature was also 28°C: "The culture was incubated at 28 °C and 220 rpm for 5 days." For the large-scale industrial fermentation, the initial incubation temperature was 34°C: "the seed culture (in liquid ATCC 172 medium with 25 μg/mL thiostrepton) was incubated at 34 °C and 220 rpm for 3 days". The general range of 28°C to 34°C falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for AYB70922 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage Yaboi.
+2. Check for environmental context: The isolation source is 'soil', and the collection coordinates are '38.6434 N 90.3157 W' (St. Louis, MO, USA). Soil environments are generally considered mesophilic, though temperature varies seasonally.
+3. Apply decision rules: Since no explicit evidence exists, inference from the 'soil' source suggests mesophily. However, the environmental context (soil) is broad, and the metadata lacks specific temperature data. Therefore, following the fallback rule (Rule 4) for insufficient useful metadata, the classification defaults to 'mesophile'.
+
+

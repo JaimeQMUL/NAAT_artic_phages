@@ -1,0 +1,18 @@
+=============Reasoning for YP_214708 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Prochlorococcus phage P-SSM4') and the lab host ('Prochlorococcus sp. NATL2A'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned to determine the thermal range.
+
+
+=============Reasoning for YP_214708 from accession literature=============
+=============Reasoning for YP_214708 from host literature=============
+=============Reasoning for YP_214708 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Prochlorococcus phage P-SSM4.
+2. **Check for environmental context:** The associated host, *Prochlorococcus*, is a marine cyanobacterium typically found in oligotrophic open ocean waters. While the collection date is provided ('06-Jun-2000'), this does not define the temperature. Marine environments generally support mesophilic life, though specific deep-sea or polar isolates could suggest otherwise.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (open ocean marine setting) is generally associated with moderate temperatures, the system must default to the most probable classification. Given the lack of specific temperature data, the fallback rule dictates assigning 'mesophile'.
+
+

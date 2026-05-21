@@ -1,0 +1,16 @@
+=============Reasoning for YP_874025 from metadata=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The title contains the phrase '[Thermus phage phiYS40]' and the old_name is 'Thermus thermophilus phage YS40'. The genus 'Thermus' and the species 'Thermus thermophilus' are associated with thermophilic organisms, leading to the inference of a thermophilic range.
+
+
+=============Reasoning for YP_874025 from accession literature=============
+=============Reasoning for YP_874025 from host literature=============
+=============Reasoning for YP_874025 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage phiYS40' and the old name is 'Thermus thermophilus phage YS40'. The genus 'Thermus' and the associated organism 'Thermus thermophilus' are well-known thermophilic bacteria. Therefore, it is strongly inferred that the phage itself is adapted to high-temperature environments (>45°C), classifying it as a thermophile.
+
+

@@ -1,0 +1,44 @@
+=============Reasoning for XQQ51411 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, accession number, sequence length, and the lab host ('Escherichia coli 002/1-14/R'). No explicit or strongly implied temperature ranges (psychrophile, mesophile, thermophile) are present in the metadata.
+
+
+=============Reasoning for XQQ51411 from accession literature=============
+Paper: PMC13096147.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal temperature for phage adsorption: "The adsorption rate of Escherichia phage vECPPW9 to bacterial cells increased over time at 37 °C." Furthermore, multiple assays were conducted at 37 °C, including: "After overnight incubation with agitation at 150 rpm and 37 °C, the mixture was centrifuged..." and "The plates were air-dried and incubated overnight at 37 °C." Since 37 °C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." Since the optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC13059448.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "The bacteriophage titer of JXAU-SA-P1 remained stable after 1 h of incubation between 30 °C and 50 °C." This range (30°C to 50°C) falls within the mesophile definition (15–45°C) and extends slightly above it, but the optimal activity is shown at 25°C and the stability window covers the mesophilic range. Furthermore, the paper notes that the phage "exhibited a low optimal multiplicity of infection (0.001), a high burst size (300 PFU/cell), and significant antibacterial activity. The bacteriophage showed stable activity below 50 °C and within a pH range of 2.0–12.0." The incubation for antibacterial activity was performed at 25°C and 37°C, both mesophilic temperatures. The stability test shows stability up to 50°C, which is above the typical mesophile upper limit of 45°C, but the overall context of optimal activity and stability points to mesophilic conditions.
+
+
+Paper: 32536218.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the phages "had strong lytic activity against their host bacteria (E. coli NCTC 12900, ATCC 43888, and ATCC 35150) at 5-37 ℃". Since the mesophile range is defined as 15–45°C, and the tested range (5-37°C) falls within or overlaps significantly with this range, and 37°C is the upper limit of the mesophile range, the classification is mesophile. The specific phage vB_Eco_BCPEco_001 is not mentioned, but the general characteristics of the group it belongs to are provided.
+
+
+=============Reasoning for XQQ51411 from host literature=============
+=============Reasoning for XQQ51411 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the phage. 2. The associated host organism is 'Escherichia coli', which is a common mesophilic bacterium, typically thriving in moderate temperatures (15–45°C). 3. Since no explicit evidence is available, the decision rules mandate defaulting to 'mesophile' as the most probable classification. 4. This classification is therefore 'forced' based on the fallback rule.
+
+

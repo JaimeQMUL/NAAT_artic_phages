@@ -1,0 +1,16 @@
+=============Reasoning for YP_007349132 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Serratia phage phiMAM1') and its host ('Serratia sp.'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned.
+
+
+=============Reasoning for YP_007349132 from accession literature=============
+=============Reasoning for YP_007349132 from host literature=============
+=============Reasoning for YP_007349132 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Serratia phage phiMAM1'), its host ('Serratia sp.'), and collection details (United Kingdom, 2011). 2. There is no explicit mention of optimal growth temperature, temperature range, or environmental temperature. 3. The host, 'Serratia sp.', is a common bacterium often associated with moderate environmental niches. 4. Since no explicit evidence exists, and the environmental context (UK collection) is too broad to definitively place it in psychrophile or thermophile ranges, the decision rules mandate defaulting to 'mesophile'.
+
+

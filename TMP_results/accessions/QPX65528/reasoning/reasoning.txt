@@ -1,0 +1,40 @@
+=============Reasoning for QPX65528 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for QPX65528 from accession literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the one carrying the phage F374 (NCTC12662). In the 'Materials and methods' section, under 'Bacterial strains, growth conditions, and media', it is mentioned that C. jejuni NCTC12662 and the phage resistant strains were 'incubated at 37°C under microaerobic conditions'. Furthermore, in the 'Phage adsorption assay' section, the incubation is described as 'incubated aerobically at 37°C'. The definition for mesophile is 15–45°C, which encompasses 37°C.
+
+
+Paper: PMC8713573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard growth conditions for C. jejuni strains used in the study: "C. jejuni strains were standardly grown on base II agar plates containing 5% calf blood at 41.6°C under microaerobic conditions..." and "Plates were then incubated for 18–24 h at 41.6°C under microaerobic conditions." The phage adsorption assay also used incubation at "37°C with gentle shaking". Since the host bacterium, which the phage targets, is grown and tested at 41.6°C, and 37°C is also mentioned for phage adsorption, the optimal/tested range falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for QPX65528 from host literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and phage assays. For bacterial growth (e.g., on MH agar, in cBHI broth, or during co-culture), the temperature used is consistently 42 °C. For E. coli DH5α, 37 °C is used, but this is not relevant to the phage's primary host/assay. Since the host, *C. jejuni*, is grown and assayed at 42 °C, and 42 °C falls within the mesophile range (15–45°C), the phage's thermal characteristic is inferred to be mesophilic based on the experimental conditions.
+
+
+=============Reasoning for QPX65528 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Campylobacter phage F374' and its host is 'Campylobacter jejuni NCTC12662'. The isolation source is a 'chicken fecal sample' collected in 'Denmark'.
+2. **Determine Environmental Context:** *Campylobacter* species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens). The typical physiological temperature range for these hosts is mesophilic (around 37°C).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (gastrointestinal tract of poultry) strongly suggests a mesophilic lifestyle. Therefore, the classification defaults to mesophile.
+4. **Conclusion:** Based on the host organism's typical niche, mesophile is the most probable classification.
+
+

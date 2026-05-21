@@ -1,0 +1,19 @@
+=============Reasoning for YP_004325007 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides location coordinates (31.80 N 64.27 W) and a collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated for the phage or its host.
+
+
+=============Reasoning for YP_004325007 from accession literature=============
+=============Reasoning for YP_004325007 from host literature=============
+=============Reasoning for YP_004325007 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Prochlorococcus sp. NATL1A' and has a collection date/location ('Sep-1999', '31.80 N 64.27 W').
+2. **Environmental Context Inference:** Prochlorococcus are marine cyanobacteria typically found in oligotrophic open ocean waters. The geographical coordinates (31.80 N, 64.27 W) place the collection site in a temperate/subtropical marine environment.
+3. **Temperature Association:** Marine environments in these latitudes generally experience moderate temperatures, falling within the 15–45°C range, which defines mesophiles. There is no explicit temperature data.
+4. **Classification:** Based on the inferred temperate marine environment, the most probable classification is mesophile. This is an inference based on the known ecology of the host organism.
+
+

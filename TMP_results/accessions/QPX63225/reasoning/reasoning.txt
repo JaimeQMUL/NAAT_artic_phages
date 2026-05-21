@@ -1,0 +1,27 @@
+=============Reasoning for QPX63225 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12658'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range. No explicit temperature is given.
+
+
+=============Reasoning for QPX63225 from accession literature=============
+=============Reasoning for QPX63225 from host literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the one associated with the phage F348 (NCTC12658, which is used to generate the phage F348). The section 'Materials and methods' under 'Bacterial strains, growth conditions, and media' states: 'Both C. jejuni NCTC12662 and the phage resistant strains 12662X3 and 12662R were routinely cultured on Blood Agar Base II (Oxoid) supplemented with aseptically obtained 5% calf blood (BA) and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2).' Furthermore, the section 'Phage adsorption assay' mentions incubation at '37°C' and the 'Motility assay' mentions incubation at '37°C'. Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QPX63225 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage F348'), its host ('Campylobacter jejuni NCTC12658'), and the isolation source ('chicken fecal sample').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common human/animal pathogen often associated with gastrointestinal tracts. *Campylobacter* species are generally known to thrive in moderate, mammalian body temperatures (around 37°C), which falls squarely within the mesophilic range (15–45°C).
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The environmental context (gastrointestinal tract/chicken feces) strongly suggests mesophilic conditions. Therefore, mesophile is the most probable classification.
+5. **Fallback:** Since the inference is based on general knowledge of the host's ecology rather than direct phage data, and no other rule applies, 'mesophile' is selected as the most probable classification.
+
+

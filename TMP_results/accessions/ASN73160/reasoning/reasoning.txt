@@ -1,0 +1,18 @@
+=============Reasoning for ASN73160 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'soil', which is generally associated with mesophilic environments. The lab host is 'Streptomyces griseus ATCC 10137', which is typically a mesophile.
+
+
+=============Reasoning for ASN73160 from accession literature=============
+=============Reasoning for ASN73160 from host literature=============
+=============Reasoning for ASN73160 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is 'soil', and the collection location is 'USA: Wrightsville, PA' (lat/lon provided). Soil environments are generally considered mesophilic, though temperature varies greatly. The collection date is August, suggesting ambient summer temperatures, which fall within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil/PA) points towards moderate conditions, the most probable classification is mesophile. This assignment relies on the fallback rule (Rule 3) due to the lack of direct thermal data.
+
+

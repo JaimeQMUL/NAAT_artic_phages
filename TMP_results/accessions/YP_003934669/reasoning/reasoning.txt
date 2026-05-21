@@ -1,0 +1,20 @@
+=============Reasoning for YP_003934669 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Shigella phage SP18') and its host ('Shigella sonnei'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for YP_003934669 from accession literature=============
+=============Reasoning for YP_003934669 from host literature=============
+=============Reasoning for YP_003934669 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Shigella phage SP18') and its host ('Shigella sonnei').
+2. There is no explicit mention of optimal growth temperature or thermal range.
+3. The host, *Shigella sonnei*, is a human pathogen typically associated with moderate human body temperatures (37°C), which falls within the mesophilic range (15–45°C).
+4. Since no explicit evidence exists, the most probable classification is inferred from the known biology of the host organism, defaulting to mesophile as per the decision rules.
+5. Because the evidence is indirect (based on host biology rather than direct phage thermal data), the classification is considered 'forced' based on the fallback rule.
+
+

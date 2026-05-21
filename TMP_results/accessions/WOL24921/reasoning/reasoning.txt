@@ -1,0 +1,27 @@
+=============Reasoning for WOL24921 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'seawater' and the host as 'Vibrio parahaemolyticus G299', but no explicit temperature or environmental condition is stated to determine if the phage or host is psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for WOL24921 from accession literature=============
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+=============Reasoning for WOL24921 from host literature=============
+=============Reasoning for WOL24921 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'seawater' and the host is 'Vibrio parahaemolyticus'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The isolation source ('seawater') and the host ('Vibrio parahaemolyticus') do not provide a specific temperature range.
+3. **Infer Environmental Context:** Marine environments generally fluctuate, but the default assumption for non-extremophile marine bacteria/phages, especially when no specific temperature is given, leans towards moderate conditions.
+4. **Assign Classification:** Since there is no explicit evidence and the environmental context is weak, the fallback rule (Rule 4) dictates assigning 'mesophile'.
+5. **Determine Confidence:** This classification is based on the fallback rule, resulting in low confidence.
+
+

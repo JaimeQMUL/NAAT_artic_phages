@@ -1,0 +1,33 @@
+=============Reasoning for YP_009780622 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Staphylococcus aureus strain NCTC9789 (=PS80)') but does not specify any temperature or growth conditions for the phage or the host.
+
+
+=============Reasoning for YP_009780622 from accession literature=============
+Paper: PMC12654373.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that *S. aureus* grows optimally near 30–37 °C, and that phages generally remain viable between 4 °C and 50 °C. Furthermore, specific studies tested phage activity at 25 °C, 37 °C, and 4 °C. The optimal growth range of the host organism, *S. aureus*, is cited as 30–37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11878797.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper describes the growth conditions for the host bacteria used to propagate the phages. The text states: "Bacterial strains were cultured in trypticase soy broth (TSB) or on tryptone soy agar plates and grown at 30°C." and "To produce the phage lysates, an overnight culture of host bacteria was diluted in fresh, warm (30°C) TSB medium to reach OD600 ∼0.3 and incubated at 30°C with vigorous shaking..." and "...and incubated at 30°C with vigorous shaking to propagate the virus until the culture was clear (complete lysis of host cells)." Since the phage propagation is directly linked to the host growth temperature of 30°C, this suggests the phage operates optimally or at least is studied under mesophilic conditions (15–45°C).
+
+
+=============Reasoning for YP_009780622 from host literature=============
+=============Reasoning for YP_009780622 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Staphylococcus phage Staph1N') and its lab host ('Staphylococcus aureus strain NCTC9789').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental source temperature.
+3. Therefore, no direct evidence is available to classify it as psychrophile, mesophile, or thermophile.
+4. According to the decision rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

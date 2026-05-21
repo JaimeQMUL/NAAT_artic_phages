@@ -1,0 +1,308 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Curr Res Food Sci
+Journal ID: Curr Res Food Sci
+
+Current Research in Food Science
+
+EISSN: 2665-9271
+Publisher: Elsevier
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12992998
+PMID: 41852947
+DOI: 10.1016/j.crfs.2026.101375
+Article ID: S2665-9271(26)00075-4
+Article ID: 101375
+Article version: 1
+Subjects: Research Article
+
+A phage cocktail with bactericidal and virulence-attenuating effects against dairy-associated hypervirulent Klebsiella pneumoniae
+
+Ji Xing a 1
+Wang Jiayun a b 1
+García Pilar c
+Li Jun a
+Zhang Lili a
+Wang Ran ranwang@jaas.ac.cn a ⁎⁎
+He Tao vethetao@163.com a ⁎
+a Jiangsu Key Laboratory for Food Quality and Safety-State Key Laboratory Cultivation Base of Ministry of Science and Technology, Institute of Food Safety and Nutrition, Jiangsu Academy of Agricultural Sciences, Nanjing, 210040, China
+b School of Pharmaceutical Sciences and Food Engineering, Liaocheng University, No. 1 Hunan Road, Liaocheng, 252000, China
+c Instituto de Productos Lácteos de Asturias, CSIC, C/ Francisco Pintado Fe, 11, Oviedo, Asturias, 33011, Spain
+⁎ Corresponding author. vethetao@163.com⁎⁎ Corresponding author. ranwang@jaas.ac.cn1 these authors contribute equally to this work.
+
+Publication date: 2026
+Electronic publication date: 2026 Mar 5
+Volume: 12
+Electronic Location ID: 101375
+Received 2025 Dec 22; Revised 2026 Feb 25; Accepted 2026 Mar 4
+Copyright: © 2026 The Authors
+Copyright year: 2026
+License: This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Bacteriophage, Klebsiella pneumoniae, Virulence, Bovine mastitis, Dairy safety
+
+Handling Editor: Dr. Siyun Wang
+
+==============================
+Klebsiella pneumoniae is an opportunistic pathogen associated with bovine mastitis and dairy contamination, threatening animal health and food safety. This study addresses iuc3-positive, multidrug-resistant, hypervirulent K. pneumoniae (MDR-hvKP) from dairy sources. Two virulent phages, vB-KP80 and vB-KPT2, were isolated from dairy farm wastewater and characterized as members of distinct genera. They mediate specific lysis by targeting different surface receptors: vB-KP80 recognizes capsular polysaccharide encoded by genes (wzc/wcaJ), whereas vB-KPT2 utilizes lipopolysaccharide and outer membrane proteins encoded and regulated by genes (rfaH/fhuA). The phage cocktail combining both showed superior bactericidal activity over individual phages in pasteurized milk and a murine mastitis model, significantly reducing bacterial loads and alleviating tissue inflammation. Critically, the cocktail exerted receptor-directed evolutionary pressure, promoting resistant mutants with capsule deficiencies from mutations at multiple loci. These mutants displayed marked virulence attenuation, including reduced biofilm formation, impaired host cell adhesion, lost serum resistance, and increased phagocytosis susceptibility. Thus, the cocktail provides dual benefits: direct killing of MDR-hvKP and indirect protection by evolving less virulent resistant populations. This eco-friendly, antibacterial–antivirulence strategy shows promise for controlling bovine mastitis and enhancing dairy product safety.
+
+Graphical abstract
+
+Image 1
+
+Highlights
+
+• Two novel lytic phages targeting distinct bacterial receptors were isolated and characterized.
+
+• Novel phage cocktail effectively controls MDR-hvKP in milk and bovine mastitis.
+
+• The cocktail's multi-receptor targeting imposed evolutionary pressure, selecting for resistant mutants with attenuated virulence in vivo.
+
+• Phage therapy offers a green, evolution-guided strategy to enhance dairy safety.
+
+1 Introduction
+
+Klebsiella pneumoniae is an opportunistic pathogen that causes severe human infections and poses growing challenges to animal health and food safety (Hartantyo et al., 2020). In dairy production, it is a leading cause of clinical bovine mastitis, resulting in substantial economic losses, reduced milk yield, and compromised product quality (Cheng et al., 2020). Of particular concern is the emergence of multidrug-resistant hypervirulent K. pneumoniae (MDR-hvKP), designated a “priority pathogen” by the World Health Organization (Zheng et al., 2025). Our previous studies demonstrated that MDR-hvKP strains, especially those carrying the iuc3 operon, are increasingly prevalent in large-scale dairy farms. These strains exhibit high resistance to β-lactams, aminoglycosides, and tetracyclines, limiting the effectiveness of conventional antibiotic therapy (Wang et al., 2025). Importantly, the iuc3 operon enhances iron acquisition capacity and contributes to hypervirulence, promoting persistence within the mammary gland and increasing the likelihood of transmission along the farm-to-food chain (Hetta et al., 2025; Amiri et al., 2025). The presence of these strains in raw milk, dairy products, and farm environments therefore represents a dual threat—combining antimicrobial resistance with enhanced virulence—posing significant risks to both food safety and public health (Yang et al., 2025).
+
+Phages, as natural bacterial predators, represent a promising approach for biocontrol and food safety. They specifically recognize bacterial surface receptors, lyse pathogens without disturbing commensal microbiota, and can be applied across the food chain, from livestock treatment to post-harvest decontamination (Garvey, 2022). Compared with antibiotics, phages offer several key advantages, including high specificity and self-amplification at infection sites, and they are generally considered suitable for food applications under regulatory review (Ghosh et al., 2025). Previous studies have demonstrated the strong efficacy of phage therapy against multidrug-resistant K. pneumoniae infections in humans, suggesting their potential role in improving dairy cattle health and enhancing food chain safety (Zhang et al., 2025). Furthermore, the use of phage cocktails broadens host range and reduces the likelihood of resistance, thereby maximizing both therapeutic effectiveness and food safety benefits (Chen et al., 2024).
+
+A major hurdle in phage-based control of bacteria is the evolving phage-host dynamics, with pathogens deploying defenses like adsorption blockade, DNA injection inhibition, and phage genome degradation (Costa et al., 2024). In K. pneumoniae, adsorption blockade often arises from altered surface receptors, particularly the capsular polysaccharide (CPS)—a vital phage receptor and virulence factor that shields against immune assaults, including antimicrobial peptides, complement killing, and phagocytosis (Zierke et al., 2025). CPS synthesis relies on the cps gene cluster, featuring key genes such as wzc (tyrosine kinase) and wcaJ (glycosyltransferase) (Xu et al., 2024); mutations here curtail capsule production and virulence. In addition to CPS, lipopolysaccharide (LPS) and outer membrane proteins (OMPs) also function as important phage receptors while contributing to membrane integrity, immune evasion, and nutrient uptake (Haudiquet et al., 2024). Alterations in these surface structures may confer phage resistance but often impose fitness or virulence costs, highlighting an evolutionary trade-off in which structures essential for pathogenicity simultaneously render the bacterium susceptible to phage infection.
+
+This study tested the hypothesis that a precisely formulated phage cocktail could not only eliminate susceptible K. pneumoniae but also direct the evolution of resistance toward a less virulent phenotype. Two lytic phages, vB-KP80 and vB-KPT2, were isolated using hypervirulent, iuc3-positive K. pneumoniae from dairy cows as hosts. After characterizing their biological and genomic profiles, we formulated a phage cocktail and evaluated its efficacy against multidrug-resistant, iuc3-positive K. pneumoniae in a murine mastitis model and in fresh milk. The results showed that the cocktail rapidly reduced bacterial loads and triggered a “receptor-directed evolutionary trapping” mechanism. This process compelled escape mutants to undergo genetic alterations in CPS, LPS, and outer membrane protein loci, reshaping the bacterial surface receptor landscape at the cost of fitness and virulence. Such receptor-mediated evolutionary trade-offs underpin the dual “bactericidal–virulence attenuation” effect of phage cocktail therapy, reinforcing its promise for enhancing animal health and dairy product safety.
+
+2 Materials and methods
+
+2.1 Phage isolation and purification
+
+Wastewater samples were collected from a dairy farm in Jiangsu Province, China, where cows were suffering from mastitis. Samples were diluted in Saline Magnesium (SM) buffer, centrifuged at 10,000× g for 10 min, and filtered through 0.22 μm membranes. Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h. Enrichment was repeated 3–4 times. Phages were detected using spot assays and double-layer agar plating. Individual plaques were picked and purified through at least three rounds of plaque isolation to obtain homogenous phage stocks, designated vB-KP80 and vB-KPT2, and stored in SM buffer at −20 °C. Phage titers were determined via the double-layer agar method.
+
+2.2 Transmission electron microscopy (TEM)
+
+Purified phage suspensions (≥109 PFU/mL) were adsorbed onto carbon-coated copper grids (300 mesh) for 5 min, negatively stained with 2% phosphotungstic acid (pH 7.2) for 60 s, and air-dried. Phage morphology was examined using a H-7650 transmission electron microscope (Hitachi, Japan).
+
+2.3 Host range determination
+
+The spot assay was used to evaluate the lytic spectrum of phages against 8 iuc3-positive strains and 31 other KP strains from dairy cows. The strains included KP80 (ST215-KL16), KP23 (ST776-KL3), KPT2, KPTP12, KPT4, KPTP15 (ST636-KL126), KPTP1 (ST35-KL22), and KPTP11 (ST35-KL108) (Wang et al., 2025). Briefly, 10 μL of phage suspension (108 PFU/mL) was spotted onto the center of double-layer agar plates containing the bacterial lawns. After air-drying, the plates were incubated at 37 °C for 12 h, and the lytic activity was then examined.
+
+2.4 Optimal multiplicity of infection (MOI)
+
+Host bacteria were co-cultured with phages at varying MOIs (0.01, 0.1, 1, 10, and 100) for 5 h in an incubator shaker set at 37 °C and 180 rpm. Phage titers were determined using the double-layer agar method to identify the optimal MOI.
+
+2.5 One-step growth curve
+
+Bacterial culture in the log phase (5 × 108 CFU/mL) was infected with phages at the optimal MOI in 10 mL fresh LB broth and incubated for 10 min at 37 °C to maximize phage adsorption. The mixture was centrifuged (10,000 rpm, 4 °C, 10 min) to remove non-adsorbed phages through the supernatant. The pellet was washed twice with pre-warmed LB broth and resuspended in 10 mL fresh LB medium. The cultures were subsequently incubated in an incubator shaker set at 37 °C and 180 rpm. Culture samples were collected every 10 min for 120 min to determine phage titers. The burst size was calculated using the following formulae: Burst size = Initial bacterial concentration (PFU/cell)/Final phage titer (PFU/mL). The experiment was performed in triplicate.
+
+2.6 Temperature and pH stability of phages
+
+Phages vB-KP80 and vB-KPT2 (1 × 109 PFU/mL) were incubated in SM buffer at 4 °C, 25 °C, 37 °C, 50 °C, 60 °C, 70 °C, and 80 °C for 30 min and 60 min to determine their temperature stability. The titers of the surviving phages were measured using the double-layer agar method (in triplicate). Phages vB-KP80 and vB-KPT2 were also exposed to PBS buffer at pH 2∼12 (37 °C, 60 min), followed by titer determination to assess their pH stability.
+
+2.7 Phage adsorption assay
+
+The adsorption kinetics of phages vB-KP80 and vB-KPT2 were determined using the wild-type K. pneumoniae strain KP80 and its spontaneously derived resistant mutants (Δwzc/wcaJ, ΔrfaH, and ΔfhuA). Phages (1 × 107 PFU/mL) were mixed with mid-logarithmic phase bacterial cultures (1 × 108 CFU/mL) at a MOI of 0.1 in LB broth and incubated at 37 °C. Aliquots were withdrawn at 0, 5, 10, 20, and 30 min post-infection, immediately diluted in SM buffer, and centrifuged to remove bacterial cells along with adsorbed phages. The titers of unabsorbed free phages in the supernatants were quantified using the double-layer agar. The adsorption rate was calculated as follows: Adsorption percentage = [1 - (PFU at time t/PFU at time 0)] × 100%.
+
+2.8 In vitro bactericidal assay in milk
+
+Pasteurized milk inoculated with logarithmic-phase K. pneumoniae KP80 (1 × 108 CFU/mL) was treated with individual phages (vB-KP80 or vB-KPT2) or a 1:1 (PFU:PFU) phage cocktail (each at 108 PFU/mL). The mixtures were incubated at 37 °C, and bacterial counts were determined by serial dilution on LB agar at 6, 12, 18, 24, 30, and 36 h post-inoculation.
+
+2.9 In vivo mammary infection model
+
+24 pregnant ICR mice (gestation day 21) were randomly assigned to four groups: Control (PBS), single phage (vB-KP80 and vB-KPT2) and phage cocktail. At 4–6 days postpartum, pups were temporarily separated from their dams. Dams were anesthetized (Zoletil 50, 25 mg/kg) and disinfected with 75% ethanol. Under a stereomicroscope, K. pneumoniae (50 μL/nipple, 108 CFU/mL) was administered via the mammary duct using a microinjection syringe. In the phage treatment groups, mice were infected similarly and subsequently treated with either a phage cocktail (titer ratio 1:1, 50 μL/nipple, 108 PFU/mL) or single phages (50 μL/nipple, 108 PFU/mL). After 24 h, mammary tissues and blood samples were aseptically collected. Tissues were homogenized in PBS, serially diluted, and plated on LB agar for bacterial enumeration (Zhao et al., 2021).
+
+2.10 Histopathological and inflammatory cytokine analysis of mammary tissue
+
+Mammary tissues were fixed in 10% neutral-buffered formalin for 24–48 h, dehydrated through a graded ethanol series, cleared in xylene, and embedded in paraffin. Sections (4–5 μm) were cut, deparaffinized, rehydrated, and stained with hematoxylin and eosin (HE) following standard procedures. Stained sections were examined under a light microscope to assess inflammatory cell infiltration, alveolar structure, and tissue damage. For cytokine analysis, total RNA was extracted from frozen mammary tissues using an RNA extraction kit (TIANGEN DP430), and cDNA was synthesized for RT-qPCR analysis of TNF-α and IL-6. Relative gene expression was calculated using the 2−ΔΔCt method with β-actin as the reference gene (Kouadjo et al., 2007).
+
+2.11 Mutations and receptor analysis of phage-resistant strains in vivo
+
+In the mouse mammary infection model, the development of phage resistance was monitored at days 1, 2, and 4 post-treatment. Mice (n = 3 per group) were euthanized, and their mammary tissues were processed (homogenization, serial dilution, plating on LB agar) for bacterial quantification. The total K. pneumoniae count for each group was derived from the sum of colonies from all three mice. Subsequently, random colonies from this total bacterial population were screened for phage resistance via a spot assay against vB-KP80, vB-KPT2, or the cocktail, allowing for the determination of resistance phenotypes and the calculation of the resistant mutant isolation rate. Whole-genome sequencing was performed on both the wild-type KP80 and its phage-resistant mutant. Paired-end libraries with an insert size of 300 bp were sequenced on an Illumina HiSeq X-Ten platform (Illumina, USA), achieving a minimum coverage of 250 × per strain. Raw sequencing data were quality-assessed using FastQC (v0.11.9), followed by adapter trimming and quality filtering using Trimmomatic (v0.39). Single-nucleotide polymorphisms (SNPs) between the resistant mutant and the wild-type strain were identified and annotated for synonymous and non-synonymous mutations using Snippy (v3.0) with default parameters, to determine potential phage receptor targets.
+
+2.12 Biofilm formation assay
+
+Biofilm formation was assessed in 96-well plates. Briefly, 180 μL of TSB supplemented with 1% glucose was inoculated with 20 μL of exponential-phase bacterial suspension and incubated at 37 °C for 24, 48, or 72 h. Wells were washed with PBS, fixed with 95% ethanol (20 min), and stained with 0.1% crystal violet (15 min). After washing and air-drying, bound dye was solubilized with 33% acetic acid (200 μL, 10 min), and absorbance was measured at 570 nm.
+
+2.13 Virulence assessment in a murine model
+
+To assess virulence, ICR mice (20-30 g) were divided into five groups (n = 6 per group). We inoculated mice via intraperitoneal injection with 300 μL of a bacterial suspension (1 × 107 CFU/mL in PBS) containing either the KP80 wild-type strain or phage-resistant mutants (vB-KP80R, vB-KPT2R, vB-KP80T2R), while the control group received an equal volume of sterile PBS. Mouse mortality was monitored over a 36-h period post-infection.
+
+2.14 Phagocytosis assay
+
+To quantitatively assess phagocytosis, mouse RAW264.7 macrophages were seeded in 6-well plates at a density of 3 × 106 cells per well. The cells were infected with either the KP80 wild-type strain or its phage-resistant mutants (vB-KP80R, vB-KPT2R, vB-KP80T2R) at a multiplicity of infection (MOI) of 100:1. After incubating at 37 °C for 20 min, remove extracellular bacteria by washing the cells three times with DMEM. The macrophages were then lysed with PBS containing 0.5% Triton X-100. The lysates were serially diluted, plated on culture agar, and incubated for colony-forming unit (CFU) enumeration to determine the number of internalized bacteria.
+
+2.15 Cell adhesion assay
+
+The cell adhesion assay was performed using bovine mammary epithelial cell line (MAC-T). Briefly, cells were seeded in 6-well plates at a density of 3 × 106 cells per well. The cells were washed with phosphate-buffered saline (PBS) and then inoculated with the KP80 strain or phage-resistant mutants (vB-KP80R, vB-KPT2R, vB-KP80T2R) at a multiplicity of infection (MOI) of 100. After incubation at 37 °C for 1.5 h, the cells were washed with DMEM to remove non-adherent bacteria and lysed with 200 μL of 0.5% Triton X-100 per well. The lysates were serially diluted, plated on culture agar, and incubated for colony-forming unit (CFU) enumeration.
+
+2.16 Serum killing assay
+
+The serum resistance of K. pneumoniae strains was evaluated using fresh bovine serum. Log-phase bacteria were adjusted to ∼106 CFU/mL in PBS, and 100 μL of suspension was mixed with 900 μL of fresh bovine serum (active or heat-inactivated as control). Mixtures were incubated at 37 °C, and aliquots were taken at 0, 1, 2, and 3 h, serially diluted, and plated on LB agar for CFU enumeration.
+
+2.17 Statistical analysis
+
+Statistical analysis was performed using GraphPad Prism 8.0 software. Significant differences between groups were determined using the two-tailed nonparametric Student's t-test. The level of statistical significance was set at P < 0.05.
+
+3 Results
+
+3.1 Isolation and morphological characteristics of bacteriophages vB-KP80 and vB-KPT2
+
+Phages vB-KP80 and vB-KPT2 were isolated from dairy wastewater using iuc3-positive K. pneumoniae strains KP80 and KPT2 isolated from dairy cows as host bacteria. Phage vB-KP80 formed large, clear plaques surrounded by translucent halos, suggesting that it encodes a depolymerase (Fig. 1A). In contrast, phage vB-KPT2 produced smaller, clear plaques without visible halos (Fig. 1B). Transmission electron microscopy (TEM) revealed that vB-KP80 possesses a polyhedral head with a diameter of 55 ± 5 nm and a short, non-contractile tail, morphologically resembling members of the former family Podoviridae (now integrated within the class Caudoviricetes) (Fig. 1C). In contrast, vB-KPT2 exhibits a polyhedral head with a diameter of 75 ± 5 nm and a contractile tail, consistent with the morphological profile historically associated with the family Myoviridae (class Caudoviricetes) (Fig. 1D).Fig. 1 Morphological characteristics and biological properties of phages. A and B. Lysis plaque morphology of phages vB-KP80 and vB-KPT2. C and D. TEM morphology of phages vB-KP80 and vB-KPT2. E. Optimal multiplicity of infection (MOI) of phages. F. One-step growth curve of phages. G. pH stability of phages. H. Thermal stability of phages.
+
+Fig. 1
+
+3.2 Biological characteristics and environmental stability of dairy-derived Klebsiella phages
+
+The optimal MOI for phage vB-KP80 was 0.01, yielding a peak progeny titer of 5 × 109 PFU/mL. In contrast, the optimal MOI for vB-KPT2 was 0.1, achieving a significantly higher peak titer of 6 × 1010 PFU/mL (Fig. 1E). Both phages exhibited a latent period of 30 min, and the burst sizes of vB-KP80 and vB-KPT2 were 34 PFU/cell and 67 PFU/cell, respectively (Fig. 1F). Furthermore, host range analysis against a panel of iuc3-positive K. pneumoniae isolates revealed distinct lytic profiles: vB-KP80 lysed its primary host KP80 (KL16 type) and one additional KL3 strain, while vB-KPT2 exhibited a broader range, lysing one KL16 strain, one KL22 strain and four KL126-type strains. The bacteriophage cocktail demonstrated an enhanced and broader lytic spectrum against 87.5% (7/8) of the tested isolates, which is attributable to the complementary receptor targeting of the constituent phages. (Table 1). Notably, the cocktail showed no detectable lytic activity against an additional panel of 31 bovine-derived, iuc3-negative K. pneumoniae strains representing diverse KL types (Supplementary Table S1). This finding suggests that the phage formulation displays specificity toward the iuc3-positive multidrug-resistant hypervirulent strains currently circulating in Chinese dairy farms.Table 1 Lytic Profile of phages against iuc3-positive MDR-hvKP.
+
+Table 1Strain name	K locus (KL) Type	Sequence Type (ST)	vB-KP80	vB-KPT2	Cocktail	
+KP80	KL16	215	+++	+	+++	
+KPTP1	KL22	35	-	++	+++	
+KPTP11	KL108	35	-	-	-	
+KP23	KL3	776	++	-	++	
+KPT4	KL126	636	-	+++	+++	
+KPT2	KL126	636	-	+++	+++	
+KPTP15	KL126	636	-	+++	+++	
+KPTP12	KL126	636	-	+++	+++	
+Note:The lytic activity was categorized based on spot assay clarity: +++ (high efficiency, clear spots); ++ (medium efficiency, turbid spots); + (low efficiency, barely visible plaques); - (no activity).
+
+Phage thermal stability and pH stability tests revealed that the biological activity of phage vB-KP80 and phage vB-KPT2 remained at about 10 log10 PFU/mL and 9 log10 PFU/mL, respectively, when the pH was 5∼10 neutral and weak acid-base (Fig. 1G). Notably, the activity of phage vB-KP80 and vB-KPT2 was not affected after 30 min and 60 min treatment at 4, 25, 37, 50, 60, and 70 °C (Fig. 1H). These results demonstrate that vB-KP80 and vB-KPT2 exhibit robust environmental stability.
+
+3.3 Genomic features and phylogenetic classification of phages vB-KP80 and vB-KPT2
+
+Genome sequencing revealed that vB-KP80 possesses a linear double-stranded DNA genome of 41,700 bp with a GC content of 52.5%, encoding 53 predicted open reading frames (ORFs). Among these, 42 ORFs could be assigned to functional modules related to structural proteins, DNA replication and transcription, DNA packaging, phage metabolism, and lysis, whereas the remaining 11 ORFs included 7 hypothetical phage proteins and 4 putative proteins of unknown function (GenBank: PX404940). In contrast, the genome of vB-KPT2 is substantially larger, consisting of 144,096 bp with a GC content of 44.5% and encoding 249 ORFs. Of these, 70 ORFs were annotated with known functions, while 179 encoded 95 phage-related proteins and 84 hypothetical proteins (GenBank: PX413393). Importantly, neither vB-KP80 nor vB-KPT2 harbored genes associated with antibiotic resistance, virulence, or lysogeny, indicating that both represent strictly lytic phages (Fig. 2A). Phylogenetic analysis using Mash further demonstrated that the two phages are evolutionarily distant, with vB-KP80 classified within the genus Przondovirus (family Autographiviridae), closely related to phages KN4-1 (LC413195.1), whereas vB-KPT2 belongs to the subfamily Vequintavirinae (class Caudoviricetes), showing the highest relatedness to phage KPS8 (NC_048873.1) (Fig. 2B).Fig. 2 Genomic Features and Phylogenetic Classification of Phages vB-KP80 and vB-KPT2. A. Genome annotation maps of phages vB-KP80 and vB-KPT2, showing their circular genome structures with different functional regions color-coded. B. Whole genome phylogenetic tree illustrating the evolutionary relationships among various phages, with bootstrap support values indicated on branches. C. Gene-environment comparison of phages vB-KP80 and vB-KPT2 with related phages.
+
+Fig. 2
+
+Comparative genomic analysis highlighted distinct organizational features between the two phages. The genome of vB-KP80 is relatively compact, encoding head and tail proteins highly similar to those of phage KN4-1 but lacking genes for an RNA polymerase and nucleotide metabolism, suggesting a dependency on the host for transcription and replication. Moreover, the depolymerase gene of vB-KP80 shared only 43% nucleotide similarity with the corresponding gene in phage KN4-1, implying that the enzyme may target a different capsular polysaccharide type. In contrast, vB-KPT2 represents a large, complex phage genome, encoding a complete set of RNA and DNA replication and nucleotide metabolism genes, supporting greater genomic autonomy. Notably, its tail fiber protein genes differ substantially from those of its closest relative KpS8, suggesting that vB-KPT2 may exhibit a distinct host range and lytic spectrum compared to KPS8 (Fig. 2C).
+
+3.4 Phage cocktail reduces MDR hvKP in milk and mitigates mastitis
+
+The in vitro bactericidal activity of the phage preparations was first evaluated in pasteurized milk. The phage cocktail (composed of equal proportions of each phage, MOI = 0.1) exhibited superior efficacy, reducing bacterial counts by approximately ∼5 log10 CFU/mL within 24 h and maintaining a reduction of ∼5.5 log10 CFU/mL for up to 36 h. In contrast, the single phages vB-KP80 (MOI = 0.1) and vB-KPT2 (MOI = 0.1) achieved a maximum reduction of only ∼3.5 and 2 log10 CFU/mL at 24 h, respectively, suggesting enhanced potency of the cocktail formulation (Fig. 3A).Fig. 3 The efficacy of phages vB-KP80 and vB-KPT2 against K. pneumoniae in both milk and the mouse model. A. Changes in bacterial load in milk over time following phage treatment. B. Bacterial load (log10 CFU/g) in mouse mammary tissue at the end of the experiment in each treatment group C. Representative low-power and high-power microscopic images of mammary tissue sections from mice in each treatment group (HE staining). D. Relative expression levels of IL-6 in mammary tissue homogenates from mice in each treatment group. E. Relative expression levels of TNF-α in mammary tissue homogenates from mice in each treatment group.
+
+Fig. 3
+
+The efficacy of the phage cocktail was further validated in a murine mastitis model. Mice were infected with K. pneumoniae KP80 to establish mastitis and then treated with the phage cocktail for 48 h. Bacterial enumeration of the mammary gland tissues collected after treatment revealed that the phage cocktail treatment induced the most significant reduction in K. pneumoniae counts (2.84 log10 CFU/g), outperforming the single phage treatments (vB-KP80: 1.80 log10 CFU/g; vB-KPT2: 1.77 log10 CFU/g) (Fig. 3B). Histopathological examination corroborated these findings, showing that the cocktail group presented relatively intact acinar structures, reduced interstitial edema, and minimal inflammatory cell infiltration, which were in stark contrast to the severe tissue damage observed in the infection group (Fig. 3C).
+
+We further investigated the effects of phage therapy on the expression of key inflammatory factors. K. pneumoniae infection significantly upregulated the expression of the pro-inflammatory cytokines IL-6 and TNF-α, and phage treatment reversed this trend (Fig. 3D and E). Specifically, compared with monophage treatment, the phage cocktail significantly reduced the expression levels of IL-6 and TNF-α to a level comparable to the healthy control group (P < 0.001), demonstrating its superior efficacy in bacterial clearance and inflammation suppression. Notably, the phage cocktail formulation more effectively mitigated the infection-induced hematological perturbations, as evidenced by the normalization of white blood cell (WBC), neutrophil (NEUT), and lymphocyte (LYMP) counts to levels comparable to the control group, an effect not observed in the single phage treatment groups (Table 2).Table 2 Hematological parameters of mice in different treatment groups.
+
+Table 2Group	PLT( × 109/L)	WBC( × 109/L)	Lymph( × 109/L)	NEUT( × 109/L)	
+Control	1083.5 ± 89.802	4.05 ± 1.216	2.72 ± 0.113	0.355 ± 0.021	
+PBS	186 ± 8.485∗∗∗	1.725 ± 0.177∗∗∗	0.59 ± 0.098∗∗∗	1.195 ± 0.106∗∗∗	
+vB-KP80	316.5 ± 51.619	2.435 ± 0.205	0.94 ± 0.014∗∗∗	0.685 ± 0.049∗∗∗	
+vB-KPT2	424.5 ± 67.175	2.41 ± 0.098	0.945 ± 0.035∗∗∗	0.755 ± 0.035∗∗∗	
+Cocktail	770.5 ± 38.891	3.95 ± 0.084	2.65 ± 0.125	0.34 ± 0.028	
+Note: PLT, platelet count; WBC, white blood cell count; Lymph, lymphocyte count; NEUT, neutrophil count. All values are expressed as × 109/L. Data are presented as mean ± SD (n = 3). Statistical significance was determined by one-way ANOVA with Tukey's post hoc test.
+
+3.5 Phage cocktail pressure induces receptor-specific resistance mutations
+
+On days 1, 2, and 4 post phage therapy, K. pneumonias trains were isolated from mammary gland tissues of mice (n = 3 per group) and assessed for phage resistance. The results indicated that the isolation rate of strains resistant to a single phage exhibited an initial increase followed by a decline. On day 1, the isolation rates of strains resistant to phages vB-KP80 and vB-KPT2 were 2% (1/50) and 4% (2/50), respectively. On day 2, these rates increased to 14% (7/50) and 18% (9/50), respectively. However, on day 4, the rates decreased to 3% (1/30) and 7% (2/30), respectively. Notably, the cocktail treatment group showed a lower propensity to induce resistant strains. No resistant strains were isolated on day 1 (0/50) or day 4 (0/30), and only one resistant strains (2%, 1/50) were isolated on day 2 (Fig. 4A). We observed that the resistant isolates exhibited significantly altered phenotypes, including reduced colony size and decreased viscosity. Transmission electron microscopy further revealed that the resistant isolates had lost their capsule structure (Fig. 4B).Fig. 4 Isolation and receptor analysis of phage-resistant strains. A. Isolation rate of phage-resistant bacterial strains. B. Colony morphology and electron microscope images of wild-type and phage-resistant bacteria. C. Distribution of key mutated genes in phage-resistant mutants. Each column represents a distinct, non-redundant phage-resistant mutant genome that was isolated. The colored tiles indicate the genes in which mutations were identified. D. Mutation profiles mediated by phages vB-KP80 and vB-KPT2 and schematic illustration of inactivated phage receptor sites. E. Comparison of phage adsorption capacity against different resistant mutants.
+
+Fig. 4
+
+Whole-genome sequencing identified distinct genetic features associated with resistance. In resistant isolates treated with phage vB-KP80, mutations were primarily located in the wcaJ and wzc genes, which are essential for capsular polysaccharide biosynthesis. In contrast, resistant isolates treated with vB-KPT2 carried mutations in fhuA and rfaH, encoding an outer membrane receptor protein and a lipopolysaccharide expression regulator, respectively. Notably, the phage-resistant isolates obtained from the cocktail treatment group carried mutations in all four loci (wcaJ, wzc, fhuA, and rfaH), suggesting that phage cocktail therapy exerts stronger evolutionary pressure, forcing bacteria to accumulate mutations at multiple gene loci to evade phage recognition (Fig. 4C). Specifically, vB-KP80 phage-resistant strain vB-KP80R (80R), resistance was conferred by a G→A substitution at nucleotide position 1223 in wzc, resulting in a missense mutation (arginine to lysine at amino acid position 408), and a G→T substitution at position 1291 in wcaJ, leading to a premature stop codon (glutamate to stop codon at position 431). In the vB-KPT2 phage-resistant strain vB-KPT2R (T2R), a G→A mutation at nucleotide position 11 in rfaH caused gene truncation (tryptophan to stop codon at position 4), while an A→T transversion at position 601 in fhuA introduced a premature termination codon (lysine to stop codon at position 201). Notably, the strain exhibiting resistance to the phage cocktail (vB-KP80T2R) concurrently harbored both sets of the aforementioned mutations (Fig. 4D).
+
+We further confirmed this phenomenon through phage adsorption assays. As shown in Fig. 4E, phage vB-KP80 efficiently adsorbed to wild-type K. pneumoniae, with over 95% adsorption within 10 min. However, its adsorption capacity was significantly inhibited in the capsule-deficient strain 80R (<20% adsorption within 30 min), while the LPS and outer membrane protein-deficient strain T2R remained unaffected. In contrast, the adsorption kinetics of vB-KPT2 to the wild-type strain were relatively slow, reaching a plateau of approximately 80% after 10 min. Its adsorption capacity was significantly reduced in the LPS and outer membrane protein-deficient strain T2R, decreasing to 40% after 30 min, but remained normal in the capsule-deficient strain 80R. These results indicate that wzc/wcaJ serve as receptor targets for vB-KP80, while rfaH/fhuA are the receptor targets for vB-KPT2. Mutations at these loci lead to altered expression of CPS, LPS, and outer membrane proteins, thereby impairing phage adsorption.
+
+3.6 Phage resistance confers a virulence fitness cost, attenuating pathogenicity
+
+To evaluate whether phage resistance affects the biological fitness of K. pneumoniae, we compared the phenotypes of resistant strains with those of the wild-type strain. Growth curve analysis revealed that the growth rates of the different phage-resistant strains were comparable to that of the wild-type strain, indicating that the acquisition of resistance did not significantly influence the proliferative capacity of the strains (Fig. 5A). However, mutations in CPS- and LPS-related genes suppressed biofilm formation, a phenomenon that was particularly pronounced in the multi-phage resistant strain (vB-KP80T2R) (P < 0.01) (Fig. 5B). Correspondingly, in the mouse sepsis model, mice inoculated with the phage-resistant strains exhibited significantly higher survival. With the exception of one mouse that succumbed at 24 h and another at 36 h in their respective groups, all other mice in these groups survived for over 48 h. In contrast, all mice inoculated with the wild-type strain died within 24 h (Fig. 5C).Fig. 5 Phenotypic characterization of phage-resistant K. pneumoniae strains. A. Bacterial growth curves of the wild-type (KP80) and phage-resistant strains over time. B. Quantitative assessment of biofilm formation capacity. C. Survival rates of mice infected with the wild-type or phage-resistant strains in a sepsis model. D. Adhesion ability of the bacterial strains to MAC-T bovine mammary epithelial cells. E. Susceptibility of strains to phagocytosis by RAW264.7 murine macrophages, shown as the number of intracellular bacteria recovered. F. Serum resistance of strains following exposure to bovine serum.
+
+Fig. 5
+
+Furthermore, we found that the multi-phage resistant mutant exhibited a more significant reduction in adhesion to MAC-T epithelial cells compared to the wild-type and single-phage tolerant strains, by approximately 2 log10 CFU/mL (P < 0.05) (Fig. 5D). It was also more susceptible to phagocytosis by RAW264.7 macrophages, with a higher number of intracellular bacteria observed (P < 0.05) (Fig. 5E). Additionally, a bovine serum resistance assay demonstrated that while the wild-type strain KP80 maintained a stable bacterial count within 3 h, the serum resistance of all resistant strains was significantly impaired, with a more pronounced decrease observed in the multi-phage resistant strain (Fig. 5F). These results indicate that phage resistance is associated with a significant reduction in pathogenicity, manifested as diminished biofilm formation, attenuated adhesion to host cells, increased susceptibility to macrophage phagocytosis, and loss of serum resistance.
+
+4 Discussion
+
+In this study, two novel lytic phages, vB-KP80 and vB-KPT2, were isolated from dairy farm wastewater and exhibited good lytic activity against iuc3-positive, multidrug-resistant Klebsiella pneumoniae. Both phages, classified under the class Caudoviricetes, demonstrated high stability under various pH and temperature conditions. Genomic analysis confirmed the absence of lysogeny, antibiotic resistance, and virulence genes, underscoring their safety for potential application in the dairy industry (Fernández et al., 2017). These properties align with previous reports indicating that strictly lytic phages are preferable for therapeutic use due to a lower risk of horizontal gene transfer and lysogenic conversion (Strathdee et al., 2023). Given these features, vB-KP80 and vB-KPT2 represent promising candidates for controlling foodborne MDR-hvKP in milk and dairy products, thereby mitigating risks to both animal and public health.
+
+The phage cocktail of vB-KP80 and vB-KPT2 exhibited a broader host range and could lyse 87.5% (7/8) of the high virulence iuc3 positive tested strains. This suggests that the cocktail therapy could be more effective than single-phage treatments in combating infections caused by diverse bacterial strains (Mengshi et al., 2024). In pasteurized milk, the cocktail achieved significant bacterial reduction within 24 h and sustained suppression for up to 36 h, indicating its suitability for direct application in milk and dairy processing settings. Furthermore, the translucent halos observed around vB-KP80 plaques suggest depolymerase activity, which may aid in degrading bacterial capsules or biofilms-offering additional potential for improving pathogen control in milk storage and processing environments (Islam et al., 2024).
+
+In a murine mastitis model, the phage cocktail not only significantly reduced bacterial loads but also alleviated tissue damage, confirming its in vivo therapeutic efficacy. Moreover, phage treatment favorably modulated host immune responses without inducing adverse effects (Liu et al., 2021). These results underscore the dual potential of this phage therapy-targeting hvKP infections and modulating inflammatory responses to control mammary infections, thereby minimizing the risk of contaminated milk entering the food supply and improving milk quality (Ranveer et al., 2024).
+
+Further mechanistic analyses demonstrated that vB-KP80 targets capsular polysaccharide (wzc/wcaJ), while vB-KPT2 binds to receptors related to lipopolysaccharide (rfaH) and outer membrane proteins (fhuA) (Nang et al., 2024; Qiu et al., 2024). This complementary receptor usage underlies the cocktail's enhanced efficacy and underscores the importance of incorporating receptor diversity in designing phage-based strategies against dairy pathogens (Mutalik and Arkin, 2022). Notably, phage cocktail-induced resistance mutations were not limited to CPS biosynthesis genes but also involved genes related to LPS modulation and outer membrane integrity. These genetic alterations collectively account for the observed virulence attenuation: mutations in wzc and wcaJ directly impair CPS synthesis and surface display, a key determinant of immune evasion, serum resistance, and hypervirulence in K. pneumoniae. Simultaneously, mutations in rfaH, a global transcriptional regulator required for full LPS expression, disrupt LPS integrity and downstream virulence gene expression, sensitizing bacteria to host defenses(Klein and Raina, 2019). Furthermore, truncation of fhuA compromises iron uptake and alters outer membrane architecture, negatively impacting bacterial growth under iron-restricted conditions and reducing adhesion or invasion efficiency(Mikael et al., 2003). In summary, while CPS loss remains a primary factor in virulence attenuation, defects in LPS regulation and membrane protein function additively contribute to broader and more severe fitness costs.
+
+Beyond its therapeutic potential, this study offers novel insights into the co-evolutionary dynamics between phages and bacteria. Notably, compared to single-phage treatment, the phage cocktail not only improved bacterial clearance but also elevated the genetic barrier to resistance-requiring simultaneous mutations in multiple, functionally distinct receptor genes for bacterial survival, thereby substantially impeding the emergence of multi-phage-resistant strains (Marchi et al., 2025). This finding is consistent with previous reports that phage cocktails can delay resistance evolution (Costa et al., 2024). Although the development of long-term resistance may be unavoidable, our results further indicate that such resistance incurs substantial fitness costs, likely disadvantaging resistant bacteria in natural environments (Tang et al., 2023). Specifically, multidrug-resistant mutants selected by the cocktail showed marked defects in key virulence traits-including biofilm formation, host cell adhesion, serum resistance, and phagocytosis evasion, collectively leading to severe attenuation of pathogenicity. These observations align with existing studies demonstrating that phage-driven selection can compromise bacterial fitness and virulence both in vitro and in vivo, suggesting a viable strategy for long-term infection control (R.M. M. & A.D. B., 2020). Importantly, these fitness trade-offs are expected to reduce the competitiveness of resistant mutants in real-world settings, including dairy farms and milk processing chains. Increased sensitivity to disinfectants, pasteurization, and host immune defenses likely facilitates their clearance and limits environmental persistence, thereby lowering the risk of bulk tank milk contamination and enhancing dairy safety through an evolutionarily mediated trade-off(García-Anaya et al., 2020). Taken together, these findings suggest that phage therapy should be viewed not merely as a bactericidal intervention but as an “evolutionary steering” strategy capable of redirecting pathogen evolution toward reduced virulence and heightened susceptibility to host immunity, offering a more sustainable framework for infection control.
+
+It should be acknowledged that the present study primarily captures short-term evolutionary outcomes under phage-mediated selection. The stability of capsule-deficient or low-virulence phenotypes in the absence of phage pressure remains to be verified. Future work should systematically evaluate the stability and reversibility of these attenuated phenotypes through long-term passage without selection, serial cultivation in milk or mastitis models, and competitive fitness assays. Additionally, the ecological persistence and transmission risks of resistant mutants should be assessed in vivo. Moreover, the phage cocktail constructed in this study exhibited high efficacy specifically against iuc3-positive multidrug-resistant hypervirulent K. pneumoniae (MDR-hvKP), whereas it showed no significant lytic activity against other KL-type strains lacking the iuc3 gene cluster. Although the current formulation demonstrates high specificity and safety, its applicability may be limited. Therefore, expanding the phage resource library or developing broader-spectrum multi-component formulations is warranted to enhance the overall control efficacy and practical feasibility in complex farm environments.
+
+5 Conclusion
+
+This study shows that the phage cocktail (vB-KP80 and vB-KPT2) exerts a dual-mechanism action against iuc3-positive MDR-hvKP strains: direct bacteriolysis and indirect virulence attenuation. These findings validate its therapeutic potential for controlling infections on dairy farms and highlight the “evolution-steering” strategy of using receptor-diverse phages. This approach not only eliminates bacteria but also drives pathogen evolution toward reduced virulence, offering a sustainable pathway to combat antibiotic resistance and improve food safety. Future work should focus on the long-term stability of attenuated phenotypes and expanding the phage repository. Practical on-farm formulations, such as teat-dip solutions and bulk-tank milk treatments, can be developed for integrated application in mastitis control and milk decontamination.
+
+Ethics approval and consent to participate
+
+Animal experiments were reviewed and approved by the Ethics Committee of Experimental Animals at Jiangsu Academy of Agricultural Sciences (Ethics Approval Number: IACUC-RE-2025-03-008).
+
+CRediT authorship
+
+Xing Ji: Writing – review & editing, Writing – original draft, Visualization, Investigation, Formal analysis, Data curation, Conceptualization.
+
+Jiayun Wang: Writing – original draft, Data curation, Validation, Supervision, Methodology, Investigation.
+
+Pilar García: Writing – review & editing, Investigation, Formal analysis, Supervision.
+
+Jun Li: Writing – review & editing, Visualization, Formal analysis.
+
+Lili Zhang: Writing – review & editing, Software, Formal analysis.
+
+Ran Wang: Writing – review & editing, Project administration, Funding acquisition, Conceptualization.
+
+Tao He: Writing – review & editing, Methodology, Supervision, Resources, Funding acquisition, Project administration.
+
+Funding
+
+This work is supported by the 10.13039/501100012166 National Key Research and Development Program of China (2023YFD1800303) and International Centre for Antimicrobial Resistance Solutions (ICARS) project 200001.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Appendix A Supplementary data
+
+The following is the Supplementary data to this article:Multimedia component 1
+
+Multimedia component 1
+
+Data availability
+
+The complete genome sequences of bacteriophages vB-KP80 and vB-KPT2 have been deposited in the GenBank database under accession numbers PX404940 and PX413393, respectively. All other data generated or analyzed during this study are included in this published article.
+
+Appendix A Supplementary data to this article can be found online at https://doi.org/10.1016/j.crfs.2026.101375.
+
+
+References
+
+Amiri M. Golchin M. Jamshidian Mojaver M. Farzin H. Hajizade A. Enterobactin: a key player in bacterial iron acquisition and virulence and its implications for vaccine development and antimicrobial strategies Virulence 16 2025 2563018 10.1080/21505594.2025.2563018 PMC12452463 40966180
+Chen H. Liu H. Gong Y. Dunstan R.A. Ma Z. Zhou C. Zhao D. Tang M. Lithgow T. Zhou T. A Klebsiella-phage cocktail to broaden the host range and delay bacteriophage resistance both in vitro and in vivo npj Biofilms Microbiomes 10 2024 127 39543151 10.1038/s41522-024-00603-8 PMC11564825
+Cheng J. Zhang J. Han B. Barkema H.W. Cobo E.R. Kastelic J.P. Zhou M. Shi Y. Wang J. Yang R. Gao J. Klebsiella pneumoniae isolated from bovine mastitis is cytopathogenic for bovine mammary epithelial cells J. Dairy Sci. 103 2020 3493 3504 32037181 10.3168/jds.2019-17458
+Costa P. Pereira C. Romalde J.L. Almeida A. A game of resistance: war between bacteria and phages and how phage cocktails can be the solution Virology 599 2024 110209 10.1016/j.virol.2024.110209 39186863
+Fernández L. Escobedo S. Gutiérrez D. Portilla S. Martínez B. García P. Rodríguez A. Bacteriophages in the dairy environment: from enemies to allies Antibiotics (Basel, Switzerland) 6 2017 10.3390/antibiotics6040027 PMC5745470 29117107
+García-Anaya M.C. Sepulveda D.R. Sáenz-Mendoza A.I. Rios-Velasco C. Zamudio-Flores P.B. Acosta-Muñiz C.H. Phages as biocontrol agents in dairy products Trends Food Sci. Technol. 95 2020 10 20
+Garvey M. Bacteriophages and food production: biocontrol and bio-preservation options for food safety Antibiotics (Basel, Switzerland) 11 2022 10.3390/antibiotics11101324 PMC9598955 36289982
+Ghosh S. Pradhan S. Ghosh K. Mini-review: insight of bacteriophage therapy in clinical practice Virology 610 2025 110583 10.1016/j.virol.2025.110583 40424677
+Hartantyo S.H.P. Chau M.L. Koh T.H. Yap M. Yi T. Cao D.Y.H. Gutiérrez R.A. Ng L.C. Foodborne Klebsiella pneumoniae: virulence potential, antibiotic resistance, and risks to food safety J. Food Protect. 83 2020 1096 1103 10.4315/JFP-19-520 31928427
+Haudiquet M. Le Bris J. Nucci A. Bonnin R.A. Domingo-Calap P. Rocha E.P.C. Rendueles O. Capsules and their traits shape phage susceptibility and plasmid conjugation efficiency Nat. Commun. 15 2024 2032 38448399 10.1038/s41467-024-46147-5 PMC10918111
+Hetta H.F. Alanazi F.E. Ali M.A.S. Alatawi A.D. Aljohani H.M. Ahmed R. Alansari N.A. Alkhathami F.M. Albogmi A. Alharbi B.M. Alanzi H.S. Alaqyli A.B. Ramadan Y.N. Hypervirulent Klebsiella pneumoniae: insights into virulence, antibiotic resistance, and fight strategies against a superbug Pharmaceuticals 18 2025 10.3390/ph18050724 PMC12115101 40430542
+Islam M.M. Mahbub N.U. Shin W.S. Oh M.H. Phage-encoded depolymerases as a strategy for combating multidrug-resistant Acinetobacter baumannii Front. Cell. Infect. Microbiol. 14 2024 1462620 10.3389/fcimb.2024.1462620 PMC11540826 39512587
+Klein G. Raina S. Regulated assembly of LPS, its structural alterations and cellular response to LPS defects Int. J. Mol. Sci. 20 2019 10.3390/ijms20020356 PMC6358824 30654491
+Kouadjo K.E. Nishida Y. Cadrin-Girard J.F. Yoshioka M. St-Amand J. Housekeeping and tissue-specific genes in mouse tissues BMC Genom. 8 2007 127 10.1186/1471-2164-8-127 PMC1888706 17519037
+Liu D. Van Belleghem J.D. de Vries C.R. Burgener E. Chen Q. Manasherob R. Aronson J.R. Amanatullah D.F. Tamma P.D. Suh G.A. The Safety and Toxicity of Phage Therapy: a Review of Animal and Clinical Studies vol. 13 2021 Viruses-Basel 10.3390/v13071268 PMC8310247 34209836
+Marchi J. Minh C.N.N. Debarbieux L. Weitz J.S. Multi-strain phage induced clearance of bacterial infections PLoS Comput. Biol. 21 2025 e1012793 10.1371/journal.pcbi.1012793 PMC11828373 39903766
+Mengshi Z. Hongru L. Dehao G. Mengzhu W. Hui D. E. Y.Q. Antibacterial effect of phage cocktails and phage-antibiotic synergy against pathogenic Klebsiella pneumoniae mSystems 9 2024 e00607 24 10.1128/msystems.00607-24 PMC11406915 39166877
+Mikael L.G. Srikumar R. Coulton J.W. Jacques M. fhuA of Actinobacillus pleuropneumoniae encodes a ferrichrome receptor but is not regulated by iron Infect. Immun. 71 2003 2911 2915 12704168 10.1128/IAI.71.5.2911-2915.2003 PMC153255
+Mutalik V.K. Arkin A.P. A phage foundry framework to systematically develop viral countermeasures to combat antibiotic-resistant bacterial pathogens iScience 25 2022 104121 10.1016/j.isci.2022.104121 PMC8983348 35402883
+Nang S.C. Lu J. Yu H.H. Wickremasinghe H. Azad M.A.K. Han M. Zhao J. Rao G. Bergen P.J. Velkov T. Sherry N. Mccarthy D.T. Aslam S. Schooley R.T. Howden B.P. Barr J.J. Zhu Y. Li J. Phage resistance in Klebsiella pneumoniae and bidirectional effects impacting antibiotic susceptibility Clin. Microbiol. Infection : Off. Publ. European Soc. Clin. Microbiol. Infect. Dis. 30 2024 787 794 10.1016/j.cmi.2024.03.015 38522841
+Qiu Y. Xiang L. Yin M. Fang C. Dai X. Zhang L. Li Y. RfaH contributes to maximal colonization and full virulence of hypervirulent Klebsiella pneumoniae Front. Cell. Infect. Microbiol. 14 2024 1454373 10.3389/fcimb.2024.1454373 PMC11448354 39364146
+Ranveer S.A. Dasriya V. Ahmad M.F. Dhillon H.S. Samtiya M. Shama E. Anand T. Dhewa T. Chaudhary V. Chaudhary P. Behare P. Ram C. Puniya D.V. Khedkar G.D. Raposo A. Han H. Puniya A.K. Positive and negative aspects of bacteriophages and their immense role in the food chain npj Sci. Food 8 2024 1 38172179 10.1038/s41538-023-00245-8 PMC10764738
+R., M. M. & A., D. B. Fitness trade-offs resulting from bacteriophage resistance potentiate synergistic antibacterial strategies Infect. Immun. 88 2020 10.1128/iai.00926-19 PMC7309606 32094257
+Strathdee S.A. Hatfull G.F. Mutalik V.K. Schooley R.T. Phage therapy: from biological mechanisms to future directions Cell 186 2023 17 31 36608652 10.1016/j.cell.2022.11.017 PMC9827498
+Tang M. Huang Z. Zhang X. Kong J. Zhou B. Han Y. Zhang Y. Chen L. Zhou T. Phage resistance formation and fitness costs of hypervirulent Klebsiella pneumoniae mediated by K2 capsule-specific phage and the corresponding mechanisms Front. Microbiol. 14 2023 1156292 10.3389/fmicb.2023.1156292 PMC10394836 37538841
+Wang J. Ji X. García P. Li J. Zhang L. Wang H. Wang R. He T. Evolution and transmission potential of iuc3-positive virulence plasmids in hypervirulent Klebsiella pneumoniae Microbiol. Res. 299 2025 128242 10.1016/j.micres.2025.128242 40483736
+Xu L. Li J. Wu W. Wu X. Ren J. Klebsiella pneumoniae capsular polysaccharide: mechanism in regulation of synthesis, virulence, and pathogenicity Virulence 15 2024 2439509 10.1080/21505594.2024.2439509 PMC11649230 39668724
+Yang X. Heng H. Zhang H. Peng M. Chan E.W. Shum H. Zhang R. Chen S. IncFIB(K)/FII(K) conjugative iuc3-carrying virulence plasmids of clinical hypervirulent Klebsiella pneumoniae are multi-drug resistant Microbiol. Res. 300 2025 128288 10.1016/j.micres.2025.128288 40738074
+Zhang J. Chen S. Sun X. Chen S. Cheng Q. Phage therapy: a promising treatment strategy against infections caused by multidrug-resistant Klebsiella pneumoniae Curr. Pharm. Des. 31 2025 1007 1019 39757682 10.2174/0113816128343976241117183624
+Zhao W. Shi Y. Liu G. Yang J. Yi B. Liu Y. Kastelic J.P. Han B. Gao J. Bacteriophage has beneficial effects in a murine model of Klebsiella pneumoniae mastitis J. Dairy Sci. 104 2021 3474 3484 33358805 10.3168/jds.2020-19094
+Zheng Y. Zhu X. Ding C. Chu W. Pang X. Zhang R. Ma J. Xu G. Multidrug-resistant hypervirulent Klebsiella pneumoniae: an evolving superbug Future Microbiol. 20 2025 499 511 40135944 10.1080/17460913.2025.2482478 PMC11980460
+Zierke L. Mourad R. Kohler T.P. Müsken M. Hammerschmidt S. Influence of the polysaccharide capsule on virulence and fitness of Klebsiella pneumoniae Front. Microbiol. 16 2025 1450984 10.3389/fmicb.2025.1450984 PMC11839663 39980691

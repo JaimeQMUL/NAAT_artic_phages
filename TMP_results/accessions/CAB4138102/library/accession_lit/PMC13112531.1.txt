@@ -1,0 +1,818 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Nat Rev Gastroenterol Hepatol
+Journal ID: Nat Rev Gastroenterol Hepatol
+
+Nature reviews. Gastroenterology & hepatology
+
+ISSN: 1759-5045
+EISSN: 1759-5053
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13112531
+Article ID: NIHMS2158217
+PMID: 41193697
+DOI: 10.1038/s41575-025-01134-z
+Article ID: NIHMS2158217
+Article ID: NIHPA2158217
+Article version: 1
+Subjects: Article
+
+Gut virome dynamics: from commensal to critical player in health and disease
+
+http://orcid.org/0009-0007-7408-9385 Chica Cardenas Luis A. 1 2 3
+Leonard Maureen M. 4 5 6
+Baldridge Megan T. 1 3
+http://orcid.org/0000-0002-2143-6570 Handley Scott A. 1 2 ✉
+1 Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St. Louis, MO, USA.
+2 Department of Pathology and Immunology, Washington University School of Medicine, St. Louis, MO, USA.
+3 Division of Infectious Diseases, Department of Medicine, Washington University School of Medicine, St. Louis, MO, USA.
+4 Division of Pediatric Gastroenterology and Nutrition, Massachusetts General Hospital for Children, Harvard Medical School, Boston, MA, USA.
+5 Mucosal Immunology and Biology Research Center, Massachusetts General Hospital for Children, Harvard Medical School, Boston, MA, USA.
+6 Celiac Research Program, Harvard Medical School, Boston, MA, USA.
+Author contributions
+
+The authors contributed equally to all aspects of the article.
+
+✉ shandley@wustl.edu
+Print publication date: 2026 Feb
+Electronic publication date: 2025 Nov 5
+Volume: 23
+Issue: 2
+First page: 126
+Last page: 144
+Author manuscript; available in PMC: 2026 Apr 27
+
+This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.
+
+==============================
+The gut virome is a complex ecosystem characterized by the interplay of diverse viral entities, predominantly bacteriophages and eukaryotic viruses. The gut virome has a critical role in human health by shaping microbial community profiles, modulating host immunity and influencing metabolic processes. Different viral metagenomics approaches have revealed the remarkable diversity of the gut virome, showing individual-specific patterns that evolve over time and adapt dynamically to environmental factors. Perturbations in this community are increasingly associated with chronic immune and inflammatory conditions, metabolic disorders and neurological conditions, highlighting its potential as a diagnostic biomarker and therapeutic target. The early-life gut virome is particularly influential in establishing lifelong health trajectories through its interactions with diet, immune pathways and others, thereby contributing to inflammatory and metabolic regulation. This Review synthesizes current knowledge of gut virome composition, dynamics and functional relevance, critically evaluating evidence distinguishing causal from correlative roles in disease pathogenesis. The interactions of the virome with other microbiome components and host immunity are examined, and emerging translational applications, including phage therapy and biomarker development, are discussed. Integrating these insights while acknowledging methodological challenges provides a comprehensive framework for understanding the complex roles of the gut virome in health and disease.
+
+Introduction
+
+The gut virome is a critical, but under-studied, component of the human microbiome, comprising a diverse community of entities, predominantly bacteriophages, eukaryotic viruses and viroids (small infectious RNAs). This complex viral ecosystem is crucial in shaping the microbial community within the gut, influencing microbial balance, modulating immune responses and contributing to key metabolic functions that influence host health. Advances in metagenomic sequencing and specialized virome profiling techniques have begun to unravel the remarkable diversity of the gut virome, revealing distinct patterns that vary between individuals, change over time and respond dynamically to environmental factors.
+
+Emerging evidence links alterations in the gut virome to autoimmune and inflammatory conditions such as inflammatory bowel diseases (IBD), metabolic disorders including obesity and diabetes, and several neurological conditions. These associations highlight the potential of the virome as a diagnostic biomarker and a therapeutic target. Early-life gut virome alterations can influence future health outcomes, and interactions between the gut virome and diet and virome-driven modulation of the resistome and inflammatory pathways have been revealed as important potential lifelong modulators of host health.
+
+Despite growing recognition of the importance of the gut virome, fundamental questions remain unanswered limit our ability to harness viral communities for therapeutic benefit. First, when do virome alterations cause disease versus simply reflect bacterial dysbiosis? Most studies document correlative associations, yet distinguishing causative relationships is essential for developing targeted interventions. Second, why do different diseases show opposing patterns of viral diversity? Some conditions exhibit viral diversity loss whereas others show specific viral expansion, suggesting distinct underlying mechanisms that remain poorly understood. Third, how do methodological choices shape our biological understanding? Different experimental approaches capture fundamentally different aspects of viral activity, potentially creating contradictory narratives about the same biological processes. These gaps are addressed by focusing on three key analytical perspectives: examining causative versus correlative evidence across disease states, identifying shared mechanisms that explain opposing patterns of viral dysbiosis, and evaluating how methodological biases influence biological interpretation. Rather than cataloguing viral diversity, we focus on understanding how and when virome perturbations drive pathological outcomes.
+
+This Review synthesizes current knowledge on the human gut virome and related experimental animal studies where relevant, including composition, dynamics and functional relevance, examining its adaptive relationship with the host microbiota and immune system. We critically evaluate evidence for virome involvement in disease pathogenesis, distinguishing between correlative associations and demonstrated causal mechanisms. We also address the emerging applications of the virome, including phage therapy and biomarker development. By integrating these findings, this Review provides a comprehensive framework for understanding the gut virome and identifying methodological challenges for investigating its complex roles in health and disease.
+
+Composition of the human gut virome
+
+The human gut virome is one of the most diverse and complex viral communities on earth. This viral community includes free bacteriophages (phages), prophages integrated into bacterial genomes, eukaryotic viruses, archaeal viruses and newly discovered virus-like entities such as obelisks1. These diverse viral communities collectively influence microbial population dynamics, metabolic functions, immune responses and potentially host health outcomes.
+
+The gut harbours an exceptionally high concentration of viral particles, estimated at up to 109 to 1010 virus-like particles (VLPs) per gram2,3. Although free phages are often estimated to outnumber bacterial cells by approximately 10:1 (ref. 4), some studies have suggested that the ratio of free phages to bacteria in human stools might be closer to 1:1 or even lower5. This revised understanding recognizes factors such as virion adsorption to bacterial debris, resistant bacteria, or mucus.
+
+Major bacteriophage groups in the gut
+
+Bacteriophages constitute the majority of the gut virome, with several key groups now recognized for their abundance and ecological importance. The gut viral community is primarily composed of DNA bacteriophages, particularly double-stranded DNA (dsDNA) phages of the Caudovirales order (now abolished by the International Committee on Taxonomy of Viruses and reclassified into multiple families based on genomic relationships6), and single-stranded DNA (ssDNA) phages from the Microviridae family and Inoviridae family, the latter constituting a group of filamentous phages that contribute substantially to overall virome composition despite being under-studied. Caudovirales, in particular, are characterized by their tailed structures, which house highly genetically plastic receptor-binding proteins (RBPs) essential for the attachment to bacterial host and host range determination7.
+
+Despite numerous advances in viral metagenomics, most phage sequences recovered from the gut virome remain unclassified, representing what researchers term ‘viral dark matter’8,9. This classification challenge stems from the absence of universal marker genes for viruses10 and the immense, largely uncharacterized diversity of viral genomes11. Metagenomic analyses continue to uncover novel phage families5 beyond the limited community of readily culturable viruses. Large-scale metagenomic mining efforts have expanded known phage diversity, identifying novel phage genomes12 and thousands of putative new phage genera13.
+
+CrAss-like phages
+
+Among tailed phages, the crAss-like phages, classified within the Crassvirales order, have emerged as particularly important, constituting up to 90% of the total viral DNA load in some individuals14–18. First identified through cross-assembly (crAss) of metagenomic data17,18, these phages exhibit several distinctive features. They predominantly infect bacteria of the phylum Bacteroidota (formerly Bacteroidetes), particularly the genus Bacteroides, but potential bacterial hosts can include other bacterial phyla17,19. Their genomes are large (97–192kb), with circular or terminally redundant linear structures, and exhibit high genomic plasticity that enables rapid adaptation through recombination and acquisition of transcription-related genes20. This genetic versatility contributes substantially to the ecological success and widespread distribution of crAss-like phages within the human gut21. The strong association of crAss-like phages with human faecal contamination makes them valuable indicators for microbial source tracking in environmental monitoring22.
+
+Emerging bacteriophage groups
+
+Metagenomic advances have revealed several additional phage groups associated with the human gut, each with unique genomic features and potential health implications. Lak phages represent a clade of megaphages with exceptionally large dsDNA genomes (>540kb) that probably infect bacteria of the genus Prevotella23,24. Their association with Prevotella, a bacterial genus linked to plant-rich diets and improved health outcomes in children25, suggests potential relevance in diet–microbiome interactions. Gubaphage, Flandersviridae, Quimbyviridae, and Gratiaviridae have also been characterized from human faecal samples and are associated with the Bacteroidales order. These clades exhibit specialized genomic features including diversity-generating retroelements targeting defence genes in Quimbyviridae, and host cell wall-modifying enzymes such as HipA-family kinases in Gratiaviridae13,23. Furthermore, the Varidnaviridae order, a group of tailless phages composed mainly of prophages infecting Alphaproteobacteria and Verrucomicrobia, has now been recognized as a minor yet important constituent of the gut virome26.
+
+Beyond bacteriophages: other viral components
+
+Eukaryotic viruses.
+
+Although less abundant than bacteriophages, in the gut, eukaryotic viruses that infect mammalian hosts or other eukaryotes such as fungi or plants can represent both pathogenic and commensal entities whose presence and influence vary according to host genetics and environmental factors, including diet, physical activity and smoking27. Metagenomic analyses show that eukaryotic viruses in the gut include ssDNA Circoviridae, dsDNA Herpesviridae, and RNA viruses from families such as Picobirnaviridae, Alphaflexiviridae, Bromoviridae, Luteoviridae and Virgaviridae28. The gut eukaryotic virome displays extensive interindividual variability driven by host-intrinsic factors. For example, infants exhibit transient enteroviruses and viruses from the family Picornaviridae, whereas adults harbour persistent anelloviruses and adenoviruses27,29. Metagenomic studies of diarrhoeal samples reveal novel eukaryotic viruses, such as divergent astroviruses and noroviruses, which could contribute to up to 40% of paediatric diarrhoeal cases with unknown aetiology30. Disease states can further reshape the eukaryotic virome composition; for example, immunodeficient hosts experience virome expansion dominated by adenoviruses, which can exacerbate mucosal damage and systemic inflammation31, whereas systemic viral reactivation (for example, herpesviruses and polyomaviruses) is observed in malignancies, altering tissue-specific virome profiles32. Beyond viruses that infect human cells, plant-derived viruses, such as the pepper mild mottle virus, are detected in up to 66% of healthy individuals, probably originating from dietary intake33.
+
+Archaeal viruses.
+
+Archaeal viruses, particularly those infecting methanogenic archaea, are an under-studied but essential component of the gut virome and many other ecosystems. These viruses exhibit high genetic diversity with unique adaptation to gut environments. A distinguishing feature is their possession of genes that encode lysin proteins specific for archaeal pseudomurein degradation, crucial for archaeal cell wall interactions and viral release34.
+
+The complex composition of the gut virome suggests multifaceted roles in human health and disease. The high degree of individuality in virome composition suggests that personalized approaches might be necessary when considering therapeutic interventions targeting the virome. As metagenomic technologies advance and reference databases expand, our understanding of this viral ecosystem continues to deepen. The continued exploration of the gut virome promises to reveal new insights into microbial ecology and to potentially transform our approaches to monitoring and modulating human health.
+
+Methods for viral analysis in the gut
+
+The exploration and characterization of the gut virome have substantially advanced with developments in viral detection, including metagenomics, viral enrichment techniques, single-virus genomics (SVG), viral tagging and proximity ligation approaches. Metagenomics enables culture-free analysis of viral genetic material extracted directly from environmental samples using two main strategies: bulk metagenomics and VLP metagenomics35,36. Bulk metagenomics involves sequencing total DNA from gut samples without prior viral enrichment, capturing a broad portion of microbial diversity, including bacteria, fungi and their associated viruses. This approach allows the identification of prophage genomes integrated into bacterial host genomes, facilitating the discernment of phage–host associations37. The increasing application of long-read sequencing technologies has improved the assembly and classification of bacterial metagenomic-assembled genomes38, consequently enhancing prophage identification rates. However, bulk metagenomics often overwhelmingly sequences non-viral nucleic acids, obscuring low-abundance viral sequences39 and limiting its ability to resolve rare viral taxa or specific viral types such as ssDNA40.
+
+Viral enrichment methods, such as VLP extraction, enhance the sensitivity of viral detection by concentrating viruses from samples before sequencing. This method markedly improves the recovery of low-abundance viruses, but generally excludes viral genomes integrated into bacterial genomes41. The under-representation of eukaryotic viruses in the human gut underscores the utility of these technologies, which can be coupled with targeted sequence capture to improve the detection of eukaryote-infecting viruses42. VLP-based sequencing traditionally relies on short-read technologies due to the limited nucleic acid yield after VLP preparation. However, strategies involving the pooling of multiple DNA extractions from the same sample have been applied to enable long-read sequencing of VLP-derived samples, which allows the implementation of hybrid approaches that yield a better representation of viral diversity43. Although all metagenomic strategies can provide broad exploration, results can be influenced by methodological factors such as amplification steps, sequencing technology and bioinformatics pipelines, which can introduce biases into the viral community profile35,44.
+
+SVG extends traditional genomic methodologies by isolating and sequencing viral genomes directly from environmental samples45,46. In SVG workflows, viral particles are first labelled with fluorescent dyes and individually isolated from environmental samples using techniques such as fluorescence-activated sorting or microfluidic systems. The capsid of the sorted virions is disrupted through pH adjustment combined with thermal treatment. The genetic material is then amplified using whole-genome amplification methods45,47. SVG is particularly powerful at revealing the hidden diversity and abundance of viruses that evade detection by conventional methods. For instance, studies have shown that most viral single-amplified genomes identified through SVG are more abundant in global ocean virome datasets than those identified through metagenome-assembled viral genomes or isolates48. Although its application in human gut virome research has so far been limited to a few studies, SVG offers distinct advantages, including minimal sample volume requirements (typically 1ml), making it practical for clinical applications in which sample availability is limited48,49. Applied to human microbiome samples, SVG has successfully revealed abundant uncultured viruses, with studies in saliva demonstrating that most naturally abundant viruses remain uncharacterized by traditional cultivation methods50. The technique overcomes common metagenomic assembly challenges in gut viromes, such as high microdiversity and uneven abundance patterns, which often result in fragmented assemblies and poor recovery of complete viral genomes. By facilitating the analysis of viral microdiversity, SVG enables a deeper understanding of viral evolution, ecology and their interaction dynamics with bacterial hosts, which are crucial for elucidating the biological roles of viruses in various ecosystems51. Given these advantages, we anticipate that SVG will see broader adoption in human virome studies in the coming years.
+
+The application of particle sorting technologies has also allowed viral tagging to pair uncultivated phages with their bacterial hosts by fluorescently labelling virions, enabling their attachment to host cells and subsequent isolation via fluorescence-activated cell sorting. Amplification and sequencing of these host–phage complexes has revealed unique pairings in the human gut, predominantly subject-specific, and has demonstrated cross-reactivity between phages and bacteria from different donors52,53.
+
+Advances in proximity ligation assays, such as meta3C and meta-HiC, have also revolutionized the study of phage–host interactions in complex microbial communities such as the human gut. These methods leverage physical DNA–DNA contacts to reconstruct bacterial genomes and assign phage sequences to their bacterial hosts with high specificity36,54. Conformation capture techniques crosslink DNA within microbial cells, digest it with restriction enzymes, and ligate proximal fragments. Sequencing these ligation products enables de novo assembly of bacterial genomes and scaffolding of phage sequences54. In a pilot study of ten human gut samples, metaHiC mapped over 6,000 phage–bacteria interactions, distinguishing dormant prophages from actively replicating phages based on coverage ratios36.
+
+Non-sequence-based approaches are also useful for analysing gut viromes. For example, live imaging-based approaches enable tracking of phage replication and spread in situ with single-virion resolution. This method can reveal how intestinal tissues rapidly take up virions and quickly disseminate them to extraintestinal sites, thereby enhancing our understanding of phage dynamics55.
+
+Methodological choices shape interpretation
+
+Before examining virome alterations across disease states, we must first establish a critical interpretive framework: the apparent contradictions in virome research often reflect methodological choices rather than biological reality. This framework is essential for understanding why studies of the same disease can reach opposite conclusions.
+
+Methodological choices in viral detection fundamentally influence biological interpretation of gut virome dynamics. VLP-enriched metagenomics captures primarily extracellular viruses and actively replicating phages, with studies showing markedly higher viral abundance and species richness than bulk metagenomics35. This approach emphasizes lytic viral activity and supports ecological models of phage-mediated bacterial control through ‘kill-the-winner’ dynamics. Conversely, bulk metagenomics preferentially detects integrated prophages and captures both extracellular and intracellular viruses, revealing viral–host mutualism and lysogenic conversion as mechanisms of bacterial adaptation56. Studies comparing paired samples demonstrate that VLP and bulk approaches recover distinct viral communities. Bulk metagenomics has been shown to generate an average of 50% more viral contigs in controlled experiments57, and, in some larger cohorts, showed higher recovery, though not significantly different from VLP samples35. By contrast, VLP samples tend to produce viral contigs with higher estimated completeness, averaging 10% complete genomes, whereas bulk samples typically yield 2–3% complete genomes in both infants and adults58. This difference is probably due to the lower proportion of viruses in bulk samples41. Proximity ligation approaches such as metaHiC represent a methodological advance by directly capturing phage–host DNA contacts in situ, enabling dormant prophages to be distinguished from actively replicating phages based on coverage ratios and the establishment of specific causal relationships rather than correlative associations36. On the other hand, SVG reveals low-abundance viruses that constitute a genetic reservoir that is potentially critical during environmental perturbations or dysbiosis, as these rare taxa might become dominant under variable conditions53 (Table 1). The choice of method therefore shapes the biological narrative: VLP enrichment frames viruses as predators, bulk metagenomics emphasizes symbiosis, whereas proximity ligation and single-virus approaches reveal the full spectrum of viral–host interactions (Fig. 1). Future studies should explicitly acknowledge these methodological constraints when interpreting viral ecological roles and employ complementary approaches to construct comprehensive understanding of gut virome dynamics.
+
+Although molecular approaches markedly shape analytical results, the bioinformatics pipelines used for viral genome prediction, taxonomic identification and annotation can drastically influence outcomes. Recognizing these methodological influences enables more accurate interpretation of virome alterations in disease. The most robust findings and promising therapeutic targets are obtained from studies showing consistent patterns across multiple methodologies, whereas methodology-dependent observations might reflect different aspects of the same biological process (Box 1 and Tables 2 and 3).
+
+Virome–bacteria interactions
+
+The complex interplay between bacteriophages and the bacterial microbiota is a critical but often overlooked component of microbial ecology with major implications for human health and disease. Bacteriophages regulate the microbiota through multiple processes, including direct bacterial predation59,60, horizontal gene transfer61 and lysogenic conversion62. Bacteriophages have also been associated with non-hostderived immunity when adhering to the mucus layer and interacting with mucin glycoproteins63 (Fig. 2a). Through predation, lytic phages actively infect and lyse bacterial hosts, depleting specific bacterial populations and modulating bacterial abundance, thereby altering microbial diversity and stability64. However, disruptions in this balance, particularly during blooms of specific lytic phage populations, can also be associated with disease states such as ulcerative colitis65 (Fig. 2b,c). The relationship is bidirectional — whereas phages shape bacterial communities, bacterial evolution to resist phage infection is simultaneously driven by phage predation pressures, leading to dynamic co-evolutionary processes66–68.
+
+Temperate phages are another crucial component of virome–bacteria interactions. These phages integrate into bacterial genomes as prophages, providing bacteria with potentially advantageous genes such as virulence factors, antibiotic resistance genes and metabolic genes, ultimately influencing bacterial fitness and community structure69 (Fig. 2d,e). During intestinal inflammation, prophage induction can substantially alter gut bacterial community composition, exacerbating dysbiosis by shifting phage replication dynamics from lysogenic to lytic cycles, as shown in mouse models70. Multiple environmental and physiological triggers, such as bacterial DNA damage, oxidative stress, antibiotic treatment, inflammation-associated compounds and dietary changes, can influence the transition of prophages from lysogenic to lytic cycles71,72. Common medications, including antibiotics and non-antibiotic pharmaceuticals, such as anti-inflammatory drugs, can trigger prophage induction, altering the gut microbiome composition73. The consequences of prophage induction include a cascade of microbial and immunological effects, notably bacterial cell lysis, reduced microbial diversity, increased horizontal gene transfer, and modulation of immune responses74. These effects collectively contribute to a more dysbiotic state and heightened inflammatory responses in conditions such as IBD, where increased prophage induction correlates with exacerbated disease severity in mouse models70. Understanding these complex interactions could provide new therapeutic avenues for managing microbial dysbiosis in various disease states.
+
+The evolutionary plasticity of gut phages markedly influences their ecological roles and clinical relevance. Phages undergo rapid evolution through multiple mechanisms including point mutations, recombination and modular gene exchange, particularly in RBPs that determine bacterial host specificity75. This genetic flexibility enables phages to adapt to changing bacterial populations and potentially jump between bacterial hosts. Studies have demonstrated that virulent phages accumulate mutations facilitating host jumping in the complex gut microbiota of conventional mice, but not in simpler in vitro systems or mice with limited bacterial diversity76. Single amino acid substitutions in tail fibre genes can be sufficient to enable phages to infect previously insensitive bacterial strains77. Host jumping, facilitated by phages with a broad host range or through intermediate hosts, can dramatically alter microbial community dynamics and might explain sudden shifts in virome composition associated with disease states. Metagenomic analyses show that around 36% of viral clusters in the human gut are associated with multiple bacterial species, facilitating gene flow across phylogenetically diverse bacteria12. The modular structure of phage RBPs supports horizontal transfer as a major evolutionary driver, allowing exchange of functional modules between phages to generate new host specificities78. Furthermore, the acquisition of auxiliary metabolic genes (AMGs) through horizontal gene transfer further enhances phage adaptability, allowing them to modulate host metabolism and stress responses79,80. Understanding these evolutionary dynamics is crucial for predicting phage behaviour in therapeutic applications and assessing their role in microbiome stability.
+
+Virome–host Interactions
+
+Eukaryotic virus–host interactions
+
+The gut immune system maintains a delicate balance through integrated innate and adaptive mechanisms to manage frequent environmental exposure to viruses that infect eukaryotic host cells81. Eukaryotic viruses are directly sensed by host pattern-recognition receptors (PRRs), including Toll-like receptors (TLRs)82. This recognition triggers immediate innate immune defences. A critical barrier-specific innate response in the intestine involves intestinal epithelial cell (IEC) production of antiviral cytokine interferon-λ (IFNλ)83. Upon viral infection, IFNλ signals locally to induce antiviral genes, thereby fortifying the epithelial barrier against viral invasion in mice and enteroid models84. Uninfected IECs can also detect viral infections in neighbouring cells and release IFNλ, implicating intercellular communication in the gut epithelial barrier as part of the early antiviral defence85.
+
+The sensing of eukaryotic viruses by PRRs not only activates innate defences but also drives the development of adaptive memory responses. The adaptive immune system, organized within gut-associated lymphoid tissues (GALT), generates highly specific responses involving T cells and B cells86. B cells within GALT produce secretory IgA (sIgA), the primary antibody isotype in the lumen responsible for neutralizing pathogens and coating commensal microorganisms and viruses87. Evidence from mice shows that an essential role of sIgA is in maintaining immune homeostasis by neutralizing enteric viruses and preventing antigen-driven expansion of CD8αβ+ intraepithelial lymphocytes88. Moreover, studies involving selective IgA deficiency (SIgAD) have shown that patients with SIgAD lacking both serum and faecal IgA exhibit higher concentrations of serum IgG reactive to gut bacteria than patients with SIgAD retaining some faecal IgA. These findings support the conclusion that combined loss of systemic and sIgA amplifies systemic exposure to gut bacteria, leading to a higher incidence of systemic immune dysregulation89. Likewise, chronic viral colonization in IgA-deficient hosts can exacerbate intestinal inflammatory conditions, such as colitis, particularly when secondary genetic or environmental factors are present88. Although the immune response to eukaryotic viruses enhances the host’s ability to respond to subsequent infections, it could also contribute to chronic inflammatory states90. Notably, enteric viruses can serve as functional substitutes for commensal bacteria in specific contexts. In germ-free or antibiotic-treated mice, murine norovirus infection restores intestinal morphology, lymphocyte populations, and IFNγ production through type I interferon signalling91,92. Collectively, these findings highlight that eukaryotic viruses, although often associated with pathology, can also confer benefits on the mammalian host by supporting immune function and maintaining gut homeostasis under specific conditions.
+
+Bacteriophage–host interactions
+
+Bacteriophages can indirectly influence immune responses by modulating bacterial communities in the gut, thereby altering the production of microbial metabolites such as short-chain fatty acids that regulate regulatory T cell differentiation93. Bacteriophages can directly modulate mammalian immunity by phage adherence to mucosal surfaces via exposed immunoglobulin-like domains on phage structural proteins63. This binding is thought to reduce bacterial colonization and dampen epithelial inflammation94,95. Furthermore, gut bacteriophages stimulate TLR9-mediated recognition of phage DNA in dendritic cells, eliciting phage-specific IFNγ production via major histocompatibility complex (MHC) class II-dependent antigen presentation and non-specific immune response in murine models96.
+
+Viral translocation, defined as the movement of viral components or particles across epithelial barriers into the systemic circulation, is increasingly linked to chronic diseases97. Bacteriophages have been shown to interact directly with mammalian cells via glycan-binding proteins, influencing epithelial proliferation and immune signalling98. Phage transcytosis across epithelial layers occurs via apical-to-basal trafficking, with phage DNA potentially activating intracellular TLR9 pathways99. Moreover, extracellular vesicles secreted by mammalian host cells can shuttle viral particles or nucleic acids into neighbouring cells, facilitating non-lytic viral dissemination100.
+
+Viral communities in a healthy gut
+
+Viral communities in the healthy gut are characterized by high diversity and stability, forming a resilient ecosystem that contributes substantially to host health. The human gut virome is highly individualized yet maintains structural consistency over time, even as bacterial populations fluctuate101,102. A key feature of this ecosystem is the personal virome, a numerically prevalent and enduring fraction of the viral community predominantly composed of virulent bacteriophages, including crAss-like phages and members of the Microviridae family102.
+
+Bacteriophages are critical regulators of bacterial populations and maintainers of microbial balance in the gut. Although strictly lytic phages cause bacterial cell death upon infection, lysogenic phages employ stable replication strategies that allow them to coexist with their bacterial hosts without causing extensive lysis103. This replication stability promotes ‘piggyback-the-winner’ dynamics, wherein prophages regularly undergo spontaneous induction at low abundance levels, maintaining equilibrium rather than causing large-scale disruptions104. Temperate phages frequently harbour AMGs or CRISPR elements, enhancing bacterial fitness by conferring antibiotic resistance or improved stress tolerance, therefore supporting microbial community resilience and overall gut health105.
+
+The complex co-evolutionary relationships between phages, bacteria and the human immune system are central to gut homeostasis. Studies of centenarians have revealed uniquely diverse gut viromes with increased lytic activity106. This enhanced diversity could be linked with the known metabolic health profile of centenarians, including optimized short-chain fatty acid production and bile acid metabolism107. Centenarian viromes are also enriched in AMGs involved in sulfate metabolic pathways and homocysteine metabolism, creating a more metabolically robust ecosystem that could contribute to the health advantages106.
+
+Beyond their metabolic contributions, gut viruses substantially contribute to gut barrier integrity and systemic immunity. Phage-mediated modulation of bacterial populations helps maintain mucosal integrity, whereas viral interactions with immune cells fine-tune inflammatory responses. In centenarians, the metabolic synergy of the virome with beneficial bacteria, particularly Bifidobacterium and Akkermansia, has been linked to reduced oxidative stress and delayed age-related dysbiosis, highlighting the potential role of the virome in promoting longevity and health span106, suggesting that viral communities might be as integral to gut health as their bacterial counterparts.
+
+Early-life virome and clinical implications
+
+The infant gut virome, established during a critical window for microbial–immune crosstalk, begins forming at birth through maternal vertical transmission and environmental exposures108,109. Pioneer bacteria first colonize the infant gut, with prophages released from these bacteria forming the primary population of VLPs110. Metagenomic studies show that bacteriophages (Caudovirales and Microviridae) and eukaryotic viruses (Anelloviridae) are detectable within days of birth, with diversity expanding rapidly during the first year of life111. Maternal contributions markedly shape this composition, with persistent bacteriophage strains shared between mothers and infants during breastfeeding112,113. Early dynamics follow a predator–prey pattern, transitioning from high phage–low bacterial diversity to low phage–high bacterial diversity with viral communities stabilizing by age 3 years, when approximately 9% of initial phage colonizers persist, highlighting potential co-evolutionary relationships with bacterial hosts114.
+
+The infant virome influences immune development and disease risk. In preterm infants, substantial virome shifts — characterized by a loss of interpersonal viral diversity, driven by an increase in abundance of low-prevalence viruses — precede the onset of necrotizing enterocolitis (NEC)115. These viral shifts coincide with bacterial dysbiosis, characterized by blooms of Enterobacteriaceae, suggesting that bacteriophage-driven bacterial lysis could disrupt gut barrier integrity and contribute to NEC pathogenesis116. Prophages also play a part in infant gut microbiome development, with active induction patterns remarkably unaffected by environmental factors such as antibiotic use, birth mode, exposure to pets, gastrointestinal infections or living environments117. The extensive induction of prophages suggests a highly dynamic virome during infancy, characterized by frequent shifts between lysogenic and lytic states, which could substantially influence the functionality and stability of the gut microbiota. Notably, a virome-specific asthma risk signature has been identified, in which enrichment of temperate families targeting beneficial gut bacteria at 1 year of age significantly predicts preschool asthma, independent of bacterial community composition118. In cystic fibrosis, viromes depleted in key bacteriophages such as Myoviridae and Gokushovirinae are linked to bacterial dysbiosis that potentially exacerbates inflammation119. Importantly, infants demonstrating stable colonization by beneficial bacteriophage groups such as Microviridae exhibit increased resistance to infections and antibiotic-associated diarrhoea later in life120.
+
+These findings underscore the critical role of the virome as an independent factor in early-life microbiome development and immune programming. The temporal patterns of virome establishment, maternal contributions and prophage dynamics create a foundation for lifelong health, with perturbations potentially contributing to various disease states from infancy through later life. Understanding these complex virus–bacteria–host interactions might offer new preventative and therapeutic approaches for conditions ranging from inflammatory disorders to infectious diseases.
+
+The virome in disease states
+
+Inflammatory bowel disease
+
+IBD, encompassing Crohn’s disease and ulcerative colitis, is characterized by chronic inflammation of the gastrointestinal tract, influenced by complex interactions among which are included genetic predisposition, environmental factors and the gut microbiota121. The latest research has highlighted the critical role of the gut virome in IBD pathogenesis. Patients with IBD consistently exhibit increased relative abundance and diversity of tailed phages alongside a reduced Microviridae abundance, suggesting viral dysbiosis as a contributing factor8,122,123.
+
+In Crohn’s disease specifically, metagenomic analyses identified dysbiosis in both DNA and RNA viromes, highlighting elevated eukaryotic viruses such as Torque teno virus and inflammation-associated phages targeting Staphylococcus, Faecalibacterium and Escherichia. These viral community alterations potentially exacerbate inflammation and bacterial dysbiosis, creating a feedback loop that worsens disease progression124. Conversely, mucosal samples from patients with ulcerative colitis exhibit higher abundances of Escherichia and Enterobacteriaceae phages than healthy individuals as controls (Table 4). Moreover, extensive disruption of interkingdom interactions between mucosal bacteria and viruses has been observed, potentially exacerbating gut inflammation and microbial imbalance65.
+
+The spatial distribution of viral communities seems to be important in IBD pathology. Distinct mucosa-associated viromes have been documented compared with stool viromes, underscoring the importance of sampling location. Multiomics spatial analyses in humans have revealed that mucosal viral populations are enriched with unique crAss-like phages not typically detectable in stool, suggesting mucosa-specific roles in disease pathology and bacteriome interactions, possibly contributing to localized inflammatory responses125,126. A prominent feature of IBD viromes is the increased presence of temperate phages, which could disrupt bacterial communities through lysogenic-to-lytic cycle shifts. These viral life cycle alterations probably affect bacterial community stability and gut inflammation127.
+
+Eukaryotic viruses are also associated with IBD. For instance, increased Anelloviridae and Hepeviridae and decreased Virgaviridae (viruses of plants, so probably due to dietary changes) are observed in patients with early-onset Crohn’s disease and ulcerative colitis, suggesting direct involvement or indirect modulation of inflammation and barrier function disruption128,129. Causal evidence comes from virome transplantation experiments in human microbiota-associated mice, which have demonstrated that phages isolated from patients with ulcerative colitis can exacerbate colitis severity by altering bacterial diversity and inflammatory responses, confirming a causal role of virome dysbiosis in IBD pathogenesis130,131.
+
+The functional implications of virome dysbiosis in IBD extend beyond ecological disruption to altered viral gene activities, including increased viral DNA replication, integration and modification functions. These changes suggest that these viruses could directly modify host bacterial genomes or disrupt mucosal integrity124. The complex interplay of bacteriophages and bacterial communities, particularly shifts in mutualistic interactions with beneficial taxa such as Bifidobacterium and Lachnospiraceae, further emphasizes the regulatory influence of the virome on gut ecology and inflammation in Crohn’s disease125. Furthermore, it has been described in vitro that viromes isolated from non-IBD colon tissues induce predominantly anti-inflammatory immune responses in human macrophages. By contrast, ulcerative colitis and Crohn’s disease viromes trigger pro-inflammatory responses132. This immunological divergence suggests that specific viral community compositions directly influence host immune activation and disease phenotype, potentially offering new therapeutic targets for IBD management.
+
+The relationship between viral diversity and IBD is complex and often inconsistent across studies. Early findings indicate increased diversity of tailed phages in IBD123, but a later re-analysis of the same dataset, incorporating previously unclassified viral sequences, found no statistically significant difference in overall viral richness between patients with IBD and healthy individuals as controls8. Later work using unamplified sequencing methods, which avoid the biases introduced by multiple displacement amplification, further suggests that differences in viral α-diversity between IBD and control groups are less pronounced than previously reported127. These findings highlight the substantial interpersonal variability of the gut virome and its dynamic nature, both of which complicate efforts to identify consistent, disease-specific diversity patterns. Discrepancies in the literature probably arose from methodological differences, including the use of amplification techniques, whether unclassified viruses are included, variations in cohort composition and disease activity, sampling sites and the inherently individualized virome (Box 1).
+
+Metabolic disorders and the gut virome
+
+Obesity and metabolic syndrome.
+
+Research on obesity and metabolic syndrome reveals distinctive patterns in gut viral communities. For instance, specific subfamilies of crAssphages show divergent roles: the alpha subfamily, which seems to be beneficial for metabolic homeostasis, is notably decreased in individuals with obesity and metabolic syndrome, whereas the beta and delta subfamilies are elevated, correlating with an increase in bacilli, a known biomarker for obesity133 (Table 4). Similarly, other research identified the Candidatus Heliusviridae, a widespread gut bacteriophage lineage, as significantly enriched in metabolic syndrome. These phages predominantly infect bacterial families Streptococcaceae and Bacteroidaceae, disrupting microbial balance and possibly exacerbating metabolic dysfunction134. Obesity and food addiction are also linked to specific phages from the Microviridae family, whose abundance alters tyrosine and tryptophan metabolism in mice and increases BMI135.
+
+Type 2 diabetes mellitus.
+
+In type 2 diabetes mellitus, distinctive gut virome changes have also been documented, with individuals with diabetes displaying a marked decrease in viral diversity and richness. By contrast, there is an increase in Escherichia coli and Lactobacillus phages136. These virome changes correlate with reduced microbial diversity and compromised gut barrier integrity, which promote systemic inflammation and metabolic disruptions characteristic of diabetes137. Supporting this finding, type 2 diabetes-associated gut viromes have been shown to have considerable genetic novelty and plasticity, along with virulence factors, potentially shaped by horizontal gene transfer40.
+
+Liver diseases.
+
+Liver diseases, including metabolic dysfunction-associated steatotic liver disease (MASLD) and alcohol-induced hepatitis, further highlight the role of the gut virome in metabolic health. Patients with MASLD exhibit a marked decrease in intestinal viral diversity, specifically bacteriophages, correlating with disease severity and liver fibrosis138. A model based on faecal viral diversity accurately predicted severe MASLD, emphasizing the clinical relevance of virome profiling as a diagnostic tool138.
+
+In alcohol-induced hepatitis, virome dysbiosis is associated with increased viral diversity, notably of pathogenic phages such as those infecting Escherichia, enterobacteria and Enterococcus. Additionally, elevated levels of mammalian viruses, including Herpesviridae, were associated with higher disease severity and mortality, indicating direct and indirect contributions to hepatic inflammation and damage139.
+
+Cancer
+
+The gut virome influences colorectal cancer (CRC) pathogenesis through direct viral oncogenesis and indirectly via chronic inflammation and bacterial dysbiosis. Studies have revealed distinct virome alterations associated with CRC, notably increased viral diversity and specific shifts in composition compared with healthy individuals140,141. Temperate phages, are prominently expanded in CRC, targeting bacterial taxa implicated in colorectal carcinogenesis such as Enterococcus faecalis. These phages frequently carry AMGs, potentially linked to tumour-promoting dynamics, including enhanced bacterial virulence and metabolic dysregulation142. In mouse models, Helicobacter pylori infection exacerbates these effects by inducing prophage activation, amplifying the inflammatory environment and enhancing carcinogenic potential through bacterial dysbiosis and immune modulation142. Furthermore, CRC-associated bacteriophages disrupt interactions with oral bacterial commensals found in the human gut, suggesting that phage-induced dysbiosis contributes substantially to CRC progression141 (Table 4).
+
+Eukaryotic viruses also have critical roles in CRC pathogenesis. For instance, increased abundances of Anelloviridae, specifically Torque teno virus, have been observed within colorectal tissues, correlating with carcinogenic pathways and supporting a direct oncogenic role in CRC140. Additionally, human papillomavirus types 16 and 18 have been implicated in colorectal carcinogenesis, integrating their genomes into mammalian host cells, modulating cell cycle progression and promoting genomic instability143. Persistent viral activity, particularly from bacteriophages, can perpetuate inflammatory states, exacerbating epithelial damage and dysbiosis, critical conditions conducive to colorectal carcinogenesis144.
+
+Common patterns
+
+Analysis of virome alterations across diverse disease states reveals striking similarities that suggest fundamental principles of viromeassociated pathologies. Cross-disease analysis identifies temperate phage expansion as a shared feature across inflammatory conditions, with temperate viral clusters significantly increased in patients with IBD compared with healthy individuals in the same household as controls8. This pattern suggests that prophage induction might contribute to bacterial dysbiosis in inflammatory contexts, creating a positive feedback loop between inflammation and prophage induction, which could explain the observed bacterial dysbiosis in these conditions.
+
+Two distinct paradigms of virome dysbiosis emerge from comparative analysis: dysbiosis by loss-of-function, characterized by reduced viral diversity and depletion of beneficial viral activities, and dysbiosis by gain-of-function, marked by expansion of specific viral groups with pathogenic potential. Loss-of-function dysbiosis is exemplified in metabolic disorders, in which children with obesity and metabolic syndrome show significantly decreased abundance of the beneficial Alpha crAssphage subfamily (particularly Alpha_1 and Alpha_4 genera) alongside increased Beta and Delta subfamilies133. Conversely, gain-of-function dysbiosis is demonstrated by experimental evidence showing that VLPs from patients with ulcerative colitis exacerbate colitis severity when transplanted into mice, confirming causative rather than merely correlative relationships130.
+
+The mechanism underlying temperate phage expansion seems to be linked to inflammatory signals that trigger prophage induction, as demonstrated in studies showing 105-fold higher prophage transfer in inflammatory versus healthy contexts145. This prophage induction specifically affects bacteria typically depleted in IBD, such as Faecalibacterium prausnitzii, where enhanced temperate phage-mediated mortality might contribute to dysbiosis146. Notably, the crAssphage system provides a specific example of beneficial virus loss, whereby decreased Alpha crAssphages correlate significantly with overabundance of bacilli in metabolic syndrome, suggesting precise phage–bacteria regulatory relationships133.
+
+These shared patterns indicate that virome dysbiosis converges on common mechanisms of bacterial community destabilization and dysregulated immune responses, providing targets for therapeutic intervention that transcend individual disease categories.
+
+Distinguishing causative from correlative evidence
+
+Critically, the evidence supporting these patterns varies dramatically in quality, with only selected studies establishing causality beyond correlation. The strongest evidence of causality comes from virome transplantation experiments demonstrating that VLPs from patients with ulcerative colitis directly exacerbate colitis severity in human microbiota-associated mice, with shortened colon length and increased pro-inflammatory cytokine production130. Similarly, faecal virome transplantation (FVT) studies have shown that viral communities are sufficient to drive metabolic phenotypes, with mice receiving high-fat diet-derived viromes gaining more weight even when fed normal chow, whereas those receiving chow-derived viromes showed reduced weight gain despite high-fat diet consumption147. In metabolic syndrome, modified FVTs successfully alleviated symptoms in obese mice148, whereas in Clostridioides difficile infection, sterile faecal filtrates containing primarily bacteriophages have proven as effective as full faecal microbiota transplantation (FMT) in clinical settings149. These interventional studies satisfy adapted Koch’s postulates for microbial communities: isolation of the viral component, disease induction or amelioration upon transfer, and restoration of the original phenotype.
+
+By contrast, most disease–virome associations remain correlative, based on cross-sectional metagenomic surveys or longitudinal observations without intervention. This evidence hierarchy has profound implications for therapeutic development: conditions with established causal mechanisms (IBD, C. difficile infection) are ready for clinical translation through phage therapy or FVT, whereas those with only correlative evidence (most metabolic disorders, early-life conditions) require mechanistic validation before therapeutic targeting.
+
+Predictive framework for therapeutic intervention
+
+This framework generates testable predictions about therapeutic efficacy based on both dysbiosis pattern and evidence quality. For gain-of-function dysbiosis with causal evidence (IBD, C. difficile infection), phage reduction strategies, including targeted antimicrobials against specific phages or competitive exclusion through beneficial phage cocktails, should prove effective. Indeed, autochthonous FVT has been shown in mice to reshape bacteriomes after antibiotic treatment more effectively when viable phages were present than when using heat-inactivated FVT150. For loss-of-function dysbiosis, the framework predicts that phage supplementation would restore microbial balance, although this aspect remains largely untested due to the absence of causal evidence in this category. This highlights a critical gap suggesting either that loss-of-function dysbiosis is rarely causative or that current methodologies fail to capture these mechanisms. Notably, FVT designed to enhance beneficial bacteria such as Akkermansia muciniphila has shown unexpected effects, including improved fertility rates in mice151, indicating that virome modulation might have broader physiological effects than currently appreciated. Future studies should employ selective phage elimination techniques, should be longitudinal intervention trials, and should involve the careful dissection of temporal relationships between viral loss and disease onset to resolve this critical uncertainty.
+
+Therapeutic potential
+
+Restoring microbial balance
+
+Phage therapy has emerged as a promising strategy to restore microbial balance without disrupting commensal communities. Phage consortia targeting Klebsiella pneumoniae and E. coli reduce intestinal inflammation in mouse models of IBD, underscoring their precision in suppressing pathobionts152. Similarly, novel E. coli-specific phages with lytic activity against antibiotic-resistant strains have been isolated from the human gut, suggesting their utility in treating infections153. Importantly, in vitro studies have shown that using a single phage for clearing enteric infections has a minor effect in bacterial clearance and actually increases phage-resistant bacteria, highlighting the need to use phage cocktails154. Studies using synthetic microbiomes (bioreactors) have revealed that reintroducing virulent phages can reshape bacterial populations, offering a controlled approach to modulate dysbiosis155. Novel therapeutic protocols include phage-derived lytic enzymes, such as endolysins, which degrade bacterial cell walls and can selectively target pathogens, with demonstrated protection against antibiotic-resistant bacteria156–158.
+
+FVT and the virome in FMT
+
+FVT, or faecal filtrate transplantation, is a targeted therapeutic approach to modulate the gut microbiome by transferring filtered viral components from a healthy donor. This approach is different from FMT, which involves transferring the entire microbial community148,159. FVT offers several distinct therapeutic advantages over conventional FMT: reduced risk of transferring antibiotic-resistant bacteria or pathogenic organisms, as the filtration process removes intact bacterial cells while retaining bacteriophages160,161; potentially lower immunogenicity and reduced risk of adverse reactions, as studies in animal models have demonstrated that FVT might not substantially influence host immune cells to induce mucosal immunity compared with whole-microbiota transplants162,163; and the ability to target specific bacteriophage-mediated mechanisms of microbiome modulation, including phage predation, prophage induction and cascading effects on bacterial communities164. Additionally, FVT enables more precise manipulation of bacterial populations through phage predation without introducing competing bacterial species, potentially offering a more controlled therapeutic intervention. FVT has been successfully applied to treat C. difficile infection160,161, and has been shown to reduce symptoms of type 2 diabetes mellitus159, and promote the proliferation of commensal bacteria165 in mice. Furthermore, FVT can alter the microbiota and the condition of obese or lean outcomes in mouse models147. Limited human trials have shown transient improvements, such as modified phage composition and effects on glucose levels in individuals with metabolic syndrome166. Evidence now demonstrates that timing of FVT administration critically influences therapeutic efficacy. In IBD, transplantation during disease remission successfully alleviates intermittent intestinal inflammation and confers resistance to subsequent inflammatory challenges, whereas administration during active flare states may exacerbate inflammation167. This temporal specificity, combined with the ability of FVT to durably reshape the gut bacteriome towards beneficial taxa such as Lachnospiraceae and Muribaculaceae, positions FVT as a promising approach for IBD management167. Despite this potential, FVT carries notable risks and limitations, including the possible transmission of uncharacterized or harmful eukaryotic viruses not removed by standard filtration and the risk of exacerbating inflammation if the gut barrier is compromised148,165.
+
+Challenges in gut virome research
+
+Methodological limitations
+
+Despite rapid advances, the study of the gut virome faces notable constraints. DNA extraction methods, amplification steps and enrichment protocols can introduce biases that complicate accurate characterization and comparison across studies35,44. The potential exclusion of integrated prophages or specific viral types during enrichment further hinders comprehensive analysis41. Moreover, the distinction between active and inactive viral particles remains challenging to determine through current sequencing approaches.
+
+The viral dark matter problem
+
+A primary challenge remains the vast viral dark matter — the large proportion of viral sequences that cannot be classified due to a lack of reference genomes and universal marker genes8,9,11. Despite extensive metagenomic mining efforts, most viral sequences from human gut samples remain unclassified, highlighting the immense diversity and novelty of the virome. Reference databases for viral taxonomy and functional annotation remain incomplete. Novel viral entities, particularly from non-model organisms, remain under-represented, complicating taxonomic and functional classification. The absence of standardized approaches for viral genome annotation further hinders comparative analyses across studies. Furthermore, the functional annotation of newly discovered viral genes, including AMGs, remains a bottleneck in understanding their precise ecological roles105.
+
+Causality versus correlation
+
+Disentangling the complex, multidirectional interactions between viruses, bacteria, the host immune system, diet and other environmental factors is inherently difficult. Establishing causality versus correlation in disease states requires sophisticated experimental designs beyond associative studies, which remain the predominant current approach in the field.
+
+Future perspectives
+
+The gut virome is a complex and dynamic community that actively shapes the gut ecosystem through predation, lysogeny and horizontal gene transfer64,69. This viral collective directly and indirectly interacts with the host immune system, modulating both innate and adaptive responses, contributing to immune training and potentially substituting for bacterial functions under certain conditions63,91,168. A stable and diverse virome, characterized by persistent personal components102 and potentially enriched in beneficial phages such as specific crAss-like phages133 or those seen in centenarians106, is increasingly associated with gut homeostasis and overall health. Conversely, alterations in virome composition and function (dysbiosis), including shifts in phage diversity, abundance of specific viral types (for example, Caudovirales in IBD8,123), increased prophage induction70 or changes linked to eukaryotic viruses128, are implicated in a growing list of conditions, including IBD, metabolic disorders and adverse early-life outcomes115,118. The early-life establishment phase seems to be particularly critical, setting trajectories for long-term host–microorganism interactions113,114. Moving forward, establishing clear interpretative frameworks (Boxes 1 and 2), implementing advanced analytical techniques, and integrating multiomics, mechanistic and longitudinal approaches will be essential for developing more effective virome-based therapeutic and diagnostic strategies.
+
+Methodological advances
+
+Future research should focus on integrating advanced methodologies to overcome current limitations. Continued development and application of long-read sequencing43, amplification-free protocols39, SVG51 and in situ visualization techniques55 will be crucial for achieving a higher resolution view of virome composition, function and dynamics. Combining multiple methodological approaches within single studies will help mitigate individual biases and provide more comprehensive insights. However, the development of diagnostic markers faces substantial challenges due to the inherent characteristics of the gut virome. The highly dynamic nature of viral communities, their constant evolution and high interindividual variability could limit the universal applicability of virome-based diagnostics. Phages undergo continuous mutation and adaptation within the gut environment, making it difficult to establish stable biomarkers across populations. These features collectively necessitate careful consideration when developing diagnostic applications, and could require personalized or population-specific approaches rather than universal markers.
+
+Mechanistic studies
+
+There is a critical need for more mechanistic studies utilizing gnotobiotic animal models, organoid systems and carefully designed human interventions, including FVT studies130,131 to dissect the causal roles of specific viruses and community structures in health and disease. These controlled experimental systems allow manipulation of individual variables and detailed characterization of effects, thereby establishing causality rather than mere association.
+
+Longitudinal studies
+
+Longitudinal studies, particularly those tracking individuals from early life through adulthood, are essential for understanding virome development, stability and long-term health implications113. Such studies can reveal how early virome establishment influences later health outcomes and identify windows of opportunity for intervention.
+
+Multiomics integration
+
+Integrating viromics data with other ‘omics’ approaches (metagenomics, transcriptomics, metabolomics, proteomics) and detailed host immunological data will provide a more holistic understanding of the place of the virome within the complex gut ecosystem and its interplay with the host. This multilayered approach can reveal functional networks and causal pathways that are not apparent from single-omics studies.
+
+Computational tool development
+
+Advanced computational tools designed specifically for viral metagenomic analysis are needed to address the unique challenges of virome data, including high sequence diversity, lack of conserved marker genes and complex ecological interactions. Machine learning approaches hold particular promise for feature characterization within these complex datasets. Such tools are currently one of the main options for viral pipelines in the context of viral prediction, protein structure annotation and lifestyle prediction (Table 2). However, these approaches can be more comprehensively integrated and specifically tailored to address the unique challenges of virome analysis, particularly for complex ecological interaction mapping and host–phage relationship inference.
+
+Standardization efforts
+
+Standardized protocols for sample collection, processing, sequencing, and analysis would benefit the field by facilitating comparison across studies and enabling meta-analyses. Consensus guidelines for reporting virome data and metadata would likewise enhance the reproducibility and integration of findings. Recognizing this critical need, the National Institutes of Health common fund has launched the Human Virome Program, which aims to establish specific centres to organize and standardize efforts to characterize the human virome across diverse populations and health states169.
+
+Therapeutic interventions
+
+Phage therapy is a promising strategy for precision modification of the gut ecosystem. Unlike broad-spectrum antibiotics, bacteriophages can target specific pathogenic bacteria without disrupting commensal communities152,153. Developing engineered phages or cocktails tailored to individual microbiome profiles could revolutionize treatment approaches for conditions associated with bacterial dysbiosis155. Novel therapeutic protocols include phage-derived lytic enzymes, such as endolysins, which degrade bacterial cell walls and can selectively target pathogens156–158.
+
+FVT offers a novel therapeutic approach that could complement or replace traditional FMT in specific contexts. Early preclinical161 and clinical160 studies suggest potential applications in C. difficile infection, metabolic disorders159 and inflammatory conditions. However, rigorous safety protocols and standardized preparation methods are needed before widespread clinical application148,165.
+
+Conclusions
+
+In conclusion, the human gut virome is a complex and dynamic ecosystem that fundamentally shapes microbial communities, immune responses and host health outcomes. This Review examines the composition and dynamics of gut viral communities, from the dominant bacteriophages to emerging viral entities, and evaluates methodological approaches that influence biological interpretation. We synthesize evidence linking virome alterations to diverse disease states, distinguishing correlative associations from demonstrated causal mechanisms, and explore emerging therapeutic applications including phage therapy and FVT. Although substantial challenges remain, ongoing methodological advances and interdisciplinary collaborations promise to unlock the full potential of this field for enhancing our understanding of disease pathogenesis and developing novel therapeutic approaches.
+
+Acknowledgements
+
+Research is funded by grants from the National Institutes of Health, including RC2DK116713 awarded by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) to S.A.H., R01AI173360 awarded by the National Institute of Allergy and Infectious Diseases (NIAID) to M.T.B. and S.A.H., U01AT012998 awarded by the National Center for Complementary and Integrative Health (NCCIH) to M.T.B. and S.A.H., and U24HL175772 awarded by the National Heart, Lung, and Blood Institute (NHLBI).
+
+Competing interests
+
+M.M.L. is a consultant to EllaOla, Takeda Pharmaceuticals and Anokion, has received research support from Takeda and Moderna (to institution), and has acted as a study investigator for Merck, Regeneron, Pfizer and Takeda Pharmaceuticals (to institution). The other authors declare no competing interests.
+
+Glossary
+
+Auxiliary metabolic genes Genes carried by viruses that encode metabolic functions and can supplement or modify host cell metabolism during infection.
+
+CrAssphages The most abundant bacteriophage discovered in human gut metagenomes through cross-assembly analysis.
+
+Dysbiosis An imbalance in microbial community composition and function characterized by altered abundance of key taxa or disrupted ecological interactions with potential effects on health.
+
+Lysogenic conversion The process by which prophage genes alter the phenotype of the bacterial host, potentially conferring new capabilities such as toxin production or antibiotic resistance.
+
+Lysogeny The viral life cycle state where phage DNA integrates into the bacterial chromosome and replicates passively with the bacterial host without causing immediate lysis.
+
+Prophage induction The process by which integrated viral DNA (prophage) exits the bacterial chromosome and initiates viral replication, leading to bacterial cell lysis.
+
+Temperate phages Bacteriophages capable of both lytic (immediate bacterial host lysis) and lysogenic (chromosomal integration) life cycles.
+
+Viral dark matter The large fraction of viral sequences in metagenomes that cannot be taxonomically classified due to lack of similarity to known viral genomes.
+
+Fig. 1 | Molecular approaches to study the human gut virome.
+
+a, Components of the gut virome ecosystem, including free viruses, bacteria carrying prophages, active prophages and virus–bacteria interaction pairs. b, Bulk metagenomics involves sequencing total DNA from gut samples and recovers mainly bacterial genomes and their prophages, with low recovery of free viruses. c, Proximity ligation (meta3C and metaHiC) maps phage–host associations by capturing physical DNA–DNA contacts, enabling detection of both active and dormant prophages, as well as replicating viruses. d, Virus-like particle (VLP) metagenomics enriches and sequences free viruses, including low-abundance taxa, but misses integrated prophages. e, Single-virus genomics (SVG) isolates and sequences individual viral particles, enabling the recovery of rare, and otherwise difficult-to-assemble, viral genomes.
+
+Fig. 2 | Gut virome dynamics: protective roles, lytic and lysogenic cycles, and immune interactions.
+
+Phage-mediated mucosal defence in the healthy gut (part a): in a healthy gut, bacteriophages adhere to mucosal surfaces, forming a protective barrier that prevents pathogenic bacterial adhesion. Secretory IgA (sIgA) antibodies produced by plasma cells further enhance this defence by neutralizing bacteria and limiting their colonization. Lytic cycle and inflammatory consequences (part b): phages initiate the lytic cycle, infecting bacteria and replicating via new virions synthesis (part c). Subsequent bacterial lysis releases pathogen-associated molecular patterns (PAMPs), which are recognized by Toll-like receptors (TLRs) on dendritic cells (DCs). This interaction triggers pro-inflammatory cytokine production (tumour necrosis factor (TNF)), amplifying inflammation and potentially contributing to tissue damage and reduced bacterial diversity. Concurrently, released bacterial antigens can stimulate plasma cells to produce additional antibodies (IgA and IgG), which further modulate microbial colonization and contribute to mucosal immune responses. Environmental stressors can exacerbate these effects by inducing prophage activation. Lysogenic cycle and bacterial pathogenesis (part d): in the lysogenic cycle, temperate phages integrate their genomes into bacterial chromosomes as prophages. These prophages can encode virulence factors, including exotoxins and antibiotic resistance genes, enhancing bacterial pathogenic potential (part e). Horizontal gene transfer mediated by phages further disseminates antibiotic resistance within bacterial populations. sIgA, secretory IgA.
+
+Table 1 | Current methods for analysing the human gut virome
+
+Method	Pros	Cons	
+Bulk metagenomics	Comprehensive analysis of viral and microbial entities directly from samples
+No prior cultivation needed
+Can provide broad exploration of the viral community and its associations with other components of the microbiome
+Detection of prophages in bacterial genomes	Results sensitive to methodological choices (amplification, sequencing technique, bioinformatics)
+Amplification steps can introduce bias (e.g. favouring circular ssDNA phages)
+May overlook low-abundance viruses
+Does not capture RNA viruses
+Identification relies heavily on reference databases	
+Viral enrichment (e.g. VLP extraction)	Enhances detection sensitivity for viruses
+Improves recovery of low-abundance viruses
+Can be used for RNA viruses	Regularly, it needs an amplification process before sequencing
+Can exclude integrated viruses (prophages)
+Potential loss of specific viral types during preparation, reducing true virome complexity
+Can still be subject to biases depending on the specific enrichment protocol used
+Difficulty linking viruses to specific hosts as host context is removed	
+Long-read sequencing (e.g. ONT)	Improved genome assembly, especially for complex viral genomes
+More reliable identification of viral taxa
+Potential for single-virus resolution
+Better characterization of novel and/or unannotated viruses
+Enhanced insights into viral diversity, host interactions and dynamics	Historically higher error rates than short-read sequencing (though rapidly improving)
+Cost per base can be higher than short-read technologies
+Cell-host-populated samples might have sequencing efficiency problems	
+Single-virus genomics	Enables sequencing of individual viral genomes directly from samples
+Enables discovery of novel viruses
+Reveals hidden viral diversity and abundance missed by other methods
+Captures microdiversity, aiding study of viral evolution, ecology and host interactions	Currently limited by technical challenges (e.g. throughput, DNA recovery from single virions)
+Can be labour-intensive and costly
+Potential bias in which single viruses are successfully isolated and amplified	
+Live imaging approaches	Tracks viral replication and spread in situ with high resolution
+Reveals in vivo dynamics such as tissue uptake and dissemination
+Enhances understanding of real-time host–virus interactions within a living system	Technically complex
+Might be limited in scope (e.g. tracking specific labelled phages)
+Less suitable for broad community characterization compared with sequencing
+Primarily focused on phage dynamics rather than overall virome composition
+Low throughput	
+ONT, Oxford Nanopore Technologies; ssDNA, single-stranded DNA; VLP, virus-like particle.
+
+Table 2 | Method of host prediction and confidence levels
+
+Method	Confidence	Software/tools	Key limitations	Refs.	
+Computational prediction	Low	WIsH (Markov models)
+HostPhinder (k-mer similarity)
+VirHostMatcher (oligonucleotide frequency)
+PHP (Gaussian model)
+RaFAH (Random Forest)
+iPHoP (integrated ML)	High false-positive rate; database-dependent; accuracy decreases with shorter contigs	37,170–174	
+Co-occurrence network analysis	Low–moderate	SparCC
+CoNet
+SPIEC-EASI
+Custom correlation scripts	Correlation does not establish causation; captures indirect associations; affected by sequencing depth	175–177	
+CRISPR spacer matching	Moderate	SpacePHARER (protein-level matching)
+CRISPRminer (web server)
+CrisprOpenDB (streamlined pipeline)
+BLASTN (nucleotide matching)	Indicates historical infections, not current relationships; requires host to have CRISPR system	178–181	
+Proximity ligation (Hi-C, Meta3C)	High	ProxiMeta (Hi-C pipeline)
+bin3C (metagenome binning)
+MetaPhase (phage–host pairing)
+HiCzin (MAG decontamination)	Requires active infection during sampling; technically complex; expensive	182–185	
+Culture-based validation	Highest	Plaque assays
+Spot tests
+Efficiency of plating
+One-step growth curves	Limited to culturable organisms; labour-intensive; time-consuming	Standard microbiological methods	
+MAG, metagenome-assembled genome; ML, machine learning.
+
+Table 3 | Main bioinformatics pipelines and automatic workflows for virome analysis
+
+Category	Tool	Main features	Ref.	Last updated	
+Integrated pipelines	MVP	Modular design with geNomad + CheckV; complete virome analysis workflow; handles diverse sample types; easy installation and integration	186	2024	
+ViWrap	Integrates VIBRANT, VirSorter2, DeepVirFinder; Virus binning with vRhyme; host prediction with iPHoP; taxonomy via vConTACT2	187	2025	
+Hecatomb	Read and contig-based analysis; rigorous quality control; false-positive filtering; supports Illumina and long reads	188	2025	
+ViroProfiler	Containerized pipeline; multiple virus identification tools; combines vConTACT2 + MMseqs2; iPHoP for host prediction	189	2024	
+Lazypipe	Customizable annotation strategies; fast virus discovery; low false-positive rate; optimized for diagnostics	190	2025	
+PhaBOX	Web-based integrated pipeline; PhaMer for virus identification; PhaTYP for lifestyle, PhaGCN for taxonomy, CHERRY for host prediction, and PhaVIP for phage protein annotation; user-friendly interface; fast classification; accurate for short contigs	191	2023	
+Virus Identification	geNomad	Identifies viruses and plasmids; provirus detection; taxonomic assignment; functional annotation	192	2025	
+VirSorter2	Multiclassifier approach; DNA and RNA viruses; high accuracy (F1 > 0.8)	193	2023	
+VIBRANT	Iterative annotation; AMG identification; metabolic profiling; prophage detection	194	2025	
+DeepVirFinder	Deep learning approach; reference-free detection; works on short contigs; no database dependency	195	2025	
+Quality assessment	CheckV	Genome completeness estimation; contamination detection; quality categorization	196	2022	
+Annotation	Pharokka	Fast phage annotation; PHANOTATE gene prediction; PHROGs database; standards-compliant output	197	2025	
+phold	Structural homology annotation; ProstT5 + Foldseek; 1M+ phage protein structures; outperforms sequence-based tools	198	2025	
+DRAMv	AMG identification; metabolic annotation; distilled summaries; integration with DRAM	199	2023	
+Taxonomy	vConTACT2	Genus-level clustering; gene-sharing networks; guilt-by-association; RefSeq integration	200	2023	
+VITAP	Can classify both DNA and RNA viruses; automatically updates database in sync with latest ICTV releases; effective classification of short sequences; provides confidence levels for each taxonomic unit	201	2025	
+VIRify	Nextflow pipeline; viral taxonomy assignment; multiple databases	202	2025	
+Host prediction	iPHoP	Multimethod integration; <10% false discovery rate; CRISPR spacer matching; genomic signatures	37	2025	
+CHERRY	Deep learning approach; prokaryotic host prediction; high accuracy; fast processing	203	2024	
+Virus binning	vRhyme	Machine learning binning; coverage-based approach; handles fragmented genomes; metagenome-specific	204	2025	
+phables	Assembly graph-based; flow network modelling; resolves strain variants; 49% more HQ genomes; handles >99% ANI variants	205	2025	
+Specialized tools	VIcaller	Viral integration detection; virome-wide analysis; 411,195 virus database; in silico validation	206	2023	
+VirusSeeker	Novel virus discovery; virome composition; BLAST-based pipeline; false-positive removal	207	2017	
+AMG, auxiliary metabolic gene; ANI, average nucleotide identity; HQ, high quality; ICTV, international committee on taxonomy of viruses, MVP, modular viromics pipeline.
+
+Table 4 | Disease-associated changes in the gut virome and potential consequences for human health
+
+Disease or condition	Increased viral features	Decreased viral features	Potential consequences and/or associations	
+IBD	General: abundance/diversity of Caudovirales; presence/activity of temperate phages; unique mucosal crAss-like phages; Norovirus (as risk factor or trigger)
+Crohn’s disease: DNA and00000 RNA virome dysbiosis (shifts observed); eukaryotic viruses (TTV, Anelloviridae, Hepeviridae); phages targeting Staphylococcus, Faecalibacterium and Escherichia
+Ulcerative colitis: mucosal Escherichia phages, enterobacteria phages; Anelloviridae and Hepeviridae (early onset); ulcerative colitis phages (functionally exacerbate colitis)	General: Microviridae phages; Virgaviridae
+Ulcerative colitis: Giant viruses	Chronic gut inflammation
+Bacterial dysbiosis and altered interkingdom interactions
+Disruption of bacterial community stability (via phage lysis)
+Altered interactions with beneficial bacteria (e.g. Bifidobacterium, Lachnospiraceae)
+Increased viral replication or integration gene activity
+IBD viromes trigger pro-inflammatory responses in macrophages
+Potential disruption of mucosal barrier function	
+Metabolic disorders	Obesity or metS: beta/delta-crAssphages; Candidatus Heliusviridae
+T2DM: Escherichia coli and Lactobacillus phages; genetic novelty or plasticity and virulence factors in virome
+Alcohol-associated hepatitis: viral diversity; phages (targeting Escherichia, Enterobacteriaceae, Enterococcus); mammalian viruses (e.g. Herpesviridae)	Obesity or metS: viral diversity/richness; alpha-crAssphages
+T2DM: Viral diversity or richness
+MASLD: intestinal viral diversity (especially bacteriophages)	Obesity or metS: correlation with increase in bacilli; disrupted microbial balance; potential exacerbation of metabolic dysfunction
+T2DM: linked to reduced bacterial diversity; compromised gut barrier integrity; systemic inflammation; metabolic derangements
+MASLD: correlates with disease severity and liver fibrosis; potential diagnostic utility
+Alcohol-associated hepatitis: associated with higher disease severity and mortality; contribution to hepatic inflammation and damage	
+Colorectal cancer	Viral diversity
+Temperate bacteriophages (targeting e.g. Enterococcus faecalis)
+Phages carrying AMGs
+Anelloviridae (TTV) in tissues
+Oncogenic viruses (e.g. human papilloma virus types 16 and 18; presence or integration)
+Prophage activation (linked to Helicobacter pylori)	Overall dysbiosis	Direct viral oncogenesis
+Perpetuation of chronic inflammation
+Promotion of bacterial dysbiosis
+Phages potentially enhance bacterial virulence and metabolic dysregulation
+Modulation of cell cycle and genomic instability (by eukaryotic viruses)
+Contribution to epithelial damage
+Potential diagnostic or prognostic markers	
+Extra-intestinal diseases	Osteoarthritis: specific Siphoviridae members
+SLE: Siphoviridae, Microviridae, crAss-like viruses
+Rheumatoid arthritis: enrichment of phages targeting specific bacteria	Osteoarthritis: Myoviridae; Microviridae
+SLE: viral diversity	Osteoarthritis: viral signatures interconnected with bacterial profiles
+SLE: potential role in driving microbial dysbiosis and autoimmunity
+Rheumatoid arthritis: correlation with inflammatory and/or immune parameters; potential mediation of systemic inflammation via gut–brain axis	
+AMGs, auxiliary metabolic genes; IBD, inflammatory bowel disease; MASLD, metabolic dysfunction-associated steatotic liver disease; metS, metabolic syndrome; SLE, systemic lupus erythematosus; T2DM, type 2 diabetes mellitus; TTV, Torque teno virus.
+
+Box 1 | Methodological considerations for interpreting contradictory findings in gut virome research
+
+When evaluating conflicting results across virome studies, systematic consideration of methodological factors often reveals that contradictions reflect technical rather than biological differences. This framework provides a structured approach for interpreting discordant findings.
+
+Conflicting viral diversity measurements
+
+When studies report opposing diversity patterns in the same disease state, consider:
+
+Viral enrichment method
+
+Virus-like particle (VLP) enrichment: preferentially captures extracellular and actively replicating (induced) phages; typically yields higher observed diversity
+
+Bulk metagenomics: captures integrated prophages and cellular viruses; may show lower free viral diversity
+
+No enrichment: bacterial DNA dominates, resulting in decreased viral detection sensitivity
+
+Sequence classification approach
+
+Analysis of classified viruses only: produces lower diversity estimates with clearer disease-associated signatures
+
+Inclusion of unclassified ‘viral dark matter’: increases diversity measurements, potentially obscuring disease-specific patterns
+
+Database selection: reference database completeness significantly affects classification rates
+
+Diversity metrics employed
+
+α-Diversity (within-sample) versus β-diversity (between-sample) measurements
+
+Species richness versus evenness indices
+
+Taxonomic level of analysis (strain, species, genus, family)
+
+Variable viral abundance patterns
+
+When viral loads appear inconsistent across studies, consider:
+
+Disease activity during sampling
+
+Active inflammation: enhanced prophage induction leading to apparent viral blooms
+
+Remission or controlled disease: predominantly lysogenic state with lower viral detection
+
+Treatment status: therapy-naive versus post-treatment samples represent distinct viral landscapes
+
+Quantification and normalization methods
+
+Virus-to-bacteria ratio (VBR): influenced by bacterial population fluctuations
+
+Absolute viral counts: requires specialized quantification protocols
+
+Relative abundance: may mislead if total microbial load varies
+
+Sample type and location
+
+Faecal samples: primarily represent luminal viral populations
+
+Mucosal biopsies: capture tissue-associated or mucosal-embedded viral communities
+
+These populations may differ substantially in composition and abundance
+
+Inconsistent phage–host relationship assignments
+
+When the same phage is linked to different bacterial hosts across studies:
+
+Methods of host prediction and confidence levels
+
+See Table 2
+
+Host range considerations
+
+Assumed narrow (species-specific) versus demonstrated broad host range
+
+Environmental conditions affecting host specificity
+
+Evidence of in vivo host-jumping events
+
+Presence or absence of specific viral taxa
+
+When viral families appear dominant in some studies, but absent in others:
+
+Nucleic acid extraction protocols
+
+Kit-specific viral recovery biases
+
+Single-stranded DNA (ssDNA) viruses (for example, Microviridae) require specialized extraction/amplification
+
+RNA viruses excluded in DNA-only protocols
+
+Sequencing methodology
+
+Short-read sequencing: superior diversity detection but may fragment large genomes
+
+Long-read sequencing: improved genome completion but potentially misses low-abundance taxa
+
+Amplification methods (multiple displacement amplification (MDA), whole genome amplification (WGA)): introduce substantial compositional bias
+
+Bioinformatic analysis pipeline
+
+Tool-specific detection biases for different viral families
+
+Reference database version and completeness
+
+Quality filtering stringency affecting retention of specific viral types
+
+Conflicting functional interpretations
+
+When the same viral community appears beneficial in one context but detrimental in another:
+
+Experimental system differences
+
+Germ-free versus conventional animals: distinct colonization dynamics
+
+Humanized versus native microbiota: different ecological network structures
+
+Single phage versus community transplantation: isolated versus network-mediated effects
+
+Outcome measurements
+
+Inflammatory markers versus bacterial diversity versus metabolic parameters
+
+Acute versus chronic effects
+
+Local (intestinal) versus systemic effects
+
+Box 2 | Key principles for interpretation of gut virome research
+
+Methodological complementarity
+
+No single method captures the complete virome. Each approach reveals different aspects of viral ecology that should be considered complementary rather than contradictory.
+
+Technical versus biological variation
+
+Apparent contradictions between studies often reflect methodological differences rather than true biological variability. This framework should be applied before accepting conflicting results as biological reality.
+
+Therapeutic implications
+
+Accurate therapeutic targeting requires a precise understanding of which viral populations are captured by different methods. The causative viral agents may only be detectable through specific methodological approaches.
+
+Study design considerations
+
+Future investigations should employ multiple complementary methods to construct comprehensive pictures of virome dynamics. Meta-analyses must ensure methodological consistency when synthesizing results across studies.
+
+Application guidelines
+
+When evaluating any virome study, systematically address: which viral population does the employed method preferentially capture? what viral components might be systematically excluded or under-represented?; could alternative methodological approaches yield different or opposing results?; how do methodological constraints limit biological interpretation?
+
+Key points
+
+The gut virome, primarily composed of bacteriophages and eukaryotic viruses, substantially influences gut microbiota dynamics, immune responses and metabolic health.
+
+Next-generation methods and state-of-the-art bioinformatics tools have identified numerous newly characterized viral entities with potential associations to health and disease.
+
+Individual virome composition exhibits high variability, shaped by early-life exposures and sustained environmental interactions, and alterations in gut virome composition correlate with diverse diseases, including inflammatory bowel diseases, metabolic disorders, neurological conditions and cancer.
+
+Prophage induction, driven by environmental factors, profoundly influences microbial community structure and host immune responses.
+
+Therapeutic strategies such as phage therapy and faecal virome transplantation represent targeted approaches to restore gut microbial equilibrium.
+
+Addressing methodological biases and ‘viral dark matter’ is critical for elucidating the role of the gut virome in health and disease, as disease states are commonly linked to high prevalence uncharacterized viral entities.
+
+Peer review information Nature Reviews Gastroenterology & Hepatology thanks Tao Zuo, who co-reviewed with Ziyu Huang; and Junhua Li for their contribution to the peer review of this work.
+
+
+References
+
+1. Zheludev IN Viroid-like colonists of human microbiomes. Cell 187, 6521–6536.e18 (2024).39481381 10.1016/j.cell.2024.09.033 PMC11949080
+2. Hoyles L Characterization of virus-like particles associated with the human faecal and caecal microbiota. Res. Microbiol 165, 803–812 (2014).25463385 10.1016/j.resmic.2014.10.006
+3. Shkoporov AN & Hill C Bacteriophages of the human gut: the “known unknown” of the microbiome. Cell Host Microbe 25, 195–209 (2019).30763534 10.1016/j.chom.2019.01.017
+4. Liang G & Bushman FD The human virome: assembly, composition and host interactions. Nat. Rev. Microbiol 19, 514–527 (2021).33785903 10.1038/s41579-021-00536-5 PMC8008777
+5. Sausset R , Petit MA , Gaboriau-Routhiau V & De Paepe M New insights into intestinal phages. Mucosal Immunol. 13, 205–215 (2020).31907364 10.1038/s41385-019-0250-5 PMC7039812
+6. Turner D Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee. Arch. Virol 168, 74 (2023).36683075 10.1007/s00705-022-05694-2 PMC9868039
+7. Sørensen AN , Woudstra C , Sørensen MCH & Brøndsted L Subtypes of tail spike proteins predicts the host range of Ackermannviridae phages. Comput. Struct. Biotechnol. J 19, 4854–4867 (2021).34527194 10.1016/j.csbj.2021.08.030 PMC8432352
+8. Clooney AG Whole-virome analysis sheds light on viral dark matter in inflammatory bowel disease. Cell Host Microbe 26, 764–778.e5 (2019).31757768 10.1016/j.chom.2019.10.009
+9. Krishnamurthy SR & Wang D Origins and challenges of viral dark matter. Virus Res. 239, 136–142 (2017).28192164 10.1016/j.virusres.2017.02.002
+10. Sullivan MB Viromes, not gene markers, for studying double-stranded DNA virus communities. J. Virol 89, 2459–2461 (2015).25540374 10.1128/JVI.03289-14 PMC4325738
+11. Aggarwala V , Liang G & Bushman FD Viral communities of the human gut: metagenomic analysis of composition and dynamics. Mob. DNA 8, 12 (2017).29026445 10.1186/s13100-017-0095-y PMC5627405
+12. Camarillo-Guerrero LF , Almeida A , Rangel-Pineros G , Finn RD & Lawley TD Massive expansion of human gut bacteriophage diversity. Cell 184, 1098–1109.e9 (2021).33606979 10.1016/j.cell.2021.01.029 PMC7895897
+13. Benler S Thousands of previously unknown phages discovered in whole-community human gut metagenomes. Microbiome 9, 78 (2021).33781338 10.1186/s40168-021-01017-w PMC8008677
+14. Guerin E Biology and taxonomy of crAss-like bacteriophages, the most abundant virus in the human gut. Cell Host Microbe 24, 653–664.e6 (2018).30449316 10.1016/j.chom.2018.10.002
+15. Koonin EV & Yutin N The crAss-like phage group: how metagenomics reshaped the human virome. Trends Microbiol. 28, 349–359 (2020).32298613 10.1016/j.tim.2020.01.010
+16. Ramos-Barbero MD Characterization of crAss-like phage isolates highlights Crassvirales genetic heterogeneity and worldwide distribution. Nat. Commun 14, 4295 (2023).37463935 10.1038/s41467-023-40098-z PMC10354031
+17. Dutilh BE A highly abundant bacteriophage discovered in the unknown sequences of human faecal metagenomes. Nat. Commun 5, 4498 (2014).25058116 10.1038/ncomms5498 PMC4111155
+18. Yutin N Discovery of an expansive bacteriophage family that includes the most abundant viruses from the human gut. Nat. Microbiol 3, 38–46 (2018).29133882 10.1038/s41564-017-0053-y PMC5736458
+19. Gulyaeva A Discovery, diversity, and functional associations of crAss-like phages in human gut metagenomes from four Dutch cohorts. Cell Rep. 38, 110204 (2022).35021085 10.1016/j.celrep.2021.110204
+20. Yutin N Analysis of metagenome-assembled viral genomes from the human gut reveals diverse putative CrAss-like phages with unique genomic features. Nat. Commun 12, 1044 (2021).33594055 10.1038/s41467-021-21350-w PMC7886860
+21. Siranosian BA , Tamburini FB , Sherlock G & Bhatt AS Acquisition, transmission and strain diversity of human gut-colonizing crAss-like phages. Nat. Commun 11, 280 (2020).31941900 10.1038/s41467-019-14103-3 PMC6962324
+22. Remesh AT & Viswanathan R CrAss-like phages: from discovery in human fecal metagenome to application as a microbial source tracking marker. Food Environ. Virol 16, 121–135 (2024).38413544 10.1007/s12560-024-09584-5
+23. Cook R Decoding huge phage diversity: a taxonomic classification of Lak megaphages. J. Gen. Virol 105, 001997 (2024).38814706 10.1099/jgv.0.001997 PMC11165621
+24. Devoto AE Megaphages infect Prevotella and variants are widespread in gut microbiomes. Nat. Microbiol 4, 693–700 (2019).30692672 10.1038/s41564-018-0338-9 PMC6784885
+25. De Filippo C Impact of diet in shaping gut microbiota revealed by a comparative study in children from Europe and rural Africa. Proc. Natl Acad. Sci. USA 107, 14691–14696 (2010).20679230 10.1073/pnas.1005963107 PMC2930426
+26. Yutin N Varidnaviruses in the human gut: a major expansion of the order Vinavirales. Viruses 14, 1842 (2022).36146653 10.3390/v14091842 PMC9502842
+27. Lecuit M & Eloit M in The Microbiota in Gastrointestinal Pathophysiology Ch. 21 (eds Floch MH , Ringel Y & Allan Walker W ) 179–183 (Academic, 2017).
+28. Garmaeva S Stability of the human gut virome and effect of gluten-free diet. Cell Rep. 35, 109132 (2021).34010651 10.1016/j.celrep.2021.109132
+29. Wylie KM Metagenomic analysis of double-stranded DNA viruses in healthy adults. BMC Biol. 12, 71 (2014).25212266 10.1186/s12915-014-0071-7 PMC4177058
+30. Finkbeiner SR Metagenomic analysis of human diarrhea: viral detection and discovery. PLoS Pathog. 4, e1000011 (2008).18398449 10.1371/journal.ppat.1000011 PMC2290972
+31. Duerkop BA & Hooper LV Resident viruses and their interactions with the immune system. Nat. Immunol 14, 654–659 (2013).23778792 10.1038/ni.2614 PMC3760236
+32. Pyöriä L Unmasking the tissue-resident eukaryotic DNA virome in humans. Nucleic Acids Res. 51, 3223–3239 (2023).36951096 10.1093/nar/gkad199 PMC10123123
+33. Zhang T RNA viral community in human feces: prevalence of plant pathogenic viruses. PLoS Biol. 4, e3 (2005).10.1371/journal.pbio.0040003 PMC1310650 16336043
+34. Medvedeva S , Borrel G , Krupovic M & Gribaldo S A compendium of viruses from methanogenic archaea reveals their diversity and adaptations to the gut environment. Nat. Microbiol 8, 2170–2182 (2023).37749252 10.1038/s41564-023-01485-w
+35. Kosmopoulos JC , Klier KM , Langwig MV , Tran PQ & Anantharaman K Viromes vs. mixed community metagenomes: choice of method dictates interpretation of viral community ecology. Microbiome 12, 195 (2024).39375774 10.1186/s40168-024-01905-x PMC11460016
+36. Marbouty M , Thierry A , Millot GA & Koszul R MetaHiC phage-bacteria infection network reveals active cycling phages of the healthy human gut. eLife 10, e60608 (2021).33634788 10.7554/eLife.60608 PMC7963479
+37. Roux S iPHoP: an integrated machine learning framework to maximize host prediction for metagenome-derived viruses of archaea and bacteria. PLoS Biol. 21, e3002083 (2023).37083735 10.1371/journal.pbio.3002083 PMC10155999
+38. Greenman N , Hassouneh SA-D , Abdelli LS , Johnston C & Azarian T Improving bacterial metagenomic research through long-read sequencing. Microorganisms 12, 935 (2024).38792764 10.3390/microorganisms12050935 PMC11124196
+39. Nishijima S Extensive gut virome variation and its associations with host and environmental factors in a population-level cohort. Nat. Commun 13, 5252 (2022).36068216 10.1038/s41467-022-32832-w PMC9448778
+40. Ma Y , You X , Mai G , Tokuyasu T & Liu C A human gut phage catalog correlates the gut phageome with type 2 diabetes. Microbiome 6, 24 (2018).29391057 10.1186/s40168-018-0410-y PMC5796561
+41. Soria-Villalba A Comparison of experimental methodologies based on bulk-metagenome and virus-like particle enrichment: pros and cons for representativeness and reproducibility in the study of the fecal human virome. Microorganisms 12, 162 (2024).38257988 10.3390/microorganisms12010162 PMC10820677
+42. Wylie TN , Wylie KM , Herter BN & Storch GA Enhanced virome sequencing using targeted sequence capture. Genome Res. 25, 1910–1920 (2015).26395152 10.1101/gr.191049.115 PMC4665012
+43. Cook R Nanopore and Illumina sequencing reveal different viral populations from human gut samples. Microb. Genom 10, 001236 (2024).38683195 10.1099/mgen.0.001236 PMC11092197
+44. Andrade-Martínez JS Computational tools for the analysis of uncultivated phage genomes. Microbiol. Mol. Biol. Rev 86, e00004–21 (2022).35311574 10.1128/mmbr.00004-21 PMC9199400
+45. Allen LZ Single virus genomics: a new tool for virus discovery. PLoS ONE 6, e17722 (2011).21436882 10.1371/journal.pone.0017722 PMC3059205
+46. Roux S Minimum information about an uncultivated virus genome (MIUViG). Nat. Biotechnol 37, 29–37 (2019).30556814 10.1038/nbt.4306 PMC6871006
+47. Martínez Martínez J , Martinez-Hernandez F & Martinez-Garcia M Single-virus genomics and beyond. Nat. Rev. Microbiol 18, 705–716 (2020).33024311 10.1038/s41579-020-00444-0
+48. Martinez-Hernandez F Single-virus genomics reveals hidden cosmopolitan and abundant viruses. Nat. Commun 8, 15892 (2017).28643787 10.1038/ncomms15892 PMC5490008
+49. Martínez JM , Swan BK & Wilson WH Marine viruses, a genetic reservoir revealed by targeted viromics. ISME J. 8, 1079–1088 (2014).24304671 10.1038/ismej.2013.214 PMC3996692
+50. De la Cruz Peña MJ Deciphering the human virome with single-virus genomics and metagenomics. Viruses 10, 113 (2018).29509721 10.3390/v10030113 PMC5869506
+51. Stepanauskas R Improved genome recovery and integrated cell-size analyses of individual uncultured microbial cells and viral particles. Nat. Commun 8, 84 (2017).28729688 10.1038/s41467-017-00128-z PMC5519541
+52. Campbell DE Single cell viral tagging of Faecalibacterium prausnitzii reveals rare bacteriophages omitted by other techniques. Gut Microbes 17, 2526719 (2025).40754853 10.1080/19490976.2025.2526719 PMC12323421
+53. Džunková M Defining the human gut host–phage network through single-cell viral tagging. Nat. Microbiol 4, 2192–2203 (2019).31384000 10.1038/s41564-019-0526-2
+54. Marbouty M , Baudry L , Cournac A & Koszul R Scaffolding bacterial genomes and probing host–virus interactions in gut microbiome by proximity ligation (chromosome capture) assay. Sci. Adv 3, e1602105 (2017).28232956 10.1126/sciadv.1602105 PMC5315449
+55. Ortiz de Ora L Phollow reveals in situ phage transmission dynamics in the zebrafish gut microbiome at single-virion resolution. Nat. Microbiol 10, 1067–1083 (2025).40251446 10.1038/s41564-025-01981-1 PMC12055606
+56. Nayfach S Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome. Nat. Microbiol 6, 960–970 (2021).34168315 10.1038/s41564-021-00928-6 PMC8241571
+57. Wang G Optimization and evaluation of viral metagenomic amplification and sequencing procedures toward a genome-level resolution of the human fecal DNA virome. J. Adv. Res 48, 75–86 (2023).35995413 10.1016/j.jare.2022.08.011 PMC10248800
+58. Li Y Biases and complementarity in gut viromes obtained from bulk and virus-like particle-enriched metagenomic sequencing. Microbiol. Spectr 13, e0001325 (2025).40600714 10.1128/spectrum.00013-25 PMC12323601
+59. Brown-Jaque M Detection of bacteriophage particles containing antibiotic resistance genes in the sputum of cystic fibrosis patients. Front. Microbiol 9, 856 (2018).29765367 10.3389/fmicb.2018.00856 PMC5938348
+60. Gómez-Gómez C Infectious phage particles packaging antibiotic resistance genes found in meat products and chicken feces. Sci. Rep 9, 13281 (2019).31527758 10.1038/s41598-019-49898-0 PMC6746790
+61. Modi SR , Lee HH , Spina CS & Collins JJ Antibiotic treatment expands the resistance reservoir and ecological network of the phage metagenome. Nature 499, 219–222 (2013).23748443 10.1038/nature12212 PMC3710538
+62. Eichhorn I Lysogenic conversion of atypical enteropathogenic Escherichia coli (aEPEC) from human, murine, and bovine origin with bacteriophage Φ3538 Δstx2::cat proves their enterohemorrhagic E. coli (EHEC) progeny. Int. J. Med. Microbiol 308, 890–898 (2018).29937391 10.1016/j.ijmm.2018.06.005
+63. Barr JJ Bacteriophage adhering to mucus provide a non-host-derived immunity. Proc. Natl Acad. Sci. USA 110, 10771–10776 (2013).23690590 10.1073/pnas.1305923110 PMC3696810
+64. Spus M , Wardhana YR , Wolkers-Rooijackers JCM , Abee T & Smid EJ Lytic bacteriophages affect the population dynamics of multi-strain microbial communities. Microbiome Res. Rep 2, 33 (2023).38045922 10.20517/mrr.2023.20 PMC10688827
+65. Zuo T Gut mucosal virome alterations in ulcerative colitis. Gut 68, 1169–1179 (2019).30842211 10.1136/gutjnl-2018-318131 PMC6582748
+66. Pal C , Maciá MD , Oliver A , Schachar I & Buckling A Coevolution with viruses drives the evolution of bacterial mutation rates. Nature 450, 1079–1081 (2007).18059461 10.1038/nature06350
+67. Hussain FA Rapid evolutionary turnover of mobile genetic elements drives bacterial resistance to phages. Science 374, 488–492 (2021).34672730 10.1126/science.abb1083
+68. Buckling A & Rainey PB Antagonistic coevolution between a bacterium and a bacteriophage. Proc. R. Soc. Lond. B Biol. Sci 269, 931–936 (2002).10.1098/rspb.2001.1945 PMC1690980 12028776
+69. Inglis LK , Roach MJ & Edwards RA Prophages: an integral but understudied component of the human microbiome. Microb. Genom 10, 001166 (2024).38264887 10.1099/mgen.0.001166 PMC10868603
+70. Sinha A , Qian A , Boutin T & Maurice CF Prophage induction contributes to alterations in the gut phageome during intestinal inflammation. Preprint at bioRxiv 10.1101/2024.12.03.626644 (2024).
+71. Howard-Varona C , Hargreaves KR , Abedon ST & Sullivan MB Lysogeny in nature: mechanisms, impact and ecology of temperate phages. ISME J. 11, 1511–1520 (2017).28291233 10.1038/ismej.2017.16 PMC5520141
+72. Roughgarden J Lytic/Lysogenic transition as a life-history switch. Virus Evol. 10, veae028 (2024).38756985 10.1093/ve/veae028 PMC11097211
+73. Sutcliffe SG , Shamash M , Hynes AP & Maurice CF Common oral medications lead to prophage induction in bacterial isolates from the human gut. Viruses 13, 455 (2021).33799646 10.3390/v13030455 PMC8000485
+74. Zhang M , Zhang T , Yu M , Chen Y-L & Jin M The life cycle transitions of temperate phages: regulating factors and potential ecological implications. Viruses 14, 1904 (2022).36146712 10.3390/v14091904 PMC9502458
+75. Boeckaerts D Predicting bacteriophage hosts based on sequences of annotated receptor-binding proteins. Sci. Rep 11, 1467 (2021).33446856 10.1038/s41598-021-81063-4 PMC7809048
+76. De Sordi L , Khanna V & Debarbieux L The gut microbiota facilitates drifts in the genetic diversity and infectivity of bacterial viruses. Cell Host Microbe 22, 801–808.e3 (2017).29174401 10.1016/j.chom.2017.10.010
+77. Le S Mapping the tail fiber as the receptor binding protein responsible for differential host specificity of Pseudomonas aeruginosa bacteriophages PaP1 and JG004. PLoS ONE 8, e68562 (2013).23874674 10.1371/journal.pone.0068562 PMC3706319
+78. Latka A Engineering the modular receptor-binding proteins of Klebsiella phages switches their capsule serotype specificity. mBio 12, e00455–21 (2021).33947754 10.1128/mBio.00455-21 PMC8262889
+79. Chen Y , Golding I , Sawai S , Guo L & Cox EC Population fitness and the regulation of Escherichia coli genes by bacterial viruses. PLoS Biol. 3, e229 (2005).15984911 10.1371/journal.pbio.0030229 PMC1151598
+80. Carey JN Phage integration alters the respiratory strategy of its host. eLife 8, e49081 (2019).31650957 10.7554/eLife.49081 PMC6814406
+81. Johansson MEV The inner of the two Muc2 mucin-dependent mucus layers in colon is devoid of bacteria. Proc. Natl Acad. Sci. USA 105, 15064–15069 (2008).18806221 10.1073/pnas.0803124105 PMC2567493
+82. Barton ES Herpesvirus latency confers symbiotic protection from bacterial infection. Nature 447, 326–329 (2007).17507983 10.1038/nature05762
+83. Pott J IFN-λ determines the intestinal epithelial antiviral host defense. Proc. Natl Acad. Sci. USA 108, 7944–7949 (2011).21518880 10.1073/pnas.1100552108 PMC3093475
+84. Ingle H Murine astrovirus tropism for goblet cells and enterocytes facilitates an IFN-λ response in vivo and in enteroid cultures. Mucosal Immunol. 14, 751–761 (2021).33674763 10.1038/s41385-021-00387-6 PMC8085034
+85. Ingle H IFN-λ derived from nonsusceptible enterocytes acts on tuft cells to limit persistent norovirus. Sci. Adv 9, eadi2562 (2023).37703370 10.1126/sciadv.adi2562 PMC10499323
+86. Josefowicz SZ , Lu L-F & Rudensky AY Regulatory T cells: mechanisms of differentiation and function. Annu. Rev. Immunol 30, 531–564 (2012).22224781 10.1146/annurev.immunol.25.022106.141623 PMC6066374
+87. Fleming A , Castro-Dopico T & Clatworthy MR B cell class switching in intestinal immunity in health and disease. Scand. J. Immunol 95, e13139 (2022).34978077 10.1111/sji.13139 PMC9285483
+88. Lisicka W Immunoglobulin A controls intestinal virus colonization to preserve immune homeostasis. Cell Host Microbe 33, 498–511.e10 (2025).40154490 10.1016/j.chom.2025.03.004 PMC12235565
+89. Conrey PE IgA deficiency destabilizes homeostasis toward intestinal microbes and increases systemic immune dysregulation. Sci. Immunol 8, eade2335 (2023).37235682 10.1126/sciimmunol.ade2335 PMC11623094
+90. Foxman EF & Iwasaki A Genome–virome interactions: examining the role of common viral infections in complex disease. Nat. Rev. Microbiol 9, 254–264 (2011).21407242 10.1038/nrmicro2541 PMC3678363
+91. Kernbauer E , Ding Y & Cadwell K An enteric virus can replace the beneficial function of commensal bacteria. Nature 516, 94–98 (2014).25409145 10.1038/nature13960 PMC4257755
+92. Hurst TP & Magiorkinis G Activation of the innate immune response by endogenous retroviruses. J. Gen. Virol 96, 1207–1218 (2015).26068187 10.1099/jgv.0.000017
+93. Park J Short-chain fatty acids induce both effector and regulatory T cells by suppression of histone deacetylases and regulation of the mTOR–S6K pathway. Mucosal Immunol. 8, 80–93 (2015).24917457 10.1038/mi.2014.44 PMC4263689
+94. Almeida GMF , Laanto E , Ashrafi R & Sundberg L-R Bacteriophage adherence to mucus mediates preventive protection against pathogenic bacteria. mBio 10, e01984–19 (2019).31744913 10.1128/mBio.01984-19 PMC6867891
+95. Godsil M , Ritz NL , Venkatesh S & Meeske AJ Gut phages and their interactions with bacterial and mammalian hosts. J. Bacteriol 207, e0042824 (2025).39846747 10.1128/jb.00428-24 PMC11844821
+96. Gogokhia L Expansion of bacteriophages is linked to aggravated intestinal inflammation and colitis. Cell Host Microbe 25, 285–299.e8 (2019).30763538 10.1016/j.chom.2019.01.008 PMC6885004
+97. Bomsel M & Alfsen A Entry of viruses through the epithelial barrier: pathogenic trickery. Nat. Rev. Mol. Cell Biol 4, 57–68 (2003).12511869 10.1038/nrm1005 PMC7097689
+98. Nguyen S Bacteriophage transcytosis provides a mechanism to cross epithelial cell layers. mBio 8, e01874–17 (2017).29162715 10.1128/mBio.01874-17 PMC5698557
+99. Van Belleghem JD , Dąbrowska K , Vaneechoutte M , Barr JJ & Bollyky PL Interactions between bacteriophage, bacteria, and the mammalian immune system. Viruses 11, 10 (2019).10.3390/v11010010 PMC6356784 30585199
+100. Bello-Morales R , Ripa I & López-Guerrero JA Extracellular vesicles in viral spread and antiviral response. Viruses 12, 623 (2020).32521696 10.3390/v12060623 PMC7354624
+101. Gregory AC The gut virome database reveals age-dependent patterns of virome diversity in the human gut. Cell Host Microbe 28, 724–740.e8 (2020).32841606 10.1016/j.chom.2020.08.003 PMC7443397
+102. Shkoporov AN The human gut virome is highly diverse, stable, and individual specific. Cell Host Microbe 26, 527–541.e5 (2019).31600503 10.1016/j.chom.2019.09.009
+103. Trinh JT , Székely T , Shao Q , Balázsi G & Zeng L Cell fate decisions emerge as phages cooperate or compete inside their host. Nat. Commun 8, 14341 (2017).28165024 10.1038/ncomms14341 PMC5303824
+104. Sutcliffe SG , Reyes A & Maurice CF Bacteriophages playing nice: lysogenic bacteriophage replication stable in the human gut microbiota. iScience 26, 106007 (2023).36798434 10.1016/j.isci.2023.106007 PMC9926308
+105. Huang D Adaptive strategies and ecological roles of phages in habitats under physicochemical stress. Trends Microbiol. 32, 902–916 (2024).38433027 10.1016/j.tim.2024.02.002
+106. Johansen J Centenarians have a diverse gut virome with the potential to modulate metabolism and promote healthy lifespan. Nat. Microbiol 8, 1064–1078 (2023).37188814 10.1038/s41564-023-01370-6
+107. Sato Y Novel bile acid biosynthetic pathways are enriched in the microbiome of centenarians. Nature 599, 458–464 (2021).34325466 10.1038/s41586-021-03832-5
+108. Huang Y Mapping the early life gut microbiome in neonates with critical congenital heart disease: multiomics insights and implications for host metabolic and immunological health. Microbiome 10, 245 (2022).36581858 10.1186/s40168-022-01437-2 PMC9801562
+109. Maqsood R Discordant transmission of bacteria and viruses from mothers to babies at birth. Microbiome 7, 156 (2019).31823811 10.1186/s40168-019-0766-7 PMC6902606
+110. Liang G The stepwise assembly of the neonatal virome is modulated by breastfeeding. Nature 581, 470–474 (2020).32461640 10.1038/s41586-020-2192-1 PMC7263352
+111. Walters WA Longitudinal comparison of the developing gut virome in infants and their mothers. Cell Host Microbe 31, 187–198.e3 (2023).36758519 10.1016/j.chom.2023.01.003 PMC9950819
+112. Garmaeva S Transmission and dynamics of mother–infant gut viruses during pregnancy and early life. Nat. Commun 15, 1945 (2024).38431663 10.1038/s41467-024-45257-4 PMC10908809
+113. Lou YC Infant gut DNA bacteriophage strain persistence during the first 3 years of life. Cell Host Microbe 32, 35–47.e6 (2024).38096814 10.1016/j.chom.2023.11.015 PMC11156429
+114. Lim ES Early life dynamics of the human gut virome and bacterial microbiome in infants. Nat. Med 21, 1228–1234 (2015).26366711 10.1038/nm.3950 PMC4710368
+115. Kaelin EA Longitudinal gut virome analysis identifies specific viral signatures that precede necrotizing enterocolitis onset in preterm infants. Nat. Microbiol 7, 653–662 (2022).35449461 10.1038/s41564-022-01096-x PMC9064801
+116. Olm MR Necrotizing enterocolitis is preceded by increased gut bacterial replication, Klebsiella, and fimbriae-encoding bacteria. Sci. Adv 5, eaax5727 (2019).31844663 10.1126/sciadv.aax5727 PMC6905865
+117. Redgwell TA Prophages in the infant gut are pervasively induced and may modulate the functionality of their hosts. NPJ Biofilms Microbiomes 11, 46 (2025).40108202 10.1038/s41522-025-00674-1 PMC11923282
+118. Leal Rodríguez C The infant gut virome is associated with preschool asthma risk independently of bacteria. Nat. Med 30, 138–148 (2024).38102298 10.1038/s41591-023-02685-x
+119. Coffey MJ The intestinal virome in children with cystic fibrosis differs from healthy controls. PLoS ONE 15, e0233557 (2020).32442222 10.1371/journal.pone.0233557 PMC7244107
+120. Li H Comparison of gut viral communities in children under 5 years old and newborns. Virol. J 20, 52 (2023).36973710 10.1186/s12985-023-02013-2 PMC10045071
+121. Muzammil MA Advancements in inflammatory bowel disease: a narrative review of diagnostics, management, epidemiology, prevalence, patient outcomes, quality of life, and clinical presentation. Cureus 15, e41120 (2023).37519622 10.7759/cureus.41120 PMC10382792
+122. Fernandes MA Enteric virome and bacterial microbiota in children with ulcerative colitis and Crohn disease. J. Pediatr. Gastroenterol. Nutr 68, 30–36 (2019).30169455 10.1097/MPG.0000000000002140 PMC6310095
+123. Norman JM Disease-specific alterations in the enteric virome in inflammatory bowel disease. Cell 160, 447–460 (2015).25619688 10.1016/j.cell.2015.01.002 PMC4312520
+124. Kong C , Liu G , Kalady MF , Jin T & Ma Y Dysbiosis of the stool DNA and RNA virome in Crohn’s disease. J. Med. Virol 95, e28573 (2023).36772850 10.1002/jmv.28573
+125. Cao Z The gut ileal mucosal virome is disturbed in patients with Crohn’s disease and exacerbates intestinal inflammation in mice. Nat. Commun 15, 1638 (2024).38388538 10.1038/s41467-024-45794-y PMC10884039
+126. Yan A Multiomic spatial analysis reveals a distinct mucosa-associated virome. Gut Microbes 15, 2177488 (2023).36823020 10.1080/19490976.2023.2177488 PMC9980608
+127. Stockdale SR Interpersonal variability of the human gut virome confounds disease signal detection in IBD. Commun. Biol 6, 221 (2023).36841913 10.1038/s42003-023-04592-w PMC9968284
+128. Liang G Dynamics of the stool virome in very early-onset inflammatory bowel disease. J. Crohns Colitis 14, 1600–1610 (2020).32406906 10.1093/ecco-jcc/jjaa094 PMC7648169
+129. Ungaro F Metagenomic analysis of intestinal mucosa revealed a specific eukaryotic gut virome signature in early-diagnosed inflammatory bowel disease. Gut Microbes 10, 149–158 (2019).30252582 10.1080/19490976.2018.1511664 PMC6546319
+130. Sinha A Transplantation of bacteriophages from ulcerative colitis patients shifts the gut bacteriome and exacerbates the severity of DSS colitis. Microbiome 10, 105 (2022).35799219 10.1186/s40168-022-01275-2 PMC9264660
+131. Tian X Gut virome-wide association analysis identifies cross-population viral signatures for inflammatory bowel disease. Microbiome 12, 130 (2024).39026313 10.1186/s40168-024-01832-x PMC11256409
+132. Adiliaghdam F Human enteric viruses autonomously shape inflammatory bowel disease phenotype through divergent innate immunomodulation. Sci. Immunol 7, eabn6660 (2022).35394816 10.1126/sciimmunol.abn6660 PMC9416881
+133. Cervantes-Echeverría M , Gallardo-Becerra L , Cornejo-Granados F & Ochoa-Leyva A The two-faced role of crassphage subfamilies in obesity and metabolic syndrome: between good and evil. Genes 14, 139 (2023).36672880 10.3390/genes14010139 PMC9858991
+134. de Jonge PA Gut virome profiling identifies a widespread bacteriophage family associated with metabolic syndrome. Nat. Commun 13, 3594 (2022).35739117 10.1038/s41467-022-31390-5 PMC9226167
+135. Castells-Nobau A Microviridae bacteriophages influence behavioural hallmarks of food addiction via tryptophan and tyrosine signalling pathways. Nat. Metab 6, 2157–2186 (2024).39587339 10.1038/s42255-024-01157-x
+136. Yang K Alterations in the gut virome in obesity and type 2 diabetes mellitus. Gastroenterology 161, 1257–1269.e13 (2021).34175280 10.1053/j.gastro.2021.06.056
+137. Zheng P , Li Z & Zhou Z Gut microbiome in type 1 diabetes: a comprehensive review. Diabetes Metab. Res. Rev 34, e3043 (2018).29929213 10.1002/dmrr.3043 PMC6220847
+138. Lang S Intestinal virome signature associated with severity of nonalcoholic fatty liver disease. Gastroenterology 159, 1839–1852 (2020).32652145 10.1053/j.gastro.2020.07.005 PMC8404510
+139. Jiang L Intestinal virome in patients with alcoholic hepatitis. Hepatology 72, 2182–2196 (2020).32654263 10.1002/hep.31459 PMC8159727
+140. Li G Exploring the relationship between the gut mucosal virome and colorectal cancer: characteristics and correlations. Cancers 15, 3555 (2023).37509218 10.3390/cancers15143555 PMC10376985
+141. Nakatsu G Alterations in enteric virome are associated with colorectal cancer and survival outcomes. Gastroenterology 155, 529–541.e5 (2018).29689266 10.1053/j.gastro.2018.04.018
+142. Luo S Gut virome profiling identifies an association between temperate phages and colorectal cancer promoted by Helicobacter pylori infection. Gut Microbes 15, 2257291 (2023).37747149 10.1080/19490976.2023.2257291 PMC10578192
+143. Emlet C , Ruffin M & Lamendella R Enteric virome and carcinogenesis in the gut. Dig. Dis. Sci 65, 852–864 (2020).32060814 10.1007/s10620-020-06126-4
+144. Broecker F & Moelling K The roles of the virome in cancer. Microorganisms 9, 2538 (2021).34946139 10.3390/microorganisms9122538 PMC8706120
+145. Diard M Inflammation boosts bacteriophage transfer between Salmonella spp. Science 355, 1211–1215 (2017).28302859 10.1126/science.aaf8451
+146. Cornuault JK Phages infecting Faecalibacterium prausnitzii belong to novel viral genera that help to decipher intestinal viromes. Microbiome 6, 65 (2018).29615108 10.1186/s40168-018-0452-1 PMC5883640
+147. Borin JM Fecal virome transplantation is sufficient to alter fecal microbiota and drive lean and obese body phenotypes in mice. Gut Microbes 15, 2236750 (2023).37475473 10.1080/19490976.2023.2236750 PMC10364654
+148. Mao X Transfer of modified gut viromes improves symptoms associated with metabolic syndrome in obese male mice. Nat. Commun 15, 4704 (2024).38830845 10.1038/s41467-024-49152-w PMC11148109
+149. Sartor RB & Wu GD Roles for intestinal bacteria, viruses, and fungi in pathogenesis of inflammatory bowel diseases and therapeutic approaches. Gastroenterology 152, 327–339.e4 (2017).27769810 10.1053/j.gastro.2016.10.012 PMC5511756
+150. Draper LA Autochthonous faecal viral transfer (FVT) impacts the murine microbiome after antibiotic perturbation. BMC Biol. 18, 173 (2020).33218339 10.1186/s12915-020-00906-0 PMC7679995
+151. Rasmussen TS Fecal virome transfer improves proliferation of commensal gut Akkermansia muciniphila and unexpectedly enhances the fertility rate in laboratory mice. Gut Microbes 15, 2208504 (2023).37150906 10.1080/19490976.2023.2208504 PMC10167882
+152. Federici S Targeted suppression of human IBD-associated gut microbiota commensals by phage consortia for treatment of intestinal inflammation. Cell 185, 2879–2898.e24 (2022).35931020 10.1016/j.cell.2022.07.003
+153. Dalmasso M Three new Escherichia coli phages from the human gut show promising potential for phage therapy. PLoS ONE 11, e0156773 (2016).27280590 10.1371/journal.pone.0156773 PMC4900583
+154. Wandro S Phage cocktails constrain the growth of Enterococcus. mSystems 7, e00019–22 (2022).35762793 10.1128/msystems.00019-22 PMC9426582
+155. Wilde J Assessing phage–host population dynamics by reintroducing virulent viruses to synthetic microbiomes. Cell Host Microbe 32, 768–778.e9 (2024).38653241 10.1016/j.chom.2024.04.001
+156. Cheng M Endolysin LysEF-P10 shows potential as an alternative treatment strategy for multidrug-resistant Enterococcus faecalis infections. Sci. Rep 7, 10164 (2017).28860505 10.1038/s41598-017-10755-7 PMC5579260
+157. Schmelcher M Evolutionarily distinct bacteriophage endolysins featuring conserved peptidoglycan cleavage sites protect mice from MRSA infection. J. Antimicrob. Chemother 70, 1453–1465 (2015).25630640 10.1093/jac/dku552 PMC4398471
+158. Zimmer M , Vukov N , Scherer S & Loessner MJ The murein hydrolase of the bacteriophage φ3626 dual lysis system is active against all tested Clostridium perfringens strains. Appl. Environ. Microbiol 68, 5311–5317 (2002).12406719 10.1128/AEM.68.11.5311-5317.2002 PMC129905
+159. Cervantes-Echeverría MJ Fecal virome transplantation (FVT) from healthy humans remodels the gut bacteriome and virome and reduces metabolic syndrome in mice. Preprint at bioRxiv 10.1101/2024.02.17.580809 (2024).
+160. Ott SJ Efficacy of sterile fecal filtrate transfer for treating patients with Clostridium difficile infection. Gastroenterology 152, 799–811.e7 (2017).27866880 10.1053/j.gastro.2016.11.010
+161. Rasmussen TS Overcoming donor variability and risks associated with fecal microbiota transplants through bacteriophage-mediated treatments. Microbiome 12, 119 (2024).38951925 10.1186/s40168-024-01820-1 PMC11218093
+162. Offersen SM Chemostat culturing reduces fecal eukaryotic virus load and delays diarrhea after virome transplantation. eLife 14, RP105991 (2025).
+163. Yu Y , Wang W & Zhang F The next generation fecal microbiota transplantation: to transplant bacteria or virome. Adv. Sci 10, 2301097 (2023).10.1002/advs.202301097 PMC10724401 37914662
+164. Hsu BB Dynamic modulation of the gut microbiota and metabolome by bacteriophages in a mouse model. Cell Host Microbe 25, 803–814.e5 (2019).31175044 10.1016/j.chom.2019.05.001 PMC6579560
+165. Rasmussen TS Faecal virome transplantation decreases symptoms of type 2 diabetes and obesity in a murine model. Gut 69, 2122–2130 (2020).32165408 10.1136/gutjnl-2019-320005
+166. Wortelboer K Phage-microbe dynamics after sterile faecal filtrate transplantation in individuals with metabolic syndrome: a double-blind, randomised, placebo-controlled clinical trial assessing efficacy and safety. Nat. Commun 14, 5600 (2023).37699894 10.1038/s41467-023-41329-z PMC10497675
+167. Li N Faecal phageome transplantation alleviates intermittent intestinal inflammation in IBD and the timing of transplantation matters: a preclinical proof-of-concept study in mice. Gut 74, 868–870 (2025).39562050 10.1136/gutjnl-2024-333598
+168. Virgin HW The virome in mammalian physiology and disease. Cell 157, 142–150 (2014).24679532 10.1016/j.cell.2014.02.032 PMC3977141
+169. National Institutes of Health. Human Virome Program. NIH https://commonfund.nih.gov/humanvirome (2025).
+170. Galiez C , Siebert M , Enault F , Vincent J & Söding J WIsH: who is the host? Predicting prokaryotic hosts from metagenomic phage contigs. Bioinformatics 33, 3113–3114 (2017).28957499 10.1093/bioinformatics/btx383 PMC5870724
+171. Villarroel J HostPhinder: a phage host prediction tool. Viruses 8, 116 (2016).27153081 10.3390/v8050116 PMC4885074
+172. Wang W A network-based integrated framework for predicting virus–prokaryote interactions. Nar. Genomics Bioinforma 2, lqaa044 (2020).10.1093/nargab/lqaa044 PMC7324143 32626849
+173. Lu C Prokaryotic virus host predictor: a Gaussian model for host prediction of prokaryotic viruses in metagenomics. BMC Biol. 19, 5 (2021).33441133 10.1186/s12915-020-00938-6 PMC7807511
+174. Coutinho FH RaFAH: host prediction for viruses of bacteria and archaea based on protein content. Patterns 2, 100274 (2021).34286299 10.1016/j.patter.2021.100274 PMC8276007
+175. Friedman J & Alm EJ Inferring correlation networks from genomic survey data. PLoS Comput. Biol 8, e1002687 (2012).23028285 10.1371/journal.pcbi.1002687 PMC3447976
+176. Faust K Microbial co-occurrence relationships in the human microbiome. PLoS Comput. Biol 8, e1002606 (2012).22807668 10.1371/journal.pcbi.1002606 PMC3395616
+177. Kurtz ZD Sparse and compositionally robust inference of microbial ecological networks. PLoS Comput. Biol 11, e1004226 (2015).25950956 10.1371/journal.pcbi.1004226 PMC4423992
+178. Zhang R SpacePHARER: sensitive identification of phages from CRISPR spacers in prokaryotic hosts. Bioinformatics 37, 3364–3366 (2021).33792634 10.1093/bioinformatics/btab222 PMC8504623
+179. Zhang F CRISPRminer is a knowledge base for exploring CRISPR-Cas systems in microbe and phage interactions. Commun. Biol 1, 180 (2018).30393777 10.1038/s42003-018-0184-6 PMC6208339
+180. Dion MB Streamlining CRISPR spacer-based bacterial host predictions to decipher the viral dark matter. Nucleic Acids Res. 49, 3127–3138 (2021).33677572 10.1093/nar/gkab133 PMC8034630
+181. Altschul SF , Gish W , Miller W , Myers EW & Lipman DJ Basic local alignment search tool. J. Mol. Biol 215, 403–410 (1990).2231712 10.1016/S0022-2836(05)80360-2
+182. Press MO Hi-C deconvolution of a human gut microbiome yields high-quality draft genomes and reveals plasmid-genome interactions. Preprint at bioRxiv 10.1101/198713 (2017).
+183. DeMaere MZ & Darling AE bin3C: exploiting Hi-C sequencing data to accurately resolve metagenome-assembled genomes. Genome Biol. 20, 46 (2019).30808380 10.1186/s13059-019-1643-1 PMC6391755
+184. Burton JN , Liachko I , Dunham MJ & Shendure J Species-level deconvolution of metagenome assemblies with Hi-C–based contact probability maps. G3 4, 1339–1346 (2014).24855317 10.1534/g3.114.011825 PMC4455782
+185. Du Y , Laperriere SM , Fuhrman J & Sun F Normalizing metagenomic Hi-C data and detecting spurious contacts using zero-inflated negative binomial regression. J. Comput. Biol 29, 106–120 (2022).35020412 10.1089/cmb.2021.0439 PMC8892984
+186. Coclet C , Camargo AP & Roux S MVP: a modular viromics pipeline to identify, filter, cluster, annotate, and bin viruses from metagenomes. mSystems 9, e0088824 (2024).39352141 10.1128/msystems.00888-24 PMC11498083
+187. Zhou Z , Martin C , Kosmopoulos JC & Anantharaman K ViWrap: a modular pipeline to identify, bin, classify, and predict viral–host relationships for viruses from metagenomes. iMeta 2, e118 (2023).38152703 10.1002/imt2.118 PMC10751022
+188. Roach MJ Hecatomb: an integrated software platform for viral metagenomics. GigaScience 13, giae020 (2024).38832467 10.1093/gigascience/giae020 PMC11148595
+189. Ru J , Khan Mirzaei M , Xue J , Peng X & Deng L ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis. Gut Microbes 15, 2192522 (2023).36998174 10.1080/19490976.2023.2192522 PMC10072060
+190. Plyusnin I , Vapalahti O , Sironen T , Kant R & Smura T Enhanced viral metagenomics with Lazypipe 2. Viruses 15, 431 (2023).36851645 10.3390/v15020431 PMC9960287
+191. Shang J , Peng C , Liao H , Tang X & Sun Y PhaBOX: a web server for identifying and characterizing phage contigs in metagenomic data. Bioinforma. Adv 3, vbad101 (2023).10.1093/bioadv/vbad101 PMC10460485 37641717
+192. Camargo AP Identification of mobile genetic elements with geNomad. Nat. Biotechnol 42, 1303–1312 (2024).37735266 10.1038/s41587-023-01953-y PMC11324519
+193. Guo J VirSorter2: a multi-classifier, expert-guided approach to detect diverse DNA and RNA viruses. Microbiome 9, 37 (2021).33522966 10.1186/s40168-020-00990-y PMC7852108
+194. Kieft K , Zhou Z & Anantharaman K VIBRANT: automated recovery, annotation and curation of microbial viruses, and evaluation of viral community function from genomic sequences. Microbiome 8, 90 (2020).32522236 10.1186/s40168-020-00867-0 PMC7288430
+195. Ren J Identifying viruses from metagenomic data using deep learning. Quant. Biol 8, 64–77 (2020).34084563 10.1007/s40484-019-0187-4 PMC8172088
+196. Nayfach S CheckV assesses the quality and completeness of metagenome-assembled viral genomes. Nat. Biotechnol 39, 578–585 (2021).33349699 10.1038/s41587-020-00774-7 PMC8116208
+197. Bouras G Pharokka: a fast scalable bacteriophage annotation tool. Bioinformatics 39, btac776 (2023).36453861 10.1093/bioinformatics/btac776 PMC9805569
+198. Bouras G Protein structure informed bacteriophage genome annotation with phold. Preprint at bioRxiv 10.1101/2025.08.05.668817 (2025).PMC12774648 41495893
+199. Shaffer M DRAM for distilling microbial metabolism to automate the curation of microbiome function. Nucleic Acids Res. 48, 8883–8900 (2020).32766782 10.1093/nar/gkaa621 PMC7498326
+200. Bin Jang H Taxonomic assignment of uncultivated prokaryotic virus genomes is enabled by gene-sharing networks. Nat. Biotechnol 37, 632–639 (2019).31061483 10.1038/s41587-019-0100-8
+201. Zheng K VITAP: a high precision tool for DNA and RNA viral classification based on meta-omic data. Nat. Commun 16, 2226 (2025).40044690 10.1038/s41467-025-57500-7 PMC11883027
+202. Rangel-Pineros G VIRify: an integrated detection, annotation and taxonomic classification pipeline using virus-specific protein profile hidden Markov models. PLoS Comput. Biol 19, e1011422 (2023).37639475 10.1371/journal.pcbi.1011422 PMC10491390
+203. Shang J & Sun Y CHERRY: a computational method for accurate prediction of virus–prokaryotic interactions using a graph encoder–decoder model. Brief. Bioinform 23, bbac182 (2022).35595715 10.1093/bib/bbac182 PMC9487644
+204. Kieft K , Adams A , Salamzade R , Kalan L & Anantharaman K vRhyme enables binning of viral genomes from metagenomes. Nucleic Acids Res. 50, e83 (2022).35544285 10.1093/nar/gkac341 PMC9371927
+205. Mallawaarachchi V Phables: from fragmented assemblies to high-quality bacteriophage genomes. Bioinformatics 39, btad586 (2023).37738590 10.1093/bioinformatics/btad586 PMC10563150
+206. Chen X A virome-wide clonal integration analysis platform for discovering cancer viral etiology. Genome Res. 29, 819–830 (2019).30872350 10.1101/gr.242529.118 PMC6499315
+207. Zhao G VirusSeeker, a computational pipeline for virus discovery and virome composition analysis. Virology 503, 21–30 (2017).28110145 10.1016/j.virol.2017.01.005 PMC5326578

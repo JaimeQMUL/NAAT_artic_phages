@@ -1,0 +1,47 @@
+=============Reasoning for YP_010074246 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli MG1655 K-12' and the isolation source is 'wastewater'. Wastewater environments are generally associated with mesophilic conditions, and 'Escherichia coli' is typically a mesophile. No explicit temperature is given.
+
+
+=============Reasoning for YP_010074246 from accession literature=============
+Paper: PMC7552041.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for the screening process: "In short, an overnight enrichment (37 °C) was performed in microplates with E. coli, media, and wastewater (0.5 mL/well); the next day, the enrichments were filtrated (0.45 µm), re-inoculated (∼1 μL), and re-incubated overnight (37 °C); on the third day, a second filtration (0.45 µm) and a spot-test (soft-agar overlay) were performed to indicate positive wells."
+
+
+=============Reasoning for YP_010074246 from host literature=============
+Paper: PMC13101720.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the cultivation conditions for several steps: 1. "All cultivations were performed in an orbital shaker set at 37 °C..." (Section 2.3). 2. "Cell cultivation: 3 mL of LB was inoculated with a colony from a LB plate supplemented with 35 mg L−1 chloramphenicol and incubated (37 °C, 220 rpm) in a 15 mL screw cap tube (PC1)." (Section 2.5). 3. "After 8 h of cell cultivation, 10 mL of M9 (20 g L−1 glucose) supplemented with 1 mM IPTG (PC2) was inoculated with 0.01 mL of PC1. After overnight incubation (16 h), the cells were harvested (5 min at 6000×g, room temperature)." (Section 2.5). 4. "The main culture was inoculated at an initial OD600 of 0.02. When an OD600 of 1 was reached, cells were collected by centrifugation (6000×g, 5 min, 4 °C)..." (Section 2.5). The consistent use of 37°C for primary culturing indicates the optimal or standard growth temperature for the system described.
+
+
+Paper: PMC13164435.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for bacterial growth and confirmation: "The cultures were incubated at 37 °C, orbitally shaken at 150 rpm for 18 h to enable resuscitation and active growth." It also mentions subsequent incubations at "37 °C for 24 h and 48 h for E. coli and B. cereus respectively". The discussion section notes that the average temperature during aBL LED exposure was "35.8 ± 0.9 °C," and the fluorescent control was "28.1 ± 0.8 °C." Since the mesophilic range is defined as 15–45°C, and the observed temperatures (35.8°C and 28.1°C) fall within this range, the thermal characteristic is mesophile.
+
+
+Paper: PMC13175319.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the initial knockout procedure: "Kanamycin-resistant transformants were grown at 37 °C to induce the loss of the heat-labile pKD46 plasmid." It also states the culture conditions for the engineered strains: "Cultures were incubated at 30 °C with shaking at 180 rpm." Furthermore, the incubation for the initial plasmid transformation was done at 30 °C. Since the optimal growth temperature for the host organism, *E. coli*, is implied by these stated culture/growth temperatures (30°C and 37°C), and the mesophilic range is defined as 15–45°C, the phage's thermal characteristics are inferred to align with the host's mesophilic range.
+
+
+=============Reasoning for YP_010074246 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for 'Escherichia phage teqhad'.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the host is 'Escherichia coli MG1655 K-12'. Both wastewater and E. coli are typically associated with moderate environmental temperatures (mesophilic range).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The context (wastewater/E. coli) strongly suggests a mesophilic lifestyle. However, as the context is not a direct temperature measurement, and the rules prioritize explicit evidence, the fallback rule (Rule 4) is invoked if the context is deemed weak. Given the strong association with common environmental bacteria, 'mesophile' is the most probable assignment.
+4. **Conclusion:** Defaulting to 'mesophile' based on the general ecology of the host and isolation source, as no specific thermal data is provided.
+
+

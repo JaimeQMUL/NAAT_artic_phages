@@ -1,0 +1,19 @@
+=============Reasoning for AXQ66908 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil', which typically implies mesophilic conditions. No explicit temperature range is provided.
+
+
+=============Reasoning for AXQ66908 from accession literature=============
+=============Reasoning for AXQ66908 from host literature=============
+=============Reasoning for AXQ66908 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'soil', and the geographical coordinates are provided (USA: Monroe, LA). Soil environments typically fluctuate but are generally considered mesophilic habitats for many common bacteria and phages.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile.
+4. Fallback: As no strong evidence exists, the default classification rule (Rule 4) suggests 'mesophile'.
+
+

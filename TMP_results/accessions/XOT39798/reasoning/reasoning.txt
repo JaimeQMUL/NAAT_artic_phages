@@ -1,0 +1,37 @@
+=============Reasoning for XOT39798 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host, and accession information, but no explicit or strongly implied temperature or environmental condition (such as psychrophile, mesophile, or thermophile indicators) is present.
+
+
+=============Reasoning for XOT39798 from accession literature=============
+Paper: PMC10884585.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature used for determining lysis activities and for bacterial growth: "Moreover, the lysis activities of these phages against their hosts were investigated in pasteurized milk using a multiplicity of infections (MOIs) of 10 and 100 at 37°C." Additionally, when describing the incubation for EOP determination and phage isolation, the text repeatedly mentions incubation at "37°C". Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC11041375.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states the culture conditions for the bacterial strains used in the in vitro experiments: "The culture was incubated at 37°C." Furthermore, for the phage-antibiotic combination test, the plates were incubated "at 37°C for 16 h." This temperature (37°C) falls within the mesophile range (15–45°C).
+
+
+Paper: 36688749.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "This phage was stable at 4-37°C..." and later mentions "...at 4°C and ambient temperature." The range 4-37°C encompasses the mesophilic range (15–45°C). Since the stability is explicitly stated across this range, and 37°C is within the mesophilic range, the classification is mesophile.
+
+
+=============Reasoning for XOT39798 from host literature=============
+=============Reasoning for XOT39798 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Staphylococcus phage vB_Sau_BCPSau004) and its host (Staphylococcus aureus 012/05-15/R). 2. No explicit thermal range (optimal growth temperature, isolation temperature, etc.) is provided in the metadata. 3. The decision rules state that if environmental context is weak or absent, the MOST PROBABLE classification must be assigned. 4. Since the host, Staphylococcus aureus, is a common human/animal pathogen, and no specific environmental context (like deep sea or hot spring) is given, the default assumption for general bacterial/phage life cycles in standard laboratory or natural settings is mesophilic. 5. Therefore, 'mesophile' is assigned as the fallback classification.
+
+

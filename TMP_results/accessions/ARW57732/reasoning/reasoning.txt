@@ -1,0 +1,30 @@
+=============Reasoning for ARW57732 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Serratia phage CBH8') and its host ('Serratia sp. ATCC 39006'), but no explicit or strongly implied temperature or growth condition information is present to determine if it is psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for ARW57732 from accession literature=============
+Paper: 41769569.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The isolated phages were stable at 4 °C and 37 °C". Since 37 °C falls within the mesophile range (15–45°C), and this temperature was explicitly mentioned as a stability point, the classification is mesophile.
+
+
+=============Reasoning for ARW57732 from host literature=============
+Paper: PMC13119998.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature used for growing the phages: "Once purified, they were grown to high titer (≥108 pfu/mL) at 37 °C for 2 days."
+
+
+=============Reasoning for ARW57732 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Serratia phage CBH8), its host (Serratia sp. ATCC 39006), and collection details (United Kingdom, 2014). 2. There is no explicit mention of optimal growth temperature, minimum, or maximum temperature for the phage. 3. The host, *Serratia*, is a common bacterium often associated with moderate environmental conditions. 4. Since no thermal data is available, the decision rules mandate defaulting to 'mesophile' as the fallback class. 5. Mesophile is defined as 15–45°C, which is the most scientifically conservative assumption for an uncharacterized environmental isolate.
+
+

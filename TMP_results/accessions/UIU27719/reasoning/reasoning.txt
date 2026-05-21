@@ -1,0 +1,19 @@
+=============Reasoning for UIU27719 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Escherichia coli O156:H25'), isolation source ('beef cattle'), and country ('South Africa'), but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for UIU27719 from accession literature=============
+=============Reasoning for UIU27719 from host literature=============
+=============Reasoning for UIU27719 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'beef cattle' and the country is 'South Africa'. While these suggest an environmental origin, they do not provide a specific temperature range for the phage's optimal growth.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is too general to strongly infer a specific temperature class (psychrophile or thermophile), the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

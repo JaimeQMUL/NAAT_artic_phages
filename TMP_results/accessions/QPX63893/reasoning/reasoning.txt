@@ -1,0 +1,26 @@
+=============Reasoning for QPX63893 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host organism is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range. No explicit temperature is provided.
+
+
+=============Reasoning for QPX63893 from accession literature=============
+=============Reasoning for QPX63893 from host literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and phage assays. For bacterial growth (e.g., on MH agar, in cBHI broth, or during co-culture), the temperature used is consistently 42 °C. For E. coli DH5α, 37 °C is used, but this is not relevant to the phage's primary host/assay. Since the host, *C. jejuni*, is grown and assayed at 42 °C, and 42 °C falls within the mesophile range (15–45°C), the phage's thermal characteristic is inferred to be mesophilic based on the experimental conditions.
+
+
+=============Reasoning for QPX63893 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Campylobacter phage F357' and its host is 'Campylobacter jejuni NCTC12662'. The isolation source is a 'chicken fecal sample' collected in 'Denmark'.
+2. **Determine Environmental Context:** *Campylobacter* species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens). The optimal growth temperatures for *Campylobacter* species are typically in the mesophilic range (around 35-42°C).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (fecal sample, *Campylobacter* host) strongly suggests a moderate, body-temperature-related environment.
+4. **Classification:** Based on the host's typical ecology, the most probable classification is mesophile (15–45°C). Since this is an inference based on general knowledge of the host rather than explicit data, and no other rule applies, the fallback to mesophile is appropriate.
+
+

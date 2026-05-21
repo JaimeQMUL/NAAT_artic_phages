@@ -1,0 +1,19 @@
+=============Reasoning for WNO24027 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('poultry fecal matter') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for WNO24027 from accession literature=============
+=============Reasoning for WNO24027 from host literature=============
+=============Reasoning for WNO24027 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'poultry fecal matter' from 'India', and the collection date is 'Nov-2022'. Fecal matter generally represents mesophilic environments, but this is not a definitive temperature indicator.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is not strongly indicative of extreme temperatures, the system must default to the 'mesophile' classification as per Rule 4.
+4. **Conclusion:** The default classification is mesophile.
+
+

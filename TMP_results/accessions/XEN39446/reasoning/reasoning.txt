@@ -1,0 +1,48 @@
+=============Reasoning for XEN39446 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'chicken feces' and the host as 'Salmonella enterica subsp. enterica serovar Enteritidis ATCC 13076'. However, no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated for the phage or its host.
+
+
+=============Reasoning for XEN39446 from accession literature=============
+Paper: PMC11951187.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures used for various assays. For phage enrichment, amplification, and plaque formation, the temperature used was 37°C. For the one-step growth curve, the incubation temperature was 37°C. For the lytic capacity test, the incubation temperature was 37°C. The discussion section mentions that the phage exhibited a temperature tolerance range of up to 50°C, and the stability test showed retention of activity between 30°C to 50°C. Since 37°C is the optimal growth temperature for the host bacteria (Salmonella Enteritidis ATCC 13076) and the phage assays were consistently performed at 37°C, this indicates a mesophilic nature (15–45°C).
+
+
+Paper: PMC12873362.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the stability of Dpo52: "Dpo52 was stable at pH 4–11 and in a temperature range of 4 to 60℃." Since the mesophile range is defined as 15–45°C, and the stated range (4 to 60°C) encompasses this range, the phage/protein is characterized as mesophilic based on the provided definitions and explicit stability data.
+
+
+=============Reasoning for XEN39446 from host literature=============
+Paper: PMC13157147.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various assays involving the isolated LAB strains. For instance, when performing the acid tolerance assay, the incubation was done at "37 °C for 3 h". Similarly, for the phenol tolerance assay, incubation was done at "37 °C for 24 h". For the co-aggregation assay, the plates were incubated overnight at "37 °C". For the ileal adhesion assay, incubation was done at "37 °C for 48 h". These temperatures (37 °C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC13063978.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that the phage was propagated using *Escherichia coli* (ATCC 11229) as the laboratory host strain, and the incubation conditions were specified in Table 1: "Incubation temperature 37°C". Since 37°C falls within the mesophile range (15–45°C), the phage's thermal characteristic is inferred to be mesophilic based on the propagation conditions.
+
+
+=============Reasoning for XEN39446 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Salmonella phage BP13076.
+2. **Check for environmental context:** The isolation source is 'chicken feces' from 'China'. Feces are generally associated with mesophilic environments (15–45°C). The host, Salmonella enterica, is a common mesophile.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context (feces/host) suggests mesophily. However, the context is not strong enough to override the lack of direct thermal data.
+4. **Fallback:** As per the rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+5. **Conclusion:** The most probable classification, based on the fallback rule, is mesophile.
+
+

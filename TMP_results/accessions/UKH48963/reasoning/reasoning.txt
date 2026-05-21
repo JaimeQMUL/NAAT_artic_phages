@@ -1,0 +1,30 @@
+=============Reasoning for UKH48963 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and accession details, but no explicit or strongly implied temperature or environmental condition is mentioned to determine the thermal range.
+
+
+=============Reasoning for UKH48963 from accession literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." Since the optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: 41990421.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "MM-1 and MM-2 were infectious at a broad temperature (4°C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range (4°C to 60°C) encompasses this range, and the optimal growth temperature is not specified, the most appropriate classification based on the provided range is mesophile, as it covers the typical mesophilic range. The explicit range suggests suitability across a wide range, including mesophilic conditions.
+
+
+=============Reasoning for UKH48963 from host literature=============
+=============Reasoning for UKH48963 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the phage. 2. The host organism is 'Escherichia coli', which is a common bacterium typically associated with mesophilic environments (15–45°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Given the association with a common mesophilic host, 'mesophile' is selected as the most probable classification. 5. This classification is assigned by default due to lack of specific thermal data.
+
+

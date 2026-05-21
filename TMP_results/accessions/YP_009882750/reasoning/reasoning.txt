@@ -1,0 +1,39 @@
+=============Reasoning for YP_009882750 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'environmental water' and the collection date, but it does not specify any temperature or thermal condition (e.g., hot, cold, moderate) associated with this source.
+
+
+=============Reasoning for YP_009882750 from accession literature=============
+Paper: PMC11094981.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature at which the phage titer was measured after incubation for 1 hour: "The concentration of Aeromonas phage vB AhM-LH was adjusted to 10^8 plaque-forming units (PFU)/ml, and its titer was measured after following incubation at different temperatures (30 °C, 40 °C, 50 °C, 60 °C, 70 °C, and 80 °C) for 1 h." The results section further details this: "Phage LH titer after incubation for 1 h at 30 °C, 40 °C, 50 °C, 60 °C, 70 °C and 80 °C." Since the phage maintained stability between 30 °C and 60 °C, and 30–45°C falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC6853846.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various procedures involving the phage or its host. For instance, when collecting water samples, the overnight culture of Shigella was incubated "at 37°C." When screening for phages, the mixture was "incubated for 16–17 h at 37°C." When determining the host range, the host strain was grown "at 37°C for 4 h," and the overlay was "incubated overnight at 37°C." These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009882750 from host literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." Since the optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for YP_009882750 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Shigella phage MK-13.
+2. Check for environmental context: The isolation source is 'environmental water' and the collection date is 2006, with the country being 'Bangladesh: Dhaka'. While environmental water can vary, the general context of human/environmental pathogens often suggests mesophilic conditions unless otherwise specified.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (water from a populated area) is not strongly indicative of extreme cold or heat, the system must default to the most probable classification based on the available metadata. The fallback rule dictates assigning 'mesophile'.
+
+

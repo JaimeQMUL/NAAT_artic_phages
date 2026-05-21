@@ -1,0 +1,376 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microorganisms
+Journal ID: Microorganisms
+Journal ID: microorganisms
+
+Microorganisms
+
+EISSN: 2076-2607
+Publisher: Multidisciplinary Digital Publishing Institute (MDPI)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC10458263
+PMID: 37630650
+DOI: 10.3390/microorganisms11082090
+Article ID: microorganisms-11-02090
+Article version: 1
+Subjects: Article
+
+SW16-7, a Novel Ackermannviridae Bacteriophage with Highly Effective Lytic Activity Targets Salmonella enterica Serovar Weltevreden
+
+Xu Jialiang 1
+Li Jia Formal analysis 1
+https://orcid.org/0000-0002-5200-8800 Yan Yi Resources Data curation 1
+Han Pengjun Visualization 2
+https://orcid.org/0000-0002-8503-8045 Tong Yigang Resources Data curation 2
+Li Xu Writing – original draft Writing – review & editing 1 *
+Gorski Lisa Academic Editor
+1 China Food Flavor and Nutrition Health Innovation Center, Beijing Technology and Business University, Beijing 100048, China; xujialiang@btbu.edu.cn (J.X.); eric_li07@163.com (J.L.); yanyi@btbu.edu.cn (Y.Y.)
+2 College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China; lyhpj88@163.com (P.H.); tongyigang@mail.buct.edu.cn (Y.T.)
+* Correspondence: lixu@btbu.edu.cn
+Electronic publication date: 2023 Aug 15
+Publication date: 2023 Aug
+Volume: 11
+Issue: 8
+Electronic Location ID: 2090
+Received 2023 Jul 10; Revised 2023 Aug 9; Accepted 2023 Aug 9
+Copyright: © 2023 by the authors.
+Copyright year: 2023
+License: Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: bacteriophage, Salmonella enterica, Ackermannviridae
+
+Funding: Beijing Outstanding Young Scientist Program BJJWZYJH01201910011025 This work was supported by the Beijing Outstanding Young Scientist Program (BJJWZYJH01201910011025).
+
+==============================
+Salmonella enterica serovar Weltevreden is a foodborne pathogen commonly transmitted through fresh vegetables and seafood. In this study, a lytic phage, SW16-7, was isolated from medical sewage, demonstrating high infectivity against S. Weltevreden, S. London, S. Meleagridis, and S. Give of Group O:3. In vitro inhibition assays revealed its effective antibacterial effect for up to 12 h. Moreover, analysis using the Comprehensive Antibiotic Resistance Database (CARD) and the Virulence Factor Database (VFDB) showed that SW16-7’s genome does not contain any virulence factors or antibiotic resistance genes, indicating its potential as a promising biocontrol agent against S. Weltevreden. Additionally, a TSP gene cluster was identified in SW16-7’s genome, with TSP1 and TSP2 showing a high similarity to lysogenic phages ε15 and ε34, respectively, in the C-terminal region. The whole-genome phylogenetic analysis classified SW16-7 within the Ackermannviridae family and indicated a close relationship with Agtrevirus, which is consistent with the ANI results.
+
+1. Introduction
+
+Salmonella enterica serovar Weltevreden is a pathogen responsible for zoonotic disease, originating from India [1]. This serovar primarily causes self-limiting gastroenteritis with symptoms such as diarrhea, fever, and vomiting [2], and is prevalent in Southeast Asia [1,3,4,5]. Contaminated vegetables [6,7] and seafood are the primary transmission sources [8], and imported freshwater fish and marine shrimp from Southeast Asia are likely to be associated with infections caused by S. Weltevreden in North America [9,10,11]. In addition, this serovar has been detected in broilers [12] and pigs [13], and its presence in a variety of food matrices is likely to contribute to its global spread. Over the past two decades, there has been a significant increase in the number of outbreaks caused by S. Weltevreden in various regions [14,15,16,17,18]. Severe outbreaks have been reported, such as in India, where 150 students aged 20 to 30 were affected by acute watery diarrhea caused by S. Weltevreden infection [19], and in China, where 40 cases of diarrhea were reported due to S. Weltevreden infection in the southern coastal region [20].
+
+It should be noted that while S. Weltevreden strains isolated from humans have not shown significant antimicrobial resistance, strains found in animals or food have demonstrated severe antimicrobial resistance (AMR) phenotypes, including resistance to aminoglycosides, tetracycline, nalidixic acid, ampicillin, and sulfonamide [21]. These multidrug-resistant strains of S. Weltevreden pose a potential challenge to public health and food safety, highlighting the need for control measures to prevent their spread.
+
+Phages are being increasingly recognized as a green and environmentally friendly antibacterial agent for food applications [22,23], with several phage preparations, including SalmoFresh™ and SalmoLyse® [24], now approved as biocontrol agents of Salmonella spp. Unlike chemical and thermal sterilization methods, phages do not alter the flavor and texture of food, making them more suitable for raw foods such as fruit salads, sashimi or sushi that are more likely to be contaminated with S. Weltevreden. Moreover, phages can act as antibacterial agents at all stages of the food processing chain, including animal feed, primary production, household, or food service establishments [25].
+
+Numerous studies have focused on the use of phages to control S. Typhimurium, S. Enteritidis and S. Derby [26,27], but these phages have shown limited activity against S. Weltevreden. Given the public health significance of S. Weltevreden, this study isolated and characterized a novel Ackermannviridae phage, designated SW16-7, which targets S. Weltevreden. SW16-7 demonstrated high infectivity against S. Weltevreden and other Salmonella serovars belonging to Group O:3, together with excellent heat stability and pH tolerance. These findings suggest that SW16-7 may be a potential candidate for controlling the spread of S. Weltevreden.
+
+2. Materials and Methods
+
+2.1. Bacteria Strains and Growth Conditions
+
+Bacterial strains used in the study were sourced from the Chinese Centre for Disease Control and Prevention (China CDC) and confirmed using standard biochemical tests and a Salmonella diagnostic antisera kit (SSI Diagnostica, Shanghai, China). The strains were stored at −80 °C with 15% glycerol until use. Prior to experiments, the bacteria were incubated in Luria-Bertani (LB) broth (Oxoid) at 37 °C for 12 h. For agar medium, 1.5% agar (Luqiao, Beijing, China) was added as required.
+
+2.2. Phage Isolation and Purification
+
+To isolate the phage, an enrichment method [28] was employed using medical sewage samples collected from a hospital in Beijing, China. Firstly, debris was removed from 50 mL of sewage through centrifugation at 8000× g for 20 min, and the resulting supernatant was filtered through a 0.22 μm filter (Millipore, Beijing, China) to obtain the phage lysate. Next, 4 mL of the log-phase host bacteria (S. Weltevreden strain SA161) were mixed with the phage lysate and incubated at 37 °C for 24 h. The mixture was then centrifuged at 8000× g for 15 min, and the supernatant was filtered through a 0.22 μm filter to check for phage activity using the spot test and double-agar overlay method. Following the identification of plaques, the phage was purified through three consecutive purification rounds, resulting in the isolation of the final bacteriophage, designated as SW16-7.
+
+2.3. Transmission Electron Microscopy
+
+SW16-7 was visualized using transmission electron microscopy (TEM). Approximately 20 μL of the sample, with a titer of around 1010 PFU/mL, was dispensed onto parafilm. A grid with a carbon-supported formvar film was then floated on the phage suspension for 1 min, followed by staining with sodium phosphotungstate (pH 6.8) for 1 min. The 400-mesh grid (Sigma-Aldrich, Beijing, China) was subjected to UV radiation for 10 min to inactivate the phage. Images were acquired using a TECNAI 12 (FEI, Hillsboro, Oregon, USA) equipped with a 16 MegaPixel TEM CCD Camera MoradaG3 (EMSIS, Muenster, Germany).
+
+2.4. Determination of Host Ranges
+
+The lytic activity of SW16-7 was assessed against 11 strains of S. Weltevreden and 40 strains of S. London, S. Meleagridis, S. Give and S. Muenster from groups O:3, which have similar O-antigen structures. Additionally, 133 strains from other serotypes, including Group O:4, Group O:9, Group O:7, Groups O:6,8, Groups O:8, Group O:9,46, and Group O:17, were tested to determine the phage’s host range.
+
+The host range analysis was conducted using spot tests, where the tested strains were mixed with 0.5% LB agar as the overlay, while 1.5% LB agar served as the bottom layer. Phage lysates with a concentration of 1.0 × 106 PFU/mL were spotted onto the plates, which were then incubated at 37 °C for 16 h. The sensitivity of the test bacteria was determined by observing the clarity of the spots after incubation. All experiments were performed in triplicate to ensure accuracy and reproducibility.
+
+2.5. Thermal and pH Stability Test
+
+The stability of SW16-7 was assessed under different thermal and pH conditions. To evaluate pH stability, a phage lysate was mixed with 1 mL of LB adjusted to various pH levels ranging from 2.0 to 14.0. The mixtures were incubated at 37 °C for 1 h, followed by determination of the phage titer using dilution and double-layer plating.
+
+For thermal stability assessment, phage suspensions were exposed to different temperatures (40 °C, 50 °C, 60 °C, 70 °C, 80 °C, and 90 °C) for 1 h. After incubation, the phage titer was determined by dilution and plating.
+
+2.6. Optimum Multiplicity of Infection (MOI)
+
+To determine the optimal multiplicity of infection (MOI) for SW16-7, SA161 were cultured with phage lysates at varying ratios of phage concentration ranging from 10−6 to 10. The titer was then measured after each of the three independent experiments performed for each MOI. The MOI with the highest titer was identified as the optimal MOI for SW16-7.
+
+2.7. One-Step Growth Curve
+
+To determine the replication characteristics of SW16-7, a one-step growth curve was performed. The host strain was cultured in LB until it reached the exponential phase (3 × 108 CFU/mL) after inoculation into fresh LB at a ratio of 1%. SW16-7 (1 × 107 PFU/mL) and SA161 (1 × 108 CFU/mL) were mixed with 6 mL of LB broth at an optimal MOI of 0.1 and incubated at 37 °C. Samples of 100 μL were collected from each mixture at 10-min intervals for the first 60, 90, and 120 min, diluted, and plated on double-layer plates to determine the phage titers. The burst size was calculated by dividing the maximum phage titer at the plateau phase by the initial infective titer of the infection. The experiments were conducted in triplicate, and the results were analyzed.
+
+2.8. In Vitro Inhibitory Assessment of Phage SW16-7
+
+The inhibition of SW16-7 was assessed through two in vitro experiments. In the first experiment, the host bacterium SA161 was incubated in LB medium until it reached an optical density of approximately OD600 = 0.5, corresponding to a bacterial concentration of around 108 CFU/mL. The treatment group was mixed with 200 μL of SA161 and SW16-7 at an MOI of 0.1, while the control group received 200 μL of SA161 and an equal volume of LB liquid as a substitute for SW16-7. The growth of host bacteria in both groups was monitored every hour for a duration of 24 h using Bioscreen C (Oy Growth Curves Ab Ltd., Helsinki, Finland).
+
+The protocol of the second experiment was similar to the first experiment. In brief, both treatment and control groups were cultured to the exponential phase with 20 mL each. The treatment group received phage SW16-7 at an MOI of 0.1, while the control group received an equal volume of LB liquid. Colony counting of SA161 was recorded at 4-h intervals over a period of 24 h using the plate count method.
+
+2.9. Genome Sequencing and Bioinformatics Analysis
+
+Phage DNA was extracted and purified using a Lambda Phage Genome Purification Kit (ABigen, Beijing, China). The quality of the raw sequencing reads was assessed using FastQC software version 0.11.9 (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/). High-quality reads were assembled into contigs using the SPAdes Assembler version 3.13.0. The genome of SW16-7 was then submitted to the RAST server for CDS prediction and annotation [29]. The functions of the predicted CDSs were verified using BLASTP. Conserved domains of CDSs were identified by searching the PFAM database [30]. The presence of tRNA genes in the genomic sequences was determined using a tRNAscan-SE web server [31]. To identify CDSs associated with antibiotic resistance genes (ARGs) and virulence factors, the Comprehensive Antibiotic Resistance Database (CARD) [32] and the Virulence Factor Database (VFDB) [33] were searched. A circular map of the SW16-7 genome was generated using Proksee (https://proksee.ca/). The protein domain structures were modeled using IBS2.0 web server [34].
+
+The phage genomes and their corresponding classifications used for phylogenetic analysis were obtained from the National Center for Biotechnology Information (NCBI) database. The core genes from all phage genomes were concatenated and aligned, and a maximum likelihood tree was constructed using IQ-TREE (version 1.6.12) with 1000 bootstrap replications. The general time reversible (GTR) model was applied during the phylogenetic analysis. A pairwise average of the nucleotide identities (ANIs) among the 31 genomes included in this study was computed using an OrthoANI tool [35].
+
+For the phylogenetic analysis based on a terminase large subunit, the sequences were aligned using a MAFFT plugin, and the tree was generated using a RAxML plugin within the Geneious Prime software (version 9.0.2). A tvBOT online service was utilized for visualizing all the generated trees [36].
+
+2.10. Statistical Analysis
+
+The experimental designs for the one-step growth assay, TEM analysis, stability analysis, and in vitro inhibition assessment using the Bioscreen C and the plate count method were conducted with three biological replicates. For the in vitro inhibition assessment using the plate count method, a two-tailed unpaired Student’s t-test was conducted to compare the control group and the experimental group at each time point (0, 4, 8, 12, 16, 20, 24). The statistical analysis was conducted using SPSS software (SPSS 19.0; SPSS). The data obtained from these experiments were expressed as mean ± standard deviation (SD). Graphs illustrating the results were generated using GraphPad Prism version 8 (version 8.3.0) software.
+
+3. Results
+
+3.1. Morphology of Phage SW16-7
+
+The bacteriophage SW16-7 produced small, clear plaques measuring 1–2 mm in diameter on a lawn of host bacteria, as shown at the top of Figure 1. To further characterize SW16-7, TEM was used to study its morphology. The results revealed that SW16-7 has a typical regular polyhedral shape, with a head diameter of 100 ± 2.5 nm, a contractile tail length of 110 nm ± 10 nm, and a width of 18 ± 2.3 nm, as depicted in Figure 1. A total of 20 bacteriophages was measured, providing the basis for calculating the mean and standard deviation.
+
+3.2. Biological Features of Phage SW16-7
+
+Phage SW16-7 exhibited high efficacy against the host at all tested MOIs, with an optimal multiplicity of infection of 0.1, resulting in a titer of up to 1011 PFU/mL (Figure 2A). The one-step growth curve indicated that the latent period was approximately 10 min, and the average phage burst size was 57.1 ± 9 PFU/cell under optimal MOI conditions (Figure 2B). The phage’s stability under different thermal and pH conditions was evaluated by measuring plaque-forming units. The results showed that the lytic activity of SW16-7 remained stable when incubated between pH 4 and pH 12, but outside of that range, the activity decreased (Figure 2C). In the thermal stability test, the phages remained stable between 40 and 60 °C, but a gradual decrease in activity was observed between 60 and 80 °C, and complete inactivation was achieved at 90 °C (Figure 2D).
+
+Figure 3 demonstrates the inhibitory effect of phage SW16-7 against the host bacteria SA161 over time. The results revealed a significant inhibitory effect of SW16-7 against host bacteria growth from the 8–20 h, resulting in a maximum reduction of approximately three orders of magnitude (Figure 3B). Although the inhibitory capacity of SW16-7 decreased after 12 h, it continued to inhibit host bacteria growth even at 20 h. This sustained inhibitory effect between 4 and 24 h was also observed in the OD600 curve (Figure 3A), indicating the continuous inhibition of SW16-7 against SA161.
+
+3.3. General Features of the Phage SW16-7 Genome
+
+Phage SW16-7 has a 155,665 bp double-stranded DNA genome with a GC content of 50.1%. The genome map in Figure 4 shows coding domain sequences (CDSs) colored by their functional categories. The RAST server annotated 205 CDSs, of which 71 were predicted as functional proteins and 129 as hypothetical proteins. Among the hypothetical protein genes, 77 (59.69%) were on the negative strand and 52 (40.31%) were on the forward strand, with no homologs found in the non-redundant database by BLASTP analysis. Most functional protein genes (51 of 71; 71.83%) were on the negative strand. The tRNAscan-SE identified five tRNA genes on the forward strand. The SW16-7 genome does not contain any virulence factors or antibiotic resistance genes. Table S1 summarizes the general features of the predicted CDSs in the SW16-7 genome.
+
+3.4. Specific Features of the Phage SW16-7 Genome
+
+The functional proteins encoded by the SW16-7 genome have been classified into five groups based on their annotations, including Morphogenesis, Auxiliary metabolism, DNA metabolism, Gene expression, and Lysis.
+
+3.4.1. Morphogenesis-Related Genes
+
+The genome of the SW16-7 phage contains 30 putative morphogenesis-related proteins, which likely play a role in the assembly of various phage structures, such as the head, tube, tails, tail fiber, and baseplate. Among these, 16 proteins were classified as T4-like proteins, indicating a potential evolutionary relationship between SW16-7 and the T4 phage.
+
+Tail fiber (TF) and tail spike (TSP) are essential components of tailed phages for host recognition [37,38,39,40,41]. Only one TF gene (CDS33) was identified on the SW16-7 genome, and it exhibited 99.89% protein identity to the Salmonella phage P46FS4. VriC, a highly conserved protein that serves as a marker for the TSP gene cluster in the Ackermannviridae family, follows a typical arrangement of a VriC-TSP(n)-Hypothetical protein-Hypothetical protein-Baseplate wedge [42]. In SW16-7, CDS187 was identified as VriC, CDS192 as a basal wedge, and CDS191 and CDS192 as hypothetical proteins through BLASTP analysis. Additionally, CDS188 and CDS189 were annotated as two types of TSPs. Consequently, the TSP gene cluster in SW16-7 consisted of six genes, as depicted in Figure 5A.
+
+The domain architecture of TSP1 and TSP2 is illustrated in Figure 5B. TSPs are typically divided into N-terminal and C-terminal regions based on their functional domains. The N-terminal region is involved in base wedge assembly, while the C-terminal region exhibits catalytic enzyme activity. Referring to the structure of TSP in CBA120, we found that both TSP1 and TSP2 have a gp10-like module at the N-terminus. The gp10 module is composed of XD domains (XD1, XD2, XD3), and the number and combination of XD domains vary among different TSPs [43]. In SW16-7, TSP1 residues 1–177 showed 75% homology with TSP2 of the CBA120 phage, corresponding to the XD2 and XD3 sequences, thus making up its gp10 module. On the other hand, TSP2 residues 1–250 showed 71% homology with TSP4 of the CBA120 phage, corresponding to the XD1, XD2, and XD3 sequences, thus making up its gp10 module. After the gp10-like module, both TSPs share the Tail_spike_N domain (PF18668.4), which marks the boundary for the N-terminal of several TSPs. Therefore, the sequence after the Tail_spike_N domain is annotated as the C-terminal region.
+
+PFAM analysis did not reveal any conserved domains in the C-terminal region of TSP1, while TSP2 has an additional Beta_helix domain (PF13229.9) between amino acid positions 487–681, similar to a pectinase. BLASTN analysis showed that the C-terminal sequence of TSP2 has 94.27% homology with the TSP of ε15 phage (231–1069aa), which has endorhamnosidase activity capable of degrading Group O:3,10 S. enterica O-polysaccharide polymers. Conversely, the C-terminal sequence of TSP1 has 94.27% homology with the TSP of ε34 phage (114–666aa), which exhibits enzymatic hydrolysis activity. Figures S1 and S2 show the protein sequence comparison results between TSP1 and the TSP of the ε34 phage and between TSP2 and the TSP of the ε15 phage, respectively.
+
+3.4.2. DNA Metabolism-Related Genes
+
+The SW16-7 genome contains a DNA metabolism module, which is composed of various genes that play crucial roles in fundamental processes such as DNA replication, repair, and recombination. These processes are essential for the efficient transfer of genetic information during the viral life cycle. The DNA metabolism module of SW16-7 includes genes for DNA replication, such as DNA polymerase (CDS7), DNA polymerase clamp-related proteins (CDS148, CDS149, CDS151), DNA topoisomerases (CDS39, CDS40), DNA helicase (CDS125), helicase loader (CDS62), DNA primase (CDS75, CDS108), DNA binding protein (CDS35, CDS88, CDS126), and ribonucleotide reductase (CDS102, CDS103).
+
+Furthermore, the SW16-7 phage also encodes genes for DNA repair and recombination, including homing endonuclease (CDS63), DNA ligase (CDS67), and UvsW (CDS153) for DNA repair, and UvsX (CDS77), UvsY (CDS156), and recombination-related endonuclease (CDS120) for DNA recombination. Notably, these genes account for approximately 29.57% (21/71) of the functional genes annotated in the SW16-7 genome, emphasizing their significance in genetic information transfer and virion assembly.
+
+Certain Salmonella phages possess the ability to undergo thymidine modifications, resulting in hyper-modification of their DNA. This serves as a protective mechanism against cleavage by host restriction endonucleases [44]. Upon examination of the SW16-7 genome, as per the PFAM database, we discerned five CDSs (CDS81, CD145, CD15, CDS82, CDS11) that could potentially participate in thymidine modifications. CDS15, CDS82, and CDS11 exhibit protein similarities of 87.51%, 87.72%, and 82.30%, respectively, with the aGPT-Pplase2, P-loop kinase-1, and P-loop kinase-2 of Salmonella phage ViI. CDS145 shows a protein similarity of 94.28% with the aGPT-Pplase1 of Salmonella phage P46FS4, and CDS81 shared a 97.10% similarity with the thymidylate synthase of Salmonella phage SKML-39.
+
+3.4.3. Gene Expression-Related Genes
+
+This group of genes is involved in various aspects of gene expression regulation. CDS90 encodes a T4-like late promoter transcription accessory protein, which is involved in enhancing the transcription of late genes. CDS91, which belongs to the FmdB family, encodes a transcriptional regulator that assists RNA polymerases in transcription, indicating its potential role in gene expression control. CDS123 encodes Ribonuclease HI, an enzyme involved in the degradation of RNA-DNA hybrids, which are formed during DNA replication, recombination, and repair. Finally, CDS147 encodes an endoribonuclease that acts as a translational repressor of early genes, suggesting its role in post-transcriptional regulation.
+
+3.4.4. Auxiliary Metabolism-Related Genes
+
+Bacteriophages often carry auxiliary metabolic-related genes that regulate the host cell metabolism for efficient phage replication. The group includes 11 genes, such as CD45 (Tk.4 protein), CD79 (dUTP diphosphatase), CD104 (phosphate starvation-inducible protein PhoH), CD121 (cell division trigger factor), CD139 (nicotinamide phosphoribosyltransferase), CD46 (DexA exonuclease), CD140 (ribose-phosphate pyrophosphokinase), CD51 (serine/threonine protein phosphatase), CD81 (thymidylate), CD101 (glutaredoxin), and CD55 (deoxycytidylate deaminase).
+
+3.4.5. Lysis-Related Genes
+
+Endolysins are phage-encoded enzymes that degrade bacterial cell walls. In the SW16-7 genome, the endolysin is encoded by the gene CDS105. The endolysin is a relatively small protein with a molecular mass of 28.6 kDa and a theoretical pI of 9.05.
+
+The SW16-7 endolysin has a modular structure identified by PFAM analysis, consisting of a PG_binding_1 domain (9–64 aa) known as a CBD, and a muramidase domain (90–264 aa) known as an EAD, located at the N-terminal and C-terminal regions, respectively. The CBD binds specifically to peptidoglycan, a major component of the bacterial cell wall, while the EAD cleaves the glycosidic bond between the N-acetylmuramic acid and N-acetylglucosamine residues in the peptidoglycan backbone.
+
+3.5. Phylogenetic Analysis of Phage SW16-7
+
+A total of 54 phage genomes was identified through BLASTN analysis, exhibiting over 80% identity and over 60% coverage with the genome of SW16-7. These phage genomes taxonomically belong to three genera within the Ackermannviridae family: Agtrevirus, Limestonevirus, and Kuttervirus. To further analyze their relationships, phylogenetic analysis was conducted using the core genes of the 54 identified phage genomes.
+
+The whole-genome phylogenetic tree revealed the presence of three distinct clusters: cluster I consisting of 34 Kuttervirus phages, cluster II comprising 15 Limestonevirus phages, and cluster III containing 5 Agtrevirus phages (Figure 6). Notably, SW16-7 showed closer association with phages such as Shigella phage MK-13, Salmonella phage SKML-39, Salmonella phage P46FS4, and Shigella phage Ag3 within cluster III. The results obtained from the terminase large subunit analysis were consistent with those obtained from the comprehensive analysis of core genes across the genomes (Figure 7).
+
+ANI values were calculated to assess nucleotide identity using whole-genome sequences. The ANI values between SW16-7 and the phages in cluster III were remarkably high (>95.57%), while the genomes of closely related phages had ANI values ranging from <88.24% to >74.47% (Table 1). These ANI results were consistent with the phylogenetic analysis, confirming the assignment of phage SW16-7 to the Agtrevirus genus.
+
+3.6. Host Range of Phage SW16-7
+
+Table 2 presents the lysis results of the SW16-7 phage against different serovars of Salmonella and Shigella, including the number of tested strains and the proportion of lysis isolates for each serovar. The study found that among the Salmonella serovars tested, S. Weltevreden and S. Muenster had a 100% lysis rate, while S. London, S. Meleagridis, and S. Give had high lysis rates ranging from 81.81% to 85.71%. On the other hand, S. Derby, S. Stanley, S. Typhimurium, S. Rissen, S. Corvallis, and S. Kentucky had low lysis rates ranging from 6.25% to 11.76%, while S. Enteritidis had no lysis isolates.
+
+The Salmonella serovars were grouped based on their O antigens [45], and it was found that the high lysis rates were observed in serovars belonging to groups O:3,10 and O:6,8. Meanwhile, the low lysis rates were mainly observed in serovars belonging to groups O:4 and O:8. Additionally, S. Hillingdon, S. Gateshead, and S. Michigan could also be lysed by SW16-7, belonged to groups O:9,46 and O:17, respectively.
+
+4. Discussion
+
+Previous studies have focused on phage typing of S. Weltevreden, which have been widely adopted and proven effective in the epidemiological investigation [46,47,48]. However, the unavailability of complete genome sequences of the lytic phages employed in these schemes currently limits their direct applicability for the biocontrol of S. Weltevreden.
+
+SW16-7 can be generally classified as an aquatic phage due to its ability to be transmitted through aquatic products and survive in hydroacoustic environments. Aquatic phages have been identified as reservoirs of ARGs, contributing to the dissemination of antibiotic resistance in the environment [49,50]. Nevertheless, SW16-7 stands out as it lacks any ARGs or virulence factor genes in its genome, ensuring its safety as an antimicrobial agent from a genomic perspective. The consumption of raw seafood, an important source of S. Weltevreden infection in humans, often involves the presence of seawater on the seafood’s surface during transportation. To effectively control S. Weltevreden in seafood using phages, it is crucial for the phages to adapt to the relatively high pH range of seawater, typically between 8.0 and 8.25 [51]. Our investigations have demonstrated that SW16-7 exhibits robust activity within this pH range, making it a potential candidate for controlling S. Weltevreden contamination in seafood. Considering its genomic safety and pH tolerance, SW16-7 holds great potential for the biological control of S. Weltevreden contamination.
+
+However, when used alone, SW16-7 may not yield satisfactory long-term inhibition, as indicated by the results depicted in Figure 3 (12 to 24 h). This reduced efficacy over extended periods could be attributed to the emergence of phage-resistant bacterial strains [52,53]. To counteract the development of phage resistance, the use of phage cocktails has proven effective and cost-efficient [54,55,56]. Therefore, it is anticipated that SW16-7 will be incorporated as part of a phage cocktail in conjunction with other phages in future applications.
+
+In addition to its specific lytic activity against S. Weltevreden, phage SW16-7 has shown promising potential in lysing other Salmonella strains belonging to Group O:3 (formerly group E), including S. Muenster, S. London, S. Anatum, S. Give, and S. Meleagridis. This indicates that SW16-7 can be categorized as an O:3 Group-specific phage. TSPs are receptor-binding proteins found in Ackermannviridae phages, playing a crucial role in determining the host range [42]. Typically, these phages possess three or four distinct TSPs [57,58], enabling them to infect various Gram-negative bacteria [43,59,60]. The C-terminal regions of TSPs facilitate the degradation of lipopolysaccharides (LPS) on the host bacteria’s surface, allowing the phage to access the outer membrane and initiate infection [61,62,63]. The literature suggests that the C-terminal region can be exchanged within a genus or acquired from distantly related phages, influencing phage host recognition [41,61]. Our investigation identified two types of TSPs in SW16-7 phages, specifically the C-terminal regions of TSP1 and TSP2 derived from lysogenic phages ε15 and ε34, respectively. These TSPs possess endorhamnosidase and endogalactosidase activities [64,65], enabling them to selectively target strains belonging to the Group O:3,10. Interestingly, strains within Group O:9,46 also possess factors O:3 and O:10, with the latter being less prominent [45]. This may explain why SW16-7 can effectively lyse not only O:3 group strains but also S. Hillingdon and S. Gateshead, both belonging to the Group O:9,46. However, the limited lysis observed in Group O:4, Group O:7, Groups O:6,8, and Group O:17 remains poorly understood and could be influenced by strain-specific factors.
+
+The construction of phage cocktails comprising phages from diverse genetic backgrounds has proven effective in minimizing the emergence of phage resistance. However, existing phage cocktails targeting Salmonella, such as S. Enteritidis, S. Newport, and S. Dublin, have demonstrated limited efficacy against Group O:3,10 strains [66,67,68]. In light of this, we propose that the inclusion of SW16-7 in these cocktails could expand their host range and introduce novel receptor binding sites, thereby potentially delaying the development of phage resistance. This strategic addition of SW16-7 to the phage cocktail formulation has the potential to enhance its effectiveness in combating Group O:3,10 strains of Salmonella.
+
+Supplementary Materials
+
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/microorganisms11082090/s1, Figure S1: Comparison of Protein Similarity between TSP1 and phages ε34 TSP; Figure S2: Comparison of Protein Similarity between TSP1 and phages ε15 TSP; Table S1: General features of predicted CDSs encoded by Salmonella phage SW16-7.
+
+Click here for additional data file.
+
+Author Contributions
+
+Formal analysis, J.L.; resources and data curation, J.X., Y.Y. and Y.T.; writing—original draft preparation, X.L.; writing—review and editing, X.L. and J.X.; visualization, P.H.; supervision, J.X.; project administration, J.X.; funding acquisition, J.X. All authors have read and agreed to the published version of the manuscript.
+
+Data Availability Statement
+
+The genome sequence was deposited in the GenBank under the accession Number OR228402. The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.
+
+Conflicts of Interest
+
+The authors declare no conflict of interest.
+
+Figure 1 Morphological properties of phage SW16-7. Transmission electron micrograph of SW16-7. Scale bar indicates 200 nm; The upper right figure shows plaques formed by SW16-7 on the SA161 lawn using the double agar overlay method, with incubation at 37 °C for 12 h. Scale bar indicates 1 mm.
+
+Figure 2 Biological properties of phage SW16-7. (A) The multiplicity of infection of phage SW16-7. Error bars, s.d. (n = 3 biological replicate) (B) One-step growth curve of phage SW16-7. Error bars, s.d. (n = 3 biological replicate) (C) Tolerance of the phage SW16-7 to different pH treatment. Error bars, s.d. (n = 3 biological replicate) (D) Thermal tolerance of the phage SW16-7. Error bars, s.d. (n = 3 biological replicate).
+
+Figure 3 In vitro inhibitory assessment of phage SW16-7. (A) The growth curves (OD600 nm) of host strains SA161 were compared between the control group and treatment group. The treatment group was mixed with 200 μL of SA161 and SW16-7 at an MOI of 0.1, while the control group received 200 μL of SA161 and an equal volume of LB liquid as a substitute for SW16-7. Error bars, s.d. (n = 3 biological replicate) (B) The colony count of host strains SA161 recorded at 4-h intervals over a period of 24 h in both the treatment and control groups. Both treatment and control groups were cultured to the exponential phase with 20 mL each. The treatment group received phage SW16-7 at an MOI of 0.1, while the control group received an equal volume of LB liquid. Error bars, s.d. (n = 3 biological replicate), two-tailed unpaired Student’s t-test. In the above, asterisks mark a statistically significant difference (**** p < 0.0001). The absence of asterisks indicates that there is no statistical significance.
+
+Figure 4 Genome map of SW16-7. The coding domain sequences (CDSs) are labeled by specific colors according to their functional categories. The black circular hologram indicates the GC content. Red: lysis-related gene. Dark blue: auxiliary metabolism related genes. Blue: DNA metabolism related genes. Yellow: phage morphogenesis related genes. Gray: hypothetical protein gene. Green: gene expression related genes. Pink: tRNA.
+
+Figure 5 (A) The TSP gene cluster of SW16-7. TSP1: Orange, TSP2: Blue (B) The domain architecture of TSP1 and TSP2.
+
+Figure 6 The maximum-likelihood tree constructed by SW16-7 and the 54 other phages within the Agtrevirus, Limestonevirus, and Kuttervirus genus based on the whole genome sequencing. Cluster I contains all the sequences marked in red, belonging to the Kuttervirus genus. Cluster II contains all the sequences marked in green, belonging to the Limestonevirus genus. Cluster III contains all the sequences marked in blue, belonging to the Agtrevirus genus. The bootstrap analysis was performed with 1000 replications. Black dots on branches indicate strong bootstrap support (>90%); grey dots on branches indicate strong bootstrap support (70–90%).
+
+Figure 7 The maximum-likelihood tree of SW16-7 terminase large subunit. The bootstrap analysis was performed with 1000 replications. Numbers above branches are bootstrap values. The bootstrap analysis was performed with 1000 replications. Black dots on branches indicate strong bootstrap support (>90%); grey dots on branches indicate strong bootstrap support (70–90%).
+
+microorganisms-11-02090-t001_Table 1 Table 1 Calculations of average nucleotide identity (ANI) between SW16-7 and other Ackermannviridae phage.
+
+Phages	Genus	OrthoANI	
+Salmonella phage P46FS4	Agtrevirus	96.04	
+Shigella phage MK-13	Agtrevirus	95.96	
+Shigella phage Ag3	Agtrevirus	95.84	
+Salmonella phage SKML-39	Agtrevirus	95.57	
+Dickeya phage vB-DsoM-LIMEstone1	Limestonevirus	88.24	
+Dickeya phage Ds23CZ	Limestonevirus	88.21	
+Dickeya phage Ds3CZ	Limestonevirus	88.16	
+Dickeya phage Ds5CZ	Limestonevirus	88.16	
+Dickeya phage PP35	Limestonevirus	88.12	
+Dickeya phage Ds9CZ	Limestonevirus	88.11	
+Dickeya phage Ds20CZ	Limestonevirus	88.10	
+Dickeya phage XF4	Limestonevirus	88.04	
+Dickeya phage Kamild	Limestonevirus	88.04	
+Dickeya phage JA15	Limestonevirus	88.02	
+Dickeya phage Ds16CZ	Limestonevirus	88.01	
+Dickeya phage RC-2014	Limestonevirus	87.86	
+Dickeya phage Ds25CZ	Limestonevirus	87.63	
+Dickeya phage Coodle	Limestonevirus	87.16	
+Salmonella phage SFP10	Kuttervirus	78.91	
+Salmonella phage Sh19	Kuttervirus	78.43	
+Escherichia phage vB_EcoA_4HA11	Kuttervirus	76.97	
+Salmonella phage pertopsoe	Kuttervirus	76.65	
+Salmonella phage allotria	Kuttervirus	76.52	
+Salmonella phage vB_SenM_SilasIsHot	Kuttervirus	76.44	
+Salmonella phage maane	Kuttervirus	76.22	
+Salmonella phage aagejoakim	Kuttervirus	75.47	
+Salmonella phage Se_EM4	Kuttervirus	75.42	
+Salmonella phage S115	Kuttervirus	75.23	
+Salmonella phage SenASZ3	Kuttervirus	75.14	
+Salmonella phage Se_AO1	Kuttervirus	75.13	
+Salmonella phage SE14	Kuttervirus	75.06	
+Salmonella phage Se-J	Kuttervirus	75.05	
+Salmonella phage S118	Kuttervirus	75.01	
+Salmonella phage STP07	Kuttervirus	75.00	
+Salmonella phage dinky	Kuttervirus	74.98	
+Escherichia phage FEC14	Kuttervirus	74.98	
+Salmonella phage kage	Kuttervirus	74.96	
+Salmonella phage GG32	Kuttervirus	74.96	
+Salmonella phage S117	Kuttervirus	74.90	
+Salmonella phage Se_EM1	Kuttervirus	74.86	
+Salmonella phage vB_SenAc_BPS6	Kuttervirus	74.78	
+Salmonella phage vB-SalM-SJ3	Kuttervirus	74.77	
+Escherichia phage PhaxI	Kuttervirus	74.76	
+Salmonella phage SenALZ1	Kuttervirus	74.74	
+Escherichia phage CBA120	Kuttervirus	74.68	
+Salmonella phage SP1	Kuttervirus	74.67	
+Salmonella phage vB_SenAc_BPS3	Kuttervirus	74.63	
+Salmonella phage Se-G	Kuttervirus	74.61	
+Salmonella phage ST-W77	Kuttervirus	74.59	
+Salmonella phage ISTP3	Kuttervirus	74.56	
+Salmonella phage Se-B	Kuttervirus	74.55	
+Salmonella phage moki	Kuttervirus	74.54	
+Salmonella phage Se_EM3	Kuttervirus	74.47	
+
+microorganisms-11-02090-t002_Table 2 Table 2 The host range of phage SW16-7.
+
+Salmonella Serovar	Group	No. of Strains Tested	No. of Lysed Strains	
+S. Weltevreden	Group O:3,10	11	11	
+S. Muenster	Group O:3,10	11	11	
+S. London	Group O:3,10	11	9	
+S. Meleagridis	Group O:3,10	7	6	
+S. Give	Group O:3,10	6	5	
+S. Anatum	Group O:3,10	5	4	
+S. Derby	Group O:4	17	2	
+S. Stanley	Group O:4	16	1	
+S. Typhimurium	Group O:4	16	1	
+S. Enteritidis	Group O:9	15	0	
+S. Rissen	Group O:7	16	1	
+S. Thompson	Group O:7	3	1	
+S. Goldcoast	Groups O:6,8	14	2	
+S. Hadar	Groups O:6,8	2	1	
+S. Corvallis	Groups O:8	16	1	
+S. Kentucky	Groups O:8	15	1	
+S. Hillingdon	Group O:9,46	1	1	
+S. Gateshead	Group O:9,46	1	1	
+S. Michigan	Group O:17	1	1	
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
+References
+
+1. Ferrari R.G. Rosario D.K.A. Cunha-Neto A. Mano S.B. Figueiredo E.E.S. Conte-Junior C.A. Worldwide Epidemiology of Salmonella Serovars in Animal-Based Foods: A Meta-analysis Appl. Environ. Microbiol. 2019 85 e00591-19 10.1128/AEM.00591-19 31053586 PMC6606869
+2. Sánchez-Vargas F.M. Abu-El-Haija M.A. Gómez-Duarte O.G. Salmonella infections: An update on epidemiology, management, and prevention Travel Med. Infect. Dis. 2011 9 263 277 10.1016/j.tmaid.2011.11.001 22118951
+3. Awang Salleh N. Rusul G. Hassan Z. Reezal A. Hajar Isa S. Nishibuchi M. Radu S. Incidence of Salmonella spp. in raw vegetables in Selangor, Malaysia Food Control 2003 14 475 479 10.1016/S0956-7135(02)00105-6
+4. Makendi C. Page A.J. Wren B.W. Le Thi Phuong T. Clare S. Hale C. Goulding D. Klemm E.J. Pickard D. Okoro C. A Phylogenetic and Phenotypic Analysis of Salmonella enterica Serovar Weltevreden, an Emerging Agent of Diarrheal Disease in Tropical Regions PLoS Neglected Trop. Dis. 2016 10 e0004446 10.1371/journal.pntd.0004446 PMC4750946 26867150
+5. Chau M.L. Hartantyo S.H. Yap M. Kang J.S. Aung K.T. Gutiérrez R.A. Ng L.C. Tam C.C. Barkham T. Diarrheagenic pathogens in adults attending a hospital in Singapore BMC Infect. Dis. 2016 16 32 10.1186/s12879-016-1354-0 26822615 PMC4730775
+6. Brankatschk K. Blom J. Goesmann A. Smits T.H. Duffy B. Genome of a European fresh-vegetable food safety outbreak strain of Salmonella enterica subsp. enterica serovar weltevreden J. Bacteriol. 2011 193 2066 10.1128/jb.00123-11 21296964 PMC3133026
+7. Nguyen T.K. Bui H.T. Truong T.A. Lam D.N. Ikeuchi S. Ly L.K.T. Hara-Kudo Y. Taniguchi T. Hayashidani H. Retail fresh vegetables as a potential source of Salmonella infection in the Mekong Delta, Vietnam Int. J. Food Microbiol. 2021 341 109049 10.1016/j.ijfoodmicro.2021.109049 33493824
+8. Hounmanou Y.M.G. Dalsgaard A. Sopacua T.F. Uddin G.M.N. Leekitcharoenphon P. Hendriksen R.S. Olsen J.E. Larsen M.H. Molecular Characteristics and Zoonotic Potential of Salmonella Weltevreden from Cultured Shrimp and Tilapia in Vietnam and China Front. Microbiol. 2020 11 1985 10.3389/fmicb.2020.01985 32983012 PMC7477899
+9. Li K. Petersen G. Barco L. Hvidtfeldt K. Liu L. Dalsgaard A. Salmonella Weltevreden in integrated and non-integrated tilapia aquaculture systems in Guangdong, China Food Microbiol. 2017 65 19 24 10.1016/j.fm.2017.01.014 28400002
+10. Noor Uddin G.M. Larsen M.H. Barco L. Minh Phu T. Dalsgaard A. Clonal Occurrence of Salmonella Weltevreden in Cultured Shrimp in the Mekong Delta, Vietnam PLoS ONE 2015 10 e0134252 10.1371/journal.pone.0134252 26222547 PMC4519254
+11. Zhao S. Datta A.R. Ayers S. Friedman S. Walker R.D. White D.G. Antimicrobial-resistant Salmonella serovars isolated from imported foods Int. J. Food Microbiol. 2003 84 87 92 10.1016/S0168-1605(02)00402-6 12781958
+12. Ren X. Li M. Xu C. Cui K. Feng Z. Fu Y. Zhang J. Liao M. Prevalence and molecular characterization of Salmonella enterica isolates throughout an integrated broiler supply chain in China Epidemiol. Infect. 2016 144 2989 2999 10.1017/S0950268816001515 27443305 PMC9150404
+13. Minh D.K. Hounmanou Y.M.G. Mai H.B.T. Olsen J.E. Dalsgaard A. Prevalence and genomic characterization of Salmonella Weltevreden in commercial pig feed Vet. Microbiol. 2020 246 108725 10.1016/j.vetmic.2020.108725 32605745
+14. D’Ortenzio E. Weill F.X. Ragonneau S. Lebon J.A. Renault P. Pierre V. First report of a Salmonella enterica serovar Weltevreden outbreak on Reunion Island, France, August 2007 Eurosurveillance 2008 13 18949 10.2807/ese.13.32.18949-en 18761897
+15. Al-Maqbali A.A. Al-Abri S.S. Vidyanand V. Al-Abaidani I. Al-Balushi A.S. Bawikar S. El Amir E. Al-Azri S. Kumar R. Al-Rashdi A. Community Foodborne of Salmonella Weltevreden Outbreak at Northern Governorate, Sultanate of Oman J. Epidemiol. Glob. Health 2021 11 224 229 10.2991/jegh.k.210404.001 33969949 PMC8242109
+16. Hassan R. Tecle S. Adcock B. Kellis M. Weiss J. Saupe A. Sorenson A. Klos R. Blankenship J. Blessington T. Multistate outbreak of Salmonella Paratyphi B variant L(+) tartrate(+) and Salmonella Weltevreden infections linked to imported frozen raw tuna: USA, March–July 2015 Epidemiol. Infect. 2018 146 1461 1467 10.1017/S0950268818001462 29880080 PMC6063755
+17. Le Thi Phuong T. Rattanavong S. Vongsouvath M. Davong V. Phu Huong Lan N. Campbell J.I. Darton T.C. Thwaites G.E. Newton P.N. Dance D.A.B. Non-typhoidal Salmonella serovars associated with invasive and non-invasive disease in the Lao People’s Democratic Republic Trans. R. Soc. Trop. Med. Hyg. 2017 111 418 424 10.1093/trstmh/trx076 29342283 PMC5914354
+18. Antony B. Dias M. Shetty A.K. Rekha B. Food poisoning due to Salmonella enterica serotype weltevreden in Mangalore Indian J. Med. Microbiol. 2009 27 257 258 10.4103/0255-0857.53211 19584510
+19. Jain P. Nandy S. Bharadwaj R. Niyogi S.K. Dutta S. Salmonella enterica serovar Weltevreden ST1500 associated foodborne outbreak in Pune, India Indian J. Med. Res. 2015 141 239 241 10.4103/0971-5916.155595 25900961 PMC4418162
+20. Li B. Yang X. Tan H. Ke B. He D. Wang H. Chen Q. Ke C. Zhang Y. Whole genome sequencing analysis of Salmonella enterica serovar Weltevreden isolated from human stool and contaminated food samples collected from the Southern coastal area of China Int. J. Food Microbiol. 2018 266 317 323 10.1016/j.ijfoodmicro.2017.10.032 29198370
+21. Zhang J. Peng Z. Chen K. Zhan Z. Shen H. Feng S. Gou H. Qu X. Ziemann M. Layton D.S. Genomic Characterization of Salmonella enterica serovar Weltevreden Associated with Human Diarrhea Microbiol. Spectr. 2023 11 e0354222 10.1128/spectrum.03542-22 36651774 PMC9927414
+22. Moye Z.D. Woolston J. Sulakvelidze A. Bacteriophage Applications for Food Production and Processing Viruses 2018 10 205 10.3390/v10040205 29671810 PMC5923499
+23. Gambino M. Brøndsted L. Looking into the future of phage-based control of zoonotic pathogens in food and animal production Curr. Opin. Biotechnol. 2021 68 96 103 10.1016/j.copbio.2020.10.003 33186799
+24. Woolston J. Parks A.R. Abuladze T. Anderson B. Li M. Carter C. Hanna L.F. Heyse S. Charbonneau D. Sulakvelidze A. Bacteriophages lytic for Salmonella rapidly reduce Salmonella contamination on glass and stainless steel surfaces Bacteriophage 2013 3 e25697 10.4161/bact.25697 24228226 PMC3821689
+25. Endersen L. O’Mahony J. Hill C. Ross R.P. McAuliffe O. Coffey A. Phage therapy in the food industry Annu. Rev. Food Sci. Technol. 2014 5 327 349 10.1146/annurev-food-030713-092415 24422588
+26. Cao Y. Ma R. Li Z. Mao X. Li Y. Wu Y. Wang L. Han K. Li L. Ma D. Broad-Spectrum Salmonella Phages PSE-D1 and PST-H1 Controls Salmonella in Foods Viruses 2022 14 2647 10.3390/v14122647 36560651 PMC9784834
+27. Li T. Chen H. Zhao J. Tao Z. Lan W. Zhao Y. Sun X. Characterization of Phage vB_SalM_SPJ41 and the Reduction of Risk of Antibiotic-Resistant Salmonella enterica Contamination in Two Ready-to-Eat Foods Antibiotics 2023 12 364 10.3390/antibiotics12020364 36830275 PMC9951933
+28. Van Twest R. Kropinski A.M. Bacteriophage enrichment from water and soil Methods Mol. Biol. 2009 501 15 21 10.1007/978-1-60327-164-6_2 19066806
+29. Aziz R.K. Bartels D. Best A.A. DeJongh M. Disz T. Edwards R.A. Formsma K. Gerdes S. Glass E.M. Kubal M. The RAST Server: Rapid annotations using subsystems technology BMC Genom. 2008 9 75 10.1186/1471-2164-9-75 PMC2265698 18261238
+30. Finn R.D. Tate J. Mistry J. Coggill P.C. Sammut S.J. Hotz H.R. Ceric G. Forslund K. Eddy S.R. Sonnhammer E.L. The Pfam protein families database Nucleic Acids Res. 2008 36 D281 D288 10.1093/nar/gkm960 18039703 PMC2238907
+31. Lowe T.M. Eddy S.R. tRNAscan-SE: A Program for Improved Detection of Transfer RNA Genes in Genomic Sequence Nucleic Acids Res. 1997 25 955 964 10.1093/nar/25.5.955 9023104 PMC146525
+32. Jia B. Raphenya A.R. Alcock B. Waglechner N. Guo P. Tsang K.K. Lago B.A. Dave B.M. Pereira S. Sharma A.N. CARD 2017: Expansion and model-centric curation of the comprehensive antibiotic resistance database Nucleic Acids Res. 2017 45 D566 D573 10.1093/nar/gkw1004 27789705 PMC5210516
+33. Liu B. Zheng D. Jin Q. Chen L. Yang J. VFDB 2019: A comparative pathogenomic platform with an interactive web interface Nucleic Acids Res. 2019 47 D687 D692 10.1093/nar/gky1080 30395255 PMC6324032
+34. Xie Y. Li H. Luo X. Li H. Gao Q. Zhang L. Teng Y. Zhao Q. Zuo Z. Ren J. IBS 2.0: An upgraded illustrator for the visualization of biological sequences Nucleic Acids Res. 2022 50 W420 W426 10.1093/nar/gkac373 35580044 PMC9252815
+35. Lee I. Ouk Kim Y. Park S.C. Chun J. OrthoANI: An improved algorithm and software for calculating average nucleotide identity Int. J. Syst. Evol. Microbiol. 2016 66 1100 1103 10.1099/ijsem.0.000760 26585518
+36. Xie J. Chen Y. Cai G. Cai R. Hu Z. Wang H. Tree Visualization By One Table (tvBOT): A web application for visualizing, modifying and annotating phylogenetic trees Nucleic Acids Res. 2023 51 W587 W592 10.1093/nar/gkad359 37144476 PMC10320113
+37. Bertozzi Silva J. Storms Z. Sauvageau D. Host receptors for bacteriophage adsorption FEMS Microbiol. Lett. 2016 363 fnw002 10.1093/femsle/fnw002 26755501
+38. Dunne M. Hupfeld M. Klumpp J. Loessner M.J. Molecular Basis of Bacterial Host Interactions by Gram-Positive Targeting Bacteriophages Viruses 2018 10 397 10.3390/v10080397 30060549 PMC6115969
+39. Subramanian S. Dover J.A. Parent K.N. Doore S.M. Host Range Expansion of Shigella Phage Sf6 Evolves through Point Mutations in the Tailspike J. Virol. 2022 96 e0092922 10.1128/jvi.00929-22 35894604 PMC9400499
+40. Baxa U. Steinbacher S. Weintraub A. Huber R. Seckler R. Mutations improving the folding of phage P22 tailspike protein affect its receptor binding activity J. Mol. Biol. 1999 293 693 701 10.1006/jmbi.1999.3165 10543960
+41. Prokhorov N.S. Riccio C. Zdorovenko E.L. Shneider M.M. Browning C. Knirel Y.A. Leiman P.G. Letarov A.V. Function of bacteriophage G7C esterase tailspike in host cell adsorption Mol. Microbiol. 2017 105 385 398 10.1111/mmi.13710 28513100
+42. Sørensen A.N. Woudstra C. Sørensen M.C.H. Brøndsted L. Subtypes of tail spike proteins predicts the host range of Ackermannviridae phages Comput. Struct. Biotechnol. J. 2021 19 4854 4867 10.1016/j.csbj.2021.08.030 34527194 PMC8432352
+43. Plattner M. Shneider M.M. Arbatsky N.P. Shashkov A.S. Chizhov A.O. Nazarov S. Prokhorov N.S. Taylor N.M.I. Buth S.A. Gambino M. Structure and Function of the Branched Receptor-Binding Complex of Bacteriophage CBA120 J. Mol. Biol. 2019 431 3718 3739 10.1016/j.jmb.2019.07.022 31325442
+44. Lee Y.-J. Dai N. Müller S.I. Guan C. Parker M.J. Fraser M.E. Walsh S.E. Sridar J. Mulholland A. Nayak K. Pathways of thymidine hypermodification Nucleic Acids Res. 2021 50 3001 3017 10.1093/nar/gkab781 PMC8989533 34522950
+45. Grimont P. Weill F.-X. Antigenic Formulae of the Salmonella serovars 9th ed. WHO Collaborating Centre for Reference and Research on Salmonella Paris, France 2007 1 166
+46. Sood L.R. Basu S. Bacteriophage typing of Salmonella weltevreden Antonie Leeuwenhoek 1979 45 595 604 10.1007/BF00403659 552816
+47. Sood L.R. Basu S. Sub-classification of phage types of Salmonella weltevreden and typing of strains by an extended phage typing scheme Antonie Leeuwenhoek 1980 46 467 473 10.1007/BF00395827 7235688
+48. Sood L.R. Basu S. Phage-typing of Salmonella weltevreden based on lysogeny II. Epidemiological usefulness of the system and geographical distribution of its phage-types Antonie Leeuwenhoek 1977 43 262 268 10.1007/BF02313754 603232
+49. Lekunberri I. Subirats J. Borrego C.M. Balcázar J.L. Exploring the contribution of bacteriophages to antibiotic resistance Environ. Pollut. 2017 220 981 984 10.1016/j.envpol.2016.11.059 27890586
+50. Colombo S. Arioli S. Neri E. Scala G. Gargari G. Mora D. Viromes As Genetic Reservoir for the Microbial Communities in Aquatic Environments: A Focus on Antimicrobial-Resistance Genes Front. Microbiol. 2017 8 1095 10.3389/fmicb.2017.01095 28663745 PMC5471338
+51. Wang G.-X. Huang D. Ji J.-H. Völker C. Wurm F.R. Seawater-Degradable Polymers—Fighting the Marine Plastic Pollution Adv. Sci. 2021 8 2001121 10.1002/advs.202001121 PMC7788598 33437568
+52. Labrie S.J. Samson J.E. Moineau S. Bacteriophage resistance mechanisms Nat. Rev. Microbiol. 2010 8 317 327 10.1038/nrmicro2315 20348932
+53. Oechslin F. Resistance Development to Bacteriophages Occurring during Bacteriophage Therapy Viruses 2018 10 351 10.3390/v10070351 29966329 PMC6070868
+54. Yu H. Zhang L. Feng C. Chi T. Qi Y. Abbas Raza S.H. Gao N. Jia K. Zhang Y. Fan R. A phage cocktail in controlling phage resistance development in multidrug resistant Aeromonas hydrophila with great therapeutic potential Microb. Pathog. 2022 162 105374 10.1016/j.micpath.2021.105374 34968644
+55. Gordillo Altamirano F.L. Barr J.J. Unlocking the next generation of phage therapy: The key is in the receptors Curr. Opin. Biotechnol. 2021 68 115 123 10.1016/j.copbio.2020.10.002 33202354
+56. Fischer S. Kittler S. Klein G. Glünder G. Impact of a single phage and a phage cocktail application in broilers on reduction of Campylobacter jejuni and development of resistance PLoS ONE 2013 8 e78543 10.1371/journal.pone.0078543 24205254 PMC3804501
+57. Adriaenssens E.M. Van Vaerenbergh J. Vandenheuvel D. Dunon V. Ceyssens P.J. De Proft M. Kropinski A.M. Noben J.P. Maes M. Lavigne R. T4-related bacteriophage LIMEstone isolates for the control of soft rot on potato caused by ‘Dickeya solani’ PLoS ONE 2012 7 e33227 10.1371/journal.pone.0033227 22413005 PMC3296691
+58. Anany H. Lingohr E.J. Villegas A. Ackermann H.W. She Y.M. Griffiths M.W. Kropinski A.M. A Shigella boydii bacteriophage which resembles Salmonella phage ViI Virol. J. 2011 8 242 10.1186/1743-422X-8-242 21595934 PMC3121705
+59. Adriaenssens E.M. Ackermann H.W. Anany H. Blasdel B. Connerton I.F. Goulding D. Griffiths M.W. Hooton S.P. Kutter E.M. Kropinski A.M. A suggested new bacteriophage genus: “Viunalikevirus” Arch. Virol. 2012 157 2035 2046 10.1007/s00705-012-1360-5 22707043 PMC4174289
+60. Fan C. Tie D. Sun Y. Jiang J. Huang H. Gong Y. Zhao C. Characterization and Genomic Analysis of Escherichia coli O157:H7 Bacteriophage FEC14, a New Member of Genus Kuttervirus Curr. Microbiol. 2021 78 159 166 10.1007/s00284-020-02283-x 33185717
+61. Walter M. Fiedler C. Grassl R. Biebl M. Rachel R. Hermo-Parrado X.L. Llamas-Saiz A.L. Seckler R. Miller S. van Raaij M.J. Structure of the receptor-binding protein of bacteriophage det7: A podoviral tail spike in a myovirus J. Virol. 2008 82 2265 2273 10.1128/JVI.01641-07 18077713 PMC2258939
+62. Steinbacher S. Baxa U. Miller S. Weintraub A. Seckler R. Huber R. Crystal structure of phage P22 tailspike protein complexed with Salmonella sp. O-antigen receptors Proc. Natl. Acad. Sci. USA 1996 93 10584 10588 10.1073/pnas.93.20.10584 8855221 PMC38196
+63. Chen C. Bales P. Greenfield J. Heselpoth R.D. Nelson D.C. Herzberg O. Crystal structure of ORF210 from E. coli O157:H1 phage CBA120 (TSP1), a putative tailspike protein PLoS ONE 2014 9 e93156 10.1371/journal.pone.0093156 24671238 PMC3966878
+64. Greenberg M. Dunlap J. Villafane R. Identification of the Tailspike Protein from the Salmonella newington Phage ϵ34 and Partial Characterization of Its Phage-Associated Properties J. Struct. Biol. 1995 115 283 289 10.1006/jsbi.1995.1053 8573470
+65. Takeda K. Uetake H. In vitro interaction between phage and receptor lipopolysaccharide: A novel glycosidase associated with Salmonella phage 15 Virology 1973 52 148 159 10.1016/0042-6822(73)90405-4 4633001
+66. El-Dougdoug N.K. Cucic S. Abdelhamid A.G. Brovko L. Kropinski A.M. Griffiths M.W. Anany H. Control of Salmonella Newport on cherry tomato using a cocktail of lytic bacteriophages Int. J. Food Microbiol. 2019 293 60 71 10.1016/j.ijfoodmicro.2019.01.003 30641253
+67. Petsong K. Benjakul S. Vongkamjan K. Evaluation of storage conditions and efficiency of a novel microencapsulated Salmonella phage cocktail for controlling S. enteritidis and S. typhimurium in-vitro and in fresh foods Food Microbiol. 2019 83 167 174 10.1016/j.fm.2019.05.008 31202408
+68. Petsong K. Benjakul S. Chaturongakul S. Switt A.I.M. Vongkamjan K. Lysis Profiles of Salmonella Phages on Salmonella Isolates from Various Sources and Efficiency of a Phage Cocktail against S. enteritidis and S. typhimurium Microorganisms 2019 7 100 10.3390/microorganisms7040100 30959743 PMC6518243

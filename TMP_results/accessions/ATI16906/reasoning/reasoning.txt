@@ -1,0 +1,34 @@
+=============Reasoning for ATI16906 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('water, Grand River') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for ATI16906 from accession literature=============
+=============Reasoning for ATI16906 from host literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." Since the optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC11141557.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that 'Clinical strains of S. flexneri (SF480), S. dysenteriae (SD-USM1), S. sonnei (SS-USM1), and S. boydii (SB-USM1) were obtained... working cultures were prepared from the stool by inoculating a single isolated colony into 10 ml of nutrient broth for experimental purposes. These cultures were then overnight incubated at 37 °C with 200 rpm in a shaking incubator'. This indicates the optimal or standard incubation temperature used for the bacteria, which is 37 °C. Since 37 °C falls within the mesophile range (15–45°C), the phage's associated thermal characteristic is inferred to be mesophilic based on the host culture conditions.
+
+
+=============Reasoning for ATI16906 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the following relevant context: 'host': 'Shigella flexneri, Shigella boydii, Shigella dysenteriae, Shigella sonnei', 'isolation_source': 'water, Grand River', 'lat_lon': '42.72 N 84.57 W', 'collection_date': '05-Oct-2016'.
+2. **Evaluate Evidence:** There is no explicit mention of optimal growth temperature for the phage.
+3. **Infer Environment:** The isolation source is 'water' from a specific geographical location (Grand River). Water sources, especially those associated with human/animal hosts (Shigella species), typically represent moderate environmental conditions.
+4. **Apply Rules:** Since no explicit evidence exists, the system must infer. The host bacteria (Shigella species) are generally mesophiles. Therefore, the phage is most likely adapted to mesophilic conditions (15–45°C).
+5. **Conclusion:** Defaulting to mesophile based on the known biology of the host organism and the general nature of the isolation source (water/gut-associated bacteria).
+
+

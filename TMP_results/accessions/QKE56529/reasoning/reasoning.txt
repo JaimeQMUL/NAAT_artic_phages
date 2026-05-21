@@ -1,0 +1,25 @@
+=============Reasoning for QKE56529 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QKE56529 from accession literature=============
+=============Reasoning for QKE56529 from host literature=============
+Paper: PMC12878758.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the stability of the microcapsules was evaluated under 'moderate temperatures (30 °C) and high temperatures (50 °C) for 48 h' in the section 'Laboratory Evaluation of Btk Microcapsule Stability under UV and Temperature Stress'. Furthermore, the text mentions that 'At 30 °C, CC-1+Btk (D) and commercial formulation retained efficacy... while at 50 °C, CC-1+Btk (D) alone sustained this level of efficacy' in the 'Larval Mortality of Achaea janata under Stress' section. Since the optimal performance was observed at 30 °C and 50 °C, and the mesophile range is defined as 15–45°C, the observed conditions fall within or near this range, suggesting mesophilic suitability for stability testing, although 50°C is slightly above the defined upper limit. However, the explicit testing range includes 30°C, which is firmly within the mesophile range (15–45°C).
+
+
+=============Reasoning for QKE56529 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are '37.324 N 77.2704 W' (a temperate region). Soil environments generally support mesophilic organisms unless specific extreme conditions are noted.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (temperate soil) suggests moderate conditions, the most probable classification is mesophile. This assignment relies on the fallback rule (Rule 4) due to the lack of direct thermal data.
+
+

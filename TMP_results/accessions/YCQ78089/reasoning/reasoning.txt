@@ -1,0 +1,34 @@
+=============Reasoning for YCQ78089 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'WWTP influent' (Wastewater Treatment Plant influent). Wastewater environments are generally considered mesophilic environments, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for YCQ78089 from accession literature=============
+=============Reasoning for YCQ78089 from host literature=============
+Paper: PMC13066108.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions the following conditions for enzyme activity assays and culture: 
+1. "The activity assay was performed in anaerobic chamber, and methyl viologen (MV) used for electron acceptor/donor, 20 mM NaHCO3 and 20 mM formate are respectively used as substrates. The error bars correspond to the standard deviation of at least three independent measurements, and the center value for the error bars is the average of the three independent measurements. Source data are provided as a Source Data file." (No explicit temperature given for this assay, but the next section provides context).
+2. "All electrochemical experiments were implemented in 0.1 M HEPES/NaOH, 0.1 M NaCl, pH 6.2, 25 °C, the continuous CO2 gas with flow rate of 20 sccm used as substrate, and the scan rate of CV was 10 mV s−1, the scan rate of LSV was 1 mV s−1, and the electrode rotation rate was 900 rpm unless specific statement. The error bars correspond to the standard deviation of at least three independent measurements, and the center value for the error bars is the average of the three independent measurements. Source data are provided as a Source Data file." (Explicitly states 25°C).
+3. "The activity assay was performed in anaerobic chamber, and methyl viologen (MV) used for electron donor/acceptor, 20 mM NaHCO3 and 20 mM formate are respectively used as substrates. The error bars correspond to the standard deviation of at least three independent measurements, and the center value for the error bars is the average of the three independent measurements. Source data are provided as a Source Data file." (This section is repeated, but the context of the subsequent section is more definitive).
+4. "The formate concentration in the electrolyte was determined using high-performance liquid chromatography (HPLC) equipped with a RID-20A detector (Nexera XR, Shimadzu) and an Aminex HPX-87H column (300 × 7.8 mm, Bio-Rad). The mobile phase was 5 mM H2SO4, with a flow rate of 0.6 mL min−1 and a column temperature of 60°C. All samples were prepared by adding H2SO4 to a final concentration of 5 mM and then centrifuged at 12,000 × g for 10 min." (This is for analysis, not the reaction condition).
+5. "The formate concentration in the electrolyte was determined using high-performance liquid chromatography (HPLC) equipped with a RID-20A detector (Nexera XR, Shimadzu) and an Aminex HPX-87H column (300 × 7.8 mm, Bio-Rad). The mobile phase was 5 mM H2SO4, with a flow rate of 0.6 mL min−1 and a column temperature of 60°C. All samples were prepared by adding H2SO4 to a final concentration of 5 mM and then centrifuged at 12,000 × g for 10 min." (This is for analysis, not the reaction condition).
+6. "The formate concentration in the electrolyte was determined using high-performance liquid chromatography (HPLC) equipped with a RID-20A detector (Nexera XR, Shimadzu) and an Aminex HPX-87H column (300 × 7.8 mm, Bio-Rad). The mobile phase was 5 mM H2SO4, with a flow rate of 0.6 mL min−1 and a column temperature of 60°C. All samples were prepared by adding H2SO4 to a final concentration of 5 mM and then centrifuged at 12,000 × g for 10 min." (This is for analysis, not the reaction condition).
+7. "The formate concentration in the electrolyte was determined using high-performance liquid chromatography (HPLC) equipped with a RID-20A detector (Nexera XR, Shimadzu) and an Aminex HPX-87H column (300 × 7.8 mm, Bio-Rad). The mobile phase was 5 mM H2SO4, with a flow rate of 0.6 mL min−1 and a column temperature of 60°C. All samples were prepared by adding H2SO4 to a final concentration of 5 mM and then centrifuged at 12,000 × g for 10 min." (This is for analysis, not the reaction condition).
+8. "The formate concentration in the electrolyte was determined using high-performance liquid chromatography (HPLC) equipped with a RID-20A detector (Nexera XR, Shimadzu) and an Aminex HPX-87H column (300 × 7.8 mm, Bio-Rad). The mobile phase was 5 mM H2SO4, with a flow rate of 0.6 mL min−1 and a column temperature of 60°C. All samples were prepared by adding H2SO4 to a final concentration of 5 mM and then centrifuged at 12,000 × g for 10 min." (This is for analysis, not the reaction condition).
+9. "The formate concentration in the electrolyte was determined using high-performance liquid chromatography (HPLC) equipped with a RID-20A detector (Nexera XR, Shimadzu) and an Aminex HPX-87H column (300 × 7.8 mm, Bio-Rad). The mobile phase was 5 mM H2SO4, with a flow rate of 0.6 mL min−1 and a column temperature of 60°C. All samples were prepared by adding H2SO4 to a final concentration of 5 mM and then centrifuged at 12,000 × g for 10 min." (This is for analysis, not the reaction condition).
+
+Multiple explicit mentions of 25°C are found in the context of electrochemical experiments, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YCQ78089 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Shewanella phage Persephone. 2. **Check for environmental context:** The isolation source is 'WWTP influent' (Wastewater Treatment Plant influent). WWTPs typically experience fluctuating temperatures, but the general ambient temperature range for such environments, especially when not specified otherwise, is most commonly associated with mesophilic conditions (15–45°C). 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (WWTP) suggests moderate conditions, the most probable classification is mesophile. 4. **Fallback:** As no strong evidence is present, the default fallback classification is mesophile.
+
+

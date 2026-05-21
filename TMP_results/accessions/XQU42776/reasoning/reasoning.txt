@@ -1,0 +1,33 @@
+=============Reasoning for XQU42776 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Escherichia coli') and isolation source ('pig'), but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range.
+
+
+=============Reasoning for XQU42776 from accession literature=============
+Paper: PMC13096147.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal temperature for phage adsorption: "The adsorption rate of Escherichia phage vECPPW9 to bacterial cells increased over time at 37 °C." Furthermore, multiple assays were conducted at 37 °C, including: "The plates were air-dried and incubated overnight at 37 °C." and "The mixtures were incubated at 37 °C with vigorous shaking at 150 rpm". Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC11678034.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability of phage X5: "The purified phage samples (1 mL phage, 1010 PFU/mL) were incubated at 28, 37, 50, 60, and 70 °C to determine the thermal stability..." and "The titer of phage X5 was stable at 28 °C and 37 °C (Figure 2A)." The optimal growth/stability temperatures mentioned (28°C and 37°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for XQU42776 from host literature=============
+=============Reasoning for XQU42776 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is 'pig' and the country is 'China'. While this suggests an environmental origin, it does not provide a specific temperature range.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient to strongly infer a specific temperature class (psychrophile or thermophile), the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: The most probable classification, based on the lack of data, is mesophile.
+
+

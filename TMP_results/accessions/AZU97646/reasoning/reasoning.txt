@@ -1,0 +1,44 @@
+=============Reasoning for AZU97646 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is listed as 'hot spring', which strongly implies a thermophilic environment. Additionally, the title contains 'Thermus phage YS40_Isch' and the lab host is 'Thermus thermophilus HB8', both suggesting thermophilic association.
+
+
+=============Reasoning for AZU97646 from accession literature=============
+=============Reasoning for AZU97646 from host literature=============
+Paper: PMC13162202.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that cultures of bacteria were grown in Marine Broth 2216 medium under continuous shaking at 220 rpm at 30 °C. Furthermore, subsequent incubation steps, including growth curves and colony-forming unit assays, were performed at 30 °C. The degradation assays were also conducted at 30 °C. Since 30 °C falls within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+Paper: 40515755.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text mentions the optimal reaction temperature for the transketolase from *Thermus thermophilus* HB8 (TtTK) was 50 °C. Since 50 °C is greater than 45°C, this indicates a thermophilic characteristic.
+
+
+Paper: 40892736.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper discusses the crystal structure of UMP kinase from 'Thermus thermophilus HB8'. The text explicitly states that 'Thermus thermophilus HB8' is an 'extreme thermophile'. Although the phage is not mentioned, the context is entirely about the enzyme from this organism, and the classification of the host organism is provided.
+
+
+Paper: 40833705.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that 'Thermus thermophilus, a thermophilic extremophile, serves as an excellent model...'. Although the phage 'Thermus phage YS40_Isch' is not explicitly mentioned, the context is entirely focused on the host, T. thermophilus, which is characterized as thermophilic. Therefore, the phage is inferred to share the thermal characteristics of its host.
+
+
+=============Reasoning for AZU97646 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage YS40_Isch'. The genus name 'Thermus' strongly suggests an association with thermophilic organisms. Furthermore, the 'isolation_source' is listed as a 'hot spring', which implies high-temperature conditions. Based on these two pieces of evidence, the classification is inferred to be thermophile (>45°C).
+
+

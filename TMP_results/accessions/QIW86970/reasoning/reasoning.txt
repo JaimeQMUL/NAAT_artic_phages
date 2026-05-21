@@ -1,0 +1,26 @@
+=============Reasoning for QIW86970 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Aeromonas hydrophila'), and accession details, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned.
+
+
+=============Reasoning for QIW86970 from accession literature=============
+=============Reasoning for QIW86970 from host literature=============
+Paper: PMC13185156.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the culture conditions for the strains used, including P. putida KT2440. In section 2.1, it mentions: "P. putida KT2440 was also cultured aerobically in LB at 30 °C as 10 mL cultures in 50 mL Erlenmeyer flasks on a rotary shaker at 200 rpm." Furthermore, in section 2.4, when describing the production of 2,3-BDO and acetoin by P. putida KT2440 (pIZBud), it states: "Cultivations were conducted at 30 °C with shaking at 200 rpm." Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QIW86970 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Aeromonas phage Ahp1_CNU-2021.
+2. Check for environmental context: The host organism is 'Aeromonas hydrophila'. Aeromonas species are generally associated with freshwater and moderate environmental temperatures, typically thriving in ranges suitable for mesophiles (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is required. The association with a common environmental bacterium like Aeromonas strongly suggests a mesophilic lifestyle.
+4. Fallback: As the environmental context points towards moderate conditions and no other information is available, 'mesophile' is selected as the most probable classification. This classification is assigned by default due to insufficient specific evidence.
+
+

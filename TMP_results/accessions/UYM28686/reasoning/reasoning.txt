@@ -1,0 +1,26 @@
+=============Reasoning for UYM28686 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Serratia phage vB_SspM_LC53'), the host ('Serratia sp. ATCC 39006'), and a location ('New Zealand: Dunedin'), but no explicit or strongly implied temperature or growth condition information is present to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for UYM28686 from accession literature=============
+=============Reasoning for UYM28686 from host literature=============
+Paper: PMC13027821.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states the incubation conditions for preparing seed cultures: "...followed by incubation at 37 °C with shaking for 16 h to prepare seed cultures." It also states the induction temperature: "...and the temperature was shifted to 30 °C for 24 h to induce GV synthesis." Since 37 °C and 30 °C both fall within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for UYM28686 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal stability range for the phage.
+2. Check for environmental context: The metadata lists the country of origin as 'New Zealand: Dunedin'. While this provides a geographical context, it does not translate directly into a specific, reliable thermal classification for the phage.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is too weak to strongly infer a specific range (psychrophile or thermophile), the system must default to the fallback classification as per Rule 4.
+4. Fallback: The default classification is 'mesophile'.
+
+

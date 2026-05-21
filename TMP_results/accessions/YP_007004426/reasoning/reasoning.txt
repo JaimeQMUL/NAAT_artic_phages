@@ -1,0 +1,19 @@
+=============Reasoning for YP_007004426 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage ime09') and its host ('Escherichia coli'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_007004426 from accession literature=============
+=============Reasoning for YP_007004426 from host literature=============
+=============Reasoning for YP_007004426 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Escherichia phage ime09.
+2. Check for environmental context: The metadata indicates the host is 'Escherichia coli' and the collection country is 'China'. Escherichia coli is a common mesophilic bacterium, typically isolated from environments around human or gut temperatures (37°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is required. The most probable classification is based on the known biology of the host organism, *Escherichia coli*, which is a mesophile. Therefore, the classification defaults to mesophile.
+4. Final assignment: Mesophile (15–45°C).
+
+

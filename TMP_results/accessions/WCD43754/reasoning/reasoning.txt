@@ -1,0 +1,16 @@
+=============Reasoning for WCD43754 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and accession details, but no explicit or strongly implied temperature or environmental condition is mentioned to determine the thermal range.
+
+
+=============Reasoning for WCD43754 from accession literature=============
+=============Reasoning for WCD43754 from host literature=============
+=============Reasoning for WCD43754 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage ECML-363. 2. The host organism, Escherichia coli, is a well-known mesophile, typically thriving in moderate temperatures (37°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Based on the host's typical physiology, 'mesophile' is the most probable classification. 5. This classification is assigned by default due to insufficient evidence, triggering the fallback rule.
+
+

@@ -1,0 +1,33 @@
+=============Reasoning for QHJ74191 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Vibrio phage VH1_2019') and the lab host ('Vibrio natiegens'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for QHJ74191 from accession literature=============
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+Paper: PMC10473537.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature used for bacterial growth and phage activity assays. For bacterial growth, it mentions: "V. splendidus was grown aerobically on 2216E plates or in 2216E broth (Difco, Detroit, MI, USA), and incubated at 28 °C [21]" and "V. splendidus HS0 was stored at −80 °C in 20% (v/v) glycerol." For phage adsorption rate and one-step growth curve, it states: "...and cultured at 28 °C;" and "...allowed to adsorb for 10 min at 28 °C." For antibacterial assessment and biofilm assessment, it specifies: "...followed by incubation at 28 °C for 12 h;" and "...the cultures were incubated at 28 °C for 48 h...". Since 28°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for QHJ74191 from host literature=============
+=============Reasoning for QHJ74191 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The metadata indicates the collection location is 'USA: Hatches Creek, Massachusetts' and the collection date is '2018'. This geographical context suggests ambient environmental conditions, which are typically mesophilic.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The default assumption for environmental samples from temperate regions (like Massachusetts) is mesophilic unless otherwise specified.
+4. Final assignment: As no strong evidence supports psychrophile or thermophile, the fallback rule dictates assigning 'mesophile'.
+
+

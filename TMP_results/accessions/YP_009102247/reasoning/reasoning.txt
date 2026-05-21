@@ -1,0 +1,26 @@
+=============Reasoning for YP_009102247 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli B'), and accession details, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_009102247 from accession literature=============
+=============Reasoning for YP_009102247 from host literature=============
+Paper: PMC13173369.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for bacterial growth and susceptibility testing. For growth curve determination, strains were grown in liquid Luria‐Bertani (LB) media overnight at "37°C" and monitored at "37°C". For antimicrobial susceptibility analysis, isolates were incubated at "37°C" for 12 h. Furthermore, the bacterial isolation and conjugation assays were performed at "37°C". Since the optimal growth temperature is consistently reported as 37°C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009102247 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Enterobacteria phage RB27.
+2. Check for environmental context: The host organism is 'Escherichia coli B'. E. coli is a common mesophilic bacterium, typically thriving in the range of 35-37°C.
+3. Apply decision rules: Since no explicit evidence exists, inference is drawn from the known biology of the host organism (E. coli), which strongly suggests a mesophilic lifestyle for the associated phage.
+4. Final classification: Based on the host's typical mesophilic nature, 'mesophile' is assigned as the most probable classification. This assignment relies on the fallback rule due to the absence of direct thermal data.
+
+

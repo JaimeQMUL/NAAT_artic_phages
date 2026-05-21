@@ -1,0 +1,23 @@
+=============Reasoning for XOD32333 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'lake water'. Lake water environments are generally associated with mesophilic conditions, as no extreme temperatures are specified.
+
+
+=============Reasoning for XOD32333 from accession literature=============
+=============Reasoning for XOD32333 from host literature=============
+Paper: PMC13152249.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the study analyzed mutant libraries on food matrices under "abusive cold storage conditions at 8 °C, temperature frequently encountered in open cooling displays or household refrigerators" (Section 1, paragraph 4). Furthermore, the incubation steps for the competition assays explicitly state: "...and stored at 8 °C for 5 days" (Section 2.4). The general background microbiota analysis also mentions "During cold storage" and "After 96 h of storage at 8 °C" (Section 3.1.2). Since 8 °C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for XOD32333 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Shigella phage sb4. 2. **Check for environmental context:** The isolation source is 'lake water' from 'India: Kolkata'. While lake water temperature varies, the general environmental context for temperate aquatic phages, especially those associated with human pathogens (Shigella), often suggests mesophilic conditions unless extreme temperatures are noted. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context ('lake water') is too broad to definitively place it in psychrophile (<15°C) or thermophile (>45°C) ranges, the system must default to the fallback classification as per Rule 4. 4. **Fallback:** The default classification is 'mesophile'.
+
+

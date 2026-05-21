@@ -1,0 +1,33 @@
+=============Reasoning for QZI84721 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and accession details, but no explicit or strongly implied temperature or environmental condition is mentioned to determine a thermal range.
+
+
+=============Reasoning for QZI84721 from accession literature=============
+Paper: 41990421.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "MM-1 and MM-2 were infectious at a broad temperature (4°C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range (4°C to 60°C) encompasses this range, and the optimal growth temperature is not specified, the most appropriate classification based on the provided range is mesophile, as it covers the typical mesophilic range. The explicit range suggests suitability across a wide range, including mesophilic conditions.
+
+
+Paper: 42112428.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states: "The DSF2 remains stable from 4 °C to 50 °C". Since the mesophile range is defined as 15–45°C, and the phage is stable across this range (and slightly beyond), it falls within the mesophilic classification. The temperature range (4 °C to 50 °C) encompasses the mesophilic range.
+
+
+=============Reasoning for QZI84721 from host literature=============
+=============Reasoning for QZI84721 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Escherichia phage vB_EcoM-PM108') and its host ('Escherichia coli').
+2. There is no explicit information regarding the optimal growth temperature for the phage or its host.
+3. Based on the host organism, *Escherichia coli*, which is a common bacterium associated with moderate environments (typically mesophilic ranges, 15–45°C), the most probable classification is mesophile.
+4. Since no explicit evidence exists, and the environmental context (host) points towards moderate conditions, the default classification rule (Rule 4) is applied, leading to 'mesophile'.
+
+

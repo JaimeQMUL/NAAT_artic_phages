@@ -1,0 +1,23 @@
+=============Reasoning for AEN94146 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Salmonella phage SFP10') and its hosts ('Salmonella sp. and Escherichia coli O157'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for AEN94146 from accession literature=============
+=============Reasoning for AEN94146 from host literature=============
+Paper: PMC11160484.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The bacterial growth analysis section states that the bacterial isolates were cultured in LB broth and incubated at "37°C" for 48 h. Additionally, the secondary metabolite extraction involved incubating the isolates in LB broth at "37°C" for 7 days. The antimicrobial assay also involved incubating the pathogens at "37°C" for 24 h, and the microtiter plate was incubated at "37°C" for 16–20 h. Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for AEN94146 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage SFP10) and its host (Salmonella sp. and Escherichia coli O157). 2. Salmonella and E. coli are generally associated with mammalian or moderate environmental temperatures (body temperature range, 37°C, which falls within the mesophile range of 15–45°C). 3. There is no explicit mention of optimal growth temperature. 4. Therefore, based on the known ecology of the host bacteria, the most probable classification is mesophile. 5. Since no explicit evidence exists, the classification defaults to mesophile as per the decision rules.
+
+

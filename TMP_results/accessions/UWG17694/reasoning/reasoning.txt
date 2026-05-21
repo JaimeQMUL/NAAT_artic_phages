@@ -1,0 +1,19 @@
+=============Reasoning for UWG17694 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The host is 'Homo sapiens' and the isolation source is 'feces' from 'gut metagenome'. These environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for UWG17694 from accession literature=============
+=============Reasoning for UWG17694 from host literature=============
+=============Reasoning for UWG17694 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'feces' and the 'metagenome_source' is 'gut metagenome'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The environment (gut/feces) suggests a typical mammalian gut temperature range.
+3. **Determine Classification:** The mammalian gut temperature is generally considered moderate, falling within the 15–45°C range.
+4. **Conclusion:** Since no explicit evidence exists, and the environmental context (gut) strongly suggests moderate conditions, the classification defaults to mesophile. This assignment is based on the fallback rule (Rule 4) as the environmental context is suggestive but not explicitly quantifiable for a precise thermal classification.
+
+

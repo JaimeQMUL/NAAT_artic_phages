@@ -1,0 +1,16 @@
+=============Reasoning for AGS81270 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Campylobacter jejuni subsp. jejuni') and the phage name, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for AGS81270 from accession literature=============
+=============Reasoning for AGS81270 from host literature=============
+=============Reasoning for AGS81270 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Campylobacter phage CP8) and its host (Campylobacter jejuni subsp. jejuni). 2. No explicit thermal range is provided in the metadata. 3. The host, Campylobacter jejuni, is a common bacterium associated with the gastrointestinal tract and is generally considered a mesophile, thriving in moderate body temperatures (around 37°C). 4. Since no explicit evidence exists, the most probable classification is inferred from the known ecology of the host organism. 5. Following the decision rules, the fallback classification is 'mesophile'.
+
+

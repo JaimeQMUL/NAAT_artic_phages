@@ -1,0 +1,23 @@
+=============Reasoning for UYA57670 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Synechococcus sp. CB0101'), and accession details, but no explicit or strongly implied temperature or environmental condition (e.g., psychrophile, mesophile, thermophile) is mentioned.
+
+
+=============Reasoning for UYA57670 from accession literature=============
+=============Reasoning for UYA57670 from host literature=============
+Paper: PMC3886946.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that the water temperature in the Chesapeake Bay, where the host organism (Synechococcus sp. strain CB0101) was isolated, "ranges from 0 to 30°C". Since the phage infects this organism, its thermal characteristics are related to the host's environment. The mesophile range is defined as 15–45°C. The observed range (0–30°C) overlaps significantly with the mesophile range, and the upper limit (30°C) falls within the mesophile range. Therefore, the phage is inferred to be mesophilic based on the host's environment.
+
+
+=============Reasoning for UYA57670 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Synechococcus phage S-CREM1) and its host (Synechococcus sp. CB0101). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The host, Synechococcus, is a common cyanobacterium often associated with aquatic environments. 4. Since no environmental context or explicit data is available, the decision rules mandate defaulting to 'mesophile' as the fallback class. 5. Therefore, 'mesophile' is assigned with low confidence.
+
+

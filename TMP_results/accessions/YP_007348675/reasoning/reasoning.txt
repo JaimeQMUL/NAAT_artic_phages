@@ -1,0 +1,30 @@
+=============Reasoning for YP_007348675 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Klebsiella phage KP27') and its host ('Klebsiella pneumoniae'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_007348675 from accession literature=============
+Paper: PMC12686013.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states regarding thermal assays: "Thermal assays indicated substantial stability up to 50 °C." Furthermore, in the section detailing the thermal stability profile, it is mentioned: "KP27 had high lytic activity (low turbidity) up to 50 °C..." and "These observations indicate that KP27 manifests strong thermal stability, with high lytic activity up to 50 °C and moderate activity at temperatures as high as 70 °C." Since the optimal/high activity is noted up to 50°C, and the general definition for mesophile is 15–45°C, the stability up to 50°C places it at the upper end of mesophilic range or slightly above, but the most definitive explicit statement points to stability up to 50°C, which is closest to the mesophilic definition provided (15-45°C) while acknowledging its robustness beyond it. Given the explicit mention of stability up to 50°C, and the general context of bacterial/physiological relevance, mesophile is the most appropriate classification based on the provided definitions and data points.
+
+
+Paper: PMC5219037.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper describes thermal stability assays for the KP27 endolysin, stating: "The thermostability was determined in PBS buffer (pH 7.4) after 15 and 60 min incubation at 50, 60, 70, 80, 90 and 110 °C." It notes that the enzyme "does not lose its activity after 1 h incubation at 50, 60 or 70 °C and even after 15 min at 80 °C." It also states that "An incubation of 60 min at 80 °C results in 10 % loss of its activity, whereas 15 and 60 min incubation at 90 °C causes activity decreases of 35 and 50 % respectively. KP27 endolysin is completely inactivated upon exposure to 110 °C for 30 min." These results characterize the enzyme's stability across a range of temperatures but do not define an optimal growth temperature for the phage itself, nor do they classify the phage as psychrophile, mesophile, or thermophile based on the provided definitions.
+
+
+=============Reasoning for YP_007348675 from host literature=============
+=============Reasoning for YP_007348675 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Klebsiella phage KP27) and its host (Klebsiella pneumoniae). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. Therefore, no evidence is available to classify it as psychrophile or thermophile. 4. According to the decision rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

@@ -1,0 +1,55 @@
+=============Reasoning for XDJ00286 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for XDJ00286 from accession literature=============
+Paper: PMC13152249.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the study analyzed mutant libraries on food matrices 'under refrigerated storage conditions' and specifically used an incubation temperature of '8 °C' for the main incubation period ('Inoculated samples were incubated at 8 °C for a total of 96 h (4 days)'). Furthermore, the background microbiota analysis mentions 'mesophilic aerobic bacteria (MAB)'. Since 8 °C falls within the typical mesophilic range (15–45°C, though 8°C is cold, it is the explicit condition used for the experiment), and the general context involves food spoilage/storage, the classification points to mesophile based on the explicit condition and associated background microbiota description.
+
+
+Paper: PMC13176088.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the IV-CFPS reaction and the purification of SapS: "The reactions were incubated at 37 °C for 2 h..." and "SapS was purified from 500 mL overnight cultures of S. saprophyticus P1CEA4 grown at 37 °C in TSB." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the range includes temperatures below 15°C (e.g., 4°C) and temperatures above 45°C (up to 60°C), but the optimal/general viability is described across a broad range encompassing the mesophilic range (15–45°C), and the text does not specify an optimal temperature that definitively places it in one category, we must rely on the explicit range. However, given the defined categories (psychrophile < 15°C, mesophile 15–45°C, thermophile > 45°C), and the broad viability range (4°C to 60°C), the most accurate classification based on the provided definitions and the observed range is difficult. Since the range spans all three, and the text does not specify an optimum, we will use the most common classification for general biocontrol agents or default to the mesophile range if the range is broad. Given the explicit mention of viability up to 60°C, it suggests thermophilic potential, but the inclusion of 4°C suggests psychrophilic potential. Since the text does not define the optimal temperature, and the range is so wide, we will classify it based on the general viability range encompassing the mesophilic range, while noting the explicit range.
+
+
+Paper: 42140025.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states that the phage PH215 "demonstrated remarkable environmental stability, sustaining infectivity across a wide pH range (2-11) and at temperatures from 4 to 50 °C." Since the optimal growth range for mesophiles is 15–45°C, and the tested range (4–50°C) encompasses this range, and the highest tested temperature (50°C) is near the upper limit of mesophilic activity, the classification leans towards mesophile based on the provided range context, although the explicit range is broad. Given the stated range of 4 to 50°C, and the definition of mesophile (15–45°C), the phage is capable of functioning within the mesophilic range.
+
+
+=============Reasoning for XDJ00286 from host literature=============
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the range includes temperatures below 15°C (e.g., 4°C) and temperatures above 45°C (up to 60°C), but the optimal/general viability is described across a broad range encompassing the mesophilic range (15–45°C), and the text does not specify an optimal temperature that definitively places it in one category, we must rely on the explicit range. However, given the defined categories (psychrophile < 15°C, mesophile 15–45°C, thermophile > 45°C), and the broad viability range (4°C to 60°C), the most accurate classification based on the provided definitions and the observed range is difficult. Since the range spans all three, and the text does not specify an optimum, we will use the most common classification for general biocontrol agents or default to the mesophile range if the range is broad. Given the explicit mention of viability up to 60°C, it suggests thermophilic potential, but the inclusion of 4°C suggests psychrophilic potential. Since the text does not define the optimal temperature, and the range is so wide, we will classify it based on the general viability range encompassing the mesophilic range, while noting the explicit range.
+
+
+=============Reasoning for XDJ00286 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage PMBT18), its host (Salmonella enterica subsp. enterica serovar Enteritidis), and its isolation source ('sewage').
+2. There is no explicit mention of optimal growth temperature for the phage or its host.
+3. The isolation source ('sewage') and the host ('Salmonella enterica') are typically associated with mesophilic environments (15–45°C) for bacterial survival and phage activity.
+4. Since no explicit evidence is present, the decision rules mandate assigning the MOST PROBABLE classification. Given the context of enteric bacteria and sewage, mesophile is the most probable classification.
+5. Therefore, 'mesophile' is assigned as the fallback classification.
+
+

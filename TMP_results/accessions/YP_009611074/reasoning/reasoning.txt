@@ -1,0 +1,47 @@
+=============Reasoning for YP_009611074 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for YP_009611074 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text provides multiple explicit temperature mentions for culturing related organisms or processes. For the phage-related context (which is inferred from the discussion of phage tail-like particles and the general context of *Streptomyces* growth), the following temperatures are noted: 
+1. *E. coli* DSM11539 was cultivated in LB liquid medium at 37 °C. 
+2. Spores of *S. clavuligerus* were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days). 
+3. Spores of *S. clavuligerus* wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm. 
+4. Mycelium cultures were stored as 20% glycerol and stocked at −80ºC. 
+5. The pre-culture medium had the same composition as that of the culture medium, except for glycerol concentration which was adjusted to 15 gL-1. All *S. clavuligerus* cultures were carried out in 250-baffled Erlenmeyer flasks containing 50 mL of medium. Pre-culture flasks were inoculated with seed medium (10% v/v), and the cultivation medium was inoculated with 10% v/v of pre-culture medium. Cultures were incubated for 120 h, at 220 rpm and 28 ◦C. 
+6. For CA quantification, the reaction was kept at 28°C for 15 min. 
+7. The general growth conditions for *S. clavuligerus* cultivation are consistently cited at 28°C.
+
+
+=============Reasoning for YP_009611074 from host literature=============
+Paper: PMC11294657.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states: "TSS is a thermostable and halotolerant subtilisin-like protease derived from the thermophile Brevibacillus sp. WF146." It also provides optimal activity conditions: "TSS exhibits optimal activity at 70°C and pH 9.0". Furthermore, the table confirms this: "TSS from Brevibacillus sp. WF146 [17] | 70°C; pH 9.0 | 58.0 | S8". Since 70°C is significantly above the mesophile range (15–45°C) and falls into the thermophile definition (> 45°C), the classification is thermophile.
+
+
+Paper: PMC11705968.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for the killing assay and MIC determination: "At each time point of exposure, the sample was dropped onto Luria agar (LA), which was subsequently incubated at 30°C overnight to examine bacterial growth." and "The treatments were subsequently incubated overnight at 30°C before measuring OD600." The paper also mentions that ESKAPE strains were grown at "30–37°C". Since 30°C falls within the mesophilic range (15–45°C), this is the relevant thermal characteristic.
+
+
+=============Reasoning for YP_009611074 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage Paradiddles'.
+2. Check for environmental context: The isolation source is 'soil', and the geographical coordinates are provided (33.213966 N 97.148254 W). Soil environments generally fluctuate but are often associated with mesophilic conditions, especially when no extreme conditions are specified.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) is general, the system must default to the fallback classification rule (Rule 4).
+4. Fallback: The default classification is 'mesophile'.
+
+

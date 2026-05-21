@@ -1,0 +1,16 @@
+=============Reasoning for DAL16914 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAL16914 from accession literature=============
+=============Reasoning for DAL16914 from host literature=============
+=============Reasoning for DAL16914 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2016-08-07. Human-associated samples generally imply mesophilic conditions (human body temperature is ~37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a moderate environment. 4. Fallback: If the environmental context is weak or absent, default to 'mesophile'. Given the human source, 'mesophile' is the most probable assignment. Therefore, 'mesophile' is selected as the most probable classification.
+
+

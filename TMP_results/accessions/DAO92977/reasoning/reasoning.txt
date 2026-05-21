@@ -1,0 +1,19 @@
+=============Reasoning for DAO92977 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and 'Human metagenome' suggests an association with human hosts, which typically implies mesophilic conditions.
+
+
+=============Reasoning for DAO92977 from accession literature=============
+=============Reasoning for DAO92977 from host literature=============
+=============Reasoning for DAO92977 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 
+2. The isolation source is 'Human metagenome' and the country is 'USA', suggesting an origin from human-associated environments. 
+3. In the absence of specific thermal data, the default classification rule mandates assigning 'mesophile' as the most probable classification, as human-associated microbes and phages are generally adapted to moderate human body temperatures (around 37°C), which falls within the mesophilic range (15–45°C).
+4. Therefore, 'mesophile' is assigned by fallback rule.
+
+

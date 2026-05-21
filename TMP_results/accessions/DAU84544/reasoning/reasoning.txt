@@ -1,0 +1,16 @@
+=============Reasoning for DAU84544 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAU84544 from accession literature=============
+=============Reasoning for DAU84544 from host literature=============
+=============Reasoning for DAU84544 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range of the phage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2014-09-03'. Human-associated samples generally imply mesophilic conditions (body temperature range, 37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a human host, pointing towards mesophilic conditions (15–45°C). 4. Final assignment: Because the environmental context (human host) strongly suggests mesophily, this is the most probable classification. If the context were completely absent, the fallback rule would mandate 'mesophile'.
+
+

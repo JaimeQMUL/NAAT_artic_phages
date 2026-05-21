@@ -1,0 +1,28 @@
+=============Reasoning for YP_004323072 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides location coordinates (38.17 N 73.15 W) and a collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated for the phage or its host.
+
+
+=============Reasoning for YP_004323072 from accession literature=============
+=============Reasoning for YP_004323072 from host literature=============
+Paper: PMC13147198.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for the transformation of Synechocystis sp. PCC 6803 and Synechococcus elongatus PCC 7942: "...incubated horizontally under 10 µmol PAR light, shaking with 130 rpm for different time intervals. Synechocystis sp. PCC 6803 cells were incubated for 1 h, 6 h, and 24 h, Synechococcus elongatus PCC 7942 cells, and Synechococcus sp. UTEX 3153 was incubated for 1 h and 6 h. After incubation, the cells were spread onto an Hydrophylic Acrylic Teflon Fluorinated (HATF) membrane placed on BG11 or AD7 agar plates without antibiotics and incubated overnight under 10 µmol PAR. The membranes were transferred onto BG11 or AD7 agar plates supplemented with the appropriate antibiotics for strain selection on the following day and incubated under 20 µmol continuous PAR." 
+
+Later, for the incubation time optimization, the text specifies: "...we tested BP-mediated transformation by incubating Synechocystis WT cells with BP-17 and plasmid DNA for 1 h, 6 h, and 24 h under constant low light at 30 °C with shaking at 120 rpm. The transformation efficiency increased from 1 h to 6 h, but significantly decreased after 24 h of incubation (Table 2 and Figure 2). Given these results, incubation for 24 h was not applied for future experiments. For S. elongatus, WT cells were incubated with BP-12 for 1 h and 6 h under constant low light at 30 °C with shaking at 120 rpm. As for Synechocystis, the transformation efficiency also increased from 1 h to 6 h of incubation (Table 2 and Figure 2)."
+
+
+=============Reasoning for YP_004323072 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-SM1.
+2. Check for environmental context: The metadata provides geographical coordinates ('lat_lon': '38.17 N 73.15 W') and a collection date ('collection_date': '17-Sep-2001'). These coordinates point to a temperate coastal/estuarine environment (near Long Island, NY, USA). Such environments typically support mesophilic organisms.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The geographical context suggests a temperate zone, which aligns best with mesophilic conditions (15–45°C). However, the environmental context is not a direct measure of phage thermal optimum. Therefore, as per Rule 4 (If no useful metadata exists, default to "mesophile" as the fallback class), 'mesophile' is assigned.
+4. Conclusion: The classification defaults to mesophile based on the fallback rule.
+
+

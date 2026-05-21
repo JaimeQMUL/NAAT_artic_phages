@@ -1,0 +1,40 @@
+=============Reasoning for QFR55905 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'intestinal contents of mice'. Intestinal environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for QFR55905 from accession literature=============
+Paper: PMC12735813.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the phage activity at several temperatures. The stability analysis (Section 3.2.1) showed that the phage activity remained relatively stable below 60 °C, but was completely lost at 70 °C. Furthermore, the lysis assays were performed at 21 °C, 28 °C, and 37 °C (Section 3.1 and Table 1). Since the optimal growth/activity range includes 28 °C and 37 °C, which fall within the 15–45°C range, the phage is classified as mesophile.
+
+
+Paper: PMC11177050.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature-dependent behavior of the phage: "The phage existed as a plasmid-like at 21 °C and could enter the lytic cycle to release offspring when the temperature increased to 37 °C." It also mentions, "Upon infecting the EV76 strain of Y. pestis, vB_YpM_HQ103 exhibits lysogenic behavior at 21 °C and lytic behavior at 37 °C." Since the optimal growth/activity range is described around 21°C and 37°C, this falls within the mesophile range (15–45°C).
+
+
+Paper: 32315702.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "the bacteriophage could completely lyse most of the tested Y. pestis strains (12/13) at 28 °C and 37 °C, and some Shigella strains could be lysed at 37°C." Since the tested temperatures (28°C and 37°C) fall within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for QFR55905 from host literature=============
+=============Reasoning for QFR55905 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of Yersinia phage JC221.
+2. **Check for environmental context:** The isolation source is 'intestinal contents of mice'. The mammalian intestinal environment typically maintains a temperature range close to body temperature (around 37°C), which falls within the mesophilic range (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is used. The environmental context strongly suggests a mesophilic lifestyle. If the environmental context were weak, the fallback rule would apply. Given the strong context (mammalian gut), mesophile is the most probable classification.
+4. **Conclusion:** Assign 'mesophile' based on the mammalian intestinal isolation source.
+
+

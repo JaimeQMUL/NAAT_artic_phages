@@ -1,0 +1,16 @@
+=============Reasoning for DAO27235 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'Human metagenome' and the collection date is '2017-01-15'. However, no specific temperature or thermal condition (psychrophile, mesophile, or thermophile) is explicitly stated or strongly implied by the provided text.
+
+
+=============Reasoning for DAO27235 from accession literature=============
+=============Reasoning for DAO27235 from host literature=============
+=============Reasoning for DAO27235 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2017-01-15'. Human-associated environments typically suggest mesophilic conditions (body temperature range). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context points towards human hosts, suggesting mesophily. 4. Fallback: As the environmental context (human metagenome) is suggestive but not definitive for thermal classification, and no explicit data is present, the system defaults to 'mesophile' as per the mandatory fallback rule (Rule 4).
+
+

@@ -1,0 +1,18 @@
+=============Reasoning for DAF92119 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAF92119 from accession literature=============
+=============Reasoning for DAF92119 from host literature=============
+=============Reasoning for DAF92119 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Siphoviridae sp. ctgN495.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the country is 'USA'. Human-associated microbes and phages are generally considered mesophilic unless specific extreme environments are noted.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (human host) suggests moderate conditions, the most probable classification is mesophile. This assignment relies on the fallback rule (Rule 4) due to the lack of specific thermal data.
+
+

@@ -1,0 +1,67 @@
+=============Reasoning for UYE95121 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage', which typically implies mesophilic conditions, and the host is 'Escherichia coli', which is generally considered a mesophile.
+
+
+=============Reasoning for UYE95121 from accession literature=============
+Paper: PMC12656860.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several assays involving the phages. For instance, in Section 2.3 (Phage Isolation and Purification), plates were incubated at "37 °C for 24 h." In Section 2.5 (Host Range Determination), plates were incubated at "37 °C for 24 h." In Section 2.6 (One-Step Growth Curve), the incubation was performed at "37 °C." In Section 2.8 (In Vitro Bactericidal Activity), the plate was incubated at "37 °C." In Section 2.9 (Biofilm Inhibition Assay), the microplate was incubated at "37 °C for 24 h." In Section 2.10 (Biofilm Eradication Assay), the incubation was at "37 °C for 24 h." In Section 2.11 (Confocal Laser Scanning Microscopy), the plate was incubated at "37 °C for 24 h." The discussion section further notes that the "environmental stability of the five isolated phages demonstrated a pH range of 4–10 and complete viability at 40 °C." Since the optimal growth/activity temperatures are consistently reported around 37 °C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UYE95121 from host literature=============
+Paper: PMC12428618.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the biofilm formation assays for E. coli strains were conducted at 15 °C, 25 °C, and 37 °C. The text notes that these temperature ranges were selected based on their relevance to food processing environments (15 °C), room temperature (25 °C), and optimal microbial growth conditions for E. coli (37 °C). Since the optimal growth temperature for E. coli is cited as 37 °C, and the tested range includes 15–37 °C, the general classification for E. coli is mesophile (15–45°C).
+
+
+Paper: PMC13114078.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The study evaluated the antibacterial activity of Lys40-Lip at 25 °C, 37 °C, and 45 °C (Figure 4A). The optimal performance was observed at 37 °C, which is the standard temperature for mammalian body temperature and typical bacterial growth conditions for Salmonella enteritidis. Since the host model used was chicks, and the optimal activity was shown at 37 °C, this suggests a mesophilic range. The definition for mesophile is 15–45°C, which encompasses 37°C.
+
+
+Paper: PMC11394844.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the invasive strain E. coli O157 ATCC 43895 exhibits the ability to form robust biofilm "at 37 °C" [23]. Furthermore, several assays were conducted at 37 °C, including: 1. Biofilm formation assays: "The WT, along with the O-antigen mutants... were grown in LB broth overnight at 37 °C under static condition." (Figure 2A caption). 2. Cell growth assays: "To investigate the influence of the core-OS on curli production, we grew the LPS mutants of the invasive strain on CRI plates at 37 °C." (Figure 5 caption). 3. Biofilm quantification assays: "The overnight culture was inoculated into duplicate 96-well microtiter plates containing minimal salt medium (MSM) with 0.04% glucose and incubated for 24 h without agitation at 37 °C." (Biofilm quantification assays section). 4. Growth curves: "...grown for 4 h at 37 °C." (Growth curves in MOPS media section). 5. Motility assays: "Five microliters of an overnight culture was point-inoculated into swarm plates and incubated at 37 °C for up to 40 h." (Motility assays section). Since 37 °C falls within the mesophile range (15–45°C), the phage/bacterium is characterized as mesophilic.
+
+
+Paper: PMC12656860.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several assays involving the phages. For instance, in Section 2.3 (Phage Isolation and Purification), plates were incubated at "37 °C for 24 h." In Section 2.5 (Host Range Determination), plates were incubated at "37 °C for 24 h." In Section 2.6 (One-Step Growth Curve), the incubation was performed at "37 °C." In Section 2.8 (In Vitro Bactericidal Activity), the plate was incubated at "37 °C." In Section 2.9 (Biofilm Inhibition Assay), the microplate was incubated at "37 °C for 24 h." In Section 2.10 (Biofilm Eradication Assay), the incubation was at "37 °C for 24 h." In Section 2.11 (Confocal Laser Scanning Microscopy), the plate was incubated at "37 °C for 24 h." The discussion section further notes that the "environmental stability of the five isolated phages demonstrated a pH range of 4–10 and complete viability at 40 °C." Since the optimal growth/activity temperatures are consistently reported around 37 °C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13096051.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper repeatedly mentions the incubation temperature for various assays involving E. coli, including: 
+- "Briefly, E. coli (106 CFU/mL) was incubated with different concentrations of EF at 37 °C for 24 h." (Section 2.2)
+- "Briefly, E. coli was cultured statically at 37 °C for 24 h." (Section 2.4.1)
+- "Briefly, E. coli was cultured statically at 37 °C for 24 h." (Section 2.4.2)
+- "Briefly, bacterial suspensions containing different concentrations of EF were inoculated into 96-well plates containing cell culture slides and incubated at 37 °C for 24 h to allow biofilm formation." (Section 2.4.3)
+- "...followed by static incubation at 37 °C for 24 h to allow EPS production." (Section 2.5)
+- "A 1 μL aliquot of the diluted bacterial suspension was inoculated at the center of each plate, followed by incubation at 37 °C for 24 h." (Section 2.6)
+- "E. coli was cultured with or without EF for 24 h at 37 °C." (Section 2.7)
+- "The mixtures were then incubated at 37 °C for 16–18 h." (Section 2.8)
+Since the host organism, E. coli, is consistently cultured and tested under conditions of 37°C, this indicates a mesophilic range.
+
+
+=============Reasoning for UYE95121 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state a minimum or maximum growth temperature for the phage. 2. **Check for environmental context:** The isolation source is 'sewage' and the collection date is 'Feb-2020'. Sewage environments are generally associated with mesophilic conditions (15–45°C) for the resident bacteria (host: Escherichia coli). 3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The context suggests mesophilic conditions. 4. **Fallback:** As the environmental context points towards moderate conditions, and no other strong evidence exists, 'mesophile' is selected. This classification relies on the general knowledge of the host's typical environment (sewage/gut flora), which aligns with the mesophilic range. 5. **Conclusion:** Assign 'mesophile' as the most probable classification.
+
+

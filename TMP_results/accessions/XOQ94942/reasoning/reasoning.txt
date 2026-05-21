@@ -1,0 +1,19 @@
+=============Reasoning for XOQ94942 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('rubber') and location ('Nigeria: Offa'), but no explicit or strongly implied temperature or thermal environment information is present to classify the organism as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for XOQ94942 from accession literature=============
+=============Reasoning for XOQ94942 from host literature=============
+=============Reasoning for XOQ94942 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following context: 'isolate': 'MSP1334', 'metagenome_source': 'rubber metagenome', 'country': 'Nigeria: Offa', 'isolation_source': 'rubber'.
+2. There is no explicit mention of temperature ranges for the phage or its source environment.
+3. The isolation source is 'rubber' from 'Nigeria: Offa'. While tropical environments can vary, there is no strong evidence pointing towards psychrophilic (<15°C) or thermophilic (>45°C) conditions.
+4. Following the decision rules, since environmental context is weak or absent regarding temperature, the system must default to 'mesophile'.
+
+

@@ -1,0 +1,47 @@
+=============Reasoning for CAD5241893 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Sewage - Mixed liquor'. Sewage environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for CAD5241893 from accession literature=============
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the in vivo mammary infection model, the initial infection and subsequent treatment were performed at conditions implying physiological temperature, and the phage adsorption assay was conducted at "37 °C". The stability test explicitly tested "37 °C" among others. Since the optimal and tested physiological temperature is 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC8006926.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states under 'Materials and Methods' -> 'Bacterial strains and culture conditions': 'All culturing in liquid medium was performed with shaking (150 rpm) at 37°C.' Additionally, in the 'Phage isolation' section, it mentions: 'This enrichment culture was then incubated overnight at 37°C'. Finally, in the 'Plaque formation and morphology' section, it states: 'Plates were incubated overnight at 37°C to allow plaques to form.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC7762788.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for biofilm formation and subsequent analyses multiple times: 
+1. "To form a biofilm, the plates were incubated statically for 16 h at 37 °C." (Section: Biofilm formation in cell-culture plates)
+2. "The wells then had either 50 μL phage cocktail (test wells) or 50 μL media (control wells) added. The 96-well microtitre plate was sealed and incubated at 37 °C with shaking at 200 rpm..." (Section: Phage infection in different media)
+3. "The catheter sections were incubated in the bacterial suspension for 2 h, at 37 °C at 150 rpm." (Section: Biofilm formation and treatment in simple catheter model.)
+4. "...resazurin salt was diluted in CAMHB from a x100 stock solution. This was then applied to the biofilms, 200 μL for cell-culture plate biofilms or 1.5 mL for Foley catheter biofilms, and incubated for approximately 2 h at 37 °C." (Section: Biofilm viability analysis)
+5. "For the Foley Catheter biofilms, the viability was also analysed by incubating the treated section of catheter in 2 mL CAMHB for 2 h at 37 °C at 150 rpm." (Section: Biofilm viability analysis)
+6. "...Phage treatments were combined with trimethoprim, a first line drug for CAUTI, measured by viability assay (A) and CFU counts (B) in an in vitro Foley catheter model. ... The viability staining showed that phage cocktail alone was more effective compared to drug alone or in combination. All effects were lost when measured by CFU counts." (Figure 5 caption, implying the conditions used were consistent with the 37°C incubation mentioned elsewhere).
+Since 37°C falls within the defined mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for CAD5241893 from host literature=============
+=============Reasoning for CAD5241893 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not explicitly state a thermal optimum or growth temperature.
+2. Check for environmental context: The isolation source is 'Sewage - Mixed liquor'. Sewage environments are typically characterized by fluctuating, moderate temperatures, generally falling within the mesophilic range (15–45°C), although they can vary. There is no strong evidence pointing towards extreme cold or high heat.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (sewage) suggests moderate conditions, the most probable classification is mesophile. 
+4. Fallback: As no useful metadata exists to strongly support psychrophile or thermophile, the default classification rule mandates assigning 'mesophile'.
+
+

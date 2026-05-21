@@ -1,0 +1,33 @@
+=============Reasoning for QPX65362 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for QPX65362 from accession literature=============
+Paper: PMC8713573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard growth conditions for C. jejuni strains used in the study: "C. jejuni strains were standardly grown on base II agar plates containing 5% calf blood at 41.6°C under microaerobic conditions..." and "Plates were then incubated for 18–24 h at 41.6°C under microaerobic conditions." The phage adsorption assay also used incubation at "37°C with gentle shaking". Since the host bacterium, which the phage targets, is grown and tested at 41.6°C, and 37°C is also mentioned for phage adsorption, the optimal/tested range is within the mesophilic range (15–45°C).
+
+
+=============Reasoning for QPX65362 from host literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and phage assays. For bacterial growth (e.g., on MH agar, in cBHI broth, or during co-culture), the temperature used is consistently 42 °C. For E. coli DH5α, 37 °C is used, but this is not relevant to the phage's primary host/assay. Since the host, *C. jejuni*, is grown and assayed at 42 °C, and 42 °C falls within the mesophile range (15–45°C), the phage's thermal characteristic is inferred to be mesophilic based on the experimental conditions.
+
+
+=============Reasoning for QPX65362 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Campylobacter phage F372' and its host is 'Campylobacter jejuni NCTC12662'. The isolation source is a 'chicken fecal sample' collected in 'Denmark'.
+2. **Determine Environmental Context:** *Campylobacter* species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens). The optimal growth temperatures for *Campylobacter* species are typically in the mesophilic range (around 35-42°C).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (fecal sample, *Campylobacter* host) strongly suggests a moderate, body-temperature-related environment.
+4. **Classification:** Based on the host's typical ecology, the most probable classification is mesophile (15–45°C). Since this is an inference based on general knowledge of the host rather than explicit data, and the rules require a classification, 'mesophile' is selected as the most probable assignment.
+
+

@@ -1,0 +1,33 @@
+=============Reasoning for WJZ70188 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'Broiler intestine', which suggests a host-associated environment typical of mesophiles. No explicit temperature range is provided.
+
+
+=============Reasoning for WJZ70188 from accession literature=============
+Paper: PMC12643550.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions several incubation temperatures for experiments involving phage X1 and Y. enterocolitica. Specific conditions tested include: 1. 'The plates were incubated at either 25°C or 37°C, depending on the experimental conditions.' (Section: Serial dilution plaque assay). 2. 'The mixture was incubated at either 25°C or 37°C for 15 min with shaking at 180 rpm...' (Section: Bacteriophage adsorption assay). 3. 'The plates were incubated at 37°C...' (Section: Identification of phage receptor genes in Y. enterocolitica LJYL201 at 37°C). 4. 'The samples were then dropped onto the copper grid and incubated for 1 min on the grid, which was subsequently stained with 2% uranyl acetate before observation with TEM...' (Section: Negative-stain transmission electron microscopy). 5. 'The mixture was incubated with a final concentration of 30 pm DNase Ⅰ at 37°C for 5 min. Subsequently, the mixture was incubated at 25°C for 30 min with shaking at 180 rpm...' (Section: DNase I protection assay). 6. 'The mixtures were incubated at 37°C for 5 min and then in the dark at 25°C for 1, 15, and 30 min, respectively.' (Section: SYBR Gold staining and high-resolution confocal laser microscopy observation). 7. 'The mixture was incubated with shaking for 15 min at either 25°C or 37°C...' (Section: Efficiency of center of infection assays). 8. 'The plates were inverted and incubated at either 25°C or 37°C for 16 h.' (Section: Efficiency of plating assay). 9. 'The mixture was shaken and incubated for 15 min at either 25°C or 37°C.' (Section: Bacterial survival after phage infection). 10. 'The mixture was shaken and incubated at 25°C...' (Section: Confocal laser microscopy observation). 11. 'The mixture was shaken and incubated for 15 min at either 25°C or 37°C.' (Section: RNA-seq and bioinformatics analysis). 12. 'The mixture was shaken and incubated for 15 min at either 25°C or 37°C.' (Section: qRT-PCR and qRT-PCR). 13. 'Reactions were incubated at 37°C or 25°C as indicated...' (Section: DNase and RNase activity assay). The optimal growth/activity temperatures tested are 25°C and 37°C. Since the mesophilic range is defined as 15–45°C, and the tested temperatures fall within this range, the phage/system is characterized as mesophilic.', 37.0, 
+
+
+=============Reasoning for WJZ70188 from host literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the phage-resistant variant 12662R, as follows: "...and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2)" and "...incubated microaerobically at 37°C". Since 37°C falls within the mesophile range (15–45°C), the phage is associated with a mesophilic host.
+
+
+=============Reasoning for WJZ70188 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage F341'), its host ('Campylobacter jejuni NCTC12658'), and the isolation source ('Broiler intestine').
+2. **Determine Environmental Context:** *Campylobacter jejuni* is a common human/animal pathogen typically associated with the gastrointestinal tract, which generally maintains moderate temperatures (body temperature range, 37°C, falls within the mesophile range of 15–45°C).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (gastrointestinal tract/host) strongly suggests mesophilic conditions.
+4. **Conclusion:** Since the context points to a moderate environment and no other information is available, 'mesophile' is assigned as the most probable classification. This assignment relies on the general knowledge of the host's typical niche, fulfilling the 'forced' classification rule.
+
+

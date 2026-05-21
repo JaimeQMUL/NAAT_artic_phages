@@ -1,0 +1,19 @@
+=============Reasoning for QPX65202 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for QPX65202 from accession literature=============
+=============Reasoning for QPX65202 from host literature=============
+=============Reasoning for QPX65202 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Campylobacter phage F371' and its host is 'Campylobacter jejuni NCTC12662'. The isolation source is a 'chicken fecal sample' collected in 'Denmark'.
+2. **Determine Environmental Context:** *Campylobacter* species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens). The typical physiological temperature range for these hosts is mammalian body temperature (around 37°C).
+3. **Apply Classification Rules:** The defined thermal ranges are: psychrophile (<15°C), mesophile (15–45°C), thermophile (>45°C). Since the host is a mesophilic bacterium found in a fecal sample, the most probable optimal growth temperature falls within the mesophilic range (15–45°C).
+4. **Conclusion:** No explicit thermal data is provided. Therefore, based on the known ecology of the host organism (*Campylobacter*), the classification defaults to mesophile. This assignment is forced due to the lack of explicit thermal data.
+
+

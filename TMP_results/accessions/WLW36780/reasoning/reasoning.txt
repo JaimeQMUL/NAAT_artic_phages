@@ -1,0 +1,18 @@
+=============Reasoning for WLW36780 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'seawater', but no specific temperature range or condition is provided to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for WLW36780 from accession literature=============
+=============Reasoning for WLW36780 from host literature=============
+=============Reasoning for WLW36780 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'seawater' and the host is 'Parasynechococcus marenigrum WH 8102'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The environment ('seawater') is generally associated with moderate temperatures, but this is not strong enough to classify as psychrophile (<15°C) or thermophile (>45°C).
+3. **Infer/Fallback:** Since the environment is marine, the most common and safest assumption for general marine microbes/phages, in the absence of specific temperature data, is mesophilic activity (15–45°C). Therefore, the fallback rule (Rule 4) dictates assigning 'mesophile'.
+
+

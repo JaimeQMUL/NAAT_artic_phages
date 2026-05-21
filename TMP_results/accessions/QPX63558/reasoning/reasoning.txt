@@ -1,0 +1,27 @@
+=============Reasoning for QPX63558 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for QPX63558 from accession literature=============
+Paper: PMC8713573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard growth conditions for C. jejuni strains used in the study: "C. jejuni strains were standardly grown on base II agar plates containing 5% calf blood at 41.6°C under microaerobic conditions..." and "Bacterial cultures were then incubated for 4 h at 41.6°C under microaerobic conditions..." and "Plates were then incubated for 18–24 h at 41.6°C under microaerobic conditions." Since the phage work is conducted using C. jejuni strains, the relevant temperature is 41.6°C. According to the definitions, 15–45°C corresponds to mesophile.
+
+
+=============Reasoning for QPX63558 from host literature=============
+=============Reasoning for QPX63558 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage F355'), its host ('Campylobacter jejuni NCTC12662'), and the isolation source ('chicken fecal sample').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common gastrointestinal pathogen. *Campylobacter* species are generally associated with mammalian gut environments, which typically maintain mesophilic temperatures (around 37°C).
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The environmental context (fecal sample/gut) strongly suggests mesophilic conditions (15–45°C).
+5. **Fallback/Conclusion:** Although the inference is based on the host's typical niche rather than direct phage data, the mesophilic assignment is the most biologically probable classification given the available context. Therefore, 'mesophile' is assigned as the most probable classification.
+
+

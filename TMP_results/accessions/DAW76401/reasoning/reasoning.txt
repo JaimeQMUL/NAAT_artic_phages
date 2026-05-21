@@ -1,0 +1,16 @@
+=============Reasoning for DAW76401 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'Human metagenome' and the collection date is '2015-02-19'. However, no specific temperature or thermal condition (e.g., hot spring, deep sea) is mentioned to classify the thermal range as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for DAW76401 from accession literature=============
+=============Reasoning for DAW76401 from host literature=============
+=============Reasoning for DAW76401 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2015-02-19'. Human-associated samples generally suggest mesophilic conditions (body temperature range, 37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context points towards human-associated microbes, which are typically mesophiles. 4. Fallback: Although the context suggests mesophile, the evidence is not strongly tied to temperature, making the inference weak. Therefore, following the rule for weak/absent context, the default classification of 'mesophile' is assigned.
+
+

@@ -1,0 +1,16 @@
+=============Reasoning for DAH56612 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAH56612 from accession literature=============
+=============Reasoning for DAH56612 from host literature=============
+=============Reasoning for DAH56612 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2018-10-24' from the USA. Human-associated microbes and phages are generally considered mesophilic unless specific extreme environments are noted. 3. Apply decision rules: Since no explicit evidence exists, and the environmental context (human gut/associated) suggests moderate conditions, the most probable classification is mesophile. 4. Fallback: As no useful metadata exists to strongly suggest psychrophile or thermophile, the default classification rule mandates assigning 'mesophile'.
+
+

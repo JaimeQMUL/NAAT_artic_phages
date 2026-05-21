@@ -1,0 +1,22 @@
+[Application of AlphaFold3 in screening nanobodies against Staphylococcus aureus enterotoxin C].
+
+Objective: To evaluate the consistency between AlphaFold3 (AF3) predictions for epitope grouping of
+nanobodies (Nbs)-antigen complexes and experimental validation, and provide reference for structure-
+prediction-assisted efficient in vitro screening of Nbs. Methods: Staphylococcus aureus enterotoxin
+C (SEC) was used as the target antigen, specific Nbs were screened from a naive phage-displayed
+nanobodies library, and their specificity was verified by indirect ELISA and Western blot.
+Approximately 5 000 models were generated for each SEC-Nbs complex by using AF3, and the model with
+the highest ranking score was selected as the optimal model for epitope analysis. Results: After six
+rounds of solid-phase panning, six Nbs with distinct sequences were obtained, all of which achieved
+soluble expression. Indirect ELISA confirmed that all Nbs specifically bound to SEC. The optimal
+models for SEC-Nb1 to SEC-Nb6 had ranking scores of 0.932 4, 0.903 5, 0.837 5, 0.361 5, 0.932 1, and
+0.678 3, respectively, dividing the Nbs into two epitope groups (Nb1-Nb2, Nb3-Nb6). Sandwich ELISA
+divided the Nbs into four epitope groups (Nb1-Nb3, Nb4, Nb5, Nb6), showing a 50% consistency with
+AF3 predictions. Conclusion: AF3 could serve as a valuable tool to facilitate epitope grouping-based
+in vitro screening of Nbs. 目的：
+评估AlphaFold3（AF3）对纳米抗体（Nbs）-抗原复合物的表位分组预测与实验验证的一致性，为结构预测辅助Nbs的体外高效筛选提供参考。 方法：
+以金黄色葡萄球菌肠毒素C（SEC）为靶抗原，从天然噬菌体展示Nbs库中筛选特异性Nbs，并通过间接ELISA和Western blot法验证其特异性。使用AF3对每个SEC-Nbs复合物生成约5
+000次模型预测，选择排名分数最高的模型作为最优模型。 结果： 经过6轮固相淘选，共获取6条序列不同的Nbs，均实现可溶性表达。间接ELISA验证其均能与SEC特异性结合。SEC-Nb1至SEC-
+Nb6最优模型的排名分数依次为0.932 4、0.903 5、0.837 5、0.361 5、0.932 1和0.678
+3，将Nbs划分为2个表位组（Nb1~Nb2、Nb3~Nb6）。双抗体夹心ELISA将Nbs划分为4个表位组（Nb1~Nb3、Nb4、Nb5、Nb6），与AF3预测结果的一致率为50%。 结论：
+AF3在基于表位分组的Nbs体外筛选中具有一定的应用潜力。.

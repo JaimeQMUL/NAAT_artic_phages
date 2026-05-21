@@ -1,0 +1,16 @@
+=============Reasoning for UZO33445 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Klebsiella phage pR7_1') and its host ('Klebsiella pneumoniae'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for UZO33445 from accession literature=============
+=============Reasoning for UZO33445 from host literature=============
+=============Reasoning for UZO33445 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage pR7_1) and its host (Klebsiella pneumoniae). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. Klebsiella pneumoniae is a common human/environmental bacterium, typically associated with mesophilic conditions (15–45°C). 4. Since no explicit evidence exists, the decision rules mandate defaulting to 'mesophile' as the most probable classification, as per Rule 4.
+
+

@@ -1,0 +1,30 @@
+=============Reasoning for CAD5242033 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Polluted river'. Rivers are generally associated with mesophilic environments, leading to an inference of mesophilic range.
+
+
+=============Reasoning for CAD5242033 from accession literature=============
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and host bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the adsorption assay, incubation was done at "37 °C". For the in vivo mammary infection model, the initial infection and subsequent treatment were performed at conditions implying physiological temperature, and the phage adsorption assay was done at "37 °C". The stability test explicitly tested "37 °C" ("Phages vB-KP80 and vB-KPT2 (1 × 109 PFU/mL) were incubated in SM buffer at 4 °C, 25 °C, 37 °C, 50 °C, 60 °C, 70 °C, and 80 °C for 30 min and 60 min..."). Since the optimal and tested physiological temperature is 37°C, which falls within the 15–45°C range, the classification is mesophile.
+
+
+Paper: PMC8006926.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states under 'Materials and Methods' -> 'Bacterial strains and culture conditions': 'All culturing in liquid medium was performed with shaking (150 rpm) at 37°C.' Additionally, in the 'Phage isolation' section, it mentions: 'This enrichment culture was then incubated overnight at 37°C'. Finally, in the 'Plaque formation and morphology' section, it states: 'Plates were incubated overnight at 37°C to allow plaques to form.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for CAD5242033 from host literature=============
+=============Reasoning for CAD5242033 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not explicitly state the optimal or tested temperature range for the phage. 2. Check for environmental context: The isolation source is 'Polluted river'. Rivers typically maintain temperatures within the mesophilic range (15–45°C), although this is not definitive. 3. Apply decision rules: Since no explicit evidence exists, and the environmental context (river) suggests moderate temperatures, the most probable classification is mesophile. 4. Fallback: As no strong evidence exists, the default classification rule mandates assigning 'mesophile'.
+
+

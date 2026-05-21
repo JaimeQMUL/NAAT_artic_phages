@@ -1,0 +1,23 @@
+=============Reasoning for WCD43576 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and accession details, but no explicit or strongly implied temperature or environmental condition is mentioned to determine the thermal range.
+
+
+=============Reasoning for WCD43576 from accession literature=============
+Paper: PMC8447223.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that a phage cocktail containing ECML-359 was tested in an in vitro small intestine model, which was described as having 'controlled physiological parameters like pH, temperature, bile, pancreatic juice, and seven bacterial species that represent a normal ileal microbiota [22]'. The normal physiological temperature for the human intestine is typically mesophilic (around 37°C), and the context implies the phage was tested under these standard physiological conditions. The definition for mesophile is 15–45°C, which encompasses the physiological temperature of the small intestine.
+
+
+=============Reasoning for WCD43576 from host literature=============
+=============Reasoning for WCD43576 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage ECML-359. 2. The host organism is 'Escherichia coli', which is a common mesophilic bacterium, typically thriving in moderate temperatures (15–45°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Based on the known biology of the host, the default classification is mesophile. 5. This classification is assigned using the fallback rule (Rule 4) because the environmental context is weak/absent.
+
+

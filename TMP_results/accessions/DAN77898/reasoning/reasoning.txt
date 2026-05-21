@@ -1,0 +1,19 @@
+=============Reasoning for DAN77898 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAN77898 from accession literature=============
+=============Reasoning for DAN77898 from host literature=============
+=============Reasoning for DAN77898 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2010-08-25'. Human-associated samples generally imply mesophilic conditions (body temperature range).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a moderate environment (human host). However, the context is not strongly defining (it's just 'Human metagenome').
+4. Fallback: Given the lack of strong, explicit thermal data, the default classification rule (Rule 4) mandates assigning 'mesophile'.
+
+

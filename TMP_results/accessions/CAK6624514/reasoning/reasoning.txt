@@ -1,0 +1,33 @@
+=============Reasoning for CAK6624514 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for CAK6624514 from accession literature=============
+Paper: PMC13147697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures used for various assays involving the phages. For instance, during the initial enrichment and plaque assays, the mixture was 'incubated at 37 °C for 24 h while shaking at 180 rpm.' Furthermore, for the one-step growth assay, the suspension was incubated at '37 °C' and for the pH stability assessment, the phages were incubated at '37° C' for 60 min. The general optimal growth temperature for the host bacteria, K. pneumoniae, is implied by these repeated use of 37°C conditions, which is standard for bacterial growth. Therefore, the optimal temperature range is around 37°C.
+
+
+Paper: PMC12108427.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability range for AUBRB02: "It is stable across pH 5.0–9.0 and temperatures from 4 °C to 60 °C." Since the mesophilic range is defined as 15–45°C, and the phage is stable across this entire range (and beyond, up to 60°C), it is classified as mesophile based on the provided definitions. The optimal growth temperature is not given, but the stability range encompasses the mesophilic range.
+
+
+=============Reasoning for CAK6624514 from host literature=============
+=============Reasoning for CAK6624514 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The provided metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage AUBRB02.
+2. Check for environmental context: The metadata only provides accession numbers, dates, and general sequence information, offering no environmental context.
+3. Apply decision rules: Since no explicit evidence or environmental context is available, the system must default to the fallback classification rule (Rule 4).
+4. Fallback assignment: The default classification is 'mesophile'.
+
+

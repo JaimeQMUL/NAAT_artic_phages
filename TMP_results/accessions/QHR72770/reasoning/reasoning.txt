@@ -1,0 +1,33 @@
+=============Reasoning for QHR72770 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli K-12 MG1655', which is typically associated with mesophilic environments (e.g., soil, freshwater). The isolation source is 'wastewater', which generally supports mesophilic organisms. No explicit temperature is given.
+
+
+=============Reasoning for QHR72770 from accession literature=============
+Paper: 42147131.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states, "All phages exhibited infectivity and stability across 4°C-45°C". Since the mesophile range is defined as 15–45°C, and the observed range includes this range, the classification is mesophile. The upper limit of 45°C is explicitly mentioned.
+
+
+=============Reasoning for QHR72770 from host literature=============
+Paper: PMC13101720.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the cultivation conditions for several steps: 1. "All cultivations were performed in an orbital shaker set at 37 °C..." (Section 2.3). 2. "Cell cultivation: 3 mL of LB was inoculated with a colony from a LB plate supplemented with 35 mg L−1 chloramphenicol and incubated (37 °C, 220 rpm) in a 15 mL screw cap tube (PC1)." (Section 2.5). 3. "After 8 h of cell cultivation, 10 mL of M9 (20 g L−1 glucose) supplemented with 1 mM IPTG (PC2) was inoculated with 0.01 mL of PC1. After overnight incubation (16 h), the cells were harvested (5 min at 6000×g, room temperature)." (Section 2.5). 4. "The main culture was inoculated at an initial OD600 of 0.02. When an OD600 of 1 was reached, cells were collected by centrifugation (6000×g, 5 min, 4 °C)..." (Section 2.5). The consistent use of 37°C for primary culturing indicates the optimal or standard growth temperature for the system described.
+
+
+=============Reasoning for QHR72770 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for 'Escherichia phage mobillu'.
+2. **Check for environmental context:** The isolation source is 'wastewater'. Wastewater environments typically fluctuate but are generally associated with moderate temperatures, often falling within the mesophilic range (15–45°C), especially when considering the host, *Escherichia coli* K-12 MG1655, which is a model mesophile.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The most probable classification, given the host and general environmental context (wastewater), is mesophile. 
+4. **Fallback:** As the environmental context is suggestive but not definitive, and no other rule applies, the default fallback classification is 'mesophile'.
+
+

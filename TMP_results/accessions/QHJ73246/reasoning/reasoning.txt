@@ -1,0 +1,26 @@
+=============Reasoning for QHJ73246 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for QHJ73246 from accession literature=============
+Paper: PMC12533011.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that phage SSG23 'maintained high infectivity at −20, 4, 25, and 37 °C, with no significant reduction in titer after 1 h of incubation (Fig. 1e). At 40 °C, infectivity remained relatively stable, whereas a moderate decline in phage titer was observed at 50 °C.' The optimal growth/stability range mentioned includes 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for QHJ73246 from host literature=============
+=============Reasoning for QHJ73246 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'sewage' and the collection date is '15-Mar-2018' from 'Nepal'. Sewage environments are generally associated with mesophilic conditions, but this is not a definitive temperature measurement.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (sewage) suggests moderate conditions, the system must default to the most probable classification. The fallback rule dictates assigning 'mesophile' when useful metadata is absent or weak.
+4. **Conclusion:** Assigning 'mesophile' as the most probable classification based on the fallback rule.
+
+

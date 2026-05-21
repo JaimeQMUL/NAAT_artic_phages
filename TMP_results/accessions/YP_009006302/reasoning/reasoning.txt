@@ -1,0 +1,27 @@
+=============Reasoning for YP_009006302 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'ocean', but does not specify a temperature range (e.g., cold, moderate, hot) to classify the thermal range as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for YP_009006302 from accession literature=============
+=============Reasoning for YP_009006302 from host literature=============
+Paper: 42114400.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper tests the stability of the phage preparation at 37°C ('after 21 d at 37 °C in an accelerated stability test'). Since 37°C falls within the mesophile range (15–45°C), and this is the only temperature condition provided for phage stability testing, the phage is associated with mesophilic conditions.
+
+
+=============Reasoning for YP_009006302 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Vibrio harveyi' and was isolated from the 'ocean' in 'China' with a collection date of '07-Aug-2011'.
+2. **Apply Decision Rules:** There is no explicit thermal range provided. The isolation source is 'ocean'.
+3. **Infer Environment:** While the ocean temperature varies widely, general marine environments are often considered mesophilic unless specific deep-sea or polar sources are indicated. The host, *Vibrio harveyi*, is a common marine bacterium, typically associated with moderate temperatures.
+4. **Determine Classification:** Since no specific temperature data is available, and the environment is broadly 'ocean' (not explicitly cold or hot), the default classification rule (Rule 4) mandates assigning 'mesophile'.
+5. **Conclusion:** The classification is assigned by default due to insufficient explicit evidence.
+
+

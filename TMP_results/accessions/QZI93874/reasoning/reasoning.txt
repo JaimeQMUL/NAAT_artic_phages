@@ -1,0 +1,16 @@
+=============Reasoning for QZI93874 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal environment of the bacteriophage or its host.
+
+
+=============Reasoning for QZI93874 from accession literature=============
+=============Reasoning for QZI93874 from host literature=============
+=============Reasoning for QZI93874 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Enterobacteria phage Whisky) and its origin (Russia: Moscow, collected Mar-2021). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range. 3. Since no explicit evidence is available, the decision rules require inferring from environmental context or defaulting. 4. The source location (Moscow) and collection date do not strongly suggest extreme temperatures. 5. Therefore, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+
+

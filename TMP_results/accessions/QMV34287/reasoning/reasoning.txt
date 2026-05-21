@@ -1,0 +1,19 @@
+=============Reasoning for QMV34287 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QMV34287 from accession literature=============
+=============Reasoning for QMV34287 from host literature=============
+=============Reasoning for QMV34287 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is listed as 'soil'. Soil environments typically exhibit fluctuating temperatures, but generally fall within the mesophilic range (15–45°C) unless specified otherwise (e.g., deep subsurface or geothermal vents).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('soil') suggests moderate conditions, the most probable classification is mesophile. If the environmental context were weak or absent, the fallback rule dictates assigning 'mesophile'.
+4. Conclusion: Assign mesophile based on the general nature of the isolation source and the fallback rule.
+
+

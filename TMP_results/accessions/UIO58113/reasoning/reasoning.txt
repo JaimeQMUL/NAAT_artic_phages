@@ -1,0 +1,26 @@
+=============Reasoning for UIO58113 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'cow manures'. Manure is typically associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for UIO58113 from accession literature=============
+Paper: PMC9022588.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The abstract mentions that the phage was 'isolated by enrichment (overnight at 37°C) of manure samples...'. This indicates the isolation process occurred at 37°C. However, the paper does not state the optimal growth temperature or the physiological temperature range for the phage itself, only the condition used for initial enrichment. Therefore, a definitive thermal classification (psychrophile, mesophile, thermophile) cannot be assigned based on the provided text.
+
+
+=============Reasoning for UIO58113 from host literature=============
+=============Reasoning for UIO58113 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'cow manures' and the associated bacterium is 'Shiga toxin-producing E. coli STEC O26:H11'. Fecal/manure environments are generally associated with mesophilic conditions (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context suggests mesophily. However, the context is not strong enough to override the default fallback rule.
+4. Fallback: As per the rules, if environmental context is weak or absent (or if the inference is not strong enough), the system must default to 'mesophile'.
+
+

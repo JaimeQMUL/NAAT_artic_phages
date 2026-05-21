@@ -1,0 +1,16 @@
+=============Reasoning for QDF13832 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage vB_EcoM_phAPEC6') and its host ('Escherichia coli'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for QDF13832 from accession literature=============
+=============Reasoning for QDF13832 from host literature=============
+=============Reasoning for QDF13832 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Escherichia phage vB_EcoM_phAPEC6) and its host (Escherichia coli). 2. No explicit thermal range is provided in the metadata. 3. The host, Escherichia coli, is a common bacterium typically associated with mesophilic environments (optimal growth generally between 35-37°C). 4. Since no specific thermal data is available, the most probable classification, following the decision rules, is mesophile. 5. This classification is assigned by default due to insufficient evidence.
+
+

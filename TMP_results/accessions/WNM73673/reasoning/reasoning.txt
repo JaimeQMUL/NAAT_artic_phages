@@ -1,0 +1,48 @@
+=============Reasoning for WNM73673 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for WNM73673 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text provides multiple explicit temperature mentions related to the culture conditions for *S. clavuligerus* and its spores. 
+1. Spores of *S. clavuligerus* were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days).
+2. Spores of *S. clavuligerus* wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm.
+3. Cultures were incubated for 120 h, at 220 rpm and 28 ◦C.
+4. The RNA samples were quantified using Qubit 2.0 Fluorometer (ThermoFisher Scientific, Waltham, MA, USA) and RNA integrity was checked with 4200 TapeStation (Agilent Technologies, Palo Alto, CA, USA). (No temperature given, but general lab work context).
+5. The reaction was kept at 28°C for 15 min [12].
+6. The protoplasts were obtained from cultures grown at 30 °C in YEMEG medium under previously described conditions [11].
+
+The most frequently and consistently cited optimal/experimental growth temperature for the main culture/fermentation process is 28°C. According to the definitions, 15–45°C corresponds to mesophile, and 28°C falls within this range.
+
+
+Paper: PMC13097060.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the initial incubation for the soil samples was performed "and incubated for 3 days at 20°C." A subsequent plating step was "and was incubated for 2 days at 30°C." Both 20°C and 30°C fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for WNM73673 from host literature=============
+Paper: PMC11413697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation temperatures for bacterial growth and fermentation processes. For the initial seed culture of *M. echinospora* ATCC 15835, the temperature used was 28°C: "The seed culture (in liquid ATCC 172 medium) was incubated at 28 °C and 220 rpm for 3 days". For the subsequent kanamycin feeding experiment, the incubation temperature was also 28°C: "The culture was incubated at 28 °C and 220 rpm for 5 days". For the large-scale industrial fermentation, the initial incubation temperature was 34°C: "the seed culture (in liquid ATCC 172 medium with 25 μg/mL thiostrepton) was incubated at 34 °C and 220 rpm for 3 days". Since 28°C and 34°C both fall within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for WNM73673 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for 'Streptomyces phage Sollertia'.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.647221 N 90.302223 W). Soil environments are generally considered mesophilic, though they can vary widely. The collection date is September, suggesting temperate conditions.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. Because the evidence is weak (relying on general knowledge of soil rather than direct phage data), the fallback rule (defaulting to mesophile) is applied.
+4. Conclusion: Assign mesophile.
+
+

@@ -1,0 +1,32 @@
+=============Reasoning for WGJ78542 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Microcystis elabens'), and accession details, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned.
+
+
+=============Reasoning for WGJ78542 from accession literature=============
+Paper: PMC12510456.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions temperature conditions used for culturing the host strains (M. aeruginosa PCC7806 wildtype and ΔmcyB mutant). The text states: "In brief, strains were grown in 25 ml of modified CT media at 26° C and ~35 μmol photons m−2 s−1 under a 14-h/10-h day/night cycle." It also mentions transcriptomic libraries were generated during an experiment examining temperature effects, specifically at "19° C and 26° C." Since the phage is associated with the host, and the host was grown and studied at 26°C and 19°C, these temperatures fall within the mesophilic range (15–45°C).
+
+
+=============Reasoning for WGJ78542 from host literature=============
+Paper: PMC12724129.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions incubation temperatures for phage Cute co-culture and growth experiments. Specifically, it states: "We used the specific primer of phage Cute A1 gene to detect the Ct value of phage Cute at the initial time (blue column, 0 min) and in the supernatant after co-culturing with the original host Klebsiella pneumoniae (K. pneumoniae) 100, 37°C for 200 min (red column, 200 min) by RT-qPCR method." Additionally, the growth curve experiment mentions: "The precipitate was resuspended with Luria-Bertani (LB) and cultured at 37°C with shaking at 200 rpm." The double-layer plate method incubation is also stated as: "This mixture was then overlaid onto the base layer and incubated overnight at 37°C." Since 37°C falls within the defined mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for WGJ78542 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Microcystis phage Mel-Yong916-1.
+2. Check for environmental context: The host organism is 'Microcystis elabens'. Microcystis species are typically freshwater cyanobacteria found in various aquatic environments. While some cyanobacteria can inhabit extreme environments, the general default assumption for uncharacterized aquatic phages, especially those associated with common freshwater cyanobacteria, leans towards mesophilic conditions (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (freshwater cyanobacteria) is not strongly indicative of psychrophilic or thermophilic conditions, the system must default to 'mesophile' as per the mandatory fallback rule (Rule 4).
+
+

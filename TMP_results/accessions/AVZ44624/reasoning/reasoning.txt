@@ -1,0 +1,19 @@
+=============Reasoning for AVZ44624 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Scald infection site') but does not specify a temperature range (e.g., hot, cold, moderate) associated with this source to classify the thermal range.
+
+
+=============Reasoning for AVZ44624 from accession literature=============
+=============Reasoning for AVZ44624 from host literature=============
+=============Reasoning for AVZ44624 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Staphylococcus phage HYZ21.
+2. **Check for environmental context:** The isolation source is listed as 'Scald infection site'. While 'scalding' implies high heat, this refers to the *site* of infection, not necessarily the optimal growth temperature of the phage itself. Furthermore, the collection date is 2016, and the metadata lacks specific temperature data.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context ('Scald infection site') is ambiguous regarding the phage's optimal growth temperature (it could imply survival in heat, but not necessarily optimal growth), the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

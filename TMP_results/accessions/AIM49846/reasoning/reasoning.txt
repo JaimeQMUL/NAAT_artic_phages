@@ -1,0 +1,16 @@
+=============Reasoning for AIM49846 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host, and country of origin, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for AIM49846 from accession literature=============
+=============Reasoning for AIM49846 from host literature=============
+=============Reasoning for AIM49846 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Listeria phage WIL-1) and its host (Listeria monocytogenes). 2. No explicit thermal range is provided in the metadata. 3. The host, Listeria monocytogenes, is a common psychrotrophic/mesophilic bacterium, often associated with refrigerated foods and moderate environmental temperatures (15-30°C). 4. Since there is no explicit evidence, and the host context suggests moderate conditions, the most probable classification is mesophile. 5. As no useful metadata exists to strongly infer a specific range, the fallback rule dictates assigning 'mesophile'.
+
+

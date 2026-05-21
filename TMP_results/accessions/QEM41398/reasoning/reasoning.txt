@@ -1,0 +1,19 @@
+=============Reasoning for QEM41398 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Swine barn environmental swab') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for QEM41398 from accession literature=============
+=============Reasoning for QEM41398 from host literature=============
+=============Reasoning for QEM41398 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is listed as 'Swine barn environmental swab' from 'USA: TX'. While this suggests an environmental origin, it does not provide a specific temperature range for the swab collection or the phage's optimal growth.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is too general to strongly infer a psychrophile or thermophile classification, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with low confidence due to the lack of specific thermal data.
+
+

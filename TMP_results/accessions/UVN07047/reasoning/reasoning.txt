@@ -1,0 +1,19 @@
+=============Reasoning for UVN07047 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'feces' and the metagenome source is 'human gut metagenome'. These environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for UVN07047 from accession literature=============
+=============Reasoning for UVN07047 from host literature=============
+=============Reasoning for UVN07047 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'human gut metagenome' and 'feces'.
+2. **Determine Environmental Context:** The human gut environment typically maintains a relatively stable, moderate temperature range, generally aligning with core body temperature (around 37°C).
+3. **Apply Decision Rules:** Since no explicit thermal range is provided, inference is required. The gut environment strongly suggests mesophilic conditions (15–45°C).
+4. **Conclusion:** Based on the source (human gut), the most probable classification is mesophile. This classification is assigned by default because the environmental context points strongly to this range, fulfilling the fallback rule when explicit evidence is absent.
+
+

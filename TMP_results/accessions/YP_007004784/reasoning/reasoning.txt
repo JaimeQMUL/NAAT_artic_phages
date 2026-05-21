@@ -1,0 +1,20 @@
+=============Reasoning for YP_007004784 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage wV7') and its host ('Escherichia coli'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_007004784 from accession literature=============
+=============Reasoning for YP_007004784 from host literature=============
+=============Reasoning for YP_007004784 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Escherichia phage wV7') and its host ('Escherichia coli').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature.
+3. The decision rules state that if environmental context is weak or absent, the MOST PROBABLE classification must be assigned. 
+4. Since the host, Escherichia coli, is a well-known mesophilic bacterium, the most probable classification for a phage associated with it is mesophile (15–45°C).
+5. Therefore, 'mesophile' is assigned as the fallback classification.
+
+

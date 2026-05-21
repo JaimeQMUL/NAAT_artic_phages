@@ -1,0 +1,26 @@
+=============Reasoning for XXJ62871 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('seawater of the Dong sea coast of Changzhi Island') and the lab host ('Vibrio natriegens Vmax (CCTCC PV 2024008)'), but no explicit temperature or environmental condition is stated to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for XXJ62871 from accession literature=============
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+=============Reasoning for XXJ62871 from host literature=============
+=============Reasoning for XXJ62871 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'seawater of the Dong sea coast of Changzhi Island' and the collection date is '2022-09-20'.
+2. **Environmental Context Inference:** Seawater environments, especially those associated with coastal regions and collected in September (a temperate season), typically represent moderate temperatures, generally falling within the mesophilic range (15–45°C).
+3. **Classification Decision:** Since no explicit temperature range is provided, the most probable classification based on the marine, coastal origin is mesophile.
+4. **Fallback Check:** No explicit evidence exists, so inference is used. The default fallback is mesophile, which aligns with the environmental inference.
+
+

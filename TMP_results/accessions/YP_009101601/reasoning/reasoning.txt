@@ -1,0 +1,26 @@
+=============Reasoning for YP_009101601 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage', and the lab host is 'Escherichia coli MuLB70.1'. Since Escherichia coli is typically associated with moderate environments (like the gut or general environmental samples such as sewage), the thermal range is inferred to be mesophile.
+
+
+=============Reasoning for YP_009101601 from accession literature=============
+Paper: PMC11895373.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that for the one-step growth curve assay, the phages were allowed to adsorb at "37°C" and the culture was maintained at "37°C" in static condition. Furthermore, the incubation for the double-layer agar method was "at 30°C" for overnight, and the pH stability analysis and fluorescence microscopy were both performed at "37°C" or "37℃". Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for YP_009101601 from host literature=============
+=============Reasoning for YP_009101601 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of Escherichia phage 121Q.
+2. **Check for environmental context:** The isolation source is 'sewage', and the collection date/location suggests environmental sampling. However, 'sewage' itself does not define a precise thermal range.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is too broad to strongly infer a specific temperature class (psychrophile or thermophile), the system must default to the fallback classification rule.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

@@ -1,0 +1,33 @@
+=============Reasoning for YP_009606952 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Enterobacter phage phiEap-3') and its host ('Enterobacter aerogenes'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_009606952 from accession literature=============
+Paper: PMC6412083.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for various assays involving phage vB_EaeM_φEap-3. 
+1. For initial enrichment and purification: "...mixed with E. aerogenes 3-SP culture to enrich the phage at 37°C." and "Following incubation overnight at 37°C, clear phage plaques were picked from the plate." 
+2. For host range determination: "Each strain was grown in 5 mL of Luria–Bertani (LB) broth at 37°C..." and "...overnight incubation as described previously (Kutter, 2009)."
+3. For one-step growth curve: "Phages were allowed to absorb for 5 min at 37°C, and then the mixture was centrifuged twice at 16,000 ×g for 2 min to remove the unabsorbed phages. The mixtures were then resuspended in 10 mL of LB broth and incubated at 37°C." 
+4. For DNA extraction: "...phage lysate, which was then incubated at 37°C for 30 min." 
+5. For temperature stability testing: "The stability of vB_EaeM_φEap-3 at different temperatures was determined by incubating phage preparations (∼1.2 × 10^7 PFU/mL) at 4, 25, 37, 50, 60, 70, or 80°C for 15, 30, 45, or 60 min." 
+Since the optimal/tested range includes 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for YP_009606952 from host literature=============
+=============Reasoning for YP_009606952 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Enterobacter phage phiEap-3') and its host ('Enterobacter aerogenes').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range.
+3. The host, Enterobacter aerogenes, is a common bacterium often associated with moderate environmental conditions (e.g., gut, soil, or laboratory culture conditions, typically mesophilic).
+4. Since no explicit evidence exists, and the host context suggests moderate conditions, the most probable classification is mesophile.
+5. As no useful metadata exists to strongly infer a specific range, the fallback rule dictates assigning 'mesophile'.
+
+

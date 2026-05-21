@@ -1,0 +1,19 @@
+=============Reasoning for YP_010355540 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal range of the bacteriophage or its host.
+
+
+=============Reasoning for YP_010355540 from accession literature=============
+=============Reasoning for YP_010355540 from host literature=============
+=============Reasoning for YP_010355540 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (title, accession, isolate) but contains no explicit information regarding its optimal growth temperature or the temperature of its natural environment.
+2. Therefore, no explicit evidence is available (Rule 1 fails).
+3. The environmental context is absent (Rule 2 fails).
+4. Following Rule 3, the system must assign the MOST PROBABLE classification. Since no information suggests extreme cold or high heat, the default classification, as per Rule 4, is 'mesophile'.
+
+

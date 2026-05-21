@@ -1,0 +1,40 @@
+=============Reasoning for WJJ54027 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater') and host information, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for WJJ54027 from accession literature=============
+Paper: PMC12753057.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper mentions the thermal stability profile of phage P-32M-3-Y was assessed by incubating phage suspensions at 4, 25, 37, 50, 60, and 70°C for 1h. However, it does not state the optimal growth temperature or the classification (psychrophile, mesophile, thermophile) for the phage itself, only the tested stability range. The host bacteria were grown at 37°C, which suggests a mesophilic context for the infection model, but this is not a direct characterization of the phage's thermal optimum.
+
+
+Paper: PMC10791037.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for phage propagation and assays. For phage propagation, the text mentions: "A single colony of E. coli ESBL058 was inoculated into LB media (Lysogeny Broth, Merck, Darmstadt, Germany) and incubated until exponential phase at 37°C at 180 rpm." For the phage plaque assay, the plates were incubated overnight at "37°C". For the inhibition assay, the bacterial strains were incubated in LB medium at "37°C at 170 rpm" and the subsequent incubation was "overnight at 37°C". These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC11954938.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states regarding the stability of the five phages: "All phages remained stable between − 80ºC and 60ºC (Fig. 4). For all five phages, a marked decrease in titres occurred only at temperatures of 70ºC and above." It also mentions that the stability confirms "their potential viability as stable disinfecting agents on surfaces in various environments, as well as their adaptability to different thermal conditions, including those similar to animal body temperatures." The general range of stability up to 60°C, and the reference to animal body temperatures (which are typically mesophilic), suggests a mesophilic classification. The specific phage Escherichia phage AV101 is listed in a table comparing phages, but the thermal stability data provided in the text (Fig. 4) applies to the five characterized phages (vB_CECAV_041, vB_CECAV_044, vB_CECAV_048, vB_CECAV_050, and vB_CECAV_058), not specifically to 'Escherichia phage AV101'. However, the text does provide a table listing 'Escherichia phage AV101' alongside other phages, and the general stability discussion covers all characterized phages, which includes the phages related to the listed phages. Given the explicit statement of stability up to 60°C and the reference to animal body temperatures, mesophile is the most appropriate classification based on the provided text.
+
+
+=============Reasoning for WJJ54027 from host literature=============
+=============Reasoning for WJJ54027 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Escherichia phage AV101.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the host is 'Escherichia coli'. Both wastewater and E. coli are generally associated with mesophilic conditions (15–45°C) in natural settings.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The most probable classification, given the common association of *Escherichia coli* and wastewater samples, is mesophile.
+4. **Fallback:** As the environmental context points strongly towards moderate conditions, 'mesophile' is selected. This classification is assigned by default due to the lack of specific thermal data.
+
+

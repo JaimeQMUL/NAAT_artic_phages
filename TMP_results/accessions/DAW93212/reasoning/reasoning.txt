@@ -1,0 +1,16 @@
+=============Reasoning for DAW93212 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata mentions the isolation source is 'Human metagenome' and the collection date is '2015-06-02', but it does not explicitly state or strongly imply a specific temperature range (psychrophile, mesophile, or thermophile) for the bacteriophage or its host.
+
+
+=============Reasoning for DAW93212 from accession literature=============
+=============Reasoning for DAW93212 from host literature=============
+=============Reasoning for DAW93212 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. **Check for environmental context:** The isolation source is listed as 'Human metagenome' and the collection date is 2015-06-02. Human-associated samples generally imply mesophilic conditions (body temperature range, 37°C). 3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The context suggests a human host, pointing towards mesophilic conditions (15–45°C). 4. **Fallback:** Although the context suggests mesophile, the link is not strong enough to be classified as 'inferred' with high confidence, and the rules mandate a classification. Given the lack of specific temperature data, the default fallback classification rule (Rule 4) is applied, which is 'mesophile'.
+
+

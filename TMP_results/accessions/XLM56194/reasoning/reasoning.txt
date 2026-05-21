@@ -1,0 +1,16 @@
+=============Reasoning for XLM56194 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'seawater', but no specific temperature range or condition is provided to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for XLM56194 from accession literature=============
+=============Reasoning for XLM56194 from host literature=============
+=============Reasoning for XLM56194 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for the phage. 2. **Check for environmental context:** The isolation source is 'seawater'. Marine environments generally fluctuate but are often associated with mesophilic conditions unless specific deep-sea or hydrothermal vent origins are noted. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context ('seawater') is general, the system must default to the most probable classification. 4. **Fallback:** The default classification rule mandates assigning 'mesophile' when environmental context is weak or absent, or when no useful metadata exists. Therefore, 'mesophile' is assigned as the fallback class.
+
+

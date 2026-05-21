@@ -1,0 +1,16 @@
+=============Reasoning for QIG62736 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage water'. Sewage water typically represents a mesophilic environment, which is used to infer the thermal range.
+
+
+=============Reasoning for QIG62736 from accession literature=============
+=============Reasoning for QIG62736 from host literature=============
+=============Reasoning for QIG62736 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for Salmonella phage SE_PL. 2. **Check for environmental context:** The isolation source is 'sewage water' and the collection date is '02-May-2014'. Sewage water temperatures are highly variable but generally fluctuate around ambient/moderate temperatures, not strongly indicative of extreme psychrophilic or thermophilic conditions. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (sewage water) is too broad to strongly infer a specific extreme range, the system must default to the 'mesophile' classification as per Rule 4. 4. **Conclusion:** Assigning 'mesophile' as the most probable classification.
+
+

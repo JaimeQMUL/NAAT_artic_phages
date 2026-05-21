@@ -1,0 +1,25 @@
+=============Reasoning for AGH57875 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides collection coordinates (41.65 N 71.26 W) and a collection date, but no explicit or strongly implied temperature range for the phage or its host.
+
+
+=============Reasoning for AGH57875 from accession literature=============
+=============Reasoning for AGH57875 from host literature=============
+Paper: PMC12925178.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that the marine cyanobacterium Picosynechococcus sp. NKBG15041c, from which the phage-related sHsp is studied, "thrives in dynamic tidal environments where daily temperature fluctuations can exceed 15 °C." The standard cultivation temperature for this strain is explicitly given as "26 °C." Since 26 °C falls within the mesophile range (15–45°C), and the phage is associated with this host, the thermal range is inferred to be mesophilic.
+
+
+=============Reasoning for AGH57875 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Synechococcus phage KBS-M-1A.
+2. Check for environmental context: The metadata provides geographical coordinates ('lat_lon': '41.65 N 71.26 W') and a collection date ('20-Aug-2008'). These coordinates point to a temperate coastal region (likely near the Gulf of Maine/Atlantic coast), which generally supports mesophilic life forms.
+3. Apply decision rules: Since no explicit evidence exists, inference from the temperate geographical context suggests mesophily. However, the environmental context is not a direct measure of phage thermal stability. Therefore, following the fallback rule (Rule 4) due to weak/absent direct thermal evidence, the default classification of 'mesophile' is assigned.
+
+

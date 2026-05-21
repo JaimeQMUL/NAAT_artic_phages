@@ -1,0 +1,16 @@
+=============Reasoning for XDG31042 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'waste water' and the country is 'USA: Ramsey County, MN'. These environments are generally associated with mesophilic conditions, although no explicit temperature is given.
+
+
+=============Reasoning for XDG31042 from accession literature=============
+=============Reasoning for XDG31042 from host literature=============
+=============Reasoning for XDG31042 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state a minimum or maximum growth temperature for the phage. 2. **Check for environmental context:** The isolation source is 'waste water' from 'USA: Ramsey County, MN', and the collection date is '01-Jan-2023'. While wastewater can vary, the geographical location and general nature of wastewater samples do not strongly point towards extreme cold or extreme heat. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is general (wastewater), the system must default to the most probable classification. 4. **Default assignment:** According to the rules, if environmental context is weak or absent, the system defaults to 'mesophile'.
+
+

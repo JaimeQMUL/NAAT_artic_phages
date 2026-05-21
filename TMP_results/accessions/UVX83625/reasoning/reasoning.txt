@@ -1,0 +1,19 @@
+=============Reasoning for UVX83625 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The host is 'Homo sapiens' and the isolation source is 'feces' from 'gut metagenome'. These environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for UVX83625 from accession literature=============
+=============Reasoning for UVX83625 from host literature=============
+=============Reasoning for UVX83625 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'feces' and the 'metagenome_source' is 'gut metagenome'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The environment (gut/feces) suggests a typical mammalian gut temperature range.
+3. **Determine Classification:** The normal core body temperature of humans (the host, 'Homo sapiens') is approximately 37°C. This temperature falls squarely within the mesophilic range (15–45°C).
+4. **Conclusion:** Since no other environmental context suggests extreme temperatures, the most probable classification is mesophile, using the gut environment as the basis for inference.
+
+

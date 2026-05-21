@@ -1,0 +1,26 @@
+=============Reasoning for QIG76122 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'agricultural lands' and the host is 'Rhizobium phaseoli N771'. These environments are typically associated with mesophilic organisms, and no specific temperature range is provided.
+
+
+=============Reasoning for QIG76122 from accession literature=============
+=============Reasoning for QIG76122 from host literature=============
+Paper: PMC11872809.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states growth conditions for several assays involving S. fredii strains. In Section 2.10, for the $\beta$-galactosidase assays, the cultures were grown at "28°C". In Section 2.7, for the purification of extracellular proteins, the rhizobial cultures were grown "at 28°C". In Section 2.8, for interbacterial competition assays, the mixtures were plated on media and "incubated at 30°C". In Section 2.9, for nodulation assays, the growth conditions were "16 h at 26°C in the light and 8 h and 18°C in the dark". Since the optimal growth temperature range for mesophiles is 15–45°C, and the consistently mentioned laboratory temperatures are 26°C, 28°C, and 30°C, the thermal characteristic is mesophilic.
+
+
+=============Reasoning for QIG76122 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is 'agricultural lands' from 'Argentina: Salta' (lat/lon: 24.8902 S 65.4698 W). This geographical location suggests a temperate, non-extreme environment.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context points to a typical terrestrial setting, the most probable classification is mesophile (15–45°C).
+4. Fallback: As no useful metadata exists to strongly support psychrophile or thermophile, the default classification is mesophile.
+
+

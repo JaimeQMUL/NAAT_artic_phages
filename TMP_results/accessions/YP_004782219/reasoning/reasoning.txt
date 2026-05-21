@@ -1,0 +1,44 @@
+=============Reasoning for YP_004782219 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The title contains '[Thermus phage TMA]' and the 'host' is listed as 'Thermus thermophilus HB27'. The genus 'Thermus' is associated with thermophilic organisms, suggesting the phage is adapted to high temperatures.
+
+
+=============Reasoning for YP_004782219 from accession literature=============
+=============Reasoning for YP_004782219 from host literature=============
+Paper: PMC12898461.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states that the enzymes were obtained from *T. thermophilus* strain ET-1, and the text repeatedly refers to the enzymes as 'thermostable' and 'thermoenzymes'. Furthermore, the optimal temperatures determined for the individual enzymes are high: Ces1-ET optimum is 60 °C, Est1-ET optimum is 80 °C, and Plp1-ET optimum is 70 °C. Since the definition for a thermophile is > 45°C, and the optimal temperatures are significantly above this threshold, the classification is thermophile. The text also mentions the source strain ET-1 has a 'growth profile with an optimum of 80 °C'.
+
+
+Paper: PMC12907556.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The abstract explicitly states: "Here, we unveil a novel thermosensitive TCS, DhqSR, in the thermophile Thermus thermophilus HB27." Furthermore, the text mentions that the system is essential for "thermal adaptation" and that TtS "exhibited considerable thermostability, maintaining substantial phosphorylation activity even at 90°C and showing optimal activity (2.5-fold increase) at 70°C (Fig. 2D)". The definition for thermophile is > 45°C, which is consistent with the organism and the observed optimal/stable temperatures.
+
+
+Paper: PMC13039148.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that "Thermus thermophilus is a Gram-negative, thermophilic bacterium..." The organism name itself indicates the thermal nature, and the methods section confirms this by stating: "For negative stain electron microscopy, overnight liquid cultures were diluted to an OD of 0.1 and incubated at 68 °C until an OD of 0.6–0.8 was reached. For cryoET, cells from a 24-h pre-culture were transferred onto TM+ plates (containing 2% [wt/vol] agar) and incubated for 48 h at 68 °C."
+
+
+Paper: PMC13140390.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states that "The genus Thermus is characterized by extreme thermophilic bacteria that grow at temperatures ranging from 55°C to 80°C (Da Costa et al. 2006)". Since the phage is associated with the genus Thermus, this indicates a thermophilic nature.
+
+
+=============Reasoning for YP_004782219 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage TMA' and its host is listed as 'Thermus thermophilus HB27'. The genus 'Thermus' is well-known for its thermophilic nature, and the presence of 'Thermus' in both the phage name and the host strongly suggests that the phage is adapted to high-temperature environments (>45°C). Therefore, the classification is thermophile.
+
+

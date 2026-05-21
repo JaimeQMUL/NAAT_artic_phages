@@ -1,0 +1,25 @@
+=============Reasoning for QJD50830 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QJD50830 from accession literature=============
+Paper: PMC8093824.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper discusses the stability of the phage PhiMa05 under various temperature conditions in the section 'Phage Stability Under Environmental Stress'. It states: 'Additionally, the cyanophage PhiMa05 showed stability from 4°C to 35°C after 12 h and 24 h incubations. However, after exposure to 45°C for 24 h, there was a 23% reduction in phage viability (Supplementary Figure 1C).' Since the optimal growth temperature is not explicitly stated, and the tested range (4°C to 35°C) falls within the mesophilic range (15–45°C), but no definitive optimal temperature is given, the classification is 'None' based on the strict rule of only using explicitly stated optimal conditions. However, the stability data suggests it is robust in the mesophilic range.
+
+
+=============Reasoning for QJD50830 from host literature=============
+=============Reasoning for QJD50830 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage Bmoc.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.526848 N 90.656204 W). Soil environments are generally considered mesophilic, though temperature varies widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As the environmental context is general and not a direct temperature reading, this classification relies on the fallback rule (Rule 3) and the general knowledge associated with soil isolation, leading to a forced assignment.
+
+

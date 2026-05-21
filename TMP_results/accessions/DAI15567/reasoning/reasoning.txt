@@ -1,0 +1,19 @@
+=============Reasoning for DAI15567 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAI15567 from accession literature=============
+=============Reasoning for DAI15567 from host literature=============
+=============Reasoning for DAI15567 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is listed as 'Human metagenome' and the collection date is 2010-07-29. Human environments are generally considered to maintain moderate temperatures (around 37°C), which falls within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'Human metagenome' context strongly suggests a mesophilic origin. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'. Given the context, 'mesophile' is the most probable classification.
+4. Conclusion: Assign 'mesophile' based on the human host context.
+
+

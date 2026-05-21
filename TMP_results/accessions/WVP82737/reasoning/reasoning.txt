@@ -1,0 +1,47 @@
+=============Reasoning for WVP82737 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are typically associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for WVP82737 from accession literature=============
+Paper: PMC13000508.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal MOI determination was performed by incubating mixtures at "37 °C with shaking at 180 rpm for 4 h." Furthermore, the one-step growth curve and adsorption rate assays were conducted using incubation at "37 °C water bath for 5 min" and "incubated at 37°C for 12 min," respectively. The thermal stability assay tested temperatures including "40 °C, 50 °C, 60 °C, 70 °C, and 80 °C," and the text notes the phage "maintained stable activity across a temperature range of 40-60°C." Since the optimal and standard working temperatures are centered around 37°C, which falls within the 15–45°C range, the classification is mesophile.
+
+
+Paper: PMC10302289.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the vB_EcoM_Lh1B phage. For example, in Section 2.3, the mixture was incubated at "37 °C for 18 h." In Section 2.4, the mixture was incubated "for 18 h at 37 °C." In Section 2.5, the phage was incubated "at 37 °C," and later, "for 24 h at 37 °C." In Section 2.6, incubation was performed "at 37 °C for 4 h." In Section 2.7, cultivation was carried out "at 37 °C." In Section 2.8, the pH stability test involved incubation "for 1 h at 37 °C." In Section 2.9, the one-step growth assay was incubated "at 37 °C." The discussion section confirms this, stating: "The obtained results showed that the vB_EcoM_Lh1B phage titer remains practically unchanged at 108 PFU/mL in temperatures ranging from 4 to 50 °C..." and "The findings suggest that the investigated bacteriophage can be stored at room temperature, which is especially important amid limited resources. In addition, the body temperature of warm-blooded animals (birds and mammals) will not lead to inactivation or decrease of the lytic activity of the vB_EcoM_Lh1B phage upon its introduction." Since 37°C is the optimal temperature for human/mammalian body temperature and is within the mesophilic range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC8812316.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage was isolated using E. coli O157:H7, and the initial enrichment and subsequent propagation steps were performed at 25°C. The text states: "EC001 was isolated in 2017 by enriching the unfiltered supernatant of primary sludge from the Guelph, Ontario, wastewater treatment plant with a cocktail of Shiga toxin-producing E. coli (STEC) strains... and incubating the sample for 24 hours at 25°C. Thereafter, a few milliliters of the enriched sample were filtered... and spotted on 0.3% agar semisolid TSB (ssTSB) containing E. coli O157:H7. A pinprick plaque was passaged three times and propagated using the soft agar method and incubation at 25°C (6)."
+
+
+=============Reasoning for WVP82737 from host literature=============
+Paper: PMC13176161.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the bacterial culture: "Lyophilized bacteria dissolved in PBS were transferred to CNA plates for recovery and anaerobic culture at 37 °C for 3–4 days." Furthermore, subsequent incubation steps for the experimental group were performed "...which were then incubated at 37 °C, inverting every 2 h." The subsequent enzyme digestion experiments also utilized this temperature: "The system was constructed in 10 μL of glyco-buffer supplemented with 2 μL of pH 6.5 and 200 mM Tris–HCl at 37 °C for 3 h." The final incubation for mass spectrometry was also at 37 °C. Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for WVP82737 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'sewage' and the host is 'Escherichia coli O157:H7'. *E. coli* is a common mesophile, typically thriving in the mammalian gut environment (37°C), which falls within the mesophilic range (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The most probable classification is based on the known ecology of the host organism, *E. coli*, which strongly suggests a mesophilic lifestyle for the associated phage.
+4. **Fallback:** As the environmental context points strongly towards mesophilic bacteria, 'mesophile' is selected. This classification is assigned by inference, but due to the lack of direct temperature data, it defaults to the most probable classification based on the host's known niche.
+
+

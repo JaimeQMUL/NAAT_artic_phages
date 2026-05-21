@@ -1,0 +1,40 @@
+=============Reasoning for YP_009225812 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil', which is generally associated with mesophilic environments.
+
+
+=============Reasoning for YP_009225812 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text provides multiple explicit temperature mentions related to the culture conditions for *S. clavuligerus* and its spores/mycelium. 
+1. Spores of *S. clavuligerus* were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days).
+2. Spores of *S. clavuligerus* wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm.
+3. Cultures were incubated for 120 h, at 220 rpm and 28 ◦C.
+4. The RNA samples were quantified using Qubit 2.0 Fluorometer (ThermoFisher Scientific, Waltham, MA, USA) and RNA integrity was checked with 4200 TapeStation (Agilent Technologies, Palo Alto, CA, USA). (No temperature given for this step, but the culture was at 28°C).
+5. The reaction was kept at 28°C for 15 min [12].
+6. The protoplasts were obtained from cultures grown at 30 °C in YEMEG medium under previously described conditions [11].
+
+The most frequently cited and primary growth/assay temperature for the main experiments is 28°C, which falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for YP_009225812 from host literature=============
+Paper: PMC13107908.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the 'conventional optimal growth temperature' for S. lividans is 28 °C. The study also reports optimal production conditions for shinorine at 34 °C, and optimal d-ribulose production at 40 °C. Since the general optimal growth temperature (28 °C) falls within the mesophilic range (15–45°C), and the reported optimal conditions (34°C, 40°C) also fall within this range, the overall classification is mesophile. The text mentions '28 °C, the conventional optimal growth temperature' and 'Shinorine production was maximized at 34 °C' and 'd-ribulose production was maximized at 40 °C'.
+
+
+=============Reasoning for YP_009225812 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage Jay2Jay.
+2. Check for environmental context: The isolation source is 'soil', and the geographical coordinates are provided (USA: Tresckow, PA). Soil environments typically support mesophilic life forms, although temperature can vary widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+
+

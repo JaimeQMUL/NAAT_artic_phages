@@ -1,0 +1,61 @@
+=============Reasoning for YCB26705 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'chicken feces', but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or host.
+
+
+=============Reasoning for YCB26705 from accession literature=============
+Paper: PMC13152249.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the study analyzed mutant libraries on food matrices 'under refrigerated storage conditions' and specifically used an incubation temperature of '8 °C' for the main incubation period ('Inoculated samples were incubated at 8 °C for a total of 96 h (4 days)'). Furthermore, the background microbiota analysis mentions 'mesophilic aerobic bacteria (MAB)'. Since 8 °C falls within the typical mesophilic range (15–45°C, though 8°C is cold, it is the explicit condition used for the experiment), and the general context involves food spoilage/storage, the classification points to mesophile based on the explicit condition and associated background microbiota description.
+
+
+Paper: PMC13176088.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the IV-CFPS reactions and the purification of SapS: "The reactions were incubated at 37 °C for 2 h..." and "SapS was purified from 500 mL overnight cultures of S. saprophyticus P1CEA4 grown at 37 °C in TSB." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the optimal growth range is stated as 4°C to 60°C, and the mesophile definition is 15–45°C, the phage exhibits viability across this range, encompassing the mesophilic range. The overall range suggests it is not strictly psychrophilic or thermophilic, but the explicit mention of viability across a broad range including 15-45°C supports a mesophilic classification based on the provided definitions.
+
+
+Paper: 42140025.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states that the phage PH215 "demonstrated remarkable environmental stability, sustaining infectivity across a wide pH range (2-11) and at temperatures from 4 to 50 °C." Since the optimal growth range for mesophiles is 15–45°C, and the tested range (4–50°C) encompasses this range, and the highest tested temperature (50°C) is near the upper limit of mesophilic activity, we classify it as mesophile based on the provided range.
+
+
+=============Reasoning for YCB26705 from host literature=============
+Paper: PMC9298555.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that for the one-step growth curves, the phages were cultured at "37°C" ("Phage one-step growth curves were measured as described previously (Duc et al., 2020). S. Enteritidis ATCC 13076, S. Enteritidis ATCC 13311, and S. Typhimurium CMCC50115 were used as the host and were cultured with the GRNsp6, GRNsp8, and GRNsp51 phages, respectively, at a multiplicity of infection (MOI) of 0.01 at 37°C for 140 min."). Furthermore, the general incubation conditions for phage isolation and host range determination were at "37°C" ("The filtrate (5 mL) was then mixed with 5 mL double-strength TSB pre-inoculated with 1% of overnight-cultured host strain and incubated at 37°C in a shaker at 160 rpm for 12 h."). Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the optimal growth range is stated as 4°C to 60°C, and the mesophile definition is 15–45°C, the phage exhibits viability across this range, encompassing the mesophilic range. The overall range suggests it is not strictly psychrophilic or thermophilic, but the explicit mention of viability across a broad range including 15-45°C supports a mesophilic classification based on the provided definitions.
+
+
+=============Reasoning for YCB26705 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the isolation source as 'chicken feces'. Feces are generally associated with ambient or moderate environmental temperatures, which typically fall within the mesophilic range (15–45°C).
+2. There is no explicit mention of optimal growth temperature, minimum, or maximum temperature.
+3. Based on the general environmental context (feces) and the lack of specific thermal data, the most probable classification is mesophile.
+4. Since no explicit evidence exists, the classification defaults to mesophile as per the decision rules.
+
+

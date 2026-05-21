@@ -1,0 +1,16 @@
+=============Reasoning for YP_009188251 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Cyanophage P-TIM40') and its host ('Prochlorococcus sp. NATL2A'), but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_009188251 from accession literature=============
+=============Reasoning for YP_009188251 from host literature=============
+=============Reasoning for YP_009188251 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Cyanophage P-TIM40), its host (Prochlorococcus sp. NATL2A), and general sequence data. 2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range for the phage. 3. The host, Prochlorococcus, is a marine cyanobacterium often associated with moderate oceanic temperatures. 4. Since no explicit evidence is available, and the environmental context (marine/cyanobacteria) does not strongly point to extreme cold or heat, the decision rules mandate defaulting to 'mesophile' as the most probable classification. 5. This assignment is therefore 'forced'.
+
+

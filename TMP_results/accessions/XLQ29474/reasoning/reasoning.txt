@@ -1,0 +1,51 @@
+=============Reasoning for XLQ29474 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli MTCC MG1687' and the isolation source is 'water'. 'Escherichia coli' is generally associated with mesophilic environments, and 'water' does not specify an extreme temperature, suggesting mesophilic conditions.
+
+
+=============Reasoning for XLQ29474 from accession literature=============
+Paper: PMC13176240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that the antibacterial activity of Ali24-His was tested under 'moderate heating (up to 50 °C), which are environments typical of fruit processing workflows, pre-pasteurization steps.' Furthermore, the DLS analysis showed that the protein 'remains well-folded and resistant to aggregation under these conditions [up to 50 °C]'. The nanoDSF analysis showed that the highest thermal stability (Tm) was observed at pH 4.0, with a Tm of 60.4 °C, but the discussion notes that the activity and stability profiles support its potential for use in 'acidic food processing environments' and 'storage that occurs below structural and activity destabilization threshold temperatures (above 50 °C)'. Since the optimal/stable range demonstrated for activity and stability is centered around 4 °C to 50 °C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for XLQ29474 from host literature=============
+Paper: PMC13172265.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal activity temperature for the purified enzyme: "The enzyme displayed optimal activity at 55°C and pH 9.0" (ABSTRACT). It further confirms this in the results section: "The optimal temperature for proteolytic and milk‐clotting activities was 55°C" (Section 3.9.1). Since the mesophile range is defined as 15–45°C, and the optimal temperature is 55°C, this technically falls into the thermophile range (> 45°C). However, the paper also mentions that the enzyme is 'thermostable' (ABSTRACT, Introduction) and that activity declined at 80°C, suggesting stability above typical mesophilic ranges but not necessarily classifying it as a true thermophile based on the provided definitions. Given the explicit optimal temperature of 55°C, which is > 45°C, the classification should be thermophile based on the provided definitions. Re-evaluating the definitions: psychrophile (< 15°C), mesophile (15–45°C), thermophile (> 45°C). Since 55°C > 45°C, the classification is thermophile. The initial classification of 'mesophile' was incorrect based on the explicit data point.
+
+
+Paper: PMC13070913.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states the incubation temperature for metabolite production: "To assess the biosynthetic potential of Streptomyces sp. VITGV156, the strain was cultivated in ISP2 broth supplemented sugarcane baggeese and incubated at 30°C for 15 days." It also mentions subsequent growth conditions: "For large-scale metabolite production, the strain was grown in 1,000 mL Erlenmeyer flasks containing 500 mL of ISP2 broth under identical conditions." The antibacterial assays were performed by incubating plates at 37°C for 24 h. Since the optimal growth/production temperature mentioned is 30°C, and the general range for mesophiles is 15–45°C, the organism is classified as mesophilic. The 37°C incubation for assays also falls within the mesophilic range.
+
+
+Paper: PMC12782346.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used in the study. For the MIC detection (Section 2.6), the MTPs were incubated for "24 h at 37°C." For the biofilm assay (Section 2.7), the broth was incubated for "18 h at 37°C" and the plates were incubated at "37°C for 48 h aerobically." For the fimH gene detection (Section 2.9), UPEC isolates were grown "for 18 h at 37°C." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC13171638.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "A total of 42 bacterial colonies were isolated from the enrichment cultures in MM5 incubated at 30 °C. No increase in turbidity was observed at the end of the enrichment performed at 50 °C. The absence of microbial growth at 50 °C indicates that TPA-degrading populations in the tested compost are predominantly mesophilic..."
+
+
+=============Reasoning for XLQ29474 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for the phage. 2. **Check for environmental context:** The isolation source is 'water' from 'India: Yamuna'. While water bodies can vary, this context is not specific enough to definitively classify the phage as psychrophile or thermophile. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is too general, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4). 4. **Conclusion:** The most probable classification is mesophile.
+
+

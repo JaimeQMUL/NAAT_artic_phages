@@ -1,0 +1,26 @@
+=============Reasoning for WGA02305 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Campylobacter jejuni 2206') and the phage ('Campylobacter phage vB_Cj_QDYZ'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present in the provided fields.
+
+
+=============Reasoning for WGA02305 from accession literature=============
+=============Reasoning for WGA02305 from host literature=============
+Paper: PMC13119452.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the culture conditions for *Avibacterium paragallinarum* in multiple sections. In Section 2.1, it mentions: "Av. paragallinarum was cultured in tryptic soy broth (TSB) at 37 °C, 180 rpm, or on TSA solid medium containing 1.5% agar at 37 °C under 5% CO2 atmosphere." Furthermore, in Section 2.2, the incubation for transconjugants is stated as: "The mixture was spotted onto TSA plates and incubated upright at 37 °C under 5% CO2 for 24 h." In Section 2.3, the biofilm assay incubation is specified as: "Plates were incubated at 37 °C under 5% CO2 and 45% humidity for 24 h." These consistent mentions of 37 °C indicate the optimal or standard growth temperature, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WGA02305 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the phage.
+2. **Check for environmental context:** The host organism is 'Campylobacter jejuni 2206'. Campylobacter species are generally associated with mammalian gastrointestinal tracts, which maintain a core body temperature around 37°C. This suggests a mesophilic lifestyle.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is drawn from the known biology of the host organism (Campylobacter). 37°C falls squarely within the mesophile range (15–45°C).
+4. **Fallback:** The inference points strongly towards mesophile, which is the most probable classification based on the host context. Therefore, 'mesophile' is assigned.
+
+

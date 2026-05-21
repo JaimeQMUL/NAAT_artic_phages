@@ -1,0 +1,26 @@
+=============Reasoning for AYR02066 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Synechococcus sp. WH 7803') and collection location ('China'), but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range.
+
+
+=============Reasoning for AYR02066 from accession literature=============
+Paper: PMC7472177.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper describes the isolation and genomic analysis of Synechococcus phages S-N03 and S-H34. The host culture conditions are explicitly stated as being grown at "25 °C in a 12-h/12-h light-dark cycle" (Section 2.1). The phage enrichment and subsequent incubation were also performed at "25 °C" (Section 2.1). However, the paper does not classify the phage's optimal growth temperature (psychrophile, mesophile, or thermophile) based on these conditions, nor does it provide a specific thermal optimum for the phage itself, only the culture temperature used for isolation/propagation.
+
+
+=============Reasoning for AYR02066 from host literature=============
+=============Reasoning for AYR02066 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-E7.
+2. Check for environmental context: The metadata provides the host ('Synechococcus sp. WH 7803') and collection location ('China'), but no specific temperature data is available.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient to strongly infer psychrophile or thermophile conditions, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with 'forced' inference type and 'low' confidence due to lack of data.
+
+

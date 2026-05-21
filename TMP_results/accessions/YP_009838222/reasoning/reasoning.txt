@@ -1,0 +1,26 @@
+=============Reasoning for YP_009838222 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Vibrio phage YC') and its host ('Vibrio coralliilyticus P1'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for YP_009838222 from accession literature=============
+=============Reasoning for YP_009838222 from host literature=============
+Paper: PMC12780472.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states under section 2.1 Bacterial Strains and Growth Conditions: "All marine strains were grown at 27°C unless otherwise stated."
+
+
+=============Reasoning for YP_009838222 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Vibrio phage YC') and its host ('Vibrio coralliilyticus P1').
+2. There is no explicit mention of the optimal growth temperature or the environmental source temperature.
+3. The genus 'Vibrio' is generally associated with aquatic environments, and without specific temperature data, the most scientifically conservative and default classification, as per the decision rules, is 'mesophile' (15–45°C).
+4. Therefore, the classification defaults to mesophile.
+
+

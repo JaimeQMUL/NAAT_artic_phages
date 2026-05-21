@@ -1,0 +1,40 @@
+=============Reasoning for CAD5241288 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'estuary', but no specific temperature range or thermal classification (psychrophile, mesophile, thermophile) is provided for this source or the phage.
+
+
+=============Reasoning for CAD5241288 from accession literature=============
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the in vivo mammary infection model, the initial infection and subsequent treatment were performed at conditions implying physiological temperature, and the phage adsorption assay was conducted at "37 °C". The stability test explicitly tested "37 °C" among others. Since the optimal and tested physiological temperature is 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC9771388.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper mentions that bacterial strains were propagated in liquid culture using Lysogeny Broth (LB) at 37°C, and phage propagation/assays were incubated at 37°C. However, there is no specific mention of the optimal growth temperature or thermal characteristics for the bacteriophage Klebsiella phage vB_KoM-Pickle itself, only the incubation temperature used for the assay (37°C).
+
+
+Paper: PMC8006926.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states under 'Materials and Methods' -> 'Bacterial strains and culture conditions': 'All culturing in liquid medium was performed with shaking (150 rpm) at 37°C.' Additionally, in the 'Phage isolation' section, it mentions: 'This enrichment culture was then incubated overnight at 37°C...'. Finally, in the 'Plaque formation and morphology' section, it states: 'Plates were incubated overnight at 37°C to allow plaques to form.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for CAD5241288 from host literature=============
+=============Reasoning for CAD5241288 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not explicitly state a thermal optimum or growth temperature.
+2. Check for environmental context: The isolation source is listed as 'estuary'. Estuaries are typically characterized by fluctuating, moderate temperatures, generally falling within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference from the 'estuary' source suggests mesophily. However, the environmental context is not strong enough to guarantee a classification, and the rules mandate a fallback if context is weak or absent. Given the general nature of estuarine environments, mesophile is the most probable assignment.
+4. Final assignment: Defaulting to 'mesophile' based on the moderate nature of the isolation source, as per the fallback logic.
+
+

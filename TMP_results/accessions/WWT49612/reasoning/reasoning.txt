@@ -1,0 +1,19 @@
+=============Reasoning for WWT49612 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage 236Ecol005PP') and its host ('Escherichia coli'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for WWT49612 from accession literature=============
+=============Reasoning for WWT49612 from host literature=============
+=============Reasoning for WWT49612 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Escherichia phage 236Ecol005PP.
+2. Check for environmental context: The metadata indicates the host is 'Escherichia coli' and the collection country is 'Poland'. While 'Escherichia coli' is generally considered a mesophile, the collection location/date does not provide a specific temperature constraint.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak (only host information is available), the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with 'forced' inference type and 'low' confidence due to lack of direct evidence.
+
+

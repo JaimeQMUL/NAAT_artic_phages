@@ -1,0 +1,30 @@
+=============Reasoning for YP_010071519 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Escherichia coli O157:H7'), and accession details, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_010071519 from accession literature=============
+Paper: PMC8809338.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The abstract states that the phage "is stable at a wide range of pH (pH 3 to pH 10.5) and temperatures (–80°C to 50°C)". Furthermore, the section 'Phage temperature, storage, and pH stability' mentions that "phage Sa45lw was stable at the temperatures between 30°C and 50°C after 24 h of the treatment". The optimal growth temperature for the host bacteria used for propagation and testing (E. coli ATCC 13706) was consistently stated as 37°C in multiple sections (e.g., 'One-step growth curve' and 'MATERIALS AND METHODS' for propagation). Since the phage is stable up to 50°C and shows activity at 37°C, this falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC11274021.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability testing conditions for phage KIT06: "Phage KIT06 was incubated at 4, 37, 45, 50, 55, 65, and 75 °C for 1 h to determine its thermal stability." The results section notes: "The highest thermal stabilities of phage KIT06 were observed at 4 °C (control) and 37 °C (Figure 2c). The phage activity slightly decreased at 45 °C but maintained a high titer." Since the optimal/highest stability was observed at 37 °C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_010071519 from host literature=============
+=============Reasoning for YP_010071519 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Escherichia phage KIT03) and its host (Escherichia coli O157:H7). 2. No explicit thermal range is provided in the metadata. 3. The host, Escherichia coli, is a common bacterium associated with moderate environmental temperatures (mesophilic range, typically 37°C). 4. Since no specific thermal data is available, the most probable classification is mesophile, based on the known ecology of the host organism, following the fallback rule (Rule 3).
+
+

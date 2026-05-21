@@ -1,0 +1,19 @@
+=============Reasoning for DAW64540 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome', which implies a host associated with human environments, typically considered mesophilic.
+
+
+=============Reasoning for DAW64540 from accession literature=============
+=============Reasoning for DAW64540 from host literature=============
+=============Reasoning for DAW64540 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the bacteriophage 'Herelleviridae sp.'.
+2. The isolation source is 'Human metagenome' from the 'USA'. Human-associated microbes and phages are generally considered mesophilic unless specific extreme environments are noted.
+3. Since no explicit evidence exists (Rule 1 fails) and the environmental context (human host) suggests moderate conditions, the most probable classification is mesophile (Rule 2/3).
+4. As no useful metadata exists to strongly support a psychrophile or thermophile classification, the system defaults to 'mesophile' as per the fallback rule (Rule 4).
+
+

@@ -1,0 +1,41 @@
+=============Reasoning for YP_009625811 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Bacillus phage SIOphi') and its host ('Bacillus subtilis'), but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_009625811 from accession literature=============
+Paper: PMC4529890.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that 'Phage SIOΦ lost total activity after 2 min at 80°C, 30 min at 70°C, and at 60°C only 1% of original activity was observed after a 3 h incubation period.' It also mentions that 'All phages were stable after 180 min at −80°C, −20°C, 4°C, 23°C, 30°C, 37°C, and 50°C'. The optimal growth temperature for the host bacteria was established during phage propagation: 'Phage propagation was performed as follows: 45 mL of filtered soil samples and 5 mL culture of Bacillus strain grown overnight in nutrient broth were added to 20 mL of fresh nutrient broth and incubated for 24 h at 37°C.' Since the phage activity was tested at 37°C and the host culture was grown at 37°C, and the general stability was noted up to 50°C, the mesophilic range (15–45°C) is the most appropriate classification based on the explicit data points and host growth conditions.
+
+
+=============Reasoning for YP_009625811 from host literature=============
+Paper: PMC13186564.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper describes experiments conducted at various temperatures for different assays. For instance, 'For spot assays, cells were cultured to stationary phase in liquid LB medium, and 9–2 and 9–5 dilutions were then spotted onto solid ONA medium with chloramphenicol (5 ug/mL) and xylose (0.5% w/v) when induction of the Pxyl promoter was required. The strains, plasmids, and oligonucleotides used in this study are listed in Supplementary file 4, respectively.' and 'Plates were incubated at 37°C with continuous shaking in a Thermo Scientific Multiskan FC plate reader.' and 'Cells were spotted on nutrient rich medium (ONA) containing chloramphenicol and xylose and incubated for 16 hours at 37°C.' and 'For viability assessment, 200 LB medium was inoculated with a 1:1000 dilution of a dense B. subtilis culture and grown to stationary phase. The culture was then serially diluted in LB medium. From each dilution (9⁻¹ to 9⁻⁸), 5 µL was spotted onto LB agar plates containing the appropriate antibiotic selection. Plates were incubated, and viability was assessed by imaging the spots at 16- and 24 hours post-incubation.' The general growth conditions mentioned are around 37°C, which falls within the mesophile range (15–45°C). However, the paper does not explicitly state the optimal growth temperature for the phage or the phage-host system, only the incubation temperatures for the bacterial host assays.
+
+
+Paper: PMC13183696.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for the bacterial culture: "The culture was incubated for 72 h at 150 rpm and 30 °C." Furthermore, the degradation assays were conducted under these conditions: "The culture was incubated under constant agitation at 150 rpm and 30 °C for approximately 33 days."
+
+
+=============Reasoning for YP_009625811 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage 'Bacillus phage SIOphi' and its host 'Bacillus subtilis'.
+2. There is no explicit mention of optimal growth temperature or environmental temperature ranges.
+3. Bacillus species, including B. subtilis, are generally known to be mesophilic organisms, thriving in moderate temperatures (typically 20-45°C).
+4. Since no explicit evidence is available, the most probable classification is mesophile, based on the known ecology of the host organism.
+5. This classification is assigned using the fallback rule (Rule 4) because the environmental context is weak/absent regarding temperature.
+
+

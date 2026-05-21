@@ -1,0 +1,27 @@
+=============Reasoning for YP_004956966 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Campylobacter phage CPX') and its host ('Campylobacter jejuni'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for YP_004956966 from accession literature=============
+Paper: PMC12940140.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The phage survivability studies explicitly tested the phage lysate at various temperatures: "For Temperature: About 100 µL of phage lysate was added to 900 µL of LB broth and incubated at 20, 25, 37, 50, 60, 70, and 80°C for 1 h." The text further states, "The lytic phages were viable at a temperature range of −20°C to 40°C with gradual inactivation of the cells as the temperature rose to 70°C, then a complete loss of all the cells after 80°C." It also notes, "Phage survivability was maintained up to 70°C with best activity below 50°C." Since the optimal/best activity is noted below 50°C, and the range includes 20°C, 25°C, and 37°C (which fall within the mesophile range of 15–45°C), the classification is mesophile.
+
+
+=============Reasoning for YP_004956966 from host literature=============
+=============Reasoning for YP_004956966 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Campylobacter phage CPX') and its host ('Campylobacter jejuni').
+2. Campylobacter species are typically associated with the gastrointestinal tract of warm-blooded animals, which generally maintain temperatures around 37°C.
+3. There is no explicit thermal range provided in the metadata.
+4. Based on the known ecology of the host organism (Campylobacter jejuni), the most probable thermal range is mesophilic (15–45°C).
+5. Since no explicit evidence exists, and the environmental context points strongly towards mammalian body temperature, 'mesophile' is selected as the most probable classification. This selection relies on the fallback rule (Rule 3) due to the lack of direct thermal data.
+
+

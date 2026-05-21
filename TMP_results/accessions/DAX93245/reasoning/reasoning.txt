@@ -1,0 +1,16 @@
+=============Reasoning for DAX93245 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAX93245 from accession literature=============
+=============Reasoning for DAX93245 from host literature=============
+=============Reasoning for DAX93245 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2014-09-05. Human-associated samples generally suggest mesophilic conditions (15–45°C) unless otherwise specified. 3. Apply decision rules: Since no explicit evidence exists, and the environmental context (human host) points towards moderate conditions, the most probable classification is mesophile. 4. Fallback: As no strong evidence is present, the default classification rule (Rule 4) is to assign 'mesophile'.
+
+

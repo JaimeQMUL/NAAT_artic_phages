@@ -1,0 +1,16 @@
+=============Reasoning for UJD05624 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for UJD05624 from accession literature=============
+=============Reasoning for UJD05624 from host literature=============
+=============Reasoning for UJD05624 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Phage: Klebsiella phage PWKp16, Host: Klebsiella pneumoniae, Isolation Source: sewage, Country: Thailand. 2. There is no explicit mention of optimal growth temperature for the phage or its host. 3. The isolation source is 'sewage'. Sewage environments are generally considered mesophilic, fluctuating around ambient temperatures, which typically fall within the 15–45°C range. 4. Since no explicit evidence is present, the decision rules require inferring from the environmental context. The 'sewage' context strongly suggests mesophilic conditions. 5. As no explicit evidence exists, and the environmental context points towards moderate conditions, 'mesophile' is selected. 6. Because the evidence is based on a general assumption about the isolation source rather than direct measurement or statement, the classification is considered 'forced' based on the fallback rules.
+
+

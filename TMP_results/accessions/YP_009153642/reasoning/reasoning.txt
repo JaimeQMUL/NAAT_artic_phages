@@ -1,0 +1,44 @@
+=============Reasoning for YP_009153642 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for YP_009153642 from accession literature=============
+Paper: PMC7827537.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature used for several key experiments involving the phages: 
+1. "Phages were added at a multiplicity of infection (MOI) = 0.001, and incubation was continued for another 6 h for ϕA1122 phage or overnight (ON) for PST phage, to achieve bacterial lysis." (Implied incubation temperature is not given here, but subsequent sections clarify).
+2. "Phage supernatants were clarified by centrifugation at 2900× g for 10 min at room temperature (RT)..."
+3. "...and incubated for another 6 h for ϕA1122 phage or overnight (ON) for PST phage, to achieve bacterial lysis." (This section is part of the general preparation, but the next section is more definitive).
+4. "...and incubated for 20 min at RT." (For spot assay).
+5. "The temperature in all experiments was 37 °C." (In section 2.5, referring to the absorbance- and bioluminescence-Based Lysis Assay).
+6. "For the adjustment of the bacteria to the blood environment, cultures were incubated for 1 h at 37 °C and 150 rpm." (In section 2.6).
+7. "The cultures were incubated at 37 °C and 150 rpm for 24 h..." (In section 2.6).
+8. "Figure 1 Lysis curve of EV76 cultures infected by phages. ... Growth/lysis curves were assessed by tracking the OD630nm at 37 °C for 24 h in 15-min intervals using a Spark 10 M plate reader." (Figure caption).
+9. "Figure 2 Phage lysis of EV76::lux suspended in Brain Heart Infusion (BHI) or in whole blood. A bioluminescent lysis assay was performed... Bioluminescence was assessed by tracking the relative light units (RLU) at 37 °C in 15-min intervals for 24 h using a Spark 10 M plate reader." (Figure caption).
+10. "Figure 3 Lysis of EV76::lux in BHI, whole blood and HI-blood by Y. pestis phages. A bioluminescence lysis assay was performed... The bioluminescence assays were assessed..." (Figure caption, implying 37°C from context).
+11. "Figure 4 Phage and bacterial propagation assay. First, 37 °C-prewarmed BHI or human blood... The infected cultures were incubated at 37 °C and 150 rpm for 24 h." (Figure caption). 
+Since 37°C is consistently used for the main activity assays, and 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC9024586.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature used for the bioluminescence-based lysis assay: "The temperature used in all experiments was 37 °C." Since 37°C falls within the mesophile range (15–45°C), the phage's activity was tested under mesophilic conditions.
+
+
+=============Reasoning for YP_009153642 from host literature=============
+=============Reasoning for YP_009153642 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided contains general information about the phage (Yersinia phage PST) but lacks any explicit data regarding its optimal growth temperature or the environmental source temperature.
+2. No explicit evidence for psychrophile (<15°C) or thermophile (>45°C) is present.
+3. Following the decision rules, since environmental context is weak or absent, the system must assign the MOST PROBABLE classification. The fallback rule dictates defaulting to 'mesophile'.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for YP_002853997 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for YP_002853997 from accession literature=============
+=============Reasoning for YP_002853997 from host literature=============
+=============Reasoning for YP_002853997 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to accession numbers, titles, and general identifiers. There is no explicit information regarding the optimal growth temperature or the environmental source temperature for Enterobacteria phage RB51.
+2. Rule 1 (Explicit evidence) fails.
+3. Rule 2 (Inference from environmental context) fails due to lack of context.
+4. Rule 3 (Fallback) is triggered. Since no useful metadata exists to suggest psychrophile or thermophile conditions, the system defaults to 'mesophile' as per the mandatory fallback rule.
+
+

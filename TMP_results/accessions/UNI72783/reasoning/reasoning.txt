@@ -1,0 +1,41 @@
+=============Reasoning for UNI72783 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage plant'. Sewage plants are typically associated with moderate environmental temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for UNI72783 from accession literature=============
+Paper: PMC9602741.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several assays involving the phages and the host bacteria. For plaque assays, the incubation was done at "37°C" ("On semisolid nutrient agar, bacterial lawn Isf-Pm1 and Isf-Pm2 produce clear plaques with sizes of up to 1 and 7 mm in diameter, respectively, after incubation at 37°C (see Fig. S1 at https://www.researchgate.net/publication/363250612_Supplementary_Figures_and-T00les)"). For phage adsorption rate, the incubation was done at "37°C" ("...and incubated at 37°C."). For one-step growth, the incubation was done at "37°C" ("...and incubated at 37°C."). For the bacterial reduction assay, the incubation was done at "37°C" ("...and incubated at 37°C with shaking at 150 rpm."). For the biofilm reduction assay, the plate was incubated at "37°C" ("...incubated at 37°C for 24 h."). For the adhesion assay, incubation was done at "37°C" ("After incubation at 37°C under 5% CO2 for 2 h..."). For the bladder phantom model, the model was "maintained at 37°C by a water jacket supplied from a circulating water bath." Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC11671267.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures for several assays involving the phage cocktail (Isf-Pm1 and Isf-Pm2) and the bacteria/biofilms. 
+1. For the 'Phage-extract interaction assay': "The microtubes were incubated at 37°C for 24 h."
+2. For the 'Anti-biofilm activity of phage-extract combination': "...were added to each biofilm-coated well... The treated plates were incubated for 18 h at 37°C."
+3. For the 'Adhesion assay': "...followed by incubation at 37°C (5% CO2) for 3–6 h."
+4. For 'Biofilm inhibition of combined phage-extract in phantom bladder model': "...were established and maintained at 37°C..." and "...allowed to incubate for 1 h."
+5. For 'Biofilm inhibition analysis using scanning electron microscopy (SEM)': "...and incubated for 18 h."
+6. For 'Evaluation of QS and adhesion gene expression level by real-time PCR': "...and incubated at 37°C for different time intervals (4, 16, and 48 h)."
+7. For 'Determination of cell viability (MTT assay)': "...and incubated for 12 h in a humidified atmosphere with 5% CO2 at 37°C."
+Since 37°C falls within the defined mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for UNI72783 from host literature=============
+=============Reasoning for UNI72783 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'sewage plant' and the collection date is 2020. Sewage environments are typically associated with mesophilic conditions (15–45°C), although they can vary.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'sewage plant' context suggests mesophilic conditions. However, the inference is not strong enough to override the fallback rule.
+4. Fallback: As per the rules, if environmental context is weak or absent (or if the inference is not strong enough), the system must default to 'mesophile'.
+
+

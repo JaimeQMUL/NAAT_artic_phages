@@ -1,0 +1,33 @@
+=============Reasoning for UGO47028 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'raw sewage'. Sewage environments are generally associated with mesophilic conditions, although this is an inference based on the source type, not an explicit temperature reading.
+
+
+=============Reasoning for UGO47028 from accession literature=============
+Paper: PMC10927658.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The abstract states that 'effluent sewage was incubated with bacterial culture and LB nutrient broth at 37°C for 2 days prior to pelleting bacterial debris...'. This incubation temperature (37°C) is the condition under which the phages were handled and purified. Since 37°C falls within the mesophile range (15–45°C), the phage is inferred to be mesophilic.
+
+
+=============Reasoning for UGO47028 from host literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." The optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UGO47028 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Shigella phage ChubbyThor.
+2. Check for environmental context: The isolation source is 'raw sewage'. Sewage environments are typically characterized by fluctuating, moderate temperatures, generally falling within the mesophilic range (15–45°C), although extreme variations are possible.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'raw sewage' source suggests a moderate environment, leaning towards mesophile. However, the context is weak for a definitive inference.
+4. Fallback: As the environmental context is not strong enough for a high-confidence inference, and no other rule applies, the system defaults to 'mesophile' as per the mandatory fallback rule for insufficient evidence.
+
+

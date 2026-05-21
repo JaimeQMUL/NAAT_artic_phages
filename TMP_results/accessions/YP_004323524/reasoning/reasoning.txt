@@ -1,0 +1,19 @@
+=============Reasoning for YP_004323524 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides location coordinates (22.75 N 158.00 W) and a collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated for the phage or its host.
+
+
+=============Reasoning for YP_004323524 from accession literature=============
+=============Reasoning for YP_004323524 from host literature=============
+=============Reasoning for YP_004323524 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for Prochlorococcus phage P-HM2.
+2. **Check for environmental context:** The metadata provides geographical coordinates ('lat_lon': '22.75 N 158.00 W') and a collection date ('collection_date': '09-Mar-2006'). These coordinates place the sample in a marine environment (likely subtropical/tropical). The host, Prochlorococcus, is a photosynthetic cyanobacterium often associated with oligotrophic open ocean waters.
+3. **Apply decision rules:** Since no explicit thermal data is available, inference is required. Marine phages associated with surface/open ocean phototrophs (like Prochlorococcus) are generally adapted to moderate, ambient seawater temperatures. The defined range for mesophiles (15–45°C) best represents the typical temperature range for open ocean surface waters, especially when specific psychrophilic or thermophilic adaptations are not indicated.
+4. **Conclusion:** Due to the lack of specific thermal data, the fallback rule (Rule 4) is invoked, defaulting to 'mesophile'.
+
+

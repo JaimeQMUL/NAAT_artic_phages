@@ -1,0 +1,30 @@
+=============Reasoning for UWI08126 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The host is 'Homo sapiens' and the isolation source is 'feces' from 'gut metagenome'. These environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for UWI08126 from accession literature=============
+Paper: PMC13182724.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the optimal amplification temperature for the RAA-LFD assay: "To minimize instrument dependency, 37.5 °C (close to human axillary temperature) was selected as the optimal amplification temperature for the RAA-LFD assay." Since 37.5°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC13183296.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for culturing and susceptibility testing. For initial isolation attempts, the plates were incubated at "30 °C for at least 120 h". For subsequent subculturing, the plates were incubated at "30 °C for at least 48 h". For antibiotic susceptibility testing, plates were incubated for "48 h at 30 °C under microaerobic conditions." The use of 30 °C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UWI08126 from host literature=============
+=============Reasoning for UWI08126 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state a thermal optimum or growth temperature for the bacteriophage. 2. **Check for environmental context:** The isolation source is 'feces' and the metagenome source is 'gut metagenome'. 3. **Apply decision rules:** Since no explicit evidence exists, inference is required. Fecal/gut environments are typically associated with moderate mammalian body temperatures (around 37°C), which falls squarely within the mesophilic range (15–45°C). 4. **Conclusion:** The most probable classification, based on the gut/feces context, is mesophile. 5. **Fallback:** Since the inference is based on general biological context rather than a direct environmental temperature reading, the classification is assigned using the fallback rule (Rule 4) if the context were deemed weak, but here, the gut context is strong enough to support mesophile. Therefore, the classification is mesophile.
+
+

@@ -1,0 +1,60 @@
+=============Reasoning for WWS23156 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the phage, its host (Klebsiella pneumoniae), collection location (India), and altitude (22 m), but no explicit or strongly implied temperature or thermal condition is provided to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for WWS23156 from accession literature=============
+Paper: PMC12459788.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various steps. For phage isolation and characterization, the following temperatures are mentioned: 
+1. Incubation for phage amplification/growth: "incubated at 37°C with shaking at 180 rpm for 18 hours" (Section 2.1.1 and 2.1.2).
+2. Incubation for spot assay: "The plates were incubated for 18 hours at 37°C" (Section 2.3.1).
+3. Incubation for streak plating: "The preparations were incubated for 18 hours at 37°C" (Section 2.3.2).
+4. Incubation for plaque assay: "After 18 hours of incubation at 37°C, the plates were assessed for the appearance of plaques" (Section 2.3.3).
+5. Incubation for phage titer determination: "Finally, the plates were incubated overnight at 37°C" (Section 2.3.4).
+6. Single-step growth curve experiment: "incubated at 37°C for ten minutes" (Section 2.3.9).
+7. pH stability assessment: "The preparation was then incubated at 37°C for an hour" (Section 2.3.8).
+8. Phage stability across different temperatures: "Phage stability across different temperatures was assessed at five temperatures: 25°C (room temperature), 37°C (normal body temperature), and 40, 50, 60, and 70°C." (Section 3.7). 
+Since the optimal and most frequently used temperature for growth, incubation, and stability testing is 37°C, which falls within the 15–45°C range, the phage is classified as mesophile.
+
+
+Paper: PMC6141743.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for several experiments involving phage ZCKP1 and its host bacteria. 
+1. "The bacteriophage reduced the bacterial counts of host bacteria by ≥2 log10 CFU/ml at 25°C..." (Suggests activity at 25°C).
+2. "The plates were incubated overnight at 37°C." (Used for EOP determination).
+3. "Phage ZCKP1 was tested in triplicate over eight decimal dilutions against all the susceptible bacterial strains lysed in the spot assays as previously described (Viazis et al., 2011). Conditions of these experiments were the same as spot test using log-phase bacteria. Thus, 200 μl of all bacterial isolates were added to top agar, and different dilutions of phages were spotted on petri dishes. The plates were incubated overnight at 37°C." (Used for EOP determination).
+4. "After 10 min of incubation at 37°C, the suspension was serial diluted and spotted using double-agar overlay plaque assays." (Used for BIM estimation).
+5. "K. pneumoniae KP/01 was grown at concentration of 10^8 and mixed with bacteriophage at multiplicity of infection of 1 and incubated at 37°C for 2 h." (Used for one step growth curve).
+6. "The survival lysis characteristics of phage ZCKP1 were estimated KP/01 in the presence of ZCKP1 phage at multiplicities of infection of 0.1, 10 and 100 PFU/CFU was estimated in comparison to bacterial control at a temperature of 37°C..." (Used for survival lysis).
+7. "Bacteriophage ZCKP1 was added to K. pneumoniae KP/01 in log-phase of growth, at 25°C, at an MOI of 1." (Used for survival lysis).
+8. "One hundred microliter aliquots of K. pneumoniae KP/01 (5 × 10^6 CFU/ml) in 96-well flat-bottomed polystyrene microtitre plate (Sigma Aldrich) were incubated for 24 h at 37°C." (Used for biofilm establishment).
+9. "The absorbance was then measured at 570 nm at 4, 12, and 24 h, using a microplate reader (BioTek, USA)." (Biofilm assay time points).
+10. "The stability of phage ZCKP1 at different temperatures and pH values was investigated (Figures 5A,B). Phage titers were stable, at approximately 10^9 PFU/ml, for 1 h at temperatures of 45 and 55°C." (Stability test).
+11. "The phage titer decreased after 40 min at 65°C to 10^8 PFU/ml, and continued to decline below 10^7 PFU/ml after 1 h. A significant decline (P < 0.005) was observed when phages were incubated at 75 and 85°C. However, phage could still be recovered after 1 h at 75°C at a titer of 10^3 PFU/ml. Phage could not be recovered after 40 min at 85°C." (Stability test).
+
+
+Paper: PMC12943021.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures used for selective culturing and plating: "To select for ESBL-producing Enterobacterales, the filter was placed in 100 mL of Buffer Peptone Water (BPW)... and incubated at 42 °C for 18–24 h. Subsequently, 100 μL of each dilution (up to 10-3) was plated on CHROMagar ESBL plates... and incubated at 42 °C for 18–24 h." and "For the isolation of carbapenemase-producing Enterobacterales (CPE), the filter was placed in 100 mL of Mossel broth (EE Broth)... and the enrichment incubated at 42 °C for 18–24 h. Subsequently, 100 μL of each dilution (up to 10-2) was plated on CHROMagar mSuperCARBA plates... and incubated at 42 °C for 18–24 h." Additionally, subsequent subculturing was done at 37 °C: "After incubation, up to three presumptive colonies of E. coli and Klebsiella spp. per sample were subcultured onto Blood Agar plates (Liofilchem, Roseto degli Abruzzi, Italy), incubated at 37 °C for 24 h...". Since the optimal growth range for the host bacteria (E. coli and K. pneumoniae) is indicated by incubation at 37°C and 42°C, which falls within the mesophile range (15–45°C), the phage is associated with mesophilic conditions.
+
+
+=============Reasoning for WWS23156 from host literature=============
+=============Reasoning for WWS23156 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Klebsiella phage KP01.
+2. Check for environmental context: The metadata provides collection details (India, 22 m altitude) and a collection date (22-May-2020), but these do not specify a temperature range.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient to strongly infer a specific temperature class (psychrophile or thermophile), the system must default to the 'mesophile' classification as per the mandatory fallback rule.
+4. Conclusion: The classification is assigned as mesophile based on the fallback rule.
+
+

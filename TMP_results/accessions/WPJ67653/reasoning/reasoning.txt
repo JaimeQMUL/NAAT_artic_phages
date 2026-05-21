@@ -1,0 +1,23 @@
+=============Reasoning for WPJ67653 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage JoYop') and its host ('Escherichia coli HER 1036'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned to determine a thermal range.
+
+
+=============Reasoning for WPJ67653 from accession literature=============
+Paper: PMC10927641.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The abstract states that 'Filtered water samples were added to Escherichia coli C in LB (Luria-Bertani) medium and incubated at 37°C for 48 h. Plaques were purified (double-agar layer method) and reamplified with their host in LB at 37°C for 8 h.' This indicates the optimal or tested growth temperature for the phages in relation to their host, which is 37°C. Since 37°C falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for WPJ67653 from host literature=============
+=============Reasoning for WPJ67653 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Escherichia phage JoYop'), its host ('Escherichia coli HER 1036'), and collection details (Cote d'Ivoire, collected in May 2018). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range. 3. The host, Escherichia coli, is a well-known mesophilic bacterium, typically thriving in human gut temperatures (around 37°C). 4. Following Decision Rule 2 (infer from environmental context) and Decision Rule 3 (if context is weak/absent, assign most probable), the most reasonable inference is that the phage is adapted to mesophilic conditions, mirroring its host. 5. Since no explicit evidence exists, the classification defaults to mesophile, as per the fallback rule (Decision Rule 4).
+
+

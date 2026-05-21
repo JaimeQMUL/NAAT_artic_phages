@@ -1,0 +1,47 @@
+=============Reasoning for YP_010069607 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'manure', which typically suggests mesophilic conditions. The lab host is 'Escherichia coli', which is generally considered a mesophile.
+
+
+=============Reasoning for YP_010069607 from accession literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." Since the optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC7768485.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard incubation temperature for bacterial growth and phage plaque assays: "All strains were routinely grown in lysogeny broth (LB) ... overnight at 37 °C unless stated otherwise." Furthermore, for plaque formation, it mentions: "After incubation for 14–16 h at 37 °C the plates were examined for lysis." And for lytic efficacy: "Incubation was performed in a TECAN (Infinite® 200 PRO, Männedorf, Switzerland) plate reader at 37 °C". Since 37 °C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC11576411.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the phage culture preparation: "A “starter lysate” was prepared by adding the phage suspension into an exponentially growing host culture (WT), incubated under 150 rpm agitation at 37°C in M9 media (5.6 mM glucose)." Furthermore, subsequent steps involving the phage and host cultures are incubated at 37°C: "The plates were incubated overnight at 37°C." The general incubation temperature for bacterial growth and phage activity is consistently reported as 37°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: 41990421.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "MM-1 and MM-2 were infectious at a broad temperature (4°C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range (4°C to 60°C) encompasses this range, and the optimal growth temperature is not specified, the most appropriate classification based on the provided range is mesophile, as it covers the typical mesophilic range. The explicit range suggests suitability across a wide range, including mesophilic conditions.
+
+
+=============Reasoning for YP_010069607 from host literature=============
+=============Reasoning for YP_010069607 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is 'manure' and the collection date is 'Aug-2016'. Manure environments are generally associated with mesophilic conditions, but this is not a strong indicator.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak, the system must default to the 'mesophile' classification as per Rule 4.
+4. Conclusion: The default classification is mesophile.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for DAI05813 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAI05813 from accession literature=============
+=============Reasoning for DAI05813 from host literature=============
+=============Reasoning for DAI05813 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'Human metagenome' and the collection date is '2018-09-23'.
+2. **Apply Decision Rules:** There is no explicit mention of optimal growth temperature for the bacteriophage. The isolation source (human metagenome) suggests an environment that typically maintains moderate temperatures (body temperature range, 37°C).
+3. **Determine Classification:** Since no explicit evidence exists, the system must infer from the environmental context. Human-associated samples generally point towards mesophilic conditions (15–45°C).
+4. **Fallback:** As the environmental context (human host) strongly suggests moderate temperatures, 'mesophile' is selected. If the context were completely absent, the fallback would be 'mesophile'.
+
+

@@ -1,0 +1,18 @@
+=============Reasoning for AGH07056 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'Narragansett Bay Rhode Island' and the coordinates are '41.65 N 71.26 W'. These are temperate coastal/marine environments, which typically support mesophilic organisms. No explicit temperature is given.
+
+
+=============Reasoning for AGH07056 from accession literature=============
+=============Reasoning for AGH07056 from host literature=============
+=============Reasoning for AGH07056 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for the phage.
+2. **Check for environmental context:** The isolation source is 'Narragansett Bay Rhode Island' and the coordinates are '41.65 N 71.26 W'. Coastal marine environments like Narragansett Bay typically experience temperate conditions, which generally fall within the mesophilic range (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference from the temperate marine environment suggests mesophily. However, the environmental context (coastal bay) is not definitive enough to override the lack of direct thermal data. Therefore, following the fallback rule (Rule 4) due to weak environmental context, the default classification of 'mesophile' is assigned.
+
+

@@ -1,0 +1,51 @@
+=============Reasoning for WVX98315 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the phage, its host (Klebsiella pneumoniae KP009), collection location (India), and altitude (22 m), but no explicit or strongly implied temperature or thermal condition is provided to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for WVX98315 from accession literature=============
+Paper: PMC12820288.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that bacterial culture was carried out in Luria Bertani (LB) broth or on LB agar at 37 °C, and that the in vitro bacteriolytic activity was assessed by incubating cultures at 37 °C. Furthermore, the OSG experiment involved incubating the final resuspended pellet at 37 °C, and the biofilm formation assays were incubated at 37 °C. These conditions indicate an optimal or standard growth temperature of 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11179266.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal temperature for Klebsiella growth when performing antibiotic susceptibility testing: "The plates were then incubated upside down at 37°C for 16–18 h." Furthermore, when determining the host range, the plates were incubated "at the optimal growth temperature for the bacterial strains at 37°C." In the section on biofilm impact, the incubation was done "at 37°C for 24 h." The stability tests were conducted across a range including 30°C to 100°C, but the optimal/standard growth temperature for the host bacterium is consistently cited as 37°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11769469.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper text contains a section detailing the 'Optimal Multiplicity of Infection and One-Step Growth Curve of Phage Psq-1' and 'Thermostability and pH Sensitivity of Phage Psq-1'. For thermal stability, it states: 'Phage Psq-1 was incubated at 40 °C, 50 °C, and 60 °C for 60 min, and the titer remained consistent. After incubation at 70 °C and 80 °C for 20 min, the phage titer decreased slightly; after 40 min of incubation, all phage activity ceased (Figure 2C).' The optimal growth/stable range mentioned is between 40 °C and 60 °C. According to the definitions, the mesophile range is 15–45°C, but the stable range reported (40–60°C) falls within or slightly above the mesophile range, and the general incubation temperature for most assays (e.g., lysis profile, one-step growth curve) was 37 °C, which is within the mesophile range (15–45°C). Since the stable range is explicitly stated as 40–60°C, and 37°C is the primary working temperature, 'mesophile' is the most appropriate classification based on the provided definitions and explicit data points.
+
+
+=============Reasoning for WVX98315 from host literature=============
+Paper: PMC10906532.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for several assays involving KlebE and the indicator strain Kp002. For instance, in the section 'Kp006_4991 is a bacteriocin that mediates intraspecies competition among K. pneumoniae species', it mentions: 'To assess the bactericidal properties, we incubated approximately 108 CFU of the indicator with progressively increasing concentrations of KlebE for 1 h at 37 °C'. Furthermore, in the section 'Figure 4 Bactericidal properties of KlebE', it states: 'The indicator Kp002 at an OD600 = 0.8 was incubated with different concentrations of purified KlebE ranging from 0 to 64 μg/ml at 37 °C for 1 h.' Another instance is found in the 'Experimental procedures' section under 'Antibacterial activity of KlebE or modified KlebE', which specifies: 'The mixed overlay components were poured onto plates containing solid medium (LB containing 1.5% [w/v] agar) in round or square Petri dishes. To determine the antimicrobial efficacy of KlebE, sterile Whatman discs (6 mm diameter) were placed on soft agar, and 20 μl of purified KlebE (40 μg) was added to the disks. The negative control consisted of a BSA standard solution (2 mg/ml, BBI) with the Kp002 strain as the indicator. For other assays of antibacterial activity using the soft agar overlay method, slight modifications were made where 10 μl of KlebE or modified KlebE at different concentrations was precisely spotted onto plates with the indicator Kp002 or its mutant strains or with BL21 (DE3) cells or its derivatives expressing OmpC from K. pneumoniae. The plates were incubated overnight at 37 °C...'. The general culture conditions are also stated as 'Bacteria were cultured at 37 °C' in the 'Experimental procedures' section.
+
+
+Paper: PMC12343662.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states the incubation conditions for the initial growth of the bacterial isolates: "Glycerinated stocks of each isolate were streaked onto tryptic soy agar plates and grown overnight for 18 h at 37 °C." It also specifies the growth conditions for the final metabolomic analysis: "Cultures were grown to late log phase (6 h; 37 °C with 180 rpm shaking)." Since the phage is associated with the host bacteria (Klebsiella pneumoniae), and the host was grown at 37°C, this temperature is used to infer the thermal conditions relevant to the system. 37°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WVX98315 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KP6), its host (Klebsiella pneumoniae KP009), and collection details (India, 2020). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The environmental context (India, collection date) is too broad to definitively classify the phage as psychrophile or thermophile. 4. Following the decision rules, since no explicit evidence exists, and the environmental context is weak, the system must default to 'mesophile' as the fallback class.
+
+

@@ -1,0 +1,40 @@
+=============Reasoning for YP_010103459 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'soil', which typically implies mesophilic conditions. The lab host is 'Streptomyces griseus ATCC 10137', which is generally associated with mesophilic environments.
+
+
+=============Reasoning for YP_010103459 from accession literature=============
+=============Reasoning for YP_010103459 from host literature=============
+Paper: PMC11294657.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states: "TSS is a thermostable and halotolerant subtilisin-like protease derived from the thermophile Brevibacillus sp. WF146." It also provides optimal activity conditions: "TSS exhibits optimal activity at 70°C and pH 9.0". Furthermore, the table confirms this: "TSS from Brevibacillus sp. WF146 [17] | 70°C; pH 9.0 | 58.0 | S8". Since 70°C is significantly above the mesophile range (15–45°C) and falls into the thermophile definition (> 45°C), the classification is thermophile.
+
+
+Paper: PMC11705968.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for the killing assay and MIC determination: "At each time point of exposure, the sample was dropped onto Luria agar (LA), which was subsequently incubated at 30°C overnight to examine bacterial growth." and "The treatments were subsequently incubated overnight at 30°C before measuring OD600." Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that 'Characterization on cultural characteristic and viable count at different temperatures (37ºC and 28ºC), on different microbiological media (AIA, ISP-2, MHA, NA, PDA and TSA), were performed.' Since the tested temperatures (28ºC and 37ºC) fall within the mesophilic range (15–45°C), and no other information suggests otherwise, the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for YP_010103459 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage Evy'.
+2. Check for environmental context: The isolation source is 'soil', and the collection coordinates are '39.438778 N 85.731 W' (Indiana, USA). Soil environments generally support mesophilic life, although temperature can vary widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) is general, the system must default to the most probable classification. The fallback rule dictates assigning 'mesophile' when useful metadata is absent.
+4. Conclusion: Assigning 'mesophile' based on the fallback rule.
+
+

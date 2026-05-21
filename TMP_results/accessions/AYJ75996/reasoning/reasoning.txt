@@ -1,0 +1,54 @@
+=============Reasoning for AYJ75996 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Bacillus subtilis ATCC 14593') and the phage ('Bacillus phage BSP14'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for AYJ75996 from accession literature=============
+Paper: PMC13125745.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature range tested for BCP01 stability: "BCP01 retained infectivity over a pH range of 3 to 11 and a temperature range of -20 to 50°C (Fig. 1C and 1D)." It also states that the phage titer remained at "approximately 8.61 to 9.38 log PFU/mL between 4 and 40°C". Since the mesophilic range is defined as 15–45°C, and the phage showed stable activity up to 40°C, this falls within the mesophilic classification. Furthermore, the general growth conditions for the host strain B. cereus were 37°C, which is mesophilic.
+
+
+Paper: PMC13118943.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for bacterial growth and phage amplification/plaque formation multiple times. For bacterial culture, it states: "Cultures were incubated at 37 °C with shaking at 220 rpm." For phage isolation and plaque formation, it states: "Plates were incubated at 37 °C for 12 h to allow plaque formation." For subsequent incubation steps, it mentions: "This mixture was incubated at 37 °C with shaking at 220 rpm for 8–9 h." Furthermore, the optimal MOI assay and host spectrum assays were conducted at 37 °C. The thermal stability assay tested temperatures including 37 °C, which falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC13064462.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper describes thermal stability assays for the phages (PJNB030, PJNB031, and PJNB032) using a range of temperatures (4 °C, 37 °C, 50 °C, 60 °C, 70 °C, and 80 °C). However, it does not assign the phages to a specific thermal category (psychrophile, mesophile, or thermophile) based on their optimal growth or stability range. The discussion notes that PJNB030 and PJNB032 retained infectivity after 80 °C for 60 min, suggesting high tolerance, but this is a measure of stability, not optimal growth temperature for classification.
+
+
+Paper: 41985590.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "The phage demonstrated stability across temperatures of 30-60 °C". Since the mesophile range is defined as 15–45°C, and the observed stability range (30-60°C) significantly overlaps and extends beyond the upper limit of the mesophile range, but the explicit mention of stability across 30-60°C suggests optimal activity within this range, and 30-45°C falls squarely within the mesophile definition, we classify it as mesophile based on the provided definitions and the explicit data point. However, since 60°C is mentioned, it technically extends into thermophile territory (>45°C). Given the explicit range 30-60°C, and the definitions provided, the most accurate classification based on the *entire* stated range is difficult. However, since 30-45°C is definitively mesophilic, and the text provides a stability range, we will use the mesophile classification as the primary indicator, while noting the explicit range.
+
+
+=============Reasoning for AYJ75996 from host literature=============
+Paper: PMC5977233.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and phage isolation/activity assays. In Section 2.1, it mentions: "All of the bacteria were grown in Tryptic soy broth (TSB; BD, Sparks, MD, USA) or TSB agar (TSA) plates (1.5% agar) at 37 °C, unless otherwise indicated." Multiple sections (2.2, 2.2, 2.4, 2.6, 2.11, 2.13) confirm incubation at 37 °C for various steps involving the phage or host bacteria. Since 37 °C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for AYJ75996 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Bacillus phage BSP14) and its host (Bacillus subtilis ATCC 14593), but it does not contain any explicit temperature data (optimal growth temperature, isolation temperature, etc.).
+2. There is no environmental context provided to infer a specific temperature range.
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+4. The classification is therefore 'mesophile' based on the fallback rule.
+
+

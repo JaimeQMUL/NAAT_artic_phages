@@ -1,0 +1,19 @@
+=============Reasoning for QVD56744 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for QVD56744 from accession literature=============
+=============Reasoning for QVD56744 from host literature=============
+=============Reasoning for QVD56744 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to sequence information (accession, length, dates) and does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Staphylococcus phage PM28.
+2. No explicit evidence exists (Rule 1 fails).
+3. No environmental context is available for inference (Rule 2 fails).
+4. Therefore, the system must default to the 'mesophile' classification as per the fallback rule (Rule 3/4).
+
+

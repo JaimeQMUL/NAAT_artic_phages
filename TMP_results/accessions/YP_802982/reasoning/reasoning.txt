@@ -1,0 +1,26 @@
+=============Reasoning for YP_802982 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for YP_802982 from accession literature=============
+Paper: PMC8779906.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states regarding phage APTC-EC-2A: "APTC-EC-2A was stable at a broad pH range (3–11) and could lyse the host E. coli at temperatures ranging between 30–50 °C." The defined mesophile range is 15–45°C. The stated range of 30–50°C overlaps significantly with and is centered within the mesophile range, and the stability test confirmed activity between 4°C and 50°C, with optimal activity noted in the 30–50°C range. Therefore, mesophile is the most appropriate classification based on the provided data.
+
+
+=============Reasoning for YP_802982 from host literature=============
+=============Reasoning for YP_802982 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to accession numbers, dates, and general identifiers. There is no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage RB32.
+2. Rule 1 (Explicit evidence) fails.
+3. Rule 2 (Inference from environmental context) fails due to lack of context.
+4. Rule 3 dictates assigning the MOST PROBABLE classification. Since the host organism is Escherichia coli, which is a common mesophile, and no contrary evidence exists, the default assumption is mesophilic. Therefore, 'mesophile' is assigned as the fallback class.
+
+

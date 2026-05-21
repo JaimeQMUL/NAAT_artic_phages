@@ -1,0 +1,16 @@
+=============Reasoning for XQQ51888 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Salmonella phage vB_Sen_BCPSen_003') and the lab host ('Salmonella enterica subsp. enterica serovar Enteritidis 009/3-15/R'), but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for XQQ51888 from accession literature=============
+=============Reasoning for XQQ51888 from host literature=============
+=============Reasoning for XQQ51888 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage vB_Sen_BCPSen_003) and its lab host (Salmonella enterica subsp. enterica serovar Enteritidis 009/3-15/R). 2. No explicit thermal range data (optimal growth temperature, isolation source temperature, etc.) is present in the metadata. 3. The fallback rule dictates assigning 'mesophile' when no useful metadata exists. 4. Salmonella species are generally associated with moderate mammalian body temperatures (around 37°C), which falls within the mesophilic range (15–45°C).
+
+

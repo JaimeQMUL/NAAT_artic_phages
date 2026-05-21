@@ -1,0 +1,46 @@
+=============Reasoning for CAD5241578 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Sewage - Mixed liquor'. Sewage environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for CAD5241578 from accession literature=============
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the in vivo mammary infection model, the initial infection and subsequent treatment were performed at conditions implying physiological temperature, and the phage adsorption assay was conducted at "37 °C". The stability test explicitly tested "37 °C" among others. Since the optimal and tested physiological temperature is 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC8006926.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states under 'Materials and Methods' section for 'Phage isolation' that 'This enrichment culture was then incubated overnight at 37°C'. Additionally, under 'Plaque formation and morphology', it states: 'Plates were incubated overnight at 37°C to allow plaques to form.' Finally, under 'Phage lysis period and virulence in host strains', it mentions: 'The lysis period and virulence indices (VP and MV50) of each phage, in their relevant isolation host strain in LB at 37°C, are displayed in Figure 6.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for CAD5241578 from host literature=============
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the in vivo mammary infection model, the initial infection and subsequent treatment were performed at conditions implying physiological temperature, and the phage adsorption assay was conducted at "37 °C". The stability test explicitly tested "37 °C" among others. Since the optimal and tested physiological temperature is 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC8006926.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states under 'Materials and Methods' section for 'Phage isolation' that 'This enrichment culture was then incubated overnight at 37°C'. Additionally, under 'Plaque formation and morphology', it states: 'Plates were incubated overnight at 37°C to allow plaques to form.' Finally, under 'Phage lysis period and virulence in host strains', it mentions: 'The lysis period and virulence indices (VP and MV50) of each phage, in their relevant isolation host strain in LB at 37°C, are displayed in Figure 6.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for CAD5241578 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is 'Sewage - Mixed liquor'. Sewage environments typically fluctuate but are generally associated with moderate temperatures, making mesophilic conditions the most probable default.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (sewage) points towards moderate conditions, the most probable classification is mesophile. This assignment relies on the fallback rule (Rule 4) due to the lack of specific thermal data.
+
+

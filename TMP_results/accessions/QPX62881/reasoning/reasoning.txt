@@ -1,0 +1,34 @@
+=============Reasoning for QPX62881 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Campylobacter jejuni NCTC12662') and isolation source ('duck abattoir'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for QPX62881 from accession literature=============
+Paper: PMC8713573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard growth conditions for C. jejuni strains used in the study: "C. jejuni strains were standardly grown on base II agar plates containing 5% calf blood at 41.6°C under microaerobic conditions..." and "Bacterial cultures were then incubated for 4 h at 41.6°C under microaerobic conditions..." and "Plates were then incubated for 18–24 h at 41.6°C under microaerobic conditions." Since the phage work is conducted using C. jejuni strains, the relevant temperature is 41.6°C. According to the definitions, 15–45°C corresponds to mesophile.
+
+
+=============Reasoning for QPX62881 from host literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for bacterial growth and phage assays. For bacterial growth (e.g., C. jejuni on MH agar), the incubation temperature is stated as '42 °C'. For phage propagation and assays, the incubation temperatures are repeatedly mentioned as '37 °C' or '42 °C'. Since the optimal growth temperature for the host bacteria, which dictates the phage's environment, is consistently reported around 37–42°C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for QPX62881 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage F207'), its host ('Campylobacter jejuni NCTC12662'), and the isolation source ('duck abattoir').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common human/animal pathogen often associated with moderate environmental temperatures, and the isolation source ('duck abattoir') does not suggest extreme temperatures. Phages associated with mesophilic bacteria are typically mesophilic themselves.
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The most probable classification, given the context of common bacterial pathogens and lack of extreme indicators, is mesophile.
+5. **Fallback:** As no strong evidence exists, the default classification rule (Rule 4) suggests 'mesophile'.
+
+

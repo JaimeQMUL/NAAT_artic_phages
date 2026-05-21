@@ -1,0 +1,16 @@
+=============Reasoning for QIN95546 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'surface water' and the host is 'enterotoxigenic Escherichia Coli'. Surface water and E. coli are typically associated with mesophilic environments, leading to an inference of mesophile.
+
+
+=============Reasoning for QIN95546 from accession literature=============
+=============Reasoning for QIN95546 from host literature=============
+=============Reasoning for QIN95546 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Escherichia phage MN01. 2. **Check for environmental context:** The phage was isolated from 'surface water' in Bangladesh (23.81 N 90.41 E) and collected in June. Surface water temperatures in this tropical/subtropical region during June are most likely to fall within the moderate range (15–45°C). 3. **Apply decision rules:** Since no explicit evidence exists, inference is used. The environmental context (surface water in a tropical location) strongly suggests mesophilic conditions. 4. **Fallback:** If the environmental context were weak, the default would be 'mesophile'. Given the context, 'mesophile' is the most probable classification. Therefore, 'mesophile' is assigned.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for AFB17871 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('chemostat') and the lab host ('Synechococcus sp. WH7803'), but no explicit temperature or environmental condition is stated to determine the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for AFB17871 from accession literature=============
+=============Reasoning for AFB17871 from host literature=============
+=============Reasoning for AFB17871 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal or tested growth temperature for the phage.
+2. Check for environmental context: The isolation source is listed as 'chemostat'. Chemostats are typically operated under controlled, moderate conditions, often mimicking natural, non-extreme environments.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('chemostat') suggests controlled, moderate conditions, the most probable classification is mesophile (15–45°C).
+4. Fallback: As no strong evidence is present, the default classification rule (Rule 4) suggests assigning 'mesophile'.
+
+

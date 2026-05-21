@@ -1,0 +1,20 @@
+=============Reasoning for YP_009190197 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Edwardsiella ictaluri'), and accession details, but no explicit or strongly implied temperature or environmental condition is mentioned.
+
+
+=============Reasoning for YP_009190197 from accession literature=============
+=============Reasoning for YP_009190197 from host literature=============
+=============Reasoning for YP_009190197 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Edwardsiella phage PEi20') and its host ('Edwardsiella ictaluri').
+2. There is no explicit mention of optimal growth temperature or thermal range.
+3. The host, *Edwardsiella ictaluri*, is a bacterium commonly associated with moderate environmental conditions (e.g., aquatic or intestinal environments, typically mesophilic). Phages are generally expected to follow the thermal profile of their host or the environment they are isolated from.
+4. Since no explicit evidence exists, and the host is not associated with extreme temperatures, the most probable classification defaults to mesophile (15–45°C) based on general microbiological knowledge and the fallback rule.
+5. Therefore, 'mesophile' is assigned.
+
+

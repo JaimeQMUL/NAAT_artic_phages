@@ -1,0 +1,40 @@
+=============Reasoning for XMR90074 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli ATCC 25922' and the isolation source is 'sewage'. 'Escherichia coli' is generally associated with mesophilic environments, and 'sewage' is a common source for mesophilic bacteria. No explicit temperature is given.
+
+
+=============Reasoning for XMR90074 from accession literature=============
+Paper: PMC12656726.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the bacteriophage 'EPIMAM01' was compared in a thermal stability test. Figure 6 caption states: "Among the tested bacteriophages, only SA01 (orange) retained infectivity throughout the assay, demonstrating remarkable thermostability. In contrast, AUBFM01 (blue), Miniara127 (green), and EPIMAM01 (yellow) showed rapid loss of activity, with complete inactivation within 2–3 h." Furthermore, the text mentions: "Figure 6 Comparative thermal stability and inactivation kinetics of Salmonella phage SA01. (a) Thermal stability of four bacteriophages at 65 °C. ... EPIMAM01 (yellow) showed rapid loss of activity, with complete inactivation within 2–3 h."
+
+
+Paper: 41610923.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the phages 'show substantial thermal (4-45 °C) and acidic tolerance (pH 3-7)'. The range 4-45°C falls within the mesophile definition (15–45°C) or encompasses it, but since the range is explicitly given and includes temperatures up to 45°C, and the definition for mesophile is 15–45°C, we classify it as mesophile based on the provided range.
+
+
+=============Reasoning for XMR90074 from host literature=============
+Paper: PMC13176240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that the antibacterial activity of Ali24-His was tested under 'moderate heating (up to 50 °C), which are environments typical of fruit processing workflows, pre-pasteurization steps.' Furthermore, the DLS analysis showed that the protein 'remains well-folded and resistant to aggregation under these conditions [up to 50 °C]'. The nanoDSF analysis showed that the highest thermal stability (Tm) was observed at pH 4.0, with a Tm of 60.4 °C, but the discussion notes that the activity and stability profiles support its potential for use in 'acidic food processing environments' and 'storage that occurs below structural and activity destabilization threshold temperatures (above 50 °C)'. Since the optimal activity/stability window is described around 50 °C, and the general range of interest is acidic food processing, which is often associated with mesophilic conditions (15–45°C), and the protein retains activity up to 50°C, 'mesophile' is the most appropriate classification based on the provided context of food processing relevance, although the stability extends beyond the typical mesophilic upper limit.
+
+
+=============Reasoning for XMR90074 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Escherichia phage EPIMAM01.
+2. **Check for environmental context:** The isolation source is 'sewage' from 'Lebanon: Beirut'. Sewage environments are generally considered mesophilic, fluctuating around ambient temperatures, which typically fall within the 15–45°C range.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The 'sewage' source strongly suggests a mesophilic environment. However, the inference is not definitive enough to be classified as 'high' confidence, and the rules mandate a classification. Therefore, the most probable classification based on the general nature of the source material (sewage) is mesophile.
+4. **Fallback:** As the inference is based on general knowledge of the source rather than direct data, and to adhere strictly to the rules, 'mesophile' is selected as the most probable classification, resulting in a 'forced' inference type.
+
+

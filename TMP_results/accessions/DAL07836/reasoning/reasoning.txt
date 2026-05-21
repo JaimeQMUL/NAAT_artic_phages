@@ -1,0 +1,19 @@
+=============Reasoning for DAL07836 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAL07836 from accession literature=============
+=============Reasoning for DAL07836 from host literature=============
+=============Reasoning for DAL07836 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the isolation source ('Human metagenome') and collection date ('2010-04-15') but gives no explicit temperature data for the phage or its source environment.
+2. There is no explicit evidence for psychrophile (<15°C) or thermophile (>45°C) conditions.
+3. Therefore, based on the decision rules, the system must default to 'mesophile' as the fallback classification.
+4. The confidence is low because the classification is based on a default rule rather than direct evidence.
+
+

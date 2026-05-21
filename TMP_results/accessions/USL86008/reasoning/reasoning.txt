@@ -1,0 +1,33 @@
+=============Reasoning for USL86008 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('River Wiwi') and host ('Enterobacter cloacae'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for USL86008 from accession literature=============
+Paper: PMC11226500.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states under 'Materials and methods' section, 'Bacteria were cultivated in lysogeny broth (LB; 1% [w/v] tryptone, 0.5% [w/v] yeast extract, and 1% [w/v] NaCl). LB agar plates were supplemented with 1.0% (w/v) or 1.5% (w/v) agar (Bacto Agar, Neogen). Bacteria were cultivated overnight at 37°C unless stated otherwise.' Furthermore, the host range screening and antibiotic susceptibility analysis were performed with 'continuous shaking at 37°C for 5 h for host range screening and for 15 h for antibiotic sensitivity experiments.' Since the phages were tested against bacteria grown at 37°C, this temperature is the relevant condition for the phage activity tested, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for USL86008 from host literature=============
+Paper: PMC13178893.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for initial enrichment and subsequent experiments. For initial enrichment, the sample was incubated at "35℃" ("For each sediment sample, a fresh sample of 10g was incubated in a flask (500 ml in size) with 200 ml EM at 150 rpm and 35℃."). For subsequent experiments, the temperature was set at "35°C" multiple times ("To explicitly estimate the nitrogen removal performance of Strain GW6, the strain was cultivated at 35°C...", "All these experiments above were conducted at 35 ℃ and 150 rpm.", "In the experiment for temperature, cultivation temperature was set at 15°C, 20°C, 25°C, 30°C and 35°C, respectively..."). Since 35°C falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for USL86008 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Enterobacter phage fGh-Ecl04.
+2. Check for environmental context: The isolation source is 'River Wiwi' from 'Ghana'. While rivers can vary, this context does not strongly dictate a specific thermal classification (psychrophile, mesophile, or thermophile).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is too weak to strongly infer a classification, the system must default to the fallback class as per Rule 4.
+4. Fallback: The default classification is 'mesophile'.
+
+

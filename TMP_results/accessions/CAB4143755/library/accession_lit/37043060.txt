@@ -1,0 +1,16 @@
+CRISPR detection in metagenome-assembled genomes (MAGs) of coal mine.
+
+Bacterial and archaeal CRISPR-Cas systems provide adaptive immune protection against foreign mobile
+genetic elements. When viruses infect bacteria, a small portion of the viral DNA is inserted into
+the bacterial DNA in a specific pattern to produce segments known as CRISPR arrays. Metagenome
+assembled genomes (MAGs) were used in our study to identify the CRISPR sequence for determining the
+interacted phage. Metagenomic data from a coal mine was used to perform a computational study. From
+raw reads, 206151 contigs were assembled. Then contigs were clustered into 150 Metagenome assembled
+genomes from which 78 non-redundant MAGs were selected. Using the CHECKM standard, seven MAGs were
+found to have >80 completeness and <20 contaminations. Those MAGs were analyzed for the presence of
+CRISPR elements. Out of seven MAGs, four MAGs have the CRISPR elements and are searched against the
+VIROblast database. CRISPR arrays have 4, 1, 3, and 7 spacer sequences in the MAGs of Burkholderia,
+Acinetobacter, Oxalobacteraceae, and Burkholderia multivorans respectively. The uncultured
+Caudovirales phage genomic regions were present in the genomes of Burkholderia, Oxalobacteriaceae,
+and Burkholderia multivorans. This study follows the unconventional metagenomics workflow to provide
+a better understanding of bacteria and phage interactions.

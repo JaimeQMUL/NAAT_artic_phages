@@ -1,0 +1,39 @@
+=============Reasoning for CAG7581408 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'water from Plymouth Sound' and the metagenome source is 'aquatic viral metagenome'. However, no specific temperature or thermal condition (psychrophile, mesophile, or thermophile) is explicitly stated or strongly implied by the provided text.
+
+
+=============Reasoning for CAG7581408 from accession literature=============
+=============Reasoning for CAG7581408 from host literature=============
+Paper: PMC12075776.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth temperature range for US3C007: "US3C007 grew consistently between 16–25°C, but not at temperatures of 12°C or below, or at 28.5°C or above (Figs. 4A, S8)." It also states the range for FZCC0083: "FZCC0083 grew considerably faster than US3C007 in all conditions tested (Figs. 4A-B, S8; Table S1). The maximum observed growth rate was 3.41 +/− 0.44 divisions day−1 at 24°C and 30.1 ppt (Fig. 4B)- more than twice the division rate of US3C007. FZCC0083 had a wider temperature growth envelope than US3C007, growing between 12–30°C with no growth at 4°C or 37°C."
+
+For US3C007, the range [16–25°C] falls within the mesophile definition (15–45°C). For FZCC0083, the range [12–30°C] overlaps with mesophile conditions, but the overall description of the two strains' optimal growth suggests a mesophilic classification, as the stated ranges are well within the mesophilic window and do not reach psychrophile (<15°C) or thermophile (>45°C) extremes.
+
+
+Paper: PMC11837520.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for culturing E. coli Nissle 1917: "E. coli was cultivated at 37°C in LB medium..." and later mentions "...the cells were recovered at 30°C for 1 h." and "...the cultivation temperature was elevated to 37°C to promote the curing of the temperature-sensitive-based plasmid." Since 37°C falls within the mesophile range (15–45°C), the phage/host system is characterized as mesophilic.
+
+
+=============Reasoning for CAG7581408 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The target is an 'uncultured marine phage' isolated from 'water from Plymouth Sound'.
+2. **Determine Environment:** Marine environments, especially coastal sounds like Plymouth Sound, typically exhibit temperatures that fluctuate but are generally within the moderate range (15–25°C) unless specific seasonal or deep-sea conditions are noted.
+3. **Apply Rules:**
+    *   No explicit thermal range is provided.
+    *   The environment ('marine water') suggests a non-extreme temperature range.
+    *   The definition for mesophile is 15–45°C, which best fits the general expectation for surface/coastal marine water.
+    *   Since the environmental context points toward moderate conditions, and no other rule applies, 'mesophile' is selected.
+4. **Conclusion:** Defaulting to mesophile based on the general context of coastal marine water.
+
+

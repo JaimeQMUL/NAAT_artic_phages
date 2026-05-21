@@ -1,0 +1,16 @@
+=============Reasoning for DAW91235 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata mentions the isolation source as 'Human metagenome' and 'Human metagenome', but it does not provide any explicit temperature or environmental condition (like hot springs or deep sea) that would allow classification as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for DAW91235 from accession literature=============
+=============Reasoning for DAW91235 from host literature=============
+=============Reasoning for DAW91235 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range of the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2013-05-27'. Human-associated environments typically suggest mesophilic conditions (body temperature range). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context points towards human-associated microbes, which are generally mesophiles. 4. Fallback: If inference is weak or absent, default to 'mesophile'. Given the human metagenome source, 'mesophile' is the most probable assignment. Therefore, 'mesophile' is selected as the most probable classification.
+
+

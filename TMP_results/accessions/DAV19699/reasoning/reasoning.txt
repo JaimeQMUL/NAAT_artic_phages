@@ -1,0 +1,16 @@
+=============Reasoning for DAV19699 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the organism, source (Human Metagenome), and collection date, but no explicit or strongly implied temperature or thermal environment is mentioned.
+
+
+=============Reasoning for DAV19699 from accession literature=============
+=============Reasoning for DAV19699 from host literature=============
+=============Reasoning for DAV19699 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Herelleviridae sp. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2016-10-15. Human-associated samples generally imply mesophilic conditions (body temperature range, 37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The human source suggests mesophily. 4. Final assignment: Because the environmental context (human source) points towards moderate temperatures, 'mesophile' is selected. If the context were completely absent, the fallback rule mandates 'mesophile'.
+
+

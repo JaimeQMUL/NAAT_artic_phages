@@ -1,0 +1,19 @@
+=============Reasoning for XQQ51607 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Shigella phage vB_Shso_BCPShso_001') and the lab host ('Shigella sonnei 005/2-13/R'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for XQQ51607 from accession literature=============
+=============Reasoning for XQQ51607 from host literature=============
+=============Reasoning for XQQ51607 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for the phage.
+2. Check for environmental context: The metadata indicates the lab host is 'Shigella sonnei 005/2-13/R'. Shigella species are typically associated with mammalian hosts (gut flora), which maintain a core body temperature around 37°C. This suggests a mesophilic lifestyle.
+3. Apply decision rules: Since no explicit evidence exists, inference is drawn from the known biology of the host organism (Shigella), pointing towards mesophilic conditions (15–45°C).
+4. Final classification: Based on the host association, 'mesophile' is the most probable classification. This classification is assigned by default due to the lack of direct thermal data.
+
+

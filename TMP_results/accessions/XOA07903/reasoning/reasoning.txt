@@ -1,0 +1,33 @@
+=============Reasoning for XOA07903 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'water' and the country as 'USA: Columbus, OH', but it does not specify a temperature or any thermal condition (e.g., hot springs, deep sea) that would allow classification as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for XOA07903 from accession literature=============
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and host bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the adsorption assay, incubation was done at "37 °C". For the in vivo mammary infection model, the initial infection and subsequent treatment were performed at conditions implying physiological temperature, and the phage adsorption assay was done at "37 °C". The stability test explicitly tested "37 °C" among others. Since the optimal and tested physiological temperature is 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for XOA07903 from host literature=============
+Paper: PMC12757027.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions several temperatures used in the experiments. For the KEIO validation experiment, the conjugation was performed 'at 30°C' and the subsequent incubation was 'overnight at 30°C'. For the liquid culture growth of the library, the cells were grown 'at 30°C for 12 hours with shaking'. For the conjugation experiments in P. putida and K. michiganensis, the recipient and donor cells were grown at '30°C' and the conjugations were done for 20 hours at '30°C'. Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for XOA07903 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of the phage.
+2. **Check for environmental context:** The isolation source is listed as 'water'. While water bodies can vary widely, this context alone is insufficient to definitively classify the phage as psychrophile, mesophile, or thermophile.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context ('water') is too broad, the system must default to the fallback classification rule (Rule 4).
+4. **Fallback:** The default classification is 'mesophile'.
+
+

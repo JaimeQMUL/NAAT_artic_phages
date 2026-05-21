@@ -1,0 +1,19 @@
+=============Reasoning for YP_009140927 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for YP_009140927 from accession literature=============
+=============Reasoning for YP_009140927 from host literature=============
+=============Reasoning for YP_009140927 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Synechococcus phage ACG-2014i') and an isolate source ('Syn7803US120').
+2. Synechococcus is a genus of cyanobacteria, which are typically associated with aquatic environments. The isolate source 'US120' suggests a natural environmental sample, but no specific temperature range is provided.
+3. There is no explicit evidence for psychrophile (<15°C) or thermophile (>45°C) conditions.
+4. Following the decision rules, since environmental context is weak or absent, the system must assign the MOST PROBABLE classification. The default fallback class is 'mesophile'.
+
+

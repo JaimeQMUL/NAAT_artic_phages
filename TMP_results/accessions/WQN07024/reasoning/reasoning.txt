@@ -1,0 +1,19 @@
+=============Reasoning for WQN07024 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'waste water treatment plant Nove Zamky'. Waste water treatment plants typically represent environments associated with moderate temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for WQN07024 from accession literature=============
+=============Reasoning for WQN07024 from host literature=============
+=============Reasoning for WQN07024 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'waste water treatment plant Nove Zamky'. While wastewater can vary in temperature, there is no specific temperature range provided for this source.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is too general to assign a specific thermal classification (psychrophile or thermophile), the system must default to the fallback class as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

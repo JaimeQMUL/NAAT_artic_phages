@@ -1,0 +1,373 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Infect Drug Resist
+Journal ID: Infect Drug Resist
+Journal ID: idr
+
+Infection and Drug Resistance
+
+EISSN: 1178-6973
+Publisher: Dove Press
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13179763
+DOI: 10.2147/IDR.S604656
+Article ID: 604656
+Article version: 1
+Subjects: Original Research
+
+Clinical Risk Factors and Outcomes of Carbapenem-Resistant Pseudomonas aeruginosa Nosocomial Infections in a Tertiary Hospital in China: A Retrospective Study from 2016 to 2023
+
+Li et al
+
+Li et al
+
+Li Xiaoxiao 1 *
+http://orcid.org/0000-0002-8649-5475 Zhang Tao 1 *
+Liu Tong 2
+Xiang Fenfen 1
+http://orcid.org/0009-0001-1936-4141 Sun Guotai 1
+Tian Jing 1
+Zhang Mengzhe 1
+Zhong Zhengrong 1
+1 Laboratory Medicine Department, Putuo Hospital, Shanghai University of Traditional Chinese Medicine , Shanghai , 200062 , People’s Republic of China
+2 Department of Molecular Science, Uppsala Biocenter, Swedish University of Agricultural Science , Uppsala , 75007 , Sweden
+Correspondence: Xiaoxiao Li, Department of Laboratory Medicine, Putuo Hospital, Shanghai University of Traditional Chinese Medicine, 164 Lanxi Road, Shanghai, 200062, People’s Republic of China, Email xiaoxiaoli2026@163.comZhengrong Zhong, Department of Laboratory Medicine, Putuo Hospital, Shanghai University of Traditional Chinese Medicine, 164 Lanxi Road, Shanghai, 200062, People’s Republic of China, Tel +21-51322043, Email zrzhong@126.com* These authors contributed equally to this work
+
+Electronic publication date: 2026 May 12
+Publication date: 2026
+Volume: 19
+Electronic Location ID: 604656
+Received 2026 Mar 2; Accepted 2026 May 6
+Copyright: © 2026 Li et al.
+Copyright year: 2026
+Copyright holder: Li et al.
+License: This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at https://www.dovepress.com/terms.php and incorporate the Creative Commons Attribution – Non Commercial (unported, v4.0) License (http://creativecommons.org/licenses/by-nc/4.0/). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (https://www.dovepress.com/terms.php).
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Keywords: carbapenem-resistant Pseudomonas aeruginosa, risk factors, nosocomial infection, antimicrobial resistance
+
+Funding: Special Public Health Project of Putuo District Health System This work was funded by Special Public Health Project of Putuo District Health System (No. ptgw202506), Science and Technology Innovation Project of Putuo District Health System (No. ptkwws202305), Hospital Project of Putuo Hospital, Shanghai University of Traditional Chinese Medicine (No. 2024005C), and Projects Supported by Shanghai Putuo District Central Hospital (No. 2024-YJRC-09, 2024xkjs03).
+
+Figure count: 1
+Table count: 13
+Reference count: 42
+Page count: 12
+
+==============================
+Purpose
+
+The global spread of carbapenem-resistant Pseudomonas aeruginosa (CRPA) represents a growing concern for public health, but long-term data from general tertiary hospitals in China are limited. This study aimed to identify risk factors for nosocomial CRPA infection and to evaluate their impact on in-hospital mortality.
+
+Methods
+
+A retrospective case-control study of patients with Pseudomonas aeruginosa (P. aeruginosa) infections was conducted at Putuo Hospital from January 2016 to December 2023. A total of 208 CRPA clinical isolates were collected in the 8-year study. The control group was randomly selected at a ratio of 1:1 from patients with carbapenem-susceptible P. aeruginosa (CSPA) infection from the same period (within 2 weeks) and department (416 patients). The clinical characteristics of the inpatients were reviewed using the hospital information system. Univariate and multivariate analyses were performed to evaluate the risk factors associated with the development of CRPA infections.
+
+Results
+
+The significant risk factors for CRPA infection were hypoproteinemia (OR=4.285, p < 0.001), admission to the intensive care unit (OR=2.143, p = 0.034), respiratory disease (OR=3.412, p < 0.001), nasogastric tube (OR =2.461, p = 0.007), hemoglobin <90 g/L (OR =2.453, p = 0.004), previous antibiotic exposure to carbapenems (OR =5.580, p < 0.001), and co-infection with Klebsiella pneumoniae (OR=4.318, p < 0.001) and fungi (OR=4.781, p = 0.004). Within CRPA group, the in-hospital mortality rate was 30.3%, and cerebrovascular disease (OR=1.818, p = 0.003), carbapenem exposure (OR=2.625, p = 0.006), and mechanical ventilation (OR=2.157, p = 0.02) were independent risk factors for in-hospital mortality in patients with CRPA infections.
+
+Conclusion
+
+Our findings help identify patients at high risk for CRPA infection and underscore the importance of antimicrobial stewardship and infection control measures in hospital settings.
+
+Introduction
+
+Pseudomonas aeruginosa (P. aeruginosa) is a major cause of hospital-acquired infections worldwide, significantly contributing to patient morbidity and mortality.1,2 In China, it ranked as the fifth most common clinically isolated microorganism in the 2023 data from the China Antimicrobial Surveillance Network (CHINET). Managing P. aeruginosa infections is increasingly difficult due to the bacterium’s formidable array of intrinsic and acquired resistance mechanisms.3 The emergence and global spread of multidrug-resistant (MDR) and carbapenem-resistant P. aeruginosa (CRPA) strains have escalated into a critical public health crisis, severely limiting therapeutic options.4
+
+Carbapenems are often reserved as last-line agents for severe infections caused by Gram-negative bacteria. However, the widespread use of carbapenems has driven the emergence of CRPA. A recent meta-analysis confirmed that prior carbapenem use significantly increases the risk of CRPA infection (OR = 1.866, 95% CI: 1.164–2.993), with global carbapenem resistance rates ranging from 21.07% to 37.90%.5 In 2017, the World Health Organization designated CRPA as a priority pathogen that urgently requires new therapeutic strategies, highlighting the severity of the threat.6
+
+The molecular mechanisms of carbapenem resistance in P. aeruginosa are multifaceted, including non-enzymatic and enzymatic mechanisms. Non-enzymatic mechanisms include chromosomal mutations leading to porin deficiency (notably OprD downregulation) and upregulation of efflux pumps (eg, MexAB-OprM), which may confer moderate-level resistance. However, the most clinically concerning mechanism is the acquisition of transferable carbapenemase genes (eg, blaKPC, blaVIM, blaIMP, and blaNDM), which hydrolyze carbapenems and often mediate high-level resistance.7 Globally, the spread of CRPA is driven by a few high-risk epidemic clones (eg, ST235, ST111, ST175) that combine these resistance genes with enhanced virulence.8 In China, blaKPC-2 remains the most prevalent carbapenemase in CRPA, followed by blaIMP and blaVIM variants.9 Notably, a recent study from Nanning, China, reported NDM-1 as the dominant carbapenemase (34.57%), indicating regional variability in resistance genotypes.10 In contrast, low-incidence settings such as Norway demonstrate that the import of global high-risk clones, rather than widespread domestic transmission, drives the epidemiology of carbapenemase-producing P. aeruginosa.11 These geographical differences underscore the importance of region-specific surveillance and tailored infection control strategies.
+
+While previous studies have reported risk factors and outcomes of CRPA infections in specific high-risk populations, such as elderly inpatients,12 critically ill children,13 patients with hematologic malignancies patients,14 kidney or lung transplant recipients15,16 and bloodstream infections,17 comprehensive data from general tertiary care hospitals encompassing a broad inpatient populations over an extended period remain relatively scarce. A detailed understanding of the local epidemiology, specific risk factors predisposing patients to CRPA acquisition, and the subsequent impact on mortality is fundamental for developing effective tailored infection control strategies and guiding empirical antibiotic therapy.
+
+While previous studies have identified risk factors in specific high-risk populations, comprehensive data from general tertiary care hospitals encompassing a broad hospitalized population over an extended period remain scarce, particularly in China. To address this gap, this study aimed to determine the prevalence, antimicrobial resistance patterns, risk factors, and clinical outcomes of nosocomial CRPA infections in our hospital over the past eight years. The findings are expected to inform local infection-control strategies and empirical antibiotic prescribing practices.
+
+Materials and Methods
+
+Patient Population and Study Design
+
+This retrospective case-control study was conducted at Putuo Hospital, a tertiary-care teaching hospital with approximately 1300 beds in Shanghai, China. From January 2016 to December 2023, 208 clinical CRPA isolates were collected, and only the first isolate from each patient was included. Patients with acquired CRPA infection were matched 1:1 to controls with acquired CSPA infection from the same department as the source population during the same period (group matching) using specific inclusion criteria (Figure 1). The inclusion of criteria of patients: (1) isolates were from cultured from the clinical specimens; (2) nosocomial infection was defined as an infection in which the isolate was collected 48 hours or more after hospital admission (the infection was not present or incubating at the time of admission);18 (3) signs or symptoms of infection in relevant organs or tissues; (4) elevated white blood cell count, increased neutrophil percentage, elevated C-reactive protein and/or procalcitonin levels, and abnormal imaging findings. Exclusion criteria: (1) the patient was colonized/contaminated by CRPA or CSPA without clinical evidence of organ or tissue infection; (2) without complete clinical data. CRPA was defined as a minimum inhibitory concentration (MIC) of ≥8μg/mL for imipenem or meropenem. Conversely, CSPA was defined as susceptibility to imipenem or meropenem with the MIC ≤2μg/mL according to the breakpoints of the 2021 Clinical and Laboratory Standards Institute (CLSI) guidelines. The study was approved by the Ethics Committee of Putuo Hospital (PTEC-R-2025-86-1).Figure 1 Flow chart of the study.
+
+Pseudomonas study 2016-2023: criteria overview, 416 cases.The flowchart illustrates the study of Pseudomonas aeruginosa isolates from January 2016 to December 2023, starting with 1469 isolates. Inclusion criteria for CRPA (Carbapenem-resistant Pseudomonas aeruginosa) included imipenem or meropenem resistance, infections per CDC and NHSN criteria and nosocomial infections (isolation 48 hours post-admission), resulting in 223 CRPA cases. Exclusions were due to incomplete data (13 cases) and lack of paired CSPA (Carbapenem-susceptible Pseudomonas aeruginosa) isolates (2 cases), leaving 208 CRPA cases. These were matched with 208 CSPA cases based on department, isolation time (within 2 weeks) and random selection if multiple matches existed. The study concluded with 416 included cases.Abbreviations: CRPA, carbapenem-resistant Pseudomonas aeruginosa; CSPA, carbapenem-susceptible Pseudomonas aeruginosa; CDC, Centers for Disease Control and Prevention; NHSN, National Healthcare Safety Network.
+
+Microbiological Methods
+
+Bacterial identification and antimicrobial susceptibility testing were performed using an automated Vitek-2 system (bioMerieux, France) with an AST-GN card, following the manufacturer’s instructions. Suspensions of P. aeruginosa from pure cultures were inoculated into 3 mL of a 0.45% NaCl solution and adjusted to a 0.5 McFarland standard using Densicheck device (bioMerieux, France). All identifications were subsequently confirmed using MALDI-TOF MS (Microflex, Bruker, Germany). Antimicrobial susceptibility testing results were interpreted according to the CLSI M100 guidelines.19 All isolates were tested for their susceptibility to the following antibiotics: amikacin, gentamicin, tobramycin, imipenem, meropenem, ceftazidime, cefepime, cefoperazone/sulbactam, ciprofloxacin, levofloxacin, aztreonam, piperacillin, piperacillin/tazobactam and polymyxin. Microbroth dilution method was used to determine the minimum inhibitory concentration (MIC) of polymyxin B and routine antibiotics. Escherichia coli ATCC 25922 and Pseudomonas aeruginosa ATCC 27853 were used as quality control strains for antimicrobial susceptibility testing.
+
+Data Collection
+
+The demographic and clinical data from medical records were collected, including gender, age, comorbidities (cerebrovascular disease, hypertension, diabetes mellitus, respiratory disease, coronary artery disease, renal dysfunction, cardiac dysfunction, malignancy, hypoproteinemia), hospitalization characteristics (geriatrics department and intensive care unit), invasive procedure (mechanical ventilation, central venous catheter, indwelling urinary catheter, and nasogastric tube), co-carriage with other microorganisms (Klebsiella pneumoniae, Acinetobacter baumannii, Staphylococcus aureus, Escherichia coli, Enterococcus faecalis, and Fungi), antibiotics (carbapenem, quinolones, third or fourth generation cephalosporin, penicillin and β-Lactam inhibitor, macrolides, antifungal agents, aminoglycosides, tigecycline), and clinical outcome (in-hospital mortality and duration of hospital stay). Furthermore, we also recorded laboratory examination findings, including hematologic parameters (neutrophilic granulocyte, white blood cell count, hemoglobin, and platelet), and biochemical markers (C-reactive protein, procalcitonin, albumin, alanine transaminase, creatinine, and urea) at nearest to infection onset.
+
+Patients exhibiting positive cultures from blood or any other sterile were classified as having an infection. For those with positive cultures derived from respiratory sources, urine, or surgical wounds, an infection was diagnosed according to the criteria established by Centers for Disease Control and Prevention (CDC) and the National Healthcare Safety Network (NHSN).20
+
+The clinical outcomes were defined as in-hospital mortality (death occurring during the hospitalization period following the first positive culture) and the overall length of hospital stay (the time from hospital admission to discharge).
+
+Statistical Analysis
+
+Continuous variables are presented as mean ± standard deviation or median and interquartile range (IQR), and categorical variables are presented as numbers and percentages. Continuous variables were compared using the t-test or the Mann–Whitney U-test, while categorical variables were analyzed with the Chi-square test (χ2) or Fisher’s exact test. Continuous variables were dichotomized using clinically predefined cutoffs (eg, hemoglobin <90 g/L for moderate-to-severe anemia, age >65 years for elderly, albumin <35 g/L for hypoalbuminemia) to facilitate clinical interpretability. Univariate analyses were performed for each variable. To minimize overfitting, the number of variables included in the multivariate model was limited to those with p < 0.05 in univariate analysis to evaluate the risk factors for CRPA infection and in-hospital mortality. Multicollinearity was assessed using the variance inflation factor (VIF), and all variables retained in the final model had VIF values below 2.5, indicating no significant multicollinearity. Results were expressed as odds ratios (OR), 95% confidence intervals (CI), and p-values. All statistical analyses were performed using SPSS 22.0, and p-values < 0.05 were considered significant.
+
+Results
+
+Clinical Characteristics of Patients with P. aeruginosa Infections
+
+A total of 416 patients with P. aeruginosa infections (208 CRPA and 208 CSPA) were included. The overall median age was 74 years (IQR, 64–85), and 280 patients (67%) were male. Most patients were admitted to the geriatrics department (23.07%, n=96) and the intensive care unit (ICU) (16.10%, n=67). The most common comorbidity was hypertension (54.81%), followed by respiratory disease (51.20%), cerebrovascular disease (35.17%), diabetes mellitus (32.45%), and coronary artery disease (26.20%). In terms of biological markers, patients in the CRPA group had significantly lower median hemoglobin levels (95.5 vs. 105 g/L in CSPA, p=0.001), C-reactive protein (CRP) (31.7 vs. 57.2 mg/L, p=0.03), and albumin (31 vs. 32 g/L, p=0.026). Compared with CSPA infection, CRPA infection was associated with a significantly higher rate of invasive procedures within 90 days, as evidenced by increased the use of mechanical ventilation (20.67% vs. 6.25%, p<0.001), central venous catheters (59.13% vs. 37.50%, p<0.001), and nasogastric tubes (62.01% vs. 21.63%, p<0.001). Furthermore, co-infection with other pathogens was more frequent in the CRPA group than in the CSPA group (p≤0.001) (Table 1). It should be noted that these observed differences may primarily reflect greater illness severity and cumulative healthcare exposure in the CRPA group rather than serving as direct determinants of carbapenem resistance.Table 1 Baseline Characteristics of 416 P. aeruginosa Nosocomial Infections
+
+Characteristic	Total (n=416)	CRPA (n=208)	CSPA (n=208)	p-value	
+Demographic					
+Male	280 (67%)	146 (70%)	134 (64%)	0.210	
+Age, median (IQR)	74 (64, 85)	77 (65, 86)	70 (62, 83)	< 0.001	
+Comorbidities					
+Cerebrovascular disease	149 (35.17%)	96 (46.15%)	53 (25.48%)	< 0.001	
+Hypertension	228 (54.81%)	126 (60.58%)	102 (49.04%)	0.018	
+Diabetes mellitus	135 (32.45%)	71 (34.13%)	64 (30.77%)	0.464	
+Respiratory disease	213 (51.20%)	132 (63.46%)	81 (38.94%)	< 0.001	
+Coronary artery disease	109 (26.20%)	76 (36.54%)	33 (15.86%)	< 0.001	
+Renal dysfunction	83 (19.95%)	46 (22.11%)	37 (17.79%)	0.270	
+Cardiac dysfunction	86 (20.67%)	65 (31.25%)	21 (10.09%)	< 0.001	
+Malignancy	96 (23.07%)	43 (20.67%)	53 (25.48%)	0.245	
+Hypoproteinemia	78 (18.75%)	64 (30.76%)	14 (6.73%)	< 0.001	
+Hospitalization ward					
+Geriatrics department	96 (23.07%)	49 (23.55%)	47 (22.59%)	0.816	
+Intensive care unit	67 (16.10%)	46 (22.11%)	21 (10.09%)	0.001	
+Received invasive operation (within 90 days)					
+Mechanical ventilation	56 (13.46%)	43 (20.67%)	13 (6.25%)	< 0.001	
+Central venous catheter	201 (48.31%)	123 (59.13%)	78 (37.50%)	< 0.001	
+Indwelling urinary catheter	257 (61.77%)	142 (68.26%)	115 (55.28%)	0.006	
+Nasogastric tube	174 (41.82%)	129 (62.01%)	45 (21.63%)	< 0.001	
+Laboratory index					
+Neutrophils (%), median (IQR)	76.4 (66.8, 84.4)	76.6 (67.0, 85.2)	77.5 (67.4, 84.9)	0.928	
+White blood cell count (*109/L) (IQR)	8.5 (6.2, 11.5)	8.65 (6.4, 11.9)	8.70 (6.1, 11.5)	0.626	
+Hemoglobin (g/L), median (IQR)	102 (85, 120)	95.5 (80, 114)	105 (89, 124)	0.001	
+Platelet (*109/L)	212 (153, 283)	221 (144, 298)	198 (145, 273)	0.416	
+C-reactive protein (mg/L) median (IQR)	37.7 (12.9, 101)	31.7 (14.8, 79.7)	57.2 (18.8, 121.9)	0.03	
+Procalcitonin ng/mL)	0.22 (0.06, 1.09)	0.22 (0.08, 0.63)	0.21 (0.05, 2.20)	0.516	
+Albumin (g/L) (IQR)	32 (27, 36)	31 (26, 35)	32 (28, 36)	0.026	
+Alanine transaminase (U/L) (IQR)	21 (13, 37)	23 (13, 37)	21 (13, 40)	0.952	
+Creatinine (μmol/L) (IQR)	64 (50, 87)	61 (44, 86)	65 (54, 89)	0.038	
+Urea (mmol/L) (IQR)	6.2 (4.4, 9.3)	6.6 (4.6, 9.7)	6.1 (4.2, 9.1)	0.129	
+Co-infection pathogen					
+Klebsiella pneumoniae	87 (20.91%)	65 (31.25%)	22 (10.57%)	< 0.001	
+Acinetobacter baumannii	44 (10.57%)	34 (16.34%)	10 (4.8%)	< 0.001	
+Staphylococcus aureus	20 (4.81%)	18 (8.65%)	2 (0.96%)	< 0.001	
+Escherichia coli	67 (16.10%)	46 (22.11%)	21 (10.09%)	0.001	
+Enterococcus faecalis	28 (6.73%)	24 (11.53%)	4 (1.92%)	< 0.001	
+Fungi	118 (28.36%)	93 (44.71%)	25 (12.02%)	< 0.001	
+Previous antibiotic exposure (within 3 months)					
+Carbapenem	168 (40.38%)	120 (57.69%)	48 (23.07%)	< 0.001	
+Quinolones	218 (52.40%)	129 (62.01%)	89 (42.78%)	< 0.001	
+Third or fourth generation cephalosporin	207 (49.75%)	105 (50.48%)	102 (49.03%)	0.769	
+Penicillin and β-Lactam inhibitor	119 (28.60%)	70 (33.65%)	49 (23.55%)	0.023	
+Macrolides	28 (6.73%)	18 (8.65%)	10 (4.80%)	0.117	
+Antifungal agents	135 (32.45%)	91 (43.75%)	44 (21.15%)	< 0.001	
+Aminoglycosides	104 (25.0%)	67 (32.21%)	37 (17.78%)	0.001	
+Tigecycline	39 (9.37%)	31 (14.90%)	8 (3.84%)	< 0.001	
+Notes: Data are expressed as n (%) of patients for categorical variables and median (IQR) for continuous as appropriate. Bold represents p < 0.05.
+
+Abbreviations: CRPA, carbapenem-resistant Pseudomonas aeruginosa; CSPA, carbapenem-susceptible Pseudomonas aeruginosa; IQR, interquartile range.
+
+Antimicrobial Resistance Patterns Among P. aeruginosa Isolates
+
+The antibiotic susceptibility profiles of CRPA and CSPA isolates are presented in Table 2. Among the 416 isolates, polymyxin (0.35%) and amikacin (14.42%) were the most effective antimicrobial agents. In the CRPA group, 99.52% (207/208) and 98.56% (205/208) of the isolates were resistant to imipenem and meropenem, respectively. Furthermore, high resistance rates were observed in the CRPA group against cephalosporins (ceftazidime 74.04%, cefepime 67.79%), fluoroquinolones (ciprofloxacin 74.04%, levofloxacin 70.19%), and piperacillin (75.48%). CRPA isolates demonstrated significantly higher resistance to most tested antibiotics compared to CSPA isolates, except for polymyxin (p<0.001).Table 2 The Antimicrobial Resistance of P. aeruginosa isolates in This Study
+
+Antimicrobial Agents	Total (N=416)
+n (%)	CRPA (N=208)
+n (%)	CSPA (N=208)
+n (%)	p-value	
+Aminoglycosides					
+Amikacin	60 (14.42)	50 (24.04)	10 (4.81)	< 0.001	
+Gentamicin	149 (35.82)	116 (55.77)	33 (15.87)	< 0.001	
+Tobramycin	129 (31.01)	103 (49.52)	26 (12.50)	< 0.001	
+Carbapenems					
+Imipenem	207 (49.76)	207 (99.52)	0	< 0.001	
+Meropenem	205 (49.28)	205 (98.56)	0	< 0.001	
+Cephalosporins					
+Ceftazidime	194 (46.63)	154 (74.04)	40 (19.23)	< 0.001	
+Cefepime	171 (41.11)	141 (67.79)	30 (14.42)	< 0.001	
+Cephalosporins+β-lactamase inhibitors					
+Cefoperazone/sulbactam	109 (26.27)	92 (44.23)	17 (8.21)	< 0.001	
+Fluoroquinolones					
+Ciprofloxacin	193 (46.39)	154 (74.04)	39 (18.75)	< 0.001	
+Levofloxacin	184 (44.23)	146 (70.19)	38 (18.27)	< 0.001	
+Monobactams					
+Aztreonam	196 (47.46)	146 (71.22)	50 (24.04)	< 0.001	
+Penicillins					
+Piperacillin	191 (46.02)	157 (75.48)	34 (16.43)	< 0.001	
+Penicillins+β-lactamase inhibitors					
+Piperacillin/tazobactam	179 (43.03)	150 (72.12)	29 (13.94)	< 0.001	
+Lipopeptide					
+Polymyxin	1 (0.35)	1 (0.63)	0	0.567	
+Notes: Data expressed as n (%), Isolates that showed intermediate susceptibility were considered resistance (exclude polymyxin). Bold represents p < 0.05.
+
+Abbreviations: CRPA, carbapenem-resistant Pseudomonas aeruginosa; CSPA, carbapenem-susceptible Pseudomonas aeruginosa.
+
+Risk Factors for CRPA Infection
+
+Univariate analysis identified several factors significantly associated with CRPA infection, including older age (>65 years), specific comorbidities (cerebrovascular disease, respiratory disease, cardiac dysfunction, hypoalbuminemia), admission to the ICU or geriatrics department, invasive procedures (mechanical ventilation, nasogastric intubation), laboratory indices (hemoglobin <90 g/L, procalcitonin >0.5 ng/mL), co-infections (with Klebsiella pneumoniae, Staphylococcus aureus, or fungi), and prior antibiotic exposure (to carbapenems, quinolones, or antifungal agents) (p < 0.05). Multivariate logistic regression analysis showed that hypoproteinemia (OR 4.285, 95% CI: 1.890–9.715, p < 0.001), respiratory disease (OR 3.412, 95% CI: 1.799–6.473, p < 0.001), ICU admission (OR 2.143, 95% CI: 1.058–4.341, p = 0.034), nasogastric intubation (OR 2.461, 95% CI: 1.279–4.736, p = 0.007), hemoglobin level <90 g/L (OR 2.453, 95% CI: 1.300–4.524, p = 0.004), prior exposure to carbapenem (OR 5.580, 95% CI: 2.834–10.989, p < 0.001), and co-infection with Klebsiella pneumoniae (OR 4.318, 95% CI: 2.027–9.198, p < 0.001) or fungi (OR 4.781, 95% CI: 1.653–13.829, p = 0.004) were significant risk factors for patients with CRPA infection (Table 3).Table 3 Univariate and Multivariate Analysis for Risk Factors Associated with CRPA Infection
+
+Risk Factors	Univariate Analysis	Multivariate Analysis	
+OR (95% CI)	p-value	OR (95% CI)	p-value	
+Demographic					
+Male	1.302 (0.862, 1.966)	0.242			
+Age (>65 years)	1.669 (1.102, 2.530)	0.016			
+Comorbidities					
+Cerebrovascular disease	1.846 (1.137, 2.998)	0.013			
+Hypertension	1.172 (0.733, 1.875)	0.508			
+Diabetes mellitus	0.952 (0.585, 1.550)	0.843			
+Respiratory disease	1.921 (1.227, 3.007)	0.004	3.412 (1.799, 6.473)	< 0.001	
+Coronary artery disease	1.624 (0.915, 2.881)	0.098			
+Renal dysfunction	0.919 (0.530, 1.594)	0.763			
+Cardiac dysfunction	2.458 (1.297, 4.658)	0.006			
+Malignancy	1.112 (0.645, 1.915)	0.703			
+Hypoproteinemia	4.938 (2.572, 9.481)	< 0.001	4.285 (1.890, 9.715)	< 0.001	
+Hospitalization ward					
+Geriatrics department	3.072 (1.625, 5.808)	0.001			
+Intensive care unit	2.805 (1.760, 4.472)	< 0.001	2.143 (1.058, 4.341)	0.034	
+Received invasive operation (within 90 days)					
+Mechanical ventilation	2.305 (1.131, 4.698)	0.021			
+Central venous catheter	1.215 (0.756, 1.953)	0.422			
+Indwelling urinary catheter	0.846 (0.524, 1.364)	0.492			
+Nasogastric tube	5.169 (3.152, 8.477)	< 0.001	2.461 (1.279, 4.736)	0.007	
+Laboratory index					
+Neutrophilic granulocyte (>75%)	1.595 (0.903, 2.816)	0.108			
+White blood cell count (>10 *109/L)	1.618 (0.926, 2.826)	0.091			
+Hemoglobin (<90 g/L)	3.052 (1.746, 5.336)	< 0.001	2.453 (1.330, 4.524)	0.004	
+Platelet (<100*109/L)	1.033 (0.471, 2.266)	0.936			
+C-reactive protein (>30mg/L)	0.793 (0.462, 1.362)	0.401			
+Procalcitonin (>0.5 ng/mL)	0.400 (0.222, 0.720)	0.020			
+Albumin (<35 g/L)	1.488 (0.872, 2.540)	0.145			
+Alanine transaminase (>69 U/L)	0.689 (0.323, 1.471)	0.336			
+Creatinine (> 88 μmol/L)	0.757 (0.413, 1.387)	0.368			
+Urea (>7.1mmol/L)	1.455 (0.858, 2.467)	0.164			
+Co-infection pathogen					
+Klebsiella pneumoniae	2.245 (1.246, 4.045)	0.007	4.318 (2.027, 9.198)	< 0.001	
+Acinetobacter baumannii	2.182 (0.969, 4.914)	0.06			
+Staphylococcus aureus	5.863 (1.215, 28.299)	0.028			
+Escherichia coli	1.472 (0.776, 2.794)	0.237			
+Enterococcus faecalis	3.332 (1.040, 10.675)	0.053			
+Fungi	4.15 (2.451, 7.035)	< 0.001	4.781 (1.653, 13.829)	0.004	
+Previous antibiotic exposure (within 3 months) (Yes/No)					
+Carbapenem	3.245 (1.981, 5.316)	< 0.001	5.580 (2.834, 10.989)	< 0.001	
+Quinolones	1.765 (1.121, 2.778)	0.014			
+Third or fourth generation cephalosporin	0.667 (0.327, 1.360)	0.266			
+Penicillin and β-Lactam inhibitor	1.311 (0.788, 2.182)	0.298			
+Macrolides	1.479 (0.610, 3.584)	0.386			
+Antifungal agents	1.721 (1.059, 2.795)	0.028			
+Aminoglycosides	1.518 (0.884, 2.609)	0.131			
+Tigecycline	2.383 (0.932, 6.092)	0.07			
+Note: Bold represents p < 0.05.
+
+Abbreviations: CRPA, carbapenem-resistant Pseudomonas aeruginosa; CSPA, carbapenem-susceptible Pseudomonas aeruginosa; OR, odds ratio; CI, confidence interval; IQR, interquartile range.
+
+Clinical Outcomes and Risk Factors for Mortality Among Patients with CRPA Infection
+
+In-hospital mortality was significantly higher in the CRPA group (30.3%, 63/208) compared to the CSPA group (13.9%, 29/208) (p < 0.001). However, this unadjusted comparison should be interpreted with caution, as multiple confounders (including illness severity, infection site, and treatment factors) were not fully adjusted for. The median length of hospital stay (LOS) was also longer for CRPA patients (17 days, IQR: 11–54) than for CSPA patients (14 days, IQR: 9–43) (p = 0.031) (Table 4). Among patients with CRPA infection, multivariate logistic regression analysis identified cerebrovascular disease (OR = 1.818, 95% CI, 1.232–2.682, p = 0.003), carbapenem exposure (OR = 2.625, 95% CI, 1541–4.470, p = 0.006), and mechanical ventilation (OR = 2.157, 95% CI, 1.258–5.766, p = 0.02) as independent risk factors for in-hospital mortality (Table 5).Table 4 Clinical Outcome Comparison Between the Groups
+
+Outcomes	CRPA [n (%)]	CSPA [n (%)]	p-value	
+In-hospital mortality	63 (30.3)	29 (13.9)	< 0.001	
+LOS (days), median (IQR)	17 (11, 54)	14 (9, 43)	0.031	
+Abbreviations: CRPA, carbapenem-resistant Pseudomonas aeruginosa; CSPA, carbapenem-susceptible Pseudomonas aeruginosa; LOS, length of hospital stays; IQR, interquartile range.
+
+Table 5 Multivariate Analyses of in-Hospital Mortality in the CRPA Group
+
+Variable	OR	95% CI	p-value	
+Cerebrovascular disease	1.818	1.232–2.682	0.003	
+Carbapenem	2.625	1.541–4.470	0.006	
+Mechanical ventilation	2.157	1.258–4.766	0.02	
+Abbreviations: CRPA, carbapenem-resistant Pseudomonas aeruginosa; OR, odds ratio; CI, confidence interval.
+
+Discussion
+
+This study focus on a broad inpatient populations in a general tertiary hospital over an eight-year period, rather than targeting specific high-risk populations as in most previous studies. Our study presented the real-world epidemiology of CRPA infections across diverse hospital wards and patient conditions, providing more generalizable risk factor profiles for the general hospitalized patients in China.
+
+The rise of CRPA infections poses a formidable challenge globally, closely linked to the extensive clinical use of carbapenems. In our hospital, most CRPA cases originated from the geriatrics department and the ICU. This pattern likely reflects the higher burden of underlying conditions and the frequent use of broad-spectrum antibiotics in these patient populations. Our susceptibility data showed that CRPA isolates were highly resistant to cephalosporins and fluoroquinolones. However, amikacin and polymyxin retained relatively good activity, offering valuable guidance for empirical therapy in suspected CRPA infections.
+
+Patients in the CRPA group exhibited a significantly higher frequency of prior exposure to multiple antibiotic classes, including carbapenems, quinolones, β-lactam/β-lactamase inhibitors, antifungals, aminoglycosides, and tigecycline, than those in the CSPA group. Prior carbapenem exposure emerged as the most potent and consistent risk factor, aligning with numerous previous studies where it was independently associated with CRPA development, with reported odds ratios ranging from 3.5 to 8.0.21–23 Our results also showed that prior carbapenem exposure was an independent risk factor for CRPA infection (OR 5.580), which was consistent with most previous studies. The acquisition of carbapenemase genes is strongly associated with carbapenem resistance in P. aeruginosa, and has been linked to a higher risk of nosocomial outbreaks.24,25
+
+An unexpected finding in our study was the significantly lower median CRP level in the CRPA group compared to the CSPA group (31.7 vs. 57.2 mg/L, p=0.03), despite the CRPA group having higher mortality and greater healthcare complexity. This counterintuitive result may be partly explained by differences in the timing of blood sampling relative to infection onset. CRP levels peak approximately 48 hours after symptom onset and decline rapidly with effective treatment or infection control. Patients in the CRPA group may have had blood drawn later in their clinical course (possibly after initial empirical therapy) when CRP had already begun to decrease. In contrast, CSPA infections might have been recognized and sampled earlier due to more typical inflammatory presentations. Additionally, CRPA infections, particularly in immunocompromised or hypoproteinemia patients can sometimes elicit a blunted acute-phase response, resulting in lower CRP levels despite severe infection. Future prospective studies with standardized timing of biomarker measurement are needed to clarify this relationship.
+
+Beyond antibiotic pressure, our study identified several host and clinical factors independently associated with CRPA infection: hypoproteinemia, respiratory disease, ICU admission, nasogastric tube use, anemia (Hb <90 g/L), and co-infection with K. pneumoniae or fungi. Studies have reported that hypoalbuminemia (<35 g/L) doubles the risk of CRPA infection in elderly patients,12 and hypoproteinemia is more common in CRPA-associated nosocomial pneumonia.26 Our results are consistent, showing hypoproteinemia as an independent risk factor. Hypoalbuminemia often signals protein-energy malnutrition and compromised immune function, potentially increasing susceptibility to infections.27 The strong association with respiratory disease is not surprising, as the respiratory tract is the most common site for CRPA infection. Chronic lung conditions and prior respiratory infections are well-established risk factors, possibly due to damaged mucosal barriers, frequent antibiotic use, and the need for respiratory support devices that facilitate colonization by resistant pathogens.28–30
+
+The use of nasogastric tubes has been repeatedly linked to a higher risk of CRPA infections, especially in critically ill patients.31 Previous studies have also reported a close association between indwelling catheters and CRPA infections.12,32 Here, the use of nasogastric tubes and ICU admission were significantly associated with CRPA infection. Patients in the ICU, who frequently require nasogastric tubes, are at a particularly high risk. One study found that nasogastric tubes use increased the odds of carbapenem-resistant Gram-negative bacterial infection (including CRPA) by nearly sixfold.33 Nasogastric tubes bypass natural barriers, facilitate biofilm formation, and can directly introduce pathogens into the gastrointestinal tract, increasing the risk of colonization and infection.
+
+It has been reported that CRPA-infected patients had significantly lower hemoglobin levels than non-CRPA patients (p<0.001).34 We also observed that hemoglobin level <90 g/L was an independent risk factor for CRPA infection in this study. Anemia may reflect the underlying severity of illness or immune compromise, increasing susceptibility to CRPA. Furthermore, our data highlight the significance of polymicrobial infections. Co-infection with K. pneumoniae and fungi were both strong independent predictors of CRPA. P. aeruginosa and fungi are frequently co-isolated, and pulmonary fungal infection has been previously identified as a risk factor for CRPA.26,34 There may be complex biological or ecological interactions among these pathogens that facilitate CRPA infection. On the other hand, co-isolation of these pathogens may reflect greater overall illness severity, more extensive use of invasive devices, prolonged hospitalization, or increased colonization pressure in the healthcare environment. Patients with polymicrobial cultures often have longer lengths of stay and higher cumulative antibiotic exposure, which could be associated with the selection of carbapenem-resistant organisms.
+
+Mortality rates for CRPA infections vary widely across studies, ranging from 16.8% to 54.2%.12,35 Our observed in-hospital mortality of 30.3% in the CRPA group was significantly higher than the 13.9% in the CSPA group, consistent with several reports,36–38 though some studies found no significant difference.35,39 Hospital length of stay was longer for patients with CRPA than for those with CSPA. This increased length of stay has important implications for healthcare resource utilization, although cost data were not reported in our study. Within the CRPA group, we identified cerebrovascular disease, carbapenem exposure, and mechanical ventilation as independent risk factors for in-hospital death. While mechanical ventilation is a recognized predictor of poor outcome in resistant Gram-negative infections,40,41 the prominent role of cerebrovascular disease in our study subjects is noteworthy. Patients with cerebrovascular disease often experience dysphagia (increasing aspiration risk), prolonged immobilization (raising risks of thrombosis and pressure injuries), and impaired airway clearance, all of which can directly worsen prognosis during a severe infection.42
+
+Our study has several limitations that should be considered. First, it was a single-center retrospective study, and the retrospective design may have introduced selection bias due to missing data. Second, the sample size was limited, thus our results might not be extrapolated to other hospitals and regions of the country. Multicenter, large-samples are needed to make the findings more robust. Third, residual confounding remains a concern. We did not collect standardized severity scores such as Age and Chronic Health Evaluation (APACHE) II score and Sequential Organ Failure Assessment (SOFA) score, which are important predictors of both infection acquisition and mortality. Additionally, we did not perform subgroup analysis by infection site (eg, pneumonia, bloodstream infection, urinary tract infection), and we lacked detailed data on antimicrobial treatment regimens, including time to active therapy, appropriateness of empirical therapy, combination versus monotherapy, and source control measures. These unmeasured or unadjusted factors likely confound the observed associations between CRPA infection and mortality, as well as the identified risk factors. Fourth, our study period spanned the introduction of newer antibiotics (eg, ceftazidime/avibactam). Although the use of these agents was very limited in our setting during the study period (fewer than 5% of CRPA patients received ceftazidime/avibactam), we did not systematically collect data on their application. This may have introduced unmeasured confounding, especially for outcomes in later years. Fifth, we did not investigate the molecular mechanisms of resistance, future studies incorporating molecular epidemiology would provide deeper insights into the local CRPA landscape. Finally, the absence of standardized timing for biomarker measurements (eg, CRP) may have influenced some of the observed laboratory findings.
+
+Conclusions
+
+In conclusion, Prior carbapenem use is the strongest modifiable risk factor for CRPA infection. Reducing unnecessary carbapenem exposure through antimicrobial stewardship is a key intervention to curb CRPA. CRPA infection was independently associated with prior carbapenem exposure, co-infection with fungi or K. pneumoniae, hypoproteinemia, respiratory disease, nasogastric tubes, anemia, and ICU admission. CRPA infection was linked to higher mortality and longer hospital stay. Among CRPA patients, cerebrovascular disease, carbapenem exposure, and mechanical ventilation predicted mortality. Due to the retrospective design, causal inference is limited and residual confounding cannot be excluded. Prospective studies are needed to confirm these findings.
+
+Acknowledgments
+
+All the authors are grateful to the data collectors and study participants.
+
+Abbreviations
+
+P. aeruginosa, Pseudomonas aeruginosa; CRPA, Carbapenem-resistant Pseudomonas aeruginosa; CSPA, Carbapenem-susceptible Pseudomonas aeruginosa; CHINET, China Antimicrobial Surveillance Network; MDR, Multidrug-resistant; IQR, Interquartile range; CRP, C-reactive protein; ICU, Intensive care unit; LOS, Length of hospital stays; OR, Odds ratios; CI, Confidence intervals.
+
+Data Sharing Statement
+
+The original data that support the findings of this study are available from the corresponding author (Xiaoxiao Li) on reasonable request.
+
+Ethics Approval and Consent to Participate
+
+This study was approved by the ethics committees of Putuo Hospital, Shanghai University of Traditional Chinese Medicine (PTEC-R-2025-86-1). All methods were performed in accordance with the Declaration of Helsinki. The need for informed consent was waived by the IRB of Putuo Hospital due to the retrospective nature of archived datasets and fully anonymized personal information.
+
+Author Contributions
+
+All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.
+
+Disclosure
+
+The authors declare no competing interests in this work.
+
+
+References
+
+1. Alhussain FA, Yenugadhati N, Al Eidan FA, Al Johani S, Badri M. Risk factors, antimicrobial susceptibility pattern and patient outcomes of Pseudomonas aeruginosa infection: a matched case-control study. J Infect Public Health. 2021;14(1):152–12.33422856 10.1016/j.jiph.2020.11.010
+2. Aiesh BM, Qashou R, Shemmessian G, et al. Nosocomial infections in the surgical intensive care unit: an observational retrospective study from a large tertiary hospital in Palestine. BMC Infect Dis. 2023;23(1):686. doi:10.1186/s12879-023-08677-z 37833675 PMC10576355
+3. Yang J, Xu J-F, Liang S. Antibiotic resistance in Pseudomonas aeruginosa: mechanisms and emerging treatment. Crit Rev Microbiol. 2025;51(5):841–859. doi:10.1080/1040841X.2024.2429599 39556143
+4. Elfadadny A, Ragab RF, AlHarbi M, et al. Antimicrobial resistance of Pseudomonas aeruginosa: navigating clinical impacts, current resistance trends, and innovations in breaking therapies. Front Microbiol. 2024;15:1374466. doi:10.3389/fmicb.2024.1374466 38646632 PMC11026690
+5. Tang C, Mei Y, Fang H, Wang W, Lv M. A meta-analysis of the correlation between carbapenem antibiotic use and the incidence of carbapenem-resistant Pseudomonas aeruginosa. J Infect Develop Countries. 2025;19(09):1377–1383. doi:10.3855/jidc.20950 41060736
+6. Tacconelli E, Carrara E, Savoldi A, et al. Discovery, research, and development of new antibiotics: the WHO priority list of antibiotic-resistant bacteria and tuberculosis. Lancet Infect Dis. 2018;18(3):318–327. doi:10.1016/S1473-3099(17)30753-3 29276051
+7. Oliver A, Rojo-Molinero E, Arca-Suarez J, et al. Pseudomonas aeruginosa antimicrobial susceptibility profiles, resistance mechanisms and international clonal lineages: update from ESGARS-ESCMID/ISARPAE Group. Clin Microbiol Infect. 2024;30(4):469–480.38160753 10.1016/j.cmi.2023.12.026
+8. Del Barrio-Tofiño E, López-Causapé C, Oliver A. Pseudomonas aeruginosa epidemic high-risk clones and their association with horizontally-acquired β-lactamases: 2020 update. Int J Antimicrob Agents. 2020;56(6):106196. doi:10.1016/j.ijantimicag.2020.106196 33045347
+9. Xie X, Liu Z, Huang J, et al. Molecular epidemiology and carbapenem resistance mechanisms of Pseudomonas aeruginosa isolated from a hospital in Fujian, China. Front Microbiol. 2024;15:1431154. doi:10.3389/fmicb.2024.1431154 39301190 PMC11410579
+10. Wei X, Liu M, Mo C, et al. Molecular characteristics and antibiotic resistance mechanisms of multidrug-resistant Pseudomonas aeruginosa in Nanning, China. BMC Microbiol. 2024;24(1):478. doi:10.1186/s12866-024-03640-7 39548364 PMC11566251
+11. Haldorsen BC, Samuelsen Ø, Janice J, et al. Import of global high-risk clones is the primary driver of carbapenemase-producing Pseudomonas aeruginosa in Norway. J Med Microbiol. 2025;74(1):001944. doi:10.1099/jmm.0.001944 39760484 PMC12282237
+12. Qin J, Zou C, Tao J, et al. Carbapenem resistant Pseudomonas aeruginosa infections in elderly patients: antimicrobial resistance profiles, risk factors and impact on clinical outcomes. Infect Drug Resist. 2022;Volume 15:2301–2314. doi:10.2147/IDR.S358778 PMC9064054 35517901
+13. Huang W, Wei X, Xu G, Zhang X, Wang X. Carbapenem-resistant Pseudomonas aeruginosa infections in critically ill children: prevalence, risk factors, and impact on outcome in a large tertiary pediatric hospital of China. Front Public Health. 2023;11:1088262. doi:10.3389/fpubh.2023.1088262 36844819 PMC9948009
+14. Yuan F, Xiao W, Wang X, Fu Y, Wei X. Clinical characteristics and prognosis of bloodstream infection with carbapenem-resistant Pseudomonas aeruginosa in patients with hematologic malignancies. Infect Drug Resist. 2023;Volume 16:4943–4952. doi:10.2147/IDR.S419064 PMC10402715 37546370
+15. Freire M, Camargo C, Yamada A, et al. Critical points and potential pitfalls of outbreak of IMP-1-producing carbapenem-resistant Pseudomonas aeruginosa among kidney transplant recipients: a case–control study. J Hosp Infect. 2021;115:83–92. doi:10.1016/j.jhin.2021.05.006 34033889
+16. Wu Y, Zhu J, Huang L, et al. Carbapenem-resistant Pseudomonas aeruginosa infection and mixed infections are risk factors for poor outcome after lung transplant. Experim Clin Transpl. 2024;22(4):300–306.10.6002/ect.2023.0268 38742321
+17. Wei X, Li L, Li M, Liang H, He Y, Li S. Risk factors and outcomes of patients with carbapenem-resistant Pseudomonas aeruginosa bloodstream infection. Infect Drug Resist. 2023;Volume 16:337–346. doi:10.2147/IDR.S396428 PMC9869782 36698726
+18. Commission NH. Diagnostic criteria for nosocomial infection. Chin Med J. 2001;81:314–320.
+19. (CLSI) CaLSI: performance standards for antimicrobial susceptibility testing. Wayne. 2021.
+20. Horan TC, Andrus M, Dudeck MA. CDC/NHSN surveillance definition of health care–associated infection and criteria for specific types of infections in the acute care setting. Am J Infect Control. 2008;36(5):309–332. doi:10.1016/j.ajic.2008.03.002 18538699
+21. Yuan Q, Guo L, Li B, et al. Risk factors and outcomes of inpatients with carbapenem-resistant Pseudomonas aeruginosa bloodstream infections in China: a 9-year trend and multicenter cohort study. Front Microbiol. 2023;14:1137811. doi:10.3389/fmicb.2023.1137811 37260693 PMC10227572
+22. Valderrama SL, González PF, Caro MA, et al. Risk factors for hospital-acquired bacteremia due to carbapenem-resistant Pseudomonas aeruginosa in a Colombian hospital. Biomedica. 2016;36:69–77. doi:10.7705/biomedica.v36i2.2784 27622627
+23. Zhang D, Cui K, Wang T, et al. Risk factors for carbapenem-resistant Pseudomonas aeruginosa infection or colonization in a Chinese teaching hospital. J Infect Develop Countries. 2018;12(08):642–648. doi:10.3855/jidc.10150 31958327
+24. Shi W, Zhang P, Feng H, et al. Environmental persistence of high-risk KPC-producing ST463 Pseudomonas aeruginosa in intensive care units in East China. Infect Drug Resist. 2025;Volume 18:5379–5390. doi:10.2147/IDR.S531973 PMC12553440 41140484
+25. Zhu Y, Jia P, Yu W, Chu X, Liu X, Yang Q. The epidemiology and virulence of carbapenem-resistant Pseudomonas aeruginosa in China. Lancet Microbe. 2023;4(9):e665. doi:10.1016/S2666-5247(23)00113-1 37327803
+26. Liu Y, Xu Y, Wang S, et al. Antibiotic susceptibility pattern, risk factors, and prediction of carbapenem-resistant Pseudomonas aeruginosa in patients with nosocomial pneumonia. Heliyon. 2023;9(5).10.1016/j.heliyon.2023.e15724 PMC10163646 37159707
+27. Horasan E, Dağ A, Ersoz G, Kaya A. Surgical site infections and mortality in elderly patients. Med Mal Infectieuses. 2013;43(10):417–422. doi:10.1016/j.medmal.2013.07.009 24012414
+28. Xiao S, Zhu D, Liang X, Han L, Zhao S. Risk factors for multidrug resistant and carbapenem resistant Pseudomonas aeruginosa bloodstream infections among inpatients in Central and East China. Sci Rep. 2025;15(1):20719. doi:10.1038/s41598-025-07820-x 40596677 PMC12216560
+29. Dong L, Huang Y, Zhang S, Xu B, Li B, Cao Y. Risk factors for development and mortality of carbapenem-resistant Pseudomonas aeruginosa bloodstream infection in a Chinese teaching hospital: a seven-year retrospective study. Infect Drug Resist. 2025;Volume 18:979–991. doi:10.2147/IDR.S495240 PMC11847577 39990780
+30. Jiang Y, Wang H-W, Tian F-Y, Guo Y, Wang X-M. Wang X-m: predicting carbapenem-resistant Pseudomonas aeruginosa infection risk using XGBoost model and explainability. Sci Rep. 2025;15(1):19737. doi:10.1038/s41598-025-04028-x 40473759 PMC12141430
+31. Sun Y, Deng Y, Kwapong WR, Ma L. Clinical distribution, drug resistance and risk factor analysis of Pseudomonas aeruginosa infections. Int J Clin Exp Med. 2019;12(10):12322–12330.
+32. Kang JS, Moon C, Mun SJ, et al. Antimicrobial susceptibility trends and risk factors for antimicrobial resistance in Pseudomonas aeruginosa bacteremia: 12-year experience in a tertiary hospital in Korea. J Korean Med Sci. 2021;36(43). doi:10.3346/jkms.2021.36.e273 PMC8575761 34751008
+33. Maina JW, Mutua JM, Musyoki AM. Carbapenem-resistant gram-negative bacterial infections and risk factors for acquisition in a Kenyan intensive care unit. BMC Infect Dis. 2024;24(1):522. doi:10.1186/s12879-024-09256-6 38783175 PMC11118991
+34. Sun J, Jia Q, Lv W, et al. Mortality and exacerbations in bronchiectasis patients with carbapenem-resistant Pseudomonas aeruginosa isolation: a long-term retrospective cohort study. Ann Clinic Microbiol Antimicrob. 2025;24(1):30. doi:10.1186/s12941-025-00798-4 PMC12057110 40329320
+35. Tuon FF, Gortz LW, Rocha JL. Risk factors for pan-resistant Pseudomonas aeruginosa bacteremia and the adequacy of antibiotic therapy. Braz J Infect Dis. 2012;16(4):351–356. doi:10.1016/j.bjid.2012.06.009 22846123
+36. Jing M, Wang X, Li W, et al. Clinical characteristics, risk factors and prognosis of carbapenem-resistant Pseudomonas aeruginosa bloodstream infections in cancer patients: an 8-year retrospective study in a tertiary cancer hospital. Infect Drug Resist. 2025;Volume 18Volume 18:2511–2524. doi:10.2147/IDR.S515530 PMC12087914 40390797
+37. Liu Q, Li X, Li W, et al. Influence of carbapenem resistance on mortality of patients with Pseudomonas aeruginosa infection: a meta-analysis. Sci Rep. 2015;5(1):11715. doi:10.1038/srep11715 26108476 PMC4479982
+38. Peña C, Suarez C, Gozalo M, et al. Prospective multicenter study of the impact of carbapenem resistance on mortality in Pseudomonas aeruginosa bloodstream infections. Antimicrob Agents Chemother. 2012;56(3):1265–1272. doi:10.1128/AAC.05991-11 22155832 PMC3294876
+39. Barron MA, Richardson K, Jeffres M, McCollister B. Risk factors and influence of carbapenem exposure on the development of carbapenem resistant Pseudomonas aeruginosa bloodstream infections and infections at sterile sites. Springerplus. 2016;5(1):755. doi:10.1186/s40064-016-2438-4 PMC4912523 27386239
+40. Yang J, Chen M, Li L, Zha Z, Cheng M, Yang X. Prognosis analysis and infection-related risk factors of multi-drug-resistant bacteria isolated from a general hospital in China, 2019–2023. J Hosp Infect. 2025;158:29–37. doi:10.1016/j.jhin.2025.02.003 39961512
+41. Liao Q, Feng Z, Lin H, et al. Carbapenem-resistant gram-negative bacterial infection in intensive care unit patients: antibiotic resistance analysis and predictive model development. Front Cell Infect Microbiol. 2023;13:1109418. doi:10.3389/fcimb.2023.1109418 36794004 PMC9922834
+42. Okeng’o K, Chillo P, Gray WK, Walker RW, Matuja W. Early mortality and associated factors among patients with stroke admitted to a large teaching hospital in Tanzania. J Stroke Cerebrovascular Dis. 2017;26(4):871–878. doi:10.1016/j.jstrokecerebrovasdis.2016.10.037 27913201

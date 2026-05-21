@@ -1,0 +1,26 @@
+=============Reasoning for XLL18380 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli ATCC 25922' and the isolation source is 'sewage'. 'Escherichia coli' is generally associated with mesophilic environments, and 'sewage' is a common source for mesophilic bacteria. No explicit temperature is given.
+
+
+=============Reasoning for XLL18380 from accession literature=============
+=============Reasoning for XLL18380 from host literature=============
+Paper: PMC13176240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that the antibacterial activity of Ali24-His was tested under 'moderate heating (up to 50 °C), which are environments typical of fruit processing workflows, pre-pasteurization steps.' Furthermore, the DLS analysis showed that the protein 'remains well-folded and resistant to aggregation under these conditions [up to 50 °C]'. The nanoDSF analysis showed that the highest thermal stability (Tm) was observed at pH 4.0, with a Tm of 60.4 °C, but the discussion notes that the activity and stability profiles support its potential for use in 'acidic food processing environments' and 'storage that occurs below structural and activity destabilization threshold temperatures (above 50 °C)'. Since the optimal activity/stability window is described around 50 °C, and the general range of interest is acidic food processing, which is often associated with mesophilic conditions (15–45°C), and the protein retains activity up to 50°C, 'mesophile' is the most appropriate classification based on the provided context of food processing relevance, although the stability extends beyond the typical mesophilic upper limit.
+
+
+=============Reasoning for XLL18380 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Escherichia phage EPIMRB01.
+2. Check for environmental context: The isolation source is 'sewage' and the host is 'Escherichia coli ATCC 25922'. Both sewage and E. coli are typically associated with moderate environmental temperatures (mesophilic range, 15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context (sewage/E. coli) strongly suggests a mesophilic lifestyle. However, as the environmental context is not a direct measurement but a general association, and no explicit rule is triggered, the fallback rule (Rule 4) is applied.
+4. Fallback: The default classification is 'mesophile'.
+
+

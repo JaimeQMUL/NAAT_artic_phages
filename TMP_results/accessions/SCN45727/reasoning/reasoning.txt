@@ -1,0 +1,30 @@
+=============Reasoning for SCN45727 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'Waste water', but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for SCN45727 from accession literature=============
+Paper: PMC12090712.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for bacterial growth and phage propagation. For bacterial growth and phage propagation, the text mentions: "All bacterial strains were incubated at 37°C in Luria-Bertani (LB) broth..." and "For phage propagation, the host bacterial culture in the exponential phase was infected with phage lysate and incubated at 37°C for 4 h". Furthermore, the thermal stability test was conducted at "4°C, 25°C, 37°C, 45°C, 50°C, 60°C, and 70°C" (Fig. 5B). Since the optimal growth/propagation temperature is consistently stated as 37°C, which falls within the mesophile range (15–45°C), the phage is classified as mesophilic.
+
+
+Paper: PMC11477059.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states regarding the thermal stability of HK6: "Thermally, HK6 showed a typical mesophilic profile being un-affected up to 50 ºC for 1 h. However, increasing temperature up to 60 ºC caused 1.03 log-unit reduction (p < 0.05) in phage count (Fig. 3B). While elevating temperature up to 70 ºC completely abolished HK6 infectivity (p < 0.05; Fig. 3B)". The definition for mesophile is 15–45°C, and the text explicitly describes a "typical mesophilic profile" for HK6.
+
+
+=============Reasoning for SCN45727 from host literature=============
+=============Reasoning for SCN45727 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for the phage. 2. **Check for environmental context:** The isolation source is 'Waste water'. While wastewater can vary widely, it generally represents a moderate, fluctuating environment, not strongly indicative of extreme cold or high heat. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context ('Waste water') is not strongly indicative of psychrophilic (<15°C) or thermophilic (>45°C) conditions, the system must default to the 'mesophile' classification as per Rule 4. 4. **Conclusion:** Defaulting to mesophile.
+
+

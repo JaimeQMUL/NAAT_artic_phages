@@ -1,0 +1,16 @@
+=============Reasoning for DAG10592 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAG10592 from accession literature=============
+=============Reasoning for DAG10592 from host literature=============
+=============Reasoning for DAG10592 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the isolation source as 'Human metagenome' and the collection date is from 2017. 2. Human-associated microbes and phages are generally considered to thrive in moderate body temperatures (37°C), which falls within the mesophilic range (15–45°C). 3. There is no explicit mention of optimal growth temperature, nor is the source explicitly extreme (e.g., deep sea or hot spring). 4. Therefore, based on the association with human hosts, the most probable classification is mesophile. 5. Since no explicit evidence exists, and the environmental context (human host) points towards moderate temperatures, the classification is assigned using the fallback rule (Rule 3) and defaults to mesophile.
+
+

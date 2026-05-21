@@ -1,0 +1,20 @@
+=============Reasoning for AGY47872 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Salmonella phage Maynard') and the host ('Salmonella typhimurium'), but no explicit or strongly implied temperature or growth condition information is present to determine the thermal range.
+
+
+=============Reasoning for AGY47872 from accession literature=============
+=============Reasoning for AGY47872 from host literature=============
+=============Reasoning for AGY47872 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Salmonella phage Maynard') and its host ('Salmonella typhimurium').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental context.
+3. The host, Salmonella, is a common human/animal pathogen, and most clinically relevant bacteria and their associated phages are generally considered mesophiles (optimal growth around 37°C).
+4. Since no explicit evidence exists, the decision rules mandate assigning the MOST PROBABLE classification. Given the association with Salmonella, mesophile is the most probable classification.
+5. Because the classification relies on general biological knowledge about the host rather than direct metadata evidence, this is a forced assignment.
+
+

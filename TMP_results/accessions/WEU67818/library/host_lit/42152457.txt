@@ -1,0 +1,22 @@
+Incorporation of Cryptic Plasmid Energetics Improves Genome-Scale Metabolic Predictions in Probiotic E. coli Nissle 1917.
+
+Escherichia coli Nissle 1917 (EcN) is a well-characterized Gram-negative probiotic distinguished by
+its unique, strain-specific physiology. Genome-scale metabolic models (GEMs) are powerful tools for
+elucidating metabolic traits and predicting genotype-phenotype relationships. Although several EcN
+GEMs have been published, none have explicitly exploited its probiotic physiology. Here, we present
+a plasmid-specific module that can be incorporated into EcN GEMs, which, for the first time,
+considers the energetic costs associated with its cryptic plasmids. Using COBRA methodologies and
+possibilistic metabolic flux analysis, we show how the plasmid-module inclusion improves biomass and
+overall flux predictions in an additional, manually curated EcN model as well as in previous EcN
+reconstructions. Then, the different EcN reconstructions were systematically compared to evaluate
+the trade-off between model refinement depth and predictive performance. The analysis revealed that
+once expanded to include the plasmid-related costs, increased level of curation in the different
+GEMs does not necessarily enhance quantitative accuracy and that predictive reliability depends on
+both computational methodology chosen and experimental contexts. Metabolomic profiling under gut
+microbiota medium and anaerobic conditions further showed that EcN exhibits a distinctive metabolic
+phenotype, characterized by elevated amino acid consumption and enhanced short-chain fatty acid
+production, which is captured by the evaluated metabolic models. These findings highlight the unique
+probiotic physiology of EcN and demonstrate the utility of metabolic modelling for reproducing and
+exploring such traits. Overall, this study provides a quantitatively reliable and physiologically
+relevant framework for modelling E. coli Nissle 1917 while considering its cryptic plasmids,
+supporting advances in probiotic engineering, synthetic biology and bioprocess design.

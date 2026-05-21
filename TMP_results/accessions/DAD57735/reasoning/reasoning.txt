@@ -1,0 +1,19 @@
+=============Reasoning for DAD57735 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Human metagenome') and collection date, but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for DAD57735 from accession literature=============
+=============Reasoning for DAD57735 from host literature=============
+=============Reasoning for DAD57735 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit temperature ranges for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2015-07-17' from the USA. Human-associated metagenomes typically represent organisms found in moderate, ambient body/environmental temperatures.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context (human metagenome) suggests moderate conditions, leaning towards mesophile. However, the context is not strongly defining (it could be from various body sites or environmental contamination).
+4. Fallback: Because the environmental context is weak for precise classification (it only indicates 'human' origin, not a specific temperature), the system defaults to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+
+

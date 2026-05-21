@@ -1,0 +1,19 @@
+=============Reasoning for YP_239013 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage RB43') and general identifiers, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_239013 from accession literature=============
+=============Reasoning for YP_239013 from host literature=============
+=============Reasoning for YP_239013 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to accession numbers, dates, and general identifiers. There is no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage RB43.
+2. Rule 1 (Explicit evidence) fails.
+3. Rule 2 (Inference from environmental context) fails due to lack of environmental data.
+4. Rule 3 (Fallback) is triggered. The default classification for bacteriophages associated with common laboratory/environmental bacteria like *Escherichia* (which are typically mesophiles) is mesophile. Therefore, mesophile is assigned as the most probable classification.
+
+

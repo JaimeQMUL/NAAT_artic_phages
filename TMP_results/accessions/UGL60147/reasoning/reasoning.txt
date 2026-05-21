@@ -1,0 +1,75 @@
+=============Reasoning for UGL60147 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for UGL60147 from accession literature=============
+Paper: PMC12980165.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the bacterial strains were cultivated in Luria–Bertani (LB) broth at a temperature of 37 °C. Furthermore, the one-step growth curves and the initial phage adsorption/lysis assays were all performed at 37 °C. The stability assays also tested temperatures including 25, 40, 50, 60, and 70 °C, but the optimal/standard growth temperature for the host bacteria is 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the range includes temperatures below 15°C (e.g., 4°C) and temperatures above 45°C (up to 60°C), but the optimal/general viability is described across a broad range encompassing the mesophilic range (15–45°C), and the text does not specify an optimal temperature that definitively places it in one category, we must rely on the defined ranges. Given the explicit range (4°C to 60°C), and the definitions (psychrophile < 15°C, mesophile 15–45°C, thermophile > 45°C), the broad viability suggests it spans multiple categories. However, since the text does not define the optimal growth temperature, and the range covers all three, we must check for the most representative classification. The presence of viability up to 60°C suggests thermophilic potential, while 4°C suggests psychrophilic potential. Since the text does not specify the *optimal* growth temperature, and the range is broad, we will classify based on the most commonly cited optimal range for such phages or default to the mesophilic range if the evidence is ambiguous, but here, the explicit range is given. Given the ambiguity, and the fact that the range covers mesophilic conditions (15-45°C), we select mesophile as the best fit for a general classification when the optimal is not given, while noting the explicit range.
+
+
+Paper: 41990421.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "MM-1 and MM-2 were infectious at a broad temperature (4°C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range (4°C to 60°C) encompasses this range, the phage exhibits characteristics consistent with a mesophile, although it is broad. Given the explicit range, we classify it based on the defined categories. The range includes mesophilic conditions.
+
+
+Paper: 42061220.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that "The phages exhibited robust environmental stability, maintaining high activity between -20°C and 37°C". Since the mesophilic range is defined as 15–45°C, the upper limit of 37°C falls within this range, and the overall stability suggests mesophilic characteristics.
+
+
+=============Reasoning for UGL60147 from host literature=============
+Paper: PMC12888105.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions incubation and testing conditions related to the bacteria and the material: 1. "L. rhamnosus, L. crispatus, and L. reuteri were cultured on MRS (supplemented with 0.1% Tween 80) agar plates under anaerobic conditions at 37°C for 16 hr (hours)." (Section 2.3). 2. "Once the materials were added, the solution was mixed until homogenous and was transferred to a bioprinter to retain 37°C for viability and for using consistent pressure of extrusion." (Section 2.4). 3. "Subsequently, the filled molds were incubated at 37°C for 16 hr. Physiological temperature was necessary for L. reuteri and L. crispatus as these Lactobacillus species are more thermally sensitive than L. rhamnosus. This temperature sufficed for both cross-linking the silicone through hydrosilylation of the base polymer and curing agent, as well as maintaining the viability of the lactobacilli." (Section 2.5). 4. "All groups were compared to initial weighed segments prior to being placed in solution at 37°C." (Section 3.1). 5. "Catheters segments were subjected to submersion in AUM for a period spanning 1–7 days. All groups were compared to initial weighed segments prior to being placed in solution at 37°C." (Section 3.1). 6. "The formulation of biocompatible materials and cellular components created an effective bioink that could be injected into the 3D-printed molds to create specific shapes for different implementation methods." (Section 2.5, referring to the general context of the study). The consistent use of 37°C for culture, viability, and submersion indicates the optimal or tested physiological temperature range, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13152249.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the study analyzed the interaction of S. enterica with food matrices 'under refrigerated storage conditions' and specifically used 'abusive cold storage conditions at 8 °C' for the main experiments. Furthermore, the background microbiota analysis for both onions and sprouts was conducted during 'cold storage' at '8 °C'. The general growth conditions mentioned for the background microbiota include 'mesophilic aerobic populations'. Since 8 °C falls within the mesophilic range (15–45°C), and this temperature was explicitly used for the survival studies, the thermal characteristic is mesophile.
+
+
+Paper: PMC13177867.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the primary bacterial streaks: "The primary streaks were done by plating the stocks on 5% Columbia blood agar (Thermo Fisher Scientific, Waltham, MA, USA) and incubating for 20–24 h at 37°C under aerobic conditions, as described by Richter et al. [8]". Additionally, the text mentions the incubation temperature for APEC culture: "Before inoculation, APEC was cultured overnight at 37°C in LB broth (Difco, Becton Dickinson, Sparks, MD, USA) in a shaking incubator (Model No.: 1570, Sheldon Manufacturing Inc., Cornelius, OR, USA) at 240 r/min.". Furthermore, the HD11 cell culture was maintained at "41°C (normal chicken body temperature)". Since 37°C and 41°C fall within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the range includes temperatures below 15°C (e.g., 4°C) and temperatures above 45°C (up to 60°C), but the optimal/general viability is described across a broad range encompassing the mesophilic range (15–45°C), and the text does not specify an optimal temperature that definitively places it in one category, we must rely on the defined ranges. Given the explicit range (4°C to 60°C), and the definitions (psychrophile < 15°C, mesophile 15–45°C, thermophile > 45°C), the broad viability suggests it spans multiple categories. However, since the text does not define the optimal growth temperature, and the range covers all three, we must check for the most representative classification. The presence of viability up to 60°C suggests thermophilic potential, while 4°C suggests psychrophilic potential. Since the text does not specify the *optimal* growth temperature, and the range is broad, we will classify based on the most commonly cited optimal range for such phages or default to the mesophilic range if the evidence is ambiguous, but here, the explicit range is given. Given the ambiguity, and the fact that the range covers mesophilic conditions (15-45°C), we select mesophile as the best fit for a general classification when the optimal is not given, while noting the explicit range.
+
+
+=============Reasoning for UGL60147 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'sewage' and the collection date is 'Jan-2021' from 'South Korea'. Sewage environments are generally associated with mesophilic conditions, but this is not a definitive temperature measurement.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (sewage) is suggestive but not definitive for a precise classification, the system must default to the fallback class as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

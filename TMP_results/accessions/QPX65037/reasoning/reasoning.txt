@@ -1,0 +1,27 @@
+=============Reasoning for QPX65037 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range. No explicit temperature is given.
+
+
+=============Reasoning for QPX65037 from accession literature=============
+=============Reasoning for QPX65037 from host literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing C. jejuni NCTC12662 and for phage adsorption assays: "...and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2)" and "Following an aerobic incubation for 15 min at 37°C for adsorption of the phages, 5 ml of molten NZCYM overlay agar was added..." and "Following 18–24 h of incubation at 37°C under microaerobic conditions...". Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QPX65037 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage F370'), its host ('Campylobacter jejuni NCTC12662'), and the isolation source ('chicken fecal sample').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common human/animal pathogen often associated with moderate environmental temperatures (fecal samples, gastrointestinal tract). While *Campylobacter* species can exhibit variable growth ranges, they are generally considered mesophilic organisms in natural settings.
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The most probable classification, given the association with a common enteric pathogen and fecal isolation, is mesophile (15–45°C).
+5. **Fallback:** As the environmental context (fecal sample) points towards moderate biological activity, and no other information is available, 'mesophile' is selected as the most probable classification. This assignment relies on the fallback rule (Rule 4) due to weak direct evidence.
+
+

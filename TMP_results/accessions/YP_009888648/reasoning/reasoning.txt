@@ -1,0 +1,44 @@
+=============Reasoning for YP_009888648 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'wastewater'. Wastewater environments are generally associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for YP_009888648 from accession literature=============
+Paper: PMC13170677.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the activation temperature for the thermal sensor: "When the environmental temperature exceeded 42°C, this suppression was lifted, enabling the pR-pL actuator to activate Bxb1 expression for attB (attachment site bacteria)/attP (attachment site phage) recombination." It also mentions that "By adjusting the AMF duration, it was found that the fluorescence intensity of mCherry peaked at 42°C, confirming that the thermal sensing and memory-capable circuit was functional and precisely regulated (Fig. 2H and fig. S7)". Since the optimal/triggering temperature is stated as 42°C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009888648 from host literature=============
+Paper: PMC13164475.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested biofilm formation and antibacterial activity at 14 °C, 23 °C, and 37 °C. The general optimal biofilm formation temperature for Salmonella isolates was stated as '37 °C' in the summary section ('Statistical analysis of the three influential factors investigated revealed that, in terms of temperature, 37 °C was optimal'). Furthermore, the text notes that 'Biofilm formation by the 16 Salmonella isolates appeared more consistent and intense at 23 °C and 37 °C'. Since the mesophile range is defined as 15–45°C, and 23°C and 37°C fall within this range, the thermal characteristic is mesophile.
+
+
+Paper: PMC9898657.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability of phage phiPT1: "Phage phiPT1 was stable at temperatures from 4 °C to 60 °C and inactivated at 90 °C." The optimal growth/stability range mentioned (4 °C to 60 °C) encompasses the mesophilic range (15–45°C). Furthermore, the text notes that the mean titer was found to be 8.5 log10 PFU/ml upon 1 h treatment at 37 °C, 40 °C, or 60 °C, and that 37 °C was used for incubation in several assays, which falls within the mesophilic range. The conclusion summarizes this by stating it "showed wide pH and thermal tolerance."
+
+
+Paper: PMC12930829.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures for several assays: 1. For MIC/MBC assays: "The microplate was then statically incubated at 37 °C for 24 h." and "The plates were then incubated for an additional 24 h at 37 °C." 2. For TSB culture media assays: "The experimental groups were incubated at 37 °C for 72 h with frequent agitation (70 rpm)." 3. For urine assays: "The experimental groups were incubated at 37 °C for 24 h with frequent agitation (70 rpm)". 4. For in vivo model: "Urine samples were collected at 24, 48, 96, 144, and 192 h after UTI induction". Since the optimal growth/incubation temperature mentioned is 37°C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009888648 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage. 2. **Check for environmental context:** The isolation source is 'wastewater'. Wastewater environments typically fluctuate but are generally associated with moderate temperatures, making mesophilic conditions the most probable default. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context ('wastewater') suggests moderate conditions, the most probable classification is mesophile. 4. **Fallback:** As no useful temperature metadata is present, the default classification rule mandates assigning 'mesophile'.
+
+

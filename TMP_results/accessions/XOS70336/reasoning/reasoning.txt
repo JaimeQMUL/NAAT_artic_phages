@@ -1,0 +1,33 @@
+=============Reasoning for XOS70336 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is listed as 'urban environment metagenome' and 'urban environment'. This suggests a general environmental source, which typically corresponds to mesophilic conditions, as no extreme temperatures are specified.
+
+
+=============Reasoning for XOS70336 from accession literature=============
+=============Reasoning for XOS70336 from host literature=============
+Paper: PMC12963601.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth experiment for both phages was conducted using incubation temperatures of 25 °C and 30 °C. The co-culture assays were also performed at 25 °C and 30 °C. Since the mesophilic range is defined as 15–45°C, these tested temperatures fall within this range.
+
+
+Paper: 42026481.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is characterized in relation to 'Antarctic temperate phage Perkons' and the host is 'Psychrobacillus sp. L4'. The presence of 'Antarctic' strongly suggests adaptation to cold environments, leading to the classification of psychrophile. The text does not provide explicit temperature measurements for the phage's optimal growth.
+
+
+=============Reasoning for XOS70336 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the source is an 'urban environment metagenome' from 'Canada: Hamilton' and the isolation source is an 'urban environment'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The environment (urban) does not strongly suggest extreme temperatures.
+3. **Infer Context:** Urban environments typically fluctuate but are generally associated with moderate, ambient temperatures, making mesophilic conditions the most probable default.
+4. **Fallback:** Since environmental context is weak for precise classification, the system defaults to 'mesophile' as per Rule 4.
+
+

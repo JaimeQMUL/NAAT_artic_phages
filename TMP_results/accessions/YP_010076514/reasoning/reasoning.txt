@@ -1,0 +1,33 @@
+=============Reasoning for YP_010076514 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'water, Grand River'. Water sources are generally associated with mesophilic conditions, and no specific temperature range is provided.
+
+
+=============Reasoning for YP_010076514 from accession literature=============
+Paper: PMC8481304.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several procedures: 1. "A mixture of 25 ml water sample, 25 ml 10× phage broth media and 5 ml of log phase Shigella flexneri 2a culture was incubated at 37 °C for 24 h in shaking condition." (Isolation). 2. "Spot assay was performed initially to evaluate the presence of shigella phage testing on Shigella flexneri 2a 2457T using the double layer agar method." (Implies incubation at 37°C). 3. "The plate was incubated overnight at 37 °C and checked for the presence visible lysis zone." (Host range). 4. "The phage suspension (diluted in Tris MgCl2 buffer) was incubated at different temperatures (4 °C, 25 °C, 37 °C, 50 °C, 60 °C, and 70 °C respectively) for 1 h..." (Thermal stability test). 5. "The one-step growth curve experiment was performed... The mixture was incubated for adsorption at 37 °C for 5 min and diluted in Luria broth with a maximum volume of 10 ml and reincubated at 37 °C." (One-step growth). 6. "Shigella flexneri 2a bacterial culture was mixed with Sfk20 bacteriophage and incubated at 37 °C." (Infection visualization). 7. "Biofilm was grown... incubated at 37 °C for 24 h and 48 h respectively." (Biofilm assay). 8. "All treated samples were further incubated at 37 °C for overnight." (Biofilm assay). The optimal growth/activity temperature range tested and implied is centered around 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_010076514 from host literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." Since the optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for YP_010076514 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Shigella phage Sf23.
+2. **Check for environmental context:** The isolation source is 'water, Grand River', and the collection date is '05-Oct-2016' at coordinates '42.72 N 84.57 W'. These geographical and temporal data suggest a temperate, non-extreme environment, which typically correlates with mesophilic organisms.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context points towards moderate conditions (river water), the most probable classification is mesophile. As the environmental context is suggestive but not definitive for temperature, the classification defaults to mesophile based on general microbiological knowledge for enteric phages and the fallback rule.
+4. **Conclusion:** Assign mesophile.
+
+

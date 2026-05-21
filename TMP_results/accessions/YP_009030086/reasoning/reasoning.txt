@@ -1,0 +1,26 @@
+=============Reasoning for YP_009030086 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Serratia phage PS2') and its host ('Serratia marcescens'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for YP_009030086 from accession literature=============
+=============Reasoning for YP_009030086 from host literature=============
+Paper: 42143471.txt
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper discusses spoilage bacteria in 'cold-stored chicken breast' and mentions that the bacteria studied, including *Serratia* species, are 'psychrotrophic spoilage bacteria'. This strongly implies that the relevant thermal conditions for these bacteria in this context are cold, aligning with the definition of psychrophile growth conditions (< 15°C).
+
+
+=============Reasoning for YP_009030086 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Serratia phage PS2') and its host ('Serratia marcescens').
+2. There is no explicit information regarding the optimal growth temperature for the phage or its host.
+3. 'Serratia marcescens' is a common environmental bacterium, and in the absence of specific temperature data, the default assumption for most non-extremophile environmental microbes is mesophily (15–45°C).
+4. Since no evidence supports psychrophilic or thermophilic classification, the fallback rule dictates assigning 'mesophile'.
+
+

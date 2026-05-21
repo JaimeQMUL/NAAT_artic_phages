@@ -1,0 +1,16 @@
+=============Reasoning for QEG10268 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Klebsiella phage KMI7') and its host ('Klebsiella michiganensis'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned to determine the thermal range.
+
+
+=============Reasoning for QEG10268 from accession literature=============
+=============Reasoning for QEG10268 from host literature=============
+=============Reasoning for QEG10268 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KMI7), its host (Klebsiella michiganensis), and its origin (Australia). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The decision rules require assigning a classification. Since no evidence is present, the system must default to the 'mesophile' classification as per Rule 4 and the fallback mechanism. 4. The confidence is low because the assignment is based purely on the default rule rather than any supporting data.
+
+

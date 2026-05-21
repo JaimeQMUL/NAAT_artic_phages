@@ -1,0 +1,16 @@
+=============Reasoning for AGF88541 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Salmonella phage FSL SP-063') and its host ('Salmonella enterica'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for AGF88541 from accession literature=============
+=============Reasoning for AGF88541 from host literature=============
+=============Reasoning for AGF88541 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage FSL SP-063), its host (Salmonella enterica), and its origin (USA). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The host, Salmonella enterica, is a common mesophilic bacterium, typically thriving in human or environmental body temperatures (around 37°C). 4. Since no explicit evidence is available, the most probable classification is based on the known ecology of the host organism, defaulting to mesophile as per the decision rules. 5. This classification is therefore 'forced' based on the host context.
+
+

@@ -1,0 +1,23 @@
+=============Reasoning for ATV46299 from metadata=============
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'freshwater' and the location is 'Lake Baikal'. Lake Baikal is known for its cold, deep waters, which suggests a psychrophilic environment. The name 'Baikal-20-5m-C28' also suggests a deep/cold source.
+
+
+=============Reasoning for ATV46299 from accession literature=============
+Paper: 29079621.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The text describes the environment where the microbes, including the phage, were sampled: "Lake Baikal (East Siberia). Two samples obtained from the water column under the ice cover (5 and 20 m deep) in March 2016..." and mentions the conditions are "oligotrophic and cold prevalent conditions." It also states the lake is "frozen from January to May, which generates conditions that include an inverted temperature gradient (colder up)". These descriptions strongly imply a cold environment, consistent with psychrophilic conditions (< 15°C).
+
+
+=============Reasoning for ATV46299 from host literature=============
+=============Reasoning for ATV46299 from metadata (Forced)=============
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage, 'Lake Baikal phage Baikal-20-5m-C28', was isolated from Lake Baikal. Lake Baikal is a deep, freshwater body known for its extremely cold and oligotrophic environment. The metadata provides the geographical context ('Russia: Lake Baikal') and the isolation source ('freshwater'). Given the association with a large, cold freshwater lake, the most probable thermal adaptation is psychrophilic, suggesting an optimal growth range below 15°C. No explicit temperature data is provided, so this is an inference based on the environmental context.
+
+

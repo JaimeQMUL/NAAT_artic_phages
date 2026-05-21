@@ -1,0 +1,38 @@
+=============Reasoning for XHH74879 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for XHH74879 from accession literature=============
+Paper: PMC12092377.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states multiple incubation and testing temperatures for the phages and host bacteria. 
+1. Bacterial growth: "An ORBITEK LEBT-D-1 L orbital shaker was used to grow all bacterial cultures in tryptic soy broth (TSB) overnight at 37°C with agitation at 130 rpm." (Section 2.1)
+2. Phage isolation/testing: "...cultured for 24 h at 37°C." (Section 2.3.1) and "After incubating at 37°C for 16 h, plaques from repeated dilutions of the phage stock were counted on plates." (Section 2.3.1).
+3. One-step growth curve: "At 37°C, the mixture was thereafter incubated." (Section 2.3.4).
+4. Stability assessment: "Incubation was conducted for 24 h at temperatures ranging from 4 to 70°C using phage lysates..." (Section 2.3.5), but the primary operational temperature mentioned for stability testing is 37°C for pH stability assessment: "The combination was then incubated for 24 h at 37°C to assess pH stability." (Section 2.3.5). 
+Since the primary growth, isolation, and most key functional assays are conducted at 37°C, this indicates a mesophilic optimum.
+
+
+=============Reasoning for XHH74879 from host literature=============
+Paper: PMC12915689.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used in several assays: 1. For TEM observation: "Four distinct K-type K. pneumoniae strains were inoculated onto blood agar plates and incubated overnight at 37 °C." 2. For serum resistance assay: "After 0, 1, 2, and 3 h of incubation at 37°C, the mixture was diluted and then plated on LB agar plates." 3. For G. mellonella infection model: "...cultivated in 1 mL of Luria-Bertani (LB) broth at 37 °C with shaking at 200 rpm overnight." 4. For some assays: "After 4 h of incubation at 37 °C, the disks were retrieved..." Since 37°C is the standard incubation temperature for human pathogens and falls within the 15–45°C range, the organism is classified as mesophile.
+
+
+=============Reasoning for XHH74879 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Klebsiella phage KSKp.
+2. **Check for environmental context:** The isolation source is 'sewage' from 'India: Karaikudi Town, Sivaganga District of Tamil Nadu'. Sewage environments are generally considered mesophilic, fluctuating around ambient temperatures, which typically fall within the 15–45°C range.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is drawn from the typical conditions associated with sewage isolation. The mesophilic range (15–45°C) is the most probable classification.
+4. **Fallback:** As the environmental context points towards moderate conditions, 'mesophile' is selected. This classification is assigned by default due to the lack of specific thermal data, fulfilling the fallback rule.
+
+

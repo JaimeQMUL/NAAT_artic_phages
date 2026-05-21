@@ -1,0 +1,26 @@
+=============Reasoning for AGB62738 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'sediments of Goreckie Lake'. Lakes are typically associated with mesophilic environments, and no specific temperature range is provided.
+
+
+=============Reasoning for AGB62738 from accession literature=============
+=============Reasoning for AGB62738 from host literature=============
+Paper: PMC11878797.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper describes the growth conditions for the host bacteria used with the phage phiAGATE. In the 'In vivo splicing dynamics' section, it states: 'Overnight cultures of the host bacterium were diluted in fresh, pre-warmed TSB medium to reach OD600 < 0.1. Flasks with bacteria were incubated at 30°C with vigorous shaking (∼200 rpm, Corning® LSE™ Shaking Incubator) until OD600 = 0.35–0.4 was reached... Samples were collected before and after infection at 5-min (phiAGATE, Bastille, SIOphi) or 15-min (phiNIT1) intervals.' The subsequent section on 'Purification of bacteriophage DNA' also mentions that the DNA pellet was dried out by '5–10 min incubation in 37°C'. Since the host bacteria were grown and the phage was propagated at 30°C, and 30°C falls within the mesophilic range (15–45°C), the thermal characteristic is inferred to be mesophilic.
+
+
+=============Reasoning for AGB62738 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Bacillus phage phiAGATE.
+2. **Check for environmental context:** The isolation source is 'sediments of Goreckie Lake'. Lakes are generally considered temperate environments, which typically fall within the mesophilic range (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context (lake sediments) suggests mesophily. However, the context is not strong enough to override the default rule if the inference is weak. Given the general nature of lake sediments, mesophile is the most probable classification.
+4. **Fallback:** Since the inference is based on a general environmental context rather than specific temperature data, and no other rule applies, the default fallback classification is 'mesophile'.
+
+

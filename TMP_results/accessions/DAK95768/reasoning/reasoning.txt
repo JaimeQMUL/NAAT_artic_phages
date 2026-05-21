@@ -1,0 +1,16 @@
+=============Reasoning for DAK95768 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAK95768 from accession literature=============
+=============Reasoning for DAK95768 from host literature=============
+=============Reasoning for DAK95768 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2012-06-15. Human-associated samples generally imply mesophilic conditions (body temperature range, 37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a moderate environment. 4. Fallback: If the environmental context is weak or absent, default to 'mesophile'. Given the human source, 'mesophile' is the most probable assignment, but since this is not strongly implied by a specific temperature range, the fallback rule dictates 'mesophile'.
+
+

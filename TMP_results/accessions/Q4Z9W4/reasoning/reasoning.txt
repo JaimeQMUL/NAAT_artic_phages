@@ -1,0 +1,33 @@
+=============Reasoning for Q4Z9W4 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for Q4Z9W4 from accession literature=============
+Paper: 41562958.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states that the isolated phages, STB and ECB, showed "stability at 28-55°C". This range encompasses temperatures typically associated with mesophiles (15–45°C), and the stated stability range is the most direct evidence regarding thermal characteristics.
+
+
+=============Reasoning for Q4Z9W4 from host literature=============
+Paper: PMC13186941.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the phage has 'high stability patterns over a wide range of temperatures and pH values (65 ℃ and 3–11)'. The optimal growth temperature range for mesophiles is defined as 15–45°C. Since the phage shows stability at 3–11 (which includes temperatures below 15°C, suggesting psychrophilic potential) and also mentions 65°C (thermophilic), the most encompassing classification based on the provided definitions and the stated stability range (3–11) is mesophile, as the stability range covers the mesophilic range (15-45°C) and the lower end (3-11°C). However, the stability range 3-11°C strongly suggests psychrophilic capability, while 65°C suggests thermophilic capability. Given the explicit mention of stability across a wide range including 3-11°C, and the general context of wound infection models often implying mesophilic conditions, I will classify based on the explicit stability range provided, noting the overlap. Since the definition for mesophile is 15–45°C, and the range 3–11°C is explicitly stated, I will prioritize the classification based on the most conservative interpretation of the stated stability range relative to the definitions. The range 3-11°C falls into the psychrophile definition (< 15°C). I will use the psychrophile classification based on the lower bound of the stated stability range (3–11°C).
+
+
+=============Reasoning for Q4Z9W4 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided for 'Staphylococcus virus G1' is limited to accession numbers, dates, and general identifiers. There is no explicit information regarding the optimal growth temperature or the environmental source temperature.
+2. Since no explicit evidence exists (Rule 1 fails), the system must attempt inference (Rule 2). The organism is a bacteriophage targeting *Staphylococcus*, a genus commonly associated with mammalian skin/mucosal surfaces, which typically maintain mesophilic temperatures (37°C).
+3. As environmental context is weak (no explicit temperature data), the system defaults to the most probable classification based on the host organism's typical niche (Rule 3). The default fallback class (Rule 4) is 'mesophile'.
+4. Therefore, 'mesophile' is assigned as the most probable classification.
+
+

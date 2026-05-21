@@ -1,0 +1,19 @@
+=============Reasoning for AGN33650 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Arabian Sea') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given for the phage or its host.
+
+
+=============Reasoning for AGN33650 from accession literature=============
+=============Reasoning for AGN33650 from host literature=============
+=============Reasoning for AGN33650 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for Synechococcus phage S-IOM18.
+2. **Check for environmental context:** The isolation source is the 'Arabian Sea'. Marine environments generally exhibit temperatures that fluctuate but are often within the moderate range (15–45°C) for general microbial activity, although specific seasonal data is missing.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (marine) is not strongly indicative of extreme temperatures (psychrophile or thermophile), the system must default to the 'mesophile' classification as per Rule 4.
+4. **Conclusion:** Defaulting to mesophile.
+
+

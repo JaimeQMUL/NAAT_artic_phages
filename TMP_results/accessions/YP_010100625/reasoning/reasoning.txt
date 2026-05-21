@@ -1,0 +1,23 @@
+=============Reasoning for YP_010100625 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Escherichia coli O157: H7') and the phage ('Escherichia phage vB_EcoM_005'), but no explicit or strongly implied temperature or growth condition is provided to determine the thermal range.
+
+
+=============Reasoning for YP_010100625 from accession literature=============
+Paper: PMC13070987.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that 'All bacteria and phage incubations were performed at 37 °C using Lysogeny Broth (LB).' Furthermore, the phage stability testing included incubation at '37 °C for 1 h' for pH tolerance and '37 °C' for adsorption assays. The optimal growth temperature for the host bacteria, E. coli, is typically mesophilic, and the experimental conditions consistently used 37 °C, which falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for YP_010100625 from host literature=============
+=============Reasoning for YP_010100625 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage, its host (Escherichia coli O157: H7), and collection details (China, 2017). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range. 3. The host, Escherichia coli, is a well-known mesophilic bacterium, typically thriving in human gut temperatures (37°C), which falls within the mesophile range (15–45°C). 4. Since no explicit evidence exists, the most probable classification is inferred from the known biology of the host organism. 5. As no direct evidence is present, the classification defaults to 'mesophile' based on the host's typical environment, fulfilling the fallback rule.
+
+

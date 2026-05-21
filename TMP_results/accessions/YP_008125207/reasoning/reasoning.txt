@@ -1,0 +1,16 @@
+=============Reasoning for YP_008125207 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'Atlantic:Sarah's Creek' and coordinates '37.26 N 76.48 W', but it does not explicitly state a temperature or a thermal classification (psychrophile, mesophile, thermophile).
+
+
+=============Reasoning for YP_008125207 from accession literature=============
+=============Reasoning for YP_008125207 from host literature=============
+=============Reasoning for YP_008125207 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for the phage. 2. **Check for environmental context:** The isolation source is 'Atlantic:Sarah's Creek' with coordinates '37.26 N 76.48 W' and collection date '01-Jan-1971'. Coastal/marine environments generally support mesophilic life forms, but this is not definitive. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (coastal Atlantic) is not strongly indicative of extreme cold or heat, the system must default to the fallback classification as per Rule 4. 4. **Fallback:** The default classification is 'mesophile'.
+
+

@@ -1,0 +1,16 @@
+=============Reasoning for WJE87915 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal environment of the bacteriophage or its host.
+
+
+=============Reasoning for WJE87915 from accession literature=============
+=============Reasoning for WJE87915 from host literature=============
+=============Reasoning for WJE87915 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the natural environment of Phage C48C1. 2. The note suggests it might be a 'Synechococcus phage or Cyanophage'. Cyanobacteria (like Synechococcus) are generally associated with aquatic environments, which typically exhibit mesophilic conditions (15–45°C) unless specified otherwise (e.g., deep-sea vents or polar ice). 3. Since no explicit evidence is present, and the environmental context (aquatic/cyanobacteria) points towards moderate conditions, the default classification rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

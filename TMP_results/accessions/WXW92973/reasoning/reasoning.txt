@@ -1,0 +1,39 @@
+=============Reasoning for WXW92973 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for WXW92973 from accession literature=============
+Paper: PMC11237712.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states, "After 24 hours at 30°C, ~2 mm clear, symmetrical, circular plaques appeared, containing bacteriophage Amabiko (Fig. 1A)."
+
+
+=============Reasoning for WXW92973 from host literature=============
+Paper: PMC8914351.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the culture conditions for the bacteria: "Streptomyces scabiei 87–22 and its ΔcebR mutant [22] were routinely cultured in Tryptic Soy broth (TSB, 30 g l−1, Sigma-Aldrich) or ISP2 (for 1 l: 4 g Yeast Extract, 10 g Malt Extract, 4 g Dextrose, pH 7.2) liquid media at 28 °C under shaking (180 r.p.m., New Brunswick Innova 44 incubator shaker)." Additionally, later sections confirm this temperature: "After 96 h of incubation at 28 °C, half of each plate was extracted..." and "After 30 min of incubation in TDMm at 28 °C, a first sample...". Since 28°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC11385150.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The protocol for plating the phages states: "...and incubated for 24–48 hours at 30°C." This temperature (30°C) falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for WXW92973 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Streptomyces phage Amabiko.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (39.256230 N 76.712860 W), indicating a temperate terrestrial environment. Soil bacteria and phages are generally associated with mesophilic conditions unless specific extreme environments are noted.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

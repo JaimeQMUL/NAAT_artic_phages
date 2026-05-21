@@ -1,0 +1,20 @@
+=============Reasoning for UTQ80312 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'cattle intestine meat'. Intestines are typically associated with moderate body temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for UTQ80312 from accession literature=============
+=============Reasoning for UTQ80312 from host literature=============
+=============Reasoning for UTQ80312 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'Escherichia coli', and the isolation source is 'cattle intestine meat'.
+2. Escherichia coli is a common bacterium associated with the mammalian gut, which typically maintains a temperature range compatible with mesophilic life (around 37°C).
+3. No explicit thermal range is provided for the phage. Therefore, the classification must be inferred.
+4. Based on the host's typical environment (gut/intestine), the most probable thermal classification is mesophile (15–45°C).
+5. Since no direct evidence exists, the classification defaults to mesophile as per the decision rules.
+
+

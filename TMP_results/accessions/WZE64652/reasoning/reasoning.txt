@@ -1,0 +1,16 @@
+=============Reasoning for WZE64652 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage Ge15') and its host ('Escherichia coli str. K-12 substr MG1655'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for WZE64652 from accession literature=============
+=============Reasoning for WZE64652 from host literature=============
+=============Reasoning for WZE64652 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Escherichia phage Ge15) and its host (Escherichia coli str. K-12 substr MG1655). 2. No explicit thermal range is provided in the metadata. 3. The host, Escherichia coli, is a well-known mesophilic bacterium, typically thriving in moderate environmental temperatures (15–45°C). 4. Since no specific thermal data is available, the most probable classification is based on the known ecology of the host organism, defaulting to mesophile as per the decision rules. 5. This classification is assigned using the fallback rule (Rule 4) because environmental context (host) is the only available clue, but it is not explicitly stated as the phage's optimal range.
+
+

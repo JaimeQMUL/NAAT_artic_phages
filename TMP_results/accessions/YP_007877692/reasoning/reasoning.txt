@@ -1,0 +1,19 @@
+=============Reasoning for YP_007877692 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Red Sea') and coordinates ('29.28 N 34.53 E'), but no explicit temperature or environmental condition is stated to determine the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_007877692 from accession literature=============
+=============Reasoning for YP_007877692 from host literature=============
+=============Reasoning for YP_007877692 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain explicit temperature ranges for Cyanophage P-RSM1.
+2. Check for environmental context: The isolation source is 'Red Sea' (lat_lon: '29.28 N 34.53 E'). The Red Sea generally has warm, moderate temperatures, but this is not a precise temperature reading.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (Red Sea) is not strongly indicative of extreme cold or heat, the system must default to the fallback classification.
+4. Fallback: The default classification is 'mesophile'.
+
+

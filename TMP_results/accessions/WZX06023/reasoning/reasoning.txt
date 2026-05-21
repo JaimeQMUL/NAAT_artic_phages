@@ -1,0 +1,19 @@
+=============Reasoning for WZX06023 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage 232Ecol030PP') and its host ('Escherichia coli'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for WZX06023 from accession literature=============
+=============Reasoning for WZX06023 from host literature=============
+=============Reasoning for WZX06023 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Escherichia phage 232Ecol030PP.
+2. Check for environmental context: The metadata indicates the host is 'Escherichia coli' and the collection country is 'Poland'. Escherichia coli is a common mesophilic bacterium, typically thriving in human gut temperatures (37°C), which falls within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is drawn from the known biology of the host organism (E. coli). The most probable classification is mesophile.
+4. Final assignment: Defaulting to mesophile based on host context, as per rule 3.
+
+

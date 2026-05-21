@@ -1,0 +1,19 @@
+=============Reasoning for DAD89234 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the 'isolation_source' is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAD89234 from accession literature=============
+=============Reasoning for DAD89234 from host literature=============
+=============Reasoning for DAD89234 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Microviridae sp. ctNWS1.
+2. Check for environmental context: The isolation source is listed as 'Human metagenome' and the collection date is 2014-02-06. Human-associated samples generally imply mesophilic conditions (15–45°C) unless otherwise specified.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a human host, pointing towards mesophily. However, the context is weak (only 'Human metagenome').
+4. Fallback: As the environmental context is not strongly indicative of psychrophilic or thermophilic conditions, and no explicit data is present, the system defaults to 'mesophile' as per the mandatory fallback rule.
+
+

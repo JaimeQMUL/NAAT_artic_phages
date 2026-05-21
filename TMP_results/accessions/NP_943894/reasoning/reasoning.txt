@@ -1,0 +1,40 @@
+=============Reasoning for NP_943894 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Aeromonas phage Aeh1') and its host ('Aeromonas hydrophila'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for NP_943894 from accession literature=============
+Paper: PMC8861465.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The optimal adsorption time and one-step growth curve experiments were conducted at 29°C. Furthermore, the initial incubation for phage isolation and subsequent plaque assays were performed at 29°C. The temperature stability assessment explicitly states that "The activity of phage Ca is stable at 40°C." The host bacteria, H. paralvei LY-23, was grown at 29°C in multiple sections ("H. paralvei LY-23 was grown in LB medium... at 29°C"). Since 29°C falls within the mesophilic range (15–45°C), and this temperature is repeatedly used for optimal growth and stability testing, the phage is characterized as mesophilic.
+
+
+Paper: PMC3468402.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the thermal stability test conditions for phage $\phi$pp2: "The phage was incubated at 37, 50, 61, 70, and 80°C for one hour, respectively." It also notes that "phage $\phi$pp2 stock solution retained almost 100% infection activity after incubation at temperatures lower than 37°C for one hour." The host bacteria, *Vibrio parahaemolyticus*, were grown and used in subsequent assays at $37^{\circ}\text{C}$ ("In phage propagation, ten milliliters of $\phi$pp2 phage stock were added to 50 ml of V. parahaemolyticus (3x $10^8$ CFU ml$^{-1}$) cultured in MSWYE, incubated in a shaker at $37^{\circ}\text{C}$ for 3–5 hours..."). The optimal growth temperature for the host, and the temperature used for initial phage propagation and many assays, is $37^{\circ}\text{C}$, which falls within the mesophile range ($15–45^{\circ}\text{C}$). The phage retains high activity at $37^{\circ}\text{C}$ and shows significant decline above $50^{\circ}\text{C}$, suggesting mesophilic characteristics.
+
+
+=============Reasoning for NP_943894 from host literature=============
+Paper: PMC13180774.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal temperature for the hydrolytic activity of purified AmyPG2 was identified over the range 0–45 °C, and 'The purified AmyPG2 displayed the optimal activity at 25 °C' (Results section). Since 25°C falls within the mesophile range (15–45°C), the classification is mesophile. Furthermore, the discussion notes that 'AmyPG2 was a cold-adapted and alkalophilic α-amylase with the highest activity at 25 °C' (Discussion section).
+
+
+=============Reasoning for NP_943894 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Aeromonas phage Aeh1') and its host ('Aeromonas hydrophila').
+2. There is no explicit information regarding the optimal growth temperature for the phage or its host.
+3. The host, *Aeromonas hydrophila*, is a common bacterium often associated with environmental water sources and moderate temperatures. In the absence of specific thermal data, the default classification rule (Rule 4) mandates assigning 'mesophile'.
+4. Therefore, 'mesophile' is selected as the most probable classification.
+
+

@@ -1,0 +1,45 @@
+=============Reasoning for QHB41545 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Dickeya phage Ds5CZ') and its host ('Dickeya solani'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for QHB41545 from accession literature=============
+=============Reasoning for QHB41545 from host literature=============
+Paper: PMC12886445.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "thermal stability tests indicated that all three phages maintained infectivity across a broad temperature range (−20 °C to 60 °C)". The optimal growth temperature for the host, D. solani, was used for multiple assays, including "incubated at 28 °C" (Section 2.2, 2.3, 2.6, 2.8, 2.9). The general optimal growth range for mesophiles is 15–45°C. Since the phages maintained infectivity up to 60°C but were tested and used in assays centered around 28°C, and the host growth was optimized at 28°C, the classification points towards mesophile, as 28°C falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC10620192.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature used for multiple assays involving D. solani strains: 
+1. "All the Dickeya spp. strains were grown on TSA plates (GRASO Biotech, Poland) at 28 °C for 48 h." (MALDI-TOF MS section)
+2. "Five ml of Trypticase Soy Broth (TSB) were inoculated with a single bacterial colony collected from a TSA plate and incubated for 24 h at 28 °C with 120 rpm shaking." (Virulence-associated features section)
+3. "The absorbance at 600 nm was measured every 20 min during 24 h stationary incubation at 28 °C." (Growth dynamics section)
+4. "The lid-covered boxes were incubated for 48 h at 28 °C." (Potato tissue maceration assay section)
+5. "After 48 h incubation at 28 °C, the medium was flooded with 10% copper acetate." (Pectinase activity section)
+6. "After 48 h incubation at 28 °C, the medium was covered with 1% Congo red solution..." (Cellulase activity section)
+7. "After 24 h incubation at 28 °C, the diameters of the halo zones surrounding bacterial colonies, which referred to protease activity, were measured." (Protease activity section)
+8. "After 24 h of incubation at 28 °C, the diameters of the bacterial colonies were measured." (Swimming motility section)
+9. "After 16 h incubation at 18 °C without shaking..." (Biofilm formation section - Note: This is an exception, but the general growth/assay temperature is 28°C).
+10. "After 24 h incubation at 28 °C, the diameters of the halo zones around bacterial colonies reflecting siderophore activity were measured." (Siderophores section)
+11. "These media were examined after 24 h incubation at 28 °C, further monitored for over 72 h..." (Biochemical profiles section). 
+Since 28°C falls within the defined mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for QHB41545 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Dickeya phage Ds5CZ) and its host (Dickeya solani). 
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range.
+3. The decision rules state that if environmental context is weak or absent, the MOST PROBABLE classification must be assigned. 
+4. Since the host, *Dickeya solani*, is a common environmental bacterium, and no specific temperature data is available, the default fallback classification for general microbial life, as per the rules, is 'mesophile' (15–45°C).
+
+

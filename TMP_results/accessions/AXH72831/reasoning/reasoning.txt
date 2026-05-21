@@ -1,0 +1,23 @@
+=============Reasoning for AXH72831 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata mentions the isolation source is 'animals' and the metagenome source is 'animal metagenome', but it does not specify any temperature or thermal condition for the isolation or growth.
+
+
+=============Reasoning for AXH72831 from accession literature=============
+Paper: 42026481.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is characterized in relation to 'Antarctic temperate phage Perkons' and the host is 'Psychrobacillus sp. L4'. The presence of 'Antarctic' strongly suggests adaptation to cold environments, leading to the classification of psychrophile. The text does not provide explicit temperature measurements for the phage's optimal growth.
+
+
+=============Reasoning for AXH72831 from host literature=============
+=============Reasoning for AXH72831 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. **Check for environmental context:** The isolation source is 'animals' and the collection date is '01-Jun-2017' from the USA. While animal sources can inhabit various temperature ranges, this context is too broad to definitively classify the phage as psychrophile or thermophile. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is weak, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+
+

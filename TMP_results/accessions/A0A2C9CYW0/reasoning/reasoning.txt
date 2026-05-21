@@ -1,0 +1,64 @@
+=============Reasoning for A0A2C9CYW0 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for A0A2C9CYW0 from accession literature=============
+Paper: PMC12643550.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions several incubation temperatures for experiments involving phage X1 and Y. enterocolitica. Specific conditions include: 
+1. "The culture was maintained with shaking at 180 rpm or on LB 1.5% agar plates at 37°C." (General culture condition)
+2. "Y. enterocolitica was grown in TG broth... under shaking conditions at 25°C." (Growth condition for Y. enterocolitica)
+3. "A single plaque was isolated from the semi-solid agar TG broth and added into TG broth containing 100 μl of fresh logarithmic phase host bacteria, followed by incubation for 6 h at 37°C." (Plaque isolation incubation)
+4. "The plates were incubated at either 25°C or 37°C, depending on the experimental conditions." (Serial dilution plaque assay incubation)
+5. "The mixture was incubated at either 25°C or 37°C for 15 min with shaking at 180 rpm..." (Bacteriophage adsorption assay incubation)
+6. "Plates were incubated at 37°C, and the emergence of phage-resistant colonies within lysis zones was monitored." (Identification of phage receptor genes incubation)
+7. "The samples were placed on a copper grid and prepared using negative staining with 1% phosphotungstic acid before observation with TEM... These plates were then incubated at 25°C or 37°C for 24 h." (TEM incubation)
+8. "The mixture was incubated with a final concentration of 30 pm DNase Ⅰ at 37°C for 5 min. Subsequently, the mixture was incubated at 25°C for 30 min with shaking at 180 rpm..." (DNase I protection assay incubation)
+9. "...incubated at either 25°C or 37°C for 24 h." (SYBR Gold staining incubation)
+10. "The mixture was incubated with shaking for 15 min at either 25°C or 37°C..." (Efficiency of center of infection assays incubation)
+11. "The plates were inverted and incubated at either 25°C or 37°C for 16 h." (Efficiency of plating assay incubation)
+12. "The mixture was shaken and incubated for 15 min at either 25°C or 37°C." (Bacterial survival after phage infection incubation)
+13. "The mixture was shaken and incubated at 25°C..." (Confocal laser microscopy observation incubation)
+14. "The mixture was shaken and incubated for 15 min at either 25°C or 37°C." (RNA-seq incubation)
+15. "The mixture was shaken and incubated for 15 min at either 25°C or 37°C." (qRT-PCR incubation)
+16. "Reactions were incubated at 37°C or 25°C as indicated..." (DNase and RNase activity assay incubation)
+17. "All NMR spectra were collected on a Bruker 800 MHz (Avance III HD) spectrometer equipped with cryoprobe at 298 K." (NMR temperature, which is approximately 25°C)
+2. The text explicitly states that the host bacterium, Yersinia enterocolitica, is a pathogenic bacterium and that the experiments are conducted at 25°C and 37°C. The general physiological range for *Yersinia* species and the use of 37°C (human body temperature) alongside 25°C (room/optimal lab temperature) suggests the organism is mesophilic. The definition for mesophile is 15–45°C, which encompasses both tested temperatures and is consistent with the known biology of *Yersinia* species, as implied by the context of pathogenicity and standard lab culture conditions.
+
+
+Paper: PMC12735813.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the phage activity at several temperatures. The stability analysis (Section 3.2.1) showed that the phage activity remained relatively stable below 60 °C, but was completely lost at 70 °C. Furthermore, the host range assays (Section 3.3) and one-step growth curve experiments (Section 2.5.3) were conducted at 21 °C, 28 °C, and 37 °C. Since the optimal growth/activity range includes 28 °C and 37 °C, which fall within the 15–45°C range, the phage is classified as mesophile.
+
+
+Paper: PMC13070987.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that 'All bacteria and phage incubations were performed at 37 °C using Lysogeny Broth (LB).' Furthermore, the phage stability test involved incubating the phage suspension at 'temperatures ranging from 4 °C to 80 °C for 1 h,' and the pH-tolerance test was conducted after incubation at '37 °C for 1 h.' The optimal growth/incubation temperature mentioned repeatedly is 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11273794.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states: "Thermal stability assays revealed that XaC1 showed no changes on infectivity between 25 °C and 35 °C but a significant reduction in titer of about <1-log unit at 45 °C (p > 0.05) compared with the initial titer (106 PFU/mL); in contrast, phage XbC2 was stable at temperatures from 25 to 45 °C." The optimal growth/stability range mentioned for both phages is between 25 °C and 45 °C. According to the definitions, the mesophile range is 15–45°C. The discussion section summarizes this by stating: "our results suggest that both phages remain relatively viable at a range of 25–45 °C".
+
+
+=============Reasoning for A0A2C9CYW0 from host literature=============
+=============Reasoning for A0A2C9CYW0 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided (UID, accession, title, organism, sequence length, dates, etc.) does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Yersinia phage fHe-Yen9-04.
+2. No environmental context is available to infer the temperature.
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+
+

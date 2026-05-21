@@ -1,0 +1,33 @@
+=============Reasoning for YP_009597225 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Campylobacter jejuni') and isolation source ('poultry fecal matter'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_009597225 from accession literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and phage assays. For bacterial growth (e.g., C. jejuni on MH agar), the temperature is stated as 'incubated at 42 °C'. For phage propagation and assays, the incubation temperatures are repeatedly mentioned as '37 °C' or '42 °C'. Since the optimal growth temperature for the host bacteria, *C. jejuni*, is consistently maintained at 42 °C, and the phage assays are performed at this temperature, the thermal characteristic is associated with this range. According to the definitions, 15–45°C corresponds to mesophile. Therefore, 42°C places the thermal characteristic in the mesophile range.
+
+
+Paper: PMC8713573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard growth conditions for C. jejuni strains used in the study: "C. jejuni strains were standardly grown on base II agar plates containing 5% calf blood at 41.6°C under microaerobic conditions..." and "Bacterial cultures were then incubated for 4 h at 41.6°C under microaerobic conditions..." and "Plates were then incubated for 18–24 h at 41.6°C under microaerobic conditions." Since the phage work is conducted using C. jejuni strains, the phage thermal characteristics are inferred to be related to the host's optimal growth temperature, which is 41.6°C. According to the definitions, 15–45°C is mesophile, and 41.6°C falls within this range.
+
+
+=============Reasoning for YP_009597225 from host literature=============
+=============Reasoning for YP_009597225 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage targets 'Campylobacter jejuni' and was isolated from 'poultry fecal matter'.
+2. **Determine Environmental Context:** *Campylobacter jejuni* is a common bacterium associated with the gastrointestinal tract of poultry, which typically experiences moderate temperatures (body temperature range, 37°C, falls within the mesophilic range of 15–45°C).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (fecal matter/gut association) strongly suggests a mesophilic lifestyle.
+4. **Conclusion:** Since the context points to a moderate environment and no other evidence is available, 'mesophile' is assigned as the most probable classification. This assignment relies on the general knowledge of the host organism's typical niche, which is considered a weak inference, leading to a fallback classification.
+
+

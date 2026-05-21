@@ -1,0 +1,26 @@
+=============Reasoning for UTQ79362 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'intestinal mucosa of piglets'. Intestinal mucosa is typically associated with mesophilic environments.
+
+
+=============Reasoning for UTQ79362 from accession literature=============
+=============Reasoning for UTQ79362 from host literature=============
+Paper: PMC13110476.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states that when culturing samples, "The media were incubated for 24 h at 37°C." This temperature (37°C) falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UTQ79362 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the host organism ('Escherichia coli 162') and the isolation source ('intestinal mucosa of piglets').
+2. Escherichia coli is a common bacterium associated with the mammalian gut, which typically maintains a temperature range compatible with mesophilic life (37°C).
+3. No explicit thermal range is provided for the phage. Therefore, the most probable classification, based on the known ecology of the host and source, is mesophile.
+4. Since no direct evidence exists, the classification defaults to mesophile as per the decision rules.
+
+

@@ -1,0 +1,23 @@
+=============Reasoning for UOL51478 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Vibrio alginolyticus'), and accession details, but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for UOL51478 from accession literature=============
+=============Reasoning for UOL51478 from host literature=============
+Paper: PMC13142089.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the stability of ValKK3 at various temperatures. It states: "ValKK3 was stable at 40°C but began to lose activity at 50°C to 80% following heating for 60 min. The lytic activity disappeared entirely when heated at more than 60°C for 1 h (Figure 6A)." Since the phage is stable at 40°C and loses activity above 60°C, its optimal or effective range falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for UOL51478 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Vibrio phage XZ1. 2. The host organism, Vibrio alginolyticus, is a common marine bacterium often associated with moderate environmental temperatures. 3. Since no explicit evidence is available, the decision rules mandate defaulting to 'mesophile' as the fallback classification. 4. Therefore, 'mesophile' is assigned based on the fallback rule.
+
+

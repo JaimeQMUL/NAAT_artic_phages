@@ -1,0 +1,30 @@
+=============Reasoning for YP_009850742 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'wastewater treatment plant'. Wastewater treatment plants are generally associated with mesophilic environments, which implies a mesophilic thermal range for the associated phage/host.
+
+
+=============Reasoning for YP_009850742 from accession literature=============
+Paper: PMC6940310.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host, Stenotrophomonas maltophilia, was grown aerobically at 30°C in nutrient broth or agar (BD). Since the phage was propagated using the soft-agar overlay method with the host, the optimal growth temperature for the phage is inferred to be similar to the host's growth temperature. 30°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009850742 from host literature=============
+Paper: PMC13179404.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth conditions for the strains: "The optimum growth of both strains, when grown on LB medium, was at pH 9 with 3% salinity at 35 °C (Table S1)." Furthermore, when discussing the initial inoculum preparation, it mentions: "For all subsequent experiments, inoculum was prepared by growing the strains in 10 mL LB medium amended with 1 mg L− 1 Cr(VI) in 15 mL culture tubes at 35 °C under anaerobic conditions." The temperature of 35°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009850742 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Stenotrophomonas phage Moby. 2. **Check for environmental context:** The isolation source is 'wastewater treatment plant' and the collection date is '2018' from 'USA: Bryan, TX'. Wastewater treatment plants typically operate under mesophilic conditions (15–45°C). 3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context (wastewater) strongly suggests mesophilic conditions. 4. **Fallback:** Although the context points to mesophile, the rule set requires a classification based on the *most probable* assignment when evidence is weak or absent. Given the general nature of wastewater sources and the lack of specific temperature data, the default assignment based on the general microbial ecology of such sources is mesophile. 5. **Conclusion:** Assign mesophile as the most probable classification.
+
+

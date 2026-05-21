@@ -1,0 +1,19 @@
+=============Reasoning for DAR64112 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAR64112 from accession literature=============
+=============Reasoning for DAR64112 from host literature=============
+=============Reasoning for DAR64112 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit temperature ranges for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2012-12-03'. Human-associated environments typically suggest mesophilic conditions (body temperature range).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context points towards human-associated microbes, which are generally mesophiles (15–45°C).
+4. Final assignment: As the environmental context is suggestive but not definitive, and no other rule applies, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+
+

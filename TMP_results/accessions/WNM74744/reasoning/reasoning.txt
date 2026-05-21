@@ -1,0 +1,44 @@
+=============Reasoning for WNM74744 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for WNM74744 from accession literature=============
+Paper: PMC13171985.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions optimal or tested temperatures for the enzyme system. For the biosensor readout, the efficiency was measured at 30°C, 34°C, and 37°C, with the best performance noted at 30°C. For the whole-cell bioconversion assay, the enzyme was tested at 30°C and 37°C. The text states that the activity of the evolved enzyme at 37°C still outperformed the WT enzyme at 30°C. Since the optimal/best performing conditions tested are around 30–37°C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text provides multiple explicit temperature mentions for culturing related organisms or processes. For the phage's host, *Streptomyces clavuligerus*, the following conditions are stated: 
+1. Spores of *S. clavuligerus* were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days).
+2. Spores of *S. clavuligerus* wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm.
+3. Cultures were incubated for 120 h, at 220 rpm and 28 °C.
+4. The protoplasts were obtained from cultures grown at 30 °C in YEMEG medium.
+Since the primary growth and culture conditions for the host are consistently reported around 28°C to 30°C, this falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for WNM74744 from host literature=============
+Paper: PMC11413697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation temperatures for bacterial growth and fermentation. For the initial seed culture of *M. echinospora* ATCC 15835, the temperature used was 28°C: "The seed culture (in liquid ATCC 172 medium) was incubated at 28 °C and 220 rpm for 3 days". For the subsequent 50 mL culture, the incubation temperature was also 28°C: "The culture was incubated at 28 °C and 220 rpm for 5 days." For the large-scale industrial fermentation, the initial incubation temperature was 34°C: "the seed culture (in liquid ATCC 172 medium with 25 μg/mL thiostrepton) was incubated at 34 °C and 220 rpm for 3 days". The general range of 28°C to 34°C falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for WNM74744 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage PinkiePie'.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.643745 N 90.298538 W). Soil environments are generally considered mesophilic, though temperature varies widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As the environmental context is not strongly defining (soil can host various temperature organisms), and no direct evidence is present, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

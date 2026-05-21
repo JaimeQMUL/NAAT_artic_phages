@@ -1,0 +1,16 @@
+=============Reasoning for QBP05660 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Escherichia phage PHB12') and its host ('Escherichia coli'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for QBP05660 from accession literature=============
+=============Reasoning for QBP05660 from host literature=============
+=============Reasoning for QBP05660 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage PHB12. 2. The host organism, Escherichia coli, is a well-known mesophile, typically thriving in moderate temperatures (37°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Therefore, the classification defaults to mesophile, consistent with its known bacterial host.
+
+

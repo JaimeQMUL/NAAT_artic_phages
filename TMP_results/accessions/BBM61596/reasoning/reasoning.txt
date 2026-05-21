@@ -1,0 +1,20 @@
+=============Reasoning for BBM61596 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for BBM61596 from accession literature=============
+=============Reasoning for BBM61596 from host literature=============
+=============Reasoning for BBM61596 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to identification details (UID, accession, title, organism, etc.) and contains no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage SP27.
+2. Rule 1 (Explicit evidence) fails.
+3. Rule 2 (Inference from environmental context) fails due to lack of context.
+4. Rule 3 dictates assigning the MOST PROBABLE classification. Since the phage targets *Escherichia*, which is a common gut bacterium, and no other information suggests extreme conditions, the default assumption for non-specified environmental microbes is mesophilic, aligning with the general definition of moderate environments (15–45°C).
+5. Rule 4 (Fallback) is triggered, leading to the default assignment of 'mesophile'.
+
+

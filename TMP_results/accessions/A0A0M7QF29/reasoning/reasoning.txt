@@ -1,0 +1,19 @@
+=============Reasoning for A0A0M7QF29 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Escherichia phage slur14') and its host ('Escherichia coli'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for A0A0M7QF29 from accession literature=============
+=============Reasoning for A0A0M7QF29 from host literature=============
+=============Reasoning for A0A0M7QF29 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for 'Escherichia phage slur14'.
+2. Check for environmental context: The host organism is 'Escherichia coli', which is a common bacterium typically associated with mesophilic environments (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The association with *E. coli* strongly suggests a mesophilic lifestyle. However, since this is not a direct temperature measurement, and the metadata is otherwise sparse, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+4. Conclusion: The most probable classification, based on the host organism and lack of contrary evidence, is mesophile.
+
+

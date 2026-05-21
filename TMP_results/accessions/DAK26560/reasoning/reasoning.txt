@@ -1,0 +1,19 @@
+=============Reasoning for DAK26560 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAK26560 from accession literature=============
+=============Reasoning for DAK26560 from host literature=============
+=============Reasoning for DAK26560 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit temperature ranges for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2012-06-19. Human-associated samples generally imply mesophilic conditions (body temperature range).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (human host) suggests moderate conditions, we infer mesophily. However, the context is not strong enough to be classified as 'inferred' with high confidence, and the rules mandate a classification. Therefore, we default to 'mesophile' as the most probable classification based on the general nature of human-associated microbes, fulfilling the fallback requirement.
+4. Conclusion: Assign 'mesophile'.
+
+

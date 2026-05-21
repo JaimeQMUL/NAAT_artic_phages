@@ -1,0 +1,25 @@
+=============Reasoning for QPB09003 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for QPB09003 from accession literature=============
+=============Reasoning for QPB09003 from host literature=============
+Paper: PMC13118744.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperatures used for various experiments. For the effect of temperature on MR decolorization, the assays were performed under different temperatures (30, 37, 45, and 50 °C). The results section notes that the decolorization rates ranged from 94.2% to 97.6% after treatment for 8 h within the temperature range of 30–45 °C, and that the optimal decolorization temperature was found to be 45 °C. The text also mentions that 'Actual textile effluent usually has the property of a wide range of temperatures (30–55 °C) [22]. Thus, the bacterium WH2 exhibited higher decolorization activity between 30 and 45 °C.' Since the optimal range identified is 30–45 °C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for QPB09003 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Klebsiella phage Metamorpho.
+2. Check for environmental context: The isolation source is 'wastewater' and the collection date is '2019' from 'USA: Madisonville, TX'. Wastewater environments are generally considered mesophilic, fluctuating around moderate temperatures.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context (wastewater) suggests mesophilic conditions. However, the inference is not strong enough to be classified as 'inferred' with high confidence, and the metadata is otherwise sparse regarding temperature. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

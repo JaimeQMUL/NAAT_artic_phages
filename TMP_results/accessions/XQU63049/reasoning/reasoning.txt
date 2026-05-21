@@ -1,0 +1,47 @@
+=============Reasoning for XQU63049 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for XQU63049 from accession literature=============
+Paper: PMC13120357.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth temperature for the host bacterium, which is used as the basis for phage activity testing. The text mentions: "The optimal growth temperature of the host bacterium was 28 °C." Furthermore, multiple procedures (e.g., phage adsorption assay, one-step growth curve, in vitro lysis assay) were conducted at 28 °C, and the thermal stability test included 28 °C as a tested point. Since 28 °C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic based on the host's optimal condition.
+
+
+=============Reasoning for XQU63049 from host literature=============
+Paper: PMC13120357.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth temperature for the host bacterium, which is used as the basis for phage activity testing. The text mentions: "The optimal growth temperature of the host bacterium was 28 °C." Furthermore, multiple procedures (e.g., phage adsorption assay, one-step growth curve, in vitro lysis assay) were conducted at 28 °C, and the thermal stability test included 28 °C as a tested point. Since 28 °C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic based on the host's optimal condition.
+
+
+Paper: PMC10537231.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the optimal growth temperature for the host bacterium, C. indologenes MA9, which is used for phage propagation and assays. In section 2.1, it mentions: "C. indologenes MA9 was cultured in an optimized nutrient agar (NA) medium (10 g peptone, 5 g sodium chloride, and 3 g beef extract) at 160 rpm at 28°C." Furthermore, multiple sections (2.2, 2.3, 2.4, 2.5, 2.7, 2.11) confirm that subsequent assays were performed at 28°C. Since 28°C falls within the mesophile range (15–45°C), the phage's optimal conditions are inferred to be mesophilic based on the host's optimal culture conditions.
+
+
+Paper: PMC10146277.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for bacterial growth and enzyme assays. For general growth/isolation, the plates were incubated at "30 °C for 3 days" (Section 2.2.2). For subsequent growth profile analysis, the cultures were agitated at "37 °C" (Section 2.2.7). For enzyme assays, incubation temperatures were specified as "40 °C" (Section 2.2.6) or "50 °C" (Section 2.2.9). Since the optimal growth temperature range mentioned (30°C, 37°C) falls within the 15–45°C range, the classification is mesophile. The text also mentions that the general incubation temperature for the initial isolation was 30°C, and later growth was monitored at 37°C, both falling within the mesophilic range.
+
+
+=============Reasoning for XQU63049 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the collection date is 'May-2024' from 'China'. Wastewater environments are generally considered mesophilic, fluctuating around moderate temperatures.
+3. **Apply decision rules:** Since no explicit evidence exists, the system must infer. The environment (wastewater) suggests mesophilic conditions. However, the inference is not strong enough to be classified as 'inferred' with high confidence, and the metadata is otherwise sparse regarding temperature. Therefore, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+4. **Conclusion:** Assigning 'mesophile' based on the fallback rule due to lack of specific thermal data.
+
+

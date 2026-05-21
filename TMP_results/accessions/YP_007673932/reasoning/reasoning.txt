@@ -1,0 +1,22 @@
+=============Reasoning for YP_007673932 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('ALOHA') and coordinates ('22.45 N 158.00 W'), but no explicit temperature or environmental condition (like 'cold' or 'hot') is stated to determine the thermal range.
+
+
+=============Reasoning for YP_007673932 from accession literature=============
+=============Reasoning for YP_007673932 from host literature=============
+=============Reasoning for YP_007673932 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Prochlorococcus' and was isolated from 'ALOHA' (a location in the Pacific Ocean) with coordinates '22.45 N 158.00 W' and a collection date of '09-Mar-2006'.
+2. **Determine Environmental Context:** The isolation source (open ocean, tropical/subtropical coordinates) suggests a marine environment. Prochlorococcus itself is known to inhabit oligotrophic, warm-to-temperate surface waters.
+3. **Apply Decision Rules:**
+    *   No explicit thermal range is provided.
+    *   The environmental context (open ocean, tropical latitude) suggests moderate temperatures, typically falling within the mesophilic range (15–45°C).
+    *   Since the context points towards moderate marine conditions and no other information is available, the most probable classification is mesophile.
+4. **Conclusion:** Defaulting to mesophile based on the general environmental context of open-ocean marine phages associated with phototrophic bacteria.
+
+

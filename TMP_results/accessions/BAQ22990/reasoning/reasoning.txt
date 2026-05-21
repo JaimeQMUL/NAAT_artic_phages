@@ -1,0 +1,45 @@
+=============Reasoning for BAQ22990 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Edwardsiella ictaluri'), and accession details, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned.
+
+
+=============Reasoning for BAQ22990 from accession literature=============
+Paper: PMC8752677.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions several incubation and storage temperatures. For bacterial growth and phage isolation/titer determination, the following temperatures are explicitly stated: 
+1. Host growth: "Hosts were grown in Luria Bertani (LB) broth to mid-log phase at 37 °C and 120 rpm for 6–8 h before use" (Methods section).
+2. Phage isolation/enrichment incubation: "...and then incubated overnight at 37 °C and 120 rpm." (Methods section).
+3. Titer determination incubation: "The plate was incubated at 37 °C overnight..." (Methods section).
+4. Phage storage stability: "DW-EC storage stability was tested at a temperature of 4 °C for a duration of 21 weeks." (Results section).
+5. Food application incubation: "Samples were incubated at 4 °C for 1 day and 6 days." (Results section).
+6. Bacterial storage: "...and then stored in a refrigerator at 4 °C" (Methods section).
+
+The optimal growth temperature for the host bacteria (ETEC) and the conditions used for phage isolation, titer determination, and initial application testing are consistently around 37°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13119998.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states, "Once purified, they were grown to high titer (≥10^8 pfu/mL) at 37 °C for 2 days." The incubation temperature of 37 °C falls within the mesophile range (15–45°C).
+
+
+Paper: 40425115.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that LysSGF3 exhibited robust lysis activity against S. flexneri 1.10599 at 37 °C. Since 37 °C falls within the mesophile range (15–45°C), the phage/protein activity is associated with mesophilic conditions.
+
+
+=============Reasoning for BAQ22990 from host literature=============
+=============Reasoning for BAQ22990 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Edwardsiella phage PEi26) and its host (Edwardsiella ictaluri). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The decision rules require assigning a classification. Since no environmental context is provided, the system must default to the fallback classification. 4. The fallback classification for insufficient evidence is 'mesophile'.
+
+

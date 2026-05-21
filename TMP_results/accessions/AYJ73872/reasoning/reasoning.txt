@@ -1,0 +1,60 @@
+=============Reasoning for AYJ73872 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'hot spring water', which strongly implies a thermophilic environment. Additionally, the organism name contains 'Thermus', and the title mentions '[Thermus phage phiLo]', suggesting a thermophilic association.
+
+
+=============Reasoning for AYJ73872 from accession literature=============
+Paper: PMC10836841.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the melting temperature (Tm) of the PhiKo endolysin: "The PhiKo endolysin is highly thermostable with melting temperature of 91.70°C." Furthermore, the optimal lytic activity temperature is stated as: "The temperature optimal for this enzyme’s lytic activity was 60°C (Figure 4E)." Since the definition for a thermophile is > 45°C, and the reported Tm (91.70°C) and optimal activity temperature (60°C) are both significantly above 45°C, the phage/enzyme is classified as thermophile.
+
+
+Paper: PMC11780859.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The abstract states: "A ligase from Thermus phage phiLo (GenBank: AYJ73970) or Tph ssDNA ligase (SDL) depicted higher ssDNA ligation activity than TS2126 RNA ligase." The name 'Thermus phage phiLo' and the subsequent identification of the enzyme as 'Tph ssDNA ligase' strongly suggest a thermophilic origin, consistent with the genus *Thermus*.
+Furthermore, the section 'Optimization of reaction conditions for AYJ73930' mentions: "AYJ73970 was active at 20–49°C with an optimum activity at 37°C (Supplementary Fig. S3)." While this gives a tested range, the initial identification links it to *Thermus* phage phiLo, which is a thermophile, and the general context of the paper discussing enzymes from thermophilic viruses (RM378 and TS2126 RNA ligases were identified from thermophilic viruses).
+Given the explicit naming convention linking the phage to *Thermus*, the classification as thermophile is the most direct interpretation based on the provided text.
+
+
+Paper: 40464688.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper states that the phage is from 'Thermus bacteriophage' and mentions that the findings 'imply unique strategies for phages to counteract host defense systems in thermophilic environments.' This links the phage's biology to a thermophilic environment.
+
+
+=============Reasoning for AYJ73872 from host literature=============
+Paper: 40515755.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text mentions the optimal reaction temperature for the transketolase from Thermus thermophilus HB8 (TtTK) was 50 °C. Since 50 °C is greater than 45°C, this indicates a thermophilic characteristic.
+
+
+Paper: 40892736.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper states that the crystal structure was determined for "UMP kinase of an extreme thermophile Thermus thermophilus HB8". Although the text does not give a specific optimal growth temperature for the phage (as no phage is mentioned), it describes the enzyme from a known thermophile host. Based on the host being an "extreme thermophile," the associated thermal characteristic is classified as thermophile (> 45°C).
+
+
+Paper: 40833705.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that 'Thermus thermophilus, a thermophilic extremophile, serves as an excellent model...'. Although the phage 'Thermus phage phiLo' is the target, the only thermal information provided relates to the host, T. thermophilus, which is explicitly identified as thermophilic. Since no direct information on the phage's thermal characteristics is given, the inference is based on the host's known nature, as per the rules allowing inference from the host if explicitly linked.
+
+
+=============Reasoning for AYJ73872 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage phiLo' and its host is 'Thermus thermophilus HB8'. Furthermore, the isolation source is listed as 'hot spring water'. Thermus species are well-known thermophiles, and isolation from hot spring water strongly suggests a thermophilic lifestyle. Therefore, the classification is thermophile.
+
+

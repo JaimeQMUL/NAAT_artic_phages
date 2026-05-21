@@ -1,0 +1,26 @@
+=============Reasoning for UNA00809 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('river') but does not specify a temperature or a thermal classification (psychrophile, mesophile, thermophile).
+
+
+=============Reasoning for UNA00809 from accession literature=============
+=============Reasoning for UNA00809 from host literature=============
+Paper: PMC10597406.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions several temperatures related to the study: 28°C (for growing E. piscicida PPD130/91 in TSB and for blue gourami infection), 25°C (for growing E. piscicida in DMEM to switch on T3SS), 35°C (for culturing murine J774A.1 macrophages and for PhoQ activation), and 37°C (for overnight digestion of in-gel proteins). The general optimal growth range for mesophiles is 15–45°C. Since the study involves growth and infection models at 25°C, 28°C, and 35°C, these temperatures fall within the mesophilic range. The paper also notes that 'Secretion of T3SS effectors decreases at 37°C as compared to 35°C (16)', suggesting 35°C is favorable, and the blue gourami were infected at 28°C, which is consistent with mesophilic conditions.
+
+
+=============Reasoning for UNA00809 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is listed as 'river' and the country is 'China'. River environments typically fluctuate but are generally associated with mesophilic conditions (15–45°C) rather than extreme psychrophilic or thermophilic conditions.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The 'river' source suggests a moderate environment. However, the inference is not strong enough to override the default fallback rule.
+4. **Fallback:** As per the mandatory rules, if environmental context is weak or absent (or if the inference is not strong enough), the system must default to 'mesophile'.
+
+

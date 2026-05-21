@@ -1,0 +1,40 @@
+=============Reasoning for UYD60058 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('ake') and collection date, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, or thermophile) is mentioned.
+
+
+=============Reasoning for UYD60058 from accession literature=============
+Paper: PMC13029702.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper evaluated phage stability at various temperatures. For long-term storage, 'both free and encapsulated phages retained high and comparable viability (~6.00 log PFU/mL) under dry and humid conditions at 21 °C' and 'under wet refrigerated conditions (4 °C)'. The optimal growth temperature for bacterial isolation and initial assays was stated as 37 °C ('Plates were incubated at 37 °C for 24 h.' and 'The mixture was incubated at 37 °C with shaking (120 rpm) for 24 h.'). Since 37 °C falls within the 15–45°C range, the mesophile classification is appropriate based on the established optimal growth/assay temperature.
+
+
+Paper: PMC12837969.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of the phage Z90 particles: "The phage Z90 particles were stable at psychrotrophic and mesophilic temperatures (10–50 °C)..." The definition for mesophile is 15–45°C, and the stated range (10–50°C) encompasses the mesophilic range. Furthermore, the stability assay section mentions incubation at "10–40 °C for 1 h did not greatly affect the phage titer..."
+
+
+Paper: PMC13041473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for the strains used. For A. bivalvium, the text mentions: "Aeromonas bivalvium strains were routinely cultured in Luria-Bertani (LB) medium at 28 °C". For A. veronii and A. schubertii, the text states: "while A. veronii and A. schubertii were cultured at 37 °C." Since the phage system is demonstrated in A. bivalvium, the relevant temperature is 28°C. 28°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UYD60058 from host literature=============
+=============Reasoning for UYD60058 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Aeromonas phage avDM12-TAAL.
+2. Check for environmental context: The isolation source is 'ake' (likely an abbreviation for a location, but not temperature-specific), and the collection date is 2015. The host is 'Aeromonas hydrophila', which is generally associated with moderate environmental temperatures.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak regarding temperature, the system must default to the fallback classification rule (Rule 4).
+4. Fallback: The default classification is 'mesophile'.
+
+

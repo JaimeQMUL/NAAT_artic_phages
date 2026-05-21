@@ -1,0 +1,54 @@
+=============Reasoning for UYL22564 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater') and host information, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for UYL22564 from accession literature=============
+Paper: PMC13055002.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the temperature stability of phage PanM1EGY. The results state: "Temperature stability assays showed that the phage remained stable at 4 °C, 28 °C, 40 °C, and 50 °C with no significant change in titer (Fig. 4A). However, incubation at 60 °C for 1 h led to a titer reduction of 1.09 log units. A more pronounced decline of 2.53 log units was observed after 1 h at 70 °C, and complete inactivation occurred at 80 °C (p < 0.05), indicating that the phage is thermally stable only below 50 °C." Since the phage is stable up to 50°C and shows significant decline/inactivation above this, it is classified as mesophile (15–45°C) based on the defined ranges, although its upper limit is slightly higher than the typical mesophile range.
+
+
+Paper: PMC9698647.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the temperature stability of EP-IT22, stating: "EP-IT22 treated at different temperatures (−80 °C to 70 °C) was biologically active at temperatures ranging from −80 °C to 60 °C, whereas incubation at 70 °C for 1 h killed it (Figure 3A)". Since the phage is active up to 60 °C, and the mesophile range is defined as 15–45°C, the phage exhibits activity within the mesophilic range. Furthermore, the optimal growth/incubation temperatures mentioned for assays were 25 °C (e.g., "overnight incubation at 25 °C," "incubated at 25 °C").
+
+
+Paper: PMC12116044.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states that 'Stability tests revealed that both phages were stable at moderate temperatures (37–45 °C)'. The definition for mesophile is 15–45°C, which encompasses the stated range of 37–45°C.
+
+
+=============Reasoning for UYL22564 from host literature=============
+Paper: PMC9698647.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the temperature stability of EP-IT22, stating: "EP-IT22 treated at different temperatures (−80 °C to 70 °C) was biologically active at temperatures ranging from −80 °C to 60 °C, whereas incubation at 70 °C for 1 h killed it (Figure 3A)". Since the phage is active up to 60 °C, and the mesophile range is defined as 15–45°C, the phage exhibits activity within the mesophilic range. Furthermore, the optimal growth/incubation temperatures mentioned for assays were 25 °C (e.g., "overnight incubation at 25 °C," "incubated at 25 °C").
+
+
+Paper: PMC11165191.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature range for MATE 2's stability: "The results showed that MATE 2 is resistant to temperatures ranging from 4°C to 60°C, but at 60°C, the phage infectivity was reduced by about tenfold (Figure 9A)". The optimal growth/stability range tested includes 28°C (used for most assays) and the general stability range is 4°C to 60°C. Since the mesophilic range is defined as 15–45°C, and the phage shows stability and activity across this range (e.g., 28°C incubation for stability tests), 'mesophile' is the most appropriate classification based on the provided definitions and data points.
+
+
+=============Reasoning for UYL22564 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of Erwinia phage IT22.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the host is 'Erwinia amylovora'. While wastewater can vary, the host organism, *Erwinia amylovora*, is generally associated with moderate environmental conditions (e.g., plant tissues, which are typically mesophilic). The collection date is December, suggesting ambient, non-extreme temperatures.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context points towards a moderate source (wastewater/plant pathogen), the most probable classification is mesophile. 
+4. **Fallback:** As no strong evidence is present, the default fallback classification is 'mesophile'.
+
+

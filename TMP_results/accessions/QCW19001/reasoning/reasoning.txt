@@ -1,0 +1,26 @@
+=============Reasoning for QCW19001 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater') but does not specify a temperature or a thermal classification (psychrophile, mesophile, thermophile) associated with it.
+
+
+=============Reasoning for QCW19001 from accession literature=============
+Paper: PMC13070987.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that 'All bacteria and phage incubations were performed at 37 °C using Lysogeny Broth (LB).' Furthermore, the phage stability test involved incubating the phage suspension at 'temperatures ranging from 4 °C to 80 °C for 1 h,' and the pH-tolerance test was conducted after incubation at '37 °C for 1 h.' The optimal growth/incubation temperature mentioned repeatedly is 37 °C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for QCW19001 from host literature=============
+=============Reasoning for QCW19001 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of Salmonella phage 7t3.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the collection date is '21-Jul-2014' from 'India'. Wastewater environments are generally associated with mesophilic conditions, but this is not a definitive temperature measurement.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (wastewater) is suggestive but not definitive for a precise classification, the system must default to the fallback class as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

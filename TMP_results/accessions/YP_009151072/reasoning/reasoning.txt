@@ -1,0 +1,20 @@
+=============Reasoning for YP_009151072 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Bacillus phage Mater') and the host ('Bacillus megaterium'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for YP_009151072 from accession literature=============
+=============Reasoning for YP_009151072 from host literature=============
+=============Reasoning for YP_009151072 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Bacillus phage Mater') and its host ('Bacillus megaterium').
+2. No explicit thermal range is provided in the metadata.
+3. The host, Bacillus megaterium, is a common, generally mesophilic bacterium, typically thriving in moderate environmental temperatures (15–45°C).
+4. Since there is no explicit evidence, the classification defaults to the most probable range associated with the known host genus/species, which is mesophilic.
+5. As no useful metadata exists to strongly infer a specific extreme temperature, the fallback rule dictates assigning 'mesophile'.
+
+

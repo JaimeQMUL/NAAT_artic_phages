@@ -1,0 +1,40 @@
+=============Reasoning for WWS23726 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') and geographical location ('India: Kerala'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for WWS23726 from accession literature=============
+Paper: PMC8381472.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions several temperatures used in the study. For bacterial growth and phage isolation/adsorption assays, the temperature used was 37°C. For the stability test of the phages, the temperatures tested included 4, 37, 45, 55, 65, and 75°C. Since 37°C is the optimal growth temperature for the host bacteria (K. pneumoniae) and the phages were tested at this temperature, and 37°C falls within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for WWS23726 from host literature=============
+Paper: PMC13063575.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various assays involving the 3K isolate. For example, when assessing hemolytic activity, it mentions 'followed by incubation at 37 °C for 24 h.' For AST, it states, 'The plates were incubated anaerobically at 37 °C for 24 h.' For bile salt tolerance, it states, 'The mixture was then incubated at 37 °C for 24 h.' For acid tolerance, it states, 'Cultures were incubated at 37 °C...'. These consistent use of 37°C for growth and activity assays indicate the optimal or tested growth condition is mesophilic.
+
+
+Paper: PMC13043183.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states the growth conditions for the bacterial strains used, including K. pneumoniae, which is part of the target phage's host genus. The text explicitly mentions: 'All strains were grown in tryptic soy broth (TSB) overnight at 37°C, with shaking, or streaked out on tryptic soy agar (TSA) plates and grown overnight at 37°C.' Since the phage is associated with Klebsiella pneumoniae, and the host bacteria were grown at 37°C, this temperature is used as the basis for the thermal characteristic.
+
+
+=============Reasoning for WWS23726 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'sewage' from 'India: Kerala'. Sewage environments are generally considered mesophilic, fluctuating around ambient temperatures, which typically fall within the 15–45°C range.
+3. Apply decision rules: Since no explicit evidence exists, inference from the 'sewage' source suggests a mesophilic classification. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'.
+4. Conclusion: The combination of the source (sewage) and the lack of specific thermal data leads to the assignment of 'mesophile'.
+
+

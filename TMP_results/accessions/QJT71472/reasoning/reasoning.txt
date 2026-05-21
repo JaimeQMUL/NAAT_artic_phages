@@ -1,0 +1,19 @@
+=============Reasoning for QJT71472 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'Pacific Ocean seawater' and the collection date is '10-Oct-2016'. However, no specific temperature range or condition is explicitly stated for the organism or phage.
+
+
+=============Reasoning for QJT71472 from accession literature=============
+=============Reasoning for QJT71472 from host literature=============
+=============Reasoning for QJT71472 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'Pacific Ocean seawater' and the collection date is '10-Oct-2016'. The lab host is 'Vibrio coralliilyticus RE22'.
+2. **Determine Environmental Context:** Seawater environments, especially those associated with general ocean sampling (like the Pacific Ocean), typically represent moderate temperatures unless specific deep-sea or polar conditions are noted. The general range for surface ocean water is often considered mesophilic.
+3. **Apply Decision Rules:** Since there is no explicit temperature range, the inference relies on the 'Pacific Ocean seawater' source. This context strongly suggests a moderate, non-extreme temperature range.
+4. **Classification:** Mesophile (15–45°C) is the most probable classification based on the general oceanic environment context. No explicit evidence exists, so inference is used, and the fallback rule (if context is weak) would also point towards mesophile, but the ocean context is moderately strong.
+
+

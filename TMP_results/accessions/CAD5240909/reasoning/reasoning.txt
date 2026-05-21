@@ -1,0 +1,51 @@
+=============Reasoning for CAD5240909 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'sewage', but does not specify a temperature range associated with this source to classify the organism as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for CAD5240909 from accession literature=============
+Paper: PMC11179266.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several procedures involving the phage or its host. For instance, when determining the one-step growth curve, the host bacterium was incubated at '37°C'. When assessing the impact of the phage on biofilm formation, the incubation was performed at '37°C'. Furthermore, the host range analysis involved incubating plates at '37°C'. These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC11094981.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature at which the phage titer was measured after incubation for 1 hour: "The concentration of Aeromonas phage vB AhM-LH was adjusted to 10^8 plaque-forming units (PFU)/ml, and its titer was measured after following incubation at different temperatures (30 °C, 40 °C, 50 °C, 60 °C, 70 °C, and 80 °C) for 1 h." The results section further clarifies: "Aeromonas phage vB AhM-LH remained stable at temperatures between 30 °C and 60 °C; however, its titer significantly decreased at 70 °C and the phage became completely inactive at 80 °C (Fig. 2c)." Since the optimal stability range is stated as 30°C to 60°C, this falls within the mesophile range (15–45°C) or slightly above, but the general stability range points to mesophilic conditions, with 30°C being a key operational temperature mentioned multiple times (e.g., "shaken at 30 °C for 2 h to amplify the phage," "shaken at 30 °C for 5 h," "incubated at 30 °C with shaking for 80 min"). Given the explicit stability window (30-60°C) and the mesophile definition (15-45°C), mesophile is the most appropriate classification based on the provided definitions and data points.
+
+
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the in vivo mammary infection model, the initial infection and subsequent treatment were performed at conditions implying physiological temperature, and the phage adsorption assay was conducted at "37 °C". The stability test explicitly tested "37 °C" among others. Since the optimal and tested physiological temperature is 37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC11456439.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states: "We tested the thermal stability of P01 by 1 h incubation of 10^8 PFU per ml in TM Buffer at 4, 25, 37, 50, 60, or 70°C, followed by the double-layer agar method to check phage viability." The phage was found to be stable in the temperature range of 4–50°C. Since the mesophilic range is defined as 15–45°C, and the phage is stable across this range (and beyond, up to 50°C), it is classified as mesophile based on the provided definitions and the explicit stability data.
+
+
+Paper: PMC8006926.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states the culturing conditions for the Klebsiella strains used in the study: "All culturing in liquid medium was performed with shaking (150 rpm) at 37°C." Additionally, the plaque assay incubation was performed "overnight at 37°C." The phage lysis period and virulence assays were also conducted at 37°C. Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for CAD5240909 from host literature=============
+=============Reasoning for CAD5240909 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the isolation temperature range for Klebsiella phage vB_KqM-LilBean. 2. Check for environmental context: The isolation source is listed as 'sewage'. Sewage environments typically fluctuate but are generally associated with mesophilic conditions (15–45°C) rather than extreme psychrophilic or thermophilic conditions. 3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('sewage') points towards moderate conditions, the most probable classification is mesophile. 4. Fallback: As no strong evidence is present, the default classification rule (Rule 4) suggests assigning 'mesophile'.
+
+

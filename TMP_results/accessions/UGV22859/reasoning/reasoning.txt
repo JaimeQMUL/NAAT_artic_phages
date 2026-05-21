@@ -1,0 +1,19 @@
+=============Reasoning for UGV22859 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('raw sewage'), but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for growth or isolation.
+
+
+=============Reasoning for UGV22859 from accession literature=============
+=============Reasoning for UGV22859 from host literature=============
+=============Reasoning for UGV22859 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is 'raw sewage'. While sewage can vary widely, it generally represents an environment that fluctuates but is not inherently extreme (i.e., not consistently deep-sea cold or industrial hot). 
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('raw sewage') is too broad to confidently assign psychrophile or thermophile, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with low confidence due to the lack of specific thermal data.
+
+

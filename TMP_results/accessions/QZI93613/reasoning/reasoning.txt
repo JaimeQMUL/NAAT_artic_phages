@@ -1,0 +1,18 @@
+=============Reasoning for QZI93613 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal environment of the bacteriophage or its host.
+
+
+=============Reasoning for QZI93613 from accession literature=============
+=============Reasoning for QZI93613 from host literature=============
+=============Reasoning for QZI93613 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Enterobacteria phage Cognac) but contains no explicit data regarding its optimal growth temperature or the temperature of its natural environment.
+2. There is no environmental context (e.g., soil type, host organism habitat) that would allow for strong inference.
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+
+

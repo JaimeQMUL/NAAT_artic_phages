@@ -1,0 +1,19 @@
+=============Reasoning for AHZ60211 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'arable soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for AHZ60211 from accession literature=============
+=============Reasoning for AHZ60211 from host literature=============
+=============Reasoning for AHZ60211 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Dickeya phage RC-2014.
+2. **Check for environmental context:** The isolation source is 'arable soil' and the collection date is 'Oct-2012'. Soil environments are generally considered mesophilic, but this is not a strong indicator for phage thermal classification.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is weak for precise thermal classification, the system must default to the fallback class as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

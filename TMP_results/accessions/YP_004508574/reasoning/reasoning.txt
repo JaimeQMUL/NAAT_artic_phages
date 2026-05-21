@@ -1,0 +1,19 @@
+=============Reasoning for YP_004508574 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Copco Reservoir, Klamath River') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_004508574 from accession literature=============
+=============Reasoning for YP_004508574 from host literature=============
+=============Reasoning for YP_004508574 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'Copco Reservoir, Klamath River' from 'USA: California', and the collection date is '10-Sep-2008'. Reservoir water bodies generally represent moderate, non-extreme temperature environments.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. While reservoir environments can vary, they are typically associated with mesophilic conditions rather than extreme psychrophilic or thermophilic conditions.
+4. **Fallback:** Given the lack of specific thermal data, the default classification rule (Rule 4) mandates assigning 'mesophile'.
+
+

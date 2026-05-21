@@ -1,0 +1,26 @@
+=============Reasoning for AXF39272 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('water') but does not specify a temperature range for this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for AXF39272 from accession literature=============
+Paper: PMC12695862.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of phage TPF103dw: "TPF103dw, belonging to the Tequintavirus genus, has a latent period of approximately 50 min, with an estimated burst size of 232 PFU/cell, and is stable over a wide range of pH (pH 5 to pH 10) and temperature (4 to 60 °C)". The optimal growth temperature for the host bacteria (E. coli ATCC 13706) and the incubation temperatures used for most assays (e.g., 37 °C for one-step growth, 37 °C for initial culture) fall within the mesophilic range (15–45°C). The stated stability range of 4 to 60 °C encompasses the mesophilic range, and the primary working temperature is 37 °C, which is characteristic of mesophiles.
+
+
+=============Reasoning for AXF39272 from host literature=============
+=============Reasoning for AXF39272 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is listed as 'water'. While water bodies can vary widely, this context alone is insufficient to definitively classify the phage as psychrophile, mesophile, or thermophile.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context ('water') is too broad, the system must default to the fallback classification rule (Rule 4).
+4. **Fallback:** The default classification is 'mesophile'.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for DAW81752 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAW81752 from accession literature=============
+=============Reasoning for DAW81752 from host literature=============
+=============Reasoning for DAW81752 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2010-07-12' from the USA. Human-associated microbes and phages are generally associated with moderate body temperatures (around 37°C), which falls within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The human source strongly suggests a mesophilic context. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'. Given the strong implication from the human source, 'mesophile' is selected.
+4. Conclusion: The most probable classification, based on the human host source, is mesophile.
+
+

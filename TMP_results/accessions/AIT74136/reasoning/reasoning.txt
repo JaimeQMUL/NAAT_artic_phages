@@ -1,0 +1,16 @@
+=============Reasoning for AIT74136 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Enterobacteria phage RB10') and its host ('Escherichia coli B'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for AIT74136 from accession literature=============
+=============Reasoning for AIT74136 from host literature=============
+=============Reasoning for AIT74136 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Enterobacteria phage RB10. 2. The host organism, 'Escherichia coli B', is a common bacterium typically associated with moderate environmental temperatures (mesophilic range, 15–45°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Therefore, the default classification based on the known host's typical ecology is mesophile. This classification is assigned by fallback rule (Rule 4).
+
+

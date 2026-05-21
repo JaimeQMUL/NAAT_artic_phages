@@ -1,0 +1,33 @@
+=============Reasoning for UWD68242 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'feces' and the host is 'Homo sapiens'. Fecal/gut metagenomes are typically associated with mesophilic environments.
+
+
+=============Reasoning for UWD68242 from accession literature=============
+Paper: PMC13182724.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the optimal amplification temperature for the RAA-LFD assay: "To minimize instrument dependency, 37.5 °C (close to human axillary temperature) was selected as the optimal amplification temperature for the RAA-LFD assay." Since 37.5°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC13183296.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for culturing and susceptibility testing. For initial isolation attempts, the plates were incubated at "30 °C for at least 120 h". For subsequent subculturing, the plates were incubated at "30 °C for at least 48 h". For antibiotic susceptibility testing, plates were incubated for "48 h at 30 °C under microaerobic conditions." The use of 30 °C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UWD68242 from host literature=============
+=============Reasoning for UWD68242 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'feces' and the 'metagenome_source' is 'gut metagenome'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The environment (gut/feces) suggests a typical mammalian gut temperature range.
+3. **Determine Classification:** The mammalian gut temperature is generally considered moderate, falling within the 15–45°C range.
+4. **Conclusion:** Therefore, the most probable classification is mesophile. Since no direct evidence was found, this is a forced assignment based on the environmental context (gut).
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for WPJ48172 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are generally associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for WPJ48172 from accession literature=============
+Paper: PMC11782208.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various assays. For bacterial growth and phage adsorption/isolation, the temperature used was 37°C. For the one-step growth curve, the incubation was performed at 37°C. For the temperature stability assay, the phage was tested at 30, 40, 50, 60, 70, and 80°C, with optimal activity observed between 30°C and 70°C, and the general conclusion was that the phage 'can be used in various environmental conditions, including those found in the human body.' Since 37°C is the optimal/standard growth temperature mentioned, and this falls within the 15–45°C range, the classification is mesophile.
+
+
+=============Reasoning for WPJ48172 from host literature=============
+=============Reasoning for WPJ48172 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Klebsiella phage RCIP0008.
+2. Check for environmental context: The isolation source is 'sewage' and the host is 'Klebsiella pneumoniae'. Sewage and typical clinical/environmental reservoirs for *Klebsiella* species generally operate within moderate temperature ranges (mesophilic conditions, 15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context (sewage/clinical bacteria) strongly suggests mesophilic conditions. However, as the evidence is not strongly tied to a specific temperature range (it's a general source), and to adhere strictly to the fallback rule (Rule 4) if context is weak, the default classification is 'mesophile'.
+4. Conclusion: Assign 'mesophile' based on the default fallback rule due to lack of specific thermal data.
+
+

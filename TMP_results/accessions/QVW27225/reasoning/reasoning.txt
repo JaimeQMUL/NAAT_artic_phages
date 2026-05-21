@@ -1,0 +1,20 @@
+=============Reasoning for QVW27225 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are generally associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for QVW27225 from accession literature=============
+=============Reasoning for QVW27225 from host literature=============
+=============Reasoning for QVW27225 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host ('Cronobacter sakazakii'), Isolation Source ('sewage'), and geographical origin ('China').
+2. There is no explicit mention of optimal growth temperature for the phage or its host.
+3. The isolation source is 'sewage'. While sewage can vary widely, general microbial life associated with environmental sources like sewage, especially those related to common bacteria like Cronobacter, are typically mesophilic.
+4. Since no explicit evidence exists, and the environmental context (sewage) does not strongly point to extreme temperatures, the decision rules mandate defaulting to 'mesophile' as the most probable classification.
+5. Therefore, 'mesophile' is assigned based on the fallback rule.
+
+

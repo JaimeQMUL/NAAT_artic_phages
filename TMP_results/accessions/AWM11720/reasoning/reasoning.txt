@@ -1,0 +1,16 @@
+=============Reasoning for AWM11720 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and accession details, but no explicit or strongly implied temperature or environmental condition is mentioned to determine the thermal range.
+
+
+=============Reasoning for AWM11720 from accession literature=============
+=============Reasoning for AWM11720 from host literature=============
+=============Reasoning for AWM11720 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the phage. 2. The host organism is 'Escherichia coli', which is a common mesophilic bacterium, typically thriving in the range of 37°C (human body temperature). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Based on the known biology of the host, 'Escherichia coli', the most probable classification is mesophile (15–45°C). 5. This classification is assigned by default due to lack of specific thermal data.
+
+

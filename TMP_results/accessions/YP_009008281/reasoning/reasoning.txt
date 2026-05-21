@@ -1,0 +1,26 @@
+=============Reasoning for YP_009008281 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Synechococcus sp. WH7803') and the phage name, but no explicit or strongly implied temperature or environmental condition (e.g., hot springs, deep sea, soil) is mentioned to determine the thermal range.
+
+
+=============Reasoning for YP_009008281 from accession literature=============
+=============Reasoning for YP_009008281 from host literature=============
+Paper: PMC9430850.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that Synechococcus WH7803 was isolated in "mesotrophic waters" (Introduction section). Furthermore, the materials and methods section specifies that the cells were grown in a culture room set at "24°C" (Materials and Methods section). Since the mesophile range is defined as 15–45°C, and 24°C falls within this range, the thermal characteristic is inferred to be mesophilic.
+
+
+=============Reasoning for YP_009008281 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage ACG-2014h.
+2. **Check for environmental context:** The metadata provides the host ('Synechococcus sp. WH7803') and collection date/location ('Oct-2009', 'USA'), but no specific environmental temperature is given.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is insufficient to strongly infer psychrophile or thermophile conditions, the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

@@ -1,0 +1,37 @@
+=============Reasoning for XOE95119 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'wastewater treatment plant' and the collection date is '17-Mar-2015'. Wastewater environments are generally associated with mesophilic conditions, and no extreme temperatures are mentioned.
+
+
+=============Reasoning for XOE95119 from accession literature=============
+Paper: PMC12963601.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth experiment for both phages was conducted using incubation temperatures of 25 °C and 30 °C. The co-culture assays were also performed at 25 °C and 30 °C. Since the mesophilic range is defined as 15–45°C, these tested temperatures fall within this range.
+
+
+Paper: 42026481.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is characterized in relation to 'Antarctic temperate phage Perkons' and the host is 'Psychrobacillus sp. L4'. The presence of 'Antarctic' strongly suggests adaptation to cold environments, leading to the classification of psychrophile. The text does not provide explicit temperature measurements for the phage's optimal growth.
+
+
+=============Reasoning for XOE95119 from host literature=============
+Paper: PMC12963601.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth experiment for both phages was conducted using incubation temperatures of 25 °C and 30 °C. The co-culture assays were also performed at 25 °C and 30 °C. Since the mesophilic range is defined as 15–45°C, these tested temperatures fall within this range.
+
+
+=============Reasoning for XOE95119 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state a preferred growth temperature for the bacteriophage. 2. **Check for environmental context:** The isolation source is 'wastewater treatment plant' and the collection date is in 2015. Wastewater environments are generally considered mesophilic, fluctuating around moderate temperatures. 3. **Apply decision rules:** Since no explicit evidence exists, the system must infer. The context (wastewater) suggests mesophilic conditions. 4. **Fallback:** If the environmental context were weak, the default rule mandates assigning 'mesophile'. Given the context points towards moderate environments, 'mesophile' is the most probable classification. Therefore, 'mesophile' is assigned as the most probable classification.
+
+

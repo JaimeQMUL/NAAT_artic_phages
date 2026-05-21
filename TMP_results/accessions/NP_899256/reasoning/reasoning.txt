@@ -1,0 +1,16 @@
+=============Reasoning for NP_899256 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Vibrio phage KVP40') and its host ('Vibrio parahaemolyticus'), but no explicit or strongly implied temperature or environmental condition is stated.
+
+
+=============Reasoning for NP_899256 from accession literature=============
+=============Reasoning for NP_899256 from host literature=============
+=============Reasoning for NP_899256 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Vibrio phage KVP40) and its host (Vibrio parahaemolyticus). 2. No explicit thermal range (psychrophile, mesophile, or thermophile) is provided in the metadata. 3. The host, Vibrio parahaemolyticus, is a common marine bacterium, typically associated with moderate environmental temperatures. 4. Since there is no explicit evidence, and the environmental context (marine bacteria) suggests moderate conditions, the default classification rule (Rule 4) is applied, leading to 'mesophile'.
+
+

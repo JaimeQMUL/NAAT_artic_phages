@@ -1,0 +1,19 @@
+=============Reasoning for URX65903 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage PC3') and its host ('Escherichia sp.'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for URX65903 from accession literature=============
+=============Reasoning for URX65903 from host literature=============
+=============Reasoning for URX65903 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Escherichia phage PC3) but contains no explicit information regarding its optimal growth temperature or the environmental conditions it is associated with.
+2. No explicit evidence is present (Rule 1 fails).
+3. The host organism, Escherichia, is a common bacterium typically associated with moderate environmental temperatures (Rule 2 inference is weak/absent).
+4. Since no useful metadata exists to classify the temperature, the system must default to 'mesophile' as per the fallback rule (Rule 4).
+
+

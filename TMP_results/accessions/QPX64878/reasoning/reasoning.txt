@@ -1,0 +1,33 @@
+=============Reasoning for QPX64878 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for QPX64878 from accession literature=============
+=============Reasoning for QPX64878 from host literature=============
+Paper: PMC8949473.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for bacterial growth and phage propagation multiple times. For example, when describing the growth of C. jejuni, it mentions: "...and incubated at 42 °C under microaerobic conditions (85% N2, 10% CO2, 5% O2)" (Section 2.1). Furthermore, for phage propagation, it states: "...and incubating at 42 °C for 4 h under microaerobic condition" (Section 2.1). The incubation temperature of 42 °C falls within the mesophile range (15–45°C).
+
+
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the phage-resistant variant 12662R, as follows: "...and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2)" and "...incubated microaerobically at 37°C". Since 37°C falls within the mesophile range (15–45°C), the phage is associated with a mesophilic host.
+
+
+=============Reasoning for QPX64878 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Campylobacter phage F368' and its host is 'Campylobacter jejuni NCTC12662'. The isolation source is a 'chicken fecal sample' collected in 'Denmark'.
+2. **Determine Environmental Context:** *Campylobacter* species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens). The typical physiological temperature range for these hosts is mammalian body temperature (around 37°C), which falls squarely within the mesophilic range (15–45°C).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (host/isolation source) strongly suggests a moderate temperature adaptation.
+4. **Conclusion:** Based on the host organism's typical niche, the most probable classification is mesophile. Since this is an inference based on general biological knowledge derived from the host, and no explicit rule applies, the fallback rule (Rule 4) is not strictly necessary, but the inference points strongly to mesophile.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for WLY86150 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the phage, its host (Escherichia coli), and collection details, but no explicit or strongly implied temperature or thermal environment is mentioned.
+
+
+=============Reasoning for WLY86150 from accession literature=============
+=============Reasoning for WLY86150 from host literature=============
+=============Reasoning for WLY86150 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Escherichia phage 308Ecol101PP.
+2. Check for environmental context: The metadata indicates the host is 'Escherichia coli' and the collection country is 'Poland'. E. coli is a common mesophile bacterium, and the general context does not suggest extreme temperatures.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context points towards a common laboratory/natural setting associated with mesophilic bacteria, the most probable classification is mesophile.
+4. Fallback: As no useful metadata exists to strongly infer a specific range, the default classification rule mandates assigning 'mesophile'.
+
+

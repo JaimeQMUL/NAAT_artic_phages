@@ -1,0 +1,26 @@
+=============Reasoning for QNO12504 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QNO12504 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for obtaining spores of S. clavuligerus: "Spores of S. clavuligerus were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days)". It also states that "Spores of S. clavuligerus wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm." Furthermore, the general cultivation conditions for the main experiments were "Cultures were incubated for 120 h, at 220 rpm and 28 ◦C." Since 28°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QNO12504 from host literature=============
+=============Reasoning for QNO12504 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage MulchMansion'.
+2. Check for environmental context: The isolation source is listed as 'soil', and the coordinates are provided (38.625298 N 90.301201 W). Soil environments are generally considered mesophilic, though they can vary widely. The collection date is September, which suggests temperate conditions.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'soil' source suggests a moderate environment. However, the environmental context is not strong enough to definitively classify it as psychrophile or thermophile.
+4. Fallback: As per the rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

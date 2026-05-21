@@ -1,0 +1,19 @@
+=============Reasoning for QPX64548 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range. No explicit temperature is given.
+
+
+=============Reasoning for QPX64548 from accession literature=============
+=============Reasoning for QPX64548 from host literature=============
+=============Reasoning for QPX64548 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Campylobacter phage F365.
+2. **Check for environmental context:** The host organism is 'Campylobacter jejuni NCTC12662'. Campylobacter species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens, as indicated by the isolation source 'chicken fecal sample').
+3. **Apply inference/fallback:** While the isolation source suggests a mammalian gut environment, which is typically mesophilic (37°C), there is no direct temperature data. Since no explicit evidence is present, and the environmental context points towards a moderate biological niche, the default classification rule (Rule 4) suggests assigning 'mesophile'.
+4. **Conclusion:** Assigning 'mesophile' as the most probable classification based on the general biology of the host and the lack of specific thermal data.
+
+

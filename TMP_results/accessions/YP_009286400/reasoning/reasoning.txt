@@ -1,0 +1,26 @@
+=============Reasoning for YP_009286400 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Salmonella Newport strain C398') and isolation source ('sewage'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_009286400 from accession literature=============
+Paper: 30641253.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions that 'Complete inhibition of bacterial growth in broth medium was observed at 25 °C for 24 h' and 'a 4.5 log10 unit reduction in the bacterial count was observed when applying the phage cocktail onto contaminated tomatoes stored at 22 °C for 3 days.' Since the phage activity is tested and effective at 22°C and 25°C, these temperatures fall within the mesophilic range (15–45°C). No specific optimal growth temperature for the phage is stated, but the observed activity suggests mesophilic characteristics.
+
+
+=============Reasoning for YP_009286400 from host literature=============
+=============Reasoning for YP_009286400 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for the phage.
+2. Check for environmental context: The isolation source is 'sewage' and the lab host is 'Salmonella Newport strain C398'. Salmonella species are generally associated with mesophilic environments (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The association with Salmonella, a common mesophile, suggests a mesophilic classification. However, since this is an inference based on the host organism rather than direct phage data, and no strong environmental context (like extreme temperature readings) is provided, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+4. Conclusion: The most probable classification, based on the host organism's typical niche, is mesophile.
+
+

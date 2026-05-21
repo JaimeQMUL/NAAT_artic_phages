@@ -1,0 +1,26 @@
+=============Reasoning for YP_009281381 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'cowshed wastewater'. Wastewater environments are generally associated with mesophilic conditions, and the lab host is 'Escherichia coli O157', which is typically mesophilic.
+
+
+=============Reasoning for YP_009281381 from accession literature=============
+Paper: PMC10236363.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that the host strain, *Escherichia coli* O157:H7 (ATCC 43895), was incubated at 37°C for bacteriophage propagation and one-step growth curve analysis. The methods section explicitly mentions: "The strain was cultivated in Brain Heart Infusion Broth (HiMedia, Brazil) growth medium and incubated at 37°C." Since the phage was propagated using this host under these conditions, the optimal or tested growth temperature is 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009281381 from host literature=============
+=============Reasoning for YP_009281381 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Escherichia phage UFV-AREG1.
+2. Check for environmental context: The isolation source is 'cowshed wastewater' and the collection date is '2010'. Wastewater environments are generally associated with mesophilic conditions, but this is not a strong indicator.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with low confidence due to the lack of specific thermal data.
+
+

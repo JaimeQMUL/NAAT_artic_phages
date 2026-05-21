@@ -1,0 +1,19 @@
+=============Reasoning for BAN78387 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal range of the bacteriophage or its host.
+
+
+=============Reasoning for BAN78387 from accession literature=============
+=============Reasoning for BAN78387 from host literature=============
+=============Reasoning for BAN78387 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Klebsiella phage 0507-KN2-1.
+2. Check for environmental context: The metadata only provides taxonomic information (Klebsiella phage) and accession details, offering no environmental context (e.g., soil, hot spring, deep sea).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is absent, the system must default to the fallback classification rule (Rule 4).
+4. Fallback assignment: The default classification is 'mesophile'.
+
+

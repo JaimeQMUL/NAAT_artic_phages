@@ -1,0 +1,30 @@
+=============Reasoning for BBI57387 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil from free range chicken farm'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for BBI57387 from accession literature=============
+Paper: PMC12895675.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that when culturing the host bacteria (E. coli strains), "All strains were cultured overnight in Eosin Metylene Blue (EMB) (Qingdao Haibo Com Ltd., China) at 37 °C." Additionally, when performing the double-layer plate assay for phage detection, "Twenty microliters of (108 plaque forming units, PFU) of purified phage LQ5 was placed on a double-layer plate and the plates were incubated for 14 h at 37 °C." These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for BBI57387 from host literature=============
+Paper: PMC13183296.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for culturing and testing the isolates. For initial isolation attempts, the plates were incubated at "30 °C for at least 120 h under microaerophilic conditions." For subsequent subculturing, the plates were incubated "at 30 °C for at least 48 h." For antibiotic susceptibility testing, plates were incubated "for 48 h at 30 °C under microaerobic conditions." The general range of 30°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for BBI57387 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Escherichia phage KIT01. 2. **Check for environmental context:** The isolation source is 'soil from free range chicken farm' in 'Viet Nam:Can Tho', and the collection date is 2015. Soil environments are generally mesophilic, but this is not a strong indicator for phage thermal classification. 3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is not strongly indicative of extreme temperatures, the system must default to the 'mesophile' classification as per Rule 4. 4. **Conclusion:** The default classification is mesophile.
+
+

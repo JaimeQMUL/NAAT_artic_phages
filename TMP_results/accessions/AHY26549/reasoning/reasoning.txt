@@ -1,0 +1,19 @@
+=============Reasoning for AHY26549 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the phage, its host (Staphylococcus), and its isolation source, but no explicit or strongly implied temperature or thermal environment is mentioned.
+
+
+=============Reasoning for AHY26549 from accession literature=============
+=============Reasoning for AHY26549 from host literature=============
+=============Reasoning for AHY26549 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Staphylococcus phage 812.
+2. Check for environmental context: The isolation source is 'natural mutant selected on Staphylococcus aureus strain NRL/Atb 420/06' from the Czech Republic, and the collection date is 2011. While the geographical location suggests temperate conditions, this is not a strong enough indicator for precise classification.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak, the system must default to the fallback classification rule (Rule 4).
+4. Fallback: The default classification is 'mesophile'.
+
+

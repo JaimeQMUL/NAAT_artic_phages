@@ -1,0 +1,19 @@
+=============Reasoning for UUG67061 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'waste water'. Waste water environments are generally associated with mesophilic conditions, as no extreme temperatures are specified.
+
+
+=============Reasoning for UUG67061 from accession literature=============
+=============Reasoning for UUG67061 from host literature=============
+=============Reasoning for UUG67061 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Klebsiella phage PSKm2DI.
+2. Check for environmental context: The isolation source is 'waste water' and the collection date/location suggests ambient environmental conditions. Waste water environments are generally considered mesophilic.
+3. Apply decision rules: Since no explicit evidence exists, the system must infer. The environmental context (waste water) points towards mesophilic conditions (15–45°C). If the environmental context is weak or absent, the fallback rule is to assign 'mesophile'. Given the context of 'waste water', 'mesophile' is the most probable assignment.
+4. Conclusion: Assign 'mesophile' based on the environmental context and the fallback rule.
+
+

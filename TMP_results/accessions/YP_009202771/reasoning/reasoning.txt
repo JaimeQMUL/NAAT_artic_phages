@@ -1,0 +1,19 @@
+=============Reasoning for YP_009202771 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'duck feces', but does not specify any temperature or thermal condition associated with this source, nor does it provide any explicit temperature range for the phage or its host.
+
+
+=============Reasoning for YP_009202771 from accession literature=============
+=============Reasoning for YP_009202771 from host literature=============
+=============Reasoning for YP_009202771 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the isolation source as 'duck feces'. Feces are generally associated with ambient or moderate environmental temperatures, not extreme cold or heat.
+2. There is no explicit mention of optimal growth temperature for the phage.
+3. Based on the general nature of the host organism, *Escherichia*, which is a common gut bacterium, and the lack of evidence pointing towards extreme conditions, the most probable classification defaults to mesophile (15–45°C) as per the decision rules.
+4. Since no explicit evidence exists, and the environmental context (feces) suggests moderate conditions, the fallback rule (defaulting to mesophile) is applied.
+
+

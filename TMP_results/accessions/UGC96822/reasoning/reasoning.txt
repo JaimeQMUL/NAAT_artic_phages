@@ -1,0 +1,34 @@
+=============Reasoning for UGC96822 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') but does not specify a temperature range associated with it, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for UGC96822 from accession literature=============
+Paper: PMC13036506.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "The titer of Chage1 did not decrease considerably after 3 h of treatment at 4–50°C; however, the titer decreased over time at 60°C and was completely inactivated after 2.5 h." This indicates stability across 4–50°C. The optimal growth temperature for the host bacteria, C. sakazakii, is consistently mentioned as 37°C (e.g., "Chage1 (MOI of 105) also showed antibacterial activity against two C. sakazakii strains in PIF and milk samples for 8 h at 37°C."). Since the phage is tested and shown to be active at 37°C, and the stability range includes 37°C, the classification is mesophile (15–45°C).
+
+
+Paper: PMC13036505.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: none
+Reasoning: The provided text discusses the thermal stability of the endolysin LysG77YL_EAD, stating: "The thermostability of LysG77YL_EAD were retained, maintaining 80% of its lytic activity after 10 min incubation at 4°C to 40°C. However, its lytic activity decreased when incubated at 50°C or higher." This indicates activity across a range including 4°C to 40°C. The definition for mesophile is 15–45°C. Since the tested range (4°C to 40°C) encompasses the mesophilic range and the optimal activity was observed within this range, the classification is mesophile. No specific optimal temperature is given, only the range where activity was maintained.
+
+
+=============Reasoning for UGC96822 from host literature=============
+=============Reasoning for UGC96822 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'Bacillus cereus NCCP 11313' and the isolation source is 'sewage'.
+2. There is no explicit mention of optimal growth temperature for the phage or its host.
+3. 'Bacillus cereus' is a common, facultative bacterium typically associated with moderate environmental temperatures, and 'sewage' is a general environmental source.
+4. Since no explicit evidence exists, and the host/source context points towards general environmental bacteria, the most probable classification defaults to mesophile (15–45°C) as per Decision Rule 3 and the fallback rule.
+5. No specific temperature data allows for a higher confidence inference.
+
+

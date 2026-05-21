@@ -1,0 +1,19 @@
+=============Reasoning for YP_009883756 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'wastewater treatment plant'. Wastewater treatment plants are generally associated with mesophilic conditions, which is the most appropriate classification given the available metadata.
+
+
+=============Reasoning for YP_009883756 from accession literature=============
+=============Reasoning for YP_009883756 from host literature=============
+=============Reasoning for YP_009883756 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for Serratia phage Muldoon.
+2. **Check for environmental context:** The isolation source is 'wastewater treatment plant' and the collection date is '2018'. Wastewater environments are generally considered mesophilic, fluctuating around moderate temperatures.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The context (wastewater) suggests mesophilic conditions. However, the inference is not strong enough to override the fallback rule if the context is considered weak. Given the general nature of wastewater, 'mesophile' is the most probable classification.
+4. **Fallback:** Since the environmental context is general and not strongly indicative of extreme temperatures, the system defaults to 'mesophile' as per the rules.
+
+

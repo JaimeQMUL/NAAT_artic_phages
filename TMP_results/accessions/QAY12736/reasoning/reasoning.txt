@@ -1,0 +1,19 @@
+=============Reasoning for QAY12736 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QAY12736 from accession literature=============
+=============Reasoning for QAY12736 from host literature=============
+=============Reasoning for QAY12736 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage BoomerJR.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.640278 N 90.294724 W). Soil environments are generally considered mesophilic, though they can vary widely. The collection date is 2017, and the location is temperate (USA).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'soil' source suggests a moderate environment. However, the environmental context is not strong enough to definitively classify it as psychrophile or thermophile.
+4. Fallback: As per the rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

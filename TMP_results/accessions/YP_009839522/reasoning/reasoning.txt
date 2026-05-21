@@ -1,0 +1,33 @@
+=============Reasoning for YP_009839522 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for YP_009839522 from accession literature=============
+=============Reasoning for YP_009839522 from host literature=============
+Paper: PMC11294657.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states: "TSS is a thermostable and halotolerant subtilisin-like protease derived from the thermophile Brevibacillus sp. WF146." It also provides optimal activity conditions: "TSS exhibits optimal activity at 70°C and pH 9.0". Furthermore, the table confirms this: "TSS from Brevibacillus sp. WF146 [17] | 70°C; pH 9.0 | 58.0 | S8". Since 70°C is significantly above the mesophile range (15–45°C) and falls into the thermophile definition (> 45°C), the classification is thermophile.
+
+
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that 'Characterization on cultural characteristic and viable count at different temperatures (37ºC and 28ºC),... were performed.' Since 37ºC and 28ºC both fall within the mesophilic range (15–45°C), and no other temperature is specified for optimal growth, the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for YP_009839522 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage StarPlatinum'.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (33.202415 N 97.16187 W). Soil environments generally support mesophilic life, although temperature varies widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) is broad, the system must default to the most probable classification. The fallback rule dictates assigning 'mesophile' when useful metadata is absent.
+4. Conclusion: Assigning 'mesophile' based on the fallback rule.
+
+

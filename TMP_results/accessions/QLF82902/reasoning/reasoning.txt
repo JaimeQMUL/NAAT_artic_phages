@@ -1,0 +1,19 @@
+=============Reasoning for QLF82902 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'raw sewage from a wastewater treatment plant'. Wastewater treatment plants typically represent environments associated with moderate temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for QLF82902 from accession literature=============
+=============Reasoning for QLF82902 from host literature=============
+=============Reasoning for QLF82902 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Klebsiella phage KpnM6E1.
+2. Check for environmental context: The isolation source is 'raw sewage from a wastewater treatment plant'. Wastewater environments typically fluctuate but are generally associated with mesophilic conditions (15–45°C) rather than extreme psychrophilic or thermophilic conditions.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (sewage) points towards moderate conditions, the most probable classification is mesophile. As this is a default assignment based on general knowledge of the source type and lack of specific data, the classification is forced.
+4. Conclusion: Assign 'mesophile' as the most probable classification.
+
+

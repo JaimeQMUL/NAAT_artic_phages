@@ -1,0 +1,30 @@
+=============Reasoning for YP_010075206 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Salmonella phage SG1') and its host ('Salmonella enterica subsp. enterica serovar Gallinarum'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for YP_010075206 from accession literature=============
+Paper: PMC12937358.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that host bacteria were cultured in Nutrient Broth at 37 °C for 18–24 h (Section 2.1). Furthermore, multiple assays, including the spot test, phage purification, and anti-biofilm activity, were incubated at 37 °C (Section 2.3, 2.4, 2.9, 2.10). The thermal stability assay (Section 2.6) tested phages at 37 °C, which is the optimal growth temperature for the host bacteria, placing the relevant biological activity within the mesophilic range (15–45°C).
+
+
+=============Reasoning for YP_010075206 from host literature=============
+Paper: PMC10699274.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the culture conditions for Salmonella strains: "Salmonella strains were inoculated in tryptic soy broth (TSB) and cultured at 37°C under vigorous shaking conditions." Additionally, when culturing blood samples, the text mentions: "...and then cultured in a shaking incubator at 210 rpm at 37°C for up to 24 h." These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_010075206 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage SG1) and its host (Salmonella enterica subsp. enterica serovar Gallinarum). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The fallback rule (Rule 4) dictates defaulting to 'mesophile' when no useful metadata exists. 4. Salmonella species are generally associated with moderate mammalian body temperatures (around 37°C), which falls squarely within the mesophile range (15–45°C). Therefore, mesophile is the most probable classification.
+
+

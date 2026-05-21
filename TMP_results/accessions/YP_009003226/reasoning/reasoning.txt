@@ -1,0 +1,33 @@
+=============Reasoning for YP_009003226 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Rhizobium phage vB_RleS_L338C') and its host ('Rhizobium leguminosarum biovar viciae 3841'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for YP_009003226 from accession literature=============
+=============Reasoning for YP_009003226 from host literature=============
+Paper: PMC5407991.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that when assessing the growth of the strains, "Plates were incubated at 28°C for 3 days." This temperature (28°C) falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11406972.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that 'Rhizobial strains were grown at 28°C on universal minimal salts (UMS) medium (25) supplemented with 30 mM sodium pyruvate, and 10 mM ammonium chloride, and adjusted to pH 6.5, pH 7.0, or pH 7.5.' Additionally, in the section 'mariner transposon library construction,' it mentions that '...and pooled. Cells were further pelleted and resuspended in TY before spotting cell suspensions on nitrocellulose filters on TY agar plates and incubated at 28°C overnight.' The general growth temperature mentioned for the bacteria is 28°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009003226 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the phage.
+2. Check for environmental context: The host organism is 'Rhizobium leguminosarum biovar viciae 3841'. Rhizobium species are generally associated with soil and root nodules, which typically maintain mesophilic conditions (15–45°C) for their host bacteria. The phage itself is not explicitly linked to an extreme environment.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted based on the host's typical environment. The most probable classification, given the lack of specific data, is mesophile.
+4. Final assignment: Defaulting to 'mesophile' as the most probable classification based on the general ecology of the host organism, as per the fallback rules.
+
+

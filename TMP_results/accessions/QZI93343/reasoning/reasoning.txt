@@ -1,0 +1,30 @@
+=============Reasoning for QZI93343 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal range of the bacteriophage or its host.
+
+
+=============Reasoning for QZI93343 from accession literature=============
+Paper: PMC12533011.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that phage SSG23 "maintained high infectivity at −20, 4, 25, and 37 °C, with no significant reduction in titer after 1 h of incubation (Fig. 1e)." It also mentions that "The phage SSG23 employed in this investigation was stable between pH 5 and 9 and between −20 and 37 °C without observing a remarkable decrease in phage titers." The optimal growth temperature for the host bacteria, S. sonnei, is stated in multiple sections (e.g., "The bacterial strains were cultured in tryptic soy broth (TSB) at 37 °C under aerobic conditions...", "The antibiotic disks were properly positioned and incubated for 24 h at 37 °C."). Since the phage maintains high infectivity at 37°C, and 37°C falls within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+Paper: PMC8759817.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states multiple times that experiments were conducted using cultures 'grown at 37°C' or 'returned immediately to 37°C' for recovery, indicating the optimal or standard growth temperature used for the assays involving DNA replication and damage challenges.
+
+
+=============Reasoning for QZI93343 from host literature=============
+=============Reasoning for QZI93343 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Enterobacteria phage Brandy) and its origin (Russia: Moscow, collected Mar-2021). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range. 3. Since no explicit evidence is available, the decision rules require inferring from environmental context or defaulting. 4. The phage targets 'Enterobacteria', which are generally associated with moderate environmental niches. 5. Given the lack of specific thermal data, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+
+

@@ -1,0 +1,46 @@
+=============Reasoning for WDQ26312 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Klebsiella phage phi_KPN_S3') and its host ('Klebsiella pneumoniae'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for WDQ26312 from accession literature=============
+Paper: PMC12630848.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature stability testing range: "For temperature stability, 100 µl of phage solution (10⁷ PFU/ml) was mixed with 900 µl sterile SM buffer in triplicates and incubated in a water bath at temperatures ranging from 25 °C to 75 °C for 60 min." It then concludes: "In the temperature stability experiment, vB_Sal_S6 showed maximum titer stability (around 7.5 log¹⁰ (PFU/ml)) at temperatures 25˚C, 35 °C, and 55 °C beyond which the phage titer progressively reduced (Fig. 1F). ... Therefore, the phage vB_Sal_S6 was observed to be stable at a temperature range of 25–55 °C." Since the mesophilic range is defined as 15–45°C, and the phage is stable across 25–55°C, the mesophilic classification is appropriate based on the stated stability range, although it shows stability up to 55°C.
+
+Additionally, the paper mentions the optimal growth/activity conditions for the host/application: "The phage exhibited strong bacteriolytic activity across a range of MOIs (0.01–10), with stability across pH 4–10 and temperature conditions (25–55 °C)." The incubation for host range assay was at "37 °C for 16–18 h." The one-step growth curve was performed at "37 °C." The pH stability test was conducted at "37 °C." The lytic ability in milk was tested at "Room Temperature (RT) (25 °C) as well as 4 °C." The consensus of optimal/stable conditions points to the mesophilic range.
+
+
+Paper: PMC12266354.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability testing conditions for MetB16: "MetB16 retained stability and lytic activity effectively across a temperature range from −80 to 37 °C (Figure 2E), but significant declines in viability and activity were noted at temperatures above 50 °C." The optimal growth/activity temperature mentioned in the context of host culture and assays is 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11585740.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "Both phages can steadily survive up to 40 °C..." and later, in the section on one-step growth curve, "...followed by incubation at 37 °C at 120 rpm for 5 min for the adsorption of the phage to the bacterial cell." The optimal growth temperature for the host bacteria (Klebsiella pneumoniae) and the conditions tested for phage survival (up to 40 °C, and specific assays at 37 °C) fall within the mesophilic range (15–45°C).
+
+
+=============Reasoning for WDQ26312 from host literature=============
+Paper: PMC13183296.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for culturing and susceptibility testing. For initial isolation attempts, the plates were incubated at "30 °C for at least 120 h". For subsequent subculturing, the plates were incubated at "30 °C for at least 48 h". For antibiotic susceptibility testing, plates were incubated for "48 h at 30 °C under microaerobic conditions." These temperatures (30°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for WDQ26312 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage phi_KPN_S3) and its host (Klebsiella pneumoniae). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The decision rules require assigning a classification. Since no environmental context is provided, the system must default to the 'mesophile' classification as per Rule 4 and the fallback rule. 4. The confidence is low because the assignment is based purely on the default fallback mechanism.
+
+

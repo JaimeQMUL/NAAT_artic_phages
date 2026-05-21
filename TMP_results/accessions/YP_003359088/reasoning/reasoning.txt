@@ -1,0 +1,33 @@
+=============Reasoning for YP_003359088 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Delftia acidovorans') and the phage name, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_003359088 from accession literature=============
+Paper: PMC5977210.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper mentions the host organisms and the conditions used for culturing the phages: "These phages were cultured in Luria broth (Difco) containing 10 mM CaCl2 at 30 °C and harvested post DNase I treatment by polyethylene glycol precipitation [48].". This indicates a culture temperature of 30 °C for both phages. However, the task asks for the thermal characteristics of the phage itself, and while 30°C is a mesophilic temperature, the text does not explicitly state the optimal growth temperature or the thermal classification (psychrophile, mesophile, thermophile) for the phage, only the culture temperature used for isolation/harvesting. Since the classification must be based on explicit or strongly linked host/phage biology, and the text only provides a culture condition, I will classify it as None for the final determination, but note the 30°C culture condition.
+
+
+=============Reasoning for YP_003359088 from host literature=============
+Paper: PMC13141888.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for initial isolation and subsequent growth conditions: "All plates were incubated at 30°C corresponding to the river water temperature for 2 days." Additionally, when growing on minimal medium, the text specifies: "Delftia strain PS-11 was grown in 150 mL M9 minimal medium... at 30°C on a rotary shaker (200 rpm)." Since the mesophilic range is defined as 15–45°C, 30°C falls within this range.
+
+
+=============Reasoning for YP_003359088 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Delftia phage PhiW-14.
+2. Check for environmental context: The host organism is 'Delftia acidovorans'. While the name 'Delftia' suggests a potential geographical link (Delft), no specific environmental temperature range is provided for the host or the phage.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak, the system must default to the fallback classification rule (Rule 4).
+4. Fallback assignment: The default classification is 'mesophile'.
+
+

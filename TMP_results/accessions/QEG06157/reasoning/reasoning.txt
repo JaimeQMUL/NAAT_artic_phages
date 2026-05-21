@@ -1,0 +1,39 @@
+=============Reasoning for QEG06157 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for QEG06157 from accession literature=============
+Paper: PMC6832132.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that for the host strain *Shigella sonnei* 53G, "S. sonnei 53G strain was grown in Brain Heart Infusion (BHI) broth (Oxoid, U.K.) at 37 °C without aeration." Furthermore, when assessing the host range of the isolated phages, the plates were incubated at "37 °C." The general growth conditions for the host bacteria are explicitly stated as 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: 42112428.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states: "The DSF2 remains stable from 4 °C to 50 °C". Since the mesophile range is defined as 15–45°C, and the phage is stable across this range (and slightly beyond), it falls within the mesophilic classification. The upper limit of 50°C is close to the thermophile threshold (> 45°C), but the stability range encompasses the core mesophilic range.
+
+
+=============Reasoning for QEG06157 from host literature=============
+Paper: PMC13119680.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The incubation conditions for culturing the C. hepaticus strains (USA1, USA5, and USA52) were explicitly stated as 'incubated at 37 °C for 7 days under microaerophilic conditions' (Section 2.2). Furthermore, the incubation for the phage display process involved incubating plaques 'overnight at 37 °C' (Section 2.4), and the ELISA assays were performed at '37 °C' (Section 2.15 and 2.16). These temperatures fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for QEG06157 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Shigella phage JK42.
+2. Check for environmental context: The isolation source is 'sewage', and the collection date is '31-Jan-2017'. Sewage environments typically fluctuate but are generally associated with mesophilic conditions (15–45°C) for enteric phages.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (sewage) points towards moderate conditions, the most probable classification is mesophile. As this is a default assignment based on general knowledge and limited context, the fallback rule (Rule 4) is applied, leading to a 'forced' classification.
+
+

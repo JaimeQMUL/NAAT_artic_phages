@@ -1,0 +1,19 @@
+=============Reasoning for YP_009146476 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Citrobacter phage Moon') and the host ('Citrobacter freundii'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_009146476 from accession literature=============
+=============Reasoning for YP_009146476 from host literature=============
+=============Reasoning for YP_009146476 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Citrobacter phage Moon') and its host ('Citrobacter freundii').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental source temperature.
+3. Therefore, no evidence is available to classify it as psychrophile or thermophile.
+4. According to the decision rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

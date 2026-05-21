@@ -1,0 +1,42 @@
+=============Reasoning for YP_009201357 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata mentions the isolation source as 'marine sediment', but does not provide any specific temperature range or condition to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for YP_009201357 from accession literature=============
+=============Reasoning for YP_009201357 from host literature=============
+Paper: PMC10811132.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The optimal activity of VaAly2 was observed at 30°C, which falls within the mesophile range (15–45°C). The text states: "As shown in Figure 3B, the optimum activity of VaAly2 was observed at 30°C".
+
+
+Paper: PMC11354583.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the phage 'RH2G' was 'relatively stable at 4–55 °C' and later mentions that 'RH2G showed high lytic activity across diverse environmental conditions (ranging from 4 °C to 55 °C)'. The host bacterium, *Vibrio alginolyticus*, is described as 'mesophilic in nature [2]'. Since the phage stability range (4–55 °C) encompasses the mesophilic range (15–45°C) and the host is mesophilic, the classification is mesophile based on the explicit stability data and host context.
+
+
+Paper: 40541673.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that phage R23Z "performed well across a wide temperature range (4°C-45 °C)". This range encompasses temperatures below 15°C (psychrophile range) and up to 45°C, fitting the definition of mesophile (15–45°C) as the optimal or tested range covers this broad, moderate spectrum, and the upper limit is 45°C.
+
+
+=============Reasoning for YP_009201357 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Vibrio alginolyticus' and was isolated from 'marine sediment' in 'Malaysia'.
+2. **Apply Decision Rules:**
+    *   Rule 1 (Explicit evidence): No explicit temperature range is provided.
+    *   Rule 2 (Inference from environment): Marine sediments generally experience fluctuating, moderate temperatures, often falling within the mesophilic range (15–45°C), although deep sediments can be cooler.
+    *   Rule 3 (Fallback): Since the environmental context ('marine sediment') suggests moderate conditions, and no explicit evidence exists, the most probable classification is mesophile.
+3. **Conclusion:** Defaulting to mesophile based on the general nature of marine microbial habitats when specific thermal data is absent.
+
+

@@ -1,0 +1,48 @@
+=============Reasoning for QFP97398 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QFP97398 from accession literature=============
+Paper: PMC13171985.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions temperature conditions for various assays involving the enzyme or the system components. 
+1. Biosensor readout measurement: "Error bars show mean and SD between 3 biological replicates. d Measurement of the biosensor readout at 30 °C, 34 °C, and 37 °C, with different concentrations of 7-Cl-Trp. Error bars show mean and SD between 3 biological replicates." (Fig. 1d)
+2. Phage propagation at 37°C: "Finally, phage propagation at 37 °C was only observed upon addition of 7-Cl-Trp to the media (Fig. 2c)."
+3. Optimal temperature for WT RebH: "We also tested the activity of our enzyme at 37 °C versus the WT at 30 °C, which is the optimal temperature for WT RebH expression in E. coli due to its poor solubility7,12." (Paragraph starting 'We next sought to characterise...')
+4. In vitro assays: "Reactions were performed in triplicate in 100 µL total volume at 30 °C or 37 °C (as indicated) using a 96-well microtiter plate with orbital shaking at 300 rpm. Time-points were collected at 2–30 min and quenched by addition of an equal volume of MeOH (100%)." (Paragraph starting 'Reactions were initiated containing...')
+5. Bioreactor production: "Over the course of approximately 30 h at 37 °C, we obtained a final titre of 2.7 g/L (approx. 12 mM) 7-Cl-Trp at (Fig. 5b)." (Paragraph starting 'To further explore the titres...')
+6. Growth-based screening: "Growth curves were measured over 10 h of continuous shaking at 37 °C on a Tecan Spark microplate reader." (Paragraph starting 'Growth-based screening...')
+
+Since the optimal/tested temperatures are 30°C, 34°C, and 37°C, these fall within the mesophilic range (15–45°C).
+
+
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for obtaining spores of S. clavuligerus: "Spores of S. clavuligerus were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days)". It also states that "Spores of S. clavuligerus wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm." Furthermore, the general cultivation conditions for the main experiments were "Cultures were incubated for 120 h, at 220 rpm and 28 ◦C." Since 28°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QFP97398 from host literature=============
+Paper: PMC8914351.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the culture conditions for the bacteria: "Streptomyces scabiei 87–22 and its ΔcebR mutant [22] were routinely cultured in Tryptic Soy broth (TSB, 30 g l−1, Sigma-Aldrich) or ISP2 (for 1 l: 4 g Yeast Extract, 10 g Malt Extract, 4 g Dextrose, pH 7.2) liquid media at 28 °C under shaking (180 r.p.m., New Brunswick Innova 44 incubator shaker)." Additionally, later sections confirm this temperature: "After 96 h of incubation at 28 °C, half of each plate was extracted..." and "After 30 min of incubation in TDMm at 28 °C, a first sample...". Since 28°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QFP97398 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage IchabodCrane'.
+2. Check for environmental context: The isolation source is listed as 'soil', and the geographical coordinates are provided (39.155678 N 76.750809 W), which suggests temperate terrestrial conditions. Soil environments generally support mesophilic life forms.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) points towards moderate conditions, the most probable classification is mesophile. Because the evidence is not strongly implied by a specific temperature range, the fallback rule (defaulting to 'mesophile') is applied.
+4. Conclusion: Assign 'mesophile' as the most probable classification.
+
+

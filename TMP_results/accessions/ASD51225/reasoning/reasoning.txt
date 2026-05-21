@@ -1,0 +1,37 @@
+=============Reasoning for ASD51225 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Dickeya phage JA15') and its host ('Dickeya solani'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for ASD51225 from accession literature=============
+Paper: PMC5582154.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that 'Dickeya species were routinely grown at 30°C in Luria broth (LB) or on LB agar plates (1.5%, wt/vol, agar)' in section 4.1. Furthermore, the incubation conditions for phage isolation were 'incubated overnight in a 250 mL flask at 30°C with shaking at 250 rpm' (Section 4.2) and 'incubated overnight at 30°C' for plaque assays (Section 4.2). Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for ASD51225 from host literature=============
+Paper: PMC12886445.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "thermal stability tests indicated that all three phages maintained infectivity across a broad temperature range (−20 °C to 60 °C)". The optimal growth temperature for the host, D. solani, was used for multiple assays, including incubation at 28 °C (Section 2.2, 2.3, 2.5, 2.6, 2.8, 2.9). The general optimal range for mesophiles is 15–45°C. Since the phages maintained infectivity up to 60°C but were tested and used in assays centered around 28°C, and the host growth was optimized at 28°C, the classification points towards mesophile, as 28°C falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC10931765.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for culturing the wild-type strain and the mutants: "Solid bacterial cultures were cultivated on tryptone soya agar plates (TSA, Oxoid) or M9 minimal medium agar plates with glucose (M9 + 0.4% glucose, supplemented with 15 g L−1 bacteriological agar (Oxoid)) at 28 °C for 24–48 h." It also states the incubation temperature for qRT-PCR: "...incubated for approximately 16 h at 28 °C with shaking (200 rpm)." Furthermore, the plate assays were developed for "24 h at 28 °C." Since 28°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for ASD51225 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Dickeya phage JA15') and its host ('Dickeya solani'), along with collection details (United Kingdom, 2014). 2. There is no explicit mention of optimal growth temperature, minimum, or maximum temperature for the phage or its host. 3. The host, *Dickeya solani*, is a common phytopathogen often associated with moderate environmental conditions. 4. Since no thermal data is available, the decision rules mandate defaulting to 'mesophile' as the fallback class. 5. Mesophile is defined as 15–45°C, which represents the most common range for environmental microbes unless otherwise specified.
+
+

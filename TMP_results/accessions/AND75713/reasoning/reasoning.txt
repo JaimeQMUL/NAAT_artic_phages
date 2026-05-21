@@ -1,0 +1,25 @@
+=============Reasoning for AND75713 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('duck feces') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for AND75713 from accession literature=============
+Paper: PMC9241756.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper mentions that 'Phages were stable up to 50°C, with variable decreases in titer observed at 60°C and 70°C (Fig. S1G to I).' This indicates a stability range, but it does not define the optimal growth temperature or classify the phage as psychrophile, mesophile, or thermophile based on the provided definitions (psychrophile: optimal growth < 15°C; mesophile: 15–45°C; thermophile: > 45°C).
+
+
+=============Reasoning for AND75713 from host literature=============
+=============Reasoning for AND75713 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is 'duck feces'. Feces are generally associated with ambient or moderate environmental temperatures, which typically fall within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The source suggests a moderate environment, pointing towards mesophile. However, the environmental context is weak for a definitive classification. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

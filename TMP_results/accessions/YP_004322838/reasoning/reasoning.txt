@@ -1,0 +1,19 @@
+=============Reasoning for YP_004322838 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides location coordinates (40.00 N 71.80 W) and a collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated for the phage or its host.
+
+
+=============Reasoning for YP_004322838 from accession literature=============
+=============Reasoning for YP_004322838 from host literature=============
+=============Reasoning for YP_004322838 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-ShM2.
+2. Check for environmental context: The metadata provides geographical coordinates ('lat_lon': '40.00 N 71.80 W') and a collection date ('collection_date': '16-Sep-2001'). These coordinates point to a temperate coastal region (likely North Atlantic/North American coast), which generally supports mesophilic organisms.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The geographical context suggests a temperate environment, leaning towards mesophilic conditions (15–45°C).
+4. Fallback: As the environmental context is suggestive but not definitive for thermal classification, and no direct evidence is present, the system defaults to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+
+

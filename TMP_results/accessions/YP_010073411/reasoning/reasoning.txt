@@ -1,0 +1,26 @@
+=============Reasoning for YP_010073411 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for YP_010073411 from accession literature=============
+Paper: PMC11237537.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures for phage propagation and bacterial growth. For phage propagation, the text mentions: "Briefly, the purified phage was propagated by mixing 1% of the overnight culture of O157 in liquid LB and incubated overnight at 37°C." For bacterial growth/testing, the text repeatedly mentions incubation at 37°C: "The mixture was then added to 3 mL of top agar (LB, 0.5% agar, and 1 mM CaCl2) dissolved at 45°C, layered onto LB plates, and incubated at 37°C overnight." and "A portion of each glycerol stock was streaked on an MHB-G6P plate, incubated overnight at 37°C." The optimal growth temperature for the host bacteria (E. coli O157:H7) and the phages is consistently stated as 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_010073411 from host literature=============
+=============Reasoning for YP_010073411 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to accession numbers, titles, and general sequence information. There is no explicit mention of optimal growth temperature, isolation source temperature, or any thermal range data.
+2. Since no explicit evidence exists (Rule 1 fails), the system must infer from environmental context (Rule 2). The host organism is 'Escherichia', which is a common bacterium often associated with moderate environments.
+3. As environmental context is weak or absent regarding temperature, the system defaults to the fallback classification as per Rule 4.
+4. The fallback classification is 'mesophile'.
+
+

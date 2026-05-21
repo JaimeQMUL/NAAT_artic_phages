@@ -1,0 +1,19 @@
+=============Reasoning for YP_717845 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Synechococcus sp. WH 8012'), and accession details, but no explicit or strongly implied temperature or environmental condition (e.g., hot springs, deep sea, soil) is mentioned to determine a thermal range.
+
+
+=============Reasoning for YP_717845 from accession literature=============
+=============Reasoning for YP_717845 from host literature=============
+=============Reasoning for YP_717845 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Synechococcus phage syn9') and its host ('Synechococcus sp. WH 8012').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range.
+3. The host, Synechococcus, is a common cyanobacterium often associated with aquatic environments. While some cyanobacteria can inhabit extreme environments, the general context of phages associated with common environmental bacteria, without specific temperature data, defaults to mesophilic conditions (15–45°C).
+4. Since no evidence is available, the fallback rule dictates assigning 'mesophile'.
+
+

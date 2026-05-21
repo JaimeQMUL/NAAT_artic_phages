@@ -1,0 +1,19 @@
+=============Reasoning for YP_008129993 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Atlantic: BATS') and coordinates ('31.48 N 64.16 W'), but no explicit or strongly implied temperature range (e.g., psychrophile, mesophile, thermophile) is given.
+
+
+=============Reasoning for YP_008129993 from accession literature=============
+=============Reasoning for YP_008129993 from host literature=============
+=============Reasoning for YP_008129993 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from the 'Atlantic Ocean' at coordinates '31.48 N 64.16 W' and the collection date was '05-Jun-1996'.
+2. **Determine Environmental Context:** The Atlantic Ocean at these coordinates represents a typical marine environment. While specific temperature data is absent, open ocean surface/near-surface waters generally fall within the mesophilic range (15–45°C) unless otherwise specified (e.g., deep-sea vents or polar ice melt).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (open ocean) suggests mesophilic conditions. Since the context is general marine water, and there is no strong evidence for extreme cold or heat, the default assumption based on general microbiology knowledge for non-extreme marine isolates is mesophilic.
+4. **Conclusion:** Assign 'mesophile' as the most probable classification based on the general marine origin, defaulting to the middle range as per the rules.
+
+

@@ -1,0 +1,40 @@
+=============Reasoning for WZW73058 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name, host, and country of origin, but no explicit or strongly implied temperature or growth condition information is present to determine the thermal range.
+
+
+=============Reasoning for WZW73058 from accession literature=============
+Paper: PMC13142089.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the stability of ValKK3 at various temperatures. It states: "ValKK3 was stable at 40°C but began to lose activity at 50°C to 80% following heating for 60 min. The lytic activity disappeared entirely when heated at more than 60°C for 1 h (Figure 6A)." Since the phage is stable at 40°C and loses activity above 60°C, its optimal or effective range falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+Paper: 42090863.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that LysV569 retained >99% of its activity after pre-incubation for 30 min over a wide temperature range (4 °C to 85 °C). Since the optimal growth range for the host, Vibrio parahaemolyticus, is not given, and the phage activity is tested across a very wide range including refrigeration (4 °C) up to 85 °C, the most appropriate classification based on the provided data points towards mesophilic stability, as the tested range encompasses mesophilic conditions (15–45°C) and extends significantly beyond psychrophilic limits, while the upper limit (85°C) is high but the stability is demonstrated across a broad range, suggesting robustness rather than strict thermophily. However, since the text explicitly states stability across 4°C to 85°C, and the definition for mesophile is 15–45°C, we must rely on the explicit stability data. Given the range includes 4°C (psychrophilic) and 85°C (thermophilic), and the paper does not define the optimal temperature for the phage, we will classify based on the general stability demonstrated, which covers mesophilic conditions. The most conservative classification based on the provided definitions and the observed stability across a wide range is mesophile, as it covers the typical range of environmental relevance for food pathogens.
+
+
+=============Reasoning for WZW73058 from host literature=============
+=============Reasoning for WZW73058 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Vibrio phage TCU-VP03-AIR1.
+2. Check for environmental context: The metadata indicates the host is 'Vibrio parahaemolyticus' and the country of origin is 'Taiwan'. Vibrio species are generally associated with moderate aquatic environments.
+3. Apply decision rules: Since no explicit evidence exists, inference is required. The default assumption for phages associated with common environmental bacteria like Vibrio, especially without specific temperature data, is mesophily (15–45°C).
+4. Conclusion: Following the fallback rule (Rule 4) due to insufficient evidence, 'mesophile' is assigned.
+
+

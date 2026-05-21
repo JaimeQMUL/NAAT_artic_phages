@@ -1,0 +1,33 @@
+=============Reasoning for QNO01299 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'raw milk'. Milk is typically associated with mesophilic environments, leading to an inference of a mesophilic thermal range.
+
+
+=============Reasoning for QNO01299 from accession literature=============
+=============Reasoning for QNO01299 from host literature=============
+Paper: PMC10432377.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The enzyme activity assay section states: "A reaction mixture (50 μL) containing an appropriate concentration of the enzyme, 80 mM sodium acetate buffer (pH 4.0), and 2 mM pNPGal (Nacalai Tesque, Inc., Kyoto, Japan), was incubated at 37 °C for 10 min and liberated p-nitrophenol was quantified..." This indicates an optimal or tested condition at 37 °C. Furthermore, the section on stability mentions: "LBCZ_0230 retained ≥90 % of its original activity at pH 3.5-8.0 (4 °C, 24 h) and at ≤50 °C (pH 4.0, 20 min) (Fig. 3)." Since 37 °C is within the mesophilic range (15–45°C), and the enzyme shows activity and stability at this temperature, the classification is mesophile.
+
+
+Paper: PMC13119075.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states the incubation conditions for biofilm formation and assays: "Cultures were incubated under anaerobic conditions (5% CO2, 10%H2, and 85% N2) at 37 °C [16,17,18,19,20]." Additionally, the CV assay incubation was performed at "37 °C for 24 h under static conditions," and the XTT assay incubation was performed for "3 h at 37 °C." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QNO01299 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the isolation source as 'raw milk' and the lab host as 'Lactobacillus casei BL23'.
+2. 'Lactobacillus' species are generally associated with moderate, mammalian gut or dairy environments, which typically fall within the mesophilic range (15–45°C).
+3. There is no explicit temperature data provided for the phage.
+4. Therefore, based on the general ecology of the associated host organism (Lactobacillus), the most probable classification is mesophile. This assignment is a fallback classification due to the lack of direct thermal evidence.
+
+

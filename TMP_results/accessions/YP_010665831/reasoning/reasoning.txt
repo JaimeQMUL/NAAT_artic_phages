@@ -1,0 +1,54 @@
+=============Reasoning for YP_010665831 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Cronobacter sakazakii') and the phage name ('Cronobacter phage LPCS28'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_010665831 from accession literature=============
+Paper: PMC13101489.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth conditions for the host bacteria and the conditions used for various assays. For general bacterial growth and phage adsorption/incubation, the temperature used is consistently 37°C. The paper also mentions that the phage 'retained stability at 50°C' and that 'Phage W5 maintained high titer levels within the temperature range of 10°C–50°C'. Since 37°C falls within the mesophilic range (15–45°C) and is the primary incubation temperature mentioned for optimal activity, the classification is mesophile.
+
+
+Paper: PMC13036506.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "The titer of Chage1 did not decrease considerably after 3 h of treatment at 4–50°C; however, the titer decreased over time at 60°C and was completely inactivated after 2.5 h." This indicates stability across 4–50°C. The optimal growth temperature for the host bacteria, C. sakazakii, is consistently mentioned as 37°C (e.g., "Chage1 (MOI of 105) also showed antibacterial activity against two C. sakazakii strains in PIF and milk samples for 8 h at 37°C."). Since the phage is tested and shown to be active at 37°C, and the stability range includes 37°C, the classification is mesophile (15–45°C).
+
+
+Paper: PMC12671138.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures used for various assays. For the general bacterial growth and phage assays (e.g., SEM incubation, lysis spectrum determination, lysogenicity analysis, optimal MOI determination, one-step growth curve, BIM frequency determination, and inhibitory effect testing), the incubation temperature used was consistently 37°C. The discussion section also mentions that Csp-D17 exhibited 'remarkable tolerance to temperature (50°C–70°C)' and that the optimal MOI was determined at 37°C. Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic based on the primary experimental conditions.
+
+
+Paper: 37689848.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text mentions that the pre-added LPCS28 significantly inhibited C. sakazakii after thermal processing at 63 °C for 30 min, and that the reduction was observed in samples incubated at 37 °C and 23 °C. Since 37 °C falls within the mesophile range (15–45°C), and this is the condition where the phage's effectiveness is demonstrated in relation to bacterial growth, we classify it as mesophile. The explicit mention of 37°C is the strongest indicator.
+
+
+=============Reasoning for YP_010665831 from host literature=============
+Paper: PMC13176939.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions several temperatures related to the process: 1. Pasteurization uses HTST treatment by heating to at least 72°C and holding at or above this temperature for at least 15 s. 2. Spray drying involves atomizing milk into a hot air stream (180°C–220°C). 3. Incubation for Cronobacter spp. determination uses 37°C and 42°C. 4. Incubation for ESIA/TSA uses 37°C. 5. The optimal growth temperature for the general classification (mesophile: 15–45°C) is inferred from the incubation temperatures (37°C, 42°C) which fall within this range, and the general context of foodborne pathogens, although the paper does not explicitly state the optimal growth temperature for the phage. Since no specific phage thermal data is provided, and the host/pathogen incubation temperatures (37°C, 42°C) fall within the mesophile range (15–45°C), the thermal range is inferred as mesophile.
+
+
+=============Reasoning for YP_010665831 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Cronobacter phage LPCS28.
+2. Check for environmental context: The metadata provides the host organism ('Cronobacter sakazakii') and collection location ('China'), but no specific temperature range is given for the environment.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient to strongly infer psychrophile or thermophile conditions, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with 'forced' inference type and 'low' confidence due to lack of supporting data.
+
+

@@ -1,0 +1,20 @@
+=============Reasoning for YP_195169 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sea water' and the country is 'United Kingdom:English Channel'. These environments are generally associated with mesophilic conditions, although no explicit temperature is given.
+
+
+=============Reasoning for YP_195169 from accession literature=============
+=============Reasoning for YP_195169 from host literature=============
+=============Reasoning for YP_195169 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'sea water' and the country is 'United Kingdom:English Channel'.
+2. **Determine Environmental Context:** Seawater, particularly from temperate regions like the English Channel, typically represents a moderate temperature environment, generally falling within the 15–45°C range, rather than consistently cold (<15°C) or consistently hot (>45°C).
+3. **Apply Decision Rules:** Since there is no explicit thermal range provided, the inference relies on the environmental context (sea water from a temperate location). This context strongly suggests mesophilic conditions.
+4. **Fallback Check:** The environmental context points towards mesophily. Therefore, 'mesophile' is selected.
+5. **Conclusion:** The most probable classification based on the temperate marine origin is mesophile.
+
+

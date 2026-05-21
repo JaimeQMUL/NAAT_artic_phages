@@ -1,0 +1,23 @@
+=============Reasoning for UFK27161 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia sp.'), and sequence information, but no explicit or strongly implied temperature or environmental condition is mentioned to determine the thermal range.
+
+
+=============Reasoning for UFK27161 from accession literature=============
+Paper: PMC13119998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "Once purified, they were grown to high titer (≥10^8 pfu/mL) at 37 °C for 2 days." The incubation temperature of 37 °C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for UFK27161 from host literature=============
+=============Reasoning for UFK27161 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage UoN_LG358_1. 2. The host organism, Escherichia sp., is a common bacterium typically associated with moderate environmental temperatures (mesophilic range). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Given the general nature of the host and the lack of temperature data, the default classification of 'mesophile' is assigned as the fallback class.
+
+

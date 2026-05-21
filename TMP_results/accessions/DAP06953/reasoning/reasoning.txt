@@ -1,0 +1,16 @@
+=============Reasoning for DAP06953 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata mentions the isolation source is 'Human metagenome', but it does not specify any temperature or thermal condition associated with this source to classify the organism as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for DAP06953 from accession literature=============
+=============Reasoning for DAP06953 from host literature=============
+=============Reasoning for DAP06953 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the country is 'USA'. Human-associated microbes and phages are generally associated with moderate body temperatures (around 37°C), which falls within the mesophilic range (15–45°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a human host, pointing towards mesophily. 4. Fallback: Because the environmental context (human host) strongly suggests moderate conditions, this inference is used. If the context were completely absent, the default would be mesophile. Therefore, mesophile is selected.
+
+

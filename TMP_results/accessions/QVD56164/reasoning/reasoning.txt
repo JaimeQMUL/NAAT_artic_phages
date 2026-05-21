@@ -1,0 +1,16 @@
+=============Reasoning for QVD56164 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal conditions for the bacteriophage or its host.
+
+
+=============Reasoning for QVD56164 from accession literature=============
+=============Reasoning for QVD56164 from host literature=============
+=============Reasoning for QVD56164 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to sequence identifiers, titles, and dates, with no explicit information regarding the optimal growth temperature or the natural environment of Staphylococcus phage PM9. 2. No explicit evidence for psychrophile (<15°C) or thermophile (>45°C) is present. 3. Following the decision rules, since environmental context is weak or absent, the system must assign the MOST PROBABLE classification. 4. The fallback rule dictates defaulting to 'mesophile'.
+
+

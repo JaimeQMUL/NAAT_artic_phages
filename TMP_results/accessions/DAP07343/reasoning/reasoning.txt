@@ -1,0 +1,16 @@
+=============Reasoning for DAP07343 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and 'isolation_source' is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAP07343 from accession literature=============
+=============Reasoning for DAP07343 from host literature=============
+=============Reasoning for DAP07343 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range of the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the country is 'USA'. Human-associated microbes and phages are generally considered mesophilic unless specific extreme environments are noted. 3. Apply decision rules: Since no explicit evidence exists, and the context points to a human source (which typically implies moderate conditions), the most probable classification is mesophile. 4. Fallback: As no useful metadata exists to strongly suggest psychrophile or thermophile, the default fallback classification is 'mesophile'.
+
+

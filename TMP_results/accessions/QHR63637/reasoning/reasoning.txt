@@ -1,0 +1,26 @@
+=============Reasoning for QHR63637 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for growth or isolation.
+
+
+=============Reasoning for QHR63637 from accession literature=============
+=============Reasoning for QHR63637 from host literature=============
+Paper: PMC13101720.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the cultivation conditions for several steps: 1. "All cultivations were performed in an orbital shaker set at 37 °C..." (Section 2.3). 2. "Cell cultivation: 3 mL of LB was inoculated with a colony from a LB plate supplemented with 35 mg L−1 chloramphenicol and incubated (37 °C, 220 rpm) in a 15 mL screw cap tube (PC1)." (Section 2.5). 3. "After 8 h of cell cultivation, 10 mL of M9 (20 g L−1 glucose) supplemented with 1 mM IPTG (PC2) was inoculated with 0.01 mL of PC1. After overnight incubation (16 h), the cells were harvested (5 min at 6000×g, room temperature)." (Section 2.5). 4. "The main culture was inoculated at an initial OD600 of 0.02. When an OD600 of 1 was reached, cells were collected by centrifugation (6000×g, 5 min, 4 °C)..." (Section 2.5). The consistent use of 37°C for primary culturing indicates the optimal or standard growth temperature for the system described.
+
+
+=============Reasoning for QHR63637 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for 'Escherichia phage teqhal'.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the host is 'Escherichia coli MG1655 K-12'. Both wastewater and E. coli are typically associated with moderate environmental temperatures (mesophilic range).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The most probable classification based on the host and source is mesophile (15–45°C).
+4. **Fallback:** As the environmental context points towards moderate conditions, 'mesophile' is selected. This classification is assigned by default due to the lack of specific thermal data.
+
+

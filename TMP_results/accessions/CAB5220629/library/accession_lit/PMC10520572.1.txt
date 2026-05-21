@@ -1,0 +1,275 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Virus Res
+Journal ID: Virus Res
+
+Virus Research
+
+ISSN: 0168-1702
+EISSN: 1872-7492
+Publisher: Elsevier
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC10520572
+PMID: 37739268
+DOI: 10.1016/j.virusres.2023.199226
+Article ID: S0168-1702(23)00188-0
+Article ID: 199226
+Article version: 1
+Subjects: Article
+
+Characterization and genomic analysis of Stutzerimonas stutzeri phage vB_PstS_ZQG1, representing a novel viral genus
+
+Ge Fuyue a 1
+Guo Ruizhe a 1
+Liang Yantao liangyantao@ouc.edu.cn a b ⁎
+Chen Ying a
+Shao Hongbing a b
+Sung Yeong Yik b c
+Mok Wen Jye b c
+Wong Li Lian b c
+McMinn Andrew a d
+Wang Min mingwang@ouc.edu.cn a b e f ⁎
+a College of Marine Life Sciences, Institute of Evolution and Marine Biodiversity, MoE Laboratory of Evolution and Marine Biodiversity, Frontiers Science Center for Deep Ocean Multispheres and Earth System, Center for Ocean Carbon Neutrality, Ocean University of China, Qingdao, China
+b UMT-OUC Joint Centre for Marine Studies, Qingdao, China
+c Institute of Marine Biotechnology, Universiti Malaysia Terengganu, Kuala Terengganu, Malaysia
+d Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, TAS, Australia
+e Haide College, Ocean University of China, Qingdao, China
+f The Affiliated Hospital of Qingdao University, Qingdao, China
+⁎ Corresponding authors at: College of Marine Life Sciences, Institute of Evolution and Marine Biodiversity, MoE Laboratory of Evolution and Marine Biodiversity, Frontiers Science Center for Deep Ocean Multispheres and Earth System, Center for Ocean Carbon Neutrality, Ocean University of China, Qingdao, China. liangyantao@ouc.edu.cnmingwang@ouc.edu.cn1 These authors have contributed equally to this work.
+
+Publication date: 2023 Oct 15
+Electronic publication date: 2023 Sep 22
+Volume: 336
+Electronic Location ID: 199226
+Received 2023 Jun 12; Revised 2023 Sep 11; Accepted 2023 Sep 19
+Copyright: © 2023 The Authors. Published by Elsevier B.V.
+Copyright year: 2023
+Copyright holder:
+License: This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Stutzerimonas stutzeri, Vb_psts_zqg1, Fuevirus, Genomic and phylogenetic analysis, Biogeographic analysis
+
+==============================
+Highlights
+
+• A novel Stutzerimonas stutzeri phage vB_PstS_ZQG1 was isolated from the surface seawater of Qingdao, China.
+
+• Two AMGs are encoded by phage vB_PstS_ZQG1, including TolA protein and nucleotide pyrophosphohydrolase.
+
+• Phage vB_PstS_ZQG1 represents a new viral genus, named Fuevirus, within the caudoviricetes.
+
+• Phage vB_PstS_ZQG1 is predominantly found in the epipelagic and mesopelagic zones with low abundance.
+
+Stutzerimonas stutzeri is an opportunistic pathogenic bacterium belonging to the Gammaproteobacteria, exhibiting wide distribution in the environment and playing significant ecological roles such as nitrogen fixation or pollutant degradation. Despite its ecological importance, only two S. stutzeri phages have been isolated to date. Here, a novel S. stutzeri phage, vB_PstS_ZQG1, was isolated from the surface seawater of Qingdao, China. Transmission electron microscopy analysis indicates that vB_PstS_ZQG1 has a morphology characterized by a long non-contractile tail. The genomic sequence of vB_PstS_ZQG1 contains a linear, double-strand 61,790-bp with the G+C content of 53.24% and encodes 90 putative open reading frames. Two auxiliary metabolic genes encoding TolA protein and nucleotide pyrophosphohydrolase were identified, which are likely involved in host adaptation and phage reproduction. Phylogenetic and comparative genomic analyses demonstrated that vB_PstS_ZQG1 exhibits low similarity with previously isolated phages or uncultured viruses (average nucleotide identity values range from 21.7 to 29.4), suggesting that it represents a novel viral genus by itself, here named as Fuevirus. Biogeographic analysis showed that vB_PstS_ZQG1 was only detected in epipelagic and mesopelagic zone with low abundance. In summary, our findings of the phage vB_PstS_ZQG1 will provide helpful insights for further research on the interactions between S. stutzeri phages and their hosts, and contribute to discovering unknown viral sequences in the metagenomic database.
+
+1 Introduction
+
+Viruses are the most abundant “life forms” in the marine environments, with an average of 106 to 109 virus-like particles per milliliter of seawater, surpassing prokaryotes by an order of magnitude (Fuhrman, 1999; Wommack and Colwell, 2000). Despite their diminutive size, viruses play an important role in the marine microbial ecosystem. In the surface oceans, viruses cause approximately 10–30% of daily bacterial mortality through infection and lysis (Suttle, 1994). Viruses release dissolved organic matter into the micro-food web during the lysis of the hosts, which not only promotes the recycling of organic matter but also increases the carbon export from the surface to the deep water through the “viral shuttle” (Zimmerman et al., 2020b). Apart from being highly abundant, the viruses also exhibit remarkable genetic diversity. They mediate the co-evolution with their hosts through horizontal gene transfer and regulate multiple host metabolic pathways by encoding auxiliary metabolic genes (AMGs), thereby altering the evolutionary trajectory of marine biogeochemical cycles and microbial communities (Moreau et al., 2010).
+
+During the past decades, our understanding of viral diversity has expanded significantly due to the rapid development of metagenomic and high-throughput sequencing technologies (Camargo et al., 2023; Gregory et al., 2019). However, a substantial portion of the viral sequences obtained from the environmental metagenomic data remains enigmatic, as they cannot be aligned with any known nucleotide or amino acid sequences. These unknown sequences account for 40–90% of the total assembled viruses and are often referred to as “viral dark matter” (Krishnamurthy and Wang, 2017). The identification and characterization of viruses within dark matter generally rely on the comparison of genomic sequences with reference sequences to predict putative viruses (Santiago-Rodriguez and Hollister, 2022). Hence, it becomes crucial to combine the isolation of marine viruses with a metagenomic approach. The isolation and genomic characterization of marine viruses can augment our knowledge and comprehension of viral diversity, thereby enhancing our ability to predict the existence of viruses residing within the dark matter.
+
+Stutzerimonas, a recently proposed genus within the family Pseudomonadaceae, has been delineated based on core-genome phylogeny and phenotypic characteristics (Gomila et al., 2022; Lalucat et al., 2022). This genus includes certain species previously classified under the genus Pseudomonas. Specifically, Stutzerimonas stutzeri is corresponding to the former Pseudomonas stutzeri group (Gomila et al., 2022). S. stutzeri, an opportunistic pathogen found in various environments, has not only denitrification but also nitrogen fixation, contributing to the oceanic nitrogen cycle through the conversion of nitrogen oxides into atmospheric nitrogen (Chen et al., 2021; Li et al., 2012). Considering the ecological significance of S. stutzeri, studies on its phage genomics and ecology should not be ignored. Currently, only two cultivated phages infecting S. stutzeri strains have been reported (Feng et al., 2021; Liu et al., 2021). Therefore, the isolation of more S. stutzeri phages is essential to improve our understanding of the marine ecological functions of S. stutzeri phages and their role in co-evolution with their hosts.
+
+In this study, a novel S. stutzeri phage, named vB_PstS_ZQG1, has been isolated from the coastal water of Qingdao, China. Comprehensive analyses including morphological, genomic, and phylogenetic were conducted to characterize vB_PstS_ZQG1. Our results demonstrate that vB_PstS_ZQG1 shows a distinct genome composition, displaying limited sequence similarities to any other isolated phages and uncultured viral genomes. Based on these observations, we propose that phage vB_PstS_ZQG1 represents a novel viral genus, named as Fuevirus. This study significantly contributes to the knowledge expanding on S. stutzeri phages, further enhancing our understanding of their diversity.
+
+2 Materials and methods
+
+2.1 Sampling and location
+
+The 150L surface seawater sample was collected from ZhanQiao, Qingdao (36.06°N, 120.32°E) on 5 July 2020. The water sample was prefiltered through a 20μm filter to remove larger plankton and particles, followed by filtration through 0.22μm pore-size membranes (Millipore) to obtain a pure seawater virus sample. The collected sample was then stored at 4°C until further experimentation.
+
+2.2 Bacteria and phage isolation and purification
+
+The host bacterial strain was isolated from the coastal water of Qingdao and cultured in 2216E medium at 25°C. 16S rRNA gene sequence was analyzed to obtain the molecular identification of the bacterial strain and BLASTn search was performed to find the homology of 16S rRNA gene sequence. The result showed that the 16S rRNA similarity between the host bacterial strain and Stutzerimonas stutzeri strain NCTC10475 was 100%. The host bacterial strain was stored in 2216E broth with 30% glycerol at −80°C.
+
+The isolation of phage vB_PstS_ZQG1 was performed using the double-layer agar method (Jamalludeen et al., 2007). Briefly, a 200 µL filtered seawater sample was mixed with 200 µL host culture in the logarithmic growth phase and incubated at 25°C for 30min. 4.5mL of melted semi-solid medium (at 50°C) was then added to the mixture and poured onto the surface of the solid medium after vortexing. The agar plates were cultivated in an incubator at 25°C for 24h and observed the formation of plaques in the double plate. A single plaque was selected, suspended in 1mL SM buffer (100mM NaCl, 8mM MgSO4·7H2O, 50mM Tris–HCl, pH = 7.5), and then filtered the viral mixture onto a 0.22µm PES Millipore filter. The above purification step was repeated at least three times to obtain the purified phage solution and stored in SM buffer at 4°C.
+
+2.3 Transmission electron microscopy
+
+The morphology of vB_PstS_ZQG1 was characterized by transmission electron microscopy (TEM). Briefly, 20 µL of purified phage sample was placed on a 200-mesh copper grid and then negatively stained with 1% (wt/vol) phosphotungstic acid (pH 7.0). The electron micrographs of vB_PstS_ZQG1 were observed at 100kV using TEM (JEM-1200EX, Japan) (Middelboe et al., 2010). Each grid on the scale represents 50nm.
+
+2.4 Thermal and pH stability assays
+
+To explore the stability of phage under different temperatures, SM buffer was used to dilute phage vB_PstS_ZQG1. Phage suspension (109 PFU/mL) was incubated at −20, 4, 25, 35, 45, 55, 65, 75, 85, and 100°C, respectively, for 2h (Thammatinna et al., 2020).
+
+For pH stability, the same phage suspension was incubated under a range of pH values from 2 to 12 with 1M NaOH or 1M HCl for 2h at optimum temperature. Both experiments were performed using the double-layer plate method and each treated sample was carried out in triplicate (Wang et al., 2017).
+
+2.5 Genome sequencing and bioinformatics analysis
+
+The DNA of vB_PstS_ZQG1 was extracted using an OMEGA viral DNA kit following the manufacturer's instructions. The purified phage genomic DNA was sequenced using the Illumina NovaSeq 2×150bp paired-end sequence method. The gaps between the remaining contigs were filled up using GapCloser software with default parameters (Xu et al., 2020). CheckV was used to assess the genome quality (Nayfach et al., 2021). Open reading frames (ORFs) were predicted by GeneMarkS (http://topaz.gatech.edu/GeneMark/genemarks.cgi) and RAST (https://rast.nmpdr.org/rast.cgi). The functions of the predicted ORFs were annotated by BLASTp with e-value<1e-5 against the nonredundant (NR) database (https://blast.ncbi.nlm.nih.gov/) (Guo et al., 2022) and HHpred (https://toolkit.tuebingen.mpg.de/tools/hhpred), and detected conserved domains in the Pfam database (http://pfam-legacy.xfam.org/). tRNA sequences were detected by tRNAscan-SE (https://tRNAscan-SE-Search-Server-(ucsc.edu)) genes (Lowe and Chan, 2016). The GC skew analysis was performed on Genskew (https://genskew.csb.univie.ac.at/webskew) to identify the origin and terminus of replication of the phage genome (Zhang et al., 2021).
+
+2.6 Phylogenetic tree and comparative genomes analysis
+
+The proteome tree was generated by ViPTree (https://www.genome.jp/viptree/) based on the whole-genome amino acid sequences similarities between phage vB_PstS_ZQG1 and reference sequences. vConTACT 2.0 was a software for virus classification based on a genome-wide sharing network, which can assign virus genomes to established or new taxa and evaluate the taxonomic status of viruses based on ICTV classification (Bin Jang et al., 2019). In order to determine the accurate taxonomy status and search for homologous sequences of vB_PstS_ZQG1, DIAMOND BLASTp was used to search for homologous phages with sharing more than 30% genes with vB_PstS_ZQG1 in the Integrated Microbial Genome/Virus (IMG/VR, v4) database (Camargo et al., 2023) (E-value ≤ 1e-10, query-cover 30, max-hsps 1, max-target-seqs 1,000,000) and the International Committee on Taxonomy of Viruses (ICTV) dataset. All selected sequences and vB_PstS_ZQG1 were imported into vConTACT and the network diagram was visualized by Gephi (Bastian et al., 2009).
+
+The whole-genome phylogenetic tree, including 13 viruses in the same VC (Viral Cluster) with vB_PstS_ZQG1 was constructed by the Virus Classification and Tree Building Online Resource (VICTOR; https://victor.dsmz.de) based on the nucleotide and the tree was visualized using iTOL (Letunic and Bork, 2021; Meier-Kolthoff and Göker, 2017). The average Nucleotide Identity (ANI) of vB_PstS_ZQG1 was calculated by FastANI and visualized by pheatmap. Intergenomic similarities between vB_PstM_ZQG1 and related phages were generated by VIRIDIC (Moraru et al., 2020). The Average amino acid identity (AAI) between vB_PstS_ZQG1 and other viral sequences was calculated by the AAI calculator (http://enve-omics.ce.gatech.edu/aai/) (Rodriguez-R and Konstantinidis, 2014). All-vs-all BLASTp analysis was performed using OrthoFinder to calculate the percentage of shared genes between phage vB_PstS_ZQG1 and its associated genomes (Emms and Kelly, 2019). Comparative genomic analysis between phage vB_PstS_ZQG1 and its closest relatives was performed using tBLASTx and VipTree (Nishimura et al., 2017). According to the results of vConTACT, the phylogenetic tree of terminase large subunits (TerL) domains was constructed. The ORFs of all 360 vB_PstS_ZQG1-related viral genomes were searched in the PfamA database using HMMER to identify conserved TerL domains (Zhang et al., 2023). To determine reference, four TerL domain HMM models (Terminase_1, 3, 6N, and GpA) were used to search for phage TerL domains in the GenBank that were complete and belonged to class Caudoviricetes, and these domain sequences were extracted from the proteins and clustered using CD-HIT as the final reference sequences. Finally, all sequences were aligned with MAFFT and imported into IQ-tree, and the result was visualized using iTOL.
+
+2.7 Ecological distribution in the ocean
+
+The relative abundance of vB_PstS_ZQG1 in the marine, expressed as RPKM (reads per kilobase per million mapped reads) values, was estimated by the metagenomics tool minimap2 and calculated by CoverM (parameters: –min-read-percent-identity 0.95 –min-read-aligned-percent 0.75 -m rpkm) (Li, 2018; Wang et al., 2021). The Global Ocean Viromes 2.0 (GOV 2.0) database, consisting of 154 virome databases, was divided into five viral ecological zones (VEZs), including Arctic (ARC), Antarctic (ANT), temperate and tropical epipelagic (EPI), temperate and tropical mesopelagic (MES), and bathypelagic (BATHY) (Gregory et al., 2019). Several other phages, including the representative Pelagibacter phages (HTVC010P, HTVC019P, HTVC011P), Prochlorococcus phages (P-SSM7, P-SSM4, P-SSP7), Puniceispirillum phage HMO-2011, Synechococcus phages (S-SM2, S-SSM7), Roseophage SIO1, were selected as references, all of which have a wide distribution in the ocean. Meanwhile, other 13 viruses in the same VC with vB_PstS_ZQG1 were also selected to study the distribution of vB_PstS_ZQG1 in the global ocean (Angly et al., 2009; Kang et al., 2013).
+
+3 Results and discussion
+
+3.1 Morphology and characterization of vB_PstS_ZQG1
+
+Phage vB_PstS_ZQG1, which can infect Stutzerimonas stutzeri G1, was isolated from a surface seawater sample collected from ZhanQiao, Qingdao. TEM analysis showed that vB_PstS_ZQG1 had an icosahedral head (∼57nm in diameter on average) and a long non-contractile tail (∼172nm long on average) (Fig. 1A).Fig. 1 Morphology and biological properties of phage vB_PstS_ZQG1. (A) Transmission electron microscopy (TEM) morphology of phage vB_PstS_ZQG1. Scale bar, 100nm. (B) The curve of pH stability of vB_PstS_ZQG1. (C) The curve of thermal stability of vB_PstS_ZQG1.
+
+Fig 1
+
+To gain insights into the properties of phage vB_PstS_ZQG1, pH stability and temperature tolerance experimental assays were performed. In the pH stability experiments, the optimum pH range of vB_PstS_ZQG1 was between 4 and 10 (Fig. 1B). However, when the pH was less than 3 or more than 11, vB_PstS_ZQG1 lost its activity. The broad pH stability revealed that vB_PstS_ZQG1 can adapt to a range of acid-base environments. In the temperature tolerance experiments, the results showed that vB_PstS_ZQG1 had the maximum titer at 45°C. When the ambient temperature ranged from −20°C to 65°C, the titer of vB_PstS_ZQG1 remained consistently high and stable (Fig. 1C). However, the phage titer decreased sharply when the temperature exceeded 75°C and was completely inactive at 85°C.
+
+3.2 Overall genome features of vB_PstS_ZQG1
+
+The phage vB_PstS_ZQG1 contained a 61,790bp linear dsDNA genome with a GC content of 53.24% and no tRNA was predicted (Fig. 2). The cumulative GC skew analysis indicated that the origin and terminus of the phage were located at 23,800nt and 48,900nt, respectively (Fig. S1). The analysis conducted using CheckV indicated that the genome quality of vB_PstS_ZQG1 was classified as high-quality. In the genome of vB_PstS_ZQG1, a total of 90 ORFs were predicted by using GeneMarkS and RAST server, of which 34 ORFs were on the positive strand and 56 ORFs were on the negative strand. Most ORFs (87) were initiated by codon ATG, and 2 ORFs by codon GTG and 1 by codon TTG. The functions of these ORFs were annotated by BLASTp, revealing that 50 ORFs were characterized as hypothetical proteins with unknown functions, while 40 ORFs (44.44%) were predicted to possess known functions, which could be classified into five distinct modules, including DNA replication, regulation and nucleotide metabolism (ORFs 7, 9, 28, 35, 39, 42, 49, 52, 57–60, 64, 76, and 78), phage packaging (ORFs 5, 31, and 34), phage structure (ORFs 2, 4, 68, 74, 75, 77, 79–86, and 88), host lysis (ORFs 69–71) and auxiliary metabolic gene (ORFs 1, 6, 53, and 56) (Table S1, S3, Fig. 2).Fig. 2 Genome map of phage vB_PstS_ZQG1. Putative functional categories were classified into five parts according to annotation and are represented by different colors. The length of each arrow represents the length of each gene.
+
+Fig 2
+
+The genome of vB_PstS_ZQG1 encodes 17 ORFs that are putatively involved in DNA replication, regulation and nucleotide metabolism. Specifically, ORFs 52 and 60 encode DNA helicase, a crucial enzyme required for unwinding the double-stranded DNA during processes such as replication, expression, recombination, and repair. ORFs 57 and 58 encode thymidylate synthase and dCMP deaminase, respectively. dCMP deaminase catalyzes the conversion of dCMP to dUMP, then thymidylate synthase catalyzes the conversion of dUMP to dTMP (Niu et al., 2017). ORF 59 encodes dihydrofolate reductase, which uses NADPH to catalyze the reduction of dihydrofolate to tetrahydrofolate and participates in the synthesis of nucleotides in both prokaryotic and eukaryotic cells (Galenkamp et al., 2020).
+
+Three proteins related to the phage packaging modules are located at the upstream region of the vB_PstS_ZQG1 genome. The packaging process of dsDNA viruses are mainly associated with the portal proteins, the terminase small (TerS), and large (TerL) subunits. In the genome of vB_PstS_ZQG1, ORFs 31 and 34 encode TerL and TerS, respectively, while ORF 5 encodes portal protein. During the packaging of the viral genome, TerS is believed to regulate the activity of TerL and position TerL at the packaging initiation site (Black, 1989; Rao and Black, 1988), while TerL is responsible for transferring viral DNA into the empty capsid and determining the start and end of the packaging reaction (Andrews and Catalano, 2012; Catalano et al., 1995). Portal protein can link terminase, control the size of the assembled viral genome, and facilitate phage maturation and infection (Jing et al., 2016). These proteins within vB_PstS_ZQG1 are key players in the packaging mechanism, ensuring the successful encapsulation of the viral genome and facilitating subsequent steps of phage replication and infection.
+
+The majority of genes associated with phage structure are located downstream of the vB_PstS_ZQG1 genome. ORFs 74 and 79 encode phage tail proteins, which are closely related to cell adhesion (Pell et al., 2009). ORF 80 encodes the tail tape measure protein (TMP), which plays an essential role in tail assembly and determined tail length (Li et al., 2016; Xu et al., 2004). Moreover, during phage infection, TMP forms a channel that for the transfer of genes carried by the phage into the host (Scholl and Merril, 2005; Scholl et al., 2001). ORF 83 encodes the tail terminator protein (TrP), which not only helps to terminate the major tail proteins at the correct tail length but also participates in the formation of the interface between the mature capsid and tail components, helping phage recognition and assembly (Carrias et al., 2011).
+
+In the host lysis module, the phage vB_PstS_ZQG1 genome contains three lysis-related genes, i-spanin, endolysin, and holin, encode by ORFs 69, 70, and 71, respectively. Holin is related to the destruction of cell membranes, which accumulates in the host cell membrane until pores are formed (Wang et al., 2000). Endolysin is an enzyme that cleaves cell wall peptidoglycans; they reach the cell wall through the pores produced by holins, causing the degradation of the host cell wall and effectively completing the lysis (Catalão et al., 2013). Together, these two genes form a classic holin-endolysin lysis system. Spanin is involved in destroying the outer membrane of Gram-negative bacteria, and i-spanin is its part located in the inner membrane (Kongari et al., 2018). After holin and endolysin attack the inner membrane and peptidoglycan of the host cell, respectively, spanin destroys the outer membrane, promoting host lysis (Berry et al., 2012). In the vB_PstS_ZQG1 genome, the genes that encode these three proteins are located in the downstream region and linked together to form a lytic module.
+
+Notably, two AMGs, which are phage-encoded and host-derived metabolic genes thought to be involved in regulating host metabolism to promote viral replication (Zimmerman et al., 2020a), are predicted in the phage vB_PstS_ZQG1 genome. ORF 53 encode the TolA protein, which is a component of the Tol-Pal system (Li et al., 2022). The Tol-Pal system is one of the gram-negative bacterial protein systems that is necessary for maintaining the integrity of the outer membrane and was also associated with Escherichia coli resistance (Li et al., 2022). Recent studies have shown that the Tol-Pal system plays a crucial role in bacterial cell division and the maintenance of pathogenicity (Hirakawa et al., 2022; Yakhnina and Bernhardt, 2020). Structural proteins of phages interact with TolA proteins to provide the hosts with resistance to phage superinfection and protect hosts from reinfection by the same phages or other lytic phages (Wang et al., 2022). ORF 22 encodes nucleotide pyrophosphohydrolase (MazG), a protein originating from bacteria, which is involved in regulating host cell metabolism and enhancing infection efficiency during phage infection (Pritham et al., 2007). The expression of the viral MazG reduces the concentration of ppGpp in the host, improve the survival of the host in nutrient-deficient environments, accelerate the host metabolism to consume more energy and promote the proliferation of phages (Gross et al., 2006; Sullivan et al., 2010).
+
+3.3 Phage vB_PstS_ZQG1 represents a novel viral genus
+
+To determine the exact taxonomic position of the phage vB_PstS_ZQG1, the phylogenetic tree based on the viral proteome of whole genomes was constructed by VipTree, including two isolated Stutzerimonas stutzeri phages (Table S2) and 3051 references (Fig. 3A). The result revealed that vB_PstS_ZQG1 was evolutionarily distant from the other two S. stutzeri phages. Additionally, 20 closely related phages of vB_PstS_ZQG1 in the proteome tree were selected to establish a rectangular proteomic tree (Fig. 3B). The results of the phylogenetic analysis and gene-shared heatmap indicated that vB_PstS_ZQG1 may represent a separate cluster and was far from the other isolated phages (Fig. 3B). To further confirm this result, we selected four phage genomic sequences related to vB_PstS_ZQG1 and performed a comparative genomic analysis with vB_PstS_ZQG1 by tBLASTx (Fig. 3C). The result indicated that there was limited identity between the genomes of vB_PstS_ZQG1 and other phages.Fig. 3 Phylogenetic and comparative genomic analysis of phage vB_PstS_ZQG1. (A) Phylogenetic tree of two isolated S. stutzeri phages and vB_PstS_ZQG1 by ViPTree. The red star is vB_PstS_ZQG1, yellow stars are other two S. stutzeri phages. (B) Phylogenetic tree of phage vB_PstS_ZQG1 and the 20 closest virus genomes, and the heatmap showing the percentage of shared genes among 20 genome sequences. The ratio of shared genes was based on all-vs-all BLASTp analysis using OrthoFinder with E-value < 1e-10. (C) Genomic comparisons between phage vB_PstS_ZQG1 and four closely related viruses in the phylogenetic tree.
+
+Fig 3
+
+Although vB_PstS_ZQG1 exhibited distinct characteristics belonging to a novel viral genus, identifying characteristics of the new genus based on a single phage was challenging. In order to further explore the relationship between vB_PstS_ZQG1 and other phages, homologs of phage vB_PstS_ZQG1 were searched in IMG/VR and NCBI database by all-vs-all BLASTp. Finally, 360 related viral genome sequences (326 RefSeqs from NCBI, 34 UViGs from IMG/VR v4) were recruited and divided into different viral clusters (VCs) with vB_PstS_ZQG1 using vConTACT 2. The network diagram showed that there were 11 UViGs and two isolated phages clustered with vB_PstS_ZQG1 under VC 23_3 (Fig. 4A). The polygenetic analysis of VC 23_3 indicated that these 14 viral genomes were evolutionarily closed and belonged to the same branch (Fig. 4B). However, all these results cannot provide conclusive evidence for the relationship between phage vB_PstS_ZQG1 and the other 13 viruses.Fig. 4 (A) Gene content-based viral network of phage vB_PstS_ZQG1 with related isolated viruses from NCBI virus database and related UViGs from IMG/VR dataset. The nodes represent the viral genomic sequences. The edges represent the hosts. The isolated viral sequences are indicated by filled circles, and UViGs are indicated by regular hexagons. Among those, the star represents phage vB_PstS_ZQG1. (B) Phylogenetic tree of phage vB_PstS_ZQG1 and other related viruses. The members in VC 23_3 are shown in red. (C) The heat map shows nucleotide-based intergenomic similarities of the phage vB_PstS_ZQG1 and other 13 related phages in VC 23_3 calculated by VIRIDIC. These values represent Average Nucleotide Identity (ANI) of each genome pair.
+
+Fig 4
+
+To further determine the taxonomic status of phage vB_PstS_ZQG1 and the other 13 viruses, the average nucleotide identity (ANI) of VC 23_3 was calculated by VIRIDIC, and the ANI value between members of VC 23_3 ranged from 21.7 to 29.4 (Fig. 4C). According to the guidelines of The International Committee on the Taxonomy of Viruses (ICTV), phages were regarded to belong to the same genus when they shared > 70% ANI (Walker et al., 2021). As such, phage vB_PstS_ZQG1 represented a novel unassigned viral genus by itself, named Fuevirus.
+
+3.4 Phylogenetic analysis between vB_PstS_ZQG1 and closely related viruses
+
+Exploring homologous genes across various genomes is a widely used approach for phylogenetic analysis (Brüssow and Hendrix, 2002; Hatfull and Hendrix, 2011). 13 viruses under VC 23_3 and vB_PstS_ZQG1 were selected for further detailed genomic and phylogenetic analysis (Fig. 5). The gene sharing rate between vB_PstS_ZQG1 and other related viral genomes was lower than 50%, which was consistent with the average amino acid identity (AAI), ranging from 48.09% to 58.29% (Fig. 5A, B).Fig. 5 The heat map shows AAI (A) and shared genes (B) among phage vB_PstS_ZQG1 and other 13 related phages in VC 23_3. The ratio of AAI was calculated using an AAI calculator. The ratio of shared genes was based on all-vs-all BLASTp analysis using OrthoFinder with E-value < 1e-10. (C) Phylogenetic analysis of the vB_PstS_ZQG1 TerL domain. The maximum-likelihood tree was constructed based on TerL domain sequences using IQtree according to the results of vConTACT. Shading indicates the four TerL domains. The colored rings represent the viral families (inner ring) and length (outer ring), respectively. The shape of nodes of the circle represents uncultured viral genomes from the IMG/VR database, the rectangle represents the isolated phages, and the star represents the phage vB_PstS_ZQG1.
+
+Fig 5
+
+At the same time, a whole-genome-based phylogenetic tree was constructed with vB_PstS_ZQG1 and its homologous sequences by VICTOR, which was an effective tool for viral classification (Dong et al., 2022). Based on whole-genome phylogeny and OPTSIL taxon results, it was determined that vB_PstS_ZQG1 and the other 13 viruses cannot be classified into the same genus. Instead, vB_PstS_ZQG1 formed a distinct genus on its own, supporting the above results (Fig. S2). Another phylogenetic tree of TerL domains was constructed based on the results of vConTACT (Fig. 5C). The results showed that although vB_PstS_ZQG1 clustered with uncultured viruses in the whole phylogenetic tree, it formed a single branch on its own and was distant from other viruses, which provided further support for the proposal that vB_PstS_ZQG1 may represent a new viral genus.
+
+3.5 Ecological distribution of vB_PstS_ZQG1 in the ocean
+
+To explore the biogeographical distribution patterns of vB_PstS_ZQG1, metagenomic read recruitment was carried out in 154 viral metagenomes of the Global Ocean Viromes (GOV2.0) data set, which were divided into five viral ecological zones (VEZs): Arctic (ARC), Antarctic (ANT), temperate and tropical epipelagic (EPI), temperate and tropical mesopelagic (MES), and bathypelagic (BATHY) (Gregory et al., 2019). The heatmap confirmed that HTVC010P was one of the most abundant viruses in the ocean (Fig. 6) (Zhao et al., 2013). Additionally, phage S-SM2, HTVC011P, HTVC019P, and HMO-2011 were also abundant in the ocean (Hurwitz and Sullivan, 2013; Kang et al., 2013; Zhao et al., 2013). In contrast, the abundance of vB_PstS_ZQG1 was lower, mainly detected in EPI and MES, while not existed in ANT, ARC and BATHY. This observation indicated that the hosts infected by vB_PstS_ZQG1 exhibited a restricted distribution and might not be able to adapt to deep-sea and low-temperature environments. Considering the ecological significance of S. stutzeri and its involvement in biological nitrogen fixation, it is expected that S. stutzeri phages continue to hold a significant role in the ocean despite their relatively low abundance.Fig. 6 The relative abundance of phage vB_PstS_ZQG1 in 154 viromes of the Global Ocean Viromes (GOV 2.0) data set. The relative abundance is calculated by CoverM and express by RPKM (reads per kilobase per million mapped reads). Values are normalized based on the number of databases of each viral ecological zone (VEZ) for the right bar chart, and the results are log10 transformed for the left heatmap. ARC, Arctic; ANT, Antarctic; BATHY, bathypelagic; EPI, temperate and tropical epipelagic; MES, temperate and tropical mesopelagic.
+
+Fig 6
+
+4 Conclusions
+
+Indeed, the discovery and characterization of vB_PstS_ZQG1, a novel Stutzerimonas stutzeri phage, have provided useful insights into the understudied field of S. stutzeri phages. The unique genomic characteristics and phylogenetic status of vB_PstS_ZQG1 have led to its classification as a distinct viral genus, providing a research basis for the field of virus taxonomy. This study not only expands our knowledge of S. stutzeri phages, but also enhances our understanding of the interactions between S. stutzeri and phage in marine ecosystems. Viruses play a crucial role in regulating host communities and metabolism, and by studying phages infecting S. stutzeri, we gain insights into the dynamics of this important bacterial species in marine environments. Furthermore, the genome of vB_PstS_ZQG1 serves as a valuable reference for the identification and prediction of viral sequences in metagenomic databases. By comparing and analyzing the genomic characteristics of other phages, researchers can now better understand the diversity and evolutionary relationships of S. stutzeri phages. Overall, this study contributes to the broader field of phage research and provides a foundation for further investigations into the ecological significance and functional roles of S. stutzeri phages in marine ecosystems.
+
+Funding information
+
+This study was supported by the following funding sources: National Natural Science Foundation of China (No. 42188102, 42120104006, 41976117 and 42176111), and the Fundamental Research Funds for the Central Universities (201812002 and Andrew McMinn).
+
+Data availability statement
+
+The genome sequence of phage vB_PstS_ZQG1 has been deposited in GenBank under accession number OQ504960, and the 16S rRNA sequence of the host has also been deposited in the NCBI GenBank under accession number OQ727111.
+
+Ethical approval
+
+This article does not contain any studies with animals or human participants performed by any of the authors.
+
+CRediT authorship contribution statement
+
+Fuyue Ge: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Ruizhe Guo: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Yantao Liang: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Ying Chen: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Hongbing Shao: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Yeong Yik Sung: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Wen Jye Mok: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Li Lian Wong: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Andrew McMinn: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing. Min Wang: Conceptualization, Formal analysis, Investigation, Project administration, Software, Supervision, Writing – original draft, Writing – review & editing.
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Appendix Supplementary materials
+
+Image, application 1
+
+Data availability
+
+Data will be made available on request.
+
+Acknowledgments
+
+We are grateful for the support of the high-performance servers of the Center for High Performance Computing and System Simulation, Pilot National Laboratory for Marine Science and Technology (Qingdao), the Marine Big Data Center of the Institute for Advanced Ocean Study of the Ocean University of China, the IEMB-1, a high- performance computing cluster operated by the Institute of Evolution and Marine Biodiversity, and Marine Big Data Center of Institute for Advanced Ocean Study of Ocean University of China.
+
+Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.virusres.2023.199226.
+
+
+References
+
+Andrews B.T. Catalano C.E. The enzymology of a viral genome packaging motor is influenced by the assembly state of the motor subunits Biochemistry 51 2012 9342 9353 23134123 10.1021/bi300890y PMC3515665
+Angly F. Youle M. Nosrat B. Srinagesh S. Rodriguez-Brito B. McNairnie P. Deyanat-Yazdi G. Breitbart M. Rohwer F. Genomic analysis of multiple Roseophage SIO1 strains Environ. Microbiol. 11 2009 2863 2873 19659499 10.1111/j.1462-2920.2009.02021.x
+Bastian M. Heymann S. Jacomy M. Gephi: an open source software for exploring and manipulating networks Proceedings of the international AAAI conference on web and social media 2009 361 362
+Berry J. Rajaure M. Pang T. Young R. The spanin complex is essential for lambda lysis J. Bacteriol. 194 2012 5667 5674 22904283 10.1128/JB.01245-12 PMC3458670
+Bin Jang H. Bolduc B. Zablocki O. Kuhn J.H. Roux S. Adriaenssens E.M. Brister J.R. Kropinski A.M. Krupovic M. Lavigne R. Turner D. Sullivan M.B. Taxonomic assignment of uncultivated prokaryotic virus genomes is enabled by gene-sharing networks Nat. Biotechnol. 37 2019 632 639 31061483 10.1038/s41587-019-0100-8
+Black L.W. DNA packaging in dsDNA bacteriophages Annu. Rev. Microbiol. 43 1989 267 292 2679356 10.1146/annurev.mi.43.100189.001411
+Brüssow H. Hendrix R.W. Phage genomics: small is beautiful Cell 108 2002 13 16 11792317 10.1016/s0092-8674(01)00637-7
+Camargo A.P. Nayfach S. Chen I.A. Palaniappan K. Ratner A. Chu K. Ritter S.J. Reddy T.B.K. Mukherjee S. Schulz F. Call L. Neches R.Y. Woyke T. Ivanova N.N. Eloe-Fadrosh E.A. Kyrpides N.C. Roux S. IMG/VR v4: an expanded database of uncultivated virus genomes within a framework of extensive functional, taxonomic, and ecological metadata Nucleic. Acids. Res. 51 2023 D733 d743 36399502 10.1093/nar/gkac1037 PMC9825611
+Carrias A. Welch T.J. Waldbieser G.C. Mead D.A. Terhune J.S. Liles M.R. Comparative genomic analysis of bacteriophages specific to the channel catfish pathogen Edwardsiella ictaluri Virol. J. 8 2011 6 21214923 10.1186/1743-422X-8-6 PMC3025963
+Catalano C.E. Cue D. Feiss M. Virus DNA packaging: the strategy used by phage lambda Mol. Microbiol. 16 1995 1075 1086 8577244 10.1111/j.1365-2958.1995.tb02333.x
+Catalão M.J. Gil F. Moniz-Pereira J. São-José C. Pimentel M. Diversity in bacterial lysis systems: bacteriophages show the way FEMS Microbiol. Rev. 37 2013 554 571 23043507 10.1111/1574-6976.12006
+Chen S. Jing X. Yan Y. Huang S. Liu X. Chen P. Zhou S. Bioelectrochemical fixation of nitrogen to extracellular ammonium by Pseudomonas stutzeri Appl. Environ. Microbiol. 87 2021 e01998 01920 33310714 10.1128/AEM.01998-20 PMC8090881
+Dong Y. Zheng K. Zou X. Liang Y. Liu Y. Li X. Shao H. Sung Y.Y. Mok W.J. Wong L.L. McMinn A. Wang M. Characterization and genomic analysis of the first podophage infecting shewanella, representing a novel viral cluster Front. Microbiol. 13 2022 853973 10.3389/fmicb.2022.853973 PMC9011153 35432264
+Emms D.M. Kelly S. OrthoFinder: phylogenetic orthology inference for comparative genomics Genome Biol. 20 2019 238 31727128 10.1186/s13059-019-1832-y PMC6857279
+Feng Z. Liu X. Wang M. Nie Y. Wu X.L. A novel temperate phage, vB_PstS-pAN, induced from the naphthalene-degrading bacterium Pseudomonas stutzeri AN10 Arch. Virol. 166 2021 2267 2272 34008105 10.1007/s00705-021-05098-8
+Fuhrman J.A. Marine viruses and their biogeochemical and ecological effects Nature 399 1999 541 548 10376593 10.1038/21119
+Galenkamp N.S. Biesemans A. Maglia G. Directional conformer exchange in dihydrofolate reductase revealed by single-molecule nanopore recordings Nat. Chem. 12 2020 481 488 32251371 10.1038/s41557-020-0437-0
+Gomila M. Mulet M. García-Valdés E. Lalucat J. Genome-Based Taxonomy of the Genus Stutzerimonas and Proposal of S. frequens sp. nov. and S. degradans sp. nov. and Emended Descriptions of S. perfectomarina and S. chloritidismutans Microorganisms 10 2022 1363 35889082 10.3390/microorganisms10071363 PMC9320692
+Gregory A.C. Zayed A.A. Conceição-Neto N. Temperton B. Bolduc B. Alberti A. Ardyna M. Arkhipova K. Carmichael M. Cruaud C. Marine DNA viral macro-and microdiversity from pole to pole Cell 177 2019 1109 1123 e1114 31031001 10.1016/j.cell.2019.03.040 PMC6525058
+Gross M. Marianovsky I. Glaser G. MazG – a regulator of programmed cell death in Escherichia coli Mol. Microbiol. 59 2006 590 601 16390452 10.1111/j.1365-2958.2005.04956.x
+Guo R. Zheng K. Luo L. Liu Y. Shao H. Guo C. He H. Wang H. Sung Y.Y. Mok W.J. Wong L.L. Zhang Y.Z. Liang Y. McMinn A. Wang M. Characterization and genomic analysis of ssDNA vibriophage vB_VpaM_PG19 within Microviridae, representing a novel viral genus Microbiol. Spectr. 10 2022 e0058522 10.1128/spectrum.00585-22 PMC9431446 35862991
+Hatfull G.F. Hendrix R.W. Bacteriophages and their genomes Curr. Opin. Virol. 1 2011 298 303 22034588 10.1016/j.coviro.2011.06.009 PMC3199584
+Hirakawa H. Suzue K. Tomita H. Roles of the Tol/Pal system in bacterial pathogenesis and its application to antibacterial therapy Vaccines 10 2022 422 35335056 10.3390/vaccines10030422 PMC8953051
+Hurwitz B.L. Sullivan M.B. The Pacific Ocean virome (POV): a marine viral metagenomic dataset and associated protein clusters for quantitative viral ecology PLOS One 8 2013 e57355 23468974 10.1371/journal.pone.0057355 PMC3585363
+Jamalludeen N. Johnson R.P. Friendship R. Kropinski A.M. Lingohr E.J. Gyles C.L. Isolation and characterization of nine bacteriophages that lyse O149 enterotoxigenic Escherichia coli Vet. Microbiol. 124 2007 47 57 17560053 10.1016/j.vetmic.2007.03.028
+Jing P. Paraiso H. Burris B. Highly efficient integration of the viral portal proteins from different types of phages into planar bilayers for the black lipid membrane analysis Mol. Biosyst. 12 2016 480 489 26661052 10.1039/c5mb00573f
+Kang I. Oh H.M. Kang D. Cho J.C. Genome of a SAR116 bacteriophage shows the prevalence of this phage type in the oceans Proc. Natl. Acad. Sci. U. S. A. 110 2013 12343 12348 23798439 10.1073/pnas.1219930110 PMC3725092
+Kongari R. Rajaure M. Cahill J. Rasche E. Mijalis E. Berry J. Young R. Phage spanins: diversity, topological dynamics and gene convergence BMC Bioinform. 19 2018 326 10.1186/s12859-018-2342-8 PMC6139136 30219026
+Krishnamurthy S.R. Wang D. Origins and challenges of viral dark matter Virus Res. 239 2017 136 142 28192164 10.1016/j.virusres.2017.02.002
+Lalucat J. Gomila M. Mulet M. Zaruma A. García-Valdés E. Past, present and future of the boundaries of the Pseudomonas genus: proposal of Stutzerimonas gen Nov Syst. Appl. Microbiol. 45 2022 126289 10.1016/j.syapm.2021.126289 34920232
+Letunic I. Bork P. Interactive tree of life (iTOL) v5: an online tool for phylogenetic tree display and annotation Nucleic Acids Res. 49 2021 W293 w296 33885785 10.1093/nar/gkab301 PMC8265157
+Li E. Wei X. Ma Y. Yin Z. Li H. Lin W. Wang X. Li C. Shen Z. Zhao R. Yang H. Jiang A. Yang W. Yuan J. Zhao X. Isolation and characterization of a bacteriophage phiEap-2 infecting multidrug resistant Enterobacter aerogenes Sci. Rep. 6 2016 28338 27320081 10.1038/srep28338 PMC4913238
+Li H. Minimap2: pairwise alignment for nucleotide sequences Bioinformatics 34 2018 3094 3100 29750242 10.1093/bioinformatics/bty191 PMC6137996
+Li Q. Li Z. Fei X. Tian Y. Zhou G. Hu Y. Wang S. Shi H. The role of TolA, TolB, and TolR in cell morphology, OMVs production, and virulence of Salmonella Choleraesuis AMB Express 12 2022 5 35075554 10.1186/s13568-022-01347-4 PMC8787014
+Li X. Gong J. Hu Y. Cai L. Johnstone L. Grass G. Rensing C. Wang G. Genome sequence of the moderately halotolerant, arsenite-oxidizing bacterium Pseudomonas stutzeri TS44 J. Bacteriol. 194 2012 4473 4474 22843599 10.1128/JB.00907-12 PMC3416245
+Liu X. Feng Z. Fan X. Nie Y. Wu X.L. Isolation and characterization of the novel Pseudomonas stutzeri bacteriophage 8P Arch. Virol. 166 2021 601 606 33392816 10.1007/s00705-020-04912-z
+Lowe T.M. Chan P.P. tRNAscan-SE On-line: integrating search and context for analysis of transfer RNA genes Nucleic Acids Res. 44 2016 W54 W57 27174935 10.1093/nar/gkw413 PMC4987944
+Meier-Kolthoff J.P. Göker M. VICTOR: genome-based phylogeny and classification of prokaryotic viruses Bioinformatics 33 2017 3396 3404 29036289 10.1093/bioinformatics/btx440 PMC5860169
+Middelboe M. Chan A.M. Bertelsen S.K. Isolation and life cycle characterization of lytic viruses infecting heterotrophic bacteria and cyanobacteria Man. Aquat. Viral Ecol. 13 2010 118 133
+Moraru C. Varsani A. Kropinski A.M. VIRIDIC-A novel tool to calculate the intergenomic similarities of prokaryote-infecting viruses Viruses 12 2020 1268 33172115 10.3390/v12111268 PMC7694805
+Moreau H. Piganeau G. Desdevises Y. Cooke R. Derelle E. Grimsley N. Marine prasinovirus genomes show low evolutionary divergence and acquisition of protein metabolism genes by horizontal gene transfer J. Virol. 84 2010 12555 12563 20861243 10.1128/JVI.01123-10 PMC3004350
+Nayfach S. Camargo A.P. Schulz F. Eloe-Fadrosh E. Roux S. Kyrpides N.C. CheckV assesses the quality and completeness of metagenome-assembled viral genomes Nat. Biotechnol. 39 2021 578 585 33349699 10.1038/s41587-020-00774-7 PMC8116208
+Nishimura Y. Yoshida T. Kuronishi M. Uehara H. Ogata H. Goto S. ViPTree: the viral proteomic tree server Bioinformatics 33 2017 2379 2380 28379287 10.1093/bioinformatics/btx157
+Niu M. Wang Y. Wang C. Lyu J. Wang Y. Dong H. Long W. Wang D. Kong W. Wang L. Guo X. Sun L. Hu T. Zhai H. Wang H. Wan J. ALR encoding dCMP deaminase is critical for DNA damage repair, cell cycle progression and plant development in rice J. Exp. Bot. 68 2017 5773 5786 29186482 10.1093/jxb/erx380
+Pell L.G. Kanelis V. Donaldson L.W. Howell P.L. Davidson A.R. The phage lambda major tail protein structure reveals a common evolution for long-tailed phages and the type VI bacterial secretion system Proc. Natl. Acad. Sci. U. S. A. 106 2009 4160 4165 19251647 10.1073/pnas.0900044106 PMC2657425
+Pritham E.J. Putliwala T. Feschotte C. Mavericks, a novel class of giant transposable elements widespread in eukaryotes and related to DNA viruses Gene 390 2007 3 17 17034960 10.1016/j.gene.2006.08.008
+Rao V.B. Black L.W. Cloning, overexpression and purification of the terminase proteins gp16 and gp17 of bacteriophage T4. Construction of a defined in-vitro DNA packaging system using purified terminase proteins J. Mol. Biol. 200 1988 475 488 3294420 10.1016/0022-2836(88)90537-2
+Rodriguez-R L.M. Konstantinidis K.T. Bypassing cultivation to identify bacterial species Microbe 9 2014 111 118
+Santiago-Rodriguez T.M. Hollister E.B. Unraveling the viral dark matter through viral metagenomics Front. Immunol. 13 2022 1005107 10.3389/fimmu.2022.1005107 PMC9523745 36189246
+Scholl D. Merril C. The genome of bacteriophage K1F, a T7-like phage that has acquired the ability to replicate on K1 strains of Escherichia coli J. Bacteriol. 187 2005 8499 8503 16321955 10.1128/JB.187.24.8499-8503.2005 PMC1317022
+Scholl D. Rogers S. Adhya S. Merril C.R. Bacteriophage K1-5 encodes two different tail fiber proteins, allowing it to infect and replicate on both K1 and K5 strains of Escherichia coli J. Virol. 75 2001 2509 2515 11222673 10.1128/JVI.75.6.2509-2515.2001 PMC115872
+Sullivan M.B. Huang K.H. Ignacio-Espinoza J.C. Berlin A.M. Kelly L. Weigele P.R. DeFrancesco A.S. Kern S.E. Thompson L.R. Young S. Yandava C. Fu R. Krastins B. Chase M. Sarracino D. Osburne M.S. Henn M.R. Chisholm S.W. Genomic analysis of oceanic cyanobacterial myoviruses compared with T4-like myoviruses from diverse hosts and environments Environ. Microbiol. 12 2010 3035 3056 20662890 10.1111/j.1462-2920.2010.02280.x PMC3037559
+Suttle C.A. The significance of viruses to mortality in aquatic microbial communities Microb. Ecol. 28 1994 237 243 24186450 10.1007/BF00166813
+Thammatinna K. Egan M.E. Htoo H.H. Khanna K. Sugie J. Nideffer J.F. Villa E. Tassanakajon A. Pogliano J. Nonejuie P. Chaikeeratisak V. A novel vibriophage exhibits inhibitory activity against host protein synthesis machinery Sci. Rep. 10 2020 2347 32047244 10.1038/s41598-020-59396-3 PMC7012835
+Walker P.J. Siddell S.G. Lefkowitz E.J. Mushegian A.R. Adriaenssens E.M. Alfenas-Zerbini P. Davison A.J. Dempsey D.M. Dutilh B.E. García M.L. Changes to virus taxonomy and to the International Code of Virus Classification and Nomenclature ratified by the International Committee on Taxonomy of Viruses (2021) Arch. Virol. 166 2021 2633 2648 34231026 10.1007/s00705-021-05156-1
+Wang C. Chen Q. Zhang C. Yang J. Lu Z. Lu F. Bie X. Characterization of a broad host-spectrum virulent Salmonella bacteriophage fmb-p1 and its application on duck meat Virus Res. 236 2017 14 23 28478136 10.1016/j.virusres.2017.05.001
+Wang I.N. Smith D.L. Young R. Holins: the protein clocks of bacteriophage infections Annu. Rev. Microbiol. 54 2000 799 825 11018145 10.1146/annurev.micro.54.1.799
+Wang W. Li Y. Tang K. Lin J. Gao X. Guo Y. Wang X. Filamentous prophage capsid proteins contribute to superinfection exclusion and phage defence in Pseudomonas aeruginosa Environ. Microbiol. 24 2022 4285 4298 35384225 10.1111/1462-2920.15991
+Wang Z. Zhang F. Liang Y. Zheng K. Gu C. Zhang W. Liu Y. Zhang X. Shao H. Jiang Y. Guo C. He H. Wang H. Sung Y.Y. Mok W.J. Wong L.L. He J. McMinn A. Wang M. Genome and ecology of a novel Alteromonas Podovirus, ZP6, representing a new viral genus, Mareflavirus Microbiol. Spectr. 9 2021 e0046321 10.1128/Spectrum.00463-21 PMC8515928 34643440
+Wommack K.E. Colwell R.R. Virioplankton: viruses in aquatic ecosystems Microbiol. Mol. Biol. Rev. 64 2000 69 114 10704475 10.1128/mmbr.64.1.69-114.2000 PMC98987
+Xu J. Hendrix R.W. Duda R.L. Conserved translational frameshift in dsDNA bacteriophage tail assembly genes Mol. Cell 16 2004 11 21 15469818 10.1016/j.molcel.2004.09.006
+Xu M. Guo L. Gu S. Wang O. Zhang R. Peters B.A. Fan G. Liu X. Xu X. Deng L. Zhang Y. TGS-GapCloser: a fast and accurate gap closer for large genomes with low coverage of error-prone long reads Gigascience 9 2020  giaa094 10.1093/gigascience/giaa094 PMC7476103 32893860
+Yakhnina A.A. Bernhardt T.G. The Tol-Pal system is required for peptidoglycan-cleaving enzymes to complete bacterial cell division Proc. Natl. Acad. Sci. U. S. A. 117 2020 6777 6783 32152098 10.1073/pnas.1919267117 PMC7104345
+Zhang W. Liang Y. Zheng K. Gu C. Liu Y. Wang Z. Zhang X. Shao H. Jiang Y. Guo C. He H. Wang H. Sung Y.Y. Mok W.J. Zhang Y. McMinn A. Wang M. Characterization and genomic analysis of the first Oceanospirillum phage, vB_OliS_GJ44, representing a novel siphoviral cluster BMC Genom. Electron. Resour. 22 2021 675 10.1186/s12864-021-07978-4 PMC8451122 34544379
+Zhang W. Liu Y. Zheng K. Xing J. Li Q. Gu C. Wang Z. Shao H. Guo C. He H. Wang H. Sung Y.Y. Mok W.J. Wong L.L. Liang Y. McMinn A. Wang M. Discovery of an abundant viral genus in polar regions through the isolation and genomic characterization of a new virus against Oceanospirillaceae Appl. Environ. Microbiol. 89 2023 e0189622 10.1128/aem.01896-22 PMC10132091 36975807
+Zhao Y. Temperton B. Thrash J.C. Schwalbach M.S. Vergin K.L. Landry Z.C. Ellisman M. Deerinck T. Sullivan M.B. Giovannoni S.J. Abundant SAR11 viruses in the ocean Nature 494 2013 357 360 23407494 10.1038/nature11921
+Zimmerman A.E. Howard-Varona C. Needham D.M. John S.G. Worden A.Z. Sullivan M.B. Waldbauer J.R. Coleman M.L. Metabolic and biogeochemical consequences of viral infection in aquatic ecosystems Nat. Rev. Microbiol. 18 2020 21 34 31690825 10.1038/s41579-019-0270-x
+Zimmerman A.E. Howard-Varona C. Needham D.M. John S.G. Worden A.Z. Sullivan M.B. Waldbauer J.R. Coleman M.L. Metabolic and biogeochemical consequences of viral infection in aquatic ecosystems Nat. Rev. Microbiol. 18 2020 21 34 31690825 10.1038/s41579-019-0270-x

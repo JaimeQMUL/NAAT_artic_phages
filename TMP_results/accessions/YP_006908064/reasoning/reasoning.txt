@@ -1,0 +1,23 @@
+=============Reasoning for YP_006908064 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Campylobacter phage CP30A') and its host ('Campylobacter jejuni subsp. jejuni'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present in the provided fields.
+
+
+=============Reasoning for YP_006908064 from accession literature=============
+Paper: PMC4534711.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that *C. jejuni* PT14 was routinely grown on horse blood agar (BA) at 42 °C under microaerobic conditions. Furthermore, subsequent experiments involving CSLC cultures and bacteriophage enumeration were performed at 42 °C. The definition for mesophile is 15–45°C, which encompasses 42°C.
+
+
+=============Reasoning for YP_006908064 from host literature=============
+=============Reasoning for YP_006908064 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Campylobacter phage CP30A) and its host (Campylobacter jejuni subsp. jejuni). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The host, Campylobacter jejuni, is a common human pathogen often associated with moderate environmental temperatures, and its typical growth range is generally mesophilic. 4. Since no explicit evidence exists, the decision rules mandate defaulting to 'mesophile' as the fallback class. 5. Therefore, 'mesophile' is assigned.
+
+

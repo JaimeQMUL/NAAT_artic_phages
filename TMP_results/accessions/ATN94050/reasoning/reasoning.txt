@@ -1,0 +1,52 @@
+=============Reasoning for ATN94050 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for ATN94050 from accession literature=============
+=============Reasoning for ATN94050 from host literature=============
+Paper: PMC12838053.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the growth of M. smegmatis MC2 155 and its derivative strains were monitored in 7H9 medium at 37 °C (Section 4.1 and Figure 4). Furthermore, the cold sensitivity assay was conducted using incubation temperatures of 42 °C, 37 °C, 30 °C, and 20 °C (Section 4.4 and Figure 6). The optimal growth temperature mentioned for the parent strain is 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13139416.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for culturing the *Mycobacterium smegmatis* strains used in the study: "All liquid cultures were incubated at 37 °C with agitation at 220 rpm under aerobic conditions. For solid media, bacterial strains were grown on LB agar plates at 37 °C." The optimal growth temperature for the host organism (*M. smegmatis*) is 37°C, which falls within the mesophile range (15–45°C). Since the phage is studied in relation to the host's growth conditions, this temperature is the relevant thermal characteristic.
+
+
+Paper: PMC13141997.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various steps. For initial isolation and subsequent growth of the strain B5, the following temperatures are mentioned: 
+1. Initial plating: "The dilutions were plated on LB agar plates and incubated at 30°C for 6 days."
+2. Re-streaking: "A fresh culture of the strain B5 was grown on the center of an LB media plate and incubated at 30°C for 6 days."
+3. Whole-genome sequencing growth: "S. chrestomyceticus B5 was grown in LB broth at 30°C for 72 h."
+4. Crude extract preparation: "To isolate the bioactive compounds, the S. chrestomyceticus B5 culture (1%) was inoculated into ISP2 media (30, 31) and incubated at 30°C for 72 h."
+5. Test pathogen incubation (Fungi): "The tubes were incubated for 18 h at 37°C, 200 rpm for test bacteria, 48 h for Candida species, and 72 h for A. fumigatus at 30°C, 200 rpm for fungi." (Note: While 37°C is used for bacteria, 30°C is used for fungal pathogens).
+Since the primary growth and culture conditions repeatedly use 30°C, which falls within the mesophile range (15–45°C), the organism is classified as mesophile.
+
+
+Paper: PMC13155453.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard culturing temperature for *Mycobacterium smegmatis* (the organism studied in the paper) multiple times: "For standard culturing, Mycobacterium smegmatis mc2 155 (M. smegmatis) was grown at 37°C under shaking conditions..." and "...and incubated till desired time duration in 96-well plate at 37°C under shaking conditions in a spectrophotometer." Additionally, the antibiotic tolerance assay specifies incubation at "37°C under shaking conditions." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for ATN94050 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Mycobacterium phage Kumao.
+2. Check for environmental context: The isolation source is 'soil', and the collection location is 'USA: Easton, PA' (lat/lon: 40 N 75 W). Soil environments generally support mesophilic life forms, though this is not definitive.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) dictates assigning 'mesophile'.
+
+

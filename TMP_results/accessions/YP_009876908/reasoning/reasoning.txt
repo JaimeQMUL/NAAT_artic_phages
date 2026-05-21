@@ -1,0 +1,40 @@
+=============Reasoning for YP_009876908 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Enterobacter asburiae') and the phage ('Enterobacter phage EspM4VN'), but no explicit or strongly implied temperature or environmental condition (such as 'soil', 'hot spring', or 'ice') is mentioned to determine the thermal range.
+
+
+=============Reasoning for YP_009876908 from accession literature=============
+Paper: PMC11094981.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature used for measuring the phage titer stability: "The concentration of Aeromonas phage vB AhM-LH was adjusted to 10^8 plaque-forming units (PFU)/ml, and its titer was measured after following incubation at different temperatures (30 °C, 40 °C, 50 °C, 60 °C, 70 °C, and 80 °C) for 1 h." The results section then summarizes this: "Aeromonas phage vB AhM-LH remained stable at temperatures between 30 °C and 60 °C; however, its titer significantly decreased at 70 °C and the phage became completely inactive at 80 °C (Fig. 2c)." Since the optimal stability range is 30°C to 60°C, this falls within the mesophile range (15–45°C) and extends slightly beyond, but the core stable range is mesophilic. The incubation for the in vitro antibacterial test was also at 30°C, and the general rearing condition was 27°C, which are mesophilic temperatures.
+
+
+Paper: PMC7283392.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability range for EspM4VN: "We report herein that EspM4VN was stable from 10°C to 50°C..." The defined mesophile range is 15–45°C. Since the phage is stable up to 50°C and its optimal growth/stability range covers the mesophilic range (15–45°C), and the host bacteria were grown at 37°C (which falls within the mesophilic range), the classification is mesophile. The stability test section confirms this: "EspM4VN kept stable infectivity at temperatures 10–50°C (Figure 2A)".
+
+
+=============Reasoning for YP_009876908 from host literature=============
+Paper: PMC10616651.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for the strains: "P. chlororaphis L5 and E. asburiae L95 were grown in LB or in minimal medium (MM) with mannitol and glycerol (both 2 g/L) as carbon sources (Hussain et al., 2008) at 28°C with 200 rpm shaking." Additionally, the growth of the pathogenic bacteria and the subsequent assays were performed at 28°C. Since 28°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_009876908 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Enterobacter phage EspM4VN.
+2. **Check for environmental context:** The host organism is 'Enterobacter asburiae', which is a common bacterium often associated with moderate environmental conditions. The collection location is 'Viet Nam', which does not specify a temperature.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is weak, the system must default to the 'mesophile' classification as per Rule 4.
+4. **Conclusion:** The default classification is mesophile.
+
+

@@ -1,0 +1,34 @@
+=============Reasoning for QOI58243 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Salmonella phage pSal-SNUABM-02') and its host ('Salmonella sp.'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is provided to determine a thermal range.
+
+
+=============Reasoning for QOI58243 from accession literature=============
+Paper: 33455089.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that the phage 'was stable in the following conditions: pH 5-9, 4-37°C, and ultravioletA/ultravioletB (UVA/UVB) exposure.' The temperature range provided is 4-37°C. Since the mesophile definition is 15–45°C, and the observed range (4-37°C) falls within or closely brackets this range, it is classified as mesophile.
+
+
+=============Reasoning for QOI58243 from host literature=============
+Paper: PMC13185642.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the culture conditions for SHK-1 cells and P. salmonis growth: 1. SHK-1 cells were cultivated at 18°C in L-15 Medium... 2. P. salmonis was routinely grown at 180 rpm and 18°C on Nutrient Piscirickettsia Broth (NPB)... 3. SHK-1 cells were seeded... and incubated at 18°C. 4. For the detection of acidic compartments, cells were incubated for 1.5 h at 18°C with 100 nM LysoTracker Red DND-99 or with Magic Red Cathepsin B Assay Kit... 5. SHK-1 cells were treated with 250 nM bafilomycin A1 (BafA1), 25 µM chloroquine (CQ), or 0.75 µL DMSO (control). Cells were then washed with PBS and incubated in fresh L-15 medium supplemented with 5% FBS for 7 days. (This implies incubation at the standard culture temperature, which is 18°C). Since 18°C falls within the defined mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for QOI58243 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage pSal-SNUABM-02) and its host (Salmonella sp.).
+2. There is no explicit mention of optimal growth temperature or thermal range.
+3. The host, Salmonella, is a common mesophilic bacterium, typically thriving in human or environmental body temperatures (around 37°C).
+4. Since no explicit evidence is available, the most probable classification is based on the known ecology of the host organism, defaulting to the mesophilic range (15–45°C).
+5. As no useful metadata exists to strongly infer a specific range, the fallback rule dictates assigning 'mesophile'.
+
+

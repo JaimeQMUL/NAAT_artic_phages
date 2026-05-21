@@ -1,0 +1,19 @@
+=============Reasoning for YP_009134139 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal range of the bacteriophage or its host.
+
+
+=============Reasoning for YP_009134139 from accession literature=============
+=============Reasoning for YP_009134139 from host literature=============
+=============Reasoning for YP_009134139 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Synechococcus phage ACG-2014j') and an isolate source ('Syn7803US103').
+2. Synechococcus is a genus of cyanobacteria, which are typically associated with aquatic environments. The isolate source suggests a natural environmental sample.
+3. There is no explicit mention of optimal growth temperature, temperature range, or environmental temperature.
+4. Based on the absence of explicit evidence and the general nature of cyanobacteria/phage isolates from unspecified natural sources, the default classification rule (Rule 4) mandates assigning 'mesophile'.
+
+

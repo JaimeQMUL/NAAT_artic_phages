@@ -1,0 +1,37 @@
+=============Reasoning for AHJ86888 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Salmonella phage STP4-a') and its host ('Salmonella Typhimurium ATCC 14028'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for AHJ86888 from accession literature=============
+Paper: PMC12699148.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability testing conditions: "For thermal stability, phage suspensions were incubated at 4, 20, 37, 40, 45, 50, and 60 °C for 1 h." It further notes that "Peak titers were observed between 37 °C and 45 °C, indicating optimal stability within physiological temperatures." Since the optimal stability range (37–45°C) falls within the mesophile definition (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for AHJ86888 from host literature=============
+Paper: PMC13183382.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper describes growth curve measurements and competition assays performed in LB medium at 37°C. This indicates the optimal growth temperature used for the experiments, but it does not define the general thermal characteristics (psychrophile, mesophile, thermophile) of the phage or the bacteria in a way that allows for classification based on the provided definitions. The text mentions 'Overnight cultures of bacterial strains grown in LB medium at 37°C' and 'incubated in LB medium at 37°C'.
+
+
+Paper: PMC13032263.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that preliminary antibacterial activity assays were conducted by incubating bacterial cells in 96-well plates and subsequently incubating the plate at "37 ℃ without shaking." Furthermore, the assessment of combined activity with PMBN was performed after "24 h of incubation at 37 °C."
+
+
+=============Reasoning for AHJ86888 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage STP4-a) and its host (Salmonella Typhimurium ATCC 14028). 2. No explicit thermal range is provided in the metadata. 3. The host, Salmonella Typhimurium, is a common human/animal pathogen typically associated with moderate environmental temperatures (mesophilic range, 15–45°C). 4. Since no specific thermal data is available, the most probable classification, following the fallback rule (Rule 4), is mesophile.
+
+

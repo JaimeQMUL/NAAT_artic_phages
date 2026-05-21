@@ -1,0 +1,16 @@
+=============Reasoning for QGT54551 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Synechococcus phage B3') and the host ('Synechoccus sp.'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for QGT54551 from accession literature=============
+=============Reasoning for QGT54551 from host literature=============
+=============Reasoning for QGT54551 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Synechococcus phage B3. 2. There is no environmental context (e.g., deep sea, hot spring) to infer a psychrophile or thermophile classification. 3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+
+

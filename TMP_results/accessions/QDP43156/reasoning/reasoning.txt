@@ -1,0 +1,26 @@
+=============Reasoning for QDP43156 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, accession number, sequence length, dates, and the host organism ('Bacillus velezensis FZB42'). No explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is mentioned.
+
+
+=============Reasoning for QDP43156 from accession literature=============
+Paper: PMC9610010.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the phage was stable at 30 °C and 40 °C, and the host bacteria were grown at 28 °C. The stability test section notes: "The phage survived at temperatures of 30, 40, and 50 °C. The phage titer was rather stable during one-hour incubation at temperatures of 30 and 40 °C, while incubation at 50 °C led to about an order of magnitude decrease in the titer, compared to the control sample incubated at 4 °C (ANOVA, p > 0.05)" and "All cultures were grown at 28 °C with shaking at 120 rpm." Since the optimal/stable range includes 30°C and 40°C, and the host growth was at 28°C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for QDP43156 from host literature=============
+=============Reasoning for QDP43156 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Bacillus phage vB_BveM-Goe7') and its host ('Bacillus velezensis FZB42').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range.
+3. Therefore, no evidence is available to classify it as psychrophile or thermophile.
+4. According to the decision rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

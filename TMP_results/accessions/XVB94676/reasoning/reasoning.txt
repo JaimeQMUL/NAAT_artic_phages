@@ -1,0 +1,61 @@
+=============Reasoning for XVB94676 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Pseudomonas aeruginosa ATCC 9027'), and accession information, but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for XVB94676 from accession literature=============
+Paper: PMC13144091.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that 'Both phages demonstrated optimal stability at a pH of 4.0–7.0 and a temperature of 4 °C–37 °C.' The range 4 °C–37 °C encompasses the mesophilic range (15–45°C) and includes the optimal growth temperature of 37°C, which is characteristic of mesophiles. The subsequent section 2.15 also confirms incubation at 37 °C for lytic activity.
+
+
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." Since the optimal/stable range includes 20°C–37°C, which falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC13171965.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures for various assays involving the phages. For instance, during the co-incubation for phage isolation, the mixture was incubated "at 37 °C with agitation (~ 300 rpm) for 18–20 h." Furthermore, for the stability test, the phages were incubated at "+ 37 °C" as a reference condition. The optimal MOI determination and the one-step growth curve were also conducted at "37 °C." Since the optimal growth/stability/assay temperature is consistently reported at 37°C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13061930.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that the phages remained viable after 24 h of incubation at between 4 °C and 25 °C (Fig. 5A–C). It also notes that 'Almond bacterial blast typically develops under cool, wet conditions' and that 'short-term temperature elevations above 30 °C are common in the Central Valley.' The optimal growth temperature range for mesophiles is defined as 15–45°C. The observed stability range (4°C to 25°C) falls within or near the mesophilic range, and the host bacteria were grown at 28°C, which is within the mesophilic range. The text explicitly mentions the stability at 37°C, which is also mesophilic.
+
+
+Paper: PMC13164509.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that the one-step growth curve analysis and bacterial growth dynamics of the host strain BW25113 were observed at 37 °C. Furthermore, the phage titer determination and efficiency of plating (EOP) assay were conducted by incubating plates at 37 °C overnight. These conditions (37 °C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC13136285.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for bacterial growth and phage experiments. For liquid culture, bacteria were cultivated in LB medium at "37 °C with shaking (150 rpm)". For solid culture, "All plates were incubated overnight at 37 °C." Furthermore, for kinetic studies, the incubation was performed at "37 °C". Since 37°C falls within the mesophile range (15–45°C), the phage's optimal growth conditions are inferred to be mesophilic.
+
+
+=============Reasoning for XVB94676 from host literature=============
+=============Reasoning for XVB94676 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Pseudomonas phage vB_PSGBLB0006') and its host ('Pseudomonas aeruginosa ATCC 9027').
+2. Pseudomonas aeruginosa is a common opportunistic pathogen often associated with moderate environmental temperatures (e.g., human body temperature range, 37°C, which falls within the mesophile range of 15–45°C).
+3. No explicit thermal range data is provided in the metadata.
+4. Therefore, based on the host organism's typical ecology, the most probable classification is mesophile. This assignment is a fallback classification because no direct evidence was available.
+
+

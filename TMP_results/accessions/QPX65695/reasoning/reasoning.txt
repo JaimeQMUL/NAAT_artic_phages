@@ -1,0 +1,40 @@
+=============Reasoning for QPX65695 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range.
+
+
+=============Reasoning for QPX65695 from accession literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the one carrying the phage F375. In the 'Materials and methods' section, under 'Bacterial strains, growth conditions, and media', it is mentioned that 'Both C. jejuni NCTC12662 and the phage resistant strains 12662X3 and 12662R were routinely cultured on Blood Agar Base II (Oxoid) supplemented with aseptically obtained 5% calf blood (BA) and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2).' Furthermore, in the 'Phage adsorption assay' section, it states that the experiment was 'incubated aerobically at 37°C with agitation at 100 rpm.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC8713573.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the standard growth conditions for C. jejuni strains used in the study: "C. jejuni strains were standardly grown on base II agar plates containing 5% calf blood at 41.6°C under microaerobic conditions..." and "Bacterial cultures were then incubated for 4 h at 41.6°C under microaerobic conditions..." and "Plates were then incubated for 18–24 h at 41.6°C under microaerobic conditions." Since the phage work is conducted using C. jejuni strains, the relevant temperature is 41.6°C. According to the definitions, 15–45°C corresponds to mesophile.
+
+
+=============Reasoning for QPX65695 from host literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the one carrying the phage F375. In the 'Materials and methods' section, under 'Bacterial strains, growth conditions, and media', it is mentioned that 'Both C. jejuni NCTC12662 and the phage resistant strains 12662X3 and 12662R were routinely cultured on Blood Agar Base II (Oxoid) supplemented with aseptically obtained 5% calf blood (BA) and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2).' Furthermore, in the 'Phage adsorption assay' section, it states that the experiment was 'incubated aerobically at 37°C with agitation at 100 rpm.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QPX65695 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Campylobacter phage F375' and its host is 'Campylobacter jejuni NCTC12662'. The isolation source is a 'chicken fecal sample' collected in 'Denmark'.
+2. **Determine Environmental Context:** *Campylobacter* species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens). The typical physiological temperature range for these hosts is mammalian body temperature (around 37°C).
+3. **Apply Classification Rules:** The defined thermal ranges are: psychrophile (<15°C), mesophile (15–45°C), thermophile (>45°C). Since the host is a mesophilic bacterium found in a fecal sample, the most probable optimal growth temperature falls within the mesophilic range (15–45°C).
+4. **Conclusion:** No explicit thermal data is provided. Therefore, based on the known ecology of the host organism (*Campylobacter*), the classification defaults to mesophile. This assignment is forced due to the lack of explicit thermal data.
+
+

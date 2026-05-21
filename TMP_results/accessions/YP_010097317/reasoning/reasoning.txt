@@ -1,0 +1,29 @@
+=============Reasoning for YP_010097317 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli O157:H7' and the isolation source is 'wastewater'. 'Escherichia coli' is generally associated with mesophilic environments, and 'wastewater' is a common mesophilic source. No explicit temperature is given.
+
+
+=============Reasoning for YP_010097317 from accession literature=============
+Paper: PMC11657129.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that the phages were stable at three distinct temperatures: "The phages were stable at three distinct temperatures (4 °C, 28 °C, and 37 °C)". Furthermore, multiple procedures (e.g., incubation, plaque assay, propagation) were performed at 37 °C, which is the optimal growth temperature for the host bacteria (E. coli O157:H7) and falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11841896.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage vB_EcoP_SD2 demonstrated considerable efficacy and exhibited notable stability when subjected to treatment temperatures within the range of 4–45°C." and "The phage vB_EcoP_SD6 displayed notable efficacy and demonstrated considerable stability when subjected to thermal conditions spanning a range of 4–37°C." The optimal range for both phages is therefore within the mesophilic range (15–45°C).
+
+
+Paper: PMC11767321.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability results: "The thermal stability results observed that the phage was activated at temperatures ranging from 4 to 37 °C while significant inactivation was observed at temperatures above 45 °C (Figure 2B)." The mesophilic range is defined as 15–45°C, and the observed optimal/active range (4 to 37°C) falls within or near this range, with 37°C being the standard incubation temperature used throughout the study for activity assays (e.g., "Samples of the mixture were taken at hourly intervals up to 6 h for incubation at 37 °C.").
+
+

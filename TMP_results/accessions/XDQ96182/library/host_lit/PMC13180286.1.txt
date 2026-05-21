@@ -1,0 +1,1160 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: BMC Oral Health
+Journal ID: BMC Oral Health
+
+BMC Oral Health
+
+EISSN: 1472-6831
+Publisher: BMC
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13180286
+PMID: 42050578
+DOI: 10.1186/s12903-026-08387-3
+Article ID: 8387
+Article version: 1
+Subjects: Systematic Review
+
+From culture-based to 16S sequencing approaches: oral microbiota changes in aging, frailty, and oral hypofunction - a systematic review
+
+http://orcid.org/0009-0002-2267-632X Srisanoi Kittipit kittipit.srisanoi@zzm.uzh.ch
+1 2 3
+http://orcid.org/0000-0003-1912-4217 Curado Thalita Fernandes Fleury 1 4
+http://orcid.org/0000-0002-6812-4849 Leles Claudio 1 4
+http://orcid.org/0000-0002-3564-8603 Egli Adrian 3
+http://orcid.org/0000-0002-2874-8120 Rooney Ashley M. 3
+http://orcid.org/0000-0003-3365-576X Srinivasan Murali 1 5
+1 https://ror.org/02crff812 grid.7400.3 0000 0004 1937 0650 Clinic of General, Special Care, and Geriatric Dentistry, Center for Dental Medicine, University of Zurich, Zurich, Switzerland
+2 https://ror.org/03cq4gr50 grid.9786.0 0000 0004 0470 0856 Faculty of Dentistry, Khon Kaen University, Khon Kaen, Thailand
+3 https://ror.org/02crff812 grid.7400.3 0000 0004 1937 0650 Institute of Medical Microbiology, University of Zurich, Zurich, Switzerland
+4 https://ror.org/0039d5757 grid.411195.9 0000 0001 2192 5801 Federal University of Goias, Goiania, Brazil
+5 https://ror.org/028wp3y58 grid.7922.e 0000 0001 0244 7875 Center of Excellence in Genomics and Precision Dentistry, International Program in Geriatric Dentistry and Special Care, Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand
+Electronic publication date: 2026 Apr 28
+Publication date: 2026
+Volume: 26
+Electronic Location ID: 868
+Received 2026 Jan 29; Accepted 2026 Apr 13
+Copyright: © The Author(s) 2026
+Copyright year: 2026
+License: Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Oral microbiome, Aging, Frailty, Oral frailty, Oral hypofunction, Systematic review
+issue-copyright-statement: © BioMed Central Ltd., part of Springer Nature 2026
+
+==============================
+Background
+
+The oral microbiome evolves across the lifespan, with alterations influenced by both general and oral health conditions. In older adults, frailty and oral hypofunction are common and may contribute to these microbial changes. This systematic review evaluated changes in the oral microbiota of older adults, frail individuals, and those with oral frailty or hypofunction (e.g., fewer teeth), and explored how these conditions relate to one another.
+
+Methods
+
+A comprehensive literature search was conducted across MEDLINE (PubMed), Web of Science, and the Cochrane Library. The last search was performed on 16 November 2025. Studies reporting the effects of aging, frailty, or oral frailty/hypofunction on oral bacteria or microbiome were included. All eligible studies were descriptively analyzed. Risk of bias was assessed using the Newcastle–Ottawa Scale.
+
+Results
+
+Thirty-four studies were included, of which 16 used conventional microbiological methods and 18 used 16S rRNA sequencing. Findings on microbial diversity (alpha and beta) associated with aging were inconsistent; however, significant compositional changes were observed in frailty. At the phylum level, Bacillota decreased and Bacteroidota increased, and at the genus level, Streptococcus, Veillonella, and Haemophilus decreased, whereas Prevotella increased in older adults compared with younger adults. These patterns were reversed in frail individuals and older adults with edentulism or fewer teeth compared with healthy older adults.
+
+Conclusions
+
+Frailty and having fewer teeth appear to exert a stronger influence on the oral microbiome than healthy aging. While older adults may develop a microbial community distinct from that of younger adults, frailty is associated with a microbial imbalance, demonstrated by a reduction in taxa important for biofilm formation and an increase in pathogenic taxa. Similar patterns are observed in individuals with fewer teeth, though evidence linking other aspects of oral hypofunction remains limited.
+
+Clinical significance
+
+Oral microbiome alterations may be associated with frailty. However, current evidence is not yet sufficient to support their use as diagnostic biomarkers. Further longitudinal studies are needed to clarify whether these associations are correlational or causal, which is essential for future biomarker development and microbiome-targeted interventions.
+
+PROSPERO registration
+
+CRD42024628795.
+
+Supplementary Information
+
+The online version contains supplementary material available at 10.1186/s12903-026-08387-3.
+
+Background
+
+The oral microbiome changes across the lifespan and has the capacity to return to a stable state of equilibrium [1]. These changes occur in additional response to general health conditions such as digestive system diseases, cancers, cardiovascular diseases, Alzheimer’s disease, diabetes, and rheumatoid arthritis [2], as well as oral hygiene and oral health conditions such as caries, periodontitis, implantitis, oral mucositis, and cancer [3–5]. In addition, external factors such as diet, alcohol intake, and smoking influence the oral microbiome. Disruption of this balance, known as dysbiosis, is characterized by reduced microbial diversity, loss of beneficial species, and expansion of pathogenic species [6].
+
+As people age, frailty commonly develops, characterized by a reduction in strength, endurance, and physiological reserves across the neuromuscular, metabolic, and immune systems [7]. The deterioration in functionality affects not only physical health but also oral health [8, 9], leading to oral frailty (OF) and, subsequently, oral hypofunction (OH). OF represents an intermediate stage between robust function and its decline, characterized by fewer teeth and reduced eating and communicating function [10]. OH is characterized by impairments in oral hygiene, salivation, occlusal force, tongue-lip motor function, tongue pressure, masticatory performance, and swallowing ability [11, 12].
+
+Interestingly, the gut microbiome profile of individuals with frailty differs from that of non-frail older adults [13, 14]. Studies further indicate that alterations in the gut microbiome may contribute to the development of frailty, suggesting a bidirectional relationship between the gut and frailty [15, 16]. Given the ability of oral bacteria to transfer to the gut, changes observed in the gut may also occur earlier in the oral cavity [17]. Therefore, it can be postulated that frailty may influence the oral microbiome in a similar bidirectional fashion.
+
+Previous systematic reviews focusing on 16S rRNA sequencing studies have described age-related shifts in oral microbial diversity and changes in dominant taxa, but the available evidence remains inconsistent [18–20]. A systematic review by Sarafidou et al. reported that some studies identified associations between oral microbiome profiles and frailty [21]. To date, however, no systematic review has examined the relevance of these microbial changes to OH that may influence the oral microbiome, despite evidence showing that the risk of OH increases with age [22] and that OH is correlated with physical frailty [23–25].
+
+With the emergence of additional studies, this review aims to evaluate changes in the oral microbiota of older adults, frail individuals, and those with OF/OH, and explore how these conditions relate to one another. Moreover, we integrate findings from conventional oral microbiology methods with those from high-resolution molecular biology approaches to bridge existing evidence gaps, thereby strengthening the foundation for future investigations of the oral microbial community.
+
+Methods
+
+This systematic review was carried out and reported in accordance with the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines [26, 27]. The completed PRISMA checklist is provided (see Additional file 1). The protocol of this review was registered with PROSPERO (the International Prospective Register of Systematic Reviews) under the registration number CRD42024628795.
+
+Eligibility criteria and information sources
+
+The details of the inclusion and exclusion criteria for this systematic review, along with the sources of information used to explore relevant records, are described in Table 1. Additionally, no language restrictions were applied.Table 1 Focus question, criteria for inclusion, sources of information, and search terms
+
+Focus questions	1. Does aging have any consequence on the oral microbial diversity and the relative abundance of various oral bacteria in young adults (25–44), middle-aged (45–64), older (65–79), and long-lived (\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document}85) adults?
+
+2. In older adults (65 +), how does the oral microbiome significantly differ between normal, pre-frail, and frail stage?
+
+3. In older adults (65 +), how does the oral microbiome significantly differ between individuals with and without
+
+oral frailty/hypofunction, and how is this related to frailty status?
+
+	
+Criteria	Inclusion criteria	Study reporting on effects of aging/frailty/oral frailty/oral hypofunction on oral bacteria/microbiome	
+Exclusion criteria	In Vitro studies, animal studies	
+Information sources	Electronic databases	MEDLINE (PubMed), the Cochrane Central Register of Controlled Trials (CENTRAL), Web of Science	
+Others	Popular online internet search engines (e.g., Google), Online internet research community websites (https://www.researchgate.net/), reference crosschecks, personal communications, hand-searches	
+Search terms (PECO)	Population	#1: [MeSH]: Aged
+
+#2: [All fields]: Elderly OR Elderly Patient OR Aged 65 and Over OR Older Adult OR Older Patient OR Aged Patient OR Old Age OR Increasing Age OR Centenarian
+
+	
+Exposure	#3: [MeSH]: Frailty OR Frail Elderly OR Physical Frailty OR Sarcopenia OR Muscular Atrophy OR Malnutrition OR Nutritional Status OR Mouth, Edentulous OR Mastication OR Xerostomia OR Deglutition Disorders OR Aging OR Age Factors
+
+#4: [All fields]: Frailties OR Frailness OR Frailty Syndrome OR Sarcopenic OR Edentulism OR Oral Frailty OR Oral Hypofunction OR Oral Function OR Dry Mouth OR Oral Dryness OR Dysphagia OR Oral Diadochokinesis OR Tongue Pressure OR Oral Hygiene OR Occlusal Force OR Bite Force OR Masticatory Function OR Ageing OR Older
+
+	
+Comparison	#5: [MeSH]: Aged OR Healthy Aging OR Middle Aged OR Adult
+
+#6: [All fields]: Healthy Older Adults OR Successful Aging OR Non-Frail OR Normal Oral Function OR Healthy Adult
+
+	
+Outcome	#7: [MeSH]: Mouth*/microbiology OR Dental Plaque/microbiology OR Saliva*/microbiology OR Tongue*/microbiology
+
+#8: [All fields]: Oral Microbiome OR Oral Microbiota OR Oral Bacteria OR Oral Microbes OR Saliva Microbiome
+
+	
+Filters	Language	Not applied	
+Species	Human	
+Search builder		(#1 OR #2) AND (#3 OR #4) AND (#5 OR #6) AND (#7 OR #8)	
+Search date	Completed on 16 December 2024	
+
+Search strategy and selection process
+
+The PECO (Population, Exposure, Comparison, and Outcome) framework was used to formulate the review question and construct the search strategy. The strategy was refined following a pilot search to address any identified issues. The search was performed on 16 December 2024. The details of all search terms are provided in Table 1.
+
+Search results from each database were imported into Rayyan (https://www.rayyan.ai), an online platform for facilitating systematic review procedures. The artificial intelligence automatically detected and removed duplicate records as the initial step, followed by manual removal of undetected duplicates by reviewers. Two investigators (K.S. and T.F.) individually screened titles and abstracts within the platform. Following this step, studies underwent full-text review, and then eligible studies were selected for inclusion. Discrepancies were resolved through discussion, and unresolved disagreements were decided by a third reviewer (M.S.)
+
+When full-text articles were not available or lacked sufficient detail, the reviewers contacted the corresponding author to provide more details. The reference cross-checks from the previous reviews and manual searches were performed to identify studies that were not discovered by the search strategy. In addition, an updated search was performed on 16 November 2025 to retrieve studies published after the initial search.
+
+Data collection process and data items
+
+Data were collected by K.S. and subsequently checked for accuracy and validity by T.S. For studies using conventional methods, extracted data included participant characteristics and sample size, sampling types, detection techniques, main outcomes, and major findings. For sequencing-based studies, additional methodological details were collected, including targeted 16S rRNA variable regions, sequencing platforms, and reference databases used. Moreover, main findings related to alpha-diversity, beta-diversity, and relative abundances of taxa were extracted for synthesis. When the required details were lacking, the reviewers contacted the corresponding author to obtain additional information.
+
+Study risk of bias assessment
+
+The risk of bias for the included association studies was simultaneously assessed by two investigators (K.S. and T.F.) using the Newcastle–Ottawa Scale (NOS) [28]. The assessment comprises three domains, including selection, comparability, and outcomes, with total scores ranging from 0 to 10. Scores of 0–3 indicate high, 4–6 moderate, and 7–10 low risk of bias.
+
+Summary measures and synthesis of results
+
+A qualitative synthesis was conducted for all included studies, and findings were descriptively summarized. A meta-analysis was not performed due to substantial methodological heterogeneity across studies, including differences in sample types, sequencing approaches, analytical pipelines, and reported outcomes [29–31].
+
+Results
+
+Study selection
+
+Three databases were searched [MEDLINE (PubMed): n = 4643; CENTRAL: n = 936; Web of Science: n = 873] and detected 6452 records. Duplicate records were automatically removed by the software for 658 records. A total of 5794 records were screened for title and abstract, resulting in 5700 irrelevant records. The list of 94 related records was sought for retrieval; all records were successfully retrieved and underwent further full-text screening. A list of 72 records was excluded by consensus between two reviewers due to ineligible study design (n = 46), ineligible participant age (n = 16), review articles (n = 8), irrelevant study outcomes (n = 1), and unclear reporting of participants’ age without response from authors (n = 1) [32]. Finally, 22 records related to the inclusion criteria were included. Additionally, 12 records were identified through a cross-check of the references and an updated search. A final list of 34 records was qualified for data extraction and final analysis. The study selection process is demonstrated in the PRISMA flow diagram (Fig. 1). Details of the excluded studies, with the reasons for their exclusion, are clarified (see Additional file 2).Fig. 1 PRISMA flow diagram summarizing the study selection process. N or n, number
+
+Study characteristics
+
+Conventional methods
+
+Sixteen cross-sectional studies employed conventional microbiological methods [33–48]. Fourteen of these were published between 1991 and 2015, with only two published in 2023 [35, 37]. Eight studies aimed to compare bacterial species between different age groups. One study compared older adults with and without frailty in relation to pneumonia-associated bacteria [46], and another examined older adults with and without oral frailty [35]. Seven studies compared older adults with and without components of oral hypofunction, such as edentulism, reduced number of teeth, swallowing problems, or reduced tongue pressure.
+
+There was considerable heterogeneity in the location of sampling within the oral cavity. Most studies used unstimulated saliva to represent the oral microbiome (seven studies), followed by supragingival plaque (six studies). Oral rinse and tongue plaque were each used in three studies, while stimulated saliva was used in two studies. Subgingival plaque was used in four studies, focusing on periodontal pathogens. Other studies mainly focused on cariogenic bacteria, including Streptococcus mutans and lactobacilli (five studies). A few studies reported on opportunistic pathogens or pneumonia-related bacteria (four studies). In terms of analytical methods, bacterial culture was the most common technique (used in 50% of the studies), followed by DNA-specific polymerase chain reaction (PCR), DNA hybridization probes, quantitative PCR (qPCR), and adherence assays. Detailed descriptions of individual studies are provided in Table 2.Table 2 Summary of included studies using conventional methods
+
+Author,
+Year	Group of participants,
+age (Mean ± SD)	Number of participants (patients)	Sampling types	Detection technique	Main outcome	Major findings	
+Aging	
+Beighton 1991, UK [33]	Group 1: 56–64 years
+
+Group 2: 65–75 years
+
+Group 3: > 75 years
+
+	146	Stimulated saliva	Culture	Mutans streptococci; yeasts; lactobacilli	Mutans streptococci and lactobacilli were significantly greater in females aged > 75 years than in female aged between 56–64 years. Denture wearing and prescription of any medication had no significant effect	
+Percival 1991, UK [44]	Group 1: 20–39 years (26.8)
+
+Group 2: 40–59 years (50.1)
+
+Group 3: 60–79 years (72.5)
+
+Group 4: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 80 years (83.8)
+
+	Group 1: 30
+
+Group 2: 23
+
+Group 3: 16
+
+Group 4: 10
+
+	Unstimulated saliva and supragingival plaque	Culture	Candida spp.; enteric bacteria; Lactobacillus spp.; Staphylococcus spp.; mutans streptococci; A. viscosus; and A. naeslundii	Without denture-wearing or diseases, Lactobacilli and staphylococci in saliva were higher in those aged \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 70 compared to the young group. A. viscosus predominated in elderly subjects aged \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 60	
+Savitt 1991, USA [45]	Group 1: 10–19 years
+
+Group 2: 20–29 years
+
+Group 3: 30–39 years
+
+Group 4: 40–49 years
+
+Group 5: 50–59 years
+
+Group 6: 60–69 years
+
+Group 7: 70–79 years
+
+	1492	Subgingival plaque	DNA probe	P. gingivalis; A. actinomycetemscomitans	A. actinomycetemscomitans was decreased prevalence and concentration in older age groups. In contrast, P. gingivalis showed reverse relationship	
+Marsh 1992, UK [41]	Group 1: 20–39 years
+
+Group 2: 40–59 years
+
+Group 3: 60–79 years
+
+Group 4: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 80 years
+
+	Group 1: 30
+
+Group 2: 30
+
+Group 3: 30
+
+Group 4: 30
+
+	Unstimulated saliva and supragingival plaque	Culture	Candida spp.; enteric bacteria; lactobacilli; staphylococci; mutans streptococci	Mutans streptococci, staphylococci, and lactobacilli increased with age, but the differences were not statistically significant
+
+Denture wearing appeared to have greater influence
+
+	
+Närhi 1994, Finland [42]	Group 1: 76 years
+
+Group 2: 81 years
+
+Group 3: 86 years
+
+	Group 1: 126
+
+Group 2: 80
+
+Group 3: 57
+
+	Unstimulated saliva	Culture	Mutans streptococci; lactobacilli	High bacterial counts were associated with low salivary flow rates, while medication and diseases were not. Lactobacilli growth was increased with age and highlighted potential association. While mutans streptococci growth was greater in aged 81 years than 76 and 86 years	
+Carlén 1996, Sweden [34]	Group 1: adults, 27.7(M), 26.5(FM)
+
+Group 2: older adults, 76.8(M), 77.5(FM)
+
+	Group 1: 8
+
+Group 2: 8
+
+	Unstimulated saliva and stimulated parotid saliva	Adherence assay	S. mutans strain Ingbritt; S. sanguis strain ATCC 10556; and A. viscosus strain ATCC 19246	S. sanguis aggregation was less in whole saliva from elderly than young individuals. Strain 19,246 bound in higher number to parotid saliva of elderly, while strain 10,555 reduced adherence ability compared to young individuals	
+Fure 2003, Sweden [38]	Group 1: 55 years
+
+Group 2: 65 years
+
+Group 3: 75 years
+
+Group 4: 85 years
+
+	Group 1: 98
+
+Group 2: 56
+
+Group 3: 37
+
+Group 4: 9
+
+	Unstimulated saliva	Culture	Mutans streptococci; lactobacilli	The overall salivary counts of mutans streptococci and lactobacilli increased with age. Moreover, higher counts of these bacteria were found in persons wearing removable dentures than without dentures.	
+Haffajee 2005, USA [39]	Group 1: adults with periodontally healthy (36 ± 9)
+
+Group 2: adults with periodontitis (46 ± 11)
+
+Group 3: older adults with well maintain periodontium (77 ± 5)
+
+	Group 1: 30
+
+Group 2: 138
+
+Group 3: 35
+
+	Subgingival plaque	Whole genomic DNA probe and checkerboard DNA-DNA hybridization	40 subgingival species	Older adults with well maintain periodontium were not different from periodontally healthy subjects for any species. P. ginigvalis, T. denticola, B forsythus, and S. noxia were significantly increased in periodontitis group	
+Frailty	
+Senpuku 2003, Japan [46]	Group 1: institutionalized older adults requiring systemic care (83.9 ± 7.5)
+
+Group 2: independent community-dwelling older adults (72.0 ± 0.3)
+
+	Group 1: 329
+
+Group 2: 464
+
+	Supragingival plaque (upper right first and second molar) and pharynx	Culture	Pneumonia-associated bacteria and candida	Patients requiring care had significantly higher Candida albicans, Staphylococcus spp., Pseudomonas spp., and some strain of Enterobacteriaceae in dental plaque, as well as Candida albicans and Xanthomonas maltophilia in pharynx	
+Oral frailty	
+Tada 2004, Japan [47]	Group 1.1: normal speech
+
+Group 1.2: speech disorder
+
+Group 2.1: normal swallowing
+
+Group 2.2: swallowing disorder (82.0 ± 8.4)
+
+	Group 1.1: 27
+
+Group 1.2: 28
+
+Group 2.1: 23
+
+Group 2.2: 32
+
+	Supragingival plaque (upper first molar)	Culture	Opportunistic pathogens	MRSA, P. aeruginosa, S. agalactiae, and S. maltophilia were significantly higher in subjects with swallowing and speech disorder. Approximately half of subjects who had oral motor dysfunction and hypoalbuminemia had colonization by MRSA and/or P. aeruginosa	
+Fernandes 2010, Brazil [36]	Group 1: dentate (61.7 ± 7.05)
+
+Group 2: edentulous (65.8 ± 8.05)
+
+	Group 1: 30
+
+Group 2: 30
+
+	Buccal, tongue, and subgingival in dentate group	DNA-specific PCR	Periodontal pathogens	Most of periodontal bacteria was more prevalence in dentate group, while C. rectus, A. actinomycetemcomitans, and E. corrodens showed equal prevalence in both groups	
+Kishi 2010, Japan [40]	Group 1: dentate subjects aged 85 years
+
+Group 2: edentulous subjects aged 85 years
+
+	Group 1: 93
+
+Group 2: 72
+
+	Tongue	DNA-specific PCR	Periodontal pathogens	the prevalence of periodontopathic bacteria was significantly higher in dentate subjects, while no significant for S. mutans. Among all subjects, T. forsythia was detected most frequently (63%) and P. gingivalis (50.3%)	
+Zuanazzi 2010, Brazil [48]	Group 1: edentulous (66.2 ± 2.6)
+
+Group 2: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\le$$\end{document} 14 teeth (63.5 ± 2.8)
+
+Group 3: > 14 teeth (58.3 ± 3.7)
+
+	Group 1: 13
+
+Group 2: 10
+
+Group 3: 7
+
+	Oral rinse with sterile saline, supra and subgingival plaque	DNA-specific PCR	Acinetobactors spp.; D. pneumosintes; Pseudomonas spp.; Staphylococcus spp.	In saliva sample, only D. pneumosintes was significantly higher in dentate patients. In plaque sample, only Pseudomonas spp. was significantly higher in patients with \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\le$$\end{document} 14 teeth. The presence of Staphylococcus spp. strongly associated with the presence of P. aeruginosa	
+Ortega 2015, Spain [43]	Group 1: dysphagia with prior pneumonia (82.5 ± 6.21)
+
+Group 2: dysphagia (80.7 ± 5.43)
+
+Group 3: dysphagia with acute pneumonia (81.8 ± 8.15)
+
+Group 4: Healthy (76 ± 2.17)
+
+	Group 1: 15
+
+Group 2: 15
+
+Group 3: 17
+
+Group 4: 14
+
+	Nasal cavity; nasopharynx, oropharynx, tongue, sputum, saliva, dental plaque, oral rinsing with sterile water	qPCR	Streptococcus pneumoniae; Haemophilus influenzae; Pseudomonas aeruginosa; Staphylococcus aureus; Escherichia coli	There were no significant differences of microbial composition among groups. Healthy group revealed higher diversity than others. Samples from oral rinse and saliva showed higher diversity and load. Cautiously, patients with dysphagia had higher prevalence of oral colonization by respiratory pathogens, further at risk of aspiration pneumonia	
+Chen 2024, Taiwan [35]	Group 1: non-oral frailty (62.1 ± 8.1)
+
+Group 2: pre-oral frailty (61.95 ± 10.7)
+
+Group 3: oral frailty (69.36 ± 12.0)
+
+	Group 1: 7
+
+Group 2: 41
+
+Group 3: 55
+
+	Oral rinse with normal saline	Culture	Pneumonia-associated bacteria	Oral frailty group was significantly associated with more Enterobacterales and difficulty making “ta” sound increase the risk of Enterobacterales isolation by 5.58-fold. Moreover, oral frailty group showed high percentage of pneumonia-associated bacteria, such as K. pneumonia, E. coli, and S. marcescens	
+Funahara 2023, Japan [37]	Older adults requiring long-term care (82.9)	95	Unstimulated saliva	Real-time PCR	Streptococci; methicillin-resistant Staphylococcus aureus; Porphyromonas gingivalis; and Candida albicans	Inadequate oral hygiene and decreased tongue pressure independently associated with higher bacterial count in saliva. Low tongue pressure was significantly correlate with P. gingivalis alone	
+
+16S rRNA sequencing methods
+
+Seventeen cross-sectional studies utilized high-throughput sequencing technologies and were published between 2015 and 2025 [49–66]. Eleven of these studies aimed to assess age-related differences in the oral microbiome: six studies compared three age groups, three studies compared two age groups, and two studies compared six or seven age groups. Three studies compared middle-aged (45–64 years) and older adults (65–84 years), two studies compared older adults with long-lived older adults (\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 85 years), while the remainder compared younger (25–44 years) and older adults. Two studies examined differences between older adults (65 years or older) with and without frailty, while three studies evaluated the association with frailty from national cohorts (the United Kingdom, the United States of America, and Canada). Although no studies directly compared older adults with and without oral frailty/hypofunction, two studies focused on their components, such as edentulism, reduced dentition, or xerostomia.
+
+Given the potential influence of oral and systemic health on microbiome composition, participant exclusion criteria were explored. Five studies did not report any exclusion criteria. Three studies included at least one exclusion criterion, such as recent antibiotic use (within three months) or the presence of pathological lesions at the sampling site. The remaining studies applied multiple criteria, typically excluding participants who had used antibiotics within 1–12 months, systemic diseases, less than 6–26 remaining teeth, periodontal disease, or were denture wearers.
+
+Again, we noted heterogeneity in the sampling location. The most used sample type was unstimulated saliva (eight studies), followed by oral rinse (five studies), stimulated saliva (three studies), and tongue plaque (two studies). Buccal mucosa, supragingival, and subgingival plaque were used in each study. Seventeen studies employed 16S rRNA gene sequencing, while one used shotgun metagenomic sequencing. Among the 16S rRNA studies, five targeted the V3–V4 region, four targeted V1–V3, three targeted V4, and one each targeted V1–V2, V3, V4–V5, and full-length 16S rRNA (V1–V9). Most studies used the Illumina MiSeq platform for sequencing. Reference databases varied across studies: four studies used the Human Oral Microbiome Database (HOMD), four studies used SILVA, three studies used Greengenes, and two studies used expanded HOMD. Detailed descriptions of individual studies are presented in Table 3.Table 3 Summary of included studies using 16S rRNA sequencing methods
+
+Author,
+Year	Group of participants,
+age (Mean ± SD)	Number of participants (patients)	Exclusion criteria	Sampling types	Detection technique	OTU/
+ASV	Database	
+Aging	
+Xu 2015, China [63]	Group 1: neonate (3.5 ± 0.5)
+
+Group 2: primary dentition (5.3 ± 0.5)
+
+Group 3: mixed dentition (8.9 ± 0.9)
+
+Group 4–5: young adults (16.6 ± 0.6, 36.0 ± 3.6)
+
+Group 6: older adults (67.9 ± 6.8)
+
+	Group 1: 11
+
+Group 2: 11
+
+Group 3: 11
+
+Group 4: 11
+
+Group 5: 11
+
+Group 6: 11
+
+	Systemic disease, smoking and excessive alcohol consumption, antibiotic usage < 3 months, less than 28 permanent dentition or less than 20 primary and mixed dentition teeth, non-restored carious lesions, gingivitis or periodontitis, previous periodontal treatment	Buccal mucosa, unstimulated saliva, and supragingival plaque	16S rRNA
+
+(V1-V3),
+
+Roche Genome Sequencer GS FLX Titanium platform
+
+	OTU	Not specified	
+Ogawa 2017, Japan [58]	Group 1: institutionalized older adults with diabetes mellitus (85.3 ± 4.5)
+
+Group 2: institutionalized older adults without diabetes mellitus (83.9 ± 8.4)
+
+Group 3: healthy adults (32.8 ± 7.8)
+
+	Group 1: 3
+
+Group 2: 12
+
+Group 3: 9
+
+	Antibiotic usage < 3 months	Unstimulated saliva	16S rRNA
+
+(V4)
+
+Illumina Miseq
+
+	OTU	NCBI	
+LaMonte 2019, USA [53]	Group 1: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 70 years (74.1 ± 3.3)
+
+Group 2: 60–69 years (64.2 ± 2.9)
+
+Group 3: 50–59 years (56.7 ± 1.8)
+
+	Group 1: 19
+
+Group 2: 24
+
+Group 3: 22
+
+	Less than 6 teeth present, history of bone disease other than osteoporosis, history of cancer in the previous 10 years	Subgingival plaque	16S rRNA
+
+(V3-V4)
+
+Illumina Miseq
+
+	OTU	HOMD	
+Murugesan 2020, Qatar [55]	Group 1: older adults aged > 65 years (80.2)
+
+Group 2: adults aged 18–65 years (35.9)
+
+	Group 1: 18
+
+Group 2: 979
+
+	No	Unstimulated saliva	16S rRNA
+
+(V1-V3)
+
+Illumina Miseq
+
+	OTU	HOMD	
+Wu 2020, Italy [62]	Group 1: centenarian (102.0 ± 1.5)
+
+Group 2: older adults (77.2 ± 5.9)
+
+Group 3: young age (24.9 ± 3.5)
+
+	Group 1: 22
+
+Group 2: 24
+
+Group 3: 19
+
+	Chronic medical conditions, chronic dermatologic diseases antibiotic usage < 1 year	Unstimulated saliva and mouth-rinse water (centenarians)	16S rRNA
+
+(V3-V4),
+
+Illumina Miseq
+
+	OTU	Greengenes	
+Schwartz 2021, US [59]	Group 1: older adults (72.98)
+
+Group 2: middle age (56.59)
+
+Group 3: young age (33.72)
+
+	Group 1: 85
+
+Group 2: 101
+
+Group 3: 85
+
+	Restored dental implants, removable partial dentures, maxillofacial defects, scaling < 3 months, acute disease that requires urgent care,
+
+ < 20 teeth, antibiotic usage < 1 month
+
+	Stimulated saliva	16S rRNA
+
+(V1-V3),
+
+Illumina Miseq
+
+	ASV	HOMD	
+Willis 2022, Spain [61]	Group 1: 0–13 years (10.72)
+
+Group 2: 13–20 years (15.90)
+
+Group 3: 20–30 years (25.06)
+
+Group 4: 30–40 years (35.07)
+
+Group 5: 40–50 years (45.83)
+
+Group 6: 50–60 years (54.31)
+
+Group 7: > 60 years (67.08)
+
+	Group 1: 24
+
+Group 2: 1212
+
+Group 3: 72
+
+Group 4: 49
+
+Group 5: 130
+
+Group 6: 76
+
+Group 7: 81
+
+	No	Oral rinse with sterile phosphate buffed saline	16S rRNA
+
+(V3-V4),
+
+Illumina Miseq
+
+	ASV	SILVA 132	
+Zhou 2022, USA [66]	Group 1: older adults (77 ± 6.16)
+
+Group 2: adults (25 ± 3.20)
+
+	Group 1: 13
+
+Group 2: 10
+
+	Chronic or recent infections, congestive heart failure, kidney disease, diabetes mellitus requiring medications, use of antibiotics, immunosuppressive disorders or the use of immunosuppressive agents, declines in self-reported physical performance, inability to walk, risk of frailty assessed by “Time Up and Go”	Unstimulated saliva	16S rRNA
+
+(not specified),
+
+Illumina Miseq
+
+	OTU	RDP	
+Nishimoto 2023, Japan [56]	Group 1: older adults (83.4 ± 2.3)
+
+Group 2: adults (43.7 ± 11.8)
+
+Group 3: periodontal disease (49.3 ± 12.0)
+
+	Group 1: 10
+
+Group 2: 22
+
+Group 3: 24
+
+	Group 1: < 26 teeth, received caries or periodontal treatment < 10 years
+
+Group 2: PPD < 4 mm, dental caries pit, denture or implants, smoker, antibiotic usage < 6 months
+
+Group 3: PPD > 4 mm, BOP tooth surface more than 10%, dental caries, denture or implants, smoker, orthodontic treatment, antibiotic usage < 6 months
+
+	Oral rinse with sterilized water	16S rRNA
+
+(V3),
+
+Illumina Miseq
+
+	ASV	eHOMD	
+Guo 2024, China [51]	Group 1: 65 \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\le$$\end{document} years < 70
+
+Group 2: 70 \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\le$$\end{document} years < 75
+
+Group 3: 75 \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\le$$\end{document} years < 80
+
+	Group 1: 35
+
+Group 2: 54
+
+Group 3: 41
+
+	Mental disorder, malignant tumor, serious diseases, antibiotic usage < 3 months	Unstimulated saliva	16S rRNA
+
+(V3-V4),
+
+Illumina Miseq
+
+	OTU	Greengenes	
+Ji 2025, China [52]	Group 1: long-lived aged 90–102 years (93.2 ± 2.5)
+
+Group 2: older adults aged 55–70 years (63.6 ± 2.5)
+
+	Group 1: 47
+
+Group 2: 48
+
+	Serious intestinal or periodontal diseases, antibiotic usage < 3 months	Oral rinse with sterile phosphate buffed saline	16S rRNA
+
+(V1-V9),
+
+PacBio Sequel II
+
+	ASV	SILVA 138	
+Frailty	
+Ogawa 2018, Japan [57]	Group 1: older adults in nursing home (84.2 ± 7.7)
+
+Group 2: healthy and independent older adults (87.0 ± 4.6)
+
+	Group 1: 15
+
+Group 2: 16
+
+	Antibiotic usage < 3 months	Unstimulated saliva	16S rRNA
+
+(V1-V2),
+
+Illumina Miseq
+
+	OTU	Greengenes	
+Larson 2022, US [54]	Group 1: Residents of skilled nursing facilities (78.2 ± 7.59)
+
+Group 2: Age-matched community-dwelling (82.9 ± 8.46)
+
+Group 3: Healthy adults (≤ 55)
+
+	Group 1: 22
+
+Group 2: 25
+
+Group 3: 367
+
+	Skin or oral lesions at or near the sites of sampling, self- reported gastrointestinal distress < 30 days, antibiotic usage < 30 days, Rockwood frailty index > 0.5, hospice protocol or terminal illness diagnosis	Tongue plaque	Shotgun metagenomic,
+
+Illumina NovaSeq
+
+	Short metagenomic reads	VFDB	
+Wells 2022, UK [60]	No group (median age 66)
+
+frailty classified by Rockwood
+
+	679	No	Unstimulated saliva	16S rRNA
+
+(V4),
+
+Illumina Miseq
+
+	ASV	SILVA 132	
+DeClercq 2024, Canada [49]	No group (median age 57)
+
+frailty classified by frailty index (FI)
+
+	1357	No	Stimulated saliva	16S rRNA
+
+(V4-V5),
+
+Illumina Miseq
+
+	ASV	eHOMD	
+Yang 2025, USA [65]	No group (median age 48)
+
+frailty classified by Rockwood
+
+	4518	No	Oral rinse with Scope mouthwash or saline	16S rRNA
+
+(V4),
+
+Illumina Miseq
+
+	ASV	Not specified	
+Oral frailty/hypofunction	
+Gazdeck 2019, US [50]	Group 1: edentulous (68.3)
+
+Group 2: dentate (50.4)
+
+	Group 1: 49
+
+Group 2: 52
+
+	Group 1: poor fitting complete denture or inadequate hygiene, antibiotic usage < 3 months, antimicrobial mouthwash < 48 h
+
+Group 2: dental implants, removable partial dentures, active caries or pathology, < 20 natural teeth, antibiotic usage < 3 months, antimicrobial mouthwash < 48 h
+
+	Stimulated saliva	16S rRNA
+
+(V1-V3),
+
+Illumina Miseq
+
+	ASV	HOMD	
+Yamamoto 2024, Japan [64]	Group 1: aged \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 80 years with \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 20 teeth
+
+Group 2: aged \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ge$$\end{document} 80 years with < 20 teeth
+
+Group 3: adults aged 20–39 years
+
+	Group 1: 26
+
+Group 2: 52
+
+Group 3: 26
+
+	Tongue surface with flaring, swelling, or pain	Tongue plaque	16S rRNA
+
+(V3-V4),
+
+Illumina Miseq
+
+	ASV	SILVA	
+ASV Amplicon sequence variant; eHOMD expanded Human Oral Microbiome Database, HOMD Human Oral Microbiome Database, NCBI National Center for Biotechnology Information, OTU Operational taxonomic unit, RDP Ribosomal Database Project, V Variable region, FDB Virulence Factor Database
+
+Findings from conventional methods
+
+Three studies by Beighton et al. [33], Percival et al. [44], and Fure et al. [38] using saliva samples, both unstimulated and stimulated, reported significantly higher levels of Streptococcus mutans and lactobacilli in older adults compared to younger adults, suggesting an increased caries risk in older populations. The impact of denture use on the oral microbiome yielded conflicting results. While Beighton et al. and Percival et al. found no significant differences in Streptococcus mutans and lactobacilli levels between denture-wearing older adults and younger adults, Marsh et al. [41] and Fure et al. reported significant increases in these bacterial counts among denture users.
+
+In studies investigating periodontal pathogens, Savitt et al. [45] observed that older adults had significantly higher levels of Porphyromonas gingivalis, but significantly lower levels of Aggregatibacter actinomycetemcomitans, compared to younger adults. In contrast, Haffajee et al. [39] found no significant differences in periodontal pathogens between older adults with well-maintained periodontium and periodontally healthy younger adults. Two studies by Fernandes et al. [36] and Kishi et al. [40] demonstrated significantly higher levels of periodontal pathogens in dentate older adults compared to edentulous individuals, indicating the continued relevance of periodontal microbial load in individuals with natural teeth.
+
+Senpuku et al. [46] reported that frail older adults were found to harbor higher levels of pneumonia-associated bacteria, including Staphylococcus spp., Pseudomonas spp., and Candida albicans. Similarly, Chen et al. [35] found that individuals with oral frailty exhibited a greater proportion of pneumonia-associated bacteria, including Klebsiella pneumoniae, Escherichia coli, and Serratia marcescens. Notably, both studies also reported increased levels of Enterobacterales in individuals with frailty and oral frailty. Studies by Tada et al. [47] and Ortega et al. [43] reported that older adults with swallowing difficulties had significantly elevated levels of opportunistic pathogens, such as Pseudomonas aeruginosa, emphasizing the increased risk of pneumonia in individuals with frailty, oral frailty, or swallowing dysfunction. Major findings of individual studies are summarized in Table 2.
+
+Findings from 16S rRNA sequencing methods
+
+Alpha-diversity
+
+Alpha-diversity encompasses different indices (e.g., Observed OTU, Chao1, Shannon, and Simpson) that weight richness and evenness differently and can respond differently to preprocessing and taxonomic resolution. Therefore, the direction and size of age- or frailty-associated effects may depend on the chosen metric, and measures may not show a positive linear relationship. Findings on alpha-diversity were inconsistent across studies comparing older adults with younger or middle-aged adults, with variability also influenced by sample type and taxonomic resolution used in the analysis. Detailed alpha-diversity findings and the indices used for measurement are summarized (see Additional file 3).
+
+Four studies reported decreased alpha-diversity (reflecting both richness and evenness) in older adults compared to young adults [54, 55, 59, 66], three found no significant differences [56, 62, 64], and one observed an increase in diversity [58]. When comparing older adults with middle-aged adults, one study reported a reduction in diversity [59], while another found no significant difference [53]. In a study by Guo et al. [51], which included three age groups of older adults aged 65–80 years, no significant change in diversity was observed. Interestingly, studies by Wu et al. [62] and Ji et al. [52] found that long-lived older adults exhibited reduced alpha-diversity compared to normal older adults.
+
+Regarding frailty, Ogawa et al. [58] reported a significant reduction in diversity at the phylum level among frail older adults. However, no significant differences were observed at deeper taxonomic levels (genus and species) in studies by both Ogawa et al. and Larson et al. [54]. In contrast, edentulism, having fewer than 20 teeth, and the presence of dry mouth were consistently associated with reduced alpha-diversity across multiple studies [50, 64].
+
+Beta-diversity
+
+Beta-diversity is similarly method-dependent, with results varying according to the distance metric used (e.g., Bray–Curtis versus weighted or unweighted UniFrac), whether analyses emphasize abundance or presence/absence data, and how compositionality and normalization are handled. As a result, studies may detect (or miss) group separation depending on the chosen dissimilarity measure and ordination or statistical testing approach. Detailed beta-diversity findings and the metrics used for measurement are summarized in (see Additional file 4).
+
+Beta-diversity results were also mixed when comparing older and younger adults. Five studies reported significant differences in community composition [54–56, 59, 61], while two studies found no significant differences [62, 63]. Similarly, when comparing older adults to middle-aged adults, one study reported a significant difference [53], and another reported none [59]. Interestingly, Schwartz et al. [59] found significant differences between older and young adults but no difference between older and middle-aged adults. When comparing among three age groups of older adults aged 65–80 years [51], as well as older adults versus long-lived older adults, there were no significant differences in beta-diversity [52, 62].
+
+More consistent differences were observed between frail and non-frail older adults. Studies by Ogawa et al. [58], Yang et al. [65], and Larson et al. [54] reported significant shifts in microbial community composition associated with frailty. Additionally, Gazdeck et al. [50] reported significant differences between edentulous and dentate older adults.
+
+Relative abundance of taxa
+
+Distinct trends of relative abundance of taxa varied between two main comparison groups: (i) older adults versus younger adults, and (ii) older adults versus frailty, edentulism, or fewer than 20 teeth. At the phylum level, Bacillota was found to be less abundant in older adults [55, 63] but more abundant in frail [57] and edentulous individuals [50]. Similarly, Streptococcus (within Bacillota) followed this trend, with an additional study reporting higher abundance in long-lived older adults [52] and individuals with fewer than 20 teeth [64]. Veillonella (also within Bacillota) showed reduced abundance in older adults [55, 58] but increased abundance in frail individuals [57]. Likewise, Haemophilus (within Pseudomonadota) was found to be less abundant in older adults [56, 62] but more abundant in frailty [57].
+
+In contrast, Bacteroidota was more abundant in older adults [55, 63] but less abundant in frail individuals [57]. Prevotella (within Bacteroidota) reflected this trend and was also found to be less abundant in edentulous older adults [50]. Interestingly, Prevotella and Tannerella (both within Bacteroidota) were more abundant in older adults but less abundant in long-lived individuals [52]. Some genera demonstrated opposing abundance trends in frail versus edentulous individuals. For example, Veillonella (within Bacillota) and Actinomyces (within Actinomycetota) were more abundant in frail older adults [57] but less abundant in edentulous older adults [50]. In addition, when comparing among three age groups of older adults aged 65–80 years, there were no significant differences in abundance taxa [51].
+
+A few taxa showed similar trends across both comparison groups. Selenomonas (within Bacillota) was more abundant in both older adults [58, 66] and frail individuals [57]. In contrast, Fusobacterium (within Fusobacteriota) and Campylobacter (within Campylobacteriota) were less abundant in older adults [55, 58, 66] and in frail individuals [57]. Additionally, Capnocytophaga (within Bacteroidota) and Fusobacterium showed consistently lower abundance in frail individuals [57] and those with fewer than 20 teeth [64]. Other relative abundance taxa findings with inconsistent patterns across studies are presented (see Additional file 5).
+
+Due to the limitation of species-level detection by metagenomic analysis of 16S rRNA sequencing and inconsistent findings between the studies, species-level results were omitted from the summary [67].
+
+Age-associated patterns in alpha-diversity and taxa
+
+Several studies that included participants spanning from childhood to older adulthood investigated associations between microbial taxa and age. Four studies using different sample types found a positive association between alpha-diversity and increasing age [49, 60, 61, 63], with the exception of one study by Yang et al. [65], which did not support this trend. Notably, Yang et al. also found a positive association between number of teeth and alpha-diversity (Shannon and Simpson). In contrast, three studies reported a negative association between frailty and alpha diversity [49, 60, 65].
+
+At the genus level, four taxa were consistently associated with aging across multiple studies: Veillonella [49, 60], Granulicatella [61, 63], Prevotella [51, 52, 61], Alloprevotella [49, 61], and Haemophilus [60, 61] showed negative associations with increasing age. While Comamonas [60, 61] showed a positive association with age. Other genera with inconsistent findings across studies are summarized (see Additional file 6).
+
+Risk of bias
+
+The risk of bias among studies utilizing conventional microbiological methods was assessed as primarily low in 11 studies, while five studies were rated as having a moderate risk of bias [37, 40, 42, 45, 46]. Similarly, among studies employing 16S rRNA gene sequencing methods, 14 studies were assessed as having a low risk of bias, and four studies were rated as moderate [49, 58, 60, 65]. Detailed risk of bias assessments is demonstrated in Table 4.Table 4 Risk of bias of included studies using Newcastle–Ottawa scale
+
+First author
+(Year)	Selection	Comparability	Outcome		
+	Representation
+of exposed
+cohort	Sample size	Non-responders	Ascertainment of exposure (risk factor)	The subjects in different outcome groups are comparable, based on
+the study design or analysis. Confounding factors are controlled	Assessment of outcome	Statistical test	Total
+(max 10)	
+1. Conventional methods	
+Beighton 1991 [33]	*		*	*	*	*		*		*	7	
+Percival 1991 [44]	*	*		*	*	*	*	*	*		8	
+Savitt 1991 [45]	*			*	*	*	*	*			6	
+Marsh 1992 [41]	*	*		*	*	*	*	*	*		8	
+Närhi 1994 [42]	*	*	*	*	*			*			6	
+Carlén 1996 [34]	*			*	*	*	*	*	*		7	
+Fure 2003 [38]	*		*	*	*	*		*		*	7	
+Haffajee 2005 [39]	*	*		*	*	*	*	*	*		8	
+Senpuku 2003 [46]	*	*		*				*	*	*	6	
+Tada 2004 [47]		*		*	*	*		*	*	*	7	
+Fernandes 2010 [36]	*	*		*	*	*	*	*	*	*	9	
+Kishi 2010 [40]	*	*		*	*			*	*		6	
+Zuanazzi 2010 [48]			*	*	*	*	*	*	*	*	8	
+Ortega 2015 [43]		*		*	*	*	*	*	*		7	
+Chen 2024 [35]			*	*	*	*	*	*	*	*	8	
+Funahara 2023 [37]			*	*	*			*	*	*	6	
+2. 16S rRNA sequencing methods	
+Xu 2015 [63]	*	*	*	*	*	*	*	*		*	9	
+Ogawa 2017 [58]			*	*		*		*	*	*	6	
+LaMonte 2019 [53]		*	*	*	*	*	*	*	*	*	9	
+Murugesan 2020 [55]	*	*		*	*			*	*	*	7	
+Wu 2020 [62]	*	*		*	*	*	*	*	*	*	9	
+Schwartz 2021 [59]	*	*		*	*	*	*	*	*	*	9	
+Wells 2022 [60]	*			*	*			*	*	*	6	
+Willis 2022 [61]	*	*		*	*			*	*	*	7	
+DeClercq 2024 [49]	*			*	*			*	*	*	6	
+Zhou 2022 [66]	*	*		*	*	*	*	*		*	8	
+Nishimoto 2023 [56]	*	*		*	*	*	*	*	*	*	9	
+Guo 2024 [51]	*	*	*	*	*	*	*	*	*	*	10	
+Ji 2025 [52]	*	*	*	*	*	*	*	*	*	*	10	
+Ogawa 2018 [57]	*	*	*	*		*		*	*	*	8	
+Larson 2022 [54]	*	*		*		*	*	*	*	*	8	
+Yang 2025 [65]		*		*	*			*	*	*	6	
+Gazdeck 2019 [50]	*	*		*	*	*	*	*	*	*	9	
+Yamamoto 2024 [64]	*	*		*	*	*		*	*	*	8	
+
+Discussion
+
+Principal findings
+
+This systematic review highlights that frailty, rather than aging alone, is closely linked to microbial dysbiosis. Although studies comparing older adults with younger or middle-aged adults regarding alpha- and beta-diversity remain inconclusive, differences in taxonomic abundance were observed, indicating that microbial changes occur with aging. During healthy aging, marked differences in microbial diversity or taxonomic abundance may not be evident until very advanced age (e.g., > 85 years), at which point a reduction in alpha-diversity may occur while beta-diversity remains relatively stable. In contrast, frail older adults exhibit significant changes in beta-diversity from healthy aging, despite non-significant changes in alpha-diversity. This pattern suggests that frailty may be associated with a restructuring of community composition (i.e., which taxa dominate and how individuals differ from one another) rather than a uniform change in within-sample richness or evenness.
+
+Taken together, the oral microbiome of older adults may shift toward an adapted community consistent with the natural resilience of the oral microbiome [1]. In contrast, the microbiome of frail individuals tends to shift toward a microbial imbalance, demonstrated by a reduction in taxa important for biofilm formation and an increase in pathogenic taxa. This phenomenon may also be explained by the reduced ability to maintain oral hygiene, which facilitates the overgrowth of pathogenic taxa, while a reduced number of teeth results in the loss of oral niches. Furthermore, oral hypofunction, which commonly co-occurs with frailty, can further restrict eating ability, diminish natural self-cleaning mechanisms, and weaken protective oral defenses, collectively accelerating microbial imbalance.
+
+Taxonomic abundance potentially associated with oral microbial dysbiosis
+
+At the phylum level, similar to the gut microbiome, Bacillota decreases, while Bacteroidota increases with aging [68]. Interestingly, a reverse trend is observed in frail individuals, supporting the concept of dysbiosis. Additionally, frail individuals show reduced levels of Fusobacterium and Campylobacter, both of which play essential roles in biofilm formation, suggesting potential disruption of biofilm stability. In particular, Fusobacterium nucleatum is considered a key bridging organism in dental plaque maturation, and its depletion may therefore influence overall community organization [69, 70].
+
+Studies found that Streptococcus and Veillonella, which typically decrease with age, show an increase in frail older adults. This shift could reflect poor oral hygiene and the development of a dysbiotic biofilm in this population. Streptococcus is a core early colonizer in the oral cavity, and Veillonella utilizes lactate produced by Streptococcus, suggesting a metabolic cross-feeding process in dysbiosis [71]. Interestingly, Singh et al. [72] found that Streptococcus was significantly increased in the oral microbiome of unhealthy compared to healthy aging cohorts. However, Streptococcus could also increase in older adults with edentulism or fewer than 20 teeth, regardless of frailty [50, 64, 73].
+
+Moreover, frail older adults, especially those with fewer teeth, showed microbial shifts similar to those seen in individuals with edentulism. This highlights the potential overlap between frailty and edentulism, where the loss of oral niches and functional decline both contribute to microbial dysbiosis. Interestingly, Veillonella (within Bacillota) was higher when Fusobacterium (within Fusobacteriota) was lower in frail compared to non-frail individuals, indicating specific microbial signatures of frailty. Findings from Kageyama et al. [74] explained that older adults have two community types: type I, who are dominated with Veillonella and Prevotella, exhibit a higher risk of all-cause death and pneumonia-related death than type II, who are dominated with Fusobacterium and Neisseria.
+
+Prevotella increases with aging but decreases in frail individuals, a pattern also observed in the gut microbiome [13]. The study exploring older adults with more than 26 teeth and no periodontal disease reported that their relative abundance and metabolome profiles resembled those of young adults with periodontal disease, yet remained distinct from periodontal-healthy young adults [56]. Supporting this, Kametani et al. [75] demonstrated that red complex species (P. gingivalis, T. forsythia, and T. denticola) play an important role in uniquely shaping the oral microbiome in a frail cohort, although periodontal disease developed only in those who harbor all of these species. In addition, a study found that a higher proportion of Prevotella in older adults was associated with oral frailty, particularly in those with subjective swallowing problems, compared to those with lower or middle levels [76]. Conversely, reduced Prevotella abundance has been linked to an increased risk of pneumonia [77].
+
+Enterobacterales, opportunistic pathogens associated with pneumonia, has been reported in frail and oral frail older adults. These bacteria, often introduced from the respiratory tract, are known to pose a risk of aspiration pneumonia, particularly in individuals with dysphagia [78]. However, sequencing studies have not consistently shown the same overgrowth of Enterobacterales in frail adults. Instead, Haemophilus (within Pseudomonadota), a generally commensal organism in the oral cavity, showed higher abundance in these individuals, potentially reflecting oro-respiratory overlap and contributing to the development of aspiration pneumonia. Notably, Jiang et al. [79] found that caries-free older adults exhibited a more complex bacterial community, with an enriched proportion of Pseudomonadota and Haemophilus, compared to caries-active older adults.
+
+At the cellular level, this potential dysbiosis, together with an increased abundance of oral pathogens, may contribute to the production of metabolites and virulence factors that aggravate senescence-associated secretory phenotype (SASP) activity in senescent cells, thereby promoting systemic chronic inflammation (inflammaging) [80]. This proposed interaction is in line with the oral microbiome–SASP–aging axis and may be relevant to frailty as well as other age-related conditions [81].
+
+Oral factors potentially contributing to oral microbiome changes
+
+The inconsistency in alpha diversity results when comparing older adults to younger adults may be attributed to several confounding factors, particularly the number of remaining teeth. Studies that report reduced diversity in older adults often include participants with fewer teeth, resulting in fewer niches for oral bacteria, further promoting dysbiosis [82, 83]. For example, Yamamoto et al. [64] observed no significant differences in diversity between younger adults and older adults with more than 20 teeth, whereas those with fewer than 20 teeth had reduced diversity. Similarly, Nishimoto et al. [56] found no significant differences in diversity between older adults with more than 26 teeth and younger adults. Furthermore, Yang et al. [65] proposed a potential mechanistic pathway in which a reduced number of teeth is associated with decreased oral microbiome diversity, ultimately contributing to frailty.
+
+The oral microbiome diversity in older adults with dry mouth was lower than those without dry mouth. These environmental changes impact the habitat of the oral microbiome and are reflected in the study using tongue plaque samples. Saliva plays an important role in the oral microbiome, such as providing nutrients, clearing microorganisms, and containing antimicrobial factors that manipulate the composition of microbes [84]. Many studies also support the difference between individuals with and without hyposalivation, as demonstrated in patients with xerostomia [85], hyposalivation and salivary pH [73], and Sjögren syndrome [86]. This finding supports the unstable outcomes from using saliva samples from the older adults, especially when salivary problems were not addressed in the previous studies.
+
+Findings from studies using conventional methods show conflicting evidence regarding the impact of dentures on the oral microbiome, whereas a metagenomic study found a higher prevalence of pathogenic bacteria in individuals wearing removable partial dentures compared with dentate older adults without dentures [87]. Additionally, the number of natural teeth retained by denture wearers and the material of complete dentures have been shown to influence the oral microbiome [82, 88]. Overall, the effect of dentures on the oral microbiome remains inconclusive and needs further investigation.
+
+Denture wearing often co-occurs with poor oral health and candidiasis, which is associated with a dysbiotic bacterial community. Candida spp. are of particular concern given the increasing spread of antifungal resistance, including C. auris, in nursing home settings [89]. Asakawa et al. [83, 90] reported an overgrowth of non-albicans Candida species in older adults, while Kraneveld et al. [91] found that microbiomes with a high Candida load were less diverse and showed distinct enrichment of Streptococcus. These findings parallel what is observed in frail, edentulous, and reduced-tooth populations in the current review. Although evidence remains mixed, the recurring association between dentures, pathogenic or opportunistic taxa, and reduced diversity underscores the importance of further research into how denture use, hygiene practices, and material type shape the oral microbiome.
+
+Notably, the study by Sekundo et al. [73] in a centenarian cohort found that factors such as degree of disability, nursing care, diabetes, and smoking did not significantly impact the oral microbiome. However, maintaining good oral health, particularly through regular dental visits, had a positive influence on microbial diversity. These findings highlight the need for researchers to carefully select exclusion criteria when studying the oral microbiome in older adults. Compared with younger populations, older adults present more complex and variable oral and systemic conditions that can easily confound microbiome outcomes, making rigorous study design essential for answering research questions accurately.
+
+Limitations
+
+A key limitation of oral microbiome research is the substantial methodological heterogeneity across studies, including variability in pre-analytical and analytical procedures, which reduces reproducibility [92]. Currently, there is no gold standard or consensus protocol for oral microbiome study, which contributes to variability in study design, sequencing approaches, bioinformatic pipelines, reported outcomes, and the handling of confounding factors. Consequently, the comparison of findings from sequencing studies must be interpreted with caution [29–31].
+
+Frailty is a time-dependent condition, and the lack of longitudinal evidence limits the ability to determine whether oral microbiome dysbiosis contributes to the development of frailty or whether frailty itself drives microbial changes. Therefore, well-designed longitudinal studies are essential to clarify the causal pathways between oral microbiome alterations and frailty progression. In addition, further investigation of other aspects of oral hypofunction should be examined to better identify oral factors associated with changes in the oral microbiome.
+
+Implications for research
+
+Due to inconsistent findings between studies using saliva samples, tongue samples may be more reliable for oral microbiome studies, as different tongue coatings share a similar overall microbial composition but differ in relative abundance, which can reflect the risk of certain diseases [93]. Moreover, the tongue microbiome closely mirrors the saliva microbiome in healthy individuals [94–96]. Therefore, using tongue samples may be a better choice for studying the oral microbiome of older adults, who frequently experience hyposalivation, helping to avoid this important confounding factor.
+
+In addition, studies targeted different 16S rRNA variable regions, which substantially influence taxonomic resolution and detection accuracy. Evidence comparing the performance of these regions suggests that V1–V2 provides the more reliable coverage for the oral and nasal microbiome [97, 98], while full-length 16S sequencing can offer even broader resolution by capturing all variable regions [99]. Variation in the reference database further influences taxonomic findings. Suggested optimal taxonomic assignment depends on matching the sequencing region to an appropriate database, for example, Greengenes2 for V3–V4 or V4 regions, and HOMD for V1–V2 [100]. Overall, greater standardization of pre-analytical procedures, sequencing strategies, and bioinformatic pipelines is needed to improve reproducibility and comparability in oral microbiome research.
+
+An additional methodological consideration is the availability of raw sequencing data from the included studies. Publicly accessible datasets would facilitate secondary analyses using uniform bioinformatic pipelines and standardized reference databases, which could reduce methodological heterogeneity and improve comparability across studies [101]. This approach may also enable pooled analyses and the application of quantitative dysbiosis indices, such as the Subgingival Microbial Dysbiosis Index (SMDI) and its extensions to saliva and tongue microbiomes, to better explore the relationship between periodontitis-associated microbiome dysbiosis and unhealthy aging [102, 103]. Future studies should therefore prioritize data sharing.
+
+Although current evidence suggests possible associations between certain oral microbiome profiles and frailty or oral frailty, these observations remain preliminary. Given the heterogeneity of the available studies and the lack of longitudinal data, no clear microbial signature specific to or predictive of unhealthy aging can currently be identified. Higher-resolution microbiome analyses, ideally at the species or strain level, together with standardized study designs, may help clarify these associations. Furthermore, longitudinal studies are required to determine whether these microbial changes are simply correlated with frailty or play a causal role. Such evidence will be necessary before considering the development of microbial biomarkers or microbiome-targeted interventions.
+
+Conclusions
+
+Frailty and having fewer teeth appear to exert a stronger influence on the oral microbiome than healthy aging. While older adults may develop a microbial community distinct from that of younger adults, frailty is associated with a microbial imbalance, demonstrated by a reduction in taxa important for biofilm formation and an increase in pathogenic taxa. Similar patterns are observed in individuals with fewer teeth, though evidence linking other aspects of oral hypofunction remains limited.
+
+Supplementary Information
+
+Additional file 1. PRISMA 2020 Main Checklist. This file contains the PRISMA 2020 checklist, which outlines the essential elements required for the systematic review process.
+
+Additional file 2. Excluded studies with reasons. This file lists all studies that were excluded from the systematic review along with the specific reasons for their exclusion.
+
+Additional file 3. Summary of the difference of alpha-diversity. This file presents a summary of the differences in alpha-diversity across studies comparing older adults to younger, middle age, long-lived adults and older adults with frailty and oral frailty/hypofunction.
+
+Additional file 4. Summary of the difference of beta-diversity. This file presents a summary of the differences in beta-diversity across studies comparing older adults to younger, middle age, long-lived adults and older adults with frailty and oral frailty/hypofunction.
+
+Additional file 5. Relative abundance taxa in aging, frailty, and oral frailty. This file contains a detailed comparison of the relative abundance of microbial taxa comparing older adults to younger, long-lived adults and older adults with frailty and oral frailty/hypofunction.
+
+Additional file 6. Age-associated patterns in alpha-diversity and taxa. This file contains the age-associated patterns in alpha-diversity and specific taxa observed across the lifespan.
+
+Abbreviations
+
+ADONIS Permutational multivariate analysis of variance using distance matrices
+
+ANOSIM Analysis of similarities
+
+ASV Amplicon sequence variant
+
+Bray–Curtis Bray–Curtis dissimilarity index
+
+HOMD Human Oral Microbiome Database
+
+OPLS-DA Orthogonal partial least squares discriminant analysis
+
+OUT Operational taxonomic unit
+
+PCA Principal component analysis
+
+PERMANOVA Permutational multivariate analysis of variance
+
+PRISMA Preferred Reporting Items for Systematic Reviews and Meta-Analyses
+
+PECO Population, Exposure, Comparison, and Outcome
+
+R2 Coefficient of determination
+
+Unweighted UniFrac Unweighted UniFrac distance
+
+Weighted UniFrac Weighted UniFrac distance
+
+OF Oral frailty
+
+OH Oral hypofunction
+
+NOS Newcastle-Ottawa Scale
+
+Acknowledgements
+
+The authors would like to thank GC International AG, Lucerne, Switzerland, for supporting the article processing charges (APC).
+
+Authors’ contributions
+
+K.S. and T.F. were responsible for data curation, formal analysis, writing – review & editing, and writing – original draft. A.M.R., C.L., A.E., and M.S. were responsible for writing – review & editing, supervision, methodology, investigation, and conceptualization. All authors reviewed and approved the final version of the manuscript.
+
+Funding
+
+Not applicable.
+
+Data availability
+
+All data supporting the findings of this study are included in the Additional files.
+
+Declarations
+
+Ethics approval and consent to participate
+
+Not applicable.
+
+Consent for publication
+
+Not applicable.
+
+Competing interests
+
+The authors declare no competing interests.
+
+Publisher’s note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+
+References
+
+1. Wade WG Resilience of the oral microbiome Periodontol 2000 2021 86 1 113 122 10.1111/prd.12365 33690989
+Wade WG. Resilience of the oral microbiome. Periodontol 2000. 2021;86(1):113–22.33690989 10.1111/prd.12365
+2. Peng X Cheng L You Y Tang C Ren B Li Y Oral microbiota in human systematic diseases Int J Oral Sci 2022 14 1 14 10.1038/s41368-022-00163-7 35236828 PMC8891310
+Peng X, Cheng L, You Y, Tang C, Ren B, Li Y, et al. Oral microbiota in human systematic diseases. Int J Oral Sci. 2022;14(1):14.35236828 10.1038/s41368-022-00163-7 PMC8891310
+3. Belibasakis GN Bostanci N Marsh PD Zaura E Applications of the oral microbiome in personalized dentistry Arch Oral Biol 2019 104 7 12 10.1016/j.archoralbio.2019.05.023 31153099
+Belibasakis GN, Bostanci N, Marsh PD, Zaura E. Applications of the oral microbiome in personalized dentistry. Arch Oral Biol. 2019;104:7–12.31153099 10.1016/j.archoralbio.2019.05.023
+4. Frey-Furtado L Magalhaes I Sampaio-Maia B Azevedo MJ Oral microbiome characterization in oral mucositis patients-a systematic review J Oral Pathol Med 2023 52 10 911 918 10.1111/jop.13492 37839408
+Frey-Furtado L, Magalhaes I, Sampaio-Maia B, Azevedo MJ. Oral microbiome characterization in oral mucositis patients-a systematic review. J Oral Pathol Med. 2023;52(10):911–8.37839408 10.1111/jop.13492
+5. Sahrmann P, Gilli F, Wiedemeier DB, Attin T, Schmidlin PR, Karygianni L. The microbiome of peri-implantitis: a systematic review and meta-analysis. Microorganisms. 2020;8(5):661.10.3390/microorganisms8050661 PMC7284896 32369987
+6. Sedghi L DiMassa V Harrington A Lynch SV Kapila YL The oral microbiome: role of key organisms and complex networks in oral health and disease Periodontol 2000 2021 87 1 107 131 10.1111/prd.12393 34463991 PMC8457218
+Sedghi L, DiMassa V, Harrington A, Lynch SV, Kapila YL. The oral microbiome: role of key organisms and complex networks in oral health and disease. Periodontol 2000. 2021;87(1):107–31.34463991 10.1111/prd.12393 PMC8457218
+7. Deng Y Sato N Global frailty screening tools: review and application of frailty screening tools from 2001 to 2023 Intractable Rare Dis Res 2024 13 1 1 11 10.5582/irdr.2023.01113 38404737 PMC10883846
+Deng Y, Sato N. Global frailty screening tools: review and application of frailty screening tools from 2001 to 2023. Intractable Rare Dis Res. 2024;13(1):1–11.38404737 10.5582/irdr.2023.01113 PMC10883846
+8. Li T Shen Y Leng Y Zeng Y Li L Yang Z The prevalence of oral frailty among older adults: a systematic review and meta-analysis Eur Geriatr Med 2024 15 3 645 655 10.1007/s41999-023-00930-7 38528284
+Li T, Shen Y, Leng Y, Zeng Y, Li L, Yang Z, et al. The prevalence of oral frailty among older adults: a systematic review and meta-analysis. Eur Geriatr Med. 2024;15(3):645–55.38528284 10.1007/s41999-023-00930-7
+9. Dibello V Zupo R Sardone R Lozupone M Castellana F Dibello A Oral frailty and its determinants in older age: a systematic review Lancet Healthy Longev 2021 2 8 e507 e520 10.1016/S2666-7568(21)00143-4 36098000
+Dibello V, Zupo R, Sardone R, Lozupone M, Castellana F, Dibello A, et al. Oral frailty and its determinants in older age: a systematic review. Lancet Healthy Longev. 2021;2(8):e507–20.36098000 10.1016/S2666-7568(21)00143-4
+10. Tanaka T Hirano H Ikebe K Ueda T Iwasaki M Minakuchi S Consensus statement on "Oral frailty" from the Japan Geriatrics Society, the Japanese Society of Gerodontology, and the Japanese Association on Sarcopenia and Frailty Geriatr Gerontol Int 2024 24 11 1111 1119 10.1111/ggi.14980 39375858 PMC11843523
+Tanaka T, Hirano H, Ikebe K, Ueda T, Iwasaki M, Minakuchi S, et al. Consensus statement on “Oral frailty” from the Japan Geriatrics Society, the Japanese Society of Gerodontology, and the Japanese Association on Sarcopenia and Frailty. Geriatr Gerontol Int. 2024;24(11):1111–9.39375858 10.1111/ggi.14980 PMC11843523
+11. Iwasaki M Hirano H Decline in oral function and its management Int Dent J 2022 72 4s S12 s20 10.1016/j.identj.2022.06.010 36031320 PMC9437811
+Iwasaki M, Hirano H. Decline in oral function and its management. Int Dent J. 2022;72(4s):S12-s20.36031320 10.1016/j.identj.2022.06.010 PMC9437811
+12. Minakuchi S Tsuga K Ikebe K Ueda T Tamura F Nagao K Oral hypofunction in the older population: Position paper of the Japanese Society of Gerodontology in 2016 Gerodontology 2018 35 4 317 324 10.1111/ger.12347 29882364
+Minakuchi S, Tsuga K, Ikebe K, Ueda T, Tamura F, Nagao K, et al. Oral hypofunction in the older population: Position paper of the Japanese Society of Gerodontology in 2016. Gerodontology. 2018;35(4):317–24.29882364 10.1111/ger.12347
+13. Almeida HM Sardeli AV Conway J Duggal NA Cavaglieri CR Comparison between frail and non-frail older adults' gut microbiota: a systematic review and meta-analysis Ageing Res Rev 2022 82 101773 10.1016/j.arr.2022.101773 36349647
+Almeida HM, Sardeli AV, Conway J, Duggal NA, Cavaglieri CR. Comparison between frail and non-frail older adults’ gut microbiota: a systematic review and meta-analysis. Ageing Res Rev. 2022;82:101773.36349647 10.1016/j.arr.2022.101773
+14. Lim MY Nam YD Gut microbiome in healthy aging versus those associated with frailty Gut Microbes 2023 15 2 2278225 10.1080/19490976.2023.2278225 37968837 PMC10730223
+Lim MY, Nam YD. Gut microbiome in healthy aging versus those associated with frailty. Gut Microbes. 2023;15(2):2278225.37968837 10.1080/19490976.2023.2278225 PMC10730223
+15. Bo F Teng H Shi J Luo Z Xu Y Pan R Exploring the causal relationship between gut microbiota and frailty: a two-sample mendelian randomization analysis Front Med (Lausanne) 2024 11 1354037 10.3389/fmed.2024.1354037 38765250 PMC11099276
+Bo F, Teng H, Shi J, Luo Z, Xu Y, Pan R, et al. Exploring the causal relationship between gut microbiota and frailty: a two-sample mendelian randomization analysis. Front Med (Lausanne). 2024;11:1354037.38765250 10.3389/fmed.2024.1354037 PMC11099276
+16. Hou X Zhu L Zhang J Li X Yu D Wang Y Multi-omics analyses reveal relationships between gut microbiota and frailty Brain Behav 2025 15 7 e70657 10.1002/brb3.70657 40620024 PMC12230348
+Hou X, Zhu L, Zhang J, Li X, Yu D, Wang Y, et al. Multi-omics analyses reveal relationships between gut microbiota and frailty. Brain Behav. 2025;15(7):e70657.40620024 10.1002/brb3.70657 PMC12230348
+17. Kunath BJ De Rudder C Laczny CC Letellier E Wilmes P The oral-gut microbiome axis in health and disease Nat Rev Microbiol 2024 22 12 791 805 10.1038/s41579-024-01075-5 39039286
+Kunath BJ, De Rudder C, Laczny CC, Letellier E, Wilmes P. The oral-gut microbiome axis in health and disease. Nat Rev Microbiol. 2024;22(12):791–805.39039286 10.1038/s41579-024-01075-5
+18. Carbone E Fabrizi E Rivabene R Cappella M Fortini P Conti L Human oral microbiome in aging: a systematic review Mech Ageing Dev 2025 226 112080 10.1016/j.mad.2025.112080 40473000
+Carbone E, Fabrizi E, Rivabene R, Cappella M, Fortini P, Conti L, et al. Human oral microbiome in aging: a systematic review. Mech Ageing Dev. 2025;226:112080.40473000 10.1016/j.mad.2025.112080
+19. Ren Y Chen M Wang Z Han JJ Oral microbiota in aging and diseases Life Med 2024 3 3 lnae024 10.1093/lifemedi/lnae024 39871894 PMC11749591
+Ren Y, Chen M, Wang Z, Han JJ. Oral microbiota in aging and diseases. Life Med. 2024;3(3):lnae024.39871894 10.1093/lifemedi/lnae024 PMC11749591
+20. Rozas NS Stephens N Lu KY Jeter CB Differences in oral microbiota between elderly and adults: a systematic review Arch Oral Biol 2025 175 106278 10.1016/j.archoralbio.2025.106278 40349643
+Rozas NS, Stephens N, Lu KY, Jeter CB. Differences in oral microbiota between elderly and adults: a systematic review. Arch Oral Biol. 2025;175:106278.40349643 10.1016/j.archoralbio.2025.106278
+21. Sarafidou K Alexakou E Talioti E Bakopoulou A Anastassiadou V The oral microbiome in older adults –a state-of-the-art review Arch Gerontol Geriatr Plus 2024 1 4 100061 10.1016/j.aggp.2024.100061
+Sarafidou K, Alexakou E, Talioti E, Bakopoulou A, Anastassiadou V. The oral microbiome in older adults –a state-of-the-art review. Arch Gerontol Geriatr Plus. 2024;1(4):100061.
+22. Srinivasan M Takeshita L Leles CR Nantanapiboon D Kanazawa M Matsuo K Comprehensive pilot analysis of oral hypofunction among Swiss adults Int J Dent 2025 2025 8852345 10.1155/ijod/8852345 40256195 PMC12006710
+Srinivasan M, Takeshita L, Leles CR, Nantanapiboon D, Kanazawa M, Matsuo K. Comprehensive pilot analysis of oral hypofunction among Swiss adults. Int J Dent. 2025;2025:8852345.40256195 10.1155/ijod/8852345 PMC12006710
+23. Tani A Mizutani S Oku S Yatsugi H Chu T Liu X Association between oral function and physical pre-frailty in community-dwelling older people: a cross-sectional study BMC Geriatr 2022 22 1 726 10.1186/s12877-022-03409-5 36056302 PMC9440534
+Tani A, Mizutani S, Oku S, Yatsugi H, Chu T, Liu X, et al. Association between oral function and physical pre-frailty in community-dwelling older people: a cross-sectional study. BMC Geriatr. 2022;22(1):726.36056302 10.1186/s12877-022-03409-5 PMC9440534
+24. Cruz-Moreira K Alvarez-Cordova L González-Palacios Torres C Chedraui P Jouvin J Jiménez-Moleón JJ Prevalence of frailty and its association with oral hypofunction in older adults: a gender perspective BMC Oral Health 2023 23 1 140 10.1186/s12903-023-02824-3 36899360 PMC10007728
+Cruz-Moreira K, Alvarez-Cordova L, González-Palacios Torres C, Chedraui P, Jouvin J, Jiménez-Moleón JJ, et al. Prevalence of frailty and its association with oral hypofunction in older adults: a gender perspective. BMC Oral Health. 2023;23(1):140.36899360 10.1186/s12903-023-02824-3 PMC10007728
+25. Tanaka T Takahashi K Hirano H Kikutani T Watanabe Y Ohara Y Oral frailty as a risk factor for physical frailty and mortality in community-dwelling elderly J Gerontol A Biol Sci Med Sci 2018 73 12 1661 1667 10.1093/gerona/glx225 29161342
+Tanaka T, Takahashi K, Hirano H, Kikutani T, Watanabe Y, Ohara Y, et al. Oral frailty as a risk factor for physical frailty and mortality in community-dwelling elderly. J Gerontol A Biol Sci Med Sci. 2018;73(12):1661–7.29161342 10.1093/gerona/glx225
+26. Page MJ McKenzie JE Bossuyt PM Boutron I Hoffmann TC Mulrow CD The PRISMA 2020 statement: an updated guideline for reporting systematic reviews BMJ 2021 372 n71 10.1136/bmj.n71 33782057 PMC8005924
+Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ. 2021;372:n71.33782057 10.1136/bmj.n71 PMC8005924
+27. Page MJ Moher D Bossuyt PM Boutron I Hoffmann TC Mulrow CD PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews BMJ 2021 372 n160 10.1136/bmj.n160 33781993 PMC8005925
+Page MJ, Moher D, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al. PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ. 2021;372:n160.33781993 10.1136/bmj.n160 PMC8005925
+28. Wells G SB, O’Connell D, Peterson J, Welch V, Losos M, Tugwell P. The Newcastle-Ottawa Scale (NOS) for assessing the quality of nonrandomised studies in meta-analyses 2013. Available from: http://www.ohri.ca/programs/clinical_epidemiology/oxford.asp.
+29. Knight R Vrbanac A Taylor BC Aksenov A Callewaert C Debelius J Best practices for analysing microbiomes Nat Rev Microbiol 2018 16 7 410 422 10.1038/s41579-018-0029-9 29795328
+Knight R, Vrbanac A, Taylor BC, Aksenov A, Callewaert C, Debelius J, et al. Best practices for analysing microbiomes. Nat Rev Microbiol. 2018;16(7):410–22.29795328 10.1038/s41579-018-0029-9
+30. Nearing JT Douglas GM Hayes MG MacDonald J Desai DK Allward N Microbiome differential abundance methods produce different results across 38 datasets Nat Commun 2022 13 1 342 10.1038/s41467-022-28034-z 35039521 PMC8763921
+Nearing JT, Douglas GM, Hayes MG, MacDonald J, Desai DK, Allward N, et al. Microbiome differential abundance methods produce different results across 38 datasets. Nat Commun. 2022;13(1):342.35039521 10.1038/s41467-022-28034-z PMC8763921
+31. Pollock J, Glendinning L, Wisedchanwet T, Watson M. The madness of microbiome: attempting to find consensus "Best Practice" for 16S Microbiome Studies. Appl Environ Microbiol. 2018;84(7):e02627–17.10.1128/AEM.02627-17 PMC5861821 29427429
+32. Zawadzki PJ Perkowski K Padzik M Mierzwinska-Nastalska E Szaflik JP Conn DB Examination of oral microbiota diversity in adults and older adults as an approach to prevent spread of risk factors for human infections Biomed Res Int 2017 2017 8106491 10.1155/2017/8106491 29082256 PMC5610830
+Zawadzki PJ, Perkowski K, Padzik M, Mierzwinska-Nastalska E, Szaflik JP, Conn DB, et al. Examination of oral microbiota diversity in adults and older adults as an approach to prevent spread of risk factors for human infections. Biomed Res Int. 2017;2017:8106491.29082256 10.1155/2017/8106491 PMC5610830
+33. Beighton D Hellyer PH Lynch EJ Heath MR Salivary levels of mutans streptococci, lactobacilli, yeasts, and root caries prevalence in non-institutionalized elderly dental patients Community Dent Oral Epidemiol 1991 19 5 302 307 10.1111/j.1600-0528.1991.tb00172.x 1742998
+Beighton D, Hellyer PH, Lynch EJ, Heath MR. Salivary levels of mutans streptococci, lactobacilli, yeasts, and root caries prevalence in non-institutionalized elderly dental patients. Community Dent Oral Epidemiol. 1991;19(5):302–7.1742998 10.1111/j.1600-0528.1991.tb00172.x
+34. Carlén A Olsson J Ramberg P Saliva mediated adherence, aggregation and prevalence in dental plaque of Streptococcus mutans, Streptococcus sanguis and Actinomyces spp, in young and elderly humans Arch Oral Biol 1996 41 12 1133 1140 10.1016/S0003-9969(96)00094-5 9134102
+Carlén A, Olsson J, Ramberg P. Saliva mediated adherence, aggregation and prevalence in dental plaque of Streptococcus mutans, Streptococcus sanguis and Actinomyces spp, in young and elderly humans. Arch Oral Biol. 1996;41(12):1133–40.9134102 10.1016/s0003-9969(96)00094-5
+35. Chen YC Ku EN Tsai PF Lin CW Ko NY Huang ST The relationship between oral frailty and oral dysbiosis among hospitalized patients aged older than 50 years Clin Exp Dent Res 2024 10 3 e890 10.1002/cre2.890 38816943 PMC11139674
+Chen YC, Ku EN, Tsai PF, Lin CW, Ko NY, Huang ST, et al. The relationship between oral frailty and oral dysbiosis among hospitalized patients aged older than 50 years. Clin Exp Dent Res. 2024;10(3):e890.38816943 10.1002/cre2.890 PMC11139674
+36. Fernandes CB Aquino DR Franco GC Cortelli SC Costa FO Cortelli JR Do elderly edentulous patients with a history of periodontitis harbor periodontal pathogens? Clin Oral Implants Res 2010 21 6 618 623 10.1111/j.1600-0501.2009.01892.x 20337663
+Fernandes CB, Aquino DR, Franco GC, Cortelli SC, Costa FO, Cortelli JR. Do elderly edentulous patients with a history of periodontitis harbor periodontal pathogens? Clin Oral Implants Res. 2010;21(6):618–23.20337663 10.1111/j.1600-0501.2009.01892.x
+37. Funahara M Soutome S Sakamoto Y Oyama H Otsuru M Umeda M Relationship between tongue pressure and salivary bacteria in the older adults requiring long-term care Gerontology 2023 69 3 282 288 10.1159/000526227 36202077
+Funahara M, Soutome S, Sakamoto Y, Oyama H, Otsuru M, Umeda M, et al. Relationship between tongue pressure and salivary bacteria in the older adults requiring long-term care. Gerontology. 2023;69(3):282–8.36202077 10.1159/000526227
+38. Fure S A ten-year cross-sectional and follow-up study of salivary flow rates and mutans streptococci and lactobacillus counts in elderly Swedish individuals Oral Health Prev Dent 2003 1 3 185 194 15641496
+Fure S. A ten-year cross-sectional and follow-up study of salivary flow rates and mutans streptococci and lactobacillus counts in elderly Swedish individuals. Oral Health Prev Dent. 2003;1(3):185–94.15641496
+39. Haffajee AD Cugini MA Tanner A Pollack RP Smith C Kent RL Jr Subgingival microbiota in healthy, well-maintained elder and periodontitis subjects J Clin Periodontol 1998 25 5 346 353 10.1111/j.1600-051X.1998.tb02454.x 9650869
+Haffajee AD, Cugini MA, Tanner A, Pollack RP, Smith C, Kent RL Jr, et al. Subgingival microbiota in healthy, well-maintained elder and periodontitis subjects. J Clin Periodontol. 1998;25(5):346–53.9650869 10.1111/j.1600-051x.1998.tb02454.x
+40. Kishi M Ohara-Nemoto Y Takahashi M Kishi K Kimura S Yonemitsu M Relationship between oral status and prevalence of periodontopathic bacteria on the tongues of elderly individuals J Med Microbiol 2010 59 Pt 11 1354 1359 10.1099/jmm.0.020636-0 20688951
+Kishi M, Ohara-Nemoto Y, Takahashi M, Kishi K, Kimura S, Yonemitsu M. Relationship between oral status and prevalence of periodontopathic bacteria on the tongues of elderly individuals. J Med Microbiol. 2010;59(Pt 11):1354–9.20688951 10.1099/jmm.0.020636-0
+41. Marsh PD Percival RS Challacombe SJ The influence of denture-wearing and age on the oral microflora J Dent Res 1992 71 7 1374 1381 10.1177/00220345920710070501 1629453
+Marsh PD, Percival RS, Challacombe SJ. The influence of denture-wearing and age on the oral microflora. J Dent Res. 1992;71(7):1374–81.1629453 10.1177/00220345920710070501
+42. Närhi TO Ainamo A Meurman JH Mutans streptococci and lactobacilli in the elderly Scand J Dent Res 1994 102 2 97 102 8016562 10.1111/j.1600-0722.1994.tb01162.x
+Närhi TO, Ainamo A, Meurman JH. Mutans streptococci and lactobacilli in the elderly. Scand J Dent Res. 1994;102(2):97–102.8016562 10.1111/j.1600-0722.1994.tb01162.x
+43. Ortega O Sakwinska O Combremont S Berger B Sauser J Parra C High prevalence of colonization of oral cavity by respiratory pathogens in frail older patients with oropharyngeal dysphagia Neurogastroenterol Motil 2015 27 12 1804 1816 10.1111/nmo.12690 26416412
+Ortega O, Sakwinska O, Combremont S, Berger B, Sauser J, Parra C, et al. High prevalence of colonization of oral cavity by respiratory pathogens in frail older patients with oropharyngeal dysphagia. Neurogastroenterol Motil. 2015;27(12):1804–16.26416412 10.1111/nmo.12690
+44. Percival RS Challacombe SJ Marsh PD Age-related microbiological changes in the salivary and plaque microflora of healthy adults J Med Microbiol 1991 35 1 5 11 10.1099/00222615-35-1-5 2072378
+Percival RS, Challacombe SJ, Marsh PD. Age-related microbiological changes in the salivary and plaque microflora of healthy adults. J Med Microbiol. 1991;35(1):5–11.2072378 10.1099/00222615-35-1-5
+45. Savitt ED Kent RL Distribution of Actinobacillus actinomycetemcomitans and Porphyromonas gingivalis by subject age J Periodontol 1991 62 8 490 494 10.1902/jop.1991.62.8.490 1656011
+Savitt ED, Kent RL. Distribution of Actinobacillus actinomycetemcomitans and Porphyromonas gingivalis by subject age. J Periodontol. 1991;62(8):490–4.1656011 10.1902/jop.1991.62.8.490
+46. Senpuku H Sogame A Inoshita E Tsuha Y Miyazaki H Hanada N Systemic diseases in association with microbial species in oral biofilm from elderly requiring care Gerontology 2003 49 5 301 309 10.1159/000071711 12920350
+Senpuku H, Sogame A, Inoshita E, Tsuha Y, Miyazaki H, Hanada N. Systemic diseases in association with microbial species in oral biofilm from elderly requiring care. Gerontology. 2003;49(5):301–9.12920350 10.1159/000071711
+47. Tada A Shiiba M Yokoe H Hanada N Tanzawa H Relationship between oral motor dysfunction and oral bacteria in bedridden elderly Oral Surg Oral Med Oral Pathol Oral Radiol Endod 2004 98 2 184 188 10.1016/j.tripleo.2004.03.003 15316545
+Tada A, Shiiba M, Yokoe H, Hanada N, Tanzawa H. Relationship between oral motor dysfunction and oral bacteria in bedridden elderly. Oral Surg Oral Med Oral Pathol Oral Radiol Endod. 2004;98(2):184–8.15316545 10.1016/j.tripleo.2004.03.003
+48. Zuanazzi D Souto R Mattos MB Zuanazzi MR Tura BR Sansone C Prevalence of potential bacterial respiratory pathogens in the oral cavity of hospitalised individuals Arch Oral Biol 2010 55 1 21 28 10.1016/j.archoralbio.2009.10.005 19939349
+Zuanazzi D, Souto R, Mattos MB, Zuanazzi MR, Tura BR, Sansone C, et al. Prevalence of potential bacterial respiratory pathogens in the oral cavity of hospitalised individuals. Arch Oral Biol. 2010;55(1):21–8.19939349 10.1016/j.archoralbio.2009.10.005
+49. DeClercq V Wright RJ Nearing JT Langille MGI Oral microbial signatures associated with age and frailty in Canadian adults Sci Rep 2024 14 1 9685 10.1038/s41598-024-60409-8 38678061 PMC11055859
+DeClercq V, Wright RJ, Nearing JT, Langille MGI. Oral microbial signatures associated with age and frailty in Canadian adults. Sci Rep. 2024;14(1):9685.38678061 10.1038/s41598-024-60409-8 PMC11055859
+50. Gazdeck RK Fruscione SR Adami GR Zhou Y Cooper LF Schwartz JL Diversity of the oral microbiome between dentate and edentulous individuals Oral Dis 2019 25 3 911 918 10.1111/odi.13039 30657624
+Gazdeck RK, Fruscione SR, Adami GR, Zhou Y, Cooper LF, Schwartz JL. Diversity of the oral microbiome between dentate and edentulous individuals. Oral Dis. 2019;25(3):911–8.30657624 10.1111/odi.13039
+51. Guo L Zhou J Xie F Lang Q Xu Y Chen L The profile of oral microbiome in Chinese elderly population associated with aging and systemic health status BMC Oral Health 2024 24 1 895 10.1186/s12903-024-04676-x 39103866 PMC11299356
+Guo L, Zhou J, Xie F, Lang Q, Xu Y, Chen L, et al. The profile of oral microbiome in Chinese elderly population associated with aging and systemic health status. BMC Oral Health. 2024;24(1):895.39103866 10.1186/s12903-024-04676-x PMC11299356
+52. Ji Y Sun H Wang Y Li Y Piao R Bu L Characterizing the oral and gastrointestinal microbiome associated with healthy aging: insights from long-lived populations in Northeastern China Geroscience 2025 47 2 2275 2292 10.1007/s11357-024-01419-2 39505797 PMC11978580
+Ji Y, Sun H, Wang Y, Li Y, Piao R, Bu L, et al. Characterizing the oral and gastrointestinal microbiome associated with healthy aging: insights from long-lived populations in Northeastern China. Geroscience. 2025;47(2):2275–92.39505797 10.1007/s11357-024-01419-2 PMC11978580
+53. LaMonte MJ Genco RJ Buck MJ McSkimming DI Li L Hovey KM Composition and diversity of the subgingival microbiome and its relationship with age in postmenopausal women: an epidemiologic investigation BMC Oral Health 2019 19 1 246 10.1186/s12903-019-0906-2 31722703 PMC6854792
+LaMonte MJ, Genco RJ, Buck MJ, McSkimming DI, Li L, Hovey KM, et al. Composition and diversity of the subgingival microbiome and its relationship with age in postmenopausal women: an epidemiologic investigation. BMC Oral Health. 2019;19(1):246.31722703 10.1186/s12903-019-0906-2 PMC6854792
+54. Larson PJ Zhou W Santiago A Driscoll S Fleming E Voigt AY Associations of the skin, oral and gut microbiome with aging, frailty and infection risk reservoirs in older adults Nat Aging 2022 2 10 941 955 10.1038/s43587-022-00287-9 36398033 PMC9667708
+Larson PJ, Zhou W, Santiago A, Driscoll S, Fleming E, Voigt AY, et al. Associations of the skin, oral and gut microbiome with aging, frailty and infection risk reservoirs in older adults. Nat Aging. 2022;2(10):941–55.36398033 10.1038/s43587-022-00287-9 PMC9667708
+55. Murugesan S Al Ahmad SF Singh P Saadaoui M Kumar M Al Khodor S Profiling the salivary microbiome of the Qatari population J Transl Med 2020 18 1 127 10.1186/s12967-020-02291-2 32169076 PMC7071716
+Murugesan S, Al Ahmad SF, Singh P, Saadaoui M, Kumar M, Al Khodor S. Profiling the salivary microbiome of the Qatari population. J Transl Med. 2020;18(1):127.32169076 10.1186/s12967-020-02291-2 PMC7071716
+56. Nishimoto Y Salim F Yama K Kumagai K Jo R Harada M Integrated analysis of the oral and intestinal microbiome and metabolome of elderly people with more than 26 original teeth: a pilot study Front Microbiol 2023 14 1233460 10.3389/fmicb.2023.1233460 37901820 PMC10600518
+Nishimoto Y, Salim F, Yama K, Kumagai K, Jo R, Harada M, et al. Integrated analysis of the oral and intestinal microbiome and metabolome of elderly people with more than 26 original teeth: a pilot study. Front Microbiol. 2023;14:1233460.37901820 10.3389/fmicb.2023.1233460 PMC10600518
+57. Ogawa T Hirose Y Honda-Ogawa M Sugimoto M Sasaki S Kibi M Composition of salivary microbiota in elderly subjects Sci Rep 2018 8 1 414 10.1038/s41598-017-18677-0 29323208 PMC5765146
+Ogawa T, Hirose Y, Honda-Ogawa M, Sugimoto M, Sasaki S, Kibi M, et al. Composition of salivary microbiota in elderly subjects. Sci Rep. 2018;8(1):414.29323208 10.1038/s41598-017-18677-0 PMC5765146
+58. Ogawa T Honda-Ogawa M Ikebe K Notomi Y Iwamoto Y Shirobayashi I Characterizations of oral microbiota in elderly nursing home residents with diabetes J Oral Sci 2017 59 4 549 555 10.2334/josnusd.16-0722 28993578
+Ogawa T, Honda-Ogawa M, Ikebe K, Notomi Y, Iwamoto Y, Shirobayashi I, et al. Characterizations of oral microbiota in elderly nursing home residents with diabetes. J Oral Sci. 2017;59(4):549–55.28993578 10.2334/josnusd.16-0722
+59. Schwartz JL Pena N Kawar N Zhang A Callahan N Robles SJ Old age and other factors associated with salivary microbiome variation BMC Oral Health 2021 21 1 490 10.1186/s12903-021-01828-1 34602059 PMC8489047
+Schwartz JL, Pena N, Kawar N, Zhang A, Callahan N, Robles SJ, et al. Old age and other factors associated with salivary microbiome variation. BMC Oral Health. 2021;21(1):490.34602059 10.1186/s12903-021-01828-1 PMC8489047
+60. Wells PM Sprockett DD Bowyer RCE Kurushima Y Relman DA Williams FMK Influential factors of saliva microbiota composition Sci Rep 2022 12 1 18894 10.1038/s41598-022-23266-x 36344584 PMC9640688
+Wells PM, Sprockett DD, Bowyer RCE, Kurushima Y, Relman DA, Williams FMK, et al. Influential factors of saliva microbiota composition. Sci Rep. 2022;12(1):18894.36344584 10.1038/s41598-022-23266-x PMC9640688
+61. Willis JR Saus E Iraola-Guzman S Ksiezopolska E Cozzuto L Bejarano LA Citizen-science reveals changes in the oral microbiome in Spain through age and lifestyle factors NPJ Biofilms Microbiomes 2022 8 1 38 10.1038/s41522-022-00279-y 35585074 PMC9117221
+Willis JR, Saus E, Iraola-Guzman S, Ksiezopolska E, Cozzuto L, Bejarano LA, et al. Citizen-science reveals changes in the oral microbiome in Spain through age and lifestyle factors. NPJ Biofilms Microbiomes. 2022;8(1):38.35585074 10.1038/s41522-022-00279-y PMC9117221
+62. Wu L, Zeng T, Deligios M, Milanesi L, Langille MGI, Zinellu A, et al. Age-related variation of bacterial and fungal communities in different body habitats across the young, elderly, and centenarians in Sardinia. mSphere. 2020;5(1):e00558–19.10.1128/mSphere.00558-19 PMC7045387 32102941
+63. Xu X He J Xue J Wang Y Li K Zhang K Oral cavity contains distinct niches with dynamic microbial communities Environ Microbiol 2015 17 3 699 710 10.1111/1462-2920.12502 24800728
+Xu X, He J, Xue J, Wang Y, Li K, Zhang K, et al. Oral cavity contains distinct niches with dynamic microbial communities. Environ Microbiol. 2015;17(3):699–710.24800728 10.1111/1462-2920.12502
+64. Yamamoto Y Yamamoto T Miyamoto N Kinoshita K Nishikawa S Adachi T Oral function and the oral microbiome in the elderly in the Kyotango Area Dent J Basel 2024 10.3390/dj12010016 38248224 PMC10814942
+Yamamoto Y, Yamamoto T, Miyamoto N, Kinoshita K, Nishikawa S, Adachi T, et al. Oral function and the oral microbiome in the elderly in the Kyotango Area. Dent J Basel. 2024. 10.3390/dj12010016.38248224 10.3390/dj12010016 PMC10814942
+65. Yang S He Y Ma Y Wang R Wu Y Wu W Associations between the oral microbiome, number of teeth and frailty among American adults: a cross-sectional study from NHANES 2009-2012 Exp Gerontol 2025 203 112727 10.1016/j.exger.2025.112727 40054511
+Yang S, He Y, Ma Y, Wang R, Wu Y, Wu W. Associations between the oral microbiome, number of teeth and frailty among American adults: a cross-sectional study from NHANES 2009-2012. Exp Gerontol. 2025;203:112727.40054511 10.1016/j.exger.2025.112727
+66. Zhou X Wang B Demkowicz PC Johnson JS Chen Y Spakowicz DJ Exploratory studies of oral and fecal microbiome in healthy human aging Front Aging 2022 3 1002405 10.3389/fragi.2022.1002405 36338834 PMC9631447
+Zhou X, Wang B, Demkowicz PC, Johnson JS, Chen Y, Spakowicz DJ, et al. Exploratory studies of oral and fecal microbiome in healthy human aging. Front Aging. 2022;3:1002405.36338834 10.3389/fragi.2022.1002405 PMC9631447
+67. Bailen M Bressa C Larrosa M Gonzalez-Soltero R Bioinformatic strategies to address limitations of 16rRNA short-read amplicons from different sequencing platforms J Microbiol Methods 2020 169 105811 10.1016/j.mimet.2019.105811 31857143
+Bailen M, Bressa C, Larrosa M, Gonzalez-Soltero R. Bioinformatic strategies to address limitations of 16rRNA short-read amplicons from different sequencing platforms. J Microbiol Methods. 2020;169:105811.31857143 10.1016/j.mimet.2019.105811
+68. Ling Z Liu X Cheng Y Yan X Wu S Gut microbiota and aging Crit Rev Food Sci Nutr 2022 62 13 3509 3534 10.1080/10408398.2020.1867054 33377391
+Ling Z, Liu X, Cheng Y, Yan X, Wu S. Gut microbiota and aging. Crit Rev Food Sci Nutr. 2022;62(13):3509–34.33377391 10.1080/10408398.2020.1867054
+69. Lamont RJ Koo H Hajishengallis G The oral microbiota: dynamic communities and host interactions Nat Rev Microbiol 2018 16 12 745 759 10.1038/s41579-018-0089-x 30301974 PMC6278837
+Lamont RJ, Koo H, Hajishengallis G. The oral microbiota: dynamic communities and host interactions. Nat Rev Microbiol. 2018;16(12):745–59.30301974 10.1038/s41579-018-0089-x PMC6278837
+70. Kolenbrander PE Palmer RJ Jr. Rickard AH Jakubovics NS Chalmers NI Diaz PI Bacterial interactions and successions during plaque development Periodontol 2000 2006 42 47 79 10.1111/j.1600-0757.2006.00187.x 16930306
+Kolenbrander PE, Palmer RJ Jr., Rickard AH, Jakubovics NS, Chalmers NI, Diaz PI. Bacterial interactions and successions during plaque development. Periodontol 2000. 2006;42:47–79.16930306 10.1111/j.1600-0757.2006.00187.x
+71. Mashima I Nakazawa F The interaction between Streptococcus spp. and Veillonella tobetsuensis in the early stages of oral biofilm formation J Bacteriol 2015 197 3 2104 2111 10.1128/JB.02512-14 25917902 PMC4455269
+Mashima I, Nakazawa F. The interaction between Streptococcus spp. and Veillonella tobetsuensis in the early stages of oral biofilm formation. J Bacteriol. 2015;197(3):2104–11.25917902 10.1128/JB.02512-14 PMC4455269
+72. Singh H Torralba MG Moncera KJ DiLello L Petrini J Nelson KE Gastro-intestinal and oral microbiome signatures associated with healthy aging Geroscience 2019 41 6 907 921 10.1007/s11357-019-00098-8 31620923 PMC6925087
+Singh H, Torralba MG, Moncera KJ, DiLello L, Petrini J, Nelson KE, et al. Gastro-intestinal and oral microbiome signatures associated with healthy aging. Geroscience. 2019;41(6):907–21.31620923 10.1007/s11357-019-00098-8 PMC6925087
+73. Sekundo C Langowski E Wolff D Boutin S Frese C Maintaining oral health for a hundred years and more? - An analysis of microbial and salivary factors in a cohort of centenarians J Oral Microbiol 2022 14 1 2059891 10.1080/20002297.2022.2059891 35401946 PMC8986295
+Sekundo C, Langowski E, Wolff D, Boutin S, Frese C. Maintaining oral health for a hundred years and more? - An analysis of microbial and salivary factors in a cohort of centenarians. J Oral Microbiol. 2022;14(1):2059891.35401946 10.1080/20002297.2022.2059891 PMC8986295
+74. Kageyama S Takeshita T Furuta M Tomioka M Asakawa M Suma S Relationships of variations in the tongue microbiota and pneumonia mortality in nursing home residents J Gerontol A Biol Sci Med Sci 2018 73 8 1097 1102 10.1093/gerona/glx205 29053769
+Kageyama S, Takeshita T, Furuta M, Tomioka M, Asakawa M, Suma S, et al. Relationships of variations in the tongue microbiota and pneumonia mortality in nursing home residents. J Gerontol A Biol Sci Med Sci. 2018;73(8):1097–102.29053769 10.1093/gerona/glx205
+75. Kametani M, Nagasawa Y, Usuda M, Kaneki A, Ogawa M, Shojima K, et al. Relationship between the presence of red complex species and the distribution of other oral bacteria, including major periodontal pathogens in older Japanese individuals. Int J Mol Sci. 2024;25(22):12243.10.3390/ijms252212243 PMC11594330 39596308
+76. Kimura C Miura K Watanabe Y Baba H Ozaki K Hasebe A Association between oral frailty and Prevotella percentage in the oral microbiota of community-dwelling older adults who participated in the CHEER Iwamizawa project Japan J Oral Rehabil 2024 51 9 1721 1729 10.1111/joor.13767 38850071
+Kimura C, Miura K, Watanabe Y, Baba H, Ozaki K, Hasebe A, et al. Association between oral frailty and Prevotella percentage in the oral microbiota of community-dwelling older adults who participated in the CHEER Iwamizawa project. Japan J Oral Rehabil. 2024;51(9):1721–9.38850071 10.1111/joor.13767
+77. Saito S Aoki Y Tamahara T Goto M Matsui H Kawashima J Oral microbiome analysis in prospective genome cohort studies of the tohoku medical megabank project Front Cell Infect Microbiol 2020 10 604596 10.3389/fcimb.2020.604596 33585276 PMC7878372
+Saito S, Aoki Y, Tamahara T, Goto M, Matsui H, Kawashima J, et al. Oral microbiome analysis in prospective genome cohort studies of the tohoku medical megabank project. Front Cell Infect Microbiol. 2020;10:604596.33585276 10.3389/fcimb.2020.604596 PMC7878372
+78. van der Maarel-Wierink CD Vanobbergen JN Bronkhorst EM Schols JM de Baat C Oral health care and aspiration pneumonia in frail older people: a systematic literature review Gerodontology 2013 30 1 3 9 10.1111/j.1741-2358.2012.00637.x 22390255
+van der Maarel-Wierink CD, Vanobbergen JN, Bronkhorst EM, Schols JM, de Baat C. Oral health care and aspiration pneumonia in frail older people: a systematic literature review. Gerodontology. 2013;30(1):3–9.22390255 10.1111/j.1741-2358.2012.00637.x
+79. Jiang Q Liu J Chen L Gan N Yang D The oral microbiome in the elderly with dental caries and health Front Cell Infect Microbiol 2018 8 442 10.3389/fcimb.2018.00442 30662876 PMC6328972
+Jiang Q, Liu J, Chen L, Gan N, Yang D. The oral microbiome in the elderly with dental caries and health. Front Cell Infect Microbiol. 2018;8:442.30662876 10.3389/fcimb.2018.00442 PMC6328972
+80. Franceschi C Campisi J Chronic inflammation (inflammaging) and its potential contribution to age-associated diseases J Gerontol A Biol Sci Med Sci 2014 69 Suppl 1 S4 9 10.1093/gerona/glu057 24833586
+Franceschi C, Campisi J. Chronic inflammation (inflammaging) and its potential contribution to age-associated diseases. J Gerontol A Biol Sci Med Sci. 2014;69(Suppl 1):S4-9.24833586 10.1093/gerona/glu057
+81. Wu E Li X Ni Z Zhao F Jia C Oral microbiome-SASP-aging axis: mechanisms and targeted intervention strategies for age-related diseases J Oral Microbiol 2026 18 1 2616138 10.1080/20002297.2026.2616138 41551989 PMC12810414
+Wu E, Li X, Ni Z, Zhao F, Jia C. Oral microbiome-SASP-aging axis: mechanisms and targeted intervention strategies for age-related diseases. J Oral Microbiol. 2026;18(1):2616138.41551989 10.1080/20002297.2026.2616138 PMC12810414
+82. O'Donnell LE Robertson D Nile CJ Cross LJ Riggio M Sherriff A The oral microbiome of denture wearers is influenced by levels of natural dentition PLoS ONE 2015 10 9 e0137717 10.1371/journal.pone.0137717 26368937 PMC4569385
+O’Donnell LE, Robertson D, Nile CJ, Cross LJ, Riggio M, Sherriff A, et al. The oral microbiome of denture wearers is influenced by levels of natural dentition. PLoS ONE. 2015;10(9):e0137717.26368937 10.1371/journal.pone.0137717 PMC4569385
+83. Asakawa M Takeshita T Furuta M Kageyama S Takeuchi K Hata J Tongue microbiota and oral health status in community-dwelling elderly adults mSphere 2018 10.1128/mSphere.00332-18 30111628 PMC6094060
+Asakawa M, Takeshita T, Furuta M, Kageyama S, Takeuchi K, Hata J, et al. Tongue microbiota and oral health status in community-dwelling elderly adults. mSphere. 2018. 10.1128/mSphere.00332-18.30111628 10.1128/mSphere.00332-18 PMC6094060
+84. van der Meulen TA Harmsen HJM Bootsma H Liefers SC Vich Vila A Zhernakova A Reduced salivary secretion contributes more to changes in the oral microbiome of patients with primary Sjogren's syndrome than underlying disease Ann Rheum Dis 2018 77 10 1542 1544 10.1136/annrheumdis-2018-213026 29572289
+van der Meulen TA, Harmsen HJM, Bootsma H, Liefers SC, Vich Vila A, Zhernakova A, et al. Reduced salivary secretion contributes more to changes in the oral microbiome of patients with primary Sjogren’s syndrome than underlying disease. Ann Rheum Dis. 2018;77(10):1542–4.29572289 10.1136/annrheumdis-2018-213026
+85. Pei XM Zhou LX Tsang MW Tai WC Wong SC The oral microbial ecosystem in age-related xerostomia: a critical review Int J Mol Sci 2024 10.3390/ijms252312815 39684528 PMC11640827
+Pei XM, Zhou LX, Tsang MW, Tai WC, Wong SC. The oral microbial ecosystem in age-related xerostomia: a critical review. Int J Mol Sci. 2024. 10.3390/ijms252312815.39684528 10.3390/ijms252312815 PMC11640827
+86. Rusthen S Kristoffersen AK Young A Galtung HK Petrovski BE Palm O Dysbiotic salivary microbiota in dry mouth and primary Sjogren's syndrome patients PLoS ONE 2019 14 6 e0218319 10.1371/journal.pone.0218319 31211815 PMC6581286
+Rusthen S, Kristoffersen AK, Young A, Galtung HK, Petrovski BE, Palm O, et al. Dysbiotic salivary microbiota in dry mouth and primary Sjogren’s syndrome patients. PLoS ONE. 2019;14(6):e0218319.31211815 10.1371/journal.pone.0218319 PMC6581286
+87. Wong HH Hung CH Yip J Lim TW Metagenomic characterization and comparative analysis of removable denture-wearing and non-denture-wearing individuals in healthy and diseased periodontal conditions Microorganisms 2024 10.3390/microorganisms12061197 38930579 PMC11205920
+Wong HH, Hung CH, Yip J, Lim TW. Metagenomic characterization and comparative analysis of removable denture-wearing and non-denture-wearing individuals in healthy and diseased periodontal conditions. Microorganisms. 2024. 10.3390/microorganisms12061197.38930579 10.3390/microorganisms12061197 PMC11205920
+88. Yacob N Safii SH Ahmad NA Yunus N Razak FA Denture microbiome shift and changes of salivary inflammatory markers following insertion of 3D printed removable partial PMMA denture: a pilot study BMC Oral Health 2024 24 1 1216 10.1186/s12903-024-05012-z 39402561 PMC11476878
+Yacob N, Safii SH, Ahmad NA, Yunus N, Razak FA. Denture microbiome shift and changes of salivary inflammatory markers following insertion of 3D printed removable partial PMMA denture: a pilot study. BMC Oral Health. 2024;24(1):1216.39402561 10.1186/s12903-024-05012-z PMC11476878
+89. Yune PS Coe J Rao M Lin MY Candida auris in skilled nursing facilities Ther Adv Infect Dis 2023 10 20499361231189958 37529375 10.1177/20499361231189958 PMC10387771
+Yune PS, Coe J, Rao M, Lin MY. Candida auris in skilled nursing facilities. Ther Adv Infect Dis. 2023;10:20499361231189960.37529375 10.1177/20499361231189958 PMC10387771
+90. Asakawa M Kageyama S Said HS Ma J Suma S Furuta M Association of oral fungal profiles with health status and bacterial composition in elderly adults receiving community support and home care service Appl Environ Microbiol 2024 90 8 e0085724 10.1128/aem.00857-24 39082859 PMC11337817
+Asakawa M, Kageyama S, Said HS, Ma J, Suma S, Furuta M, et al. Association of oral fungal profiles with health status and bacterial composition in elderly adults receiving community support and home care service. Appl Environ Microbiol. 2024;90(8):e0085724.39082859 10.1128/aem.00857-24 PMC11337817
+91. Kraneveld EA Buijs MJ Bonder MJ Visser M Keijser BJ Crielaard W The relation between oral Candida load and bacterial microbiome profiles in Dutch older adults PLoS ONE 2012 7 8 e42770 10.1371/journal.pone.0042770 22900048 PMC3416775
+Kraneveld EA, Buijs MJ, Bonder MJ, Visser M, Keijser BJ, Crielaard W, et al. The relation between oral Candida load and bacterial microbiome profiles in Dutch older adults. PLoS ONE. 2012;7(8):e42770.22900048 10.1371/journal.pone.0042770 PMC3416775
+92. Schloss PD Identifying and overcoming threats to reproducibility, replicability, robustness, and generalizability in microbiome research MBio 2018 10.1128/mBio.00525-18 29871915 PMC5989067
+Schloss PD. Identifying and overcoming threats to reproducibility, replicability, robustness, and generalizability in microbiome research. MBio. 2018. 10.1128/mBio.00525-18.29871915 10.1128/mBio.00525-18 PMC5989067
+93. He C Liao Q Fu P Li J Zhao X Zhang Q Microbiological characteristics of different tongue coatings in adults BMC Microbiol 2022 22 1 214 10.1186/s12866-022-02626-7 36085010 PMC9461261
+He C, Liao Q, Fu P, Li J, Zhao X, Zhang Q, et al. Microbiological characteristics of different tongue coatings in adults. BMC Microbiol. 2022;22(1):214.36085010 10.1186/s12866-022-02626-7 PMC9461261
+94. Gomar-Vercher S Simon-Soro A Montiel-Company JM Almerich-Silla JM Mira A Stimulated and unstimulated saliva samples have significantly different bacterial profiles PLoS ONE 2018 13 6 e0198021 10.1371/journal.pone.0198021 29856779 PMC5983451
+Gomar-Vercher S, Simon-Soro A, Montiel-Company JM, Almerich-Silla JM, Mira A. Stimulated and unstimulated saliva samples have significantly different bacterial profiles. PLoS ONE. 2018;13(6):e0198021.29856779 10.1371/journal.pone.0198021 PMC5983451
+95. Rabe A Gesell Salazar M Michalik S Fuchs S Welk A Kocher T Metaproteomics analysis of microbial diversity of human saliva and tongue dorsum in young healthy individuals J Oral Microbiol 2019 11 1 1654786 10.1080/20002297.2019.1654786 31497257 PMC6720020
+Rabe A, Gesell Salazar M, Michalik S, Fuchs S, Welk A, Kocher T, et al. Metaproteomics analysis of microbial diversity of human saliva and tongue dorsum in young healthy individuals. J Oral Microbiol. 2019;11(1):1654786.31497257 10.1080/20002297.2019.1654786 PMC6720020
+96. Segata N Haake SK Mannon P Lemon KP Waldron L Gevers D Composition of the adult digestive tract bacterial microbiome based on seven mouth surfaces, tonsils, throat and stool samples Genome Biol 2012 13 6 R42 10.1186/gb-2012-13-6-r42 22698087 PMC3446314
+Segata N, Haake SK, Mannon P, Lemon KP, Waldron L, Gevers D, et al. Composition of the adult digestive tract bacterial microbiome based on seven mouth surfaces, tonsils, throat and stool samples. Genome Biol. 2012;13(6):R42.22698087 10.1186/gb-2012-13-6-r42 PMC3446314
+97. Lopez-Aladid R Fernandez-Barat L Alcaraz-Serrano V Bueno-Freire L Vazquez N Pastor-Ibanez R Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples Sci Rep 2023 13 1 3974 10.1038/s41598-023-30764-z 36894603 PMC9998635
+Lopez-Aladid R, Fernandez-Barat L, Alcaraz-Serrano V, Bueno-Freire L, Vazquez N, Pastor-Ibanez R, et al. Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples. Sci Rep. 2023;13(1):3974.36894603 10.1038/s41598-023-30764-z PMC9998635
+98. Na HS Song Y Yu Y Chung J Comparative analysis of primers used for 16S rRNA gene sequencing in oral microbiome studies Methods Protoc 2023 10.3390/mps6040071 37623922 PMC10460062
+Na HS, Song Y, Yu Y, Chung J. Comparative analysis of primers used for 16S rRNA gene sequencing in oral microbiome studies. Methods Protoc. 2023. 10.3390/mps6040071.37623922 10.3390/mps6040071 PMC10460062
+99. Johnson JS Spakowicz DJ Hong BY Petersen LM Demkowicz P Chen L Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis Nat Commun 2019 10 1 5029 10.1038/s41467-019-13036-1 31695033 PMC6834636
+Johnson JS, Spakowicz DJ, Hong BY, Petersen LM, Demkowicz P, Chen L, et al. Evaluation of 16S rRNA gene sequencing for species and strain-level microbiome analysis. Nat Commun. 2019;10(1):5029.31695033 10.1038/s41467-019-13036-1 PMC6834636
+100. Nagai T Shiba T Komatsu K Watanabe T Nemoto T Maekawa S Optimal 16S rRNA gene amplicon sequencing analysis for oral microbiota to avoid the potential bias introduced by trimming length, primer, and database Microbiol Spectr 2024 12 12 e0351223 10.1128/spectrum.03512-23 39436127 PMC11619299
+Nagai T, Shiba T, Komatsu K, Watanabe T, Nemoto T, Maekawa S, et al. Optimal 16S rRNA gene amplicon sequencing analysis for oral microbiota to avoid the potential bias introduced by trimming length, primer, and database. Microbiol Spectr. 2024;12(12):e0351223.39436127 10.1128/spectrum.03512-23 PMC11619299
+101. Duvallet C Gibbons SM Gurry T Irizarry RA Alm EJ Meta-analysis of gut microbiome studies identifies disease-specific and shared responses Nat Commun 2017 8 1 1784 10.1038/s41467-017-01973-8 29209090 PMC5716994
+Duvallet C, Gibbons SM, Gurry T, Irizarry RA, Alm EJ. Meta-analysis of gut microbiome studies identifies disease-specific and shared responses. Nat Commun. 2017;8(1):1784.29209090 10.1038/s41467-017-01973-8 PMC5716994
+102. Chen T Marsh PD Al-Hebshi NN SMDI: an index for measuring subgingival microbial dysbiosis J Dent Res 2022 101 3 331 338 10.1177/00220345211035775 34428955 PMC8982011
+Chen T, Marsh PD, Al-Hebshi NN. SMDI: an index for measuring subgingival microbial dysbiosis. J Dent Res. 2022;101(3):331–8.34428955 10.1177/00220345211035775 PMC8982011
+103. Chew RJJ Tan KS Chen T Al-Hebshi NN Goh CE Quantifying periodontitis-associated oral dysbiosis in tongue and saliva microbiomes-an integrated data analysis J Periodontol 2025 96 1 55 66 10.1002/JPER.24-0120 39007741 PMC11787769
+Chew RJJ, Tan KS, Chen T, Al-Hebshi NN, Goh CE. Quantifying periodontitis-associated oral dysbiosis in tongue and saliva microbiomes-an integrated data analysis. J Periodontol. 2025;96(1):55–66.39007741 10.1002/JPER.24-0120 PMC11787769

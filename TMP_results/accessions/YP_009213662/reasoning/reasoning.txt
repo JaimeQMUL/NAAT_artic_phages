@@ -1,0 +1,19 @@
+=============Reasoning for YP_009213662 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Prochlorococcus sp. MIT9515') and collection location ('Kiribati: Caroline Island'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_009213662 from accession literature=============
+=============Reasoning for YP_009213662 from host literature=============
+=============Reasoning for YP_009213662 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The host organism, *Prochlorococcus*, is a marine cyanobacterium. While the collection location is 'Kiribati: Caroline Island', which suggests tropical/marine conditions, no specific temperature range is provided for the environment.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (tropical marine) is not specific enough to mandate psychrophile or thermophile classification, the system must default to the 'mesophile' classification as per the fallback rule (Rule 4).
+4. **Conclusion:** Defaulting to mesophile.
+
+

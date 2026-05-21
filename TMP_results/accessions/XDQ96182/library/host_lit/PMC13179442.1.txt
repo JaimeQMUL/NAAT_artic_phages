@@ -1,0 +1,206 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Iran J Biotechnol
+Journal ID: Iran J Biotechnol
+
+Iranian Journal of Biotechnology
+
+ISSN: 1728-3043
+EISSN: 2322-2921
+Publisher: Iran National Institute of Genetic Engineering and Biotechnology
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13179442
+DOI: 10.30498/ijb.2026.501943.4063
+Article ID: IJB-24-2
+Article version: 1
+Subjects: Research Article
+
+Assessment of Diagnostic Efficacy of Engineered ESAT-6 Linear Epitopes Based on IFN-γ Secretion in Tuberculosis
+
+Jokar Akram 1
+Mohammadi-Sichani Maryam 1*
+Jafarisani Moslem 2
+Beheshti-Maal Keivan 1
+Hosseinzadeh Ali 3
+1 Department of Microbiology, Fal. C., Islamic Azad University, Isfahan, Iran
+2 School of medicine, Shahroud University of medical Sciences, Shahroud, Iran
+3 School of health, Shahroud University of medical sciences, shahroud, Iran
+*Corresponding author: Maryam Mohammadi-Sichani, Department of Microbiology, Fal. C., Islamic Azad University, Isfahan, Iran. E-mail: ma.mohammadi1347@iau.ac.ir
+Publication date: 2026 Apr
+Electronic publication date: 2026 Apr 1
+Volume: 24
+Issue: 2
+Electronic Location ID: e4063
+Accepted 2025 Feb 1; Received 2025 Sep 13
+Copyright: Copyright: © 2021 The Author(s); Published by Iranian Journal of Biotechnology
+License: This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0 Unported License, ( http://creativecommons.org/licenses/by-nc/4.0/ ) which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Keywords: ESAT-6, IFN-γ, Mycobacterium, Protein engineering, Tuberculosis
+
+==============================
+Background:
+
+Tuberculosis (TB) remains a major global health burden, with latent and active infections contributing significantly to morbidity and mortality. Effective diagnostic methods, particularly for latent tuberculosis, are essential for improving disease control and prevention.
+
+Objectives:
+
+This study focused on engineering a recombinant ESAT-6 protein to evaluate its impact on IFN-γ secretion in Peripheral blood mononuclear cells (PBMCs), a key indicator of immune response from TB patients.
+
+Materials and Methods:
+
+Following extraction of the ESAT-6 amino acid sequence from gene bank, linear epitopes were predicted and ranked based on immunogenic potential. The engineered cDNA was constructed, cloned, expressed in E. coli, and purified. Protein expression was confirmed via SDS-PAGE and Western blot analysis. PBMCs from tuberculosis patients were then exposed to varying concentrations (5, 10, and 15 μg) of the engineered ESAT-6 protein, with hemagglutinin serving as a control.
+
+Results:
+
+The engineered ESAT-6 protein, comprising 135 amino acids with an approximate molecular weight of 14 kDa, was successfully produced. The gene fragment encoding this protein was 405 bp in length. Exposure to the recombinant protein induced a dose-dependent increase in IFN-γ secretion from PBMCs compared to the control. Recognition of the linear epitopes by immune cells effectively stimulated the production of IFN-γ, highlighting the immunogenic potential of the engineered ESAT-6 protein.
+
+Conclusions:
+
+These findings demonstrate the utility of the engineered ESAT-6 protein in stimulating robust immune responses, suggesting its potential application in diagnostic assays and as a component of next-generation tuberculosis vaccines. Further research optimizing the structure of ESAT-6 could pave the way for improved tools in the fight against tuberculosis.
+
+1. Background
+
+In the 21st century, tuberculosis (TB) continues to pose a significant global health challenge despite medical advancements. According to the WHO’s 2020 Global TB Report, Southeast Asia accounts for over 44% of TB cases, while Africa reports 25%. TB has surpassed AIDS as the leading cause of infectious mortality before the COVID-19 pandemic, with 14.1 million people receiving treatment in 2018-2019, projected to reach 40 million by 2022. Preventive measures aim to target 30 million people by the same year, and timely diagnosis and treatment from 2000 to 2019 saved an estimated 60 million lives ( 1 , 2 ). The Global TB Report 2022 noted a decrease in cases from 7.1 million in 2019 to 5.8 million in 2020, with a partial increase to 6.4 million in 2021. In Iran, there were 34,744 new TB cases reported from 2011 to 2018, with 27,752 recoveries in 2021 ( 3 ). The emergence of drug-resistant strains remains a serious concern, contributing to rising global TB prevalence. Despite efforts to improve vaccination practices, the report of one million annual deaths highlights the ongoing severity of tuberculosis risk ( 4 , 5 ).
+
+Early detection is crucial for controlling tuberculosis (TB), especially in developed countries, where tests like the skin test and interferon gamma release assay (IGRA) are vital for preventive policies. However, in developing countries, these tests are underutilized due to high costs and the risk of reinfection ( 6 ). Interferon-gamma release assays (IGRAs) are blood-based immunological tests that detect latent or active Mycobacterium tuberculosis infection by measuring the release of interferon-gamma (IFN-γ) from sensitized T-cells in response to specific M. tuberculosis antigens, such as ESAT-6 and CFP-10. Unlike the tuberculin skin test (TST), IGRAs are not influenced by prior Bacillus Calmette–Guerin (BCG) vaccination or most environmental non-tuberculous mycobacteria, making them more specific for M. tuberculosis. The two most commonly used commercial IGRAs are QuantiFERON-TB Gold Plus (QFT-Plus) and T-SPOT.TB, both of which are widely implemented in clinical practice and epidemiological studies.
+
+Recent guidelines from the WHO and CDC have endorsed IGRAs as suitable alternatives to TST (Tuberculous Skin Test) in many clinical scenarios, particularly in high-income and low TB incidence settings. However, IGRAs still face limitations, including reduced sensitivity in immunocompromised individuals, inability to distinguish between latent and active TB, and higher cost compared to TST. Despite these limitations, IGRAs remain a cornerstone in TB control programs due to their rapid turnaround, single patient visit, and improved specificity, prompting continuous development of novel antigenic targets to enhance their diagnostic performance ( 7 - 9 ).
+
+ESAT-6, a 6-kilodalton protein expressed in mycobacteria, is notable for its strong antigenic properties. It is uniquely present in pathogenic species such as Mycobacterium tuberculosis, Mycobacterium bovis, and Mycobacterium africanum, but absent in non-pathogenic species and the BCG vaccine ( 10 ).
+
+ESAT-6, encoded by the RV3875 gene in the RD1 operon, becomes detectable after 7 days of bacterial growth. Studies show that the immune system recognizes ESAT-6 early in infection, triggering robust cellular immune responses. Upon re-exposure, memory lymphocytes produce cytokines like IFN-γ, IL-10, and IL-4. The IGRA diagnostic test utilizes the immunological response to tuberculosis and is known for its high accuracy ( 11 ). In the IGRA test, minimal activity of antigen-presenting cells is noted, relying mainly on T cells previously exposed to the antigen. Improving the availability of T cell-specific epitopes by separating them from their native structures could enhance the stimulation of effector T cells compared to using complete antigens ( 12 , 13 ).
+
+2. Objectives
+
+In the present study, we designed and engineered recombinant ESAT-6 protein to identify T cell-specific antigenic regions with the aim of evaluating its immunogenic potential in inducing interferon-gamma (IFN-γ) secretion from lymphocytes of individuals infected with tuberculosis.
+
+Materials and Methods
+
+3.1. Protein Engineering
+
+To engineer the ESAT-6 protein of M. tuberculosis, its cDNA and protein sequences were obtained from Gen Bank with DQ451152.1 number.
+
+(https://www.ncbi.nlm.nih.gov/nuccore/DQ4511 52.1?report=fasta). These sequences were used to predict linear T cell epitopes using a T cell epitope prediction tool (http://tools.iedb.org/main/tcell/). The process involved in putting the protein sequence into the software, selecting the host type for T cell prediction, choosing prevalent Human Leukocyte Antigen (HLA) alleles, and configuring other recommended settings.
+
+A total of 135 amino acid epitopes were predicted and sorted according to their rank after removing similar and allele sequences. The molecular weight of the engineered protein was calculated using the ExPASy tool (https://web.expasy.org/compute_pi/), confirming it to be approximately 14 kilodaltons. The 3D structure of the engineered protein was predicted using the I-TASSER tool (https://zhanggroup.org/I-TASSER/). Finally, the gene with the engineered sequence was constructed by Pishgam Biotech Company in Iran.
+
+3.2. Cloning of Target Gene ESAT-6
+
+To perform restriction cloning of the constructed gene, compatibility for efficient cloning was ensured by using the NEBcutter tool to identify restriction sites within the DNA sequences, confirming that the template did not contain sites for certain endonucleases. NdeI and XhoI restriction enzymes were selected for digesting the PCR product. The engineered sequence was used as a template for PCR amplification of the ESAT-6 gene, with designed cloning primers: forward primer 5’ GAGCTCCGCATAGTCCCGCAG 3’ and reverse primer 5’ CACTGGTCGTAAGTAGTATAC 3’, which included artificial restriction enzyme recognition sites at their ends.
+
+The PCR conditions were as follows: 95 ºC for 5 min, followed by 30 cycles of 94 ºC for 1 min, 60 ºC for 30 s, and 72 ºC for 30 s, with a final step at 72 ºC for 5 min. The 50 µL reaction mixture included 1X PCR buffer, 1.5 mM MgSO4, 200 µM dNTPs, 0.5 µM of each primer, and 1 U Taq DNA polymerase in DNase-free water. The products were analyzed on a 1% agarose gel.
+
+The PCR products and plasmid were subjected to double digestion with NdeI and XhoI restriction enzymes (1.5 µL of each enzyme in 1X reaction buffer at 37 °C for 16 h), and the digested products were analyzed on a 1% agarose gel. The digested product was ligated into a pET21a expression vector using T4 DNA ligase. The ligation reaction mixture contained 2 µL of 10X T4 DNA ligase buffer, vector DNA (0.020 pmol), insert DNA (0.060 pmol), and 1 µL of T4 DNA ligase, in a total volume of 20 µL adjusted with nuclease-free water. The mixture was incubated at room temperature for 10 min, heat inactivated at 65 °C for 10 min, and chilled on ice. Next, 5 µL of the ligation mixture was transformed into 50 µL of BL21 competent E. coli. The recombinant plasmid pET21a-ESAT-6 from positive PCR colonies was purified from cultured cells and subjected to plasmid DNA sequencing. Transfected colonies were identified by growth on antibiotic- containing LB agar plates (70 µg.mL-1 ampicillin) under standard culture conditions ( 14 ).
+
+3.3. Expression of Protein ESAT-6
+
+Transformed E. coli BL21 cells carrying the recombinant pET-21a (+) plasmid were used to express the ESAT-6 protein. The bacteria were cultured under 37 °C, 5% CO2 in Luria-Bertani (LB) broth for 48 hours. The transformed bacteria were cultured in LB broth with 70 µg/ml ampicillin under 37 °C, 5% CO2. When the optical density (OD) of the culture reached 0.6-0.7 at 600 nm, protein expression was induced by adding 1 mmol/ml IPTG. The culture was stirred at 220 rpm and 25 °C for 4 hours. After freezing overnight at -20 °C, the cells were lysed by sonication (6×30 sec at 40% amplitude) using a Branson Digital Sonifier, followed by centrifugation at 5000 rpm for 5 minutes. The expressed protein was visualized in the lysed cells by SDS-PAGE using tricine gels with 12% polyacrylamide, followed by Coomassie blue staining ( 15 ).
+
+3.4. Protein Extraction
+
+Protein was extracted from the lysates of E. coli BL21 cells expressing ESAT-6 protein. After freezing overnight at -20 °C, the cells were lysed by sonication (6×30 sec at 40% amplitude) using a Branson Digital Sonifier, followed by centrifugation at 5000 rpm for 5 minutes. The expressed protein was visualized in the lysed cells by SDS-PAGE using tricine gels with 12% polyacrylamide, followed by Coomassie blue staining ( 15 ).
+
+We collected cells by centrifugation at 8000 rpm for 20 minutes and re-suspended in lysing buffer. The cells were lysed via sonication (6×30 sec at 40% amplitude) and centrifuged at 1300 rpm for 20 minutes at 4 °C. The lysis process was repeated, and then proteins were extracted using urea at increasing concentrations (2 mM, 4 mM, and 8 mM). After each step, the purified protein was collected by centrifugation and analyzed using SDS-PAGE. The protein was transferred to a PVDF membrane for western blot detection. Western blotting was performed using the following reagents: Primary antibody: Mouse anti-His tag monoclonal antibody (1:2000; Sigma-Aldrich, Cat# H1029). Secondary antibody: HRP-conjugated goat anti-mouse IgG (1:5000; Abcam, Cat# ab97023). Substrate: Enhanced chemiluminescence (ECL) substrate (Thermo Scientific, Cat# 32106) and the final product was stored at -70 °C ( 16 ).
+
+3.5. Investigation of the Effect of Recombinant Protein ESAT-6 On IFN-Γ Secretion from Lymphocytes of Tuberculosis Patients
+
+To assess IFN-γ secretion, peripheral blood samples were obtained from 30 patients with active tuberculosis. mononuclear cells (PBMCs) were isolated from the blood samples and were cultured utilizing the classical Ficoll-Hypaque method ( 17 ). Cells were divided into 5 groups of 6 including a control group, three treatment groups which received 5, 10, and 15 μg ESAT-6, and a positive control group which was treated with phytohemagglutinin. After 24 hours of incubation, the amount of IFN-γ in the cell culture supernatant was quantified using the commercial PicoKineTM ELISA kit (EK0373 CAT: Tested). All experiments were repeated 3 times and the average results were obtained and were compared using the statistical regression test.
+
+3.6. Statistical Analysis
+
+The statistical analysis subsection was updated to include specific software and tests used. Data were analyzed using GraphPad Prism version 9.0 and SPSS version 26. Normality of data distribution was assessed using the Shapiro–Wilk test. Since the data followed a normal distribution, one-way ANOVA followed by Tukey’s multiple comparisons post-hoc test was applied. A p-value of <0.05 was considered statistically significant
+
+4. Results
+
+4.1. Identification of Linear Epitopes
+
+The linear epitopes of the engineered ESAT-6 protein were identified and sequenced, resulting in a protein comprising 135 amino acids (Fig. 1A). Its predicted three-dimensional structure predominantly consists of alpha-helices connected by short linear regions (Fig. 1B).
+
+Figure 1 Linear epitopes of the engineered ESAT-6 protein. A) The primary amino acid sequence of the engineered ESAT-6 protein. B) The predicted three-dimensional structure of engineered ESAT-6, illustrating alpha-helical regions interconnected by short linear structures.
+
+4.2. Gene Synthesis and PCR Amplification
+
+The gene fragment encoding the engineered ESAT-6 protein, consisting of 405 nucleotides, was synthesized with restriction enzyme recognition sites and a poly-Histidine (poly-His) tag. PCR amplification of the gene produced a 450 bp fragment, as confirmed by agarose gel electrophoresis. Further validation was achieved by double digestion of the recombinant plasmid with NdeI and XhoI restriction enzymes, resulting in bands corresponding to the linearized plasmid and the ESAT-6 gene. As showed in Figure 2 and 3, we can see the differences in alignment of engineered DNA and protein in comparison with the native sequences.
+
+Figure 2 DNA alignment of native ESAT-6 and engineered ESAT-6. Sequence 1 length:405 Sequence 2 length:288, Alignment length: 455, Identity: 220/455 (48.35%), Similarity: 220/455 (48.35%) Gaps: 217/455 (47.69%)
+
+Figure 3 Protein Alignment of native ESAT-6 and engineered ESAT-6. Sequence 1 length:135 Sequence 2 length:95, Alignment length: 147, Identity: 55/147 (37.41%), similarity: 67/147, 45.58%), Gaps: 64/147 (43.54%)..
+
+4.3. Recombinant Protein Expression
+
+Expression of the recombinant ESAT-6 protein in E. coli BL21 was successfully achieved. SDS-PAGE analysis revealed the presence of the expected protein band at approximately 14 kDa (Fig. 4A). Western blot analysis confirmed the identity of the purified protein with a strong signal at the anticipated molecular weight (Fig. 4B).
+
+Figure 4 Expression of the recombinant ESAT-6 protein in E. coli BL21. A) SDS-PAGE analysis of purified ESAT-6 protein. Lane 1: Protein molecular weight marker; Lane 2: Cell lysate containing recombinant protein.; Lan3 extracted and purified ESAT6. B) Western blot analysis of purified ESAT-6 protein showing a strong signal at ~14 kDa. C) Western blot molecular weight marker.
+
+4.4. Functional Analysis of IFN-γ Secretion
+
+In this study, a total of 30 patients diagnosed with tuberculosis were evaluated. All patients had active tuberculosis confirmed by positive smear and culture results. The demographic characteristics of the pa-tients are summarized as follows: the mean age was 43 ± 13 years. Regarding gender distribution, 57% of the patients were male and 43% were female. In terms of residence, 47% of the patients lived in urban areas, while 53% resided in rural regions.
+
+The effect of the recombinant ESAT-6 protein on IFN-γ secretion from lymphocytes of tuberculosis patients was evaluated. Statistical analysis using ANOVA revealed a significant, dose-dependent increase in IFN-γ secretion in response to the engineered protein compared to the control group (Fig. 5). Specifically:
+
+Figure 5 Dose-dependent IFN-γ secretion in lymphocytes treated with 5 μg, 10 μg, and 15 μg of recombinant ESAT-6 protein. *: p < 0.035, **: p < 0.001.
+
+• Treatment with 5 μg of ESAT-6 significantly increased IFN-γ levels compared to the untreated control (p = 0.035).
+
+• Treatment with 10 μg and 15 μg of ESAT-6 further enhanced IFN-γ secretion compared to both the control and the 5 μg treatment groups (p = 0.001).
+
+These findings underscore the potential of the engineered ESAT-6 protein in stimulating robust immune responses, as evidenced by increased IFN-γ production.
+
+5. Discussion
+
+Tuberculosis (TB) continues to pose a significant public health challenge worldwide, with high prevalence rates and associated mortality, particularly in developing countries and during the COVID-19 pandemic. Accurate diagnosis and effective prevention strategies remain essential to combat TB. Advances in immunology have facilitated the identification of immunogenic components of Mycobacterium tuberculosis that hold promise for vaccine and diagnostic test development. This study contributes to these efforts by engineering a recombinant ESAT-6 protein and evaluating its ability to stimulate immune responses in tuberculosis patients ( 18 ).
+
+DNA vaccines have emerged as a transformative approach to infectious disease prevention, offering enhanced safety profiles and robust immune activation. Unlike traditional vaccines, DNA vaccines pose no risk of infection while efficiently eliciting both humoral and cellular immune responses. Several key antigens, including the antigen 85 complex (Ag85A, Ag85B, Ag85C), TB10.4, and ESAT-6, have been extensively studied for their immunogenic properties ( 19 ). Among these, ESAT-6 has gained prominence due to its specificity to pathogenic Mycobacterium species and its strong T-cell-stimulating potential. Studies, such as those by Scarpellini et al. (2004) and Chiappini et al. (2016), have demonstrated the utility of ESAT-6 in diagnostic assays like the QuantiFERON-TB Gold test, emphasizing its ability to induce IFN-γ secretion in response to TB antigens ( 20 - 22 ).
+
+The recombinant ESAT-6 protein engineered in this study demonstrated a significant capacity to stimulate IFN-γ secretion from PBMCs of tuberculosis patients in a dose-dependent manner. This aligns with previous findings, such as those by Kassa et al. (2012) and Kirby et al. (2013), who reported heightened immune responses to ESAT-6 and related antigens ( 23 , 24 ). By focusing on linear epitopes and optimizing the antigenic structure, this study enhances the potential utility of ESAT-6 in diagnostic assays and as a vaccine candidate.
+
+Several studies have highlighted the diagnostic and therapeutic potential of recombinant ESAT-6. For instance, Shin et al. (2008) showed that combining ESAT-6 with other antigens improved diagnostic sensitivity ( 25 ), while Souza et al. (2012) demonstrated the efficacy of recombinant ESAT-6 in diagnosing bovine tuberculosis ( 26 ). More recently, Kwon et al. (2024) engineered a quadrivalent vaccine incorporating ESAT-6, which elicited protective immune responses characterized by CD4+IFN-γ+IL-17A+ cells ( 27 ). The results of this study further support these findings, particularly regarding the ability of ESAT-6 to stimulate robust IFN-γ production.
+
+While the increase in IFN-γ secretion observed in this study highlights the immunogenic potential of the engineered ESAT-6 protein, IFN-γ alone is not an optimal indicator of protective immunity. Future research should evaluate the production of additional cytokines, such as IL-17 and IL-10, to provide a more comprehensive understanding of the immune response. Moreover, expanding the sample size and including diverse patient populations could enhance the generalizability of the findings ( 27 ).
+
+Another promising avenue is the integration of ESAT-6 with other antigens in multi-antigenic vaccine formulations. As demonstrated by Leung-Theung-Long et al. (2018) and Dijkman et al. (2023), such approaches have the potential to induce more robust and long-lasting immune responses compared to single-antigen formulations ( 28 , 29 ). The inclusion of ESAT-6 in DNA vaccines could also be explored, leveraging its strong T-cell activation properties to enhance vaccine efficacy. The findings of this study underscore the potential of recombinant ESAT-6 as a diagnostic and therapeutic tool. By optimizing its antigenic structure, this protein could improve the sensitivity and specificity of TB diagnostic assays, particularly in resource-limited settings where traditional methods face challenges. Furthermore, its ability to stimulate strong immune responses makes it a promising candidate for inclusion in next-generation TB vaccines.
+
+6. Conclusion
+
+This study demonstrates the successful engineering of a recombinant ESAT-6 protein capable of inducing significant IFN-γ secretion from PBMCs of tuberculosis patients. These findings highlight its potential utility in diagnostic and therapeutic applications and provide a foundation for future research on multi-antigenic vaccine formulations and immune response optimization. Expanding our understanding of the immunogenic properties of ESAT-6 could significantly contribute to global efforts in TB prevention and control.
+
+Ethics approval
+
+This study was approved by Ethics Committee of Islamic Azad University, Falavarjan Branch (with the code IR.IAU.FALA.REC.1400.026) and can be viewed on the website of National Ethics System in Biomedical Research (ethics.research.ac.ir).
+
+
+References
+
+1 Floyd K Glaziou P Zumla A Raviglione M The global tuberculosis epidemic and progress in care, prevention, and research: an overview in year 3 of the End TB era Lancet Respir Med 2018 6 4 299 314 10.1016/s2213-2600(18)30057-2 29595511
+2 Osman EA El-Amin N Adrees EAE Al-Hassan L Mukhtar M Comparing conventional, biochemical and genotypic methods for accurate identification of Klebsiella pneumoniae in Sudan Access Microbiol 2020 2 3 acmi000096 10.1099/acmi.0.000096 32974573 PMC7470312
+3 Nazar E Baghishani H Doosti H Ghavami V Aryan E Nasehi M et al Bayesian Spatial Survival Analysis of Duration to Cure among New Smear-Positive Pulmonary Tuberculosis (PTB) Patients in Iran, during 2011-2018 Int J Environ Res Public Health 2020 18 1 54 10.3390/ijerph18010054 33374751 PMC7794786
+4 Allué-Guardia A García JI Torrelles JB Evolution of Drug-Resistant Mycobacterium tuberculosis Strains and Their Adaptation to the Human Lung Environment Front Microbiol 2021 12 e612675 10.3389/fmicb.2021.612675 PMC7889510 33613483
+5 Desikan P Panwalkar N Rangnekar A Khan Z Punde RP Sharma AK et al Trends of drug resistance in M. tuberculosis in a reference laboratory in Central India: Forging ahead towards TB elimination Indian J Med Microbiol 2024 51 100701 10.1016/j.ijmmb.2024.100701 39134222
+6 Essone PN Leboueny M Maloupazoa Siawaya AC Alame-Emane AK Aboumegone Biyogo OC Dapnet Tadatsin PH et al Publisher Correction: M. tuberculosis infection and antigen specific cytokine response in healthcare workers frequently exposed to tuberculosis Sci Rep 2019 9 1 15415 10.1038/s41598-019-50847-0 31645578 PMC6811675
+7 Yang Y Wang H-J Hu W-L Bai G-N Hua C-Z Diagnostic value of interferon-gamma release assays for tuberculosis in the immunocompromised population Diagnostics 2022 12 2 453 10.3390/diagnostics12020453 35204544 PMC8871457
+8 Chen Z Wang T Du J Sun L Wang G Ni R et al Decoding the WHO global tuberculosis report 2024: a critical analysis of global and Chinese key data Zoonoses 2025 5 1 999 10.15212/zoonoses-2024-0061
+9 Dheda K Mirzayev F Cirillo DM Udwadia Z Dooley KE Chang K-C et al Multidrug-resistant tuberculosis Nature Reviews Disease Primers 2024 10 1 22 10.1038/s41572-024-00504-2 38523140
+10 Benavides MB Ábalos PE Valdivieso N Retamal P Evolution of IFN response against mycobacterial antigens used for the diagnosis of bovine tuberculosis in BCG vaccinated cattle under a natural transmission setting in central Chile Austral J Vet Sci 2023 55 2 81 86 10.4067/s0719-81322023000200081
+11 Mustafa AS Immunological Characterization of Proteins Expressed by Genes Located in Mycobacterium tuberculosis-Specific Genomic Regions Encoding the ESAT6-like Proteins Vaccines 2021 9 1 27 10.3390/vaccines9010027 33430286 PMC7825740
+12 Mahla RS Comment on: Prevalence of LTBI in patients with autoimmune diseases and accuracy of IGRA in predicting TB relapse Rheumatology 2023 63 4 e146 e147 10.1093/rheumatology/kead440 37647656
+13 To KW Zhang R Lee SS Is the new tuberculous antigen-based skin test ready for use as an alternative to tuberculin skin test/interferon-gamma release assay for tuberculous diagnosis? A narrative review Int J Infect Dis 2024 141S 106992 10.1016/j.ijid.2024.106992 38458426
+14 Wingfield PT Overview of the purification of recombinant proteins Curr Protoc Protein Sci 2015 80 6 1 35 10.1002/0471140864.ps0601s80 PMC4410719 25829302
+15 Schägger H von Jagow G Tricine-sodium dodecyl sulfate-polyacrylamide gel electrophoresis for the separation of proteins in the range from 1 to 100 kDa Anal Biochem 1987 166 2 368 379 10.1016/0003-2697(87)90587-2 2449095
+16 Najafi A Tafaghodi M Sankian M Amini Y Ghazvini K Cloning, Expression, and Refolding of PPE17 Protein of Mycobacterium tuberculosis as a Promising Vaccine Candidate Iran J Med Sci 2019 44 1 53 59 30666076 PMC6330522
+17 Bigaud M Maurer C Vedrine C Puissant B Blancher A A simple method to optimize peripheral blood mononuclear cell preparation from cynomolgus monkeys and improve mixed lymphocyte reactions J Pharm Toxicol Method 2004 50 2 153 159 10.1016/j.vascn.2004.04.003 15385090
+18 da Costa C Benn CS Nyirenda T Mpabalwani E Grewal HMS Ahmed R et al Perspectives on development and advancement of new tuberculosis vaccines Int J Infect Dis 2024 141 106987 10.1016/j.ijid.2024.106987 38417616
+19 Skjøt RL Brock I Arend SM Munk ME Theisen M Ottenhoff TH et al Epitope mapping of the immunodominant antigen TB10.4 and the two homologous proteins TB10.3 and TB12.9, which constitute a subfamily of the esat-6 gene family Infect Immun 2002 70 10 5446 5453 10.1128/iai.70.10.5446-5453.2002 12228269 PMC128304
+20 Vishweshwaraiah YL Dokholyan NV Toward rational vaccine engineering Adv Drug Deliv Rev 2022 183 114142 10.1016/j.addr.2022.114142 35150769 PMC8931536
+21 Scarpellini P Tasca S Galli L Beretta A Lazzarin A Fortis C Selected pool of peptides from ESAT-6 and CFP-10 proteins for detection of Mycobacterium tuberculosis infection J Clin Microbiol 2004 42 8 3469 3474 10.1128/jcm.42.8.3469-3474.2004 15297485 PMC497651
+22 Chiappini E Lo Vecchio A Garazzino S Marseglia GL Bernardi F Castagnola E et al Recommendations for the diagnosis of pediatric tuberculosis Eur J Clin Microbiol Infect Dis 2016 35 1 1 18 10.1007/s10096-015-2507-6 26476550
+23 Kassa D Ran L Geberemeskel W Tebeje M Alemu A Selase A et al Analysis of immune responses against a wide range of Mycobacterium tuberculosis antigens in patients with active pulmonary tuberculosis Clin Vaccine Immunol 2012 19 12 1907 1915 10.1128/cvi.00482-12 23015647 PMC3535869
+24 Kirby DJ Kaur R Agger EM Andersen P Bramwell VW Perrie Y Developing solid particulate vaccine adjuvants: surface bound antigen favours a humoural response, whereas entrapped antigen shows a tendency for cell mediated immunity Curr Drug Deliv 2013 10 3 268 278 10.2174/1567201811310030003 23410072
+25 Shin AR Shin SJ Lee KS Eom SH Lee SS Lee BS et al Improved sensitivity of diagnosis of tuberculosis in patients in Korea via a cocktail enzyme-linked immunosorbent assay containing the abundantly expressed antigens of the K strain of Mycobacterium tuberculosis Clin Vaccine Immunol 2008 15 12 1788 1795 10.1128/cvi.00231-08 18945883 PMC2593165
+26 Souza, II Melo ES Ramos CA Farias TA Osório AL Jorge KS et al Screening of recombinant proteins as antigens in indirect ELISA for diagnosis of bovine tuberculosis Springerplus 2012 1 1 77 10.1186/2193-1801-1-77 23419946 PMC3569591
+27 Kwon KW Choi H-G Kim KS Park SA Kim H-J Shin SJ BCG-booster vaccination with HSP90-ESAT-6-HspX-RipA multivalent subunit vaccine confers durable protection against hypervirulent Mtb in mice Npj Vaccines 2024 9 1 55 10.1038/s41541-024-00847-7 38459038 PMC10923817
+28 Leung-Theung-Long S Coupet C-A Gouanvic M Schmitt D Ray A Hoffmann C et al A multi-antigenic MVA vaccine increases efficacy of combination chemotherapy against Mycobacterium tuberculosis PLOS ONE 2018 13 5 e0196815 - 10.1371/journal.pone.0196815 29718990 PMC5931632
+29 Dijkman K Lindenstrøm T Rosenkrands I Søe R Woodworth JS Lindestam Arlehamn CS et al A protective, single-visit TB vaccination regimen by co-administration of a subunit vaccine with BCG Npj Vaccines 2023 8 1 66 10.21203/rs.3.rs-2309292/v12 37160970 PMC10169149

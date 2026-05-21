@@ -1,0 +1,20 @@
+=============Reasoning for CBZ42216 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Campylobacter jejuni') and isolation source ('chicken skin') but does not explicitly state or strongly imply a specific thermal range (psychrophile, mesophile, or thermophile) for the phage or its host.
+
+
+=============Reasoning for CBZ42216 from accession literature=============
+=============Reasoning for CBZ42216 from host literature=============
+=============Reasoning for CBZ42216 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage CP81'), its host ('Campylobacter jejuni'), and the isolation source ('chicken skin') from 'Germany:Bavaria'.
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common human/animal pathogen often associated with moderate environmental temperatures, and the isolation source (chicken skin) does not suggest extreme temperatures.
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The most probable classification, given the general nature of the host and source, is mesophile (15–45°C). 
+5. **Fallback:** As no strong environmental context points to psychrophilic (<15°C) or thermophilic (>45°C) conditions, the default fallback classification of 'mesophile' is assigned.
+
+

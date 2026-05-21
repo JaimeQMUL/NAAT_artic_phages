@@ -1,0 +1,26 @@
+=============Reasoning for QPX64219 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host organism is 'Campylobacter jejuni NCTC12662'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range. No explicit temperature is provided.
+
+
+=============Reasoning for QPX64219 from accession literature=============
+=============Reasoning for QPX64219 from host literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing bacterial strains, including the one relevant to the phage studies: "Both C. jejuni NCTC12662 and the phage resistant strains 12662X3 and 12662R were routinely cultured on Blood Agar Base II (Oxoid) supplemented with aseptically obtained 5% calf blood (BA) and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2)". Furthermore, subsequent procedures like 'Phage adsorption assay' and 'Determination of colony counts' also specify incubation at '37°C'. Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QPX64219 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal growth temperature or thermal range for Campylobacter phage F360.
+2. **Check for environmental context:** The host organism is 'Campylobacter jejuni NCTC12662'. Campylobacter species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens, as indicated by the isolation source 'chicken fecal sample'). The typical physiological temperature range for such hosts is around 37°C.
+3. **Apply decision rules:** Since the host is associated with mammalian/avian gut environments (37°C), this strongly suggests a mesophilic lifestyle. The defined mesophile range is 15–45°C, which encompasses 37°C.
+4. **Conclusion:** Based on the host's typical environment, the most probable classification is mesophile. Since no explicit evidence was found, this classification is assigned by default based on the host context, leading to a 'forced' inference type.
+
+

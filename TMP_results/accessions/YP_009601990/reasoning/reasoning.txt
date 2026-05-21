@@ -1,0 +1,16 @@
+=============Reasoning for YP_009601990 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and culture collection details, but no explicit or strongly implied temperature or growth condition information is present to determine the thermal range.
+
+
+=============Reasoning for YP_009601990 from accession literature=============
+=============Reasoning for YP_009601990 from host literature=============
+=============Reasoning for YP_009601990 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Escherichia phage ECD7) and its host (Escherichia coli). 2. No explicit thermal range is provided in the metadata. 3. The host, Escherichia coli, is a common bacterium typically associated with mesophilic environments (15–45°C). 4. Since no environmental context is explicitly given for the phage itself, the most probable classification is inferred from the known biology of its host, defaulting to the mesophile range as per the decision rules. 5. This classification is assigned using the fallback rule (Rule 4) because no useful thermal metadata was present.
+
+

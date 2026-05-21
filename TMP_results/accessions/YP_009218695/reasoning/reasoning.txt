@@ -1,0 +1,19 @@
+=============Reasoning for YP_009218695 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'hospital sewage'. Sewage environments are generally associated with mesophilic conditions, which is the most appropriate classification given the available metadata.
+
+
+=============Reasoning for YP_009218695 from accession literature=============
+=============Reasoning for YP_009218695 from host literature=============
+=============Reasoning for YP_009218695 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host ('Citrobacter freundii'), Isolation Source ('hospital sewage'), and geographical origin ('China').
+2. There is no explicit mention of optimal growth temperature for the phage.
+3. The isolation source, 'hospital sewage,' typically contains mesophilic bacteria and associated phages, as these environments fluctuate around moderate temperatures (15–45°C).
+4. Since no explicit evidence exists, and the environmental context (sewage) points towards moderate conditions, the most probable classification is mesophile. This assignment is a fallback based on general microbiological knowledge applied to the available context, as no specific temperature data is present.
+
+

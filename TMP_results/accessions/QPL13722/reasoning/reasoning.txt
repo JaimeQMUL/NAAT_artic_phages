@@ -1,0 +1,39 @@
+=============Reasoning for QPL13722 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QPL13722 from accession literature=============
+Paper: PMC11705968.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that for the killing assay, the samples were incubated at "30°C overnight" (in the 'Killing assay' section). Furthermore, the hydrolysis assay was performed in a buffer incubated at "37°C" (in the 'Hydrolysis assay' section). Since 30°C and 37°C fall within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for QPL13722 from host literature=============
+Paper: PMC11008112.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The abstract states that the phage was isolated from 'warm (25°C), dry, and coarse dirt'. Furthermore, the text mentions that plaques were observed after 'overnight incubation at 30°C'. Both 25°C and 30°C fall within the mesophilic range (15–45°C).
+
+
+Paper: PMC11465772.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The abstract states that the sample was mixed with phage buffer and poured onto nutrient agar plates, and then "incubated at 30°C for 24 h." Figure 1 caption confirms this: "(A) Turbid, approx. 1 mm circular plaques on S. mirabilis infected with GiJojo incubated on nutrient agar for 24 h at 30°C." Since 30°C falls within the mesophile range (15–45°C), the phage's growth condition is associated with mesophilic conditions.
+
+
+=============Reasoning for QPL13722 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage MindFlayer'.
+2. Check for environmental context: The isolation source is listed as 'soil', and the geographical coordinates are provided (39.129925 N 77.411690 W), which corresponds to temperate terrestrial soil environments. Soil environments generally support mesophilic life forms.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'soil' source strongly suggests a mesophilic context. However, the inference is not definitive enough to be classified as 'high' confidence. Therefore, following the fallback rule (Rule 4) due to weak/absent specific thermal data, the default classification of 'mesophile' is assigned.
+
+

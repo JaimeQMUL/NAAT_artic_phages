@@ -1,0 +1,26 @@
+=============Reasoning for YP_009781300 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Staphylococcus phage Fi200W') and the lab host ('Staphylococcus aureus strain 6409'), but no explicit or strongly implied temperature or growth condition information is present to determine if it is psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for YP_009781300 from accession literature=============
+=============Reasoning for YP_009781300 from host literature=============
+Paper: PMC13115546.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation conditions for quantitative determination of L. monocytogenes: "Plates were incubated at 37 ± 1 °C for 24 ± 2 h and extended to 48 h if necessary." It also mentions incubation for PFGE: "...agar discs were incubated with a lysozyme (100 mg/mL) and RNase (10 mg/mL) at 37 °C overnight." The temperature 37°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009781300 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Staphylococcus phage Fi200W) but contains no explicit data regarding its optimal growth temperature or the environmental conditions it is isolated from.
+2. No explicit evidence for psychrophile (<15°C) or thermophile (>45°C) is present.
+3. Therefore, following the decision rules, the system must default to 'mesophile' as the fallback classification.
+4. The confidence is low because the classification is based on a default rule rather than supporting evidence.
+
+

@@ -1,0 +1,32 @@
+=============Reasoning for QTP96214 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater sample') but does not specify a temperature or a thermal classification (psychrophile, mesophile, thermophile) associated with this source.
+
+
+=============Reasoning for QTP96214 from accession literature=============
+Paper: PMC11873149.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "The phage exhibited high titre at 4–37 °C..." and later, "High phage titre was obtained when RuSa1 was treated at 4‒37 °C". The optimal growth range for the host bacteria, *S. aureus*, is also indicated by incubation temperatures used throughout the methods section, such as "incubated at 37 °C overnight" and "incubated at 37 °C for 8 h". Since the phage exhibits high titre in the range encompassing 37°C, and 37°C falls within the mesophilic range (15–45°C), the phage is characterized as mesophilic.
+
+
+Paper: PMC12390327.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for bacterial cultures: "Strains were cultured in tryptic soy broth (TSB) and tryptic soy agar (TSA) plates at 37 °C." Furthermore, the phage susceptibility testing (PST) and adsorption assays were conducted at "37 °C". Since 37°C falls within the mesophile range (15–45°C), the phage is associated with mesophilic conditions.
+
+
+=============Reasoning for QTP96214 from host literature=============
+=============Reasoning for QTP96214 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is listed as 'wastewater sample'. Wastewater environments typically fluctuate but are generally associated with moderate temperatures, making mesophilic conditions the most probable default.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('wastewater sample') suggests moderate conditions, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

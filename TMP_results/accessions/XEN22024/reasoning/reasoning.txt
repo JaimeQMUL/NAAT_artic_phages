@@ -1,0 +1,26 @@
+=============Reasoning for XEN22024 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for XEN22024 from accession literature=============
+=============Reasoning for XEN22024 from host literature=============
+Paper: PMC11413697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation temperatures for bacterial growth and fermentation processes. For the initial seed culture of *M. echinospora* ATCC 15835, the temperature used was 28°C: "The seed culture (in liquid ATCC 172 medium) was incubated at 28 °C and 220 rpm for 3 days". For the subsequent kanamycin feeding experiment, the incubation temperature was also 28°C: "The culture was incubated at 28 °C and 220 rpm for 5 days". For the large-scale industrial fermentation, the initial incubation temperature was 34°C: "the seed culture (in liquid ATCC 172 medium with 25 μg/mL thiostrepton) was incubated at 34 °C and 220 rpm for 3 days". Since 28°C and 34°C both fall within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for XEN22024 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Streptomyces phage Navo.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.643608 N 90.298271 W). Soil environments are generally considered mesophilic, though temperature varies widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As the environmental context is general and not strongly defining, the classification defaults to mesophile based on the fallback rule (Rule 4).
+4. Conclusion: Assign mesophile.
+
+

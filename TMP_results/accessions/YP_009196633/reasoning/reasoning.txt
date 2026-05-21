@@ -1,0 +1,37 @@
+=============Reasoning for YP_009196633 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Cronobacter sakazakii ATCC 29544'), and general identifiers, but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for YP_009196633 from accession literature=============
+Paper: PMC11659082.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that for the bacterial challenge assay, the culture was incubated at "37°C" (Section 2.2). Furthermore, the phage cocktail was evaluated for its ability to inhibit growth, and the subsequent plating was followed by incubation at "37°C" (Section 2.9). The stability analysis section mentions that phages were incubated overnight at varying temperatures, including "4–75°C" (Section 2.3), and specifically notes that "Both phages maintained high thermal stability from 4°C to 45°C" (Section 3.1). Since the primary growth and assay temperatures are consistently set at 37°C, which falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_009196633 from host literature=============
+Paper: PMC11791163.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for bacterial growth and assays multiple times. For general growth of Bifidobacterium strains, the text mentions: "Bifidobacterial strains were routinely subcultured in deMan Rogosa Sharpe (MRS) broth (Oxide Ltd, Basingstoke, Hampshire, UK) and incubated anaerobically (90% N2, 5% CO2 and 5% H2) at 37 °C for 24 h." For pathogenic bacteria, it states: "The pathogens were grown in Tryptic Soy Broth (Oxide Ltd, Basingstoke, Hampshire, UK) at 37 °C for 18 h with constant shaking (100 rpm)." For Caco-2 cells, it states: "...at 37 °C in a humidified atmosphere containing 5% CO2 (v/v)." For multiple assays (e.g., growth kinetics, adhesion, co-aggregation, inhibitory activity), the incubation temperature is consistently set at 37 °C. Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC11764851.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for culturing and assays. For general culture conditions, the text mentions: "The activation of the strain was achieved by inoculating the culture medium on TSA and cultured at 37 °C for 24 h. Then, a single colony of each strain was transferred into 100 mL TSB and the mixture was incubated at 180 rpm 37 °C for 18 h." For growth curves and biofilm formation, the incubation temperature is stated as: "The cultures were then incubated at 37 °C in a shaker set to 180 rpm." For acid stress, the incubation temperature is stated as: "Then, the cultures were incubated in a shaker (150 rpm) at 37 °C for different incubation times (0, 1, 2, 3, 4, and 5 h)." Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_009196633 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Cronobacter phage S13) and its host (Cronobacter sakazakii ATCC 29544). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The host, Cronobacter sakazakii, is a common bacterium often associated with moderate environmental conditions, and the general default for phages associated with common environmental bacteria, in the absence of specific data, is mesophily (15–45°C). 4. Since no evidence is available, the fallback rule dictates assigning 'mesophile'.
+
+

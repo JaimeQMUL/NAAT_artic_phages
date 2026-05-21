@@ -1,0 +1,19 @@
+=============Reasoning for AMQ65926 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for AMQ65926 from accession literature=============
+=============Reasoning for AMQ65926 from host literature=============
+=============Reasoning for AMQ65926 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Stenotrophomonas phage vB_SmaS-DLP_6.
+2. Check for environmental context: The isolation source is listed as 'soil'. Soil environments typically exhibit fluctuating temperatures, but generally fall within the mesophilic range (15–45°C) unless specific extreme conditions are noted.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('soil') is general, the system must default to the most probable classification. The fallback rule dictates assigning 'mesophile' when useful metadata is absent.
+4. Conclusion: Assigning 'mesophile' based on the fallback rule.
+
+

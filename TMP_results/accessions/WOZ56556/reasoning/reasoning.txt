@@ -1,0 +1,26 @@
+=============Reasoning for WOZ56556 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'river water'. River water environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for WOZ56556 from accession literature=============
+Paper: PMC11456439.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the thermal stability testing conditions for P01: "We tested the thermal stability of P01 by 1 h incubation of 10^8 PFU per ml in TM Buffer at 4, 25, 37, 50, 60, or 70°C, followed by the double-layer agar method to check phage viability." The discussion section summarizes this finding: "We found this phage to be stable in the temperature range of 4–50°C". Since the optimal growth range for mesophiles is defined as 15–45°C, and the phage is stable across this range (and beyond, up to 50°C), it is classified as mesophile.
+
+
+=============Reasoning for WOZ56556 from host literature=============
+=============Reasoning for WOZ56556 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Klebsiella phage P01.
+2. **Check for environmental context:** The isolation source is 'river water' and the collection date is '2022-01-10'. River water temperatures are highly variable but generally fall within the mesophilic range (15–45°C) unless extreme conditions are specified.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (river water) suggests moderate temperatures, the inference leans towards mesophile. However, because the context is general and not strongly defining, and no specific temperature data is present, the fallback rule (Rule 4) is invoked.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

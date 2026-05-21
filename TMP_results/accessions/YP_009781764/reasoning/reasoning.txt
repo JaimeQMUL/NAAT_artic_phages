@@ -1,0 +1,23 @@
+=============Reasoning for YP_009781764 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Staphylococcus phage P4W') and the lab host ('Staphylococcus aureus strain 6409'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_009781764 from accession literature=============
+=============Reasoning for YP_009781764 from host literature=============
+Paper: PMC13115546.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation conditions for quantitative determination of L. monocytogenes: "Plates were incubated at 37 ± 1 °C for 24 ± 2 h and extended to 48 h if necessary." It also mentions incubation for PFGE: "...agar discs were incubated with a lysozyme (100 mg/mL) and RNase (10 mg/mL) at 37 °C overnight." The temperature 37°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009781764 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Staphylococcus phage P4W) but contains no explicit data regarding its optimal growth temperature or the environmental conditions it is associated with (e.g., temperature ranges). 2. Therefore, no explicit evidence is available (Rule 1 fails). 3. There is no environmental context to infer from (Rule 2 fails). 4. As per the decision rules, if no useful metadata exists, the system must default to 'mesophile' (Rule 3/4). 5. The classification is assigned as 'mesophile' based on the fallback rule.
+
+

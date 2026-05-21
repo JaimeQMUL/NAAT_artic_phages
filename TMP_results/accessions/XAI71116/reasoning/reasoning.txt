@@ -1,0 +1,26 @@
+=============Reasoning for XAI71116 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'apricot soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for XAI71116 from accession literature=============
+=============Reasoning for XAI71116 from host literature=============
+Paper: PMC13167956.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for bacterial isolation and growth: "Small pieces were aseptically removed from the margin of the infected tissues, and ground and inoculated on NA medium agar plate and incubated at 28 °C for 24–48 h in the dark (Mazzaglia et al., 2011)." Additionally, for subsequent steps, the text mentions: "Bacterial isolates were cultured overnight in 5 mL of liquid LB medium at 28 °C and shaken at 200 rpm." And for pathogenicity tests: "Stems were placed in a constant temperature incubator at 20 °C, with 12 h of light and 12 h of darkness for 15 days." Since the optimal growth/incubation temperatures mentioned are 28°C and 20°C, which fall within the 15–45°C range, the organism is classified as mesophile.
+
+
+=============Reasoning for XAI71116 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Pseudomonas phage Cygsa01.
+2. Check for environmental context: The isolation source is 'apricot soil' from 'France', and the collection date is '16-Nov-2021'. Soil environments generally support mesophilic organisms, but this is not a strong indicator for the phage itself.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) is general, the system must default to the fallback classification as per Rule 4.
+4. Fallback: The default classification is 'mesophile'.
+
+

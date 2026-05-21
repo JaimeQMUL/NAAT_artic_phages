@@ -1,0 +1,44 @@
+=============Reasoning for XAV38279 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Klebsiella pneumoniae ATCC 13883'), and accession information, but no explicit or strongly implied temperature or environmental condition is mentioned to determine the thermal range.
+
+
+=============Reasoning for XAV38279 from accession literature=============
+Paper: PMC12820288.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the optimal performance for the phages was observed at 37 °C, which is described as "the average human body temperature." The stability tests were conducted at 25, 40, 55, 60, 65, and 70 °C, and the control incubation temperature was 37 °C. Since 37 °C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC13112970.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability evaluation: "The thermostability of phage H33IIK was evaluated across a temperature gradient over a one-hour exposure period. The phage remained stable between 20 °C and 40 °C, while a significant reduction in phage counts was observed at temperatures above 50 °C (Figure 4a)." Since the optimal stability range is 20 °C to 40 °C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13119998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "Once purified, they were grown to high titer (≥10^8 pfu/mL) at 37 °C for 2 days." The incubation temperature of 37 °C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for XAV38279 from host literature=============
+Paper: PMC12740245.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions used for bacterial cultures: "Bacterial cultures were routinely grown in Luria-Bertani (LB) medium and M9 minimal medium (Table S2) at 37 °C with 180 rpm shaking or on LB agar plates overnight." Furthermore, subsequent sections confirm this temperature: "WT, ΔpcnB and ΔpcnB (pBBR-pcnB) strains were cultured overnight in LB medium at 37 °C with 180 rpm shaking." Since 37°C falls within the defined mesophile range (15–45°C), the phage's thermal characteristic is inferred to be mesophilic based on the optimal growth conditions of its host, Klebsiella pneumoniae.
+
+
+=============Reasoning for XAV38279 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage vB_KpnM_KP1) and its host (Klebsiella pneumoniae ATCC 13883). 2. No explicit thermal range is provided in the metadata. 3. The host, Klebsiella pneumoniae, is a common opportunistic human pathogen, typically associated with moderate body temperatures (37°C), which falls within the mesophilic range (15–45°C). 4. Since no direct evidence exists, the most probable classification is mesophile, based on the known ecology of the host organism. 5. This assignment is a fallback classification due to the lack of explicit thermal data.
+
+

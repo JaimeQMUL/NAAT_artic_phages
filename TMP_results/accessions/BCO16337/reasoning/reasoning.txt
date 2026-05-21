@@ -1,0 +1,19 @@
+=============Reasoning for BCO16337 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Bacillus phage vB_BceM_WH1') and its host ('Bacillus cereus'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', 'soil', etc.) is provided to determine the thermal range.
+
+
+=============Reasoning for BCO16337 from accession literature=============
+=============Reasoning for BCO16337 from host literature=============
+=============Reasoning for BCO16337 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Bacillus phage vB_BceM_WH1.
+2. Check for environmental context: The metadata provides the host ('Bacillus cereus') and collection location ('Japan'), but no specific environmental temperature is given.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient for strong inference, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with 'forced' inference type and 'low' confidence.
+
+

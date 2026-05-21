@@ -1,0 +1,26 @@
+=============Reasoning for AZB50076 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata mentions the isolation source as 'natural mutant selected on Staphylococcus aureus strain 1098; host-range mutant 812h1' and the host as 'Staphylococcus sp.' and 'Staphylococcus aureus SAV456'. However, no specific temperature or thermal condition (psychrophile, mesophile, or thermophile) is explicitly stated or strongly implied by the provided text.
+
+
+=============Reasoning for AZB50076 from accession literature=============
+=============Reasoning for AZB50076 from host literature=============
+Paper: PMC13183696.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for the degradation assays: "The culture was incubated under constant agitation at 150 rpm and 30 °C." The temperature of 30°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for AZB50076 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Staphylococcus phage 812h1.
+2. Check for environmental context: The isolation source mentions 'natural mutant selected on Staphylococcus aureus strain 1098' and the collection date is 2016, but no specific environmental temperature is provided.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak, the system must default to the fallback classification.
+4. Fallback rule: The default classification is 'mesophile'.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for UVM99463 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The host is 'Homo sapiens' and the metagenome source is 'human gut metagenome'. The human gut is generally considered a mesophilic environment.
+
+
+=============Reasoning for UVM99463 from accession literature=============
+=============Reasoning for UVM99463 from host literature=============
+=============Reasoning for UVM99463 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from a 'human gut metagenome' and the isolation source is 'feces'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The environment (human gut) is generally considered to maintain a stable, moderate temperature, approximating core body temperature (37°C).
+3. **Determine Classification:** 37°C falls squarely within the mesophile range (15–45°C).
+4. **Conclusion:** Since no explicit evidence exists, the classification is inferred from the known physiological environment of the host/source, defaulting to mesophile as the most probable classification based on the gut environment.
+
+

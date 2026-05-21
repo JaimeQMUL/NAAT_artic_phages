@@ -1,0 +1,16 @@
+=============Reasoning for AXN58082 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Enterobacteria phage T6') and its host ('Escherichia coli B'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for AXN58082 from accession literature=============
+=============Reasoning for AXN58082 from host literature=============
+=============Reasoning for AXN58082 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Enterobacteria phage T6. 2. The host organism, Escherichia coli, is a well-known mesophile, typically thriving in moderate temperatures (37°C). 3. Following the decision rules, since no explicit evidence exists, the inference is drawn from the host's typical environment. 4. The fallback rule (Rule 4) suggests defaulting to 'mesophile' if no useful metadata exists, which aligns with the host context. 5. Therefore, 'mesophile' is assigned as the most probable classification.
+
+

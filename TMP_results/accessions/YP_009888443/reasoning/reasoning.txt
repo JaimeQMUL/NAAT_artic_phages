@@ -1,0 +1,56 @@
+=============Reasoning for YP_009888443 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('wastewater') but does not specify a temperature or a thermal classification (psychrophile, mesophile, thermophile) associated with it.
+
+
+=============Reasoning for YP_009888443 from accession literature=============
+Paper: PMC10458263.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly mentions the incubation temperature for several assays. For instance, in Section 2.1, it states: "Prior to experiments, the bacteria were incubated in Luria-Bertani (LB) broth (Oxoid) at 37 °C for 12 h." In Section 2.2, it states: "Next, 4 mL of the log-phase host bacteria (S. Weltevreden strain SA161) were mixed with the phage lysate and incubated at 37 °C for 24 h." Furthermore, in Section 2.4, it states: "Phage lysates with a concentration of 1.0 × 106 PFU/mL were spotted onto the plates, which were then incubated at 37 °C for 16 h." These temperatures (37 °C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC8432352.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for phage propagation and plaque assays. For phage S117, the text mentions: "First, a single colony from LT2c was inoculated into LB media (Lysogeny Broth, Merck, Darmstadt, Germany) and was grown to the exponential phase at 37 °C and 180 rpm." and later, "The plates were incubated overnight at 37 °C". Additionally, for the phage inhibition assay, "The TSP-bacteria suspension was preincubated at 37 °C for 20 min before being added to top-agar and poured onto a LB agar plate. After the bacterial lawn had dried, three times 10 µL of a serial dilution (10−1 to 10−8) of S117 was spotted onto the lawn. The plates were incubated overnight at 37 °C". Since 37°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for YP_009888443 from host literature=============
+Paper: PMC13164475.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper tested biofilm formation and antibacterial activity at multiple temperatures. For the Salmonella phage dinky (which is not mentioned, but the general Salmonella isolates are studied), the following temperatures were used for testing: 14 °C, 23 °C, and 37 °C. The general biofilm formation tests used temperatures of 4 °C, 14 °C, 23 °C, and 37 °C. The antibacterial testing used 14 °C, 23 °C, and 37 °C. Since the optimal growth/activity range for the tested bacteria/phage interactions is centered around 23 °C and 37 °C, which fall within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+Paper: PMC9898657.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability of phage phiPT1: "Phage phiPT1 was stable at temperatures from 4 °C to 60 °C and inactivated at 90 °C." The optimal growth/stability range mentioned (4 °C to 60 °C) encompasses the mesophilic range (15–45°C). Furthermore, the text notes that the mean titer was found to be 8.5 log10 PFU/ml upon 1 h treatment at 37 °C, 40 °C, or 60 °C, and that 37 °C was used for incubation in several assays, which falls within the mesophilic range. The conclusion summarizes this by stating it "showed wide pH and thermal tolerance."
+
+
+Paper: PMC12930829.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures for several assays: 1. For MIC/MBC assays: "The microplate was then statically incubated at 37 °C for 24 h." and "The plates were then incubated for an additional 24 h at 37 °C." 2. For TSB culture media assays: "The experimental groups were incubated at 37 °C for 72 h with frequent agitation (70 rpm)." 3. For urine assays: "The experimental groups were incubated at 37 °C for 24 h with frequent agitation (70 rpm)". 4. For in vivo model: "Urine samples were collected at 24, 48, 96, 144, and 192 h after UTI induction". Since the optimal growth/incubation temperature mentioned is 37°C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009888443 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'Salmonella enterica subsp. enterica serovar Enteritidis PT1', isolation source is 'wastewater', and collection date is '2017'.
+2. There is no explicit mention of optimal growth temperature for the phage.
+3. The host, Salmonella enterica, is a common mesophilic bacterium, typically thriving in mammalian or environmental temperatures (around 37°C, which falls within the 15–45°C mesophile range).
+4. The isolation source, 'wastewater', is an environment that generally supports mesophilic microbial life.
+5. Since no explicit evidence exists, the decision rules mandate inferring from the environmental context (host/source). The most probable classification, based on the known biology of the host organism (Salmonella) and the general nature of wastewater, is mesophile.
+6. As no strong evidence supports psychrophile or thermophile, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

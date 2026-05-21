@@ -1,0 +1,26 @@
+=============Reasoning for YCQ76618 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'activated sludge' and the country is 'USA: WWTP, Anahuac, TX'. Activated sludge and wastewater treatment plants typically represent mesophilic environments, which is the most appropriate classification based on the provided metadata.
+
+
+=============Reasoning for YCQ76618 from accession literature=============
+=============Reasoning for YCQ76618 from host literature=============
+Paper: PMC13066108.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the enzyme was expressed in Shewanella oneidensis MR-1, and the optimal growth temperature for the knockout strain was stated as: "...and cultured at 30 °C." Furthermore, the protein expression and purification section specifies that the cells were cultured for 20 h at "30 °C, 150 rpm." The activity assays were performed at "30 °C" or "25 °C" (in the context of the electrochemical experiments, which is close to 30°C). Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for YCQ76618 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is isolated from 'activated sludge' in 'USA: WWTP, Anahuac, TX'.
+2. **Determine Environmental Context:** Activated sludge from a Wastewater Treatment Plant (WWTP) typically experiences ambient or moderate temperatures, generally falling within the mesophilic range (15–45°C), unless specific extreme conditions are noted.
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (WWTP activated sludge) suggests moderate conditions.
+4. **Assign Classification:** Based on the general nature of WWTP samples, the most probable classification is mesophile. Since this is a general inference based on the source type rather than a direct reading, and no specific temperature data is available, the classification is assigned by default to mesophile as per Rule 3/4 fallback logic.
+
+

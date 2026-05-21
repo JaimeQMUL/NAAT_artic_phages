@@ -1,0 +1,33 @@
+=============Reasoning for BCM29362 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for BCM29362 from accession literature=============
+Paper: 40850006.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the phage "remained stable at 4-30 °C". This range (4-30°C) falls within the mesophilic range (15–45°C) according to the definitions, although it also includes psychrophilic conditions. Since the stated stability range is the most direct evidence, and 30°C is well within the mesophilic range, mesophile is the most appropriate classification based on the provided definitions and data.
+
+
+Paper: 40939276.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states: "Phage vB_EfS_C1 was infective at different temperatures (40-70 °C)". Since the mesophile range is defined as 15–45°C, and the observed range (40-70°C) significantly overlaps and extends beyond the upper limit of the mesophile range, but the explicit mention of 40°C suggests activity within or near the mesophilic range, and the overall range is broad, we classify it based on the explicit range provided. Given the explicit range includes 40°C, which is within the mesophile range (15-45°C), and the overall range is broad, we select mesophile as the best fit based on the provided definitions and the explicit data point.
+
+
+=============Reasoning for BCM29362 from host literature=============
+=============Reasoning for BCM29362 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'soil' from 'Viet Nam:Nam Dinh, Nghia Hung, Nghia Phu'. Soil environments are generally considered mesophilic, though temperature can vary widely. The collection date is 2018-06-03 (early summer in Vietnam).
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the inference leans towards mesophile. However, because the environmental context is broad and the primary rule is to default when context is weak or absent, and no strong temperature indicator is present, the fallback rule (Rule 4) is invoked.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

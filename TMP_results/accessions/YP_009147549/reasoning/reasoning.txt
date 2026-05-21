@@ -1,0 +1,19 @@
+=============Reasoning for YP_009147549 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('leaves of Malus domestica') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_009147549 from accession literature=============
+=============Reasoning for YP_009147549 from host literature=============
+=============Reasoning for YP_009147549 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Erwinia phage phiEa2809.
+2. Check for environmental context: The isolation source is 'leaves of Malus domestica' (apple leaves) and the collection date is 2011. While this suggests an outdoor environment, it does not specify the temperature range at which the phage was isolated.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (leaves) is too broad to definitively place it in psychrophile (<15°C) or thermophile (>45°C) ranges, the system must default to the fallback classification as per Rule 4.
+4. Fallback: The default classification is 'mesophile'.
+
+

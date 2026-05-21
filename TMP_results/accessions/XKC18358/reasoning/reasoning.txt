@@ -1,0 +1,54 @@
+=============Reasoning for XKC18358 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'soil', which typically suggests mesophilic conditions. No explicit temperature range is provided.
+
+
+=============Reasoning for XKC18358 from accession literature=============
+Paper: PMC13171985.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions optimal or tested temperatures for the enzyme system. For the biosensor readout, the efficiency was measured at 30°C, 34°C, and 37°C, with the best performance noted at 30°C. For the whole-cell bioconversion assay, the enzyme was tested at 30°C and 37°C. The text states that the activity of the evolved enzyme at 37°C still outperformed the WT enzyme at 30°C. Since the optimal/best performing conditions tested are around 30–37°C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for obtaining spores of S. clavuligerus: "Spores of S. clavuligerus were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days)". It also states that "Spores of S. clavuligerus wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm." Furthermore, the general cultivation conditions for the main experiments were "Cultures were incubated for 120 h, at 220 rpm and 28 ◦C." Since 28°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for XKC18358 from host literature=============
+Paper: PMC11294657.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states: "TSS is a thermostable and halotolerant subtilisin-like protease derived from the thermophile Brevibacillus sp. WF146." It also provides optimal activity conditions: "TSS exhibits optimal activity at 70°C and pH 9.0". Furthermore, the table confirms this: "TSS from Brevibacillus sp. WF146 [17] | 70°C; pH 9.0 | 58.0 | S8". Since 70°C is significantly above the mesophile range (15–45°C) and falls into the thermophile definition (> 45°C), the classification is thermophile.
+
+
+Paper: PMC11705968.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for the killing assay and MIC determination: "At each time point of exposure, the sample was dropped onto Luria agar (LA), which was subsequently incubated at 30°C overnight to examine bacterial growth." and "The treatments were subsequently incubated overnight at 30°C before measuring OD600." The paper also mentions that ESKAPE strains were grown at "30–37°C". Since 30°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that 'Characterization on cultural characteristic and viable count at different temperatures (37ºC and 28ºC), on different microbiological media (AIA, ISP-2, MHA, NA, PDA and TSA), were performed.' Since the tested temperatures (28ºC and 37ºC) fall within the mesophilic range (15–45°C), and no other information suggests otherwise, the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for XKC18358 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'soil' from 'USA: Land Between the Lakes, KY', and the collection date is '01-Oct-2023'. Soil environments are generally considered mesophilic unless specific extreme conditions are noted.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (temperate soil) suggests moderate conditions, the most probable classification is mesophile.
+4. Fallback: The default classification is mesophile, which aligns with the environmental inference.
+
+

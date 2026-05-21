@@ -1,0 +1,47 @@
+=============Reasoning for YP_010651450 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for YP_010651450 from accession literature=============
+Paper: PMC7650747.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the general cultivation temperature for the host strains: "Unless otherwise stated, cultivation was carried out at 30 °C." Furthermore, specific incubation temperatures for plaque visualization and infection assays are given: "Plaques were visualized after overnight incubation at 30 °C." and "Cultivation was performed as biological triplicates in 48-well FlowerPlates (m2plabs) at 30 °C". Since 30°C falls within the mesophile range (15–45°C), the phage thermal characteristic is inferred to be mesophilic based on the host culture conditions.
+
+
+Paper: PMC8402681.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions incubation temperatures for plaque formation and growth experiments. For plaque morphology (Figure 1A), plates were incubated overnight at "30 °C". For the corrected growth experiments in microtiter plates, cultivation was performed "at 30 °C". These temperatures fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_010651450 from host literature=============
+Paper: PMC7614929.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The protocol specifies incubation temperatures for cell growth and subsequent reactions. For initial growth and pre-culture steps, the text repeatedly states incubation at "28 °C". For the final TX-TL reaction incubation, the text states: "Incubate the reaction at 28 °C either in an incubator (for end-point readings) or a plate-reader." Since 28°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+Paper: PMC8788739.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly mentions the growth temperature for sporulation phenotypes in Figure 2: "The strains were grown on MYM agar for six days at 30°C." Figure 1 also shows sporulation phenotypes "grown on MYM agar for 7 days at 30°C." Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for YP_010651450 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the isolation source as 'soil'. Soil environments typically exhibit fluctuating temperatures, but generally fall within the moderate range (15–45°C) unless specific extreme conditions are noted.
+2. There is no explicit mention of optimal growth temperature, minimum, or maximum temperature.
+3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. Given the general nature of 'soil' isolation, 'mesophile' is the most scientifically conservative and probable default assignment.
+4. Therefore, 'mesophile' is selected as the fallback classification.
+
+

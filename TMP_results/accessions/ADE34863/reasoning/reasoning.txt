@@ -1,0 +1,30 @@
+=============Reasoning for ADE34863 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Klebsiella phage KP15') and its host ('Klebsiella pneumoniae'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for ADE34863 from accession literature=============
+Paper: PMC12686013.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states regarding the thermal assays: "Thermal assays indicated substantial stability up to 50 °C." Furthermore, in the section detailing the thermal stability profile, it is mentioned: "KP27 had high lytic activity (low turbidity) up to 50 °C..." and "These observations indicate that KP27 manifests strong thermal stability, with high lytic activity up to 50 °C and moderate activity at temperatures as high as 70 °C." Since the optimal/high activity is noted up to 50°C, and the mesophilic range is defined as 15–45°C, the enzyme exhibits characteristics consistent with mesophilic stability, although it shows activity beyond this range.
+
+
+Paper: PMC8100603.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for several procedures involving the phage or its host. For phage isolation and initial growth curve determination, the text mentions: "W-KP2 was incubated with sewage samples in LB broth at 37°C overnight." and "After the mixed culture was incubated for 5 h at 37°C (180 rpm)". Furthermore, for the one-step growth curve, it states: "After 10 min of incubation at 37°C, the mixture was centrifuged... followed by incubation at 37°C with shaking at 180 rpm." These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for ADE34863 from host literature=============
+=============Reasoning for ADE34863 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KP15), its host (Klebsiella pneumoniae), and its origin (Poland, collection date Aug-2008). 2. There is no explicit mention of optimal growth temperature or thermal stability. 3. The host, Klebsiella pneumoniae, is a common opportunistic pathogen often associated with human or environmental niches, typically thriving in moderate temperatures. 4. Since no thermal data is available, the decision rules mandate defaulting to 'mesophile' as the most probable classification. 5. This classification is therefore 'forced'.
+
+

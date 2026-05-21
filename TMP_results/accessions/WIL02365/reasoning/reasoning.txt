@@ -1,0 +1,37 @@
+=============Reasoning for WIL02365 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage'), but does not specify a temperature range associated with this source to classify the organism as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for WIL02365 from accession literature=============
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the optimal growth range is stated as 4°C to 60°C, and the mesophile definition is 15–45°C, the phage exhibits viability across this range, encompassing the mesophilic range. The overall stated range (4°C to 60°C) is broader than the strict definition, but the explicit mention of viability across this range is the primary evidence. Given the explicit range includes the mesophilic range, and the optimal growth is not specified, we classify it based on the stated viability range which covers mesophilic conditions.
+
+
+Paper: 42140025.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states that the phage PH215 "demonstrated remarkable environmental stability, sustaining infectivity across a wide pH range (2-11) and at temperatures from 4 to 50 °C." Since the optimal growth range for mesophiles is 15–45°C, and the tested range (4–50°C) encompasses this range, and the highest tested temperature (50°C) is near the upper limit of mesophilic activity, we classify it as mesophile based on the provided range.
+
+
+=============Reasoning for WIL02365 from host literature=============
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the optimal growth range is stated as 4°C to 60°C, and the mesophile definition is 15–45°C, the phage exhibits viability across this range, encompassing the mesophilic range. The overall stated range (4°C to 60°C) is broader than the strict definition, but the explicit mention of viability across this range is the primary evidence. Given the explicit range includes the mesophilic range, and the optimal growth is not specified, we classify it based on the stated viability range which covers mesophilic conditions.
+
+
+=============Reasoning for WIL02365 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage ST-W63) and its host (Salmonella enterica subsp. enterica serovar Typhimurium). 2. The isolation source is 'sewage' from 'Thailand'. 3. There is no explicit mention of optimal growth temperature for the phage or its host. 4. Since the host, Salmonella, is a common human/environmental pathogen, and the isolation source is sewage, the most probable environmental context suggests moderate temperatures typical of mesophilic organisms. 5. As no explicit evidence exists, and the environmental context (sewage) is general, the decision rules mandate defaulting to 'mesophile' as the fallback class.
+
+

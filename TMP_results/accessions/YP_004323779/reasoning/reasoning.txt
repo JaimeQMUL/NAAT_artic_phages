@@ -1,0 +1,16 @@
+=============Reasoning for YP_004323779 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides location coordinates (25.85 N 79.43 W) and a collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated for the phage or its host.
+
+
+=============Reasoning for YP_004323779 from accession literature=============
+=============Reasoning for YP_004323779 from host literature=============
+=============Reasoning for YP_004323779 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Prochlorococcus phage Syn33. 2. **Check for environmental context:** The metadata provides geographical coordinates ('lat_lon': '25.85 N 79.43 W') and a collection date ('collection_date': 'Jan-1995'). These coordinates place the source in a tropical/subtropical marine environment. 3. **Apply decision rules:** Since no explicit thermal data is available, the system must infer or default. Tropical marine environments generally support mesophilic life forms, although some specialized phages can be psychrophilic or thermophilic. 4. **Default assignment:** Given the lack of specific thermal data, and the general nature of the source environment (tropical ocean), the most scientifically conservative and robust default classification, as per the rules, is 'mesophile'.
+
+

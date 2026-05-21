@@ -1,0 +1,20 @@
+=============Reasoning for YP_009140289 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Salmonella phage Det7') and the lab host ('Salmonella enterica serovar Typhimurium'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are stated.
+
+
+=============Reasoning for YP_009140289 from accession literature=============
+=============Reasoning for YP_009140289 from host literature=============
+=============Reasoning for YP_009140289 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Salmonella phage Det7') and its lab host ('Salmonella enterica serovar Typhimurium').
+2. Salmonella species are generally associated with moderate environmental temperatures, and the lab host itself is typically cultured under mesophilic conditions (15–45°C).
+3. There is no explicit mention of optimal growth temperature, psychrophilic, or thermophilic ranges.
+4. Following the decision rules, since no explicit evidence exists, the inference is drawn from the known biology of the associated organism (Salmonella), which points towards mesophilic conditions.
+5. As no useful metadata exists to strongly support a classification, the fallback rule dictates assigning 'mesophile'.
+
+

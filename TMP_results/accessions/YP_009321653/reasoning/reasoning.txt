@@ -1,0 +1,26 @@
+=============Reasoning for YP_009321653 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC 11168' and the isolation source is 'chicken cecum'. Campylobacter species are generally associated with the gastrointestinal tract, which is considered a mesophilic environment.
+
+
+=============Reasoning for YP_009321653 from accession literature=============
+=============Reasoning for YP_009321653 from host literature=============
+Paper: PMC12813274.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for growing the C. jejuni strains: "...under microaerophilic conditions at 37 °C for 48 h." Additionally, the incubation for biofilm formation was performed "under microaerobiosis at 37 °C for 72 h." The subsequent incubation for Etest strips was also at "37 °C for 48 h." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_009321653 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Campylobacter phage PC14' and its host is 'Campylobacter jejuni NCTC 11168'. The isolation source is 'chicken cecum' and the collection date is '2011'.
+2. **Determine Environmental Context:** *Campylobacter jejuni* is a common inhabitant of the gastrointestinal tract (cecum). The typical temperature range for mammalian guts (including chicken cecum) is mesophilic (around 37°C).
+3. **Apply Decision Rules:** Rule 2 suggests inferring from environmental context. The GI tract context strongly suggests mesophilic conditions.
+4. **Conclusion:** Since no explicit thermal range is provided, the most probable classification based on the known ecology of the host organism (*C. jejuni*) is mesophile. This classification is assigned by default due to the lack of explicit evidence, following the fallback rule (Rule 4) and the general biological context (Rule 2).
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for QRI45771 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QRI45771 from accession literature=============
+=============Reasoning for QRI45771 from host literature=============
+Paper: PMC13031897.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature range for growth in the 'Description of Streptomyces tyrfis sp. nov.' section: "The temperature range for growth is 12–42 °C." Since the mesophile range is defined as 15–45°C, and the observed range (12–42°C) falls within or overlaps significantly with this range, the classification is mesophile. Furthermore, the 'Experimental procedures' section mentions '21-day-old cultures of strain PTD5-9ᵀ were observed... for 14 days at 30 °C' and 'The strain was cultivated at 30 °C for 14 days on shakers at 180 rpm,' which are mesophilic conditions.
+
+
+=============Reasoning for QRI45771 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage Battuta'.
+2. Check for environmental context: The isolation source is 'soil', and the geographical coordinates are provided (33.12311 N 97.08537 W). Soil environments generally support mesophilic life, although temperature can vary widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) is general, the system must default to the most probable classification. The fallback rule dictates assigning 'mesophile' when useful metadata is absent.
+4. Conclusion: Assigning 'mesophile' as the default classification.
+
+

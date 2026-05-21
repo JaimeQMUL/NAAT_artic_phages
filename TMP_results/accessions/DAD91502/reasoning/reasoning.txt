@@ -1,0 +1,19 @@
+=============Reasoning for DAD91502 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the 'isolation_source' is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAD91502 from accession literature=============
+=============Reasoning for DAD91502 from host literature=============
+=============Reasoning for DAD91502 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Myoviridae sp. ctx322.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2013-05-27. Human-associated samples generally imply mesophilic conditions (human body temperature is ~37°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The human source strongly suggests mesophily. However, the rule set prioritizes 'forced' assignment if context is weak or absent, and the most robust fallback rule is to default to 'mesophile' if useful metadata is insufficient. Given the human source context, 'mesophile' is the most probable assignment.
+4. Conclusion: Assign 'mesophile' based on the human metagenome source, defaulting to this classification as the most probable outcome.
+
+

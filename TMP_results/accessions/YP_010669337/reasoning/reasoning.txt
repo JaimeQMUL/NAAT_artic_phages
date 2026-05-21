@@ -1,0 +1,33 @@
+=============Reasoning for YP_010669337 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Synechococcus sp. WH 8102') and the phage ('Synechococcus phage S-H9-2'), but no explicit or strongly implied temperature or environmental condition (e.g., hot springs, deep sea, soil) is provided to determine a thermal range.
+
+
+=============Reasoning for YP_010669337 from accession literature=============
+=============Reasoning for YP_010669337 from host literature=============
+Paper: PMC11914933.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The abstract states that the experiment was conducted at "temperatures of 21, 24, 28, 32, and 35°C." The definition for mesophile is 15–45°C. Since all tested temperatures fall within this range, the thermal range is mesophile. Furthermore, the discussion section notes that "Because CCMP 1334 responded positively to warmer temperatures as high as 35°C..." and "...the growth rates peaked between 32 and 35°C."
+
+
+Paper: 24216109.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states that the analysis is of "cytochrome from the c6B family from mesophilic cyanobacteria Synechococcus sp. WH 8102."
+
+
+=============Reasoning for YP_010669337 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-H9-2.
+2. **Check for environmental context:** The metadata provides the host ('Synechococcus sp. WH 8102') and collection location ('China'), but no specific temperature data is available for inference.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is insufficient to strongly infer a psychrophile or thermophile classification, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. **Conclusion:** The classification is assigned as mesophile based on the fallback rule.
+
+

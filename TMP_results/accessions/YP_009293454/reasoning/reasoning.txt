@@ -1,0 +1,23 @@
+=============Reasoning for YP_009293454 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Salmonella enterica subsp. enterica serovar Typhimurium') and the phage name, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_009293454 from accession literature=============
+=============Reasoning for YP_009293454 from host literature=============
+Paper: 42142771.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "The phage exhibited high viability across a pH range of 2-10 and temperatures ranging from 4°C to 60°C." Since the range includes temperatures below 15°C (e.g., 4°C) and temperatures above 45°C (up to 60°C), but the optimal/general viability is described across a broad range encompassing the mesophilic range (15–45°C), and the text does not specify an optimal temperature that definitively places it in one category, we must rely on the explicit range. However, given the defined categories (psychrophile < 15°C, mesophile 15–45°C, thermophile > 45°C), and the broad range (4°C to 60°C), the most accurate classification based on the provided definitions and the observed range is difficult. Since the range spans all three, and the text does not specify an optimum that dictates a single classification, we will use the mesophile range as the best fit for general viability, while noting the explicit range. For the purpose of strict adherence, we note the range covers mesophilic conditions. The text also mentions storage at 4°C, which is psychrophilic, but this is a condition, not the inherent optimal range. We will classify based on the stated viability range covering the mesophilic zone.
+
+
+=============Reasoning for YP_009293454 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage vB-SalM-PM10) and its host (Salmonella enterica subsp. enterica serovar Typhimurium). 2. No explicit thermal range (e.g., optimal growth temperature) is provided in the metadata. 3. The host, Salmonella enterica, is a common human/animal pathogen, and most clinically relevant bacteria and their associated phages are generally considered mesophiles (optimal growth around 37°C, which falls within the 15–45°C range). 4. Since no evidence is present, the decision rules mandate defaulting to 'mesophile' as the fallback class.
+
+

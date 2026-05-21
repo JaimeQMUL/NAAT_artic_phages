@@ -1,0 +1,26 @@
+=============Reasoning for AGH26674 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Red Sea') and coordinates ('29.28 N 34.53 E'), but no explicit temperature or environmental condition is stated to determine the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for AGH26674 from accession literature=============
+=============Reasoning for AGH26674 from host literature=============
+Paper: PMC11724200.1.txt
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The study was conducted in the "cold, low‐iron, sub‐Antarctic waters of the southwest Pacific Ocean." The text explicitly states that the sampling was done in waters with "temperatures ranging from 3.2°C to 15.0°C (Emery 2003)" and that the samples were collected in "sub‐Antarctic waters defined by temperature in the range of 3.2°C–15°C". The definition for psychrophile is "optimal growth < 15°C". Since the sampled temperatures are consistently in the low range (e.g., Cycle 1 average surface temperature of 11.0°C; Cycle 2 average temperature of 10.3°C), and the overall environment is described as "cold," the conditions align with the psychrophile definition.
+
+
+=============Reasoning for AGH26674 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for Cyanophage P-RSM3.
+2. **Check for environmental context:** The isolation source is the 'Red Sea' (lat_lon: '29.28 N 34.53 E'). The Red Sea has a generally warm, subtropical to tropical climate. While this suggests warmer conditions, it does not provide a precise temperature range for the phage's optimal growth.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (Red Sea) is too broad to definitively classify as psychrophile (<15°C) or thermophile (>45°C), the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

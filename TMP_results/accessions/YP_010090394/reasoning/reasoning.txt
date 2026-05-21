@@ -1,0 +1,16 @@
+=============Reasoning for YP_010090394 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Synechococcus sp. WH8102') and the phage ('Synechococcus phage S-H35'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_010090394 from accession literature=============
+=============Reasoning for YP_010090394 from host literature=============
+=============Reasoning for YP_010090394 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Synechococcus phage S-H35), its host (Synechococcus sp. WH8102), and collection details (China, 2016). 2. There is no explicit mention of optimal growth temperature or the environmental temperature range. 3. The host, Synechococcus, is a common cyanobacterium often associated with freshwater or marine environments, which typically exhibit mesophilic conditions (15–45°C). 4. Since no explicit evidence is available, the decision rules mandate defaulting to 'mesophile' as the most probable classification. 5. This classification is therefore 'forced'.
+
+

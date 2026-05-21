@@ -1,0 +1,50 @@
+=============Reasoning for ULF50505 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage', which typically implies mesophilic conditions. The host is 'Escherichia coli K-12', which is generally considered a mesophile. No explicit temperature is provided.
+
+
+=============Reasoning for ULF50505 from accession literature=============
+Paper: PMC12369090.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal MOI was determined by co-cultivating phages with mid-log phase host bacteria at ratios of 0.001-100 PFU/CFU, followed by 0.22 μm membrane filtration after 6 h [17, 18]. Furthermore, the incubation for biofilm inhibition assays was performed at 37 °C [22]. In the 'Biological properties of phages vB_KpnP_XY3 and vB_KpnP_XY4' section, the text mentions that 'Both phages demonstrated stability across a temperature range of 4–60 °C (Fig. 2C-D)' and that 'To determine the optimal MOI, K. pneumoniae cultures were infected with various phage concentrations and incubated at 37 °C for 6 h.' The general incubation temperature for bacterial growth and assays is consistently 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC10949491.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for bacterial growth and phage enrichment. For example, when isolating phages from food samples, the process involved 'incubated at 37°C for 18 h with shaking.' Furthermore, for subsequent steps like 'The sample and culture were incubated at 37°C for 18 h' and 'The Tn5 insertion mutant library was cultured in LB at 37°C with shaking for 18 h,' the temperature used is 37°C. Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC12529663.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "Cells were grown in lysogeny broth (LB, 1% tryptone, 0.5% yeast, and 1% NaCl w/v) at 37°C." and later, "T2 phage was added to exponentially growing cells (turbidity at 600 nm ∼0.5; Eppendorf Biophotometer D30), and the cells were incubated at 37°C and 250 rpm and monitored using a UV-Vis spectrometer (Sunrise Tecan)." and "Fitness cost of the P segment inversion... found there is a 39 ± 56-fold reduction in growth for the fadL positive control and a 32 ± 21-fold reduction in growth in the cured strain (Supplementary Fig. S11). In contrast, all three strains grew similarly in glucose-minimal medium, so there is no inherent growth defect on non-FadL substrates like glucose. Hence, there is a clear growth disadvantage to the inversion during non-phage conditions." The consistent use of 37°C for bacterial growth and phage assays indicates the optimal or standard growth temperature for the system, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for ULF50505 from host literature=============
+Paper: PMC13164435.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for bacterial growth: "The cultures were incubated at 37 °C, orbitally shaken at 150 rpm for 18 h to enable resuscitation and active growth." It also mentions subsequent incubations at "37 °C for 24 h and 48 h for E. coli and B. cereus respectively". The discussion section notes that the average temperature during aBL LED exposure was "35.8 ± 0.9 °C," and the fluorescent control was "28.1 ± 0.8 °C." Since the optimal growth temperature is consistently cited around 37 °C, which falls within the 15–45°C range, the classification is mesophile.
+
+
+=============Reasoning for ULF50505 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the following key pieces of information: Host ('Escherichia coli K-12'), Isolation Source ('sewage'), and Collection Location ('France').
+2. **Apply Decision Rules:**
+    *   **Explicit Evidence:** No explicit temperature range is provided.
+    *   **Inference from Environment:** The host, *Escherichia coli*, is a model mesophile, typically thriving in the mammalian gut (around 37°C).
+    *   **Inference from Isolation Source:** Sewage samples generally contain mesophilic microbial communities, although temperature fluctuations are possible.
+3. **Determine Classification:** Since no explicit evidence exists, the most probable classification is based on the known biology of the host organism (*E. coli*), which dictates a mesophilic lifestyle. Therefore, 'mesophile' is selected.
+4. **Determine Confidence:** Because the classification relies on inferring the optimal temperature range from the host organism rather than explicit data, the confidence is low, but the fallback rule (Rule 4) is not strictly necessary as a strong inference (Rule 2) is available.
+
+

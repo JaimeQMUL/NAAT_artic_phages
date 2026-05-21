@@ -1,0 +1,26 @@
+=============Reasoning for WNM72963 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for WNM72963 from accession literature=============
+=============Reasoning for WNM72963 from host literature=============
+Paper: PMC11413697.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation temperatures for bacterial growth and fermentation. For the seed culture of *M. echinospora* ATCC 15835, the incubation temperature was stated as "28 °C" in section 2.3. For the large-scale industrial fermentation, the initial incubation temperature was set at "34 °C" (section 2.4). The general growth conditions for *E. coli* were maintained at "37 °C" (section 2.1). Since the phage is associated with *Streptomyces* species (like *M. echinospora*), and the primary experimental temperatures are 28°C, 34°C, and 37°C, these fall within the mesophilic range (15–45°C).
+
+
+=============Reasoning for WNM72963 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage Persimmon'.
+2. Check for environmental context: The isolation source is listed as 'soil', and the geographical coordinates are provided (38.643333 N 90.291389 W). Soil environments generally support mesophilic life, although temperature varies widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) is general, the system must default to the fallback classification rule (Rule 4).
+4. Fallback: The default classification is 'mesophile'.
+
+

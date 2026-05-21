@@ -1,0 +1,54 @@
+=============Reasoning for YP_013606416 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'raw sewage water obtained from a North City Water Reclamation Plant'. Sewage water is typically associated with mesophilic environments, leading to the inference of a mesophilic thermal range.
+
+
+=============Reasoning for YP_013606416 from accession literature=============
+Paper: PMC11360260.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature range the phage was able to withstand: "It was able to withstand acidic and alkaline conditions, from pH 3 to 11, as well as temperatures between −80 °C and 37 °C." The optimal growth temperature for the host bacteria and the conditions used for most assays (e.g., incubation, propagation) were 37 °C, which falls within the mesophile range (15–45°C). The stability test also included 37 °C, and the optimal MOI determination was performed at 37 °C. Therefore, the phage is characterized as mesophilic based on its tested stability range and optimal growth conditions.
+
+
+Paper: PMC10054541.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the host strains were grown at 37 °C and 35 °C. Furthermore, the phage adsorption assay and one-step growth curve were performed at 35 °C, and the endolysin activity assays were incubated at 35 °C. The thermal stability test for the phage iF6 showed that it was 'highly stable at temperatures up to 45 °C' and that 'No phage particles were able to survive after one-hour incubation at 75 °C and higher temperatures.' Since the optimal/tested growth and activity temperatures are centered around 35-37 °C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC7563437.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states multiple incubation temperatures used for culturing the phage and host bacteria. For example, when describing the isolation and routine cultivation of Enterococcus phage A2, it mentions: "Enterococcus phage A2 was routinely cultivated at 37 °C by the soft agar overlay method [26]..." and "E. faecalis strain OG1RF was routinely cultured in TSB at 37 °C." Furthermore, when describing the co-culture experiments, the incubation temperature is stated: "Cells were maintained at 37 °C in an incubator under a 5% CO2 and 95% relative humidity." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+Paper: PMC8322680.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper discusses the stability of the phage LG1 at different temperatures. It states: 'It was found to be stable at different temperatures, maintained a titer of 10^5 after 60 min incubation at 70°C ( Figure 3B ), and was wholly inactivated over 80°C.' This indicates stability up to 70°C, but does not assign the phage to a specific classification (psychrophile, mesophile, or thermophile) based on optimal growth conditions. The optimal growth temperature is not provided.
+
+
+Paper: PMC7999683.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper describes several in vitro experiments conducted using human intestinal cells (SNU-C4) and bacterial cultures (E. faecalis) that were allowed to grow at 37 °C. Specifically, Section 2.7 states: "...the cells were allowed to grow at 37 °C in a CO2 incubator set at 5% CO2 until confluency was observed." Furthermore, Section 2.5 mentions that purified endolysin was incubated at "37 °C for one hour." Section 2.6 also states that the mixture was "incubated at 37 °C for six hours." Since the phage/endolysin activity was tested under conditions mimicking human intestinal colonization (using human intestinal cells) and the optimal incubation temperature for these assays was consistently 37 °C, the thermal characteristic is inferred to be mesophilic.
+
+
+=============Reasoning for YP_013606416 from host literature=============
+=============Reasoning for YP_013606416 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'raw sewage water obtained from a North City Water Reclamation Plant' and the lab host is 'Enterococcus faecalis strain AH2'.
+2. **Determine Environmental Context:** Sewage water and typical wastewater treatment plant environments generally maintain temperatures that are not extreme. While temperature is not explicitly stated, the source (sewage/wastewater) and the host organism (Enterococcus faecalis, a common commensal/environmental bacterium) suggest moderate environmental conditions.
+3. **Apply Decision Rules:** Since no explicit thermal range is provided, inference is required. Sewage water environments are typically mesophilic (15–45°C) unless specific extreme conditions are noted.
+4. **Conclusion:** The most probable classification, based on the environmental source and host, is mesophile.
+
+

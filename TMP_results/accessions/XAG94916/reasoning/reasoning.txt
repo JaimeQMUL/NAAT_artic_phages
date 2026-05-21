@@ -1,0 +1,33 @@
+=============Reasoning for XAG94916 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'river water' from a location with an altitude of '500 m'. River water environments are generally associated with mesophilic conditions, and no extreme temperatures are mentioned.
+
+
+=============Reasoning for XAG94916 from accession literature=============
+Paper: PMC12630848.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature stability of the phage: "For temperature stability, 100 µl of phage solution (10⁷ PFU/ml) was mixed with 900 µl sterile SM buffer in triplicates and incubated in a water bath at temperatures ranging from 25 °C to 75 °C for 60 min. ... In the temperature stability experiment, vB_Sal_S6 showed maximum titer stability (around 7.5 log¹⁰ (PFU/ml)) at temperatures 25˚C, 35 °C, and 55 °C beyond which the phage titer progressively reduced (Fig. 1F). ... Therefore, the phage vB_Sal_S6 was observed to be stable at a temperature range of 25–55 °C."
+
+
+Paper: PMC11767321.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability results: "The thermal stability results observed that the phage was activated at temperatures ranging from 4 to 37 °C while significant inactivation was observed at temperatures above 45 °C (Figure 2B)." The mesophilic range is defined as 15–45°C, and the observed optimal/active range (4 to 37°C) falls within or near this range, with 37°C being the standard optimal growth temperature used in multiple assays (e.g., 37 °C incubation for 6 h in Section 2.3, and 37 °C for anti-biofilm assay in Section 2.6).
+
+
+=============Reasoning for XAG94916 from host literature=============
+=============Reasoning for XAG94916 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Salmonella phage SF02.
+2. **Check for environmental context:** The phage was isolated from 'river water' in Chengdu, China, at an altitude of 500 m. River water temperatures typically fluctuate but are generally within the moderate range (15–30°C) unless extreme seasonal data is provided.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (river water) suggests moderate temperatures, the inference leans towards mesophile. However, because the environmental context is general and not a definitive temperature measurement, and no specific temperature data is available, the fallback rule (Rule 4) is applied.
+4. **Fallback:** Defaulting to 'mesophile' as the most probable classification based on general microbial ecology and the absence of specific thermal data.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for AXQ67807 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for AXQ67807 from accession literature=============
+=============Reasoning for AXQ67807 from host literature=============
+Paper: PMC11302227.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that Btk competent cells were prepared by "growing an overnight culture at 30°C in 50 mL brain heart infusion (BHI) media." Additionally, the sporulation/germination analysis section mentions that the strains were "incubated in BHI broth for 16–18 hours at 30°C" and later incubated at "30°C, for 72 hours to induce sporulation." Since 30°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for AXQ67807 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Bacillus phage Kioshi.
+2. Check for environmental context: The phage was isolated from 'soil' in 'Philippines: Baguio City'. Soil environments are generally considered mesophilic, though temperature varies. The coordinates (16.402332 N 120.596008 E) suggest a tropical/subtropical location, which typically supports mesophilic life forms.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The source (soil) suggests mesophilic conditions. However, the environmental context is not strongly defining enough to override the lack of direct data.
+4. Fallback: As per the rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

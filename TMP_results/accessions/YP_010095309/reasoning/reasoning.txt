@@ -1,0 +1,26 @@
+=============Reasoning for YP_010095309 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Synechococcus sp. WH8102') and the phage ('Synechococcus phage S-B64'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_010095309 from accession literature=============
+=============Reasoning for YP_010095309 from host literature=============
+Paper: PMC12834511.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the optimal growth temperature for the marine strain RS9907 was '28°C' and the optimal growth temperature for the euryhaline strain WH5701 was '30°C'. The paper also discusses 'low temperature conditions (15°C–20°C)' for both strains. Since the optimal growth temperatures (28°C and 30°C) fall within the mesophilic range (15–45°C), and the low temperature conditions (15°C–20°C) are also within this range, the overall thermal characteristic suggested by the experimental parameters is mesophilic.
+
+
+=============Reasoning for YP_010095309 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-B64.
+2. **Check for environmental context:** The metadata provides the host ('Synechococcus sp. WH8102') and collection location ('China'), but no specific temperature data is available.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (China) is too broad to infer a specific temperature range (psychrophile, mesophile, or thermophile), the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

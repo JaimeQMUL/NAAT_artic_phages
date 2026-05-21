@@ -1,0 +1,47 @@
+=============Reasoning for XDJ03295 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Jungnangcheon River') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for XDJ03295 from accession literature=============
+Paper: PMC12584253.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature range over which phage kp20 retained infectivity: "Phage kp20 retained infectivity over a range of temperatures (4–40 °C)". This range (4–40°C) falls within the definition of mesophile (15–45°C).
+
+
+Paper: PMC12820288.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the bacterial culture was carried out in Luria Bertani (LB) broth or on LB agar at 37 °C, and that the in vitro bacteriolytic activity was assessed by incubation at 37 °C. Furthermore, the OSG experiment involved incubation at 37 °C, and the biofilm formation assays were incubated at 37 °C. The discussion section notes that the optimal performance was observed at 37 °C, which is the average human body temperature, consistent with mesophilic conditions (15–45°C).
+
+
+Paper: PMC12827599.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions incubation temperatures for various assays. For bacterial isolation and enrichment, the temperature used was 30°C: "Filtrates were enriched overnight with a cocktail of all isolated bacterial strains in a 250 mL flask at 30 °C and 280 rpm." For antibiotic susceptibility testing, the incubation temperature was 30°C: "Plates were incubated at 30°C for 48 h...". For host range assays, the incubation temperature was 28°C: "Plates were incubated at 28°C, and lysis zones were recorded after overnight incubation." For MOI determination, the incubation temperature was 30°C: "Each MOI group was 10-fold serially diluted in LB broth and incubated at 30°C for 5 h with shaking at 180 rpm." For one-step growth curve, the incubation temperature was 30°C: "Suspensions were incubated at 30°C for 10 min without shaking and then centrifuged at 10,000 rpm for 10 min. Pellets were resuspended in prewarmed 10 mL LB and incubated at 30°C with shaking at 160 rpm." For phage adsorption rate assay, the incubation temperature was 30°C: "Phage-bacterial suspensions were prepared at the optimal MOI and incubated at 30°C with shaking at 120 rpm." For lytic activity assays, the incubation temperature was 30°C: "Samples were incubated at 30°C for 12 h with intermittent shaking...". For biofilm formation, the incubation temperature was 30°C: "...and incubated at 30°C without shaking for 24 h to allow biofilm formation." For one-step growth curve, the incubation temperature was 30°C: "...and incubated at 30°C with shaking at 160 rpm." The stability assays tested temperatures ranging from 4°C to 45°C, and the general optimal growth/assay temperature is consistently around 30°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11782208.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various assays. For phage isolation, the mixture was incubated at "37°C" ("The mixture was incubated at 37°C for 10 min to allow phage adsorption to the bacterial cells."). For the killing curve assay, the plates were incubated at "37°C" ("...then the plates were incubated at 37°C."). For the one-step growth curve, the incubation was performed at "37°C" ("...and incubated at 37°C for 10 min for phage adhesion."). For the host range assay, the incubation was "overnight incubation at 37°C" ("After overnight incubation at 37°C, plaque formation was observed."). For the initial DNA extraction step, an incubation was performed at "37°C" ("...and incubated at 37°C for 90 min to eliminate external DNA or RNA."). The stability assay tested temperatures including 30°C, 40°C, 50°C, 60°C, 70°C, and 80°C, and the text notes the phage was "stable at temperatures ranging from 30 to 70°C". Since the optimal and most frequently used temperature for growth and activity testing is 37°C, which falls within the 15–45°C range, the classification is mesophile.
+
+
+=============Reasoning for XDJ03295 from host literature=============
+=============Reasoning for XDJ03295 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Klebsiella phage K14-2.
+2. Check for environmental context: The isolation source is 'Jungnangcheon River' and the collection date is '2023-06-20'. Rivers generally maintain temperatures within the moderate range (15–45°C) unless extreme weather conditions are specified.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (river) suggests moderate temperatures, the inference leans towards mesophile. However, as the environmental context is not definitive enough to override the lack of direct data, the fallback rule (Rule 4) is applied.
+4. Fallback: Default to 'mesophile'.
+
+

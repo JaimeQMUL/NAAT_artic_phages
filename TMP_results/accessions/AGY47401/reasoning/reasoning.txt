@@ -1,0 +1,20 @@
+=============Reasoning for AGY47401 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Bacillus phage Grass') and the host ('Bacillus subtilis'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for AGY47401 from accession literature=============
+=============Reasoning for AGY47401 from host literature=============
+=============Reasoning for AGY47401 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Bacillus phage Grass') and its host ('Bacillus subtilis').
+2. Bacillus species are generally known to inhabit moderate environments, often associated with soil or mammalian hosts, which typically fall within the mesophilic range (15–45°C).
+3. There is no explicit mention of optimal growth temperature, cold adaptation, or high-temperature stability.
+4. Following the decision rules, since no explicit evidence exists, the inference is drawn from the known ecology of the host organism (Bacillus subtilis), leading to the assignment of 'mesophile'.
+5. As the evidence is based on general knowledge of the host rather than direct metadata statements, this is treated as a fallback classification.
+
+

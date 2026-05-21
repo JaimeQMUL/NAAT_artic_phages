@@ -1,0 +1,46 @@
+=============Reasoning for WOF01167 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'river in Fu'an Village' and the host as 'Enterobacter sp.', but it does not explicitly state a temperature or a thermal classification (psychrophile, mesophile, thermophile) for the phage or its host.
+
+
+=============Reasoning for WOF01167 from accession literature=============
+Paper: PMC12584729.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The abstract states: "All phages remained stable across pH 3–11 for up to 90 minutes, with an optimal temperature range of 25°C–37°C." The optimal range of 25°C–37°C falls within the mesophile definition (15–45°C).
+
+
+Paper: PMC11963603.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that when assessing the stability of phage ФECL22, "Phage incubated at 25°C was set as the control," and that the phage cocktail was used to rescue mice with E. cloacae bacteremia, and bacterial strains were cultured in LB broth at 37°C. The optimal growth temperature for the host bacteria (E. cloacae) is 37°C, which falls within the mesophile range (15–45°C). Furthermore, the stability test for ФECL22 used 25°C as a control, and the adsorption/MOI determination was performed at 37°C. Since the host bacteria are cultured and the phage activity is tested at 37°C, the relevant thermal condition is mesophilic.
+
+
+Paper: 40022945.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "It exhibits narrow-spectrum activity against Enterobacter spp. and remains stable across a temperature range of 4-50 °C". Since the mesophile range is defined as 15–45°C, and the stated range (4-50°C) encompasses this range and is the only explicit thermal characteristic provided for the phage, the classification is mesophile based on the provided definitions.
+
+
+=============Reasoning for WOF01167 from host literature=============
+Paper: PMC13179404.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth conditions for the strains: "The optimum growth of both strains, when grown on LB medium, was at pH 9 with 3% salinity at 35 °C (Table S1)." Furthermore, when discussing the initial inoculum preparation, it states: "For all subsequent experiments, inoculum was prepared by growing the strains in 10 mL LB medium amended with 1 mg L− 1 Cr(VI) in 15 mL culture tubes at 35 °C under anaerobic conditions." The temperature of 35°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WOF01167 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Enterobacter phage vB_Ent31.
+2. Check for environmental context: The isolation source is 'river in Fu'an Village' from China. River environments typically fluctuate but are generally associated with mesophilic conditions (15–45°C) rather than extreme psychrophilic or thermophilic conditions.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (river) suggests moderate temperatures, the most probable classification is mesophile. As the environmental context is not strongly defining, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for ANH51145 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'chicken cecum', which is a mammalian gastrointestinal tract environment, typically associated with mesophilic conditions.
+
+
+=============Reasoning for ANH51145 from accession literature=============
+=============Reasoning for ANH51145 from host literature=============
+=============Reasoning for ANH51145 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage targets 'Campylobacter jejuni LBA65' and was isolated from 'chicken cecum' in Slovenia. 
+2. **Determine Environmental Context:** *Campylobacter* species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens). The typical temperature range for the mammalian gut is mesophilic (around 37°C).
+3. **Apply Decision Rules:** No explicit thermal range is provided. The environmental context (gastrointestinal tract) strongly suggests mesophilic conditions (15–45°C).
+4. **Conclusion:** Since the context points strongly towards mammalian gut flora, 'mesophile' is the most probable classification. This classification is assigned by inference, but since the environmental context is not explicitly defined by a temperature number, it defaults to the most probable class based on the host organism's known niche, leading to a 'forced' assignment based on the fallback rule (Rule 3).
+
+

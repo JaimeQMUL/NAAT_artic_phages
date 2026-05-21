@@ -1,0 +1,19 @@
+=============Reasoning for WRQ12700 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('bufallo dung') and the lab host ('Escherichia coli serotype 078:H11:K80, Escherichia coli serotype 06:H16'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for WRQ12700 from accession literature=============
+=============Reasoning for WRQ12700 from host literature=============
+=============Reasoning for WRQ12700 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'bufallo dung' (buffalo dung). While dung can vary in temperature, this context is not specific enough to definitively place the phage in psychrophile or thermophile ranges.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is weak, the system must default to the 'mesophile' classification as per Rule 4.
+4. **Conclusion:** The default classification is mesophile.
+
+

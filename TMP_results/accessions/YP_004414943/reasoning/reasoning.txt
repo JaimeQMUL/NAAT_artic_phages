@@ -1,0 +1,23 @@
+=============Reasoning for YP_004414943 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Shigella phage Shfl2') and its host ('Shigella flexneri'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for YP_004414943 from accession literature=============
+Paper: PMC5931544.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal temperature for viral replication: "Viral replication at different temperatures (4°C, 22°C, 30°C and 37°C) was assessed by spot-assay after 24 hours of incubation using a 10-fold serially diluted viral stock in LB medium." The highest temperature tested for replication was 37°C, which falls within the mesophile range (15–45°C). Furthermore, the pH stability test was conducted at 37°C, and the initial viral titer measurement was done at 37°C. The conclusion also mentions that the phage is a potential biological agent for controlling acute infections in dairy cows, which are typically maintained at mesophilic temperatures.
+
+
+=============Reasoning for YP_004414943 from host literature=============
+=============Reasoning for YP_004414943 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Shigella phage Shfl2) and its host (Shigella flexneri). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The host, *Shigella flexneri*, is a human pathogen typically associated with moderate human body temperatures (37°C), which falls within the mesophilic range (15–45°C). 4. Since no explicit evidence exists, the most probable classification is mesophile, based on the known biology of the associated host organism, following the fallback rule (Rule 3).
+
+

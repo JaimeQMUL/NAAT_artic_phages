@@ -1,0 +1,19 @@
+=============Reasoning for QLF86233 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'coastal surface seawater' from 'Crystal Cove, California', which suggests a moderate, non-extreme temperature environment, consistent with mesophilic conditions. No explicit temperature is provided.
+
+
+=============Reasoning for QLF86233 from accession literature=============
+=============Reasoning for QLF86233 from host literature=============
+=============Reasoning for QLF86233 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'coastal surface seawater' from 'Crystal Cove, California', and the collection date is '12-Aug-2009'.
+2. **Determine Environmental Context:** Coastal surface seawater generally represents moderate, ambient temperatures, typically falling within the mesophilic range (15–45°C).
+3. **Apply Decision Rules:** Since no explicit thermal range is provided, inference is required. The environmental context (coastal surface seawater) strongly suggests mesophilic conditions.
+4. **Conclusion:** Assign 'mesophile' based on the typical temperature profile of the isolation source.
+
+

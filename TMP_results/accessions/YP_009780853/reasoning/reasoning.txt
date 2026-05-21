@@ -1,0 +1,16 @@
+=============Reasoning for YP_009780853 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Staphylococcus phage A3R') and the lab host ('Staphylococcus aureus strain R19930'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_009780853 from accession literature=============
+=============Reasoning for YP_009780853 from host literature=============
+=============Reasoning for YP_009780853 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Staphylococcus phage A3R) but contains no explicit data regarding its optimal growth temperature or the environmental conditions it is associated with (e.g., temperature ranges). 2. Therefore, no explicit evidence is available (Rule 1 fails). 3. There is no environmental context to infer from (Rule 2 fails). 4. As per the decision rules, if no useful metadata exists, the system must default to 'mesophile' (Rule 3/4).
+
+

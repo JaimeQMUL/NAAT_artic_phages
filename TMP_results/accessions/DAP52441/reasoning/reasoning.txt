@@ -1,0 +1,16 @@
+=============Reasoning for DAP52441 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the 'isolation_source' is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAP52441 from accession literature=============
+=============Reasoning for DAP52441 from host literature=============
+=============Reasoning for DAP52441 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the country is 'USA'. Human-associated microbes and phages are generally associated with moderate body temperatures (around 37°C), which falls within the mesophilic range (15–45°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a human host, pointing towards mesophily. 4. Fallback: Because the environmental context (human host) strongly suggests moderate temperatures, this inference is used. If the context were completely absent, the default would be mesophile. Therefore, mesophile is selected.
+
+

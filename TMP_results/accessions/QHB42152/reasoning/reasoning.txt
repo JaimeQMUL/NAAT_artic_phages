@@ -1,0 +1,32 @@
+=============Reasoning for QHB42152 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Dickeya phage Ds20CZ') and its host ('Dickeya solani'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for QHB42152 from accession literature=============
+=============Reasoning for QHB42152 from host literature=============
+Paper: PMC12347403.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth temperatures used for the strains: "The temperature of growth was set at 28 °C for D. solani and at 37 °C in the case of B. subtilis and E. coli." Since 28°C and 37°C fall within the mesophile range (15–45°C), the phage's thermal characteristic is inferred to be mesophilic based on the optimal growth conditions of the interacting bacteria/host environment.
+
+
+Paper: 41676063.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states, "thermal stability tests indicated that all three phages maintained infectivity across a broad temperature range (-20 °C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range includes this range, the classification is mesophile. The upper limit (60°C) exceeds the mesophile definition, but the broad range encompasses the mesophile range, and no specific optimal temperature is given to classify it as thermophile or psychrophile.
+
+
+=============Reasoning for QHB42152 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the phage 'Dickeya phage Ds20CZ'.
+2. There is no environmental context to infer a psychrophile or thermophile classification.
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+
+

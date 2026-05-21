@@ -1,0 +1,26 @@
+=============Reasoning for QVD58345 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for QVD58345 from accession literature=============
+Paper: PMC8065394.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for measuring the kinetic host range (KHR) and for the general incubation period for phage propagation and testing: "Reaction plates were incubated at 37 °C for 24 h." and "After overnight incubation at 37 °C, plaques were counted at the appropriate dilution." Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for QVD58345 from host literature=============
+=============Reasoning for QVD58345 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to accession numbers, titles, and general sequence information for 'Staphylococcus phage PM4'.
+2. There is no explicit mention of optimal growth temperature, isolation source temperature, or any thermal characteristics.
+3. Following the decision rules, since no explicit evidence exists, the system must infer or default. The most probable classification based on the lack of evidence is to default to 'mesophile' as per the fallback rule (Rule 4).
+4. Therefore, the classification is mesophile, and the inference type is forced.
+
+

@@ -1,0 +1,54 @@
+=============Reasoning for YP_009876592 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host, and accession details, but no explicit or strongly implied temperature or environmental condition (such as psychrophile, mesophile, or thermophile indicators) is present.
+
+
+=============Reasoning for YP_009876592 from accession literature=============
+Paper: PMC12390700.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the host strain, A. veronii CEMTC 7594, "can grow at temperatures from 5 °C to 37 °C with an optimum of 25–37 °C". The phage 332-Igor's optimal growth was explicitly stated as "25 °C". The phage 332-Vera was observed to "infect host cells at 5–10 °C". The general optimal growth range for the host (25–37 °C) falls within the mesophile definition (15–45°C). Since the phage's optimal growth (332-Igor at 25°C) and the host's optimal growth are within this range, the overall classification is mesophile.
+
+
+Paper: PMC10702751.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states, "The optimum temperature activity of phage was designate between 30°C and 50°C." Since the mesophile range is defined as 15–45°C, and the stated optimum range (30°C to 50°C) significantly overlaps and centers within this range, the classification is mesophile. Furthermore, the text mentions that the phage was stable when kept at "30°C to 60°C for a period of 60 min," and that the phage titers were lost by about 40 and 70% during incubated at 70°C and 80°C, respectively, supporting an optimal range below 50°C.
+
+
+Paper: PMC11428620.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions that bacterial strains were grown in Luria–Bertani medium (LB) broth at 37 °C (Section 3.1). Furthermore, the phage propagation and host range assays were conducted at 37 °C (Section 3.2 and 3.3). The conclusion also discusses the phage cocktail's ability to control Salmonella contamination at a refrigerated temperature (4 °C) during food storage, but the optimal/standard growth temperature for the bacteria and the initial assays for the phages were 37 °C. Since 37 °C falls within the mesophile range (15–45°C), the inferred thermal characteristic is mesophile.
+
+
+Paper: 30297056.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that 'Phage cocktail treatments achieved 4.7-5.5 log CFU/cm2 reduction of viable cell number in iceberg lettuce and 4.8-5.8 log CFU/cm2 reduction in cucumber after 12 h at room temperature (25 °C).' Since the optimal growth/activity condition tested and reported for the phage cocktail (which includes BSP101) was at 25 °C, this suggests a mesophilic characteristic (15–45°C).
+
+
+=============Reasoning for YP_009876592 from host literature=============
+Paper: PMC8432352.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation conditions for phage plaque assays and DNA extraction/purification steps involving the S117 phage: 
+1. Phage propagation: "...was grown to the exponential phase at 37 °C and 180 rpm." and "...the plate was incubated aerobically at 37 °C overnight." 
+2. Phage plaque assay: "The plates were incubated overnight at 37 °C..." 
+3. DNA extraction: "...incubated for 20 min at 37 °C in a thermoshaker (500 rpm, Eppendorf, Germany)." and "...followed by incubation for 2 h at 56 °C." (The primary growth/assay temperature is 37°C, which falls within the mesophile range of 15–45°C).
+
+
+=============Reasoning for YP_009876592 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Salmonella phage BSP101) and its host (Salmonella enterica serovar typhimurium LT2C). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The host, Salmonella enterica, is a common human/animal pathogen typically associated with mesophilic environments (15–45°C). 4. Since no explicit evidence exists, the decision rules mandate defaulting to 'mesophile' as the most probable classification, given the biological context of the host organism.
+
+

@@ -1,0 +1,32 @@
+=============Reasoning for YP_009842026 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'river', which typically implies mesophilic conditions. The lab host is 'Serratia marcescens 2170', which is generally associated with mesophilic environments.
+
+
+=============Reasoning for YP_009842026 from accession literature=============
+=============Reasoning for YP_009842026 from host literature=============
+Paper: PMC13039501.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The larvae were exposed to treatments at specific temperatures: "Second instar larvae were exposed to M. anisopliae ICIPE 30 and ICIPE 18 at the temperatures of 15 20, 25 30 and 35 °C." The optimal growth range for the host/experiment was established by the testing temperatures, which include 20°C, 25°C, and 30°C. The general definition for mesophile is 15–45°C. Since the experiment tested temperatures within this range, and the results highlighted effects at 20°C, 25°C, and 30°C, the thermal characteristics are best categorized as mesophilic based on the tested range.
+
+
+Paper: PMC12288289.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that 'Three biological replicates of E. coli K12 and S. marcescens were grown in LB media and nutrient broth and incubated at 37°C overnight'. Since the phage is being studied in relation to the host bacteria, and the host was grown at 37°C, this temperature is used to infer the relevant thermal conditions for the phage/host system. 37°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009842026 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'river'. Rivers typically maintain temperatures within the mesophilic range (15–45°C), although this is not definitive.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('river') suggests moderate temperatures, the most probable classification is mesophile. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'.
+
+

@@ -1,0 +1,18 @@
+=============Reasoning for YP_009781533 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Staphylococcus aureus subsp. aureus strain ATCC 25923') but does not specify any temperature or growth conditions for the phage or the host.
+
+
+=============Reasoning for YP_009781533 from accession literature=============
+=============Reasoning for YP_009781533 from host literature=============
+=============Reasoning for YP_009781533 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Staphylococcus phage MSA6) but contains no explicit data regarding its optimal growth temperature or the environmental conditions it is isolated from.
+2. There is no environmental context to infer a psychrophile or thermophile classification.
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for YP_009601143 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Sinorhizobium phage phiM7') and the lab host ('Sinorhizobium meliloti'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for YP_009601143 from accession literature=============
+Paper: PMC10927670.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The phages were isolated and enriched using host S. meliloti NRRL L-50, and the enrichment cultures were incubated at 28°C. The text states: "Enrichment cultures were prepared by incubating 10 grams of soil with 0.5 mL of overnight culture of host S. meliloti NRRL L-50 in 50 mL of tryptone yeast broth containing 0.45% CaCl2 and incubated at 28°C for 48 h with shaking at 90 rpm (6, 8)."
+
+
+=============Reasoning for YP_009601143 from host literature=============
+=============Reasoning for YP_009601143 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Sinorhizobium phage phiM7') and its lab host ('Sinorhizobium meliloti').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range.
+3. Sinorhizobium species are generally associated with soil and root nodules, which typically maintain mesophilic conditions (15–45°C).
+4. Since no explicit evidence is available, the decision rules mandate defaulting to 'mesophile' as the most probable classification, as per Rule 4.
+
+

@@ -1,0 +1,18 @@
+=============Reasoning for ADT64022 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal range of the bacteriophage or its host.
+
+
+=============Reasoning for ADT64022 from accession literature=============
+=============Reasoning for ADT64022 from host literature=============
+=============Reasoning for ADT64022 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Streptococcus phage Dp-1) but contains no explicit temperature data (optimal growth temperature, isolation temperature, etc.).
+2. There is no environmental context (e.g., deep sea, hot spring) to infer a specific thermal range.
+3. Following the decision rules, since no explicit evidence exists, and environmental context is weak/absent, the system must default to 'mesophile'.
+
+

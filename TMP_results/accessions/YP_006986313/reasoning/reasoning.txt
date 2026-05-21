@@ -1,0 +1,19 @@
+=============Reasoning for YP_006986313 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Cronobacter sakazakii') and collection details, but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range.
+
+
+=============Reasoning for YP_006986313 from accession literature=============
+=============Reasoning for YP_006986313 from host literature=============
+=============Reasoning for YP_006986313 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the phage.
+2. Check for environmental context: The metadata provides the host organism ('Cronobacter sakazakii'), the collection country ('Canada'), and the collection date ('14-Jan-2008'). While the host is associated with environmental bacteria, no specific temperature range is given for the phage or its host.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient to strongly infer psychrophile or thermophile conditions, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with 'forced' inference type and 'low' confidence due to lack of data.
+
+

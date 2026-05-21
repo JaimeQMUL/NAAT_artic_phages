@@ -1,0 +1,33 @@
+=============Reasoning for QIW91024 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'water' but does not specify a temperature range for this water, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for QIW91024 from accession literature=============
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+Paper: 37250064.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the phage "was stable over a broad pH range (4.0-11.0) and a wide temperature span (-80°C to 60°C), respectively". Since the defined mesophile range is 15–45°C, and the stated stability range includes this range, the classification is mesophile. The upper limit of 60°C exceeds the mesophile definition, but the stability across a wide range including the mesophilic range is the most direct evidence.
+
+
+=============Reasoning for QIW91024 from host literature=============
+=============Reasoning for QIW91024 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Vibrio parahaemolyticus' and isolated from 'water' in 'China'.
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature.
+3. **Infer from Context:** *Vibrio* species are generally associated with aquatic environments. While some *Vibrio* species can inhabit diverse temperatures, the general environmental context (fresh/seawater isolation) does not strongly point towards extreme cold (<15°C) or extreme heat (>45°C). The default assumption for phages associated with common environmental bacteria like *Vibrio* in general water samples, without further data, is mesophilic activity.
+4. **Apply Fallback Rule:** Since environmental context is weak for precise classification, the system defaults to 'mesophile' as per the decision rules.
+
+

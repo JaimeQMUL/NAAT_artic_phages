@@ -1,0 +1,16 @@
+=============Reasoning for YP_009100585 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Shigella flexneri ATCC 2587'), and accession details, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_009100585 from accession literature=============
+=============Reasoning for YP_009100585 from host literature=============
+=============Reasoning for YP_009100585 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Shigella phage Shf125875) and its host (Shigella flexneri ATCC 2587). 2. There is no explicit mention of optimal growth temperature or thermal range. 3. The host, *Shigella flexneri*, is a human pathogen typically associated with moderate body temperatures (37°C), which falls within the mesophilic range (15–45°C). 4. Since no explicit evidence exists, the most probable classification is mesophile, based on the known biology of the associated pathogenic host. 5. This classification is assigned using the fallback rule (Rule 4) because environmental context (host biology) is the only available clue, leading to a forced assignment.
+
+

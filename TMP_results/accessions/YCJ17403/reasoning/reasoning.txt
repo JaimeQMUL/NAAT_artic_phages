@@ -1,0 +1,26 @@
+=============Reasoning for YCJ17403 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Pseudomonas aeruginosa 2024-DL02 (clinical strain)' and the isolation source is 'wastewater'. Clinical strains and wastewater environments are typically associated with mesophilic conditions, although no explicit temperature is given.
+
+
+=============Reasoning for YCJ17403 from accession literature=============
+=============Reasoning for YCJ17403 from host literature=============
+Paper: PMC13165683.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that when assessing host specificity, the bacteriophages were incubated at "37°C overnight." Furthermore, when culturing the bacteria and performing subsequent phage dilutions, the incubation temperatures mentioned are "37°C" (e.g., "...and incubated at 37°C overnight," and "...incubated at 37ºC for four hours. After four hours of incubation, the diluted phage was removed and dropped onto the pre-prepared bacterial lawn. Then, it was incubated at 37°C for one complete night."). Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YCJ17403 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'wastewater' and the host is a clinical strain of *Pseudomonas aeruginosa*. Wastewater and clinical environments typically represent mesophilic conditions (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context (wastewater/clinical isolate) strongly suggests mesophilic conditions. However, as the context is not definitive enough to override the lack of direct thermal data, and following the fallback rule (Rule 4) if context is weak or absent, the default classification is 'mesophile'.
+4. **Conclusion:** The most probable classification, based on the default fallback rule for insufficient evidence, is mesophile.
+
+

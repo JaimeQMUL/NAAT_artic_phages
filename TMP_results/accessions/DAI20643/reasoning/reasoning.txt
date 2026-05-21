@@ -1,0 +1,19 @@
+=============Reasoning for DAI20643 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the 'isolation_source' is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAI20643 from accession literature=============
+=============Reasoning for DAI20643 from host literature=============
+=============Reasoning for DAI20643 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2019-03-25'. Human-associated microbes and phages are generally associated with moderate body temperatures (around 37°C), which falls within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The human source strongly suggests a mesophilic lifestyle. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'. Given the strong context of human origin, 'mesophile' is the most probable classification.
+4. Conclusion: Assign 'mesophile' based on the human metagenome source.
+
+

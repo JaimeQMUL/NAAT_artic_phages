@@ -1,0 +1,33 @@
+=============Reasoning for CAD2272721 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for CAD2272721 from accession literature=============
+Paper: PMC9294173.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the stability range for vB_kpnM_17-11: "vB_kpnM_17-11 remained stable in a wide range of pH (4-8) and temperature (4-40°C)". The mesophilic range is defined as 15–45°C. Since the phage is stable up to 40°C, it falls within the mesophilic range. Furthermore, the stability tests were performed at 37°C, which is a mesophilic temperature, and the optimal MOI determination was done by culturing at 37°C.
+
+
+Paper: PMC8044893.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and phage propagation. For bacterial strains, it mentions: "All bacteria were grown at 37°C in either Luria-Bertani Broth (LB—Thermo Fisher Scientific, United Kingdom) at 100 rpm or on LB 1% (w/v) agar plates." For phage isolation and propagation, it states: "...and incubated overnight at 37°C." Furthermore, for the biofilm assay, it specifies: "Bacterial cultures were grown overnight at 37°C, 100 rpm." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for CAD2272721 from host literature=============
+=============Reasoning for CAD2272721 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Klebsiella phage vB_KpnM_311F.
+2. Check for environmental context: The metadata only provides general identifiers (uid, accession, title, etc.) and no environmental context (e.g., soil, gut, hot spring).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is absent, the system must default to the fallback classification rule (Rule 4).
+4. Fallback assignment: The default classification is 'mesophile'.
+
+

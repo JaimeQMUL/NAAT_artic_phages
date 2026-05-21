@@ -1,0 +1,40 @@
+=============Reasoning for XPO97844 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage from septic tank'. Septic tanks and sewage generally represent environments associated with moderate temperatures, which aligns with the definition of mesophile.
+
+
+=============Reasoning for XPO97844 from accession literature=============
+Paper: PMC13153029.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability assessment: "As shown in Figure 3A, DSF2 maintained stable within the range of 4 °C−50 °C; however, its stability began to decline after 80 min at 60 °C..." and "Most bacteriophages exhibit optimal stability within a temperature range of approximately 4 °C −42 °C, with maximal activity particularly observed between room temperature and human physiological temperature (roughly 20 °C−37 °C) (Jończyk et al., 2011)." The optimal/stable range encompassing physiological temperatures (20–37°C) falls within the mesophile definition (15–45°C).
+
+
+=============Reasoning for XPO97844 from host literature=============
+Paper: PMC11665395.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The antibacterial activity test for the synthesized TiO2 NPs was conducted by incubating the samples for "24 h at 30 °C." This explicitly states the incubation temperature used for testing the phage/bacterial interaction, which is the only temperature related to the biological activity mentioned in the text. Since 30°C falls within the range of 15–45°C, it classifies as mesophilic.
+
+
+Paper: PMC4845012.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for HeLa cells, which are used in the invasion assays involving the phage's host cell line. The text mentions: "HeLa cells (Instituto Adolfo Lutz, São Paulo, SP, Brazil) were grown in RPMI 1640 medium (Sigma-Aldrich, St Louis, MO, USA) supplemented with 10% fetal bovine serum (FBS, Invitrogen, Carlsbad, CA, USA), 10 μg/mL streptomycin, 100 U/mL penicillin and 40 μg/mL gentamycin at 37 °C and 5% CO2." Furthermore, the invasion assays were performed by incubating cells and adding parasites/rTcMVK at "37 °C". Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for XPO97844 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Shigella phage SF2-1.
+2. **Check for environmental context:** The isolation source is 'sewage from septic tank'. While sewage can vary widely, the general environment associated with human/animal waste and typical laboratory handling (unless specified otherwise) suggests moderate temperatures.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (sewage) is not strongly indicative of extreme cold or heat, the system must default to the most probable classification based on the general nature of enteric phages and the fallback rule.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

@@ -1,0 +1,50 @@
+=============Reasoning for YP_004300858 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Aeromonas phage 65') and its host ('Aeromonas salmonicida'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for YP_004300858 from accession literature=============
+=============Reasoning for YP_004300858 from host literature=============
+Paper: PMC13163003.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for various assays involving the isolated strains, including: 
+1. Initial incubation for isolation: "plated on MPA-containing plates, and incubated at 28 °C for 72 h." (Section 2.1)
+2. QQ testing (Qualitative and Quantitative): "The plates were incubated for 48 h at 28 °C." (Section 2.2) and "incubated for 24 h at 28 °C." (Section 2.3).
+3. QQ Enzymatic Activity: "samples were incubated for 24 h at 28 °C." (Section 2.4).
+4. Cellular/Extracellular Localization: "incubated for 24 h at 28 °C." (Section 2.5).
+5. Inhibition Assays (Growth/Biofilm): "incubated for 24 h at 28 °C." (Sections 2.8, 2.10).
+6. Growth under Environmental Factors: "The tubes with mixture were incubated at 28 °C for 48 h." (Section 2.12, bile salts).
+7. Growth Temperature Assessment: "incubated at different temperatures (8 °C, 15 °C, 28 °C, and 37 °C) for 48 h." (Section 2.12). 
+
+The text concludes that the strains "demonstrated the ability to grow over a wide temperature span (from 8 °C to 37 °C). The most active growth was observed at temperatures of 28 °C and 37 °C." Since the optimal growth range includes 28 °C and 37 °C, and the general range spans 8 °C to 37 °C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13118686.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states regarding A. piscicola: "Phenotypically, A. piscicola comprises mesophilic, motile microorganisms..." and later, "The corresponding growth curves reveal optimal growth for all isolates at mesophilic temperatures (23 °C), maintaining the ability to adapt to psychrophilic conditions (10 °C). Growth at 37 °C, albeit suboptimal, could be confirmed for the A. salmonicida vapA-absent genotype and for all A. salmonicida-like isolates." Since the question asks for the thermal characteristics of the phage, and no phage information is provided, the thermal characteristics of the bacterium A. piscicola are extracted. The paper explicitly classifies A. piscicola as mesophilic.
+
+
+Paper: PMC13155701.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that 'All strains were cultured using a standardized procedure as described in the Manual of Clinical Microbiology. The strains were inoculated separately onto blood agar plates (Qingdao Hope Bio-Technology Co., Ltd., Qingdao, China) or marine agar 2216E culture media (Jinan Bio-Gene Technology Co., Ltd., Jinan, China) and incubated at 37 °C for 16–18 h.' Since the incubation temperature is 37°C, which falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_004300858 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Aeromonas phage 65') and its host ('Aeromonas salmonicida').
+2. 'Aeromonas' species are generally associated with freshwater and brackish water environments, which typically have moderate temperatures.
+3. There is no explicit mention of optimal growth temperature, temperature range, or environmental source temperature.
+4. Based on the general ecology of the host organism (Aeromonas), the most probable classification is mesophile (15–45°C).
+5. Since no explicit evidence exists, the classification defaults to 'mesophile' as per the decision rules.
+
+

@@ -1,0 +1,27 @@
+=============Reasoning for YCR04191 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage', which typically implies mesophilic conditions. The host is 'Escherichia coli MCC2246', which is a common mesophilic bacterium.
+
+
+=============Reasoning for YCR04191 from accession literature=============
+=============Reasoning for YCR04191 from host literature=============
+Paper: PMC11895373.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various assays involving Sharanji: 
+1. 
+
+
+=============Reasoning for YCR04191 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'sewage' and the host is 'Escherichia coli MCC2246'. *Escherichia coli* is a common mesophilic bacterium, typically thriving between 35°C and 37°C (human body temperature).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is drawn from the known ecology of the host organism (*E. coli*). The most probable classification is mesophile.
+4. **Fallback:** The classification defaults to mesophile based on the host's typical physiology, as per the decision rules.
+
+

@@ -1,0 +1,65 @@
+=============Reasoning for YP_007237363 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil from potato trial field'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for YP_007237363 from accession literature=============
+Paper: PMC3296691.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that 'Phage were stable at temperatures from 4°C to 37°C in phage buffer'. The mesophilic range is defined as 15–45°C, and the observed stability range (4°C to 37°C) falls within or overlaps significantly with this range, with the upper limit (37°C) being characteristic of mesophiles.
+
+
+=============Reasoning for YP_007237363 from host literature=============
+Paper: PMC12886445.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "thermal stability tests indicated that all three phages maintained infectivity across a broad temperature range (−20 °C to 60 °C)". The optimal growth temperature for the host, D. solani, was used for multiple assays, including "incubated at 28 °C" (Section 2.2, 2.3, 2.5, 2.6, 2.8, 2.9). The general optimal growth range for mesophiles is 15–45°C. Since the phages maintained infectivity up to 60°C but were tested and used in assays centered around 28°C, and the host growth was optimized at 28°C, the classification points towards mesophile, as 28°C falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC10620192.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature used for multiple assays involving D. solani strains: 
+1. "All the Dickeya spp. strains were grown on TSA plates (GRASO Biotech, Poland) at 28 °C for 48 h." (MALDI-TOF MS section)
+2. "Five ml of Trypticase Soy Broth (TSB) were inoculated with a single bacterial colony collected from a TSA plate and incubated for 24 h at 28 °C with 120 rpm shaking." (Virulence-associated features section)
+3. "The absorbance at 600 nm was measured every 20 min during 24 h stationary incubation at 28 °C." (Growth dynamics section)
+4. "The lid-covered boxes were incubated for 48 h at 28 °C." (Potato tissue maceration assay section)
+5. "After 48 h incubation at 28 °C, the medium was flooded with 10% copper acetate." (Pectinase activity section)
+6. "After 48 h incubation at 28 °C, the medium was covered with 1% Congo red solution..." (Cellulase activity section)
+7. "After 24 h incubation at 28 °C, the diameters of the halo zones surrounding bacterial colonies... were measured." (Protease activity section)
+8. "After 24 h of incubation at 28 °C, the diameters of the bacterial colonies were measured." (Swimming motility section)
+9. "After 16 h incubation at 18 °C without shaking..." (Biofilm formation section - Note: This is a different temperature, but the majority of growth/assay temperatures are 28°C).
+10. "After 24 h incubation at 28 °C, the diameters of the halo zones around bacterial colonies reflecting siderophore activity were measured." (Siderophores section)
+11. "These media were examined after 24 h incubation at 28 °C, further monitored for over 72 h..." (Biochemical profiles section). 
+Since the optimal/standard growth and assay temperature is consistently reported as 28°C, which falls within the 15–45°C range, the organism is classified as mesophile.
+
+
+Paper: PMC12347403.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth temperatures used for the strains: "The temperature of growth was set at 28 °C for D. solani and at 37 °C in the case of B. subtilis and E. coli." Since 28°C and 37°C fall within the mesophile range (15–45°C), the phage's associated bacteria are characterized as mesophiles.
+
+
+Paper: PMC10169776.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth rate of the mutants was tested at various temperatures, including 15°C, 28°C, and 37°C. The growth rate of the mutants tested at various temperatures (5, 8, 15, 28, and 37 °C) did not differ from that of the WT strain. Since the optimal growth range for mesophiles is 15–45°C, and the tested temperatures include 15°C, 28°C, and 37°C, this suggests a mesophilic nature.
+
+
+=============Reasoning for YP_007237363 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is 'soil from potato trial field' and the collection date is 'Sep-2008'. Soil environments are generally considered mesophilic, though temperature can vary. The host, 'Dickeya solani', is a common plant pathogen often associated with moderate temperatures.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context (soil, plant pathogen) suggests mesophilic conditions (15–45°C). However, the evidence is not strongly implied (e.g., no specific soil temperature was given). Therefore, the fallback rule (Rule 4) is invoked, defaulting to 'mesophile'.
+
+

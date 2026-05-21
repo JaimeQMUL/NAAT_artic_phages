@@ -1,0 +1,16 @@
+=============Reasoning for BCU96367 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'seawater metagenome' and the organism is an 'uncultured marine virus'. However, no specific temperature range (psychrophile, mesophile, or thermophile) is explicitly stated or strongly implied by the provided text.
+
+
+=============Reasoning for BCU96367 from accession literature=============
+=============Reasoning for BCU96367 from host literature=============
+=============Reasoning for BCU96367 from metadata (Forced)=============
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target is an 'uncultured marine virus' isolated from 'seawater metagenome' and 'seawater'. Marine environments, especially those associated with uncultured viruses, are typically characterized by cold temperatures, making 'psychrophile' the most probable classification based on environmental context. While no explicit temperature is given, the marine source strongly suggests cold adaptation.
+
+

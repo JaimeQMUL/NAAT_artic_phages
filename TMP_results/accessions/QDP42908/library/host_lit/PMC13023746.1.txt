@@ -1,0 +1,302 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Bioengineering (Basel)
+Journal ID: Bioengineering (Basel)
+Journal ID: bioengineering
+
+Bioengineering
+
+EISSN: 2306-5354
+Publisher: Multidisciplinary Digital Publishing Institute (MDPI)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13023746
+PMID: 41899844
+DOI: 10.3390/bioengineering13030313
+Article ID: bioengineering-13-00313
+Article version: 1
+Subjects: Article
+
+Valorization of Dried Okara Hydrolysate for Polyhydroxybutyrate Production by Newly Isolated Burkholderia sp. EP10
+
+Hwang Eun Pyo 1
+https://orcid.org/0000-0001-5133-149X Kim Do Young 2
+Kim Jong-Sik 1
+Chung Chung-Wook 1 *
+Demitri Christian Academic Editor
+1 Department of Biological Sciences, Gyeongkuk National University, Andong 36729, Republic of Korea; hwp1997@naver.com (E.P.H.); jsk@anu.ac.kr (J.-S.K.)
+2 Microbiome Convergence Research Center, Korea Research Institute of Bioscience and Biotechnology (KRIBB), Daejeon 34141, Republic of Korea; kdy119@kribb.re.kr
+* Correspondence: chung1409@gknu.ac.kr; Tel.: +82-54-820-5465; Fax: +82-54-820-6824
+Electronic publication date: 2026 Mar 9
+Publication date: 2026 Mar
+Volume: 13
+Issue: 3
+Electronic Location ID: 313
+Received 2026 Feb 5; Revised 2026 Feb 28; Accepted 2026 Mar 4
+Copyright: © 2026 by the authors.
+Copyright year: 2026
+License: Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: Burkholderia sp. EP10, lignocellulosic hydrolysate, okara byproduct, pH-uncontrolled fermentation, polyhydroxybutyrate
+
+Funding: National Research Foundation of Korea (NRF) 2020R1F1A1058574 Regional Innovation System & Education (RISE) program B0080526002355 This work was supported by the National Research Foundation of Korea (NRF), funded by the Korean government (MSIT) (Grant No. 2020R1F1A1058574), and by the Regional Innovation System & Education (RISE) program through the Gyeongbuk RISE Center, funded by the Ministry of Education (MOE) and Gyeongsangbuk-do, Republic of Korea (Grant No. B0080526002355).
+
+==============================
+Dried okara (DOK), a lignocellulosic byproduct from tofu production, was evaluated as both a carbon source and culture medium to enable cost-effective polyhydroxybutyrate (PHB) production. Hydrolysis with either HCl or H2SO4 generated 48–51 g/L reducing sugars with peak values reaching 60.2 g/L using 3% acid at 121 °C. Analysis of monosaccharides indicated pentoses, especially xylose, as the main sugars present. A novel strain, Burkholderia sp. EP10 exhibited direct growth and PHB accumulation in DOK hydrolysate without requiring detoxification, tolerating inhibitory compounds such as furfural and 5-hydroxymethylfurfural. In shake flask experiments, the strain achieved 6.9 g/L biomass and 26.3 wt% PHB, while in fermentor studies, biomass reached 10.9 g/L and PHB content was 29.3 wt% at a C/N ratio of 5.7. Notably, these outcomes were achieved without pH control, constituting a key benefit for operational simplification and cost minimization. The biopolymer was verified as PHB using gas chromatography, Fourier transform infrared spectroscopy, and proton nuclear magnetic resonance spectroscopy. The PHB displayed melting transitions at 163.5 and 172.4 °C, a degradation onset at 268 °C, and high molecular weight (4.66 × 105 Da). Burkholderia sp. EP10 for sustainable PHB production via direct bioconversion of lignocellulosic hydrolysates, without the need for pH adjustment, detoxification, or complex medium development.
+
+1. Introduction
+
+Petroleum-based plastics have been widely utilized across various industries due to their exceptional mechanical properties, including strength, flexibility, and thermal stability [1,2]. Nevertheless, the low rate of recycling for these materials has resulted in the significant accumulation of plastic waste, with an estimated 4.8–12.7 million tons entering the oceans every year. In the absence of more effective waste management strategies, the total amount of plastic waste is expected to exceed 1.3 gigatons by 2040 [3,4]. Ongoing dependence on fossil fuels for plastic manufacturing not only exhausts natural reserves but also imposes substantial environmental and ecological harm [5].
+
+To tackle these pressing issues, considerable research efforts have been devoted to the advancement of sustainable and eco-friendly alternatives [6]. Among available bioplastics, which may be bio-based, biodegradable, or both, microbial polyhydroxyalkanoates (PHAs) have emerged as particularly promising. PHAs are intracellular polyesters produced by a range of microorganisms under nutrient-limited conditions, and these polymers are readily degraded by different microbes in terrestrial as well as marine environments [7,8]. The physicochemical properties of PHAs can be tailored by adjusting the monomer composition, making them strong candidates to substitute for petroleum-based plastics.
+
+Polyhydroxybutyrate (PHB), the most extensively studied PHA, possesses thermal and crystalline characteristics similar to those of polypropylene, while also being fully biodegradable and biocompatible. These advantageous attributes render PHB suitable for diverse applications, including food packaging, agriculture, environmental remediation, and biomedicine [9,10]. Despite these advantages, broader industrial adoption of PHB is constrained by high production costs, with carbon substrates accounting for a substantial proportion of overall expenses [11]. Although fermentation strategies and strain optimization have enhanced PHB production performance under controlled conditions [12], large-scale implementation remains economically constrained, particularly due to substrate-related costs [13]. In addition to economic limitations, maintaining stable PHB accumulation when renewable or waste-derived substrates are employed presents further challenges. Variation in substrate composition and strain-specific metabolic responses can affect polymer yield and process reproducibility during scale-up [12]. For these reasons, increasing attention has been directed toward identifying stable and low-cost renewable feedstocks. Lignocellulosic biomass, particularly agricultural by-products, represents a promising renewable resource, as hydrolysis generates fermentable sugars that can be converted into PHB via microbial metabolic pathways [14]. Agave-derived materials, including syrups and lignocellulosic residues, have also been highlighted as sustainable substrates within circular economy frameworks [15].
+
+Soybean (Glycine max), one of the world’s most important legumes, generates significant agro-residues during food processing. Okara, a by-product of tofu manufacturing, is characterized by a high moisture content that predisposes it to rapid spoilage, resulting in limited value-added use and frequent disposal [16]. When dried, okara (DOK) is converted into a stable biomass that contains cellulose, hemicellulose, proteins, lipids, and minerals, thus enhancing its suitability for various industrial applications [17,18]. Numerous studies have underscored this potential by demonstrating the utility of DOK in eco-friendly materials, including cellulose-based hydrogels [19] and films reinforced with dietary fiber [20]. Nevertheless, relatively few studies have examined the direct use of okara as a substrate for microbial PHB biosynthesis. In this research, we examined whether hydrolysates produced from DOK could function not only as a cost-effective carbon source but also as a culture medium for PHB biosynthesis using a newly isolated strain, EP10.
+
+2. Materials and Methods
+
+2.1. Preparation of Reducing Sugars
+
+Wet okara, provided by Andong Pusansikpum (a handmade tofu producer using Glycine max), was dried at 100 °C for 24 h and ground into powder using a vacuum blender (CompLife, Incheon, Republic of Korea). Hydrolysis was performed with 130 g/L of dried okara (DOK) using various agents (NaOH, KOH, HCl, H2SO4) and concentrations (1–3% v/v), and reaction times (15–90 min). The standard hydrolysis condition was 13% (w/v) DOK treated with 2% H2SO4 at 121 °C for 90 min. After thermochemical hydrolysis, mixtures were neutralized with 3 M NaOH and centrifuged at 8000× g for 20 min at 4 °C. The resulting supernatant, referred to as DOK hydrolysate (DOKH), containing reducing sugars, was used as a carbon source or medium for strain isolation, flask culture, and aerobic fermentation.
+
+2.2. Isolation of PHB Producing Bacterial Strain
+
+Soil samples were collected from the Gilan-myeon area of Andong, Korea, to isolate novel PHB-producing bacteria. Samples were enriched in mineral salts medium (MSM) supplemented with reducing sugars derived from DOKH (RS_DOKH). Enrichment was carried out through three successive transfers, after which bacterial colonies were isolated. Selected strains were grown in MSM at 30 °C and stored in 50% glycerol at −80 °C. Specific details regarding media composition and enrichment procedures are described in the Supplementary Methods. Genomic DNA of the selected isolate was extracted after 24 h cultivation in Luria-Bertani (LB) medium using the DNeasy Plant Mini Kit (Qiagen, Hilden, Germany). The 16S rRNA gene was amplified using primers 518F (5′-CCAGCAGCCGCGGTAATACG-3′) and 800R (5′-TACCAGGGTATCTAATCC-3′) under standard polymerase chain reaction conditions: 94 °C for 30 s, 55 °C for 30 s, and 72 °C for 1 min for 28 cycles. Sequencing was performed by Macrogen Inc. (Seoul, Republic of Korea), and the sequence was compared with NCBI GenBank entries using BLAST (version 2.13.0) for identification. Alignment was conducted in MEGA X (version 10.2.6) using ClustalW, and a phylogenetic tree was constructed with 1000 bootstrap replications.
+
+2.3. Medium Optimization for Cell Growth and PHB Production
+
+To identify the optimal medium for PHB production, several formulations were evaluated: MSM, a modified MSM for Pseudomonas putida (MS-E*), a medium designed for Ralstonia eutropha H16 (MS-H16), yeast peptone meat medium (YPM), and DOKH used directly as a medium (DOKHM). All media were adjusted to pH 7.0 and supplemented with 20 g/L RS_DOKH. Inocula were prepared in LB medium, and 10% (v/v) of cultures at OD660 of 0.9–1.0 were transferred into each test medium. Cultivation took place at 30 °C and 200 rpm for 72 h. Comprehensive media composition details appear in the Supplementary Methods.
+
+2.4. Flask Culture Condition
+
+To optimize conditions for cell growth and PHB synthesis by strain EP10, cultivation was conducted in a 500-mL Erlenmeyer flask containing DOKHM supplemented with 20 g/L RS_DOKH (C/N ratio 40, w/w). Baseline incubation was performed at 30 °C, pH 7.0, and 200 rpm. The investigated variables included pH (3–11), temperature (10–40 °C), agitation (50–250 rpm), RS_DOKH concentration (10–30 g/L), culture duration (6–120 h), and C/N ratio (4–40, w/w).
+
+2.5. Batch Fermentation of Strain Ep10
+
+Based on the optimized flask parameters, a 3 L jar fermentor (Biofors, Buchen, Republic of Korea) with a 2 L working volume of DOKHM (20 g/L RS_DOKH) was operated at 25 °C, 200 rpm, and 1 vvm aeration. Three fermentation modes were investigated: (1) C/N ratio 40 (w/w) with pH maintained at 6.0; (2) C/N ratio 40 (w/w) without pH control; and (3) C/N ratio 5.7 (w/w) without pH control. For pH regulation, 1N NaOH and 1N HCl were added as required. Strain EP10 was pre-cultured in LB medium, and 10% (v/v) of cultures at OD660 0.9–1.0 were used to inoculate the fermentor. At 6–12 h intervals, 20 mL samples were centrifuged at 17,000× g for 15 min. The supernatant was used for carbon and nitrogen quantification, while the pellet was dried at 60 °C for 48 h to assess biomass and PHB content. The PHB yield (%) was calculated as the ratio of PHB produced (g) to RS_DOKH consumed (g), multiplied by 100.
+
+2.6. Isolation and Purification of PHB
+
+PHB produced by strain EP10 was extracted from freeze-dried biomass utilizing hot chloroform in a Soxhlet apparatus. For purification, the crude PHB extract was gradually added to chilled methanol with vigorous stirring within a fume hood, resulting in precipitation. This purification sequence was repeated at least three times. The purified product was left in the fume hood for three days to fully evaporate residual organic solvents before subsequent characterization.
+
+2.7. Analytical Methods
+
+The monosaccharide composition of DOKH and the residual sugars present in the culture supernatant was determined using high performance liquid chromatography (HPLC) equipped with a refractive index detector. Quantification of potential inhibitors, including 5-hydroxymethylfurfural (5-HMF) and furfural, was also performed. Comprehensive analytical parameters are presented in the Supplementary Methods.
+
+Total nitrogen content in DOKH or the culture supernatant was quantified by the Kjeldahl method using Nessler’s reagent (Kanto chemical, Tokyo, Japan). Sample aliquots (5 mL) were digested in concentrated H2SO4 with a K2SO4/CuSO4 (10:1, w/w) catalyst for 90 min, diluted to 50 mL, and distilled into a boric acid–sodium borate buffer (pH 9.5). The resulting distillate was reacted with Nessler’s reagent and its absorbance was measured at 490 nm. Calibration was performed using ammonium sulfate standards [21].
+
+The elemental composition of DOKH was determined using inductively coupled plasma optical emission spectrometry (ICP-OES) (Agilent 5110, Agilent Technologies, Santa Clara, CA, USA). Additional details regarding the procedures can be found in the Supplementary Methods.
+
+Intracellular PHB was quantified via acidic methanolysis of lyophilized cells, with methyl esters analyzed by gas chromatography (GC) equipped with a flame ionization detector. Monomer composition was further confirmed by gas chromatography–mass spectrometry (GC–MS). Fourier Transform Infrared (FT–IR) spectra of purified PHB were recorded using a PerkinElmer Paragon 1000 FT-IR spectrometer (PerkinElmer, Waltham, MA, USA), and structural attributes were evaluated by proton nuclear magnetic resonance (1H NMR) (600 MHz, Bruker AVANCE III) (Bruker Corp., Billerica, MA, USA). Commercial PHB (Sigma-Aldrich, St. Louis, MO, USA) served as the reference. Further experimental details are described in the Supplementary Methods.
+
+Thermal transitions of the polymer were analyzed by differential scanning calorimetry (DSC) with a DSC 200 PC Phox instrument (Netzsch-Gerätebau GmbH, Selb, Germany), while thermal stability was evaluated by thermogravimetric/differential thermal analysis (TG/DTA) using a TG-DTA 8122 analyzer (Rigaku Corp., Tokyo, Japan). Weight-average molecular weight (Mw), number-average molecular weight (Mn), and polydispersity index (PDI) of PHA were determined by size exclusion chromatography (SEC) on a Waters Alliance e2695 system (Waters Corporation, Milford, MA, USA) equipped with a refractive index detector, with calibration based on polystyrene standards. Detailed experimental parameters are listed in the Supplementary Methods.
+
+3. Results and Discussion
+
+The overall experimental design of this study is summarized in Figure 1.
+
+3.1. Optimization of Hydrolysis Conditions for DOK
+
+To establish optimal hydrolysis conditions for DOK, we first performed a baseline treatment using 13% (w/v) DOK suspended in 2% (v/v) hydrolyzing agent at 121 °C for 90 min. Subsequently, various process parameters were systematically investigated to maximize sugar yield. Acidic agents (HCl, H2SO4) produced 48–51 g/L reducing sugars, which was almost five times higher compared to alkaline agents (NaOH, KOH) (Figure 2a). Importantly, these yields were obtained without additional pretreatment. The higher saccharification efficiency with acid likely arises from their ability to depolymerize hemicellulose into monomeric sugars directly, whereas alkaline conditions may further convert liberated sugars into short-chain acids and aldehydes, reducing the measured reducing-sugar yield [22,23,24]. Optimization efforts then focused on acid hydrolysis. Increasing acid concentration and reaction time improved sugar release, though the specific acid used had minimal impact (Figure 2b). When the hydrolysis duration exceeded 60 min, sugar concentration decreased, most likely due to the degradation of acid-labile sugars [25,26]. The highest yields (60.2 and 59.5 g/L) were observed with 13% (w/v) DOK treated with 3% HCl or H2SO4 at 121 °C for either 30 or 60 min.
+
+The monosaccharide composition of DOKH is summarized in Table 1. When treated with 3% (v/v) HCl, arabinose constituted approximately 42% of the total reducing sugars, with pentoses making up 57.7%. Likewise, hydrolysis using 3% (v/v) H2SO4 resulted in about 50% xylose, and pentoses accounted for 66% of the total reducing sugars. This strong prevalence of pentoses suggests preferential breakdown of hemicellulose, which is more acid-sensitive than crystalline cellulose [25,26]. Dilute H2SO4 hydrolysis was found to be more effective than HCl in generating xylose. Several previous studies have demonstrated that H2SO4 treatment produces higher yields of monomeric sugars than HCl, suggesting that H2SO4 acts as a more efficient catalyst for hemicellulose hydrolysis. However, H2SO4 hydrolysis also generates higher concentrations of inhibitors such as furfural and 5-HMF, likely due to accelerated sugar degradation under strong acidic conditions [27,28].
+
+3.2. Isolation and Identification of PHB-Producing Bacterial Strain
+
+To isolate PHB-producing bacteria, RS_DOKH was obtained by hydrolyzing 13% DOK with 3% (v/v) H2SO4 for 60 min at 121 °C. Enrichment subculturing was subsequently performed three times by inoculating MSM containing 20 g/L RS_DOKH with 10 g soil sample. A total of 40 PHA-producing bacterial strains were isolated from the culture, and strain EP10 was chosen based on its superior cell proliferation and PHB production. Identification by 16S rDNA sequencing and BLAST analysis revealed 98.57% similarity to Burkholderia cepacia PSTJ17, placing the isolate within the Burkholderia clade (Figure 3). The strain was assigned the designation Burkholderia sp. EP10.
+
+Burkholderia sp. EP10 was cultivated in MSM supplemented with 20 g/L RS_DOKH at pH 7.0 and 30 °C for 72 h, utilizing hydrolysates derived from either HCl or H2SO4 as the carbon source. As shown in Table 2, despite the higher levels of inhibitory compounds (especially furfural) present in the xylose-rich H2SO4 hydrolysate, both cell growth and PHB accumulation were greater than those measured in the arabinose-rich HCl medium. In particular, Burkholderia sp. EP10 achieved approximately 50% higher biomass with the H2SO4-derived hydrolysate, while PHB accumulation remained comparable between treatments. This observation may be attributed to the strain’s adaptation to xylose-rich substrates, given that its original isolation source was xylose-rich hydrolysate. Accordingly, xylose-rich RS_DOKH was selected for use in subsequent experiments. The C/N ratio of this hydrolysate was 40, and its elemental composition is presented in Table S1. Collectively, these results indicate that xylose is a preferable carbon source for Burkholderia sp. EP10 to support growth and PHB biosynthesis, in agreement with studies showing that pentose-utilizing Burkholderia strains yield increased PHA under xylose-rich conditions [29].
+
+3.3. Screening and Optimization of Culture Media for Cell Growth and PHB Accumulation
+
+To determine the optimal growth medium for Burkholderia sp. EP10, three defined media, YPM, and DOKH—(the latter serving both as the carbon source and as the medium, referred to as DOKHM)—were assessed. The standard condition employed a pH of 7.0, temperature of 30 °C, agitation at 200 rpm, and 20 g/L RS_DOKH with a C/N ratio of 40. As depicted in Figure 4, cell biomass, expressed as dry cell weight (DCW g/L), remained consistent across MSM, MS-E*, YPM, and DOKHM (with the exception of MS-H16), while DOKHM resulted in the greatest PHB accumulation. Under cultivation with DOKHM, Burkholderia sp. EP10 attained 6.01 g/L biomass and 22.92 wt% PHB. Consequently, DOKHM containing 20 g/L reducing sugars was chosen as the standard culture medium for further investigations.
+
+Optimization of culture conditions was further conducted in DOKHM. Parameters assessed included pH (3.0–11.0), temperature (10–40 °C), agitation speed (50–250 rpm), reducing sugars concentrations (5–30 g/L), and C/N ratio (4–40) (Figure S1). Additionally, MSM supplemented with xylose (20 g/L) was employed to evaluate the impact of inhibitory compounds (furfural, 5-HMF) at various concentrations. Among all tested conditions, the combination of pH 6.0, 25 °C, 200 rpm, 20 g/L reducing sugars, and a C/N ratio of 5.7 yielded the most favorable results for both cell growth (6.91 g/L) and PHB accumulation (26.3 wt%) (Figure 4).
+
+A significant outcome of this study is that Burkholderia sp. EP10 was capable of both growth and PHB accumulation even when untreated hydrolysates were used. In DOKHM containing 20 g/L reducing sugars, the levels of furfural and 5-HMF present did not notably affect cell growth (Figure S1). This is in accordance with earlier findings that Burkholderia cepacia exhibited considerable resistance to furfural, with a minimum inhibitory concentration reported at 6.0 g/L [30]. Therefore, it can be deduced that at lower concentrations, such as approximately 1.0 g/L, the bacterium’s growth and PHB accumulation are not substantially hindered. Given that the inhibitor concentrations observed in this study were below this critical value, the continued growth of Burkholderia sp. EP10 can be well accounted for. Taken together, Burkholderia sp. EP10 displays notable metabolic adaptability under inhibitory conditions, highlighting its promise for industrial applications. This inherent tolerance may reduce the requirement for detoxification procedures, potentially lowering production costs and streamlining processes in sustainable PHB manufacturing.
+
+3.4. Fermentation Under Three Culture Conditions
+
+Due to the differing cultivation conditions between the flask and fermentor, the optimized culture parameters—including carbon concentration, temperature, and pH—were adjusted accordingly, except for the C/N ratio. In fermentor cultures using DOKHM (20 g/L reducing sugars, pH 6.0, 25 °C) without additional nitrogen supplementation, Burkholderia sp. EP10 achieved a maximum biomass of 9.4 g/L at 84 h. At 108 h, the PHB content reached 13.2 wt%, corresponding to a PHB yield of 7.5% based on the amount of RS_DOKH consumed (Figure 5a). Importantly, PHB accumulation was 50% lower than that observed in flask culture. A lag phase was observed until 24 h, after which substantial PHB accumulation was detected beginning at 72 h. Xylose and mannose were preferentially consumed, whereas arabinose and glucose utilization occurred after 18 h and 48 h, respectively (Figure 5b).
+
+The second fermentation was conducted with the medium initially set at pH 6.0, which subsequently remained uncontrolled during cultivation and stabilized near-neutral (pH 7.0–8.0). Under these conditions, the biomass reached 8.2 g/L, which was lower than that in pH-controlled fermentation; however, the PHB content increased to 19.7 wt% at 108 h, corresponding to a PHB yield of 9.25% (Figure 5c). The shortened lag phase facilitated earlier xylose consumption, whereas the overall sugar utilization patterns remained largely consistent regardless of pH control (Figure 5d).
+
+When ammonium sulfate was added to reduce the C/N ratio to 5.7, Burkholderia sp. EP10 exhibited optimal production. Biomass (10.9 g/L) and PHB content (29.3 wt%) were reached at 84 h, corresponding to a PHB yield of 19.5%, whereas PHB accumulation was initiated as early as 18 h (Figure 5e). For all tested conditions, xylose and mannose were consumed prior to significant arabinose and glucose uptake (Figure 5b,d,f).
+
+The fermentor experiments highlighted specific tradeoffs among the three cultivation strategies.
+
+Under pH-controlled conditions, biomass production was enhanced but increased PHB accumulation was restricted. Conversely, cultures operated without pH control exhibited reduced biomass but increased PHB accumulation, which we propose may be associated with accelerated xylose assimilation. The influence of pH regulation is system- and strain-dependent: for Bacillus megaterium, maintaining neutral pH improved both biomass and PHB accumulation compared to uncontrolled flasks [31], whereas mixed microbial cultures produced inconsistent outcomes. Ref. [32] reported higher PHA content without pH regulation, while ref. [33] did not observe notable differences. Notably, in this study, the medium’s pH remained approximately neutral, implying that Burkholderia sp. EP10 might depend on alternative metabolic pathways instead of relying on acidification.
+
+The nitrogen-rich condition (C/N 5.7) yielded the highest performance, demonstrating that an increased nitrogen supply not only promoted cell growth but also stimulated PHB accumulation. This result is in contrast to the traditional view that nitrogen limitation enhances PHB production and suggests that Burkholderia sp. EP10 utilizes a unique regulatory pathway.
+
+Analysis of sugar consumption established Burkholderia sp. EP10’s preference for xylose and mannose, consistent with trends reported for other PHA-producing bacteria. For instance, Priestia sp. strain JY310 and Schlegelella thermodepolymerans DSM 15344 displayed similar responses to pH [21,34], while Paracoccus sp. LL1 and Paraburkholderia sacchari IPT 101 showed stepwise sugar utilization from complex hydrolysates, first consuming glucose and subsequently metabolizing other sugars [35,36]. Remarkably, S. thermodepolymerans DSM 15344 produced up to 61% PHAs of DCW on undetoxified xylose-rich hydrolysates, indicating that rapid xylose utilization and metabolic efficiency are critical for maximizing PHA yields. Burkholderia sp. EP10 demonstrates a similar phenotype, favoring xylose and supporting robust PHB accumulation (Table 3).
+
+Overall, Burkholderia sp. EP10 achieved 6.9 g/L biomass in flask cultures, which increased to 10.9 g/L under fermentor conditions, accompanied by improved PHB production. The PHB concentration reached 3.18 g/L under fermenter conditions, demonstrating scalable production performance comparable to previously reported hydrolysate-based systems. Although the intracellular PHB content (29.3 wt%) was lower than that of high-PHB-accumulating strains such as P. sacchari IPT 101, it remained within the range reported for various waste-derived substrates. Importantly, Burkholderia sp. EP10 was capable of directly utilizing DOKH medium without detoxification or nutrient supplementation, highlighting its robustness and potential for cost-effective PHB production from heterogeneous agricultural byproducts. These findings support the feasibility of further process optimization for sustainable biopolymer production from low-cost waste streams.
+
+3.5. Structural and Physicochemical Characterization of PHB
+
+The polymer produced by Burkholderia sp. EP10 was confirmed as PHB using several analytical approaches. GC analysis exhibited a pronounced 3-hydroxybutyrate (3HB) signal at 5.07 min, while the benzoic acid internal standard appeared at 7.96 min (Figure S2a). Results from GC/MS further verified that the principal peak of the polymer matched the reference spectrum of PHB (Figure S2b). FT-IR spectra (4000–400 cm−1) showed characteristic absorption signals at 3436 cm−1 (–OH stretching), 2850–2975 cm−1 (C–H stretching), and approximately 1720 cm−1 (C=O stretching, ester functionality), all consistent with PHB structural features (Figure S2c). Additionally, 1H–NMR spectra contained the expected 3HB resonances at 1.275 ppm (–CH3), 2.464 ppm (–CH2), and 5.162 ppm (–CH), corroborating the polymer’s chemical identity (Figure 6a) [42].
+
+A summary of thermal and molecular properties appears in Table 4. DSC analysis displayed two distinct melting endotherms at 163.5 °C and 172.4 °C with an undetectable glass transition temperature (Tg), which is commonly observed in semicrystalline PHB (Figure 6b). TGA demonstrated an initial minor weight reduction (2.6%) up to 189.3 °C, followed by pronounced decomposition beginning at 267.5 °C, resulting in nearly 90% mass loss by 288.4 °C (Figure S3). SEC measurements determined a Mw of 4.66 × 105 Da, Mn of 1.92 × 105 Da, and a PDI of 2.42, indicating the polymer possessed a high-molecular-weight and a relatively uniform distribution (Figure S4).
+
+The combined results from GC, FT-IR, and 1H–NMR analyses established that the polymer produced by Burkholderia sp. EP10 is PHB, exhibiting spectral characteristics identical to those of standard PHB. The twin melting peaks seen in the DSC analysis are characteristic of semicrystalline polymers and are attributed to lamellae of varying thickness as well as to the rearrangement of imperfect crystals during heating [45,46]. The slightly reduced Tm in comparison to commercial PHB implies improved processability during thermal molding, which may present a benefit for industrial applications. TGA assessment revealed a higher degradation onset temperature than previously documented for PHBs, suggesting enhanced thermal stability and the potential for increased durability at elevated temperatures. Such enhanced stability broadens the range of potential uses where thermal resistance is essential. The polymer possessed a high Mw, a factor that is associated with increased toughness, improved impact resistance, and potential for application in medical or high-value fields [47].
+
+The relatively narrow PDI in comparison to commercial PHB reflects a more uniform molecular weight distribution, which, based on polymer science principles, can result in more predictable thermal and mechanical properties [48]. This uniform distribution is especially important in biomedical contexts, where consistent material performance and reliable degradation rates are critical [47,49]. Thus, it can be inferred that the narrower PDI reported in this study would provide increased consistency in high-value or medical applications.
+
+4. Conclusions
+
+In this study, DOK, a lignocellulosic biomass, underwent acid hydrolysis for low-cost PHB production. The hydrolysate generated from 13% (w/v) DOK with 3% (v/v) H2SO4 effectively supported both substantial cell growth and PHB synthesis when utilized directly as the culture medium for the newly isolated Burkholderia sp. EP10. Without pH regulation and under a low C/N ratio, this strain efficiently consumed xylose and mannose from the earliest cultivation stages, producing PHB with superior thermal stability. Collectively, these findings highlight Burkholderia sp. EP10 as a strong candidate for PHB production in non-pH-controlled and nitrogen-rich environments. Fermenter cultivation achieved 10.9 g/L biomass and 3.18 g/L PHB, demonstrating scalable performance. The strain achieved PHB biosynthesis directly from lignocellulosic biomass hydrolysate with no pretreatment required. Particularly, these outcomes underscore promising prospects for industrial-scale PHA manufacturing using lignocellulosic byproducts.
+
+E-supplementary data of this word can be found in the online version of the paper.
+
+Acknowledgments
+
+The authors thank the reviewers for their valuable comments and suggestions which improved the manuscript.
+
+Supplementary Materials
+
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/bioengineering13030313/s1. Table S1: Elemental composition of DOKH obtained under optimal hydrolysis conditions (3% H2SO4, 121 °C, 60 min). Values represent the reducing sugar fraction measured following hydrolysis. Figure S1: Effects of culture conditions and lignocellulosic inhibitors on growth and PHB biosynthesis of Burkholderia sp. EP10. Cultivations were conducted in DOKHM under different (a) pH values, (b) temperatures, (c) agitation speeds, (d) reducing sugar concentrations, and (e) C/N ratios. For inhibitor tolerance analysis, cells were cultivated in MSM containing xylose (20 g/L) for 72 h with (f) furfural or (g) 5-HMF. Data represent cell growth, PHB content, and PHB concentration. Figure S2: Structural characterization of PHB isolated from Burkholderia sp. EP10 grown in DOKHM medium with a C/N ratio of 5.7, initiated at pH 6 without subsequent pH adjustment. Following fermentation and cell collection, PHB was extracted and subjected to (a) GC and (b) GC–MS analysis, employing benzoic acid as the internal standard for determining monomer composition, and (c) FT-IR spectroscopy to verify functional groups and structural features. Figure S3: Thermal stability assessment of PHB isolated from Burkholderia sp. EP10 grown in DOKHM medium at a C/N ratio of 5.7, initiated at pH 6 without further pH regulation. After fermentation and PHB isolation, TG–DTA analysis was conducted to assess the thermal degradation profile. Figure S4: Molecular weight profile of PHB isolated from Burkholderia sp. EP10 grown in DOKHM medium at a C/N ratio of 5.7, initiated at pH 6 without additional pH regulation. PHB samples were examined by SEC to assess Mw, Mn, and PDI.
+
+Author Contributions
+
+Conceptualization, C.-W.C.; Methodology, D.Y.K.; Validation, D.Y.K.; Formal analysis, E.P.H.; Investigation, E.P.H.; Resources, J.-S.K.; Data curation, E.P.H. and D.Y.K.; Writing—original draft, E.P.H.; Writing—review & editing, J.-S.K. and C.-W.C.; Visualization, D.Y.K.; Supervision, C.-W.C.; Funding acquisition, C.-W.C. All authors have read and agreed to the published version of the manuscript.
+
+Institutional Review Board Statement
+
+Not applicable.
+
+Informed Consent Statement
+
+Not applicable.
+
+Data Availability Statement
+
+The original contributions presented in this study are included in the article/supplementary material. Further inquiries can be directed to the corresponding author.
+
+Conflicts of Interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Figure 1 Schematic overview of the experimental design for PHB production from DOK, including hydrolysis optimization, culture medium selection, fermentation in a 3 L stirred-tank bioreactor (25 °C, 200 rpm, 1 vvm, pH 6.0, 120 h), and physicochemical characterization.
+
+Figure 2 Comparison of reducing sugars concentrations obtained under distinct hydrolysis parameters: (a) effect of acid type, (b) effects of hydrolysis duration and acid concentration. The initial DOK concentration was maintained at 130 g/L.
+
+Figure 3 Phylogenetic analysis based on the 16S rDNA sequence of strain EP10. The tree was generated using the neighbor-joining method in MEGA X following ClustalW multiple sequence alignment, with bootstrap values calculated from 1000 replicates.
+
+Figure 4 Comparison of cell growth and PHB production by Burkholderia sp. EP10 across different media, as well as before and after process optimization. Cultivation was conducted at pH 7, 30 °C, 200 rpm for 72 h with RS_DOKH at 20 g/L. MS-E* denotes the name of the medium used in this study.
+
+Figure 5 PHB biosynthesis by Burkholderia sp. EP10 cultivated in DOKHM under various pH 6 regulation strategies. Panels (a,c,e) illustrate cell growth and PHB accumulation under three fermentation conditions: (a) pH-controlled (pH 6, 120 h, 200 rpm, 25 °C, 20 g/L RS_DOKH, C/N ratio 20, 1 vvm), (c,e) non-controlled fermentations initiated at pH 6 with no further adjustment, and distinct C/N ratios (20 and 5.7). Panels (b,d,f) display the respective consumption profiles of sugars and growth inhibitors.
+
+Figure 6 Structural and thermal analysis of PHB synthesized by Burkholderia sp. EP10. (a) 1H NMR spectrum confirming polymeric structure. (b) DSC thermogram illustrating the thermal transition profile.
+
+bioengineering-13-00313-t001_Table 1 Table 1 Sugar and growth inhibitor composition of DOKH under optimal hydrolysis conditions.
+
+Parameter	HCl	H2SO4	
+Concentration (g/L)	
+Total sugars	60.17	59.53	
+Arabinose	25.17	9.70	
+Xylose	9.56	29.39	
+Mannose	18.72	16.82	
+Glucose	6.72	3.62	
+Growth inhibitors	0.26	1.70	
+Furfural	0.15	1.54	
+5-HMF	0.11	0.16	
+HMF, hydroxymethylfurfural.
+
+bioengineering-13-00313-t002_Table 2 Table 2 Cell growth and PHB accumulation of Burkholderia sp. EP10 utilizing RS_DOKH with various acid hydrolyzing agents.
+
+Strain	Hydrolytic Agent	* DCW (g/L)	PHB Content (g/L)	PHB Yield (wt%)	
+Burkholderia sp. EP10	H2SO4	6.05	1.13	18.68	
+HCl	4.07	0.74	18.20	
+* DCW, dry cell weight.
+
+bioengineering-13-00313-t003_Table 3 Table 3 Comparative analysis of PHB production by Burkholderia sp. EP10 and other bacterial strains utilizing lignocellulosic hydrolysates.
+
+Strain	Carbon Source	DCW (g/L)	PHB (g/L)	PHB (wt%)	Culture Scale	Reference	
+Burkholderia sp. EP10	DOK hydrolysate medium	6.91	1.82	26.3	Flask	This study	
+10.87	3.18	29.3	Fermenter	
+Priestia sp. strain JY310	Rice husk hydrolysate	7.8	3.1	50.4	Batch fermenter	Lee, J. Y., et al., 2023 [21]	
+Bacillus aerophilus RSL-7	Bael fruit hydrolysate medium	12.5	1.275	10.1	fermenter	Sabapathy, P. C., et al., 2019 [37]	
+Burkholderia cepacia IPT 048	Sugarcane bagasse hydrolysate	4.4	2.3	53.0	Batch fermenter	Silva, L. F., et al., 2004 [29]	
+Paraburkholderia sacchari IPT 101	Softwood hemicellulose hydrolysates	7.1	5.7	80.5	Flask	Dietrich, K., et al., 2018 [38]	
+Halomonas cupida J9	Corn straw hydrolysate	7.0	2.45	35.0	Batch fermenter	Wang, S., et al., 2024 [39]	
+Loktanella sp. SM43	Pine tree hydrolysate	4.68	3.6	78.0	Flask	Lee, S. M., et al., 2022 [40]	
+Halomonas halophila CCM 3662	Spent coffee grounds hydrolysate	3.5	2.1	61.9	Flask	Kucera, D., et al., 2018 [41]	
+
+bioengineering-13-00313-t004_Table 4 Table 4 Comparison of molecular weight and thermal properties of PHB synthesized by Burkholderia sp. EP10 and other bacterial strains from lignocellulosic hydrolysates.
+
+Microbial Strain	Carbon Source	Tg
+(°C)	Tm
+(°C)	Td
+(°C)	Mw
+(Da)	Mn
+(Da)	PDI
+(Mw/Mn)	Reference	
+Burkholderia sp. EP10	DOKHM	N.I	172.4	288.4	465,918	191,930	2.42	This study	
+Priestia sp. strain JY310	Rice husk hydrolysate	N.I	167.9	268.1	76,800	16,239	4.73	Lee, J. Y.,
+et al., 2023 [21]	
+Sphingobium scionense WP01	soft wood
+hydrolysate	1.7	176.7	N.I	1,138,000	186,000	6.1	Bowers et al., 2013 [43]	
+Cupriavidus necator	Rice husk hydrolysate	N.I	175.1	240.0	135,000	124,000	1.09	Zhang, Y., et al., 2020 [23]	
+Priestia sp. YH4	Sugar cane molasses	N.I	167.2	N.I	285,000	105,000	2.7	Jung et al., 2023 [44]	
+Standard PHB
+(Sigma-Aldrich)	N.I	N.I	169.0	N.I	429,000	319,000	1.34	Jung et al., 2023 [44]	
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
+References
+
+1. Pawde S.V. Kaewprachu P. Kingwascharapong P. Sai-Ut S. Karbowiak T. Jung Y.H. Rawdkuen S. A comprehensive review on plant protein-based food packaging: Beyond petroleum-based polymers Curr. Res. Food Sci. 2025 10 101104 10.1016/j.crfs.2025.101104 40529645 PMC12173619
+2. Hu S. Han L. Yu C. Pan L. Tu K. A Review on Replacing Food Packaging Plastics with Nature-Inspired Bio-Based Materials Foods 2025 14 1661 10.3390/foods14101661 40428441 PMC12110880
+3. Jambeck J.R. Geyer R. Wilcox C. Siegler T.R. Perryman M. Andrady A. Narayan R. Law K.L. Plastic waste inputs from land into the ocean Science 2015 247 768 771 10.1126/science.1260352 25678662
+4. Lau W.W.Y. Shiran Y. Bailey R.M. Cook E. Stuchtey M.R. Koskella J. Velis C.A. Godfrey L. Boucher J. Murphy M.B. Evaluating scenarios toward zero plastic pollution Science 2020 369 1455 1461 10.1126/science.aba9475 32703909
+5. Chacón M. Wongsirichot P. Winterburn J. Dixon N. Genetic and process engineering for polyhydroxyalkanoate production from pre- and post-consumer food waste Curr. Opin. Biotechnol. 2024 85 103024 10.1016/j.copbio.2023.103024 38056203
+6. Huo G. Zhu Y. Liu Q. Tao R. Diao N. Wang Z. Chen T. Metabolic engineering of an E. coli ndh knockout strain for PHB production from mixed glucose–xylose feedstock J. Chem. Technol. Biotechnol. 2017 92 2739 2745 10.1002/jctb.5298
+7. Di Bartolo A. Infurna G. Dintcheva N.T. A review of bioplastics and their adoption in the circular economy Polymers 2021 13 1229 10.3390/polym13081229 33920269 PMC8069747
+8. Javaid H. Nawaz A. Riaz N. Mukhtar H. Ul-Haq I. Shah K.A. Khan H. Naqvi S.M. Shakoor S. Rasool A. Biosynthesis of polyhydroxyalkanoates (PHAs) by the valorization of biomass and synthetic waste Molecules 2020 25 5539 10.3390/molecules25235539 33255864 PMC7728366
+9. Sirohi R. Pandey J.P. Gaur V.K. Gnansounou E. Sindhu R. Critical overview of biomass feedstocks as sustainable substrates for the production of polyhydroxybutyrate (PHB) Bioresour. Technol. 2020 311 123536 10.1016/j.biortech.2020.123536 32448640
+10. Turco R. Santagata G. Corrado I. Pezzella C. Di Serio M. In vivo and Post-synthesis Strategies to Enhance the Properties of PHB-Based Materials: A Review Front. Bioeng. Biotechnol. 2021 8 619266 10.3389/fbioe.2020.619266 33585417 PMC7874203
+11. Zhang L. Jiang Z. Tsui T.H. Loh K.C. Dai Y. Tong Y.W. A Review on enhancing Cupriavidus necator fermentation for poly(3-hydroxybutyrate) (PHB) production from low-cost carbon sources Front. Bioeng. Biotechnol. 2022 10 946085 10.3389/fbioe.2022.946085 35928944 PMC9343952
+12. Ray S. Jin J.-O. Choi I. Kim M. Recent trends of biotechnological production of polyhydroxyalkanoates from C1 carbon sources Front. Bioeng. Biotechnol. 2023 10 907500 10.3389/fbioe.2022.907500 36686222 PMC9852868
+13. Koller M. Biodegradable and Biocompatible Polyhydroxyalkanoates (PHA): Auspicious microbial macromolecules for pharmaceutical and therapeutic applications Molecules 2018 23 362 10.3390/molecules23020362 29419813 PMC6017587
+14. Jaffur N. Jeetah P. Kumar G. A review on enzymes and pathways for manufacturing polyhydroxybutyrate from lignocellulosic materials 3 Biotech 2021 11 483 10.1007/s13205-021-03009-x PMC8557228 34790507
+15. Martínez-Herrera R.E. Rutiaga-Quiñones O.M. Alemán-Huerta M.E. Integration of Agave plants into the polyhydroxybutyrate (PHB) production: A gift of the ancient Aztecs to the current bioworld Ind. Crops Prod. 2021 174 114188 10.1016/j.indcrop.2021.114188
+16. Asghar A. Afzaal M. Saeed F. Ahmed A. Ateeq H. Shah Y.A. Islam F. Hussain M. Akram N. Shah M.A. Valorization and food applications of okara (soybean residue): A concurrent review Food Sci. Nutr. 2023 11 3631 3640 10.1002/fsn3.3363 37457185 PMC10345676
+17. O’Toole D.K. Characteristics and use of okara, the soybean residue from soy milk production-a review J. Agric. Food Chem. 1999 47 363 371 10.1021/jf980754l 10563901
+18. Ashaolu T.J. Zhao G. Fabricating a pickering stabilizer from okara dietary fibre particulates by conjugating with soy protein isolate via maillard reaction Foods 2020 9 143 10.3390/foods9020143 32024017 PMC7074200
+19. Cui X. Lee J.J.L. Chen W.N. Eco-friendly and biodegradable cellulose hydrogels produced from low cost okara: Towards non-toxic flexible electronics Sci. Rep. 2019 9 18166 10.1038/s41598-019-54638-5 31796821 PMC6890720
+20. Scarcella J.V. Lopes M.S. Silva E.K. Andrade G.S.S. Valorization of okara by-product for obtaining soluble dietary fibers and their use in biodegradable carboxymethyl cellulose-based film Int. J. Biol. Macromol. 2024 280 136032 10.1016/j.ijbiomac.2024.136032 39332560
+21. Lee J.Y. Kim M.H. Kim J.S. Yun B.R. Kim D.Y. Chung C.W. Biotransformation of D-xylose-rich rice husk hydrolysate by a rice paddy soil bacterium, Priestia sp. Strain JY310, to low molecular weight poly (3-hydroxybutyrate) Biomolecules 2023 13 131 10.3390/biom13010131 36671516 PMC9855389
+22. Mosier N. Wyman C. Dale B. Elander R. Lee Y.Y. Holtzapple M. Ladisch M. Features of promising technologies for pretreatment of lignocellulosic biomass Bioresour. Technol. 2005 96 673 686 10.1016/j.biortech.2004.06.025 15588770
+23. Zhang Y. Wang L. Li T. Shen Y. Luo J. Acid soaking followed by steam flash-explosion pretreatment to enhance saccharification of rice husk for poly (3-hydroxybutyrate) production Int. J. Biol. Macromol. 2020 160 446 455 10.1016/j.ijbiomac.2020.05.218 32479940
+24. Li Q. Jiang Y. Ren C. Jiang Q. Feng J. Wang M. Gao Z. Cao W. Effects of different hydrolysis methods on the hydrolysate characteristics and photo-fermentative hydrogen production performance of corn and sorghum straw Energies 2023 16 301 10.3390/en16010301
+25. Carvalho D.M. Colodette J.L. Comparative study of acid hydrolysis of lignin and polysaccharides in biomasses BioResources 2017 12 6907 6923 10.15376/biores.12.4.6907-6923
+26. Lin R. Deng C. Rajendran K. Bose A. Kang X. Murphy J.D. Competing reactions limit production of sugars in hydrothermal hydrolysis Front. Energy Res. 2020 8 575523 10.3389/fenrg.2020.575523
+27. Lavarack B.P. Griffin G.J. Rodman D. The acid hydrolysis of sugarcane bagasse hemicellulose to produce xylose, arabinose, glucose and other products Biomass Bioenergy 2002 23 367 380 10.1016/S0961-9534(02)00066-1
+28. Oriez V. Peydecastaing J. Pontalier P.Y. Lignocellulosic biomass fractionation by mineral acids and resulting extract purification processes: Conditions, yields, and purities Molecules 2019 24 4273 10.3390/molecules24234273 31771199 PMC6930647
+29. Silva L.F. Taciro M.K. Michelin Ramos M.E. Carter J.M. Pradella J.G.C. Gomez J.G.C. Poly-3-hydroxybutyrate (P3HB) production by bacteria from xylose, glucose and sugarcane bagasse hydrolysate J. Ind. Microbiol. Biotechnol. 2004 31 245 254 10.1007/s10295-004-0136-7 15221664
+30. Dietrich D. Illman B. Crooks C. Differential sensitivity of polyhydroxyalkanoate producing bacteria to fermentation inhibitors and comparison of polyhydroxybutyrate production from Burkholderia cepacia and Pseudomonas pseudoflava BMC Res. Notes 2013 3 219 10.1186/1756-0500-6-219 23734728 PMC3691592
+31. Alkotaini B. Koo H. Kim B.S. Production of polyhydroxyalkanoates by batch and fed-batch cultivations of Bacillus megaterium from acid-treated red algae Korean J. Chem. Eng. 2016 33 1669 1673 10.1007/s11814-015-0293-6
+32. Montiel-Jarillo G. Carrera J. Suárez-Ojeda M.E. Enrichment of a mixed microbial culture for polyhydroxyalkanoates production: Effect of pH and N and P concentrations Sci. Total Environ. 2017 583 300 307 10.1016/j.scitotenv.2017.01.069 28117150
+33. Correa-Galeote D. Argiz L. Val del Rio A. Mosquera-Corral A. Juarez-Jimenez B. Gonzalez-Lopez J. Rodelas B. Dynamics of PHA-accumulating bacterial communities fed with lipid-rich liquid effluents from fish-canning industries Polymers 2022 14 1396 10.3390/polym14071396 35406269 PMC9003127
+34. Kourilova X. Pernicova I. Sedlar K. Musilova J. Sedlacek P. Kalina M. Koller M. Obruca S. Production of polyhydroxyalkanoates (PHA) by thermophilic Schlegelella thermodepolymerans DSM 15344 from xylose-rich substrates Bioresour. Technol. 2020 315 123885 10.1016/j.biortech.2020.123885 32721829
+35. Sawant S.S. Salunke B.K. Kim B.S. Degradation of corn stover by fungal cellulase cocktail for production of polyhydroxyalkanoates by moderate halophile Paracoccus sp. LL1 Bioresour. Technol. 2015 194 247 255 10.1016/j.biortech.2015.07.019 26207871
+36. Dietrich K. Dumont M.J. Orsat V. Del Rio L.F. Consumption of sugars and inhibitors of softwood hemicellulose hydrolysates as carbon sources for polyhydroxybutyrate (PHB) production with Paraburkholderia sacchari IPT 101 Cellulose 2019 26 7939 7952 10.1007/s10570-019-02664-x
+37. Sabapathya P.C. Devaraja S. Parthiban A. Pugazhendhic A. Kathirvela P. Aegle marmelos: A novel low cost substrate for the synthesis of polyhydroxyalkanoate by Bacillus aerophilus RSL-7 Biocatal. Agric. Biotechnol. 2019 18 101021 10.1016/j.bcab.2019.101021
+38. Dietrich K. Dumont M.J. Schwinghamer T. Orsat V. Del Rio L.F. Model Study to Assess Softwood Hemicellulose Hydrolysates as the Carbon Source for PHB Production in Paraburkholderia sacchari IPT 101 Biomacromolecules 2018 19 188 200 10.1021/acs.biomac.7b01446 29182307
+39. Wang S. Liu Y. Guo H. Meng Y. Xiong W. Liu R. Yang C. Establishment of low-cost production platforms of polyhydroxyalkanoate bioplastics from Halomonas cupida J9 Biotechnol. Bioeng. 2024 121 2106 2120 10.1002/bit.28694 38587130
+40. Lee S.M. Cho D.H. Jung H.J. Kim B. Kim S.H. Bhatia S.K. Gurav R. Jeon J.M. Yoon J.J. Kim W. Finding of novel polyhydroxybutyrate producer Loktanella sp. SM43 capable of balanced utilization of glucose and xylose from lignocellulosic biomass Int. J. Biol. Macromol. 2022 208 809 818 10.1016/j.ijbiomac.2022.03.155 35364206
+41. Kucera D. Pernicová I. Kovalcik A. Koller M. Mullerova L. Sedlacek P. Mravec F. Nebesarova J. Kalina M. Marova I. Characterization of the promising poly(3-hydroxybutyrate) producing halophilic bacterium Halomonas halophila Bioresour. Technol. 2018 256 552 556 10.1016/j.biortech.2018.02.062 29478784
+42. Kopf S. Root A. Heinmaa I. de Lima J.A. Åkesson D. Skrifvars M. Production and characterization of melt-spun poly(3-hydroxybutyrate)/poly(3-hydroxybutyrate-co-4-hydroxybutyrate) blend monofilaments ACS Omega 2024 9 27415 10.1021/acsomega.4c02241 38947777 PMC11209910
+43. Bowers T. Vaidya A. Smith D.A. Lloyd-Jones G. Softwood hydrolysate as a carbon source for polyhydroxyalkanoate production J. Chem. Technol. Biotechnol. 2013 89 1030 1037 10.1002/jctb.4196
+44. Jung H.J. Kim S.H. Shin N. Oh S.-J. Hwang J.H. Kim H.J. Kim Y.-H. Bhatia S.K. Jeon J.-M. Yoon J.-J. Polyhydroxybutyrate (PHB) production from sugar cane molasses and tap water without sterilization using novel strain, Priestia sp. YH4 Int. J. Biol. Macromol. 2023 250 126152 10.1016/j.ijbiomac.2023.126152 37558031
+45. Owen A.J. Lin J. Connell D. Beadle M. Noble M. Crystallization and melting behaviour of poly(3-hydroxybutyrate) homopolymer and its copolymer Polymer 1992 33 1563 1567 10.1016/0032-3861(92)90139-N
+46. Gunaratne L.M.W.K. Shanks R.A. Multiple melting behaviour of poly(3-hydroxybutyrate-co-hydroxyvalerate) using step-scan DSC Eur. Polym. J. 2005 41 2980 2988 10.1016/j.eurpolymj.2005.06.015
+47. Zinn M. Witholt B. Egli T. Occurrence, synthesis and medical application of bacterial polyhydroxyalkanoate Adv. Drug Deliv. Rev. 2001 53 5 21 10.1016/S0169-409X(01)00218-6 11733115
+48. Whitfield R. Truong N.P. Anastasaki A. Precise control of both dispersity and molecular weight distribution shape by polymer blending Angew. Chem. Int. Ed. 2021 60 19383 19388 10.1002/anie.202106729 34133078 PMC8456836
+49. Chen G.-Q. Wu Q. The application of polyhydroxyalkanoates as tissue engineering materials Biomaterials 2005 26 6565 6578 10.1016/j.biomaterials.2005.04.036 15946738

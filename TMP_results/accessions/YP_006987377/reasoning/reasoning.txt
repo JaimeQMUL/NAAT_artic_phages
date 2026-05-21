@@ -1,0 +1,19 @@
+=============Reasoning for YP_006987377 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Cronobacter phage vB_CsaM_GAP32') and its host ('Cronobacter sakazakii'), but no explicit or strongly implied temperature or environmental condition (such as 'hot springs' or 'ice') is mentioned to determine a thermal range.
+
+
+=============Reasoning for YP_006987377 from accession literature=============
+=============Reasoning for YP_006987377 from host literature=============
+=============Reasoning for YP_006987377 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the phage.
+2. Check for environmental context: The metadata provides the host organism ('Cronobacter sakazakii'), the collection country ('Canada'), and the collection date ('14-Jan-2008').
+3. Apply decision rules: Since no explicit evidence exists, inference must be used. The host, Cronobacter sakazakii, is a common bacterium often associated with mammalian or environmental niches, and general microbial life associated with human/animal hosts (implied by the context of food/clinical samples) typically falls within mesophilic ranges (15–45°C).
+4. Fallback: As no strong environmental context points to extreme cold or heat, the default classification rule (Rule 4) dictates assigning 'mesophile'.
+
+

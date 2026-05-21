@@ -1,0 +1,16 @@
+=============Reasoning for DAW87161 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAW87161 from accession literature=============
+=============Reasoning for DAW87161 from host literature=============
+=============Reasoning for DAW87161 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2013-05-27, suggesting an origin from human-associated environments. 3. Apply decision rules: Since no explicit evidence exists, and the environmental context (human metagenome) does not strongly suggest extreme temperatures (psychrophile or thermophile), the system must default to the 'mesophile' classification as per Rule 4. 4. Conclusion: Defaulting to mesophile.
+
+

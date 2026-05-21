@@ -1,0 +1,46 @@
+=============Reasoning for WAB25193 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name, host, and collection details, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperature ranges) is present to determine the thermal range.
+
+
+=============Reasoning for WAB25193 from accession literature=============
+=============Reasoning for WAB25193 from host literature=============
+Paper: PMC13123177.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth conditions for the bacterium, which is the source of the phage's environment. In the section 'Results and discussion' under 'Bacterial characterization and identification', it mentions: '...incubated for two days at 30 °C after one gram of each dry contaminated dust was dissolved in 50 millilitres of sterilized water.' Furthermore, in the 'Optimization of the growth conditions' section, it states: 'The samples were shaken for 24 hours at 30 ºC and 150 xg for each metal.' These temperatures (30 °C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC13050084.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for several assays: 
+1. Isolation of Rhizobacteria: "The plates were incubated at 37 ± 2 °C under aerobic conditions for 48-72 h".
+2. Development of pure culture of isolates: "The plates were incubated at 37 ± 2 °C for 48h under aerobic conditions."
+3. Indole production test: "Isolates were inoculated into sterile tryptone broth and incubated at 35 ± 2 °C for 48 h."
+4. MR test: "Isolates were grown in MR-VP broth for 48 h at 37 °C."
+5. Nitrate reduction test: "Bacterial isolates were inoculated into sterile nitrate broth tubes and incubated at 35 ± 2 °C for 24-48 h."
+6. Sugar utilization test: "The strips were incubated at 35 ± 2 °C for 24-48 h in a humid chamber."
+7. Amylase production test: "Plates were incubated at 37 °C for 48 h."
+8. Proteinase production test: "...and incubated at 37 °C for 48 h."
+9. Lipase test: "Bacterial isolates were spot-inoculated and incubated at 37 °C for 48 h."
+10. Urease test: "...and incubated at 37 °C for 48 h."
+11. Cellulase test: "...and incubated for 48 h at 37 °C."
+12. PCR amplification: "...annealing at 50 °C for 1 min and extension at 72 °C for 2 min."
+13. Pot trials: "...after 45 days of sowing."
+
+
+=============Reasoning for WAB25193 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature (e.g., soil, hot spring, etc.).
+2. Check for environmental context: The metadata provides the host organism ('Lysinibacillus fusiformis') and collection location ('China'), but no specific temperature context is given.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is weak regarding temperature, the system must default to the fallback classification rule.
+4. Fallback rule: The default classification is 'mesophile'.
+
+

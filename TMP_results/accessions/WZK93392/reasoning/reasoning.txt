@@ -1,0 +1,27 @@
+=============Reasoning for WZK93392 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Bacillus phage BvP') and its host ('Bacillus velezensis'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for WZK93392 from accession literature=============
+=============Reasoning for WZK93392 from host literature=============
+Paper: PMC13063675.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth temperature for the isolate P15 (identified as *Bacillus velezensis* AZH3S) in multiple contexts: 1. Initial screening: "Incubation at 37 °C for 48–72 h." 2. Phenotypic characterization: "Growth performance was examined in nutrient broth across a range of temperatures (25–45 °C), pH values (5.0–9.0), and NaCl concentrations (0–10% w/v) [33]." and "Temperature range 25–45 °C (optimum 37 °C)" in Table 2. 3. Time-course analysis: "Standardized inoculum of P15 isolate... was inoculated at 5% (v/v) into 100 mL casein–glucose medium and incubated at 37 °C, 120 rpm for 48 h." 4. Optimization: The optimal temperature identified via RSM was "33.1 °C". Since the optimal temperature (37 °C or 33.1 °C) falls within the 15–45°C range, the classification is mesophile.
+
+
+=============Reasoning for WZK93392 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Bacillus phage BvP') and its host ('Bacillus velezensis').
+2. No explicit thermal range is provided in the metadata.
+3. The host, Bacillus velezensis, is a common bacterium often associated with moderate environmental conditions, and the phage itself does not suggest extreme temperature requirements.
+4. Since no evidence is available, the decision rules mandate defaulting to 'mesophile' as the fallback class.
+5. Therefore, the classification is mesophile.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for AZV01163 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Shigella dysenteriae') and collection location ('China'), but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range.
+
+
+=============Reasoning for AZV01163 from accession literature=============
+Paper: PMC7925395.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that 'All the isolates were cultured routinely on brain heart infusion (BHI) agar (Merck, Germany) or in BHI broth (Merck, Germany) with constant shaking at 200rpm and 37°C.' Furthermore, when describing phage isolation methods, it mentions that in method II, the filtrate was 'incubated at 37°C for at least 24h.' Finally, the stability tests mention that 'Titer of all the three phages were stable (>90%) at −20 to 40°C,' and the general stability discussion notes that 'The absence of any significant changes in the phage titers at −20 to 40°C and in neutral to somewhat alkaline pH is an indication of the high stability of the phages in normal environments (neutral or slightly acidic/alkaline pH and ambient temperatures of ≤40°C).'
+
+
+=============Reasoning for AZV01163 from host literature=============
+=============Reasoning for AZV01163 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the phage.
+2. Check for environmental context: The metadata provides the host ('Shigella dysenteriae') and collection location ('China'), but no specific environmental temperature is given.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient for strong inference, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with low confidence due to the fallback mechanism.
+
+

@@ -1,0 +1,35 @@
+=============Reasoning for YP_009619249 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'water, Red Cedar River'. Rivers are typically associated with mesophilic environments, leading to an inference of mesophilic range.
+
+
+=============Reasoning for YP_009619249 from accession literature=============
+Paper: PMC10580823.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature range for phage Killian's stability: "It retained 40%–100% infectivity at pH 4–10 and from temperatures ranging from 4 to 40°C. The phage became fully inactivated at pH less than 3 and temperatures above 50°C (Fig. 1e and f)." The optimal growth/stability range mentioned is 4–40°C. Since the mesophile definition is 15–45°C, and the phage is stable up to 40°C, it falls within the mesophilic range. Furthermore, the bacterial growth/incubation temperatures mentioned are 37°C (for MIC, checkerboard, and viability count) and 30°C (for enrichment and isolation), both falling within the mesophilic range.
+
+
+=============Reasoning for YP_009619249 from host literature=============
+Paper: PMC13152249.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the study analyzed the interaction of S. enterica with food matrices under "abusive cold storage conditions at 8 °C, temperature frequently encountered in open cooling displays or household refrigerators" (Section 1, paragraph 4). Furthermore, the incubation steps for the TIS library screenings were performed at "8 °C for a total of 96 h" (Section 2.3). The background microbiota analysis also mentions "During cold storage" and "After 96 h of storage at 8 °C" (Section 3.1.2). These conditions (8 °C) fall within the mesophilic range (15–45°C).
+
+
+=============Reasoning for YP_009619249 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the following relevant context: Host is 'Shigella flexneri', isolation source is 'water, Red Cedar River', and collection date is 'Oct-2016'.
+2. **Apply Decision Rules:**
+    *   Rule 1 (Explicit evidence): No explicit thermal range is provided.
+    *   Rule 2 (Inference from environment): The isolation source is 'water' from a river, and the collection date is in October. River water temperatures in temperate regions (implied by the coordinates 42.73 N 84.48 W) during autumn typically fall within the moderate range (10–20°C, trending towards mesophilic conditions).
+    *   Rule 3 (Fallback): Since the environmental context (river water in autumn) strongly suggests moderate temperatures, this points towards mesophily. If the inference were weak, the fallback would be 'mesophile'.
+3. **Conclusion:** The combination of the host (Shigella species are generally mesophilic human pathogens) and the environmental source (river water in autumn) strongly suggests a mesophilic classification. Therefore, 'mesophile' is assigned.
+
+

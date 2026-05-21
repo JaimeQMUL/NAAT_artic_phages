@@ -1,0 +1,16 @@
+=============Reasoning for QEG11013 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host species, and geographical origin (Australia), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for QEG11013 from accession literature=============
+=============Reasoning for QEG11013 from host literature=============
+=============Reasoning for QEG11013 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KMI12), its host (Klebsiella oxytoca; Klebsiella penumoniae), and its origin (Australia). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or thermal stability data. 3. The host organisms, *Klebsiella* species, are generally associated with mammalian or environmental niches that typically fall within moderate temperature ranges (15–45°C). 4. Since no explicit evidence is available, and the host context suggests moderate conditions, the default classification based on the decision rules is 'mesophile'.
+
+

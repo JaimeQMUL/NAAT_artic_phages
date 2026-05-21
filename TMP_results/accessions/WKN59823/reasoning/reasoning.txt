@@ -1,0 +1,23 @@
+=============Reasoning for WKN59823 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are typically associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for WKN59823 from accession literature=============
+=============Reasoning for WKN59823 from host literature=============
+Paper: PMC13179404.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth conditions for the strains: "The optimum growth of both strains, when grown on LB medium, was at pH 9 with 3% salinity at 35 °C (Table S1)." Furthermore, when discussing the initial inoculum preparation, it states: "For all subsequent experiments, inoculum was prepared by growing the strains in 10 mL LB medium amended with 1 mg L− 1 Cr(VI) in 15 mL culture tubes at 35 °C under anaerobic conditions." The temperature of 35°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WKN59823 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Phage: Klebsiella phage AYL, Host: Klebsiella sp., Isolation Source: sewage. 2. There is no explicit mention of optimal growth temperature, cold tolerance, or high-temperature stability. 3. The isolation source is 'sewage'. Sewage environments are generally considered mesophilic, fluctuating around ambient temperatures, which typically fall within the 15–45°C range. 4. Since no explicit evidence is present, the decision rules require inferring from the environmental context (sewage $ightarrow$ mesophile). 5. As the environmental context is suggestive but not definitive, and no other rule applies, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for WWS24773 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('canal') and geographical coordinates ('India: Kerala', '9.092354 N 76.489307 E'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for WWS24773 from accession literature=============
+=============Reasoning for WWS24773 from host literature=============
+=============Reasoning for WWS24773 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal stability range for the phage.
+2. Check for environmental context: The isolation source is listed as 'canal' in 'India: Kerala'. Canals are generally associated with moderate, ambient temperatures, which typically fall within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context (canal in India) suggests moderate temperatures, pointing towards mesophile. However, this is not a strong, direct inference. Given the lack of specific thermal data, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+4. Conclusion: The classification defaults to mesophile based on the fallback rule due to insufficient specific thermal metadata.
+
+

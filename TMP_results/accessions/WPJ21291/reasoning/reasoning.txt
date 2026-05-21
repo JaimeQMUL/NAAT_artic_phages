@@ -1,0 +1,33 @@
+=============Reasoning for WPJ21291 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides information about the phage, its host (Klebsiella pneumoniae KP075), collection location (India), and altitude (22 m), but no explicit or strongly implied temperature or thermal condition is provided for either the phage or the host.
+
+
+=============Reasoning for WPJ21291 from accession literature=============
+Paper: PMC12820288.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that bacterial culture was carried out in Luria Bertani (LB) broth or on LB agar at 37 °C, and that the in vitro bacteriolytic activity was assessed by incubation at 37 °C. Furthermore, the OSG experiment involved incubation at 37 °C, and the biofilm formation assays were incubated at 37 °C. Since 37 °C falls within the mesophile range (15–45°C), the phage activity is associated with mesophilic conditions.
+
+
+Paper: PMC10964426.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions used for RNA-Seq and interbacterial competitive assays: "K. pneumoniae HS11286, HS11286-Δhcp and HS11286-ΔvgrG mutant strains were grown overnight in Luria-Bertani (LB) broth (37°C, 180 rpm)." and "Predator and prey strains were then mixed in a 10:1 ratio, spotted (10 µL) on LB agar containing 100 µg/mL rifampin, and incubated for 5 h or 24 h at 37°C." The optimal growth temperature for the host, *K. pneumoniae*, is therefore 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WPJ21291 from host literature=============
+=============Reasoning for WPJ21291 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Klebsiella phage KP17.
+2. Check for environmental context: The metadata provides collection details (India, altitude: 22 m, collection date: 15-Nov-2020), but these do not specify a temperature range.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is insufficient to strongly infer a specific temperature class (psychrophile or thermophile), the system must default to the 'mesophile' classification as per the mandatory fallback rule.
+4. Conclusion: Assign 'mesophile' with 'forced' inference type and 'low' confidence due to the lack of supporting data.
+
+

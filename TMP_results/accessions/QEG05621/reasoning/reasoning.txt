@@ -1,0 +1,19 @@
+=============Reasoning for QEG05621 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('sewage') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for QEG05621 from accession literature=============
+=============Reasoning for QEG05621 from host literature=============
+=============Reasoning for QEG05621 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Shigella phage JK36.
+2. Check for environmental context: The isolation source is 'sewage', and the collection date is '31-Jan-2017'. Sewage environments typically fluctuate but are generally associated with moderate temperatures, especially when considering the host bacterium, which is often mesophilic (like E. coli, mentioned in 'lab_host').
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (sewage) is not strongly indicative of extreme cold or heat, the system must default to the 'mesophile' classification as per Rule 4.
+4. Conclusion: The default classification is mesophile.
+
+

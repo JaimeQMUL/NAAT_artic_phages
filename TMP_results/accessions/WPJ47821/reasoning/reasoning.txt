@@ -1,0 +1,19 @@
+=============Reasoning for WPJ47821 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are generally associated with mesophilic conditions, as no extreme temperatures are specified.
+
+
+=============Reasoning for WPJ47821 from accession literature=============
+=============Reasoning for WPJ47821 from host literature=============
+=============Reasoning for WPJ47821 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Klebsiella phage RCIP0006.
+2. Check for environmental context: The isolation source is 'sewage' and the host is 'Klebsiella pneumoniae'. Sewage and typical clinical/environmental reservoirs for *Klebsiella* species generally operate within moderate temperature ranges (mesophilic conditions, 15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context (sewage/clinical bacteria) strongly suggests mesophilic conditions. However, as the evidence is not strongly quantitative, and to adhere strictly to the fallback rule (Rule 4) if context is weak, the default classification is 'mesophile'.
+4. Conclusion: The most probable classification, based on the general ecology of the host and the lack of contrary evidence, is mesophile.
+
+

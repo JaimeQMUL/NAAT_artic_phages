@@ -1,0 +1,26 @@
+=============Reasoning for YP_010088816 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Synechococcus sp.') and collection location ('USA: Crystal Cove, California') and date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_010088816 from accession literature=============
+=============Reasoning for YP_010088816 from host literature=============
+Paper: PMC13179600.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions the optimal growth temperature for the wild-type strain: "Strains derived from Synechococcus elongatus PCC 7942 (wild-type strain R2-SPc [19]) were maintained photoautotrophically at 32 °C in modified BG 11 medium." It also mentions that the optimal growth temperature for wild-type S. elongatus is 32 °C, and the study used 32 °C for initial cultivation and comparison. Since 15–45°C defines a mesophile, 32°C falls within this range.
+
+
+=============Reasoning for YP_010088816 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage S-CAM22.
+2. **Check for environmental context:** The metadata indicates the collection location is 'USA: Crystal Cove, California' and the collection date is '17-Feb-2010'. Coastal/marine environments in California generally experience temperate conditions, which align best with mesophilic ranges (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context suggests a temperate marine setting. However, the inference is not strong enough to override the fallback rule.
+4. **Fallback:** As per the rules, if environmental context is weak or absent (or if the inference is not strong enough), the system must default to 'mesophile'.
+
+

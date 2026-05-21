@@ -1,0 +1,19 @@
+=============Reasoning for AIM51312 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'potato rhizosphere'. Rhizosphere environments are typically associated with moderate temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for AIM51312 from accession literature=============
+=============Reasoning for AIM51312 from host literature=============
+=============Reasoning for AIM51312 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the following relevant context: 'host': 'Pectobacterium sp. and Dickeya sp.', 'isolation_source': 'potato rhizosphere', 'collection_date': 'Jul-2013'.
+2. **Evaluate Evidence:** The isolation source is the 'potato rhizosphere' (soil environment). While soil temperature fluctuates, the general conditions for plant-associated bacteria like *Dickeya* and *Pectobacterium* (which are common plant pathogens) typically fall within moderate temperature ranges.
+3. **Apply Rules:** No explicit thermal range is provided. The environmental context (rhizosphere) suggests moderate conditions, but this is not strong enough to classify as psychrophile or thermophile definitively.
+4. **Fallback:** Since the environmental context is suggestive but not explicit, and no other rule applies, the system defaults to 'mesophile' as per the mandatory fallback rule (Rule 4).
+
+

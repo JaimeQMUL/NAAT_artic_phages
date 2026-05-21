@@ -1,0 +1,19 @@
+=============Reasoning for YP_009816092 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Synechococcus sp. WH 7803') and collection location ('China'), but no explicit or strongly implied temperature or environmental condition (e.g., hot springs, deep sea) is provided to classify the thermal range.
+
+
+=============Reasoning for YP_009816092 from accession literature=============
+=============Reasoning for YP_009816092 from host literature=============
+=============Reasoning for YP_009816092 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-P4.
+2. **Check for environmental context:** The metadata provides the host ('Synechococcus sp. WH 7803') and collection location ('China'), but no specific temperature data is available.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (China) is too broad to infer a specific temperature class (psychrophile, mesophile, or thermophile), the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

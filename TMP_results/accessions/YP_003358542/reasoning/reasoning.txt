@@ -1,0 +1,27 @@
+=============Reasoning for YP_003358542 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Shigella phage Ag3') and its host ('Shigella boydii'), but no explicit or strongly implied temperature or environmental condition is mentioned to determine a thermal range.
+
+
+=============Reasoning for YP_003358542 from accession literature=============
+Paper: PMC3121705.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth curve section explicitly states the conditions used for the experiment: "One-step growth studies with ΦSboM-AG3 indicate that at 30°C this phage has a latent period of ~52 min, a rise period of 23 min., and an average burst size of ~152 phages per cell (Figure 2). Figure 2 One-step growth curve of phage ΦSboM-AG3. Shigella boydii C865 was used as the host and the incubation temperature was 30°C". Since 30°C falls within the defined mesophile range (15–45°C), the phage is classified as mesophile.
+
+
+=============Reasoning for YP_003358542 from host literature=============
+=============Reasoning for YP_003358542 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Shigella phage Ag3') and its host ('Shigella boydii').
+2. There is no explicit mention of optimal growth temperature or environmental temperature ranges.
+3. The host, *Shigella boydii*, is a human pathogen, and most human-associated bacteria and their phages are generally considered mesophilic, thriving in moderate body temperatures (around 37°C).
+4. Since no explicit evidence exists, the decision rules mandate assigning the MOST PROBABLE classification. Given the association with a human pathogen, mesophile is the most probable classification.
+5. Therefore, the classification defaults to mesophile.
+
+

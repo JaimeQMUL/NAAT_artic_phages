@@ -1,0 +1,19 @@
+=============Reasoning for WPJ48449 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage'. Sewage environments are generally associated with mesophilic conditions, as no specific extreme temperature is mentioned.
+
+
+=============Reasoning for WPJ48449 from accession literature=============
+=============Reasoning for WPJ48449 from host literature=============
+=============Reasoning for WPJ48449 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Klebsiella phage RCIP0009.
+2. Check for environmental context: The isolation source is 'sewage' and the host is 'Klebsiella pneumoniae'. Sewage and typical clinical/environmental reservoirs for *Klebsiella* species generally operate within moderate temperature ranges (mesophilic conditions, 15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context (sewage/clinical bacteria) strongly suggests mesophilic conditions. However, as the evidence is not strongly tied to a specific temperature range (it's a general source), and to adhere strictly to the fallback rule (Rule 4) if context is weak, the default classification is 'mesophile'.
+4. Conclusion: Assign 'mesophile' based on the default fallback rule due to lack of specific thermal data.
+
+

@@ -1,0 +1,32 @@
+=============Reasoning for QOI71213 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'stream', which suggests an aquatic environment typically associated with mesophilic organisms. No explicit temperature is provided.
+
+
+=============Reasoning for QOI71213 from accession literature=============
+Paper: PMC11664846.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature used for phage propagation: "For the cultivation of microorganisms, both nutrient agar and nutrient broth (NB) media supplemented with 0.4% agar as the top layer were used for phage propagation at a constant temperature of 27 °C over a period of 18–24 h." It also mentions subsequent incubation at "27 °C overnight" and "The experiments were conducted in flasks and incubated at 27 °C with agitation at 150 rpm for 18 h." Since 27°C falls within the mesophile range (15–45°C), the phage is characterized as mesophilic.
+
+
+=============Reasoning for QOI71213 from host literature=============
+Paper: PMC12690260.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly mentions thermal stability tests for the phages: "For thermal stability tests, 1 mL phage suspension (10^5 PFU/mL) was incubated at 30, 40, 50, and 60°C and titrated for phage activity." The phages were found to be "highly stable against thermal stress up to 50°C; however, no infective phages were detected after 1 h of incubation at 60°C." Since the optimal stability range tested and reported as stable is up to 50°C, and the mesophilic range is defined as 15–45°C, this suggests the phages function optimally within or near the mesophilic range, although the explicit optimal temperature is not given. The general culture condition for the bacteria was 27°C, which falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for QOI71213 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Erwinia phage pEa_SNUABM_12.
+2. Check for environmental context: The isolation source is listed as 'stream'. Stream environments typically represent moderate, ambient temperatures, generally falling within the mesophilic range (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference from the 'stream' source suggests mesophily. However, the inference is not strong enough to be classified as 'inferred' with high confidence, and the rules mandate a classification. Given the general nature of 'stream' and the lack of specific temperature data, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

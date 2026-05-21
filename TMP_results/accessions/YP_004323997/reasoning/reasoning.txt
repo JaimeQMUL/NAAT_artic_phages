@@ -1,0 +1,19 @@
+=============Reasoning for YP_004323997 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Sargasso Sea') and coordinates ('34.10 N 61.02 W'), but no explicit temperature or environmental condition is stated to determine a thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for YP_004323997 from accession literature=============
+=============Reasoning for YP_004323997 from host literature=============
+=============Reasoning for YP_004323997 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is the 'Sargasso Sea' and the collection date is 'Jul-1990'.
+2. **Determine Environmental Context:** The Sargasso Sea is a temperate, open-ocean environment. While specific temperature data is missing, open-ocean phages isolated from such locations are generally associated with moderate, ambient seawater temperatures.
+3. **Apply Decision Rules:** Since there is no explicit thermal range, inference is required. Open-ocean marine environments typically fall within the mesophilic range (15–45°C).
+4. **Conclusion:** Assigning 'mesophile' based on the general environmental context of the isolation source.
+
+

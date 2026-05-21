@@ -1,0 +1,18 @@
+=============Reasoning for AIM51864 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'potato rhizosphere'. Rhizosphere environments are typically associated with moderate temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for AIM51864 from accession literature=============
+=============Reasoning for AIM51864 from host literature=============
+=============Reasoning for AIM51864 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of the phage.
+2. **Check for environmental context:** The isolation source is 'potato rhizosphere' and the collection date is 'Jul-2013'. Rhizosphere environments are generally associated with moderate, soil-like temperatures, which typically fall within the mesophilic range (15–45°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context (rhizosphere) suggests mesophily. However, the inference is not strong enough to be classified as 'inferred' with high confidence, and the metadata is otherwise sparse regarding temperature. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

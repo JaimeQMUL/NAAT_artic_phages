@@ -1,0 +1,40 @@
+=============Reasoning for QZI87434 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'filtered_seawater', but it does not specify a temperature range for this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for QZI87434 from accession literature=============
+Paper: PMC13142089.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly tested the stability of ValKK3 at various temperatures. It states: "ValKK3 was stable at 40°C but began to lose activity at 50°C to 80% following heating for 60 min. The lytic activity disappeared entirely when heated at more than 60°C for 1 h (Figure 6A)." Since the phage is stable at 40°C and loses activity above 60°C, its optimal or effective range falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC12685585.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of pVa-22: "The phage retained infectivity after incubation at temperatures ranging from 4°C to 37°C but exhibited a significant reduction in activity at 50°C (Fig. 1E)." The mesophilic range is defined as 15–45°C, and the observed stable range (4°C to 37°C) falls within or overlaps significantly with this range, with the optimal/most relevant range being 15–37°C.
+
+
+Paper: 42090863.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that LysV569 'retained >99% of its activity' after pre-incubation for 30 min over a wide temperature range (4 °C to 85 °C). Since the optimal growth range for the host, Vibrio parahaemolyticus, is not given, and the phage activity is stable across a very wide range including refrigeration (4°C) up to 85°C, this suggests broad stability. However, the definition for mesophile is 15–45°C. Given the stability across this range, and the lack of a specific optimal temperature for the phage itself, we must rely on the general context or the most representative range. Since the stability is shown across a range that encompasses mesophilic conditions (15-45°C), and no specific optimal temperature is given, we classify it based on the general stability shown, but the most conservative classification based on the provided definitions and data is to note the broad stability rather than assigning a single category, but since a category must be chosen, and the stability is shown across the mesophilic range, we select mesophile. The text does not provide the optimal growth temperature for the phage itself, only its stability range.
+
+
+=============Reasoning for QZI87434 from host literature=============
+=============Reasoning for QZI87434 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage is associated with 'Vibrio crassostreae' and was isolated from 'filtered_seawater'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The isolation source ('filtered_seawater') suggests a marine environment. Marine environments typically fluctuate but are often associated with moderate temperatures unless specified otherwise.
+3. **Infer Context:** Vibrio species are generally known to inhabit diverse aquatic environments, often thriving in mesophilic ranges (15–45°C). While some phages can be psychrophilic (if isolated from deep/cold water) or thermophilic (if isolated from hot vents), the general 'seawater' context without temperature data defaults to the most common biological range.
+4. **Fallback:** Since no explicit evidence exists, the system defaults to 'mesophile' as per the mandatory fallback rule (Rule 4).
+
+

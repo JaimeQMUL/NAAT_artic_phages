@@ -1,0 +1,16 @@
+=============Reasoning for YP_004324526 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Prochlorococcus phage Syn1'), lab host ('Synechococcus sp. WH8101'), and collection location ('41.52 N 71.67 W'), but no explicit or strongly implied temperature or thermal environment information is present to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for YP_004324526 from accession literature=============
+=============Reasoning for YP_004324526 from host literature=============
+=============Reasoning for YP_004324526 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested growth temperature for Prochlorococcus phage Syn1. 2. **Check for environmental context:** The metadata provides geographical coordinates ('lat_lon': '41.52 N 71.67 W') and a collection date ('collection_date': 'Aug-1990'). These coordinates point to a temperate coastal marine environment (near the US East Coast). 3. **Apply decision rules:** Since no explicit thermal data is available, the inference relies on the environmental context. Marine phages associated with surface/coastal environments are generally assumed to be mesophilic unless evidence suggests otherwise. 4. **Fallback:** As the environmental context suggests a moderate, non-extreme temperature range, and no other information is available, the default classification of 'mesophile' is assigned as the most probable classification.
+
+

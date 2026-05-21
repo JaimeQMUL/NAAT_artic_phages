@@ -1,0 +1,19 @@
+=============Reasoning for DAK36611 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAK36611 from accession literature=============
+=============Reasoning for DAK36611 from host literature=============
+=============Reasoning for DAK36611 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit temperature ranges for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2012-06-12. Human environments are generally considered moderate, aligning best with mesophilic conditions (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The human source suggests mesophily. If the environmental context (human source) is considered weak for definitive classification, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+4. Conclusion: The most probable classification, based on the human host source and the fallback rule, is mesophile.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for QXN68748 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Hafnia phage yong2') and its host ('Hafnia paralvei'), but no explicit or strongly implied temperature or environmental condition is provided to determine a thermal range.
+
+
+=============Reasoning for QXN68748 from accession literature=============
+Paper: PMC9503304.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states the stability of Mae-Yong1326-1: "The activity of Mae-Yong1326-1 stayed at high levels at temperatures ranging from 0 °C to 40 °C, yet decreased to 0 within 20 min at the temperatures over 60 °C (Figure 3C)." This range (0–40 °C) falls within the definition of mesophile (15–45°C).
+
+
+=============Reasoning for QXN68748 from host literature=============
+=============Reasoning for QXN68748 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Hafnia phage yong2') and its host ('Hafnia paralvei').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range.
+3. The host, 'Hafnia paralvei', is a marine organism, and while some marine environments can be cold, the general default for uncharacterized phages associated with non-extremophile hosts is mesophilic.
+4. Since no evidence is available to classify it as psychrophile or thermophile, the decision rules mandate defaulting to 'mesophile'.
+
+

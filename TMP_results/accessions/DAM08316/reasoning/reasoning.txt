@@ -1,0 +1,18 @@
+=============Reasoning for DAM08316 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAM08316 from accession literature=============
+=============Reasoning for DAM08316 from host literature=============
+=============Reasoning for DAM08316 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2017-01-14'. Human-associated samples generally imply mesophilic conditions (body temperature range, 37°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The human source suggests mesophily. However, the context is weak (it's just a metagenome sample, not a specific environmental sample). Therefore, the fallback rule (Rule 4) is triggered, defaulting to 'mesophile'.
+
+

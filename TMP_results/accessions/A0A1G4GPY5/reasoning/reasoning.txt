@@ -1,0 +1,39 @@
+=============Reasoning for A0A1G4GPY5 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal conditions for the bacteriophage or its host.
+
+
+=============Reasoning for A0A1G4GPY5 from accession literature=============
+Paper: PMC12584253.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature range over which phage kp20 retained infectivity: "Phage kp20 retained infectivity over a range of temperatures (4–40 °C)". This range (4–40°C) falls within the definition of mesophile (15–45°C).
+
+
+Paper: PMC8100603.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for phage propagation and growth studies. For phage isolation and initial titer determination, the incubation was performed at "37°C overnight" ("W-KP2 was incubated with sewage samples in LB broth at 37°C overnight.") and for subsequent growth curve measurements, the incubation was done "at 37°C" ("After the mixed culture was incubated for 5 h at 37°C (180 rpm)\
+
+
+=============Reasoning for A0A1G4GPY5 from host literature=============
+Paper: PMC13185773.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that the cell lines (H22 and RAW264.7) were cultured at 37°C in a 5% CO2 humidified atmosphere. Furthermore, the indirect co-culture model specified co-culturing 'for 24 or 48 h at 37°C, 5% CO2.' The selection of 45°C for 10 min was noted as a 'standard sublethal thermal stress condition' based on testing viability at 41°C, 45°C, and 49°C, but the baseline culture temperature is 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for A0A1G4GPY5 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided is limited to sequence information (title, accession, etc.) and does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Klebsiella phage PMBT1.
+2. No explicit evidence for psychrophile (<15°C) or thermophile (>45°C) is present.
+3. Following the decision rules, since environmental context is weak or absent, the system must assign the MOST PROBABLE classification. The fallback rule dictates defaulting to 'mesophile'.
+
+

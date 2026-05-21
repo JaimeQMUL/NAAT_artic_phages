@@ -1,0 +1,18 @@
+=============Reasoning for UQS92958 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('chicken feces') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for UQS92958 from accession literature=============
+=============Reasoning for UQS92958 from host literature=============
+=============Reasoning for UQS92958 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of the phage.
+2. **Check for environmental context:** The isolation source is 'chicken feces' and the collection date is '19-Jul-2001'. Fecal matter generally represents mesophilic environments, although temperature fluctuations are possible.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (feces) suggests moderate conditions, the most probable classification is mesophile. As the environmental context is not strongly defining a specific extreme, and no explicit data is present, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

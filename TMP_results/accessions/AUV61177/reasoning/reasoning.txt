@@ -1,0 +1,16 @@
+=============Reasoning for AUV61177 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and accession details, but no explicit or strongly implied temperature or environmental condition is mentioned to determine the thermal range.
+
+
+=============Reasoning for AUV61177 from accession literature=============
+=============Reasoning for AUV61177 from host literature=============
+=============Reasoning for AUV61177 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for the phage. 2. The host organism is 'Escherichia coli', which is a common mesophilic bacterium, typically thriving in moderate temperatures (15–45°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Based on the known biology of the host, 'mesophile' is the most probable classification. 5. This classification is assigned by default due to insufficient evidence.
+
+

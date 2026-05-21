@@ -1,0 +1,26 @@
+=============Reasoning for YP_010072984 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, accession number, sequence length, dates, and the host organism ('Escherichia coli'). No explicit or strongly implied temperature or growth condition information is present in the metadata.
+
+
+=============Reasoning for YP_010072984 from accession literature=============
+Paper: PMC10253784.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that the phage was tested for stability at temperatures ranging from "−20 °C to 100 °C" (Table 4). It notes that "Exposure of phage Ec_MI-02 to temperatures ranging from 25 °C to 65 °C for 15 or 30 min resulted in a significant (p < 0.05) decrease in the log10 pfu/mL count (Table 4)". Furthermore, it mentions that "4 °C was shown to be the most stable temperature for Ec_MI-02 compared with −20 °C and 25 °C after 5 months of storage." The general optimal growth range for the host, E. coli, is implied by the incubation temperatures used for characterization, such as 37 °C (Section 4.2, 4.3, 4.7). Since the phage was tested and found stable/active at 25 °C and 37 °C (the host's optimal growth temperature), and the mesophilic range is defined as 15–45°C, the phage is classified as mesophile based on the tested range and host context.
+
+
+=============Reasoning for YP_010072984 from host literature=============
+=============Reasoning for YP_010072984 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Escherichia phage vB_vPM_PD112') and its host ('Escherichia coli').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range.
+3. The decision rules state that if environmental context is weak or absent, the MOST PROBABLE classification must be assigned. The host, Escherichia coli, is a well-known mesophile, typically thriving in human body temperature range (37°C), which falls squarely within the mesophile range (15–45°C).
+4. Therefore, the classification defaults to mesophile based on the known biology of the host organism, as per the fallback rule (Rule 4).
+
+

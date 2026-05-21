@@ -1,0 +1,25 @@
+=============Reasoning for QGH79854 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QGH79854 from accession literature=============
+=============Reasoning for QGH79854 from host literature=============
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that 'Characterization on cultural characteristic and viable count at different temperatures (37ºC and 28ºC)' was performed. Since 28ºC and 37ºC both fall within the mesophilic range (15–45°C), and no other temperature is specified for optimal growth, the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for QGH79854 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage Bordeaux.
+2. Check for environmental context: The isolation source is 'soil', and the collection coordinates are '33.041985 N 97.172043 W' (Texas, USA). Soil environments generally support mesophilic life forms, although temperature variation is possible.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) points towards moderate conditions, the most probable classification is mesophile. As the environmental context is not strongly defining a specific temperature range, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

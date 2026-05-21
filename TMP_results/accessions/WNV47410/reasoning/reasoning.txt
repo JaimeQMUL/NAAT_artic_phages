@@ -1,0 +1,53 @@
+=============Reasoning for WNV47410 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Klebsiella phage fENko-Kae01') and its host ('Klebsiella aerogenes'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for WNV47410 from accession literature=============
+Paper: PMC12648861.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures used for various assays involving phage JP4 and its host bacteria. For instance, during 'In vitro bactericidal assay,' the plate was 'incubated statically at 37 °C in a microplate reader.' Similarly, for 'Biofilm eradication test,' the incubation was performed 'at 37 °C.' Furthermore, the 'Stability testing of phages' section mentions 'Thermal stability testing employed calibrated water baths (± 0.5 °C) across seven temperatures (4 °C, 37 °C, 50 °C, 60 °C, 70 °C, 80 °C, and 90 °C)' and the 'Detection of the host range of phage JP4' section used incubation at '37 °C'. Since the optimal/tested conditions are centered around 37°C, which falls within the 15–45°C range, the phage is classified as mesophile.
+
+
+Paper: PMC13070987.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that 'All bacteria and phage incubations were performed at 37 °C using Lysogeny Broth (LB).' Furthermore, the phage stability test involved incubating the phage suspension at 'temperatures ranging from 4 °C to 80 °C for 1 h,' and the pH-tolerance test was conducted after incubation at '37 °C for 1 h.' The optimal growth/incubation temperature mentioned repeatedly is 37 °C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11218385.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that 'All bacteria and phage incubations were performed at 37 °C using Lysogeny Broth (LB).' Furthermore, the motility assay was performed by incubating plates 'at 37 °C overnight'. Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for WNV47410 from host literature=============
+Paper: PMC13118744.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature ranges used for various experiments. For the effect of temperature on MR decolorization by WH2, the assays were performed under different temperatures (30, 37, 45, and 50 °C). The results section notes that "The decolorization rates of the MR by WH2 ranged from 94.2% to 97.6% after treatment for 8 h within the temperature range of 30–45 °C." It further concludes, "Thus, the bacterium WH2 exhibited higher decolorization activity between 30 and 45 °C." Since the mesophilic range is defined as 15–45°C, and the optimal activity was found within 30–45°C, the classification is mesophile.
+
+
+Paper: PMC13115305.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for culturing the bacterial strains and food samples: "A day before the DNA extraction step, all bacterial species were cultivated on Tryptone Soya Agar (TSA) (Millipore, Burlington, MA, USA) at 37 °C for 24 h (overnight) in a thermostat incubator..." and "Plates were incubated for 24 h at 37 °C." and "For meat samples, standard bacterial pre-enrichment was performed by incubating 250 mg of each meat sample (chicken breasts and salami) in 2 mL of Tryptone Soya Broth (TSB) (Millipore, Burlington, MA, USA) for 24 h at 37 °C to mimic conventional microbiological workflows for tissue-embedded bacteria following the ISO 6579-1 principle [21]. Following incubation in TSB, samples were spread-plated onto TSA plates and incubated for 24 h at 37 °C to obtain pure colonies." The LAMP assay optimization was performed at 65 °C, but the general growth/culture conditions are centered around 37 °C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WNV47410 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Klebsiella phage fENko-Kae01.
+2. Check for environmental context: The host organism is 'Klebsiella aerogenes'. Klebsiella species are generally associated with mammalian or environmental niches that typically fall within moderate temperature ranges (mesophilic conditions).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (host) suggests a moderate niche, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

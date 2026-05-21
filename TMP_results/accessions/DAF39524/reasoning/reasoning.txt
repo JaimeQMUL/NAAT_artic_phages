@@ -1,0 +1,16 @@
+=============Reasoning for DAF39524 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAF39524 from accession literature=============
+=============Reasoning for DAF39524 from host literature=============
+=============Reasoning for DAF39524 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2015-02-19. Human-associated environments typically suggest mesophilic conditions (15–45°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context points towards human-associated microbes, suggesting mesophily. 4. Fallback: As the environmental context (human metagenome) strongly suggests moderate conditions, 'mesophile' is selected. If the context were completely absent, 'mesophile' would be the default fallback. Given the context, the classification is assigned as mesophile.
+
+

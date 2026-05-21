@@ -1,0 +1,16 @@
+=============Reasoning for XLQ30668 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Klebsiella pneumoniae') and the phage ('Klebsiella phage KP6F1'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for XLQ30668 from accession literature=============
+=============Reasoning for XLQ30668 from host literature=============
+=============Reasoning for XLQ30668 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KP6F1), its host (Klebsiella pneumoniae), and its origin (Singapore, collection date 2023-01-02). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range. 3. The host, Klebsiella pneumoniae, is a common opportunistic pathogen often associated with human or environmental niches, typically thriving in moderate temperatures. 4. Since no explicit evidence is available, the decision rules mandate defaulting to 'mesophile' as the most probable classification. 5. Therefore, 'mesophile' is assigned based on the fallback rule.
+
+

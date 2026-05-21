@@ -1,0 +1,47 @@
+=============Reasoning for QHB42777 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Dickeya solani') and the phage name ('Dickeya phage Ds3CZ'), but no explicit or strongly implied temperature or growth condition information is present to determine the thermal range.
+
+
+=============Reasoning for QHB42777 from accession literature=============
+Paper: PMC10458263.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several experiments involving the phage SW16-7 and its host bacteria. For instance, in Section 2.2, the incubation of the phage lysate with host bacteria was done at "37 °C for 24 h." In Section 2.4, the spot tests were incubated "at 37 °C for 16 h." In Section 2.7, the one-step growth curve was incubated "at 37 °C." In Section 2.8, the growth monitoring was done "for a duration of 24 h," and the second experiment was cultured "to the exponential phase with 20 mL each." These consistent use of 37 °C for growth and activity assays suggest a mesophilic optimum, which aligns with the defined mesophile range of 15–45°C.
+
+
+=============Reasoning for QHB42777 from host literature=============
+Paper: PMC10931765.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for culturing the wild-type strain and the Tn5 mutants: "Solid bacterial cultures were cultivated on tryptone soya agar plates (TSA, Oxoid) or M9 minimal medium agar plates with glucose (M9 + 0.4% glucose, supplemented with 15 g L−1 bacteriological agar (Oxoid)) at 28 °C for 24–48 h." Additionally, the qRT-PCR section mentions incubation at "16 h at 28 °C with shaking (200 rpm)\
+
+
+Paper: PMC10169776.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the wild-type (WT) D. solani was cultivated for 24–48 h at 28 °C on tryptone soya agar (TSA, Oxoid, UK), in TSB or M9 medium (MP Biomedicals, the Netherlands) supplemented with 0.4% glucose (Sigma-Aldrich, Poland). Spontaneous $\Phi$D5-resistant D. solani mutants were cultivated under the same conditions and using the same growth media as the WT strain. Furthermore, the growth of the mutants was tested at various temperatures (5, 8, 15, 28, and 37 °C) and the antibiotic susceptibility testing was performed after growing the strains for 16 h in TSB with shaking (120 rpm) at 28 °C. The optimal growth temperature range suggested by these explicit conditions (28 °C) falls within the mesophile range (15–45°C).
+
+
+Paper: 41676063.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states, "thermal stability tests indicated that all three phages maintained infectivity across a broad temperature range (-20 °C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range includes this range, the classification is mesophile. The upper limit (60°C) exceeds the mesophile definition, but the broad range encompasses the mesophile range, and no specific optimal temperature is given to classify it as thermophile or psychrophile.
+
+
+=============Reasoning for QHB42777 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Dickeya phage Ds3CZ) but contains no explicit information regarding its optimal growth temperature or the temperature of its natural environment.
+2. There is no environmental context (e.g., soil type, water source temperature) to infer a specific thermal range.
+3. Following the decision rules, since no explicit evidence exists, and environmental context is weak/absent, the system must default to 'mesophile' as per Rule 4.
+4. Therefore, the classification is mesophile, and the inference type is 'forced'.
+
+

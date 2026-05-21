@@ -1,0 +1,33 @@
+=============Reasoning for AUV63986 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'water, Red Cedar River'. Rivers are typically associated with mesophilic environments, leading to an inference of mesophilic range.
+
+
+=============Reasoning for AUV63986 from accession literature=============
+Paper: PMC12533011.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature stability of phage SSG23: "The phage maintained high infectivity at −20, 4, 25, and 37 °C, with no significant reduction in titer after 1 h of incubation (Fig. 1e). At 40 °C, infectivity remained relatively stable, whereas a moderate decline in phage titer was observed at 50 °C." The optimal growth/stability range mentioned includes 37°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC11611945.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the temperature range for phage viability: "The titer of all phages did not significantly decrease (p > 0.05) at 25 °C and 37 °C for up to 180 min while the phage titer decreased rapidly within 60 min when incubated at 50 °C and lost their viability completely after 180 min (Fig. 2c–e)." The optimal growth/stability range mentioned is 25–37°C, which falls within the mesophile definition (15–45°C).
+
+
+=============Reasoning for AUV63986 from host literature=============
+=============Reasoning for AUV63986 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the thermal range of the phage.
+2. **Check for environmental context:** The isolation source is 'water, Red Cedar River' and the collection date is 'Oct-2016'. Rivers generally maintain temperatures within the mesophilic range (15–45°C), especially considering the latitude (42.73 N). This suggests a moderate environment.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The environmental context points towards mesophilic conditions. However, the inference is based on general knowledge of river water temperatures rather than a direct, strong implication from the metadata itself. Therefore, the fallback rule (Rule 4) is applied, or the best available inference (Rule 3) is used, defaulting to mesophile as the most probable classification for a non-specified environmental isolate.
+4. **Conclusion:** Assigning 'mesophile' based on the general nature of the isolation source (river water) and the fallback rule.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for UIU27986 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Escherichia coli O156:H25'), isolation source ('beef cattle'), and country ('South Africa'), but no explicit or strongly implied temperature or thermal environment information is present to classify the thermal range.
+
+
+=============Reasoning for UIU27986 from accession literature=============
+Paper: PMC10580823.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The abstract states that "Killian can withstand a wide variety of temperatures (4–50°C)". Furthermore, the results section specifies that "Killian was quite stable over a wide range in both pH and temperature. It retained 40%–100% infectivity at pH 4–10 and from temperatures ranging from 4 to 40°C." The general optimal growth range for mesophiles is 15–45°C, and the stated range (4–50°C) encompasses this range, with the most consistently cited optimal/tested range being 4–40°C, which falls within the mesophilic definition.
+
+
+=============Reasoning for UIU27986 from host literature=============
+=============Reasoning for UIU27986 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for the phage.
+2. Check for environmental context: The isolation source is 'beef cattle' and the country is 'South Africa'. While these suggest an environmental origin, they do not provide a specific temperature range.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is too general to strongly infer a specific range (psychrophile or thermophile), the system must default to the 'mesophile' classification as per the mandatory fallback rule.
+4. Conclusion: Assign 'mesophile' with low confidence due to the lack of specific thermal data.
+
+

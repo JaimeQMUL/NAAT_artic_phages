@@ -1,0 +1,26 @@
+=============Reasoning for QIG60894 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The lab host is 'Listeria innocua BE307/15'. Since no explicit temperature is given, and 'Listeria' species are generally associated with moderate environments (like soil or host-associated), 'mesophile' is inferred. The isolation source is 'wastewater', which is also typically associated with mesophilic conditions.
+
+
+=============Reasoning for QIG60894 from accession literature=============
+=============Reasoning for QIG60894 from host literature=============
+Paper: 41398166.txt
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The text mentions that the evaluation of surrogate species was conducted 'in UHT and raw milk at 4 °C.' Since 4°C is below the typical mesophilic range (15–45°C) and is characteristic of refrigeration/cold storage, this suggests psychrophilic conditions for the tested growth. The host organism, Listeria monocytogenes, is generally associated with psychrotrophic/psychrophilic environments in food matrices, and the explicit testing temperature of 4°C supports this classification.
+
+
+=============Reasoning for QIG60894 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'wastewater'. Wastewater environments typically fluctuate but are generally associated with moderate temperatures, making mesophilic conditions the most probable default.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context ('wastewater') suggests moderate conditions, the most probable classification is mesophile.
+4. Fallback: As no useful metadata exists to strongly suggest psychrophile or thermophile, the default classification rule mandates assigning 'mesophile'.
+
+

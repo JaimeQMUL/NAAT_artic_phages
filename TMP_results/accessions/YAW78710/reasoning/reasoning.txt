@@ -1,0 +1,49 @@
+=============Reasoning for YAW78710 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Shewanella phage SA-M') and the host ('Shewanella algae'), but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for YAW78710 from accession literature=============
+Paper: PMC12145637.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several assays involving the phages: 
+1. 
+
+
+=============Reasoning for YAW78710 from host literature=============
+Paper: PMC12145637.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature for several assays involving the phages: 
+1. 
+
+
+Paper: PMC13148052.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature used for the Minimum Inhibitory Concentration (MIC) determinations: "Minimum inhibitory concentrations (MICs) were determined using E-test strips (bioMérieux) on Mueller–Hinton agar plates following EUCAST guidelines, incubated at 37°C for 24 h under aerobic conditions." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+Paper: PMC11580497.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperature used for bacterial isolation and culture: "The isolates were inoculated on trypticase soy agar with 5% sheep blood (Becton–Dickinson, Franklin Lakes, NJ, United States) and incubated aerobically at 37 °C overnight." Additionally, it mentions: "Overnight cultures of the S. algae isolates were grown in Luria–Bertani broth overnight at 37℃." Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YAW78710 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Shewanella phage SA-M') and its host ('Shewanella algae').
+2. There is no explicit information regarding the optimal growth temperature for the phage or its host.
+3. The genus 'Shewanella' is generally associated with diverse environments, but without specific temperature data, no strong inference can be made for psychrophile or thermophile.
+4. Following the decision rules, since environmental context is weak or absent, the system defaults to 'mesophile'.
+
+

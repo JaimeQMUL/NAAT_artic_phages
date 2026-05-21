@@ -1,0 +1,23 @@
+=============Reasoning for AEM91786 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Escherichia coli; O157:H7; NCTC 12900') but does not specify any temperature or growth conditions for the phage or host, so no thermal range can be determined.
+
+
+=============Reasoning for AEM91786 from accession literature=============
+Paper: PMC12948841.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the thermal stability of BUCT787: "This phage also demonstrated high thermal stability within the temperature range of 4°C to 36°C, retaining more than 90% of its activity compared to the initial level (Fig. 4D)."
+
+
+=============Reasoning for AEM91786 from host literature=============
+=============Reasoning for AEM91786 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Escherichia phage Cba120) and its host (Escherichia coli; O157:H7; NCTC 12900). 2. No explicit thermal range (psychrophile, mesophile, or thermophile) is stated in the metadata. 3. The host, Escherichia coli, is a common bacterium typically associated with moderate environmental temperatures (mesophilic range, 15–45°C). 4. Since no explicit evidence exists, the decision rules mandate inferring from the environmental context (host organism). 5. The most probable classification, based on the known biology of the host, is mesophile. 6. As no strong inference is possible, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

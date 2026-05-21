@@ -1,0 +1,19 @@
+=============Reasoning for YP_004421719 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Campylobacter jejuni') and the phage name, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_004421719 from accession literature=============
+=============Reasoning for YP_004421719 from host literature=============
+=============Reasoning for YP_004421719 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Campylobacter phage NCTC12673') and its host ('Campylobacter jejuni').
+2. There is no explicit mention of optimal growth temperature or thermal stability.
+3. The host, Campylobacter jejuni, is a common human pathogen often associated with moderate environmental temperatures, and phages infecting such organisms are typically mesophilic unless otherwise specified.
+4. Since no explicit evidence exists, and the environmental context (host) suggests moderate conditions, the default classification based on the provided rules (Rule 4) is 'mesophile'.
+
+

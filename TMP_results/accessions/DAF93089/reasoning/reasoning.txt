@@ -1,0 +1,18 @@
+=============Reasoning for DAF93089 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAF93089 from accession literature=============
+=============Reasoning for DAF93089 from host literature=============
+=============Reasoning for DAF93089 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Myoviridae sp. ctcyQ27.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2015-07-17. Human-associated samples generally imply mesophilic conditions (body temperature range).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The human source suggests mesophily. However, the inference is not strongly supported by a specific temperature range, making the evidence weak. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

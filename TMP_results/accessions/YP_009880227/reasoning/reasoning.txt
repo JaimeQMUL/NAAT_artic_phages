@@ -1,0 +1,46 @@
+=============Reasoning for YP_009880227 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage EP75') and its host ('Escherichia sp.'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for YP_009880227 from accession literature=============
+Paper: PMC13061930.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that 'Thermal stability assays revealed that vB_PsyP_Mobley, vB_PsyP_Plaza, and vB_PsyP_Mission remained viable after 24 h of incubation at between 4 °C and 25 °C (Fig. 5A–C). This stability is consistent with the cold spring conditions under which almond bacterial blast commonly develops3,7,8,23.' It also notes that 'Phage vB_PsyP_Mobley retained infectivity at 37 °C, whereas phages vB_PsyP_Plaza and vB_PsyP_Mission showed marked reductions in activity at this temperature.' Finally, it states, 'At 50 °C and above, infectivity of all three phages was minimal or undetectable.' The optimal growth/activity range mentioned (4°C to 25°C, with peak activity noted around 37°C for one phage) falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC6473133.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that 'Plates were incubated overnight at 37°C (EP75) or 20°C (EP335).' Since 37°C and 20°C both fall within the mesophile range (15–45°C), the phage is characterized as mesophilic based on the incubation conditions provided for both phages.
+
+
+=============Reasoning for YP_009880227 from host literature=============
+Paper: PMC13183296.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for culturing and testing the phage's host, *O. hominis*. For initial isolation attempts, the plates were incubated at "30 °C for at least 120 h". For subsequent subculturing, the plates were incubated at "30 °C for at least 48 h". For antibiotic susceptibility testing, plates were incubated for "48 h at 30 °C under microaerobic conditions." The general range of 30°C falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13167589.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that when culturing the bacteria (HT115 (DE3)) to produce dsRNA, the culture was incubated with shaking at "37 °C for 4 hr". Additionally, the text mentions that the adult beetles were maintained in an incubator chamber at "23 ± 2 °C" for rearing, and the insect-feeding bioassay was performed under controlled conditions at "23 ± 2 °C". Since 37°C is within the mesophilic range (15–45°C), and the host/assay conditions are also mesophilic, the overall thermal context points to mesophilic conditions.
+
+
+=============Reasoning for YP_009880227 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Escherichia phage EP75) but contains no explicit data regarding its optimal growth temperature or the temperature of its natural environment.
+2. There is no environmental context to infer a psychrophile or thermophile classification.
+3. Following the decision rules, since no useful metadata exists, the system must default to 'mesophile'.
+
+

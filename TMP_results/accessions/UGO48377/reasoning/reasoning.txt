@@ -1,0 +1,26 @@
+=============Reasoning for UGO48377 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'raw sewage'. Sewage environments are generally associated with mesophilic conditions, which is the most appropriate classification given the available metadata.
+
+
+=============Reasoning for UGO48377 from accession literature=============
+=============Reasoning for UGO48377 from host literature=============
+Paper: PMC13115305.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The bacterial strains used were cultivated on Tryptone Soya Agar (TSA) at 37 °C for 24 h (overnight) in a thermostat incubator. Furthermore, food samples were incubated at 37 °C for 24 h for both vegetable and meat pre-enrichment. The LAMP assay optimization and subsequent testing were performed at a constant temperature of 65 °C, which is the optimal reaction temperature for the assay itself, but the growth conditions for the source bacteria are explicitly stated as 37 °C. Since 37 °C falls within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+=============Reasoning for UGO48377 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is 'raw sewage'. Sewage environments are typically characterized by fluctuating, moderate temperatures, generally falling within the mesophilic range (15–45°C), although extreme variations are possible.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'raw sewage' source suggests a non-extreme, moderate environment. However, the context is weak for a definitive classification.
+4. Fallback: As per the rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

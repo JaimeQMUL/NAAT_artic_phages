@@ -1,0 +1,32 @@
+=============Reasoning for QDF17256 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'soil', which is generally associated with mesophilic environments. The lab host is 'Streptomyces griseus ATCC 10137', which is typically a mesophile.
+
+
+=============Reasoning for QDF17256 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text provides explicit incubation temperatures for related processes. For spore collection, 'Spores of S. clavuligerus were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days).' For growing the wild type and recombinant strains in suspension, they were grown 'in TSB at 28°C and 220 rpm.' For the main cultivation experiments, 'Cultures were incubated for 120 h, at 220 rpm and 28 ◦C.' These temperatures (28°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for QDF17256 from host literature=============
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that 'Characterization on cultural characteristic and viable count at different temperatures (37ºC and 28ºC)... were performed.' Since 37ºC and 28ºC both fall within the mesophilic range (15–45°C), and these are the tested temperatures for the isolates (which include the phage context, although the phage itself isn't explicitly named or tested separately, the general characterization is done on the isolates), the most appropriate classification based on the provided data points is mesophile.
+
+
+=============Reasoning for QDF17256 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for 'Streptomyces phage Birchlyn'.
+2. Check for environmental context: The isolation source is 'soil', and the collection location is 'USA: Wrightsville, PA' (lat/lon provided). Soil environments are generally considered mesophilic, though temperature varies widely.
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The 'soil' source suggests a moderate environment. However, the environmental context (soil) is broad, and no specific temperature data is given. Therefore, the fallback rule (Rule 4) is invoked, defaulting to 'mesophile'.
+
+

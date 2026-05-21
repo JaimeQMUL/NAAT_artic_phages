@@ -1,0 +1,40 @@
+=============Reasoning for YP_004300647 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Acinetobacter phage 133') and the host ('Acinetobacter johnsonii'), but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_004300647 from accession literature=============
+=============Reasoning for YP_004300647 from host literature=============
+Paper: PMC9299608.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the optimal temperatures for the enzymes used in the cascade. For the enzymes characterizing the activity, the optimal temperatures recorded were: EcAPT at 50°C, AjPPK at 20°C, and MrPPK at 50°C. For the cascade reactions, the following temperatures were used: 30°C for EcAPT/AjPPK and 30°C for the three-enzyme cascade, and 40°C for EcAPT/MrPPK. The discussion section notes that 'While both EcAPT and MrPPK showed high activities up until 50°C, AjPPK exhibits lower temperature tolerance. Therefore, 30°C was used as a compromise for the cascades that include AjPPK.' Since the optimal range for the components includes 20°C (AjPPK optimum) and the compromise temperature used for the main cascade reactions was 30°C, this falls within the mesophilic range (15–45°C).
+
+
+Paper: PMC9540589.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The optimal temperature for the recombinant 12α‐HSDH was determined by testing in the range of 5–50°C. The results showed that the activity reached a maximum at 25°C. The text states: "The effect of temperature on the activity of purified 12α‐HSDH on sodium cholate was studied in the range from 5 to 50°C. As shown in Figure S3, the tests revealed that at low temperatures (5–10°C) the relative enzymatic activity was lower than 21%. The activity then rapidly rises at higher temperatures, reaching a maximum at 25°C. Between 25°C and 35°C, the activity stayed at around 50%.". Since 25°C falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+Paper: PMC13141825.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the optimal growth temperature range for A. johnsonii: "However, as optimal growth for A. johnsonii occurs at temperatures ranging from 15°C to 30°C (28), A. johnsonii isolates were incubated at 28°C–30°C."
+
+
+=============Reasoning for YP_004300647 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Acinetobacter phage 133') and its host ('Acinetobacter johnsonii').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range.
+3. Therefore, no evidence is available to classify it as psychrophile or thermophile.
+4. According to the decision rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

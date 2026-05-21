@@ -1,0 +1,23 @@
+=============Reasoning for YP_009098427 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage RB3') and its host ('Escherichia coli B'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for YP_009098427 from accession literature=============
+=============Reasoning for YP_009098427 from host literature=============
+Paper: PMC13173369.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperatures used for bacterial growth and susceptibility testing. For growth curve determination, strains were grown in liquid Luria‐Bertani (LB) media overnight at "37°C" and monitored at "37°C". For antimicrobial susceptibility analysis, isolates were incubated at "37°C" for 12 h. For conjugation assays, SDLYRA415 and EC600 were cultured at "37°C" in LB medium, and the mixture was incubated at "37°C" for 12 h. These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_009098427 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage RB3. 2. The host organism, Escherichia coli, is a common bacterium typically associated with moderate environmental temperatures (mesophilic range, 15–45°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Therefore, the default classification based on the known biology of the host organism (E. coli) is mesophile. 5. This classification is assigned using the fallback rule (Rule 4).
+
+

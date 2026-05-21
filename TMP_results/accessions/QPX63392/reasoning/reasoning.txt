@@ -1,0 +1,26 @@
+=============Reasoning for QPX63392 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Campylobacter jejuni NCTC12658'. The isolation source is 'chicken fecal sample'. Campylobacter species are generally associated with moderate environments, suggesting a mesophilic range. No explicit temperature is given.
+
+
+=============Reasoning for QPX63392 from accession literature=============
+=============Reasoning for QPX63392 from host literature=============
+Paper: PMC5808241.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for culturing the bacterial strains, including the one associated with the phage F352 (NCTC12662). In the 'Materials and methods' section, under 'Bacterial strains, growth conditions, and media', it is mentioned that 'Both C. jejuni NCTC12662 and the phage resistant strains 12662X3 and 12662R were routinely cultured on Blood Agar Base II (Oxoid) supplemented with aseptically obtained 5% calf blood (BA) and incubated at 37°C under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2).' Furthermore, in the 'Phage adsorption assay' section, it states the incubation was 'incubated aerobically at 37°C with agitation at 100 rpm.' The general incubation temperature for *C. jejuni* is consistently stated as 37°C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for QPX63392 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Campylobacter phage F352.
+2. **Check for environmental context:** The host organism is 'Campylobacter jejuni NCTC12658'. Campylobacter species are generally associated with the gastrointestinal tract of warm-blooded animals (like chickens, as indicated by the isolation source 'chicken fecal sample'). The typical physiological temperature range for such hosts is mesophilic (around 37°C).
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The association with a mammalian gut environment strongly suggests a mesophilic lifestyle. If the environmental context (host/source) is used, it points towards mesophily. If the context is deemed weak (as it's only the host, not the phage's specific optimum), the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+4. **Conclusion:** Based on the host's typical environment (mammalian gut), 'mesophile' is the most probable classification.
+
+

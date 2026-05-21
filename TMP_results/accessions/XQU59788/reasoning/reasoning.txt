@@ -1,0 +1,19 @@
+=============Reasoning for XQU59788 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'waste water', but does not specify a temperature range for this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for XQU59788 from accession literature=============
+=============Reasoning for XQU59788 from host literature=============
+=============Reasoning for XQU59788 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Vibrio phage SUMAE'), the host ('Vibrio anguillarum VA11'), the isolation source ('waste water'), and the country ('Turkey').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Context:** The host, *Vibrio anguillarum*, is a common marine/estuarine bacterium. While the isolation source is 'waste water', which can vary, the general ecology of *Vibrio* species often spans mesophilic to moderate temperature ranges, especially when associated with coastal/estuarine environments.
+4. **Apply Decision Rules:** Since no explicit evidence exists, and the environmental context (waste water/marine association) does not strongly point to extreme cold (<15°C) or extreme heat (>45°C), the most probable classification, following the fallback rule (Rule 4), is 'mesophile'.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for YP_010094912 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Escherichia coli BL21(DE3)') and the phage name, but no explicit or strongly implied temperature or growth condition information is present to determine the thermal range.
+
+
+=============Reasoning for YP_010094912 from accession literature=============
+=============Reasoning for YP_010094912 from host literature=============
+Paper: PMC13181154.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that when testing the effect of E16V on liposomes, "The mixtures were incubated at 37°C in phosphate buffer (pH 7.4)" (Section 2.2). Furthermore, the AFM imaging and cell viability assays were performed at 37°C or under physiological conditions, which is consistent with mesophilic conditions (15–45°C).
+
+
+=============Reasoning for YP_010094912 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for the phage.
+2. Check for environmental context: The host organism is 'Escherichia coli BL21(DE3)', which is a common laboratory strain typically maintained and studied under mesophilic conditions (37°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is required. The association with a standard laboratory mesophilic bacterium (E. coli) strongly suggests a mesophilic lifestyle for the phage.
+4. Final assignment: Based on the host context, 'mesophile' is the most probable classification. This classification is assigned by default due to the lack of specific thermal data.
+
+

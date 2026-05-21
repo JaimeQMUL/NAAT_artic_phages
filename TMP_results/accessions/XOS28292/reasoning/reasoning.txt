@@ -1,0 +1,33 @@
+=============Reasoning for XOS28292 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is listed as 'urban environment metagenome' and 'urban environment'. This suggests a general environmental source, which is typically associated with mesophilic conditions, although no specific temperature is given.
+
+
+=============Reasoning for XOS28292 from accession literature=============
+=============Reasoning for XOS28292 from host literature=============
+Paper: PMC12963601.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth experiment for both phages was conducted using incubation temperatures of 25 °C and 30 °C. The co-culture assays were also performed at 25 °C and 30 °C. Since the mesophilic range is defined as 15–45°C, these tested temperatures fall within this range.
+
+
+Paper: 42026481.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is characterized in relation to 'Antarctic temperate phage Perkons' and the host is 'Psychrobacillus sp. L4'. The presence of 'Antarctic' strongly suggests adaptation to cold environments, leading to the classification of psychrophile. The text does not provide explicit temperature measurements for the phage's optimal growth.
+
+
+=============Reasoning for XOS28292 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the source is an 'urban environment metagenome' from 'Canada: Hamilton' and the 'isolation_source' is 'urban environment'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The environment (urban setting) does not strongly suggest extreme temperatures (psychrophile or thermophile).
+3. **Infer/Default:** Since the environmental context is general (urban) and lacks specific temperature data, the system must default to the most probable classification based on the rules. The fallback rule dictates assigning 'mesophile' when useful metadata is absent.
+4. **Conclusion:** Assign 'mesophile' as the default classification.
+
+

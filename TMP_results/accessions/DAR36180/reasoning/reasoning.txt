@@ -1,0 +1,16 @@
+=============Reasoning for DAR36180 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAR36180 from accession literature=============
+=============Reasoning for DAR36180 from host literature=============
+=============Reasoning for DAR36180 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2010-08-17. Human environments are generally considered to support mesophilic life forms (human body temperature is ~37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a mammalian host, pointing towards mesophilic conditions. 4. Final assignment: As the environmental context (human metagenome) strongly suggests moderate temperatures, 'mesophile' is chosen. If the context were completely absent, the fallback rule mandates 'mesophile'.
+
+

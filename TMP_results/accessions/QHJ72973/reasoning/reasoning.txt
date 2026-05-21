@@ -1,0 +1,19 @@
+=============Reasoning for QHJ72973 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli' and the isolation source is 'sewage'. 'Escherichia coli' is generally associated with moderate environments (mesophile), and 'sewage' is also typically associated with mesophilic conditions. No explicit temperature is given.
+
+
+=============Reasoning for QHJ72973 from accession literature=============
+=============Reasoning for QHJ72973 from host literature=============
+=============Reasoning for QHJ72973 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'sewage' and the collection date is '04-Jan-2018' from 'Nepal'. Sewage environments are generally associated with mesophilic conditions (15–45°C) for most common enteric phages.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The 'sewage' source strongly suggests a mesophilic environment. However, the rule set requires defaulting to 'mesophile' if environmental context is weak or absent, or if the inference is not strong enough. Given the general nature of sewage, 'mesophile' is the most probable classification.
+4. **Conclusion:** Defaulting to 'mesophile' based on the general nature of the isolation source (sewage) and the fallback rule.
+
+

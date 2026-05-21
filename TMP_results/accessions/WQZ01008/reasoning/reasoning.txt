@@ -1,0 +1,23 @@
+=============Reasoning for WQZ01008 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, accession number, sequence length, and host ('Escherichia sp.'), but no explicit or implied temperature or environmental condition is mentioned.
+
+
+=============Reasoning for WQZ01008 from accession literature=============
+=============Reasoning for WQZ01008 from host literature=============
+Paper: PMC13167589.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that when culturing the bacteria to produce dsRNA, the culture was incubated with shaking at "37 °C for 4 hr". Additionally, the text mentions that the adult beetles were maintained in an incubator chamber at "23 ± 2 °C". Since the phage is not mentioned, and the only explicit temperature related to the phage's production/assay is the bacterial culture temperature (37°C) or the host rearing temperature (23°C), we must rely on the host rearing temperature as the most relevant environmental condition mentioned for the system involving the phage's target host. 23°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WQZ01008 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for Escherichia phage 04086. 2. The host organism, 'Escherichia sp.', is a common bacterium typically associated with moderate environmental temperatures (mesophilic range, 15–45°C). 3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. 4. Given the general nature of the host and the lack of thermal data, the default classification of 'mesophile' is assigned as the fallback class.
+
+

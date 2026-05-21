@@ -1,0 +1,19 @@
+=============Reasoning for DAO04244 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for DAO04244 from accession literature=============
+=============Reasoning for DAO04244 from host literature=============
+=============Reasoning for DAO04244 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit temperature ranges for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is 2012-06-20. Human-associated samples generally imply mesophilic conditions (body temperature range).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a moderate environment (human host). However, the context is not strongly defining (it's just 'Human metagenome').
+4. Fallback: As the environmental context is weak for precise classification, the system defaults to 'mesophile' as per the mandatory fallback rule.
+
+

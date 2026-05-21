@@ -1,0 +1,30 @@
+=============Reasoning for CAB4185457 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'freshwater'. Freshwater environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for CAB4185457 from accession literature=============
+=============Reasoning for CAB4185457 from host literature=============
+Paper: PMC13185101.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions specific incubation and reaction temperatures for the experiments involving the model Gram-negative bacterium, E. coli. 
+1. For the viability assay (Figure b), E. coli was tested at pH 7.5 and 9.5 and shaken at "room temperature at 250 rpm".
+2. For fluorescence labeling experiments (Figure c-e), "All fluorescence labeling experiments were conducted with 50 μM of fluorescent probes and shaken at 37 °C at 500 rpm."
+3. For the model reaction kinetics (Figure S4), the text states, "Maleimide reacted instantaneously, with complete conversion occurring within minutes, while vinyl sulfone exhibited slower kinetics, reaching 65% conversion in 2 h and 100% conversion by 24 h at 25 °C. The reaction with vinyl sulfone proceeded faster at 37 °C than at 25 °C." 
+Since the experiments were conducted at 25°C and 37°C, and the general context involves bacterial studies, the mesophilic range (15–45°C) is indicated.
+
+
+=============Reasoning for CAB4185457 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'freshwater'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The isolation source ('freshwater') suggests an aquatic environment. While freshwater can host organisms across various temperatures, the general assumption for uncharacterized environmental isolates, especially when no temperature data is given, leans towards moderate conditions.
+3. **Determine Classification:** The default classification rule (Rule 4) applies because the environmental context ('freshwater') is not specific enough to definitively place it in psychrophile (<15°C) or thermophile (>45°C) ranges. Therefore, the fallback classification is 'mesophile'.
+4. **Assign Confidence:** Since this classification relies solely on the fallback rule due to lack of specific evidence, the confidence is 'low'.
+
+

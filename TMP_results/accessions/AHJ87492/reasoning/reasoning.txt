@@ -1,0 +1,16 @@
+=============Reasoning for AHJ87492 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host organism ('Bacillus pumilus GR8') and collection details, but no explicit or strongly implied temperature or thermal environment information is present to determine the thermal range.
+
+
+=============Reasoning for AHJ87492 from accession literature=============
+=============Reasoning for AHJ87492 from host literature=============
+=============Reasoning for AHJ87492 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Bacillus phage Bp8p-C), its host (Bacillus pumilus GR8), and its collection date/location (China, 2013). 2. There is no explicit mention of optimal growth temperature or thermal range. 3. The host, Bacillus pumilus, is a common soil bacterium, and phages associated with such environmental bacteria are generally assumed to be mesophilic unless evidence suggests otherwise. 4. Since no explicit evidence exists, and the environmental context (soil/China) does not strongly point to extreme cold or heat, the default classification rule (Rule 4) mandates assigning 'mesophile'.
+
+

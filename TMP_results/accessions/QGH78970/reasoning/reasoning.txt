@@ -1,0 +1,25 @@
+=============Reasoning for QGH78970 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QGH78970 from accession literature=============
+=============Reasoning for QGH78970 from host literature=============
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that 'Characterization on cultural characteristic and viable count at different temperatures (37ºC and 28ºC)... were performed.' Since 37ºC and 28ºC both fall within the mesophilic range (15–45°C), and these are the tested temperatures for the isolates (which are related to the phage's environment/host), the thermal characteristic is associated with mesophilic conditions.
+
+
+=============Reasoning for QGH78970 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage TomSawyer.
+2. Check for environmental context: The isolation source is 'soil', and the collection coordinates are '38.428967 N 78.862930 W' (USA). Soil environments are generally considered mesophilic, though they can vary widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As the environmental context is not strongly defining (soil can host various temperature ranges), and no direct evidence is present, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

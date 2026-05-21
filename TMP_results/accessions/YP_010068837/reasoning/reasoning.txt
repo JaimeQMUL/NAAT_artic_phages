@@ -1,0 +1,16 @@
+=============Reasoning for YP_010068837 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host is 'Escherichia coli' and the isolation source is 'sewage of farm'. These environments are typically associated with mesophilic conditions, but no explicit temperature is given.
+
+
+=============Reasoning for YP_010068837 from accession literature=============
+=============Reasoning for YP_010068837 from host literature=============
+=============Reasoning for YP_010068837 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state the optimal or tested temperature range for Escherichia phage F2. 2. **Check for environmental context:** The isolation source is 'sewage of farm' and the collection date is '23-Jul-2019'. Sewage environments are typically associated with mesophilic conditions (15–45°C). 3. **Apply decision rules:** Since no explicit evidence exists, inference is attempted. The source suggests mesophilic conditions. 4. **Fallback:** Given the general nature of the source (sewage) and the lack of specific temperature data, the most probable classification defaults to mesophile, as per the fallback rule (Rule 4).
+
+

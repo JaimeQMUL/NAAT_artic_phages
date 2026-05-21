@@ -1,0 +1,19 @@
+=============Reasoning for QAY08746 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QAY08746 from accession literature=============
+=============Reasoning for QAY08746 from host literature=============
+=============Reasoning for QAY08746 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage Genie2.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (38.646275 N 90.310501 W), indicating a terrestrial, temperate environment. Soil-dwelling microbes and phages are generally assumed to be mesophilic unless evidence suggests otherwise.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. This assignment relies on the fallback rule (Rule 3) as the environmental context is suggestive but not definitive.
+4. Conclusion: Defaulting to mesophile based on the general nature of soil isolation.
+
+

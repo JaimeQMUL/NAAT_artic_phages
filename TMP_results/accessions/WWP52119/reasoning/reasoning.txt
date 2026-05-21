@@ -1,0 +1,44 @@
+=============Reasoning for WWP52119 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Enterobacter phage ZX14') and its host ('Enterobacter cloacae'), but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for WWP52119 from accession literature=============
+Paper: PMC11963603.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that when assessing the stability of phage ФECL22, "Phage incubated at 25°C was set as the control," and that the phage cocktail was used to rescue mice with E. cloacae bacteremia, and bacterial strains were cultured in LB broth at 37°C. The optimal growth temperature for the host bacteria (E. cloacae) is 37°C, which falls within the mesophile range (15–45°C). Furthermore, the stability test for ФECL22 used 25°C as a control, and the adsorption/MOI determination was performed at 37°C. Since the host bacteria are cultured and the phage activity is tested at 37°C, the relevant thermal condition is mesophilic.
+
+
+Paper: 42128682.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper explicitly states that "Phage Pxf1 exhibited tolerance to a pH range of 2 to 11 and withstood temperatures up to 60 ℃." Since 60°C is greater than 45°C, this classifies it as thermophile according to the definitions provided.
+
+
+=============Reasoning for WWP52119 from host literature=============
+Paper: PMC13179404.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the optimal growth conditions for the strains: "The optimum growth of both strains, when grown on LB medium, was at pH 9 with 3% salinity at 35 °C (Table S1)." Furthermore, when discussing the initial inoculum preparation, it states: "For all subsequent experiments, inoculum was prepared by growing the strains in 10 mL LB medium amended with 1 mg L− 1 Cr(VI) in 15 mL culture tubes at 35 °C under anaerobic conditions." The temperature of 35°C falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13178893.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for initial enrichment and subsequent experiments. For initial enrichment, the sample was incubated at "35℃" ("For each sediment sample, a fresh sample of 10g was incubated in a flask (500 ml in size) with 200 ml EM at 150 rpm and 35℃."). For subsequent experiments, the temperature was set at "35°C" multiple times ("To explicitly estimate the nitrogen removal performance of Strain GW6, the strain was cultivated at 35°C...", "All these experiments above were conducted at 35 ℃ and 150 rpm.", "In the experiment for temperature, cultivation temperature was set at 15°C, 20°C, 25°C, 30°C and 35°C, respectively..."). Since 35°C falls within the 15–45°C range, the classification is mesophile.
+
+
+=============Reasoning for WWP52119 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Enterobacter phage ZX14), its host (Enterobacter cloacae), and its origin (China, collection date 2023). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The host, Enterobacter cloacae, is a common bacterium typically associated with moderate environmental temperatures (mesophilic range). 4. Since no explicit evidence exists, and the environmental context (host) suggests moderate conditions, the default classification based on the provided rules is 'mesophile'.
+
+

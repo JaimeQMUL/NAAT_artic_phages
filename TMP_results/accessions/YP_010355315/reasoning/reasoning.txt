@@ -1,0 +1,18 @@
+=============Reasoning for YP_010355315 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any explicit or strongly implied information regarding the temperature or thermal range of the bacteriophage or its host.
+
+
+=============Reasoning for YP_010355315 from accession literature=============
+=============Reasoning for YP_010355315 from host literature=============
+=============Reasoning for YP_010355315 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Synechococcus phage ACG-2014d.
+2. Check for environmental context: The metadata provides the isolate name ('Syn7803C45') and the associated organism ('Synechococcus phage ACG-2014d'). Synechococcus species are commonly associated with freshwater or marine environments, which typically fall within mesophilic ranges (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The environmental context suggests a moderate range. However, the context is not strong enough to definitively classify it as psychrophile or thermophile. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

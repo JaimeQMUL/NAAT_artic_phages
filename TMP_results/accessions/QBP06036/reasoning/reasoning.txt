@@ -1,0 +1,26 @@
+=============Reasoning for QBP06036 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host, country, and collection date, but no explicit or strongly implied temperature or thermal environment information is present.
+
+
+=============Reasoning for QBP06036 from accession literature=============
+Paper: PMC11267871.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the temperature tolerance analysis for phage vB_TgeS_JQ: "Then, to analyze the tolerance of phage vB_TgeS_JQ to temperature, the 200-µL phage samples (108 PFU/mL; pH = 7.0) were placed at −20°C, 4°C, 25°C, 35°C, 45°C, 55°C, 65°C, and 75°C for 2 h. ... The phage showed the maximum titer at 45°C in the temperature stability experiment. The titer of vB_TgeS_JQ was at a high level when the temperature ranged from −20°C to 45°C (Fig. 1C); however, the phage titer decreased linearly at more than 65°C. In general, vB_TgeS_JQ is more sensitive to high temperature than low temperature, but the optimal growth temperature is concentrated around 45°C."
+
+
+=============Reasoning for QBP06036 from host literature=============
+=============Reasoning for QBP06036 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Synechococcus phage S-B68.
+2. **Check for environmental context:** The metadata provides the host ('Synechococcus sp. WH 7803') and collection location ('China'), but no specific temperature data is available.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context (China) is too broad to infer a specific temperature range (psychrophile, mesophile, or thermophile), the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

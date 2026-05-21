@@ -1,0 +1,20 @@
+=============Reasoning for WAX13330 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Human feces') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or host.
+
+
+=============Reasoning for WAX13330 from accession literature=============
+=============Reasoning for WAX13330 from host literature=============
+=============Reasoning for WAX13330 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Host is 'Escherichia fergusonii DO07' and the isolation source is 'Human feces'.
+2. Escherichia coli and related species are generally considered mesophiles, thriving in moderate temperatures (15–45°C).
+3. No explicit thermal range is provided in the metadata.
+4. Therefore, based on the known ecology of the host organism (Escherichia), the most probable classification is mesophile.
+5. Since no direct evidence exists, the classification defaults to mesophile as per the decision rules.
+
+

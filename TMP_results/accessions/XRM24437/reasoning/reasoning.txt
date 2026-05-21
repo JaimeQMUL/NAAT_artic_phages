@@ -1,0 +1,19 @@
+=============Reasoning for XRM24437 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Bacillus thuringiensis BtSerwer7'), and accession information, but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is present to determine the thermal range.
+
+
+=============Reasoning for XRM24437 from accession literature=============
+=============Reasoning for XRM24437 from host literature=============
+=============Reasoning for XRM24437 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature for 'Bacillus phage 0524phi7-1'.
+2. The host organism is 'Bacillus thuringiensis BtSerwer7'. Bacillus species are generally known to be mesophilic bacteria, thriving in moderate environmental temperatures (15–45°C).
+3. Since no explicit evidence is available, the decision rules mandate assigning the MOST PROBABLE classification. Given the typical nature of the host genus (Bacillus), mesophile is the most probable classification.
+4. Therefore, 'mesophile' is assigned as the fallback classification.
+
+

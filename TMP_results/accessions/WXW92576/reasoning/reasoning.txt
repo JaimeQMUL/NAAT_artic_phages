@@ -1,0 +1,52 @@
+=============Reasoning for WXW92576 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for WXW92576 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text provides multiple explicit temperature mentions related to the culture conditions for *S. clavuligerus* and its spores. 
+1. Spores of *S. clavuligerus* were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days).
+2. Spores of *S. clavuligerus* wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm.
+3. Cultures were incubated for 120 h, at 220 rpm and 28 ◦C.
+4. The CA reaction was kept at 28°C for 15 min.
+5. The protoplasts were obtained from cultures grown at 30 °C in YEMEG medium.
+Since the optimal/tested growth temperatures are consistently around 28°C to 30°C, this falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for WXW92576 from host literature=============
+Paper: PMC11008112.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The abstract states that the phage was isolated from 'warm (25°C), dry, and coarse dirt'. Furthermore, the text mentions that plaques were observed after 'overnight incubation at 30°C'. Since 25°C and 30°C both fall within the mesophile range (15–45°C), the thermal characteristic is mesophilic.
+
+
+Paper: PMC11465772.1.txt
+Classification: mesophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The abstract mentions that the sample was mixed with phage buffer and poured onto nutrient agar plates, and then "incubated at 30°C for 24 h." Figure 1 caption reiterates this: "Turbid, approx. 1 mm circular plaques on S. mirabilis infected with GiJojo incubated on nutrient agar for 24 h at 30°C." Since 30°C falls within the mesophile range (15–45°C), the phage's growth condition is associated with mesophilic conditions.
+
+
+Paper: PMC12509530.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the sample was plated on nutrient agar and "incubated at 30°C for 24–48 h." Since 30°C falls within the mesophile range (15–45°C), this indicates the optimal or tested growth condition for the phage/host system.
+
+
+=============Reasoning for WXW92576 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Streptomyces phage Enygma.
+2. Check for environmental context: The isolation source is 'soil', and the coordinates are provided (39.243828 N 76.722214 W), indicating a temperate terrestrial environment. Soil-dwelling microorganisms and phages are generally considered mesophilic unless specific extreme conditions are noted.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) defaults to 'mesophile'.
+
+

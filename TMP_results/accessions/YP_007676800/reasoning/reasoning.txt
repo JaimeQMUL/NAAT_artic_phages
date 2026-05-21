@@ -1,0 +1,19 @@
+=============Reasoning for YP_007676800 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'drains of meat processing plant', which suggests an environment associated with moderate temperatures typical of mesophilic organisms. The lab host is 'Listeria monocytogenes', which is generally considered a mesophile.
+
+
+=============Reasoning for YP_007676800 from accession literature=============
+=============Reasoning for YP_007676800 from host literature=============
+=============Reasoning for YP_007676800 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit temperature ranges for optimal growth or isolation.
+2. Check for environmental context: The isolation source is 'drains of meat processing plant'. Such environments typically fluctuate but are generally associated with moderate temperatures, not extreme cold or high heat.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context suggests moderate conditions, the most probable classification is mesophile (15–45°C).
+4. Fallback: As no useful metadata exists to strongly infer a specific range, the default fallback classification is 'mesophile'.
+
+

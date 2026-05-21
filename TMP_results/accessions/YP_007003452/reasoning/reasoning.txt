@@ -1,0 +1,16 @@
+=============Reasoning for YP_007003452 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal growth conditions for the bacteriophage or its host.
+
+
+=============Reasoning for YP_007003452 from accession literature=============
+=============Reasoning for YP_007003452 from host literature=============
+=============Reasoning for YP_007003452 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provided contains general information about the phage (name, accession, etc.) but lacks any explicit data regarding its optimal growth temperature or the environmental conditions it is associated with (e.g., temperature range). 2. No explicit evidence for psychrophile (<15°C) or thermophile (>45°C) is present. 3. Therefore, following the decision rules, the system must default to 'mesophile' as the fallback classification. 4. The confidence is low because the classification is based on a default rule rather than evidence.
+
+

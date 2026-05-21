@@ -1,0 +1,33 @@
+=============Reasoning for USL85527 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'vegetable farm irrigation pond'. Ponds are typically associated with moderate, non-extreme temperatures, suggesting mesophilic conditions.
+
+
+=============Reasoning for USL85527 from accession literature=============
+Paper: PMC11226500.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states under 'Materials and methods' section, 'Bacteria were cultivated in lysogeny broth (LB; 1% [w/v] tryptone, 0.5% [w/v] yeast extract, and 1% [w/v] NaCl). LB agar plates were supplemented with 1.0% (w/v) or 1.5% (w/v) agar (Bacto Agar, Neogen). Bacteria were cultivated overnight at 37°C unless stated otherwise.' Furthermore, the host range screening and antibiotic susceptibility analysis were performed with 'continuous shaking at 37°C for 5 h for host range screening and for 15 h for antibiotic sensitivity experiments.' Since the phages were tested against bacteria grown at 37°C, this temperature is the relevant condition for the phage activity tested, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for USL85527 from host literature=============
+Paper: PMC13178893.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for several experiments involving Strain GW6. For initial isolation and subsequent testing, the temperature used was 35°C. Specifically, in Section 2.2, it mentions: '...incubated in a flask (500 ml in size) with 200 ml EM at 150 rpm and 35℃.' In Section 2.3, it states: 'To explicitly estimate the nitrogen removal performance of Strain GW6, the strain was cultivated at 35°C...'. Furthermore, in Section 3.6.5, the temperature effect experiment was conducted using 35°C as the optimal condition: 'Strain GW6 grew best under 35℃...'. Since 35°C falls within the mesophile range (15–45°C), the classification is mesophile.
+
+
+=============Reasoning for USL85527 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'vegetable farm irrigation pond' from 'Ghana'. Ponds and agricultural irrigation sources typically maintain temperatures within moderate ranges, especially when associated with mesophilic hosts like Enterobacter species.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (pond/irrigation) suggests moderate conditions, the most probable classification is mesophile.
+4. Fallback: As no strong evidence exists, the default classification is mesophile.
+
+

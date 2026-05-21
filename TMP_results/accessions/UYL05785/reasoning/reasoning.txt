@@ -1,0 +1,23 @@
+=============Reasoning for UYL05785 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Klebsiella pneumoniae KP13'), country ('Israel'), and collection details, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for UYL05785 from accession literature=============
+=============Reasoning for UYL05785 from host literature=============
+Paper: PMC7125228.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for bacterial strains used in the study: "All bacterial strains were grown under aerobic conditions in Luria-Bertani (LB) broth or agar (1.5%) at 37°C." Furthermore, subsequent assays like 'Lysis characteristics were evaluated after 18 h incubation at 37°C' and 'The plates were incubated overnight (18 h) at 37°C' confirm the use of 37°C for phage activity testing. Since 37°C falls within the defined mesophile range (15–45°C), the phage is associated with mesophilic conditions.
+
+
+=============Reasoning for UYL05785 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Klebsiella phage KP13MC5-1), its host (Klebsiella pneumoniae KP13), and its origin (Israel). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The host, Klebsiella pneumoniae, is a common human/environmental bacterium typically associated with mesophilic conditions (15–45°C). 4. Since no explicit evidence exists, and the environmental context (human/environmental pathogen) strongly suggests moderate conditions, the most probable classification is mesophile. 5. As no useful thermal metadata was present, the fallback rule dictates assigning 'mesophile'.
+
+

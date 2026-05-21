@@ -1,0 +1,19 @@
+=============Reasoning for WNO29881 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'housefly larval intestines'. This environment is typically associated with moderate temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for WNO29881 from accession literature=============
+=============Reasoning for WNO29881 from host literature=============
+=============Reasoning for WNO29881 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. Check for environmental context: The isolation source is 'housefly larval intestines'. While this provides an environmental context, it does not specify the temperature range of the intestines, making inference weak.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is not strongly indicative of extreme temperatures, the system must default to the 'mesophile' classification as per the fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with low confidence due to the reliance on the default fallback rule.
+
+

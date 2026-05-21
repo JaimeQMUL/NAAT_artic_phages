@@ -1,0 +1,19 @@
+=============Reasoning for YP_009781067 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Staphylococcus phage 676Z') and the lab host ('Staphylococcus aureus strain Z11778'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for YP_009781067 from accession literature=============
+=============Reasoning for YP_009781067 from host literature=============
+=============Reasoning for YP_009781067 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Staphylococcus phage 676Z) but contains no explicit data regarding its optimal growth temperature or the environmental conditions it is isolated from.
+2. No explicit evidence for psychrophile (<15°C) or thermophile (>45°C) is present.
+3. Therefore, following the decision rules, the system must default to 'mesophile' as the fallback classification.
+4. The confidence is low because the classification is based on a default rule rather than supporting evidence.
+
+

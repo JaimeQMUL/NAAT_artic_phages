@@ -1,0 +1,16 @@
+=============Reasoning for DAN61389 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'Human metagenome' and the collection date is '2012-12-28', but no specific temperature or thermal condition is mentioned to classify the organism as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for DAN61389 from accession literature=============
+=============Reasoning for DAN61389 from host literature=============
+=============Reasoning for DAN61389 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2012-12-28'. Human-associated samples generally suggest mesophilic conditions (body temperature range, 37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context points towards human-associated microbes, which are typically mesophiles. 4. Fallback: If inference is weak or absent, default to 'mesophile'. Given the human metagenome source, 'mesophile' is the most probable assignment. Therefore, 'mesophile' is selected as the most probable classification.
+
+

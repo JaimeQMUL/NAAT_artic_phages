@@ -1,0 +1,25 @@
+=============Reasoning for YP_009610622 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for YP_009610622 from accession literature=============
+Paper: PMC13102240.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the growth conditions for obtaining spores of S. clavuligerus: "Spores of S. clavuligerus were obtained by culturing the strain on GYM agar plates (28 °C, 10–15 days)". It also states that "Spores of S. clavuligerus wild type and related recombinant strain were grown in suspension for 36 h (OD600 of 0.7) in TSB at 28°C and 220 rpm." Furthermore, the general cultivation conditions for the main experiments were "Cultures were incubated for 120 h, at 220 rpm and 28 ◦C." Since 28°C falls within the mesophilic range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_009610622 from host literature=============
+=============Reasoning for YP_009610622 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal stability of the phage.
+2. Check for environmental context: The isolation source is 'soil', and the geographical coordinates are provided (USA: St. Louis, MO). Soil environments generally fluctuate but are often associated with mesophilic conditions (15–45°C) unless specific extreme environments are noted.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. As no strong inference can be made, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

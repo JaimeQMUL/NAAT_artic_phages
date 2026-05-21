@@ -1,0 +1,19 @@
+=============Reasoning for URQ08855 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('chicken feces') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for URQ08855 from accession literature=============
+=============Reasoning for URQ08855 from host literature=============
+=============Reasoning for URQ08855 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or thermal range for Salmonella phage BRM 13312.
+2. Check for environmental context: The isolation source is 'chicken feces' and the collection date is '21-Mar-2000' from 'Brazil'. Fecal matter generally represents mesophilic environments, but this is not a definitive temperature indicator.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is not strongly indicative of extreme temperatures, the system must default to the fallback classification.
+4. Fallback: The default classification for insufficient evidence is 'mesophile'.
+
+

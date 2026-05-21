@@ -1,0 +1,26 @@
+=============Reasoning for XYM58971 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('Petrosia ficiformis pink cortex') and the lab host ('Synechococcus sp. WH8102'), but no explicit temperature or environmental condition is stated to determine the thermal range.
+
+
+=============Reasoning for XYM58971 from accession literature=============
+=============Reasoning for XYM58971 from host literature=============
+Paper: PMC12834511.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text mentions that the optimal growth temperature for the marine strain RS9907 was '28°C' and the optimal growth temperature for the euryhaline strain WH5701 was '30°C'. The text also states that the low temperature conditions tested were '15°C–20°C' for the general study context, and specifically for WH5701, '15°C' was selected as a representative of cold temperature. Since the optimal growth temperatures (28°C and 30°C) fall within the range of 15–45°C, the classification is mesophile. The text does not provide a single definitive thermal characteristic for the phage, but rather for the host strains, and the inference is based on the stated optimal growth conditions of the host strains.
+
+
+=============Reasoning for XYM58971 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range of the phage.
+2. **Check for environmental context:** The isolation source is 'Petrosia ficiformis pink cortex'. While this suggests a marine or coastal environment, no specific temperature range is provided for this source.
+3. **Apply decision rules:** Since no explicit evidence exists, and the environmental context is insufficient to strongly infer psychrophile or thermophile conditions, the system must default to the fallback classification as per Rule 4.
+4. **Fallback:** The default classification is 'mesophile'.
+
+

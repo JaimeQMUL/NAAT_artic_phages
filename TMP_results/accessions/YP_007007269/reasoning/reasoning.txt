@@ -1,0 +1,19 @@
+=============Reasoning for YP_007007269 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Klebsiella phage vB_KleM_RaK2') and its host ('Klebsiella sp.'), but no explicit or strongly implied temperature or environmental condition (such as 'cold', 'hot', or specific temperatures) is mentioned to determine a thermal range.
+
+
+=============Reasoning for YP_007007269 from accession literature=============
+=============Reasoning for YP_007007269 from host literature=============
+=============Reasoning for YP_007007269 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for Klebsiella phage vB_KleM_RaK2.
+2. Check for environmental context: The host organism is 'Klebsiella sp.', which is a common bacterium often associated with moderate environmental niches (e.g., human gut, respiratory tract, etc.).
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (Klebsiella) suggests a non-extreme environment, the most probable classification is mesophile (15–45°C).
+4. Fallback: As no useful metadata exists to strongly infer psychrophile or thermophile, the default classification rule mandates assigning 'mesophile'.
+
+

@@ -1,0 +1,19 @@
+=============Reasoning for YP_006986592 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'sewage', which is typically associated with mesophilic environments. The host is 'Escherichia coli', which is generally considered a mesophile.
+
+
+=============Reasoning for YP_006986592 from accession literature=============
+=============Reasoning for YP_006986592 from host literature=============
+=============Reasoning for YP_006986592 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Escherichia phage vB_EcoM_ACG-C40.
+2. Check for environmental context: The isolation source is 'sewage' and the host is 'Escherichia coli'. Both sewage environments and E. coli are typically associated with moderate, ambient temperatures (15–45°C) unless specified otherwise.
+3. Apply decision rules: Since no explicit evidence exists, inference is required. The most probable classification based on the host and isolation source is mesophile.
+4. Fallback: As no useful metadata exists to strongly suggest psychrophile or thermophile, the default classification rule mandates assigning 'mesophile'.
+
+

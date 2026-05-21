@@ -1,0 +1,16 @@
+=============Reasoning for DAM46295 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and 'isolation_source' is 'Human metagenome'. Human hosts are typically associated with mesophilic conditions, leading to an inference of a mesophilic thermal range.
+
+
+=============Reasoning for DAM46295 from accession literature=============
+=============Reasoning for DAM46295 from host literature=============
+=============Reasoning for DAM46295 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit temperature range for the bacteriophage. 2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2012-08-06'. Human-associated samples generally imply mesophilic conditions (body temperature range, 37°C). 3. Apply decision rules: Since no explicit evidence exists, inference is attempted. The context suggests a moderate environment. 4. Fallback: The most probable classification based on human origin is mesophile. Therefore, mesophile is assigned as the most probable classification.
+
+

@@ -1,0 +1,16 @@
+=============Reasoning for YP_009592688 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Listeria monocytogenes'), and accession details, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_009592688 from accession literature=============
+=============Reasoning for YP_009592688 from host literature=============
+=============Reasoning for YP_009592688 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Listeria phage LP-064) and its host (Listeria monocytogenes). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. The host, Listeria monocytogenes, is a facultative intracellular pathogen commonly associated with moderate environmental temperatures, typically thriving in the mesophilic range (15–45°C). 4. Since no explicit evidence exists, the decision rules mandate assigning the MOST PROBABLE classification. 5. Given the association with a mesophilic pathogen, 'mesophile' is the most probable classification. 6. This classification is assigned by default due to insufficient evidence, resulting in a 'forced' inference type.
+
+

@@ -1,0 +1,33 @@
+=============Reasoning for CAD5242979 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Sewage - Mixed liquor'. Sewage environments are typically associated with moderate temperatures, suggesting a mesophilic range.
+
+
+=============Reasoning for CAD5242979 from accession literature=============
+Paper: PMC12992998.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states incubation temperatures used for various assays involving the phages and bacteria. For phage isolation, incubation was done at "37 °C" ("Filtrates were mixed with logarithmic-phase host iuc3-positive K. pneumoniae (KP80 and KPT2, 1:5, v/v) and incubated at 37 °C, 150 rpm for 16–24 h."). For host range determination, plates were incubated at "37 °C for 12 h". For MOI determination, co-culture was done in an incubator shaker set at "37 °C". For one-step growth curve, incubation was done at "37 °C". For the in vitro bactericidal assay in milk, mixtures were incubated at "37 °C". For the serum killing assay, mixtures were incubated at "37 °C". For the adsorption assay, incubation was done at "37 °C". For the murine mastitis model, the phage cocktail was treated at "37 °C". These temperatures (37°C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC8006926.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states under 'Materials and Methods' -> 'Bacterial strains and culture conditions': 'All culturing in liquid medium was performed with shaking (150 rpm) at 37°C.' Additionally, in the 'Phage isolation' section, it mentions: 'This enrichment culture was then incubated overnight at 37°C...'. Finally, in the 'Plaque formation and morphology' section, it states: 'Plates were incubated overnight at 37°C to allow plaques to form.' Since 37°C falls within the mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for CAD5242979 from host literature=============
+=============Reasoning for CAD5242979 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'Sewage - Mixed liquor'.
+2. **Apply Decision Rules:** There is no explicit thermal range provided. The isolation source (sewage/mixed liquor) typically represents ambient or moderate environmental conditions, which generally fall within the mesophilic range (15–45°C).
+3. **Determine Classification:** Since no explicit evidence exists, the system must infer from the environmental context. Sewage environments are not typically associated with extreme cold (psychrophile) or extreme heat (thermophile) unless specified.
+4. **Fallback:** The most probable classification based on general environmental knowledge and the lack of specific data is mesophile. This classification is assigned using the fallback rule (Rule 3) because the environmental context is suggestive but not definitive enough to be 'high' confidence, leading to a 'forced' inference.
+
+

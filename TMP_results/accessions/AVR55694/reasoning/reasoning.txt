@@ -1,0 +1,20 @@
+=============Reasoning for AVR55694 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Campylobacter jejuni'), and accession details, but no explicit or strongly implied temperature or environmental condition is provided to determine the thermal range.
+
+
+=============Reasoning for AVR55694 from accession literature=============
+=============Reasoning for AVR55694 from host literature=============
+=============Reasoning for AVR55694 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the phage name ('Campylobacter phage CP39') and its host ('Campylobacter jejuni').
+2. Campylobacter species are generally associated with the gastrointestinal tract of warm-blooded animals, which typically maintain temperatures around 37°C.
+3. There is no explicit thermal range provided in the metadata.
+4. Based on the host's typical physiological environment (37°C), the most probable classification is mesophile (15–45°C).
+5. Since no explicit evidence exists, and the environmental context points strongly towards moderate temperatures, 'mesophile' is selected as the most probable classification, defaulting to this class as per the rules.
+
+

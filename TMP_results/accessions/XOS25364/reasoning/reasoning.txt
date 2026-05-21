@@ -1,0 +1,34 @@
+=============Reasoning for XOS25364 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is listed as 'urban environment metagenome' and the country is 'USA: Fairbanks'. While no explicit temperature is given, 'urban environment' and 'Fairbanks' suggest a temperate or moderate environment, leading to an inference of mesophile.
+
+
+=============Reasoning for XOS25364 from accession literature=============
+=============Reasoning for XOS25364 from host literature=============
+Paper: PMC12963601.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The one-step growth experiment for both phages was conducted using incubation temperatures of 25 °C and 30 °C. The co-culture assays were also performed at 25 °C and 30 °C. Since the mesophilic range is defined as 15–45°C, these tested temperatures fall within this range.
+
+
+Paper: 42026481.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The phage is characterized in relation to 'Antarctic temperate phage Perkons' and the host is 'Psychrobacillus sp. L4'. The presence of 'Antarctic' strongly suggests adaptation to cold environments, leading to the classification of psychrophile. The text does not provide explicit temperature measurements for the phage's optimal growth.
+
+
+=============Reasoning for XOS25364 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the source is an 'urban environment metagenome' from 'Fairbanks, USA'.
+2. **Evaluate Evidence:** There is no explicit temperature range provided for the phage or its source.
+3. **Apply Decision Rules:** Since no explicit evidence exists, the system must infer or default. The source is an 'urban environment', which typically implies ambient or moderate temperatures, rather than extreme cold or high heat.
+4. **Determine Classification:** Given the lack of specific thermal data, the fallback rule (Rule 4) dictates defaulting to 'mesophile'.
+5. **Conclusion:** The classification is mesophile based on the fallback rule.
+
+

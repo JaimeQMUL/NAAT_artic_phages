@@ -1,0 +1,19 @@
+=============Reasoning for DAW43500 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the isolation source is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAW43500 from accession literature=============
+=============Reasoning for DAW43500 from host literature=============
+=============Reasoning for DAW43500 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit evidence: The metadata does not contain any explicit temperature range for the bacteriophage.
+2. Check for environmental context: The isolation source is 'Human metagenome' and the collection date is '2010-08-14' from the USA. Human-associated microbes and phages are generally considered mesophilic unless specified otherwise.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (human host) suggests moderate conditions, the most probable classification is mesophile.
+4. Fallback: As no useful metadata dictates a specific extreme temperature, the default fallback classification is 'mesophile'.
+
+

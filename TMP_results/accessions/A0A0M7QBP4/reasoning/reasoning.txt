@@ -1,0 +1,19 @@
+=============Reasoning for A0A0M7QBP4 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Escherichia phage slur02') and its host ('Escherichia coli'), but no explicit or strongly implied temperature or growth condition information is present to determine a thermal range.
+
+
+=============Reasoning for A0A0M7QBP4 from accession literature=============
+=============Reasoning for A0A0M7QBP4 from host literature=============
+=============Reasoning for A0A0M7QBP4 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal evidence: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental source temperature for 'Escherichia phage slur02'.
+2. Check for environmental context: The host organism is 'Escherichia coli'. E. coli is a well-known mesophile, typically thriving in the range of 37°C (human body temperature) to 45°C.
+3. Apply decision rules: Since no explicit evidence exists, inference is drawn from the known biology of the host organism (E. coli). This strongly suggests a mesophilic lifestyle for the phage.
+4. Final classification: Based on the host's mesophilic nature, the phage is classified as mesophile. This classification is a fallback/inference based on the host, as no direct phage thermal data is available.
+
+

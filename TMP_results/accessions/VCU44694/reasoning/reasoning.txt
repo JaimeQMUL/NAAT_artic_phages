@@ -1,0 +1,43 @@
+=============Reasoning for VCU44694 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata states the isolation source is 'sea water', but does not provide any specific temperature range associated with this source to classify the organism as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for VCU44694 from accession literature=============
+Paper: PMC12931091.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that for bacterial cultures, 'All methods were performed following the relevant guidelines and regulations [19]. For all experiments, the tested bacteria were cultivated in TSB (E. coli, Salmonella and K. pneumoniae) liquid medium at 37 °C on a rotary shaker at a rate of 120 rpm.' Furthermore, for phage isolation and subsequent experiments, the incubation temperatures used were 37 °C: '100 µL of bacterial isolates was added to 4 mL TSB in a shaking incubator at 37 °C for 20 h.' and 'The phage was enriched and propagated in TSB; 100 µL of the host was infected with the phage and incubated at 37 °C with 120 rpm shaking...'. The phage stability test also used 37 °C as a reference point: 'The bile salt stability of the phage with a titer 108 PFU/mL, was performed by incubating tubes containing 100 µL phage suspended in 900 µL bile salt of nutrient broth supplemented with 0 (control), 0.15, 0.3 and 1.0% w/v of bile salts (LOBA CHEMIE, India). After 60, 120, 180, and 240 min of incubation at 37°C[31].'
+
+
+Paper: PMC12001532.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures used for various assays. For bacterial growth and phage propagation, the following temperatures are mentioned: 
+1. Bacterial culture incubation: "incubated overnight at 37 °C" (Methods section, Bacterial isolation, purification, and propagation).
+2. Phage enrichment incubation: "incubated with a culture of the bacterial collection (OD600 ~ 0.3) at 37 °C and 70 rpm for 4 h" (Methods section, Phage isolation, purification, and propagation).
+3. Agar plate incubation: "all agar plates were incubated at 37 °C for 18 h" (Methods section, Phage isolation, purification, and propagation).
+4. Phage amplification incubation: "incubated for 3 h at 37 °C and 70 rpm" (Methods section, Phage amplification was performed...). 
+5. Phage-bacteria replication dynamics incubation: "incubated at 37 °C for 3 h" (Methods section, Phage-bacteria replication dynamics).
+6. Cell viability assay incubation: "incubated at 37 °C with 5% CO2" (Methods section, Cell viability assay).
+7. Artificial human urine incubation: "Phage vB_Eco_ZCEC08 was incubated in the prepared artificial urine at 37 °C for a duration of 48 h" (Methods section, Phage stability in artificial human urine).
+8. Phage-bacteria replication in urine incubation: "incubated at 37 °C for 3 h" (Methods section, Effect of artificial human urine on phage-bacteria replication dynamics).
+
+Since the optimal and standard incubation temperature for multiple assays involving the phage and its host bacteria is consistently stated as 37°C, which falls within the mesophile range (15–45°C), the thermal characteristic is classified as mesophile.
+
+
+=============Reasoning for VCU44694 from host literature=============
+=============Reasoning for VCU44694 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: No explicit temperature range is provided in the metadata.
+2. Check for environmental context: The isolation source is 'sea water'. While sea water can vary, this context alone is insufficient to definitively classify the phage as psychrophile, mesophile, or thermophile.
+3. Apply decision rules: Since environmental context is weak, the system must default to the most probable classification. The fallback rule dictates assigning 'mesophile' when no useful metadata exists.
+4. Conclusion: Assigning 'mesophile' as the fallback classification.
+
+

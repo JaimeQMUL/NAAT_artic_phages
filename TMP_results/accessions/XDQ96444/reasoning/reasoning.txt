@@ -1,0 +1,20 @@
+=============Reasoning for XDQ96444 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('raw sewage') and collection date, but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is given.
+
+
+=============Reasoning for XDQ96444 from accession literature=============
+=============Reasoning for XDQ96444 from host literature=============
+=============Reasoning for XDQ96444 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides information about the phage (Klebsiella phage Phi_KR8), its host (Klebsiella pneumoniae), and its isolation source ('raw sewage') from 'China: Wenzhou' collected in 'Jun-2023'.
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Environment:** The isolation source is 'raw sewage'. Sewage environments are typically associated with mesophilic conditions (15–45°C) unless specific extreme conditions are noted. The host, *Klebsiella pneumoniae*, is generally considered a mesophile.
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The environmental context (sewage/common bacterial host) strongly suggests mesophilic conditions. If inference is weak or absent, the fallback rule is to assign 'mesophile'.
+5. **Conclusion:** Based on the general nature of the isolation source and host, 'mesophile' is the most probable classification.
+
+

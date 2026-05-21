@@ -1,0 +1,16 @@
+=============Reasoning for QFR57040 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'wastewater', but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for QFR57040 from accession literature=============
+=============Reasoning for QFR57040 from host literature=============
+=============Reasoning for QFR57040 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides the following information: Phage: Klebsiella phage AmPh_EK29, Host: Klebsiella pneumoniae, Isolation Source: wastewater. 2. There is no explicit mention of optimal growth temperature for the phage or its host. 3. The isolation source is 'wastewater'. Wastewater environments are generally characterized by fluctuating, moderate temperatures, typically falling within the mesophilic range (15–45°C), rather than consistently cold (<15°C) or hot (>45°C). 4. Since no explicit evidence is present, the decision rules mandate assigning the MOST PROBABLE classification. 5. Given the general nature of wastewater and the lack of specific thermal data, 'mesophile' is the most scientifically probable default assignment. 6. Therefore, the classification defaults to mesophile.
+
+

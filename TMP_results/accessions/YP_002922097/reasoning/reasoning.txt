@@ -1,0 +1,27 @@
+=============Reasoning for YP_002922097 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage JSE') and its host ('Escherichia coli K12'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are stated.
+
+
+=============Reasoning for YP_002922097 from accession literature=============
+=============Reasoning for YP_002922097 from host literature=============
+Paper: PMC13164435.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states the incubation temperatures used for bacterial growth and confirmation: "The cultures were incubated at 37 °C, orbitally shaken at 150 rpm for 18 h to enable resuscitation and active growth." It also mentions subsequent incubation periods: "...incubating at 37 °C for 24 h and 48 h for E. coli and B. cereus respectively..." Furthermore, the flow cytometric analysis incubation was performed at "37 °C for 5 min prior to analysis." Since 37°C falls within the defined mesophile range (15–45°C), the thermal characteristic is mesophile.
+
+
+=============Reasoning for YP_002922097 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Escherichia phage JSE') and its host ('Escherichia coli K12').
+2. No explicit thermal range is provided in the metadata.
+3. The host, Escherichia coli, is a common bacterium typically associated with moderate environmental temperatures (mesophilic range, 15–45°C).
+4. Since no explicit evidence exists, the most probable classification is inferred from the known ecology of the host organism.
+5. Following the decision rules, the classification defaults to 'mesophile' as the most probable assignment.
+
+

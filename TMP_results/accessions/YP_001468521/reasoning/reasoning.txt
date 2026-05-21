@@ -1,0 +1,16 @@
+=============Reasoning for YP_001468521 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name ('Listeria phage A511') and its host ('Listeria monocytogenes'), but no explicit or strongly implied temperature or growth condition information is present to determine the thermal range.
+
+
+=============Reasoning for YP_001468521 from accession literature=============
+=============Reasoning for YP_001468521 from host literature=============
+=============Reasoning for YP_001468521 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Listeria phage A511) and its host (Listeria monocytogenes). 2. No explicit thermal range is provided in the metadata. 3. The host, Listeria monocytogenes, is a common psychrotrophic/mesophilic bacterium, typically associated with refrigeration temperatures (refrigerated foods, cold environments) but capable of growth in moderate ranges. 4. Since no explicit evidence exists, and the host context suggests moderate environmental survival rather than extreme cold or heat, the default classification rule (Rule 4) is applied, leading to 'mesophile'.
+
+

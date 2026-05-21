@@ -1,0 +1,19 @@
+=============Reasoning for QIG70665 from metadata=============
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The isolation source is 'agricultural lands' and the location is 'Argentina: Salta' with coordinates '24.8902 S 65.4698 W'. These environments are generally associated with mesophilic conditions, as no extreme temperatures are specified.
+
+
+=============Reasoning for QIG70665 from accession literature=============
+=============Reasoning for QIG70665 from host literature=============
+=============Reasoning for QIG70665 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is 'agricultural lands' from 'Argentina: Salta' (lat_lon: '24.8902 S 65.4698 W'). This geographical location suggests a temperate, non-extreme environment.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context points to a typical terrestrial setting (agricultural lands), the most probable classification is mesophile (15–45°C).
+4. Fallback: As no useful metadata exists to strongly suggest psychrophile or thermophile, the default classification is mesophile.
+
+

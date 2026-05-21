@@ -1,0 +1,18 @@
+=============Reasoning for AGF91442 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('slope') and coordinates ('38.10 N 73.09 W'), but no explicit temperature or environmental condition is stated to determine the thermal range (psychrophile, mesophile, or thermophile).
+
+
+=============Reasoning for AGF91442 from accession literature=============
+=============Reasoning for AGF91442 from host literature=============
+=============Reasoning for AGF91442 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not explicitly state the optimal or tested temperature range for Cyanophage P-SS1.
+2. Check for environmental context: The isolation source is 'slope', and the coordinates are '38.10 N 73.09 W'. This location suggests a temperate or moderate marine environment, which aligns best with mesophilic conditions (15–45°C).
+3. Apply decision rules: Since no explicit evidence exists, inference from the moderate geographical location suggests mesophile. However, the environmental context is not strong enough to override the lack of direct data. Therefore, the fallback rule (Rule 4) is applied, defaulting to 'mesophile'.
+
+

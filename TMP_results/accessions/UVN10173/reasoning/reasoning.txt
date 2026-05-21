@@ -1,0 +1,16 @@
+=============Reasoning for UVN10173 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'feces' and the metagenome source is 'human gut metagenome'. These environments are typically associated with mesophilic conditions.
+
+
+=============Reasoning for UVN10173 from accession literature=============
+=============Reasoning for UVN10173 from host literature=============
+=============Reasoning for UVN10173 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not explicitly state a thermal optimum or growth temperature for the bacteriophage. 2. **Check for environmental context:** The isolation source is 'feces' and the metagenome source is 'human gut metagenome'. Human gut environments typically maintain a temperature range consistent with mammalian body temperature, which falls within the mesophilic range (approximately 37°C). 3. **Apply decision rules:** Since no explicit evidence exists, inference is used. The gut environment strongly suggests mesophilic conditions. 4. **Fallback:** The inferred context points strongly to mesophile. Therefore, mesophile is selected. 5. **Confidence:** The inference is based on general biological knowledge of the isolation source, leading to a medium confidence, but the rule requires a single classification, defaulting to mesophile based on the gut context.
+
+

@@ -1,0 +1,26 @@
+=============Reasoning for YCL15783 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'cattle farm sewage'. Sewage environments are typically associated with mesophilic conditions, and the host, 'Escherichia coli', is generally considered a mesophile.
+
+
+=============Reasoning for YCL15783 from accession literature=============
+Paper: PMC12977953.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states: "All phages remained viable between 25 °C and 42°C..." and "Phage titers remained relatively stable at 25 °C to 37 °C". The optimal growth range for mesophiles is defined as 15–45°C. Since the phages were viable and stable in the range of 25°C to 42°C, this falls within the mesophilic range.
+
+
+=============Reasoning for YCL15783 from host literature=============
+=============Reasoning for YCL15783 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Check for explicit evidence:** The metadata does not contain any explicit information regarding the optimal growth temperature or the temperature range for Escherichia phage BASUE2.
+2. **Check for environmental context:** The isolation source is 'cattle farm sewage' from 'India: Patna'. Sewage environments are generally considered mesophilic, and the host, *Escherichia coli*, is a classic mesophile.
+3. **Apply decision rules:** Since no explicit evidence exists, inference is required. The most probable classification, given the host (*E. coli*) and the general nature of sewage isolation, is mesophile.
+4. **Fallback:** As the environmental context points towards moderate conditions and no other information is available, 'mesophile' is selected as the most probable classification. This assignment relies on the general knowledge of the host organism and the fallback rule.
+
+

@@ -1,0 +1,40 @@
+=============Reasoning for QXO05949 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source ('poultry feces') but does not specify a temperature range associated with this source, nor does it provide any explicit temperature data for the phage or its host.
+
+
+=============Reasoning for QXO05949 from accession literature=============
+Paper: PMC13119680.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The incubation conditions for culturing the C. hepaticus strains USA1, USA5 and USA52 were explicitly stated as 'incubated at 37 °C for 7 days under microaerophilic conditions'. Additionally, the incubation for the initial screening of the phage library was performed 'and incubated overnight at 37 °C.' The incubation for the APEC PSUO78 $\Delta$aroA$\Delta$asd double mutant strain was listed as 'LB broth/agar with 50 µg DAP at 37 °C'. These temperatures (37 °C) fall within the mesophile range (15–45°C).
+
+
+Paper: PMC13125106.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various procedures involving the phages and bacteria. 
+1. Bacterial growth (for susceptibility testing): "...at 41.5°C overnight under microaerobic conditions..." (Section 2.1). 
+2. Phage propagation/titration: "The plates were incubated overnight at 42°C under microaerobic conditions." and "...incubated overnight at 42°C under microaerobic conditions." (Section 2.2). 
+3. Phage stability testing: "The thermal stability of the phages was evaluated over 120 h at 37°C and pH 7.5." (Section 2.3). 
+4. In vitro activity: "The plates were incubated overnight at 42°C under microaerobic conditions," and "Plates were incubated at 37°C under microaerobic conditions with gentle shaking (365 cpm)." (Section 2.4). 
+5. In vivo assays: "Larvae in Petri dishes were incubated at 37°C in the dark for 120 h" and "Larvae in Petri dishes were incubated at 37°C in the dark for 120 h" (Section 2.5). 
+Since the optimal/tested temperatures are 37°C, 41.5°C, and 42°C, these fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for QXO05949 from host literature=============
+=============Reasoning for QXO05949 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage targets 'Campylobacter jejuni' and was isolated from 'poultry feces'.
+2. **Evaluate Evidence:** There is no explicit thermal range provided for the phage.
+3. **Infer from Host/Source:** *Campylobacter jejuni* is a common human/animal pathogen often associated with moderate environmental temperatures, and poultry feces are generally not associated with extreme cold or high heat in the context of typical phage isolation studies.
+4. **Apply Decision Rules:** Since no explicit evidence exists, the system must infer. The most probable classification, given the lack of specific data, is mesophile, as this represents the most common physiological range for many environmental and pathogenic microbes, and it aligns with the fallback rule.
+5. **Conclusion:** Defaulting to mesophile based on the general nature of the host and source, as no other information allows for a stronger inference.
+
+

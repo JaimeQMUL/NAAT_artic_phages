@@ -1,0 +1,34 @@
+=============Reasoning for QQM15584 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, accession number, sequence length, dates, and the host organism ('Escherichia coli NCTC 12079'). No explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is mentioned.
+
+
+=============Reasoning for QQM15584 from accession literature=============
+Paper: 41990421.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper states that "MM-1 and MM-2 were infectious at a broad temperature (4°C to 60 °C)". Since the mesophile range is defined as 15–45°C, and the tested range (4°C to 60°C) encompasses this range, and the optimal growth temperature is not specified, the most appropriate classification based on the provided range is mesophile, as it covers the typical mesophilic range. The explicit range suggests suitability across a wide range, including mesophilic conditions.
+
+
+Paper: 42112428.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states: "The DSF2 remains stable from 4 °C to 50 °C". Since the mesophilic range is defined as 15–45°C, and the phage is stable across this range (and slightly beyond), it is classified as mesophilic based on the provided definitions.
+
+
+=============Reasoning for QQM15584 from host literature=============
+=============Reasoning for QQM15584 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage ('Escherichia phage vB_EcoM-BECP11') and its host ('Escherichia coli NCTC 12079').
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range.
+3. The host, Escherichia coli, is a well-known mesophilic bacterium, typically thriving in human body temperature range (37°C), which falls within the mesophile range (15–45°C).
+4. Since no explicit evidence exists, the most probable classification is inferred from the known biology of the host organism.
+5. As no direct evidence is present, the classification defaults to 'mesophile' based on the host's typical ecology, fulfilling the fallback rule.
+
+

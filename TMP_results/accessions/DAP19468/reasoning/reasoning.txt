@@ -1,0 +1,16 @@
+=============Reasoning for DAP19468 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'Human metagenome' and the 'isolation_source' is 'Human metagenome'. Human-associated environments are typically considered mesophilic.
+
+
+=============Reasoning for DAP19468 from accession literature=============
+=============Reasoning for DAP19468 from host literature=============
+=============Reasoning for DAP19468 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides no explicit information regarding the optimal growth temperature or the environmental source temperature (e.g., soil, deep sea, human body). 2. The isolation source is 'Human metagenome', which typically implies conditions near human body temperature (37°C). 3. Since 37°C falls within the mesophile range (15–45°C), this suggests a mesophilic classification. 4. As there is no explicit evidence, and the environmental context (human host) points strongly towards moderate temperatures, the classification defaults to mesophile based on the most probable biological context, fulfilling the fallback rule.
+
+

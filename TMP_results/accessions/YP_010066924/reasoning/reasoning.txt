@@ -1,0 +1,16 @@
+=============Reasoning for YP_010066924 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host ('Escherichia coli'), and accession details, but no explicit or strongly implied temperature or growth condition information is present.
+
+
+=============Reasoning for YP_010066924 from accession literature=============
+=============Reasoning for YP_010066924 from host literature=============
+=============Reasoning for YP_010066924 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Enterobacteria phage RB18) and its host (Escherichia coli). 2. There is no explicit mention of optimal growth temperature, isolation temperature, or any thermal range data. 3. The decision rules require assigning a classification. 4. Since no evidence is available, the system must default to 'mesophile' as per the fallback rule (Rule 4). 5. The confidence is low because the classification is based purely on the default fallback mechanism, not on any supporting data.
+
+

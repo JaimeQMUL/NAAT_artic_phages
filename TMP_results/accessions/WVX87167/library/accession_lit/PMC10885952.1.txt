@@ -1,0 +1,373 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Antibiotics (Basel)
+Journal ID: Antibiotics (Basel)
+Journal ID: antibiotics
+
+Antibiotics
+
+EISSN: 2079-6382
+Publisher: Multidisciplinary Digital Publishing Institute (MDPI)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC10885952
+PMID: 38391581
+DOI: 10.3390/antibiotics13020195
+Article ID: antibiotics-13-00195
+Article version: 1
+Subjects: Article
+
+Potential of an Isolated Bacteriophage to Inactivate Klebsiella pneumoniae: Preliminary Studies to Control Urinary Tract Infections
+
+Duarte João 1 †
+Máximo Carolina 1 †
+Costa Pedro 1
+https://orcid.org/0000-0003-4223-0851 Oliveira Vanessa 1
+https://orcid.org/0000-0003-1934-0091 Gomes Newton C. M. 1
+https://orcid.org/0000-0003-4786-4773 Romalde Jesús L. 2
+https://orcid.org/0000-0001-9209-7687 Pereira Carla 1 *
+https://orcid.org/0000-0002-8422-8664 Almeida Adelaide 1 *
+Sillankorva Sanna Maria Academic Editor
+1 CESAM, Department of Biology, University of Aveiro, Campus Universitário de Santiago, 3810-193 Aveiro, Portugal; j.macedoduarte@ua.pt (J.D.); carolina.maximo@ua.pt (C.M.); pedrommrscosta@ua.pt (P.C.); v.oliveira@ua.pt (V.O.); gomesncm@ua.pt (N.C.M.G.)
+2 Department of Microbiology and Parasitology, CRETUS & CIBUS, Faculty of Biology, University of Santiago de Compostela, CP 15782 Santiago de Compostela, Spain; jesus.romalde@usc.es
+* Correspondence: csgp@ua.pt (C.P.); aalmeida@ua.pt (A.A.)† These authors contributed equally to this work.
+
+Electronic publication date: 2024 Feb 19
+Publication date: 2024 Feb
+Volume: 13
+Issue: 2
+Electronic Location ID: 195
+Received 2023 Dec 31; Revised 2024 Feb 13; Accepted 2024 Feb 15
+Copyright: © 2024 by the authors.
+Copyright year: 2024
+License: Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: bacteriophage, phage therapy, Klebsiella pneumoniae, urinary tract infections
+
+Funding: FCT/MCTES UIDP/50017/2020+UIDB/50017/2020+LA/P/0094/2020 Through national funds, we acknowledge financial support to CESAM from FCT/MCTES (UIDP/50017/2020+UIDB/50017/2020+LA/P/0094/2020).
+
+==============================
+Urinary tract infections (UTIs) caused by resistant Klebsiella pneumoniae can lead to severe clinical complications and even death. An alternative treatment option for infected patients is using bacteriophages. In the present study, we isolated phage VB_KPM_KP1LMA (KP1LMA) from sewage water using a K. pneumoniae strain as a host. Whole-genome analysis indicated that the genome was a double-stranded linear 176,096-bp long DNA molecule with 41.8% GC content and did not contain virulence or antibiotic resistance genes. The inactivation potential of phage KP1LMA was assessed in broth at an MOI of 1 and 10, and a maximum inactivation of 4.9 and 5.4 log CFU/mL, respectively, was observed after 9 h. The efficacy at an MOI of 10 was also assessed in urine to evaluate the phage’s performance in an acidic environment. A maximum inactivation of 3.8 log CFU/mL was observed after 9 h. The results suggest that phage KP1LMA could potentially control a UTI caused by this strain of K. pneumoniae, indicating that the same procedure can be used to control UTIs caused by other strains if new specific phages are isolated. Although phage KP1LMA has a narrow host range, in the future, efforts can be made to expand its spectrum of activity and also to combine this phage with others, potentially enabling its use against other K. pneumoniae strains involved in UTIs.
+
+1. Introduction
+
+The World Health Organization has classified ESKAPEE, a group of seven highly virulent bacteria (Enterococcus faecium, Staphylococcus aureus, Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa, Enterobacter spp. and Escherichia coli), as number one priority for the development of new antimicrobial drugs [1]. Among these, the Gram-negative bacterium K. pneumoniae poses a significant global health threat due to the widespread dissemination of carbapenemase genes [2]. In clinical settings, K. pneumoniae is a common cause of bloodstream, respiratory, and urinary tract infections (UTIs) [3]. Notably, in intensive care units, most healthcare-associated infections are associated with endotracheal tubes (cases of pneumonia), vascular catheters (bloodstream infections), or urinary catheters (UTIs) [4]. According to the 2019 European Centre for Disease Prevention and Control (ECDC) report, 94% of UTIs were associated with the presence of urinary catheters [4]. The adhesive fimbriae of K. pneumoniae enables the formation of robust biofilms on medical devices [5]. These biofilms confer additional resistance against antibiotics, complicating clinical outcomes and limiting treatment options [6]. In the most recent antimicrobial resistance surveillance report, K. pneumoniae isolates presented widespread resistance to third-generation cephalosporins and increasing resistance to carbapenems in a worsening scenario across Europe [7]. The resistance to these antibiotics can also be transferred to other bacteria during the biofilm matrix’s formation, affecting the treatment options available for other bacteria [6]. Complications arise in patients with UTIs where antimicrobial-resistant bacteria are detected, leading to prolonged hospitalizations, higher rates of treatment failure, and even death [8]. As the antimicrobial treatment landscape worsens, there is an urgent need for novel treatment options in clinical settings.
+
+Phages, which are viruses specific to bacteria, offer several advantages over antibiotics, including low environmental impact, preservation of the microbiota, ease and cost-effectiveness of isolation, and resistance to cross-resistance [9]. Furthermore, phages can infect antibiotic-resistant bacteria and, in some cases, enhance bacterial susceptibility to antibiotics where resistance has been observed [10]. Therefore, researchers worldwide are exploring their potential applications in various fields [11]. Given that patients in intensive care units are prone to UTIs [12,13], the use of phages to treat these infections has received considerable attention [14]. Commercially available phage preparations from the ELIAVA Institute have been used against isolated E. coli and K. pneumoniae strains obtained from UTI patients [15]. These phages were even directly administered to treat UTIs in patients who underwent transurethral resection of the prostate [16]. In a different approach, Le and his coworkers (2023) [17] successfully treated a recurrent UTI caused by K. pneumoniae through intravenous administration of phages without antibiotics. Other researchers have isolated and characterized phages specific to K. pneumoniae, testing their efficacy against biofilm formation and in animal models [18,19]. However, some isolated and characterized phages exhibit a very narrow host range and cannot infect different bacterial strains of the same species [9]. Implementing phage libraries may address this limitation, allowing researchers to select the most effective phage preparations for a specific strain [20]. As the levels of K. pneumoniae resistance to carbapenems continue to increase in Europe and specifically in Portugal [7], the isolation and characterization of new phages capable of infecting this bacterium have become crucial for providing new treatment options for patients. Therefore, this study focuses on isolating and characterizing a new phage capable of infecting an environmentally isolated carbapenemase-producing K. pneumoniae strain. In addition, in vitro tests in liquid medium and human urine were conducted to assess the phage’s potential for use in urinary tract infections, providing insight into its efficacy in the acidic environment of the urinary tract.
+
+2. Results
+
+2.1. Phage Isolation and Virion Morphology
+
+Phage KP1LMA formed very small (diameter <0.1 mm) clear plaques on the host strain (Figure 1A). High-titer suspensions [109 plaque-forming units (PFU/mL)] were produced. Transmission electron microscopy revealed virions with an icosahedral head of approximately 76 nm and a contractile tail of 110 ± 7.9 nm (Figure 1B). Phage KP1LMA presents a myovirus morphotype and has been classified as Caudoviricetes.
+
+2.2. Genome Analysis
+
+The genome of phage KP1LMA (GenBank: PP002985) is a double-stranded DNA with a size of 176,096 bp, and the GC content is 41.8%. The CheckV results showed 98.8% of completeness and no host contamination. A total of 268 CDSs were predicted in the phage KP1LMA genome, with 148 CDSs predicted as hypothetical proteins and 120 CDSs as functional proteins (Figure 2, Table S1). Our analysis could not detect genes encoding antibiotic resistance or virulence determinants in the phage KP1LMA genome. The absence of the phage integrase gene indicates that phage KP1LMA could potentially be exploited for biocontrol applications. We further detected the presence of two tRNA genes in the KP1LMA genome, suggesting that the phage may rely on its tRNA for translation after infecting the host cell (Figure 2, Table S1). Overall, we detected putative genes encoding for phage proteins involved in DNA replication and modification, phage structure, and packaging and host lysis (e.g., endolysin and holin) (Figure 2, Table S1). The genome sequence of phage KP1LMA was classified under the Slopekvirus genus and had a similarity of 98.87% with Klebsiella phage phiKp_26 (GenBank: LC768496) as well with a set of Klebsiella phages isolated from sewage. Comparative genome analysis of phage KP1LMA and phage phiKP_26 (GenBank: LC768496) revealed large similarity between genomes (Table S2).
+
+2.3. Phage Host Range and Efficiency of Plating
+
+The spot test analysis revealed that phage KP1LMA presented a very narrow host range infecting only E. coli ATCC 13706 of the 52 strains tested, with an efficiency of plating of 32.98 ± 2.85% (Table 1). Phages isolated from the plaques formed on the E. coli strain could still infect the K. pneumoniae strain used as the host.
+
+2.4. Adsorption Curve
+
+The KP1LMA phage adsorption assays showed that the phage adsorbed at a constant K = 4.23246 × 10−10 mL−1 min−1, and approximately 60% and 75% of the phage particles adsorbed to K. pneumoniae Scc 24 cells after 10 and 60 min, respectively (Figure 3).
+
+2.5. One-Step Growth Curve
+
+The growth curve for phage KP1LMA was determined in Tryptic Soy Broth (TSB, Liofilchem, Roseto degli Abruzzi, Italy) at 37 °C (Figure 4). From the observed results, phage KP1LMA presented a latent period of 100 min and a burst size of 7.9 ± 0.3 PFU/host cell.
+
+2.6. Bacterial Kill Curve
+
+Bacterial kill curves were found using two different MOIs in TSB at 37 °C to determine whether increasing the phage dose would promote higher bacterial inactivation. In both assays, the bacterial control increased from 4.7 ± 0.16 × 105 CFU/mL to 8.9 ± 0.14 × 108 CFU/mL (ANOVA, p < 0.05, Figure 5A). When the bacterium was challenged with the phage at MOIs of 1 and 10, a maximum bacterial decrease of 4.9 and 5.4 log CFU/mL was observed after 9 h of incubation, respectively.
+
+When higher doses of phage were used, it was observed that bacterial densities started to decrease earlier (after 6 h) compared to when an MOI of 1 was used (ANOVA, p < 0.05, Figure 5A). However, the maximum inactivation, observed after 9 h, did not present statistically significant differences (ANOVA, p > 0.05, Figure 5A). Nonetheless, when an MOI of 10 was used, the bacterial numbers remained constant for a more prolonged period (12–24 h), with statistically significant differences when compared with the MOI of 1 (ANOVA, p < 0.05, Figure 5A). Therefore, an MOI of 10 was selected for further studies.
+
+Phage KP1LMA remained stable during this assay, with no variation in phage titer during the 24 h in the control group of both MOIs studied (Figure 5B). When phages were incubated in the presence of the host bacteria, a significant increase in phage titer of 2.9 and 1.7 log PFU/mL was observed for both test groups (ANOVA, p < 0.05, Figure 5B).
+
+2.7. Bacterial Kill Curve in Urine
+
+Fresh, early morning urine was filtered using a 0.22 µm syringe filter and inoculated with phage KP1LMA and phage to a final MOI of 10. During the 24 h bacterial challenge, a maximum bacterial inactivation of 3.8 log CFU/mL was observed after 9 h (ANOVA, p < 0.05, Figure 6A). Despite bacterial regrowth, the differences in bacterial density between the test and control groups remained statistically significant until the end of the experiment (ANOVA, p < 0.05, Figure 6A). The phage remained stable with no significant differences in the control group (ANOVA, p > 0.05, Figure 6B). In the presence of the host, the phage titer increased significantly by 2.7 log PFU/mL (ANOVA, p < 0.05, Figure 6B).
+
+2.8. Frequency of Emergence of Phage-Resistant Mutants
+
+When K. pneumoniae Scc 24 was challenged with phage KP1LMA, a frequency of emergence of phage-resistant mutants of 5.55 × 10−3 ± 0.002 was observed. After incubation for 24 h at 37 °C, a bacterial density of 4.51 × 108 ± 0.61 CFU/mL was observed for the control group. However, only 2.52 × 104 ± 0.93 CFU/mL was observed after 24 h when the bacteria were treated with phage.
+
+3. Discussion
+
+The rise of carbapenem-resistant K. pneumoniae poses a global public health threat [21,22]. Phages are increasingly considered an alternative or adjuvant treatment option, especially when antibiotics prove ineffective in treating bacterial infections [23,24,25,26]. Phage therapy is explored when patients do not respond to conventional antibiotic treatments [17]. However, it is still considered an experimental approach [27] and requires emergency regulatory approval [27], meaning that more data and research are needed to advance its integration into modern healthcare strategies. In the present study, phage KP1LMA was isolated using a strain of carbapenemase-producing K. pneumoniae, and its biological properties and in vitro efficacy were investigated. The results indicate that phage KP1LMA has the potential to control urinary tract infections caused by this strain of K. pneumoniae. Phage KP1LMA is an effective and safe phage capable of controlling a carbapenemase-producing K. pneumoniae strain in culture medium and urine that is not subject to inactivation at low pH. However, its narrow host range suggests that this phage will not be able to infect another strain. In most cases, it is necessary to use the pathogenic bacterium to isolate an effective phage for treatment or to test previously isolated phages in the libraries of different laboratories, which is the current procedure for phage alerts from the phage directory (https://phage.directory/alerts, accessed on 30 November 2023). Phage KP1LMA and other phages already isolated in different laboratories can be used worldwide in response to these alerts to inactivate K. pneumoniae strains involved in UTIs. However, due to this phage’s specificity, it would be more suitable to use in experimental procedures with the aim of generating novel broad-host-range phages. Nonetheless, this work results from an effort to expand our phage library to respond to phage alerts and to pave the way for more in-depth studies on the potential of bacteriophages to treat UTIs.
+
+The genome of the K. pneumoniae phage KP1LMA is within the range of other described phages (size range 19,260–346,602 bp) [28], is a lytic phage and was classified as Slopekvirus (with a 176,096 bp linear double-stranded DNA). It does not appear to encode any known endolysin, toxin, or virulence or antibiotic resistance genes and can be considered safe for use in phage therapy. However, since this phage’s host was not sequenced, the presence of prophages cannot be excluded from the samples; therefore, the phage’s suspensions must be thoroughly screened for possible prophages prior to guaranteeing its safety for clinical application.
+
+Although host specificity is considered one of the most advantageous properties of phages, distinguishing them from antibiotics, a narrow host range can be an obstacle to efficient phage therapy [9]. Phage KP1LMA showed a narrow host spectrum but can also infect E. coli ATCC 13706 as well as its host. Furthermore, clear lysis plaques formed in E. coli could still infect the K. pneumoniae host strain. Interestingly, phage plaques formed in E. coli were larger and generally clearer than those formed in the host (Figure S1). These observations could suggest that phage KP1LMA is closely related to the E. coli T4 phage. However, the efficiency of plating was considerably lower for E. coli than for the host strain K. pneumoniae, and genetic analysis showed a close relation to other K. pneumoniae phages. Therefore, other factors may affect lysis plaque formation [29,30], e.g., a long latent period. The same plaque morphology was observed for phage phi_KPN_S3, a phage from the same genus [31].
+
+Our results suggest that the KP1LMA phage has the potential to control K. pneumoniae and E. coli ATCC 13706 strains, two closely related species of the Enterobacteriaceae family and the most predominant in UTIs [13]. The efficacy of phage KP1LMA was also tested in this study against other strains of K. pneumoniae and other bacterial genera of the Enterobacteriaceae family. However, the phage infected none of these bacteria. Generally, phages are highly specific, often infecting only one bacterial genus or even specific strains [9,10]. Shah et al. (2023) showed that phage RAM-1 infected only 3 of 16 K. pneumoniae strains tested [32]. Townsend and his coworkers (2021) isolated several new phages and observed that the MeTiny phage (Slopekvirus) presented the broadest host range, infecting 79% of all Klebsiella strains tested. However, the remaining phages identified as Slopekvirus presented a very narrow host range (forming plaques on one to two strains) [33]. Phage vB_kpnM_17-11 also showed a narrow host range, able to lyse only 4 out of 96 strains of K. pneumoniae tested [34]. In another study, phages LASTA and SJM3 infected only 5 K. pneumoniae of the 140 tested [24]. The narrow host range of phage KP1LMA may be due to bacterial resistance to phage adsorption, exopolysaccharide production, and/or capsule formation, which have been described for various bacteria [35]. In the future, efforts to broaden the phage’s host range may guarantee the clinical applicability of this therapy [36]. The most successful approach to improving a phage’s host range is to use the Appelman protocol [36]. However, this protocol requires an accessible phage library with multiple characterized phages in order to combine phage cocktails that will be used to generate novel phages with broad host range through recombination of prophages [36]. Therefore, in the future, phage KP1LMA can be used in combination with other phages to generate novel phages with a broad host range. Several studies have successfully produced new phages with broad host range using a combination of phages with a narrow host range, some only infecting two different strains [36,37,38,39,40]. Nonetheless, these phages should be studied against the clinical isolate before every application to provide a more specific treatment.
+
+The success of phage therapy is generally attributed to parameters like adsorption rate and burst size [41]. The adsorption profile of phage KP1LMA showed that after 10 and 60 min, approximately 60 and 75% of the phage particles were adsorbed to the host cells, respectively, with an adsorption constant of K= 4.23246 × 10−10 mL−1 min−1. Similar results have been obtained with phage K2a [42]. However, in general, the adsorption rate of phage KP1LMA is lower than in other studies for Klebsiella phages [24,42,43]. Phage LASTA and SJM3 adsorption assays showed that approximately 97 and 94%, respectively, of the phage particles were adsorbed to K. pneumoniae after 20 min [24]. The adsorption constant is also considerably lower than what was observed by Balcão and his coworkers [44]. In a different study, Asghar and colleagues (2022) determined the adsorption constant for phages A¥L and A¥M (Slopekvirus) to be 4.4 × 10−9 and 5.1 × 10−9 mL/min, respectively [45]. A lower adsorption constant will result in fewer infected bacteria and a large population of uninfected bacteria remaining in contact with these free phages. This slow infection may allow for bacteria quorum sensing and increase the likelihood of triggering a phage defense mechanism, hindering therapeutic results [46]. Adjusting the phage concentrations to ensure maximum infection may improve the results [47].
+
+Phage KP1LMA has a long latent period (100 min) and a small burst size (7.9 ± 0.3 PFU/host cell). It has been observed that K. pneumoniae phages have a wide range of latent periods and burst sizes, ranging from high burst sizes (410 PFU/infected cell) and short latent periods (21 min) [32] to low burst sizes (31.7 PFU/infected cell) and long latent periods (30 min) [34]. Baqer et al. (2022) demonstrated that K. pneumoniae-infecting phages K2a, K2b, K2w5, K2w6, Kp99, K9w5, K9w6, K9coc had burst sizes of 116, 41, 354, 106, 214, 66, 130 and 210 PFU/host cell, respectively, with latency periods of approximately 5, 20, 20, 25, 20, 30, 10 and 10 min, respectively [42]. Phage BL02, presented a burst size of 156 PFU/infected cell in an average lysis period of 50 min [48]. Phages LASTA and SJM3 presented a higher burst size of 187 ± 37 and 155 ± 34 PFU/host cell, respectively, and a long latent period of 80 min [24]. In another study, phage HS106 presented higher burst size (183 PFU/host cell) and low latent period (10 min) [43]. However, the phage’s burst size is also affected by the host, as observed by Kondo (2023) [49]. Although phage KP1LMA presents a small burst size (7.9 ± 0.3 PFU/host cell) and a long latency period (100 min) (Figure 4), phages replicate efficiently in the host, causing a high reduction in K. pneumoniae growth, suggesting that other factors regulate the phage–bacteria interaction. Nonetheless, a prolonged latent period may negatively affect the phage’s inactivation potential since secondary adsorptions may occur in a phenomenon described as lysis inhibition [50]. However, since this phage presented a low adsorption rate, the likelihood of secondary infections is unlikely, and this may be a characteristic that favors application in scenarios of bacterial biofilm formation, as is the case for UTIs [51]. A phage’s burst size and latent period depend on the phage type, the host’s physiological state, the growth medium’s composition, the pH, and the temperature of the incubation [42]. A smaller burst size can be caused by the phage’s large size and the host’s small size. The host cell’s size is critical as it modulates the availability of receptors and its protein synthesis machinery for phage binding and growth [52]. Larger burst sizes and longer latent periods increase the likelihood of successful dispersal in the environment [53], indicating that the phage is widely available for isolation. For phage KP1LMA, the long latent period did not result in a large burst size, which may indicate that the eclipse time of this phage is considerably longer than normal. In the future, it will be important to characterize this infection parameter to better understand this infection. According to Abedon and coworkers [54], these results may suggest that the isolated phage is not specific to the tested strain. However, of the two bacterial strains this phage could infect, the phage presented a higher affinity towards Klebsiella than E. coli. Since the genetic analysis showed similarity to other Klebsiella phages, perhaps other Klebsiella stains will prove more susceptible to this phage and provide better overall results.
+
+Klebsiella pneumoniae was effectively inactivated by KP1LMA phage in TSB medium (with a maximum inactivation of 5.4 log CFU/mL after 9 h). The increase in the MOI from 1 to 10 increased treatment efficiency. The maximum inactivation of phage KP1LMA at MOI 1 (with a maximum inactivation of 4.9 log CFU/mL) and 10 (5.4 log CFU/mL) was statistically similar (Figure 5A). However, when an MOI of 10 was used, bacterial regrowth was delayed, and the bacterial concentration remained constant until the end of the experiment. Chen et al. (2023) also observed that lower phage concentrations can induce bacterial regrowth more rapidly than those treated with higher concentrations [43]. The authors observed that bacterial density (OD600) increased more rapidly when incubated at a lower MOI of 1 compared to higher MOIs (10 and 100) [43]. Notably, despite the phage showing a life cycle of 100 min (between adsorption and burst), the decrease in bacterial concentrations was only observed after about 3 to 6 h in the inactivation assay. This result was also observed for phage VB_EcoM-Sa45lw, which presented a latent period of 30 min, yet bacterial decrease was only observed after 4 to 6 h [55]. A similar result was observed by Lam and coworkers (2023) for phages TCUAN1 and TCUAN2, which, despite a life cycle of about 80 and 30 min and adsorption of almost 100% in 4 and 2 min, bacterial inactivation was only observed after 60 to 240 min, respectively [56]. The number of phage particles of KP1LMA when incubated with K. pneumoniae for 12 h at an MOI of 1 and 10 increased by 2.7 and 1.9 log PFU/mL, respectively. These results demonstrate that high initial phage doses may not be essential due to the self-perpetuating nature revealed by increasing phage titer and bacteria.
+
+The efficiency of phage KP1LMA was tested in human urine samples to evaluate the potential application of this phage for the inactivation of UTI caused by K. pneumoniae. It was observed that phage KP1LMA could successfully inactivate K. pneumoniae in urine (maximum inactivation of 3.8 log CFU/mL). The concentration of phage KP1LMA remained constant in the absence of the host. Its titer increased significantly in the presence of the bacterium during the experiment. However, its effectiveness in inactivating K. pneumoniae in urine (maximum concentration of 3.8 log CFU/mL after 9 h of incubation) was significantly lower compared to experiments in TSB medium (maximum inactivation of 5.4 log CFU/mL after 9 h of incubation). Although the phage concentration remained constant throughout the experiment and phage KP1LMA replication in the presence of K. pneumoniae was similar in TSB medium and urine (2.9 and 2.7 log PFU/mL, respectively), the lower bacterial inactivation in urine could be due to lower phage viability. Silva et al. (2014) showed that although phages survive at different pH values, their efficiency in inactivating bacteria is affected by low pH values [57]. In general, phages’ lytic activity decreases at pH values 10 < pH < 5, with optimum pH conditions around neutrality (pH of 6–8) [58,59]. Similar results were obtained by Pereira et al. (2016) [60]. These authors showed that single-phage suspensions of phages E-2 and E-4 and the phage cocktail E-2/E-4 reduced approximately 2.0 log CFU/mL of Enterobacter cloacae in urine. The efficacy of the single-phage suspensions and phage cocktail was lower than that of phosphate-buffered saline (PBS), which reduced 3.4 log CFU/mL [60]. Further studies using the phage KP1LMA as a model in urine should be carried out to understand the impact of urine on bacterial metabolic functions and phage infectivity [61].
+
+A major concern regarding bacterial inactivation by phages is the emergence of phage-resistant bacteria [62,63,64,65]. The development of resistant mutants, which only occurred in bacteria exposed to the KP1LMA phage, was limited (5.55 × 10−3). These results are in close agreement with results obtained by other researchers [65,66,67,68]. Phage cocktails can help overcome the problem of bacterial phage resistance during therapeutical applications [59]. However, their success requires that phages use different infection mechanisms and are not affected by cross-resistance [69]; this may be achieved by using phages that use different bacterial receptors.
+
+The results of this study show that the newly isolated phage can effectively inactivate a strain of K. pneumoniae in urine. Furthermore, the phage is also safe to use, as it is strictly lytic without known genes encoding for virulence or antibiotic resistance. However, as the viral infection is very specific, continuing this phage’s isolation and characterization effort is important for the delivery of safe alternatives. Nonetheless, despite its inability to infect other Klebsiella strains, this phage is a suitable candidate for evolutionary experiments with the aim of broadening host range. Therefore, efforts must be made to continue broadening phage libraries in order to find suitable and safe candidates that can answer any request for phages for compassionate treatment.
+
+4. Materials and Methods
+
+4.1. Bacterial Strains and Growth Conditions
+
+The bacterial strains used in this study are listed in Table 1. The bacterial strain K. pneumoniae Scc 24 was previously isolated [70] and used as a phage host. Escherichia coli (ATCC 13706 and ATCC 25922), S. Typhimurium (ATCC 13311 and ATCC 14028), and S. flexneri DSM 4782 were purchased from the ATCC and DSM collections, respectively. Enterobacter cloacae was previously isolated by our group [60]. Five strains of S. Enteritidis were isolated from food and provided by Controlvet Laboratory. The other bacterial strains used in this study were isolated in other studies [60,70,71]. Fresh bacterial cultures were kept at 4 °C in Tryptic Soy Agar (TSA, Liofilchem, Roseto degli Abruzzi, Italy). Before each assay, one isolated colony was transferred to 30 mL of TSB and grown overnight at 37 °C with orbital shaking (120 rpm) until an optical density (O.D. 600) of 0.8, corresponding to about 109 cells/mL.
+
+4.2. Phage Isolation and Purification
+
+Phage KP1LMA was isolated from the sewage network of Aveiro (station EEIS9 of SIMRIA Multi Sanitation System of Ria de Aveiro). About 50 milliliters of water was filtered through polycarbonate membranes with a 0.45 µm pore size (Millipore, Bedford, MA, USA) and added 50 mL of a twice-concentrated TSB medium. The mixture was inoculated with 1 mL of K. pneumoniae Scc 24 in the exponential phase and incubated for 24 h at 25 °C and 120 rpm. After incubating, the solution was centrifuged at 10,000× g for 10 min at 4 °C and filtered through a polyethersulfone layer with a 0.22 µm pore size (Merck-Millipore, Darmstadt, Germany). The filtrate was stored at 4 °C, and the titer was determined according to [72]. Serial dilutions of the filtrate stock were performed in phosphate-buffered saline (PBS) [137 mmol−1 NaCl (Sigma, St. Louis, MO, USA), 8.1 mmol−1 Na2HPO4·2H2O (Sigma, St. Louis, MO, USA), 2.7 mmol−1 KCl (Sigma, St. Louis, MO, USA), and 1.76 mmol−1 KH2PO4 (Sigma, St. Louis, MO, USA), pH 7.4). Then, 500 microlitres of each dilution, along with 200 µL of fresh bacterial culture, were added to 5 mL of molten TSB 0.6% top agar layer [30 g/L TSB (Liofilchem, Roseto degli Abruzzi, Italy), 6 g/L agar (Liofilchem, Roseto degli Abruzzi, Italy), 0.12 g/L MgSO4 (Sigma, St. Louis, MO, USA), and 0.05 g/L CaCl2 (Sigma, St. Louis, MO, USA), pH 7.4] and poured over a TSA plate. Plates were incubated at 37 °C and observed for the presence of lytic plaques after 16 to 18 h. One single plaque was selected from the solid medium and added to the TSB medium with a fresh culture of the host. The sample was centrifuged, and the supernatant was used as a phage source for a second isolation procedure. Three successive single-plaque isolation cycles were performed to acquire pure phage stock. All lysates were centrifuged at 10,000× g for 10 min at 4 °C to remove bacteria or bacterial debris. The phage suspensions were kept at 4 °C.
+
+4.3. Electron Microscope Examination
+
+Phage particles of a highly concentrated suspension (109 PFU/mL) were negatively stained with uranyl acetate (Electron Microscopy Sciences, Hatfield, PA, USA). Briefly, 15 µL of each sample was adsorbed to carbon-coated collodion 400-mesh nickel grids (Fisher Scientific, Hampton, VA, USA) for 2 min and stained with 2% aqueous uranyl acetate (Electron Microscopy Sciences) for 1 min. Grids were visualized in a JEOL JEM-1011 transmission electron microscope (operating at 100 kV). Micrographs were taken with a MEGA VIEW III (SIS) digital camera at various magnifications.
+
+4.4. Phage DNA Extraction
+
+The extraction of the virion’s nucleic acid was performed according to Jakočiūnė and Moodley (2018) [73], with bacterial DNA and RNA removal and digestion of the bacteriophage capsid [74] and DNA purification performed with a DNeasy Blood & Tissue Kit (Qiagen, Hilden, Germany). The quantity and quality of the DNA were measured in a NanoDrop One UV–Vis scanning spectral microdroplet spectrophotometer (ThermoScientific, Waltham, MA, USA), according to the manufacturer’s instructions.
+
+4.5. Phage Genome Assembly and Annotation
+
+Phage genome sequencing was performed by SeqCenter, LLC (Pittsburgh, PA 15201, Est (Lisboa, Portugal) using an Illumina MiSeq with 300 bp paired-end reads. The library was constructed using a Kit Kapa HyperPlus according to the manufacturer’s protocol.
+
+The quality control of raw sequence reads was performed using FASTQC v0.11.9 (FastQC source: Bioinformatics Group at the Babraham Institute, UK) before and after trimming low-quality reads with Trimmomatic v.0.39 with the following parameters: ILLUMINACLIP–adaptors–fasta: 2:30:1, Leading: 8, Trailing: 8, Slidingwindow: 4:15, and Minlen: 100 [75]. The trimmed reads were subjected to de novo genome assembly using SPAdes v.3.13.1 with careful parameters [76]. The assembly graph was inspected using Bandage v0.8.1 [77]. The reads were then mapped back against the resulting assembly using BBMap v.38.18 to determine the average coverage of each contig [78]. Manual filtering was performed to remove contigs with dubious coverage. The reads were mapped back to the filtering contig file using Bowtie2 v.2.5.1 [79] and assembled with SPAdes v.3.13.1. Further assembly error correction and polishing were performed using Pilon v1.24 [80]. Termini could not be predicted using PhageTerm [81]; however, the genome was found to be circularly permuted using apc.pl (https://github.com/jfass/apc, accessed on 6 October 2023), and the repeated sequence artifacts were removed. The phage genome was manually reordered to match the most closely related phage based on the method reported by Shen and Millard [82]. The full-genome sequence of the KP1LMA phage was compared to the phage genome sequences in GenBank using BLASTN (somewhat similar sequences) in the NCBI database, and the most closely related phages were identified. The completeness and contamination of the phage genome sequence were tested using CheckV v1.0.1 [83]. The phage genome was annotated for coding DNA sequences (CDS), tRNA, tmRNA, CRISPRs, virulence factors (VFs), toxins, and antimicrobial resistance genes (ARGs) using Pharokka v1.3.2 [84], and the CDS were assigned to functional categories using PHROGs [85].
+
+4.6. Phage Host Range and Efficiency of Plating
+
+The phage host range was assessed through spot-testing according to [72] for the bacterial strains in Table 1. Briefly, molten-top 0.6% agar was inoculated with 300 µL of fresh exponential bacteria culture, poured over a TSA plate, and allowed to dry. Subsequently, 50 to 100 µL of phage stock was spotted over the bacterial lawn and plates were incubated at 37 °C for 16 to 18 h before observation. A clear lysis zone on the area where the phage had been spotted would indicate sensitivity to the phage. Bacterial sensitivity to phage infection was recorded according to a clear lysis zone (x) or absence of lysis zone (-) (Table 1). Additionally, phage plaques formed on different bacterial strains were used for isolation and cross-infection against the original K. pneumoniae host bacterium in order to prove that the infection is caused by the K. pneumoniae phage and not by any temperate phages eventually presented in the genome of these other bacteria.
+
+4.7. Adsorption Curve
+
+The phage adsorption curve was determined according to [47,72]. Briefly, phages (103 PFU/mL) were added to a mid-exponential bacterial culture (cell density of about 106 CFU/mL) at 37 °C in TSB. Every 10 min, an aliquot was collected, a few drops of chloroform were added, and the sample was centrifuged at 10,000× g for 5 min at 4 °C. The number of unadsorbed phage particles was determined by plating the sample using the double-agar-layer technique [72]. The percentage of adsorbed phages was calculated by comparing the free phage titer at a given point with the initial phage titer. Three independent assays were performed. The adsorption constant was calculated according to [86] using the following formula:k=−1Bt×ln⁡PP0
+
+P—concentration of free phage per mL, P0—initial concentration of phage, B—initial concentration of bacteria, k—adsorption rate constant (mL/min), t—time (min).
+
+4.8. One-Step Growth Assay
+
+Phage suspension (final concentration of 106 PFU/mL) was added to 10 mL of fresh bacterial culture of K. pneumoniae (with a final concentration of 109 PFU/mL) to obtain a final MOI of 0.001 and incubated for 5 min at 37 °C without shaking. The suspension was then centrifuged at 10,000× g for 5 min, the supernatant was discarded, and the pellet was resuspended in 10 mL of TSB and incubated at 37 °C according to the method of Hyman and Abedon [47]. A 1 mL sample was collected and immediately titered using the double-agar-layer technique. Plates were incubated at 25 °C and observed after 18 h. Samples were collected every 20 min for 140 min, and three independent assays were performed.
+
+4.9. Bacterial Kill Curve in TSB Culture Media
+
+To characterize the bacterial kill curves, 30 mL of sterile TSB was inoculated with the strain K. pneumoniae Scc 24, which was then challenged with phage KP1LMA at MOIs of 1 and 10 (final concentration 105 and 106 PFU/mL, respectively). Two controls were included in this assay: the bacterial control (BC) and the phage control (PC). The bacterial control was inoculated with K. pneumoniae but not with phage, and the phage control was inoculated only with phage. Controls and test samples were kept in the same conditions (37 °C and no agitation). Aliquots were collected from all controls and samples at 0, 3, 6, 9, 12, and 24 h of incubation. Phage titer was determined in duplicate by the double agar layer [72] after an incubation period of 16–18 h at 37 °C. Bacterial concentration was determined in duplicate in the TSA medium after an incubation period of 24 h at 37 °C. Three independent assays were performed for each MOI.
+
+4.10. Bacterial Kill Curve in Urine Samples
+
+4.10.1. Urine Sample Collection and Handling
+
+According to the method of Pereira and coworkers [60], early urine samples were collected using a post-hygiene, midstream clean-catch technique. After performing daily hygiene, the micturition middle stream was collected directly into sterile containers after discarding the initial portion. The end portions were also discarded. The samples were immediately transported to the laboratory, centrifuged at 10,000× g for 10 min and filtered through a 0.22 µm pore size (Merck-Millipore, Darmstadt, Germany) into sterile containers to remove bacteria eventually present in the urine samples. The urine samples were always collected from the same person at the same hours.
+
+4.10.2. Bacterial Kill Curves in Urine
+
+The efficacy of the phage KP1LMA in controlling K. pneumoniae was assessed in the sterile urine for an MOI of 10 to evaluate the possible application of this phage during a UTI. An Erlenmeyer flask containing 30 mL of sterile urine was inoculated with bacteria (final concentration of 105 CFU/mL) and phage (final concentration of 106 PFU/mL). Two other flasks were included as control groups. The phage control group was only inoculated with phage (PC), and the bacteria control group was only inoculated with bacteria without the phage (BC). The flasks were incubated at 37 °C with no agitation, and aliquots were collected after 0, 3, 6, 9, 12 and 24 h. Bacterial concentration was determined, in duplicate, in the TSA plate after an incubation period of 24 h. In duplicate, the double-agar-layer method [72] determined phage titer after an incubation period of 24 h at 37 °C. Three independent assays were performed.
+
+4.11. Rate of Emergence of Phage-Resistant Bacterial Mutants
+
+The emergence rate of phage-resistant bacterial mutants was determined according to the method of Filippov et al., 2011. Ten phage-sensitive colonies were isolated from a TSA plate and incubated at 37 °C in test tubes containing 5 mL of TSB medium for 24 h (final concentration of about 109 CFU/mL). Each bacterial culture was serially diluted, and aliquots of 100 µL from the 100 to 10−2 dilutions were transferred to molten-top TSB 0.6% agar previously inoculated with 100 µL of phage (from a phage stock with a final titer of about 109 PFU/mL) and poured over a TSA plate. The plates were incubated at 37 °C for 3–5 days as some mutants grow slowly. In parallel, an aliquot of 100 µL of the 10−5 to 10−7 dilutions was incorporated on TSA plates without the addition of phage and incubated for 24 h at 37 °C. The frequency of spontaneous phage-resistant mutation was calculated by dividing the number of resistant bacteria (colonies counted in the presence of phage) by the total number of sensitive bacteria (CFU counted in the plates without phage) and multiplied by 100. For this assay, three independent experiments were performed.
+
+4.12. Statistical Analysis
+
+Statistical analysis was performed using GraphPad Prism software 8.4.3 (San Diego, CA, USA). Normal distribution of the data was assessed by the Kolmogorov–Smirnov test and the homogeneity of variance was confirmed by Levene’s test. A two-way ANOVA with repeated measures and Tukey’s multiple comparisons post hoc test were used to study the significance of bacterial and viral concentrations between treatments and during the experiments. A p-value below 0.05 was considered statistically significant.
+
+5. Conclusions
+
+The results indicate that phage KP1LMA could potentially control a UTI caused by this strain of K. pneumoniae, suggesting that the same procedure can be used to control UTIs caused by other strains if new phages specific to those strains are isolated. Phage KP1LMA is an effective and safe phage that can control carbapenemase strain-producing K. pneumoniae in culture medium and urine and does not suffer inactivation at low pH. Although phage KP1LMA is highly specific, in the future, efforts can be made to expand its spectrum of activity and to combine this phage with others in cocktails, potentially enabling its use against other K. pneumoniae strains involved in UTIs.
+
+Acknowledgments
+
+To the authors thank the Department of Biology and the University of Aveiro, where this research was carried out. The authors are also grateful to CESAM and its funding sources. João Duarte and Pedro Costa thank the Portuguese Foundation for Science and Technology (FCT) for their doctoral grant (2021.05519.BD and PD/BD/150360/2019, respectively). Carla Pereira acknowledges the FCT for their Junior Research contract (DOI:10.54499/CEECIND/03974/2017/CP1459/CT0022). Vanessa Oliveira was funded by National funds (OE) through FCT, IP. within the scope of the contract framework outlined in Sections 4, 5, and 6 of Article 23 of the Decree/Law 57/2016 of August 29, changed by Law 57/2017 of July 19 (DOI 10.54499/DL57/2016/CP1482/CT0109).
+
+Supplementary Materials
+
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/antibiotics13020195/s1. Table S1. Coding sequences identified in KP1LMA phage. Table S2. Number of CDSs assigned to functional categories using pharokka. Figure S1. Plaques formed on E. coli ATCC 13706 (A) were completely clear, whereas plaques formed on the original host (B) presented a turbid characteristic and were smaller.
+
+Author Contributions
+
+J.D., C.M. and P.C. performed the experiments. J.D., C.M., P.C., J.L.R., C.P. and A.A. participated in the conception and design of the experiments, J.D., C.P., V.O., N.C.M.G., J.L.R., C.P. and A.A. participated in analyzing the results, J.D. and C.P. wrote the paper, and P.C., V.O. and N.C.M.G. also contributed to the writing. J.L.R. and A.A. supervised the work, revised the paper, and contributed with reagents and analysis tools. All authors have read and agreed to the published version of the manuscript.
+
+Institutional Review Board Statement
+
+Not applicable.
+
+Informed Consent Statement
+
+Not applicable.
+
+Data Availability Statement
+
+Data are contained within the article and supplementary materials.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+Figure 1 Phage plaque morphology (A) and electron micrograph photography (B).
+
+Figure 2 The genome map of phage KP1LMA. The outer circle with arrow-headed bands represents the coding DNA sequences (CDS) color coded according to the functional category of the predicted gene in the direction of the transcription. The innermost ring represents the genome GC skew (green/pink) followed by GC content (black/grey). The labels show the predicted functions of the functional CDSs, color-coded by the PHROGs category (Supplementary Table S1).
+
+Figure 3 Adsorption curves of phages KP1LMA in the presence of K. pneumoniae as the host. Values represent the mean of three independent experiments, and error bars represent the standard deviation.
+
+Figure 4 One-step growth curve of phage KP1LMA in the presence of the host, K. pneumoniae. Values represent the mean of three independent experiments, and error bars represent the standard deviation.
+
+Figure 5 Inactivation of K. pneumoniae using phage KP1LMA at two different MOIs. (A) Bacterial concentrations: BC—bacterial control; BP MOI 1—bacteria plus phage at an MOI of 1; BP MOI 10—bacteria plus phage at an MOI of 10. (B) Phage concentration: PC MOI 1—phage control at an MOI of 1; PC MOI 10: phage control at an MOI of 10; PB MOI 1—phage and bacteria at an MOI of 1; PB MOI 10—phage and bacteria at an MOI of 10. The experiments were performed in TSB at 37 °C, and values represent the mean of three independent experiments. Error bars represent the standard deviation.
+
+Figure 6 Inactivation of K. pneumoniae in sterile urine by phage KP1LMA using an MOI of 10. (A): bacterial concentrations; bacteria control—bacteria in the absence of phage; BP MOI 10—bacteria plus phage at an MOI of 10. (B): Phage concentration; PC MOI 10—phage control; PB MOI 10—phage in the presence of bacteria at a final MOI of 10. Values represent the mean of three independent experiments. Error bars represent the standard deviation.
+
+antibiotics-13-00195-t001_Table 1 Table 1 Phage host range and efficiency of plating on 52 different bacterial strains.
+
+Bacterial Strains	Phage KP1LMA	
+Spot Test	EOP (%)	
+Klebsiella pneumoniae Scc 24	+	100	
+Klebsiella pneumoniae Scc 1	−	0	
+Klebsiella pneumoniae Scc 5	−	0	
+Klebsiella pneumoniae Scc 11	−	0	
+Klebsiella pneumoniae Scc 15	−	0	
+Klebsiella pneumoniae Scc 17	−	0	
+Escherichia coli ATCC 13706	+	32.98 ± 2.85	
+Escherichia coli ATCC 25922	−	0	
+Escherichia coli Scc 9	−	0	
+Escherichia coli Scc 33	−	0	
+Escherichia coli Scc 34	−	0	
+Escherichia coli Scc 35	−	0	
+Escherichia coli Scc 36	−	0	
+Escherichia coli Scc 37	−	0	
+Escherichia coli Scc 39	−	0	
+Escherichia coli Scc 40	−	0	
+Escherichia coli Scc 41	−	0	
+Escherichia coli Scc 43	−	0	
+Escherichia coli Scc 45	−	0	
+Escherichia coli Scc 47	−	0	
+Escherichia coli Scc 48	−	0	
+Escherichia coli Scc 49	−	0	
+Escherichia coli Scc 51	−	0	
+Escherichia coli Scc 52	−	0	
+Escherichia coli Scc 53	−	0	
+Escherichia coli Scc 55	−	0	
+Escherichia coli Scc 56	−	0	
+Escherichia coli Scc 58	−	0	
+Escherichia coli Scc 69	−	0	
+Escherichia coli Scc 77	−	0	
+Escherichia coli Scc 78	−	0	
+Escherichia coli Scc 91	−	0	
+Escherichia coli Scc 98	−	0	
+Escherichia coli BC30	−	0	
+Escherichia coli AE11	−	0	
+Escherichia coli AD6	−	0	
+Escherichia coli AF15	−	0	
+Escherichia coli AN19	−	0	
+Escherichia coli AC5	−	0	
+Escherichia coli AJ23	−	0	
+Escherichia coli BN65	−	0	
+Escherichia coli BM62	−	0	
+Citrobacter freundii 6F	−	0	
+Enterobacter cloacae	−	0	
+Providencia sp.	−	0	
+Salmonella enterica serovar Enteriditis CVA	−	0	
+Salmonella enterica serovar Enteriditis CVB	−	0	
+Salmonella enterica serovar Enteriditis CVC	−	0	
+Salmonella enterica serovar Enteriditis CVD	−	0	
+Salmonella enterica serovar Enteriditis CVE	−	0	
+Salmonella enterica serovar Typhimurium ATCC 14028	−	0	
+Salmonella enterica serovar Typhimurium ATCC 13311	−	0	
+Shigella flexneri DSM 4782	−	0	
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
+References
+
+1. World Health Organization Prioritization of Pathogens to Guide Discovery, Research and Development of New Antibiotics for Drug-Resistant Bacterial Infections, Including Tuberculosis World Health Organization Geneva, Switzerland 2017 Volume 13
+2. Lee Y.-L. Ko W.-C. Hsueh P.-R. Geographic patterns of global isolates of carbapenem-resistant Klebsiella pneumoniae and the activity of ceftazidime/avibactam, meropenem/vaborbactam, and comparators against these isolates: Results from the antimicrobial testing leadership and surveillan Int. J. Antimicrob. Agents 2022 60 106679 10.1016/j.ijantimicag.2022.106679 36241011
+3. Gorrie C.L. Mirčeta M. Wick R.R. Judd L.M. Lam M.M.C. Gomi R. Abbott I.J. Thomson N.R. Strugnell R.A. Pratt N.F. Genomic dissection of Klebsiella pneumoniae infections in hospital patients reveals insights into an opportunistic pathogen Nat. Commun. 2022 13 3017 10.1038/s41467-022-30717-6 35641522 PMC9156735
+4. European Center for Disease Prevention and Control World Health Organization Annual Epidemiological Report for 2019: Healthcare—Associated Infections Acquired in Intensive Care Units World Health Organization Stockholm, Sweden 2023
+5. Karampatakis T. Tsergouli K. Behzadi P. Carbapenem-resistant Klebsiella pneumoniae: Virulence factors, molecular epidemiology and latest updates in treatment options Antibiotics 2023 12 234 10.3390/antibiotics12020234 36830145 PMC9952820
+6. Guerra M.E.S. Destro G. Vieira B. Lima A.S. Ferraz L.F.C. Hakansson A.P. Darrieux M. Converso T.R. Klebsiella pneumoniae biofilms and their role in disease pathogenesis Front. Cell. Infect. Microbiol. 2022 12 877995 10.3389/fcimb.2022.877995 35646720 PMC9132050
+7. European Center for Disease Prevention and Control and World Health Organization Antimicrobial Resistance Surveillance in Europe World Health Organization Stockholm, Sweden 2023
+8. Abbo L. Hooton T. Antimicrobial stewardship and urinary tract infections Antibiotics 2014 3 174 192 10.3390/antibiotics3020174 27025743 PMC4790395
+9. Loc-Carrillo C. Abedon S.T. Pros and cons of phage therapy Bacteriophage 2011 1 111 114 10.4161/bact.1.2.14590 22334867 PMC3278648
+10. Liu C. Hong Q. Chang R.Y.K. Kwok P.C.L. Chan H.-K. Phage–antibiotic therapy as a promising strategy to combat multidrug-resistant infections and to enhance antimicrobial efficiency Antibiotics 2022 11 570 10.3390/antibiotics11050570 35625214 PMC9137994
+11. Rehman S. Ali Z. Khan M. Bostan N. Naseem S. The dawn of phage therapy Rev. Med. Virol. 2019 29 e2041 10.1002/rmv.2041 31050070
+12. Tandogdu Z. Cai T. Koves B. Wagenlehner F. Bjerklund-Johansen T.E. Urinary tract infections in immunocompromised patients with diabetes, chronic kidney disease, and kidney transplant Eur. Urol. Focus 2016 2 394 399 10.1016/j.euf.2016.08.006 28723471
+13. European Center for Disease Prevention and Control Annual Epidemiological Report for 2018: Healthcare- Associated Infections Acquired in Intensive Care Units World Health Organization Geneva, Switzerland 2018
+14. Al-Anany A.M. Hooey P.B. Cook J.D. Burrows L.L. Martyniuk J. Hynes A.P. German G.J. Phage therapy in the management of urinary tract infections: A comprehensive systematic review Phage 2023 4 112 127 10.1089/phage.2023.0024 37771568 PMC10523411
+15. Sybesma W. Zbinden R. Chanishvili N. Kutateladze M. Chkhotua A. Ujmajuridze A. Mehnert U. Kessler T.M. Bacteriophages as Potential treatment for urinary yract infections Front. Microbiol. 2016 7 465 10.3389/fmicb.2016.00465 27148173 PMC4826877
+16. Ujmajuridze A. Chanishvili N. Goderdzishvili M. Leitner L. Mehnert U. Chkhotua A. Kessler T.M. Sybesma W. Adapted Bbacteriophages for treating urinary tract infections Front. Microbiol. 2018 9 1832 10.3389/fmicb.2018.01832 30131795 PMC6090023
+17. Le T. Nang S.C. Zhao J. Yu H.H. Li J. Gill J.J. Liu M. Aslam S. Therapeutic potential of intravenous phage as standalone therapy for recurrent drug-resistant urinary tract infections Antimicrob. Agents Chemother. 2023 67 e0003723 10.1128/aac.00037-23 36975787 PMC10112157
+18. Laforêt F. Antoine C. Blasdel Reuter B. Detilleux J. Pirnay J.-P. Brisse S. Fall A. Duprez J.-N. Delcenserie V. Thiry D. In vitro and in vivo assessments of two newly isolated bacteriophages against an ST13 urinary tract infection Klebsiella pneumoniae Viruses 2022 14 1079 10.3390/v14051079 35632820 PMC9144312
+19. Zurabov F. Glazunov E. Kochetova T. Uskevich V. Popova V. Bacteriophages with depolymerase activity in the control of antibiotic resistant Klebsiella pneumoniae biofilms Sci. Rep. 2023 13 15188 10.1038/s41598-023-42505-3 37704798 PMC10499987
+20. Lin J. Du F. Long M. Li P. Limitations of phage therapy and corresponding optimization strategies: A review Molecules 2022 27 1857 10.3390/molecules27061857 35335222 PMC8951143
+21. Patient S. Zhang B. Comparison of two distinct subpopulations of Klebsiella pneumoniae ST16 co-occurring in a single patient Microbiol. Spectr. 2022 10 e0262421 35467408 10.1128/spectrum.02624-21 PMC9241866
+22. Cai R. Wang Z. Wang G. Zhang H. Cheng M. Guo Z. Ji Y. Xi H. Wang X. Xue Y. Biological properties and genomics analysis of vB_KpnS_GH-K3, a Klebsiella phage with a putative depolymerase-like protein Virus Genes 2019 55 696 706 10.1007/s11262-019-01681-z 31254238
+23. Majkowska-Skrobek G. Latka A. Berisio R. Squeglia F. Maciejewska B. Briers Y. Drulis-Kawa Z. Phage-borne depolymerases decrease Klebsiella pneumoniae resistance to innate defense mechanisms Front. Microbiol. 2018 9 2517 10.3389/fmicb.2018.02517 30405575 PMC6205948
+24. Obradović M. Malešević M. Di Luca M. Kekić D. Gajić I. McAuliffe O. Neve H. Stanisavljević N. Vukotić G. Kojić M. Isolation, characterization, genome analysis and host resistance development of two novel lastavirus phages active against pandrug-resistant Klebsiella pneumoniae Viruses 2023 15 628 10.3390/v15030628 36992337 PMC10052179
+25. Kortright K.E. Chan B.K. Koff J.L. Turner P.E. Phage Therapy: A Renewed approach to combat antibiotic-resistant bacteria Cell Host Microbe 2019 25 219 232 10.1016/j.chom.2019.01.014 30763536
+26. Abedon S.T. Danis-Wlodarczyk K.M. Alves D.R. Phage therapy in the 21st century: Is there modern, clinical evidence of phage-mediated efficacy? Pharmaceuticals 2021 14 1 25 10.3390/ph14111157 PMC8625828 34832939
+27. Suh G.A. Lodise T.P. Tamma P.D. Knisely J.M. Alexander J. Aslam S. Barton K.D. Bizzell E. Totten K.M.C. Campbell J.L. Considerations for the use of phage therapy in clinical practice Antimicrob. Agents Chemother. 2022 66 e0207121 10.1128/aac.02071-21 35041506 PMC8923208
+28. Herridge W.P. Shibu P. O’Shea J. Brook T.C. Hoyles L. Bacteriophages of Klebsiella spp., their diversity and potential therapeutic uses J. Med. Microbiol. 2020 69 176 194 10.1099/jmm.0.001141 31976857 PMC7431098
+29. Mullan M. Factors affecting plaque formation by bacteriophages Dairy Sci. 2002 5 1 12 10.1016/j.egypro.2016.11.209
+30. Abedon S.T. Yin J. Bacteriophage plaques: Theory and analysis Bacteriophages Methods in Molecular Biology Humana Press Totowa, NJ, USA 2009 Volume 501 161 174 9781603271646 10.1007/978-1-60327-164-6_17 19066821
+31. Yoo S. Lee K.-M. Kim N. Vu T.N. Abadie R. Yong D. Designing phage cocktails to combat the emergence of bacteriophage-resistant mutants in multidrug-resistant Klebsiella pneumoniae Microbiol. Spectr. 2024 12 e0125823 10.1128/spectrum.01258-23 38018985 PMC10783003
+32. Shah M. Bukhari S. Redaina Adnan M. Imran M. Jamal M. Isolation and characterization of lytic bacteriophage from waste water to control clinical multidrug resistant Klebsiella pneumoniae Kuwait J. Sci. 2023 50 681 689 10.1016/j.kjs.2023.01.012
+33. Townsend E.M. Kelly L. Gannon L. Muscatt G. Dunstan R. Michniewski S. Sapkota H. Kiljunen S.J. Kolsi A. Skurnik M. Isolation and characterization of Klebsiella phages for phage therapy Phage 2021 2 26 42 10.1089/phage.2020.0046 33796863 PMC8006926
+34. Bai J. Zhang F. Liang S. Chen Q. Wang W. Wang Y. Mart A.J. Isolation and characterization of vB _ kpnM _ 17-11, a novel phage efficcient against carbapenem- resistant Klebsiella pneumoniae Front. Cell. Infect. Microbiol. 2022 12 897531 10.3389/fcimb.2022.897531 35865823 PMC9294173
+35. Labrie S.J. Samson J.E. Moineau S. Bacteriophage resistance mechanisms Nat. Rev. Microbiol. 2010 8 317 327 10.1038/nrmicro2315 20348932
+36. Burrowes B. Molineux I. Fralick J. Directed in vitro evolution of therapeutic bacteriophages: The appelmans protocol Viruses 2019 11 241 10.3390/v11030241 30862096 PMC6466182
+37. Eskenazi A. Lood C. Wubbolts J. Hites M. Balarjishvili N. Leshkasheli L. Askilashvili L. Kvachadze L. van Noort V. Wagemans J. Combination of pre-adapted bacteriophage therapy and antibiotics for treatment of fracture-related infection due to pandrug-resistant Klebsiella pneumoniae Nat. Commun. 2022 13 302 10.1038/s41467-021-27656-z 35042848 PMC8766457
+38. Li N. Zeng Y. Bao R. Zhu T. Tan D. Hu B. Isolation and characterization of novel phages targeting pathogenic Klebsiella pneumoniae Front. Cell. Infect. Microbiol. 2021 11 792305 10.3389/fcimb.2021.792305 34926329 PMC8677704
+39. Mapes A.C. Trautner B.W. Liao K.S. Ramig R.F. Development of expanded host range phage active on biofilms of multi-drug resistant Pseudomonas aeruginosa Bacteriophage 2016 6 e1096995 10.1080/21597081.2015.1096995 27144083 PMC4836484
+40. Subramanian S. Dover J.A. Parent K.N. Doore S.M. Host range expansion of Shigella phage Sf6 evolves through point mutations in the tailspike J. Virol. 2022 96 e00929-22 10.1128/jvi.00929-22 35894604 PMC9400499
+41. Lindberg H. McKean K. Wang I. Phage fitness may help predict phage therapy efficacy Bacteriophage 2014 4 e964081 10.4161/21597073.2014.964081 26713221 PMC4589996
+42. Baqer A. Fang K. Mohd-Assaad N. Adnan S. Nor N. In vitro activity, stability and molecular characterization of eight potent bacteriophages infecting carbapenem-resistant Klebsiella pneumoniae Viruse 2023 15 117 10.3390/v15010117 PMC9860934 36680156
+43. Chen C. Li T. Chen H. Isolation and characterization of novel bacteriophage vB_KpP_HS106 for Klebsiella pneumoniae K2 and applications in foods Front. Microbiol. 2023 14 1227147 10.3389/fmicb.2023.1227147 37655345 PMC10466807
+44. Balcão V.M. Moreli F.C. Silva E.C. Belline B.G. Martins L.F. Rossi F.P.N. Pereira C. Vila M.M.D.C. da Silva A.M. Isolation and molecular characterization of a novel lytic bacteriophage that inactivates MDR Klebsiella pneumoniae strains Pharmaceutics 2022 14 1421 10.3390/pharmaceutics14071421 35890314 PMC9324672
+45. Asghar S. Ahmed A. Khan S. Lail A. Shakeel M. Genomic characterization of lytic bacteriophages A¥L and A¥M infecting ESBL K. pneumoniae and its therapeutic potential on biofilm dispersal and in-vivo bacterial clearance Microbiol. Res. 2022 262 127104 10.1016/j.micres.2022.127104 35797946
+46. Høyland-Kroghsbo N.M. Mærkedahl R.B. Svenningsen S.L. A Quorum-sensing-induced bacteriophage defense mechanism MBio 2013 4 e00362-12 10.1128/mBio.00362-12 23422409 PMC3624510
+47. Hyman P. Abedon S.T. Practical methods for determining phage growth parameters Bacteriophages: Methods in Molecular Biology Humana Press Totowa, NJ, USA 2009 175 202 9781603271646 10.1007/978-1-60327-164-6_18 19066822
+48. Liang Z. Shi Y.-L. Peng Y. Xu C. Zhang C. Chen Y. Luo X.-Q. Li Q.-M. Zhao C.-L. Lei J. BL02, a phage against carbapenem- and polymyxin-B resistant Klebsiella pneumoniae, isolated from sewage: A preclinical study Virus Res. 2023 331 199126 10.1016/j.virusres.2023.199126 37105436 PMC10345742
+49. Kondo K. Nakano S. Hisatsune J. Sugawara Y. Kataoka M. Kayama S. Sugai M. Kawano M. Characterization of 29 newly isolated bacteriophages as a potential therapeutic agent against IMP-6-producing Klebsiella pneumoniae from clinical specimens Microbiol. Spectr. 2023 11 e04761-22 10.1128/spectrum.04761-22 37724861 PMC10581060
+50. Abedon S.T. Selection for lysis inhibition in bacteriophage J. Theor. Biol. 1990 146 501 511 10.1016/S0022-5193(05)80375-3 2273898
+51. Gallet R. Shao Y. Wang I.-N. High adsorption rate is detrimental to bacteriophage fitness in a biofilm-like environment BMC Evol. Biol. 2009 9 241 10.1186/1471-2148-9-241 19804637 PMC2762979
+52. Choi C. Kuatsjah E. Wu E. Yuan S. The effect of cell size on the burst size of T4 bacteriophage infections of Escherichia coli B23 J. Exp. Microbiol. Immunol. 2010 14 85 91
+53. Droubogiannis S. Katharios P. Genomic and biological profile of a novel bacteriophage, Vibrio phage virtus, which improves survival of Sparus aurata larvae challenged with Vibrio harveyi Pathogens 2022 11 630 10.3390/pathogens11060630 35745484 PMC9229204
+54. Abedon S.T. Herschler T.D. Stopar D. Bacteriophage latent-period evolution as a response to resource availability Appl. Environ. Microbiol. 2001 67 4233 4241 10.1128/AEM.67.9.4233-4241.2001 11526028 PMC93152
+55. Liao Y.-T. Zhang Y. Salvador A. Harden L.A. Wu V.C.H. Characterization of a T4-like bacteriophage vB_EcoM-Sa45lw as a potential biocontrol agent for Shiga toxin-producing Escherichia coli O45 contaminated on mung bean seeds Microbiol. Spectr. 2022 10 e02220-21 10.1128/spectrum.02220-21 35107386 PMC8809338
+56. Pekkle Lam H.Y. Lai M.-J. Wu W.-J. Chin Y.-H. Chao H.-J. Chen L.-K. Peng S.-Y. Chang K.-C. Isolation and characterization of bacteriophages with activities against multi-drug-resistant Acinetobacter nosocomialis causing bloodstream infection in vivo J. Microbiol. Immunol. Infect. 2023 56 1026 1035 10.1016/j.jmii.2023.07.012 37586915
+57. Silva Y.J. Costa L. Pereira C. Cunha Â. Calado R. Gomes N.C.M. Almeida A. Influence of environmental variables in the efficiency of phage therapy in aquaculture Microb. Biotechnol. 2014 7 401 413 10.1111/1751-7915.12090 24841213 PMC4229321
+58. Nakai T. Sugimoto R. Park K.H. Matsuoka S. Mori K. Nishioka T. Maruyama K. Protective effects of bacteriophage on experimental Lactococcus garvieae infection in yellowtail Dis. Aquat. Organ. 1999 37 33 41 10.3354/dao037033 10439901
+59. Pereira C. Duarte J. Costa P. Braz M. Almeida A. Bacteriophages in the control of Aeromonas sp. in aquaculture systems: An integrative view Antibiotics 2022 11 163 10.3390/antibiotics11020163 35203766 PMC8868336
+60. Pereira S. Pereira C. Santos L. Klumpp J. Almeida A. Potential of phage cocktails in the inactivation of Enterobacter cloacae—An in vitro study in a buffer solution and in urine samples Virus Res. 2016 211 199 208 10.1016/j.virusres.2015.10.025 26541317
+61. Zulk J.J. Clark J.R. Ottinger S. Ballard M.B. Mejia M.E. Mercado-Evans V. Heckmann E.R. Sanchez B.C. Trautner B.W. Maresso A.W. Phage resistance accompanies reduced fitness of uropathogenic Escherichia coli in the urinary environment mSphere 2022 7 e0034522 10.1128/msphere.00345-22 35920561 PMC9429881
+62. Rios A. Moutinho C. Pinto F. Del Fiol F. Jozala A. Chaud M. Vila M. Teixeira J. Balcão V. Alternatives to overcoming bacterial resistances: State-of-the-art Microbiol. Res. 2016 191 51 80 10.1016/j.micres.2016.04.008 27524653
+63. Lima R. Del Fiol F.S. Balcão V.M. Prospects for the use of new technologies to combat multidrug-resistant bacteria Front. Pharmacol. 2019 10 692 10.3389/fphar.2019.00692 31293420 PMC6598392
+64. Filippov A. Sergueev K.V. He Y. Huang X.Z. Gnade B.T. Mueller A.J. Fernandez-Prada C. Nikolich M.P. Bacteriophage-resistant mutants in Yersinia pestis: Identification of phage receptors and attenuation for mice PLoS ONE 2011 6 e25486 10.1371/journal.pone.0025486 21980477 PMC3182234
+65. Pereira C. Moreirinha C. Lewicka M. Almeidab P. Clemente C. Romalde J.L. Nunes M.L. Almeida A. Characterization and in vitro evaluation of new bacteriophages for the biocontrol of Escherichia coli Virus Res. 2016 227 171 182 10.1016/j.virusres.2016.09.019 27756632
+66. Wright R.C. Friman V.-P. Smith M.C.M. Brockhurst M.A. Cross-resistance is modular in bacteria–phage interactions PLoS Biol. 2018 16 e2006057 10.1371/journal.pbio.2006057 30281587 PMC6188897
+67. Pinheiro L. Pereira C. Frazão C. Balcão V. Almeida A. Efficiency of phage φ6 for biocontrol of Pseudomonas syringae pv. syringae: An in vitro preliminary study Microorganisms 2019 7 1319 1330 10.3390/microorganisms7090286 PMC6780397 31450735
+68. Duarte J. Pereira C. Costa P. Almeida A. Bacteriophages with potential to inactivate Aeromonas hydrophila in cockles: In vitro and in vivo preliminary studies Antibiotics 2021 10 710 10.3390/antibiotics10060710 34204770 PMC8231581
+69. Culot A. Grosset N. Gautier M. Overcoming the challenges of phage therapy for industrial aquaculture: A review Aquaculture 2019 513 734423 10.1016/j.aquaculture.2019.734423
+70. Silva I. Tacão M. Tavares R.D.S. Miranda R. Araújo S. Manaia C.M. Henriques I. Fate of cefotaxime-resistant Enterobacteriaceae and ESBL-producers over a full-scale wastewater treatment process with UV disinfection Sci. Total Environ. 2018 639 1028 1037 10.1016/j.scitotenv.2018.05.229 29929272
+71. Pereira C. Moreirinha C. Lewicka M. Almeida P. Clemente C. Cunha Â. Delgadillo I. Romalde J. Nunes M.L. Almeida A. Bacteriophages with potential to inactivate Salmonella Typhimurium: Use of single phage suspensions and phage cocktails Virus Res. 2016 220 179 192 10.1016/j.virusres.2016.04.020 27126773
+72. Adams M.H. Bacteriophages John Wiley and Sons Inc. New York, NY, USA 1959
+73. Jakočiūnė D. Moodley A. A Rapid bacteriophage DNA extraction method Methods Protoc. 2018 1 27 10.3390/mps1030027 31164569 PMC6481073
+74. Sambrook J. Russel D.W. Molecular Cloning: A Laboratory Manual Cold Spring Harbor Laboratory Press Cold Spring Harbor, NY, USA 2001 9780879695774
+75. Bolger A.M. Lohse M. Usadel B. Trimmomatic: A flexible trimmer for Illumina sequence data Bioinformatics 2014 30 2114 2120 10.1093/bioinformatics/btu170 24695404 PMC4103590
+76. Bankevich A. Nurk S. Antipov D. Gurevich A.A. Dvorkin M. Kulikov A.S. Lesin V.M. Nikolenko S.I. Pham S. Prjibelski A.D. SPAdes: A new genome assembly algorithm and its applications to single-cell sequencing J. Comput. Biol. 2012 19 455 477 10.1089/cmb.2012.0021 22506599 PMC3342519
+77. Wick R.R. Schultz M.B. Zobel J. Holt K.E. Bandage: Interactive visualization of de novo genome assemblies Bioinformatics 2015 31 3350 3352 10.1093/bioinformatics/btv383 26099265 PMC4595904
+78. Bushnell B. Rood J. Singer E. BBMerge—Accurate paired shotgun read merging via overlap PLoS ONE 2017 12 e0185056 10.1371/journal.pone.0185056 29073143 PMC5657622
+79. Langmead B. Salzberg S.L. Fast gapped-read alignment with Bowtie 2 Nat. Methods 2012 9 357 359 10.1038/nmeth.1923 22388286 PMC3322381
+80. Walker B.J. Abeel T. Shea T. Priest M. Abouelliel A. Sakthikumar S. Cuomo C.A. Zeng Q. Wortman J. Young S.K. Pilon: An integrated tool for comprehensive microbial variant detection and genome assembly improvement PLoS ONE 2014 9 e112963 10.1371/journal.pone.0112963 25409509 PMC4237348
+81. Garneau J.R. Depardieu F. Fortier L.C. Bikard D. Monot M. PhageTerm: A tool for fast and accurate determination of phage termini and packaging mechanism using next-generation sequencing data Sci. Rep. 2017 7 8292 10.1038/s41598-017-07910-5 28811656 PMC5557969
+82. Shen A. Millard A. Phage genome annotation: Where to begin and end Phage 2021 2 183 193 10.1089/phage.2021.0015 36159890 PMC9041514
+83. Nayfach S. Camargo A.P. Schulz F. Eloe-Fadrosh E. Roux S. Kyrpides N.C. CheckV assesses the quality and completeness of metagenome-assembled viral genomes Nat. Biotechnol. 2021 39 578 585 10.1038/s41587-020-00774-7 33349699 PMC8116208
+84. Bouras G. Nepal R. Houtak G. Psaltis A.J. Wormald P.J. Vreugde S. Pharokka: A fast scalable bacteriophage annotation tool Bioinformatics 2023 39 btac776 10.1093/bioinformatics/btac776 36453861 PMC9805569
+85. Terzian P. Ndela E.O. Galiez C. Lossouarn J. Bucio R.E.P. Mom R. Toussaint A. Petit M.-A. Enault F. PHROG: Families of prokaryotic virus proteins clustered using remote homology NAR Genom. Bioinform. 2021 3 lqab067 10.1093/nargab/lqab067 34377978 PMC8341000
+86. Zurabov F. Zhilenkov E. Characterization of four virulent Klebsiella pneumoniae bacteriophages, and evaluation of their potential use in complex phage preparation Virol. J. 2021 18 9 10.1186/s12985-020-01485-w 33407669 PMC7789013

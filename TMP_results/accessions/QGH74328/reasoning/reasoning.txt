@@ -1,0 +1,26 @@
+=============Reasoning for QGH74328 from metadata=============
+Classification: mesophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'soil'. Soil environments are generally associated with mesophilic conditions.
+
+
+=============Reasoning for QGH74328 from accession literature=============
+=============Reasoning for QGH74328 from host literature=============
+Paper: 22433896.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions characterization was performed at 'different temperatures (37ºC and 28ºC)'. Since 37ºC and 28ºC both fall within the mesophilic range (15–45°C), and no other specific optimal temperature is given for the phage, the general classification based on the tested conditions is mesophile.
+
+
+=============Reasoning for QGH74328 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit temperature ranges for the phage.
+2. Check for environmental context: The isolation source is 'soil', and the geographical coordinates are provided (38.4496 N 78.8689 W). Soil environments are generally considered mesophilic, though they can vary widely.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context (soil) suggests moderate conditions, the most probable classification is mesophile. If the environmental context were weak, the fallback rule dictates assigning 'mesophile'.
+4. Conclusion: Assign mesophile based on the general nature of soil isolation and the fallback rule.
+
+

@@ -1,0 +1,33 @@
+=============Reasoning for QQV87800 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the isolation source as 'poultry feces' and the host as 'Campylobacter jejuni'. However, no specific temperature range or thermal condition (psychrophile, mesophile, thermophile) is explicitly stated or strongly implied by the provided text.
+
+
+=============Reasoning for QQV87800 from accession literature=============
+Paper: PMC13125106.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states incubation temperatures for various procedures involving the phages and bacteria. 
+1. Bacterial growth (for susceptibility testing): "...at 41.5°C overnight under microaerobic conditions..." (Section 2.1). 
+2. Phage propagation/titration: "The plates were incubated overnight at 42°C under microaerobic conditions." and "...incubated overnight at 42°C under microaerobic conditions." (Section 2.2). 
+3. Phage stability testing: "The thermal stability of the phages was evaluated over 120 h at 37°C and pH 7.5." (Section 2.3). 
+4. In vitro activity: "The plates were incubated overnight at 42°C under microaerobic conditions," and "Plates were incubated at 37°C under microaerobic conditions with gentle shaking (365 cpm)." (Section 2.4). 
+5. In vivo assays: "Larvae in Petri dishes were incubated at 37°C in the dark for 120 h" and "Larvae in Petri dishes were incubated at 37°C in the dark for 120 h" (Section 2.5). 
+Since the optimal/tested temperatures are 37°C, 41.5°C, and 42°C, these fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for QQV87800 from host literature=============
+=============Reasoning for QQV87800 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata provides the phage name ('Campylobacter phage CJLB-7'), its host ('Campylobacter jejuni'), and the isolation source ('poultry feces').
+2. **Check for Explicit Evidence:** There is no explicit mention of optimal growth temperature or thermal range.
+3. **Infer from Host/Source:** The host, *Campylobacter jejuni*, is a common human/animal pathogen often associated with gastrointestinal tracts, which typically operate within moderate temperatures. Furthermore, the isolation source, 'poultry feces', suggests an environmental niche that is generally mesophilic.
+4. **Apply Decision Rules:** Since no explicit evidence exists, inference is required. The most probable classification based on the host and source is mesophile (15–45°C).
+5. **Fallback:** As the inference is based on general biological knowledge rather than direct metadata evidence, and no other rule applies, the default/most probable classification is mesophile.
+
+
