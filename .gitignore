@@ -68,3 +68,7 @@ gromacs/**/*.gro
 gromacs/**/*.xvg
 gromacs/**/*.cpt
 gromacs/**/*.log
+
+# Keep analysis notebooks and scripts
+!gromacs/**/*.ipynb
+!gromacs/**/*.py
