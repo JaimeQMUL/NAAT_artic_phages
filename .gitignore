@@ -65,3 +65,12 @@ gromacs/**/results/
 # Keep analysis notebooks and scripts
 !gromacs/**/*.ipynb
 !gromacs/**/*.py
+
+# Failed boltz
+gromacs/gold_standards/predicted/boltz/7Z3M/7Z3M.pdb
+gromacs/gold_standards/predicted/boltz/9GBG/9GBG.pdb
+gromacs/gold_standards/predicted/boltz/uvsx/uvsx.pdb
+
+# Gromacs plots
+gromacs/gold_standards/predicted/alphafold/plots/
+gromacs/orthologs/predicted/alphafold/plots/
