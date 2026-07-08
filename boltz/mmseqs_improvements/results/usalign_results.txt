@@ -1,0 +1,78 @@
+===== P04529 =====
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: results/boltz_results_P04529_mmseqs/predictions/P04529_mmseqs/P04529_mmseqs_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb:A
+Length of Structure_1: 391 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 137, RMSD=   5.57, Seq_ID=n_identical/n_aligned= 0.343
+TM-score= 0.24302 (normalized by length of Structure_1: L=391, d0=7.15)
+TM-score= 0.32144 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MSD------L--K-----SRLIKASTSKLTAELTASKFFNEKDVVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQY--PDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVF----------------IDSLGNLASKKETEDALNEKVVSD----------------MT-RA-KTMKSLFRI-VTPYFSTKNIPCIAINHTYETQEMFSKTVMGGGTGPMYSADT--VFIIGKR--QIKDGSDLQGYQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLGAIDSNEIVEAEVDELINSKVEK------------------FKSPESKSKSAADLETDLEQLSD-MEEF------------------------------------NE-------------------------
+..:      :  .     ::::. :                                        .  ..::::::::::::::::::::::::  ::::....     .:  :::  ::::::..                                              .....:::..::.                           .: :. .:..::.:: ::.:... ::::::.:.  :                        .:...    .           .:..   :::...                                                                                                                                ..::.  :.    .  :. ...  .:..                                    ..                         
+VVRTKIPMMNIALSGEITGGMQS-G----------------------------------------L--LILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDS-----EF--GIT--PAYLRSMG------------------------------VDPERVIHTPVQSLEQLRIDMVNQLDAIE-----------RGEKVVVFIDSLGNLASKMTRAKTMKSLFRIVTPYFSTK-NIPCIAINH--T----------------------TGPMYSA--DTV-----------FIIG---KRYQFV--------------------------------------------------------------------------------------------------------------LNVEKSRTVKEKSKFFIDVKFDG--GI----D--PY-SGL-LDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLG
+
+#Total CPU time is  0.07 seconds
+====== 7Z3M ======
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: results/boltz_results_7Z3M_mmseqs/predictions/7Z3M_mmseqs/7Z3M_mmseqs_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../uvsx/data/structures/gold_standards/crystal/7Z3M.pdb:A
+Length of Structure_1: 373 residues
+Length of Structure_2: 304 residues
+
+Aligned length= 140, RMSD=   6.57, Seq_ID=n_identical/n_aligned= 0.271
+TM-score= 0.22914 (normalized by length of Structure_1: L=373, d0=7.00)
+TM-score= 0.26496 (normalized by length of Structure_2: L=304, d0=6.40)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MTMITHHHHHHGSTSITDFLRLT---------------GNEFASVAQDGVTAGDISGW-V-DS----------GS----YAFNAL-LSGDIYKGFPGNKIVVIGADPSTGKTFFALGAAKNFLEQNKDGIVICFESESAITKNMLVERGIDVKRFGVV-------------------PVSTVQQFKTQALRIV-----------------DNYEKQPKNER----QPVLFILDSLGMLSTDKEMADSAEGKDTRDMTRAQLIKAAFRVLTLKLGRAGIPMIVTNHVYEDVGAGPYASKVQAGGSGAVYASSTILTLSKAKDRD-------------------------TSTNEVT-GVIVTVTATKSRLTKENSKIKCLIRYDGGLDR----------Y-YGM-----------LELAE-----------EAGVFKKVSTRFELEDGTKLFGK--TIME-----------------------------N--PEKYFTNDILERINDYVKRKFCYGSGDDQAGADETLDDDEGQGDIH
+                                      ......     .......:. . ..          ::    .::..  ...         :::   ...... :.:::::.....      ...::.                                          ..::.:...                        ...::..        .....                                                                                                                      ..::::: ...                     ... .:.:          : ...           ..              ... ..  :::::.     ..    .:::                             :  :::.:::::::::::::::::            ..           
+-----------------------HHGSTSITDFLRLTGNEFASV-----AQDGVTAGDISGWVDSGSYAFNALLSGDIYKGFPG-NKIV---------VIG---ADPSTG-KTFFALGAAKNF------LEQNKD-----------------------GIVICFESESAITKNMLVERGIDVKRFG-------VVPVSTVQQFKTQALRIVDNYEKQ----PKNERQPVL---------------------------------------------------------------------------------------------FILDSLGMLSTDKEMRDTRAQLIKAAFRVLTLKLGR---------------------AGI-PMIVTNHVYGAVYASSTILTLSKATGVIVTVT---ATKSRLTKENSKIK-CL--IRYDGG-----LD--RYYGMLELAEEAGVFKKVSTRFELEDGTKLFGKTIMENPEKYFTNDILERINDYVKRKF------------CY-----------
+
+#Total CPU time is  0.09 seconds
+====== 9GBG ======
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: results/boltz_results_9GBG_mmseqs/predictions/9GBG_mmseqs/9GBG_mmseqs_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../uvsx/data/structures/gold_standards/crystal/9GBG.pdb:A
+Length of Structure_1: 334 residues
+Length of Structure_2: 287 residues
+
+Aligned length= 151, RMSD=   6.76, Seq_ID=n_identical/n_aligned= 0.311
+TM-score= 0.25901 (normalized by length of Structure_1: L=334, d0=6.67)
+TM-score= 0.28748 (normalized by length of Structure_2: L=287, d0=6.23)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+-------------MDFLKKI---IEETGNEYASIVADGVTAGDIESFIDTGSHSLNALLSGSIYDGLP----------------SNKITAIAGESA----TGKTFFV-LGMVKHFLDANPNGGVLYFESESALTKSMIEDRGIDSSRMVIVPVTTVQEFRTQSIKILDSYLEQPVEKRQPLFCALDSLGML----------------STTKEIEDTTEGKETRDMTRAQIIKAAFRVLTLKLGRA-----KVPMVITNHTYDVVGS--YVPMKE-MGGG-SGLKYAASTIIYLSKKKEKDGKE---------VVGNIVKCKIQKSRITKENSSVDVRISYGKGLDKYYGLLDLAVKYDIFKQVSTRIE-LPDGTKQYGKTILENPEKYFTKDVLDKID----------------------------------------------------------------EVSKKEFM
+             .....     ....   ..  ..  ..                                            .:.....         ...:::: .........:.  ..:.:.:::::::::::::::::.. :..                                                         .....         ...:...:... .:.:..:::...     :.                ...::: ::.  ..                              ...::::               .::::::::.:::. :.:.::.             ..:::.                                                                                       ...:....
+KIIEETGNEYASIVADGV--TAGDIES---FI--DT--GS----------------------------HSLNALLSGSIYDGLPSNKITAI-----AGESGKTFFVLGMVKHFLDANPN--GGVLYFESESALTKSMIEDRGIDSS-RMV-----------------------------------------IVPVTTVQEFRTQSIKILDSY---------LEQPVEKRQPL-FCALDSLGMLSTTKEITRA--------------QIIKAAFRVLTL-KLG---------------------RAKVPMVITNHTLKYA---------------ASTIIYLSKKNIVK-CKIQKSR------------ITKENSS-----------------------VDVRISYGKGLDKYYGLLDLAVKYDIFKQVSTRIELPDGTKQYGKTILENPEKYFTKDVLDKIDEVSKKEFM
+
+#Total CPU time is  0.07 seconds

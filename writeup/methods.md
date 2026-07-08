@@ -18,7 +18,7 @@ This left me with roughly 20,000 sequences.
 
 ## Filtering data
 My database had been cleaned however there were still some very short sequences and very long sequences perhaps added due to poor annotation. 
-To filter data i simply cut any sequences shorter than 341 amino acids and longer than 441 amino acids. 
+To filter data I cut any sequences shorter than 326 amino acids and longer than 426 amino acids. 
 UvsX t4 is a protein 391 amino acids long and so my reasoning was any protein significantly shorter or longer than this most likely arised due to some database annotation error.
 
 # Gold standards
@@ -26,7 +26,7 @@ To guide our discovery process it was crucial to set a ground truth. This would 
 There were also some other orthologs that have been discovered which we could use. 7Z3M and 9GBG were 2 UvsX orthologs that had been discovered from a proprietary database and wet lab validated to confrim their thermal ranges
 K35G/E198R was an engineered variant using directed evolution that displayed higher catalytic activity. This study also identified a few more engineered variants however using all of them in our analysis could cause bias as the sequences were entirely identical except for single amino acid changes. K35G/E198R was the best performing variant and so it was the one we chose to keep in the analysis
 Crystal structures of all the gold standards are avaliable boosting exploratory power.
-We had 4 gold standards UvsX t4, K35G/E198R, 7Z3M and 9GBG Which we added to our database
+We had 4 gold standards UvsX t4, K35G/E198R, 7Z3M (thermophilic) and 9GBG (psychrophilic) Which we added to our database
 
 # Scoring System
 To assess how likely each sequence in the curated database is to be a true UvsX ortholog for downstream thermal classification
@@ -39,8 +39,10 @@ We created 5 Hidden Markov Models (hmms) to scan our database. These were create
 Seed alignments were installed and `hmmbuild` was used to construct a profile.
 The other 3 were custom hmms. 
 One profile was seeded using an alignment of the 4 gold standards. 
-The final 2 used the pfam hmms to search the gold standards, the regions that matched were extracted and aligned to seed the last two profiles that made up our 5 hmm profiles.
-Interestingly PF21134 found no matches in the 2 novel discoveries (7Z3M and 9GBG) as this domain was in the c terminus, which is highly variable as it is involved in the polymerisation of recombinase proteins and so not conserved between species
+The final 2 used the pfam hmms to search the gold standards, the regions that matched were extracted and aligned to seed
+the last two profiles that made up our 5 hmm profiles.
+Interestingly PF21134 found no matches in the 2 novel discoveries (7Z3M and 9GBG) as this domain was in the c terminus, 
+which is highly variable as it is involved in the polymerisation of recombinase proteins and so not conserved between species
 This meant that these hmms would be much less useful and so it was removed from downstream analysis. 
 
 This left only 3 hmms The two built from the PF00154 domain and the gold standard alignment hmm
@@ -57,7 +59,7 @@ was updated and we scored protein on whether this string was present Gxxxx[G/F]K
 Found in T4 UvsX at position 138-143 it is characterized by a sequence of hhhh[D/E] with h being any hydrophobic residue
 
 ### DNA binding sites
-(Structural, do not have a cnonical sequence)
+(Structural, do not have a canonical sequence)
 
 # Predicting Optimal temperatures
 We used seq2topt to predict the optimal temperatures. This is an ab-initio method that uses only the sequence to output
@@ -80,6 +82,42 @@ From the hidden markov models and the walker a and b motif checks we compliled a
 for each sequence we recorded in a binary format whether the sequence was found in the results for each of the 3 HMMs
 used, as well as presence of the walker a and b motif (1 for present and 0 for absent).
 We then filtered for sequences that hit for every check. We could then run an alignment and create a phylogeny.
+
+# Agentic Literature search
+At this point we had a scoring system for proteins that hit for the 3 HMMs, as well as having both the walker a and b.
+We also had the predicted optimal temperatures of each protein (its limitations discussed earlier). The next level of
+analysis I wanted to conduct was looking at whether any of these proteins (~1400) had any information about their thermal
+adaption in peer reviewed literature. To do this I created an agentic literature retrieval and prsing software (TMP). 
+This software takes an NCBI accession and pulls the associated literature from NCBI . It is also able to classify the host organism and
+then will also pull literature from NCBI for the host using a query search. 
+The accession from the top_hits were ran through this pipeline utilising the 3 different options provided in the TMP
+package.
+Plotted the classifications against the seq2opt predicitions to get a boxplot of temp by classification.
+Shows a strong correlation
+
+
+# Boltz structural modelling
+Ran predicted structures for the 3 gold standards.
+So far the confidence is low less than 40 TM
+In attempts to improve this I am trimming the fasta files based on the positions used for modelling as seen on uniprot. PDB use postions 30-358 and swiss
+uses positions 31-342. The boltz prediction returned confidence scores similar to the full protein.
+Trimmed fasta still did not improve boltz confidence and alignment.
+Decided to provide boltz with an MSA, initially used colabfold to get an MSA from UniRef100. This again did not improve
+structural predicition confidence or alignment.
+
+SO decided to use mmseqs to generate a3m alignment using the homolog database of the top hits, these were already a db 
+of similar proteins which i believed would carry good signal of the residues in contact to he,p guide a good boltz
+structural predicition. Alas no improvement.
+
+## Comparing boltz predictions to alphafold.
+
+# GROMACS simulation
+started with crystal structures, but seems like the uploaded structures are incomplete and so the gromacs simulation fails
+then did the boltz for uvsx predictions and got back results.
+Ran gromacs simulation on the boltz, and alphafold
+
+For alphafold had multiple predicitions, so first ran usalign to find the model with the best alignment with the crystal
+structures, put the best prediction for each protein into the gromacs pipeline
 
 
  

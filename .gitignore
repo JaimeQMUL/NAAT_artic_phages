@@ -36,3 +36,16 @@ htmlcov/
 # Temporary files
 *.tmp
 *.swp
+
+# Specific folders
+uvsx/data/alignments/
+archive/alignments/
+seq2topt/
+gromacs/
+docs/
+literature/
+protherm/
+writeup/*word_doc*
+uvsx/plots/Jaime_ESPrint_Protein_Visualisation
+research
+TMP_results/accessions

@@ -7,7 +7,7 @@ channels:
 
 dependencies:
   - python=3.11
-
+  - nglview=3.1.1
   - biopython
   - matplotlib
   - numpy
@@ -25,10 +25,14 @@ dependencies:
   - fasttree
   - famsa
   - iqtree
-
+  - maxit
+  - usalign
   - pytorch
   - pip
+  - colabfold
+  - mmseqs2
+  - pdbfixer
 
   - pip:
       - fair-esm
-      - git+https://github.com/JDuarteNiemen/agentic_thermal_classifier.git
+      - boltz[cuda]

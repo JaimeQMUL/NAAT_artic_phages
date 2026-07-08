@@ -8,7 +8,7 @@ filtered_accs=FilterFasta('uvsx/data/curated_database/cleaned_curated_database.f
 
 # add Gold standards to filtered database
 os.chdir('uvsx/data/references')
-subprocess.run(f'cat 7Z3M.fasta 9GBG.fasta K35G_E198R.fasta >> ..curated_database/filtered_curated_database.fasta', shell=True)
+subprocess.run(f'cat 7Z3M.fasta 9GBG.fasta K35G_E198R.fasta >> ../curated_database/filtered_curated_database.fasta', shell=True)
 
 
 

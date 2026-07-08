@@ -1,0 +1,126 @@
+========================== uvsx ==========================
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: uvsx/fold_uvsx_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../crystal/uvsx.pdb:A
+Length of Structure_1: 391 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 271, RMSD=   1.03, Seq_ID=n_identical/n_aligned= 0.985
+TM-score= 0.68167 (normalized by length of Structure_1: L=391, d0=7.15)
+TM-score= 0.97832 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MSDLKSRLIKASTSKLTAELTASKFFNEKDVVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASKKETEDALNEKVVSDMTRAKTMKSLFRIVTPYFSTKNIPCIAINHTYETQEMFSKTVMGGGTGPMYSADTVFIIGKRQIKDGSDLQGYQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLGAIDSNEIVEAEVDELINSKVEKFKSPESKSKSAADLETDLEQLSDMEEFNE
+                              :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::             : ::::::::::::::::::::::::::::::              .:: :::::::::::::          ::::::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                   
+------------------------------VVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASK-------------M-TRAKTMKSLFRIVTPYFSTKNIPCIAINHT--------------TGP-MYSADTVFIIGKR----------YQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLG---------------------------------------------------
+
+#Total CPU time is  0.05 seconds
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: uvsx/fold_uvsx_model_1.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../crystal/uvsx.pdb:A
+Length of Structure_1: 391 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 271, RMSD=   1.08, Seq_ID=n_identical/n_aligned= 0.982
+TM-score= 0.68032 (normalized by length of Structure_1: L=391, d0=7.15)
+TM-score= 0.97567 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MSDLKSRLIKASTSKLTAELTASKFFNEKDVVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASKKETEDALNEKVVSDMTRAKTMKSLFRIVTPYFSTKNIPCIAINHTYETQEMFSKTVMGGGTGPMYSADTVFIIGKRQIKDGSDLQGYQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLGAIDSNEIVEAEVDELINSKVEKFKSPESKSKSAADLETDLEQLSDMEEFNE
+                              :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::             : ::::::::::::::::::::::::::::::              .:: :::::::::::::          ::::::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :                                                  
+------------------------------VVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASK-------------M-TRAKTMKSLFRIVTPYFSTKNIPCIAINHT--------------TGP-MYSADTVFIIGKR----------YQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQL-G--------------------------------------------------
+
+#Total CPU time is  0.04 seconds
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: uvsx/fold_uvsx_model_2.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../crystal/uvsx.pdb:A
+Length of Structure_1: 391 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 271, RMSD=   1.06, Seq_ID=n_identical/n_aligned= 0.978
+TM-score= 0.68075 (normalized by length of Structure_1: L=391, d0=7.15)
+TM-score= 0.97652 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MSDLKSRLIKASTSKLTAELTASKFFNEKDVVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASKKETEDALNEKVVSDMTRAKTMKSLFRIVTPYFSTKNIPCIAINHTYETQEMFSKTVMGGGTGPMYSADTVFIIGKRQIKDGSDLQGYQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLGAIDSNEIVEAEVDELINSKVEKFKSPESKSKSAADLETDLEQLSDMEEFNE
+                              :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::             : ::::::::::::::::::::::::::::::              .:::: :::::::::::          ::::::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                   
+------------------------------VVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASK-------------M-TRAKTMKSLFRIVTPYFSTKNIPCIAINHT--------------TGPMY-SADTVFIIGKR----------YQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLG---------------------------------------------------
+
+#Total CPU time is  0.04 seconds
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: uvsx/fold_uvsx_model_3.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../crystal/uvsx.pdb:A
+Length of Structure_1: 391 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 271, RMSD=   1.07, Seq_ID=n_identical/n_aligned= 0.985
+TM-score= 0.68074 (normalized by length of Structure_1: L=391, d0=7.15)
+TM-score= 0.97649 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MSDLKSRLIKASTSKLTAELTASKFFNEKDVVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASKKETEDALNEKVVSDMTRAKTMKSLFRIVTPYFSTKNIPCIAINHTYETQEMFSKTVMGGGTGPMYSADTVFIIGKRQIKDGSDLQGYQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLGAIDSNEIVEAEVDELINSKVEKFKSPESKSKSAADLETDLEQLSDMEEFNE
+                              :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::             : ::::::::::::::::::::::::::::::              .:: :::::::::::::          ::::::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                   
+------------------------------VVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASK-------------M-TRAKTMKSLFRIVTPYFSTKNIPCIAINHT--------------TGP-MYSADTVFIIGKR----------YQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLG---------------------------------------------------
+
+#Total CPU time is  0.04 seconds
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: uvsx/fold_uvsx_model_4.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../crystal/uvsx.pdb:A
+Length of Structure_1: 391 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 271, RMSD=   1.09, Seq_ID=n_identical/n_aligned= 0.982
+TM-score= 0.68012 (normalized by length of Structure_1: L=391, d0=7.15)
+TM-score= 0.97530 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MSDLKSRLIKASTSKLTAELTASKFFNEKDVVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASKKETEDALNEKVVSDMTRAKTMKSLFRIVTPYFSTKNIPCIAINHTYETQEMFSKTVMGGGTGPMYSADTVFIIGKRQIKDGSDLQGYQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLGAIDSNEIVEAEVDELINSKVEKFKSPESKSKSAADLETDLEQLSDMEEFNE
+                              :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::             : ::::::::::::::::::::::::::::::              .:: :::::::::::::          ::::::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :                                                  
+------------------------------VVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGNLASK-------------M-TRAKTMKSLFRIVTPYFSTKNIPCIAINHT--------------TGP-MYSADTVFIIGKR----------YQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQL-G--------------------------------------------------
+
+#Total CPU time is  0.04 seconds

@@ -119,11 +119,3 @@ cols = hmms, interpro and custom ones
 1/0 based on detection
 
 
-
-
-reusable script,
-pairwise distance matrix to create. minimap2 path outoput. create simple neighbour joining tree.
-later on calculate maximum likelihood tree.
-
-
-DeepLearning models for optimal temperature prediction. seq2topt, classifies optimal temp based on sequence. Sandbox this make sure it works

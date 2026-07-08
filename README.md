@@ -209,7 +209,7 @@ dependencies:
 conda env create -f environment.yml
 
 # Activate environment
-conda activate dissertation-env
+conda activate cold
 ```
 
 ### Running Analysis

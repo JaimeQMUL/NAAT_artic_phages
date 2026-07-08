@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from collections import defaultdict
 
-def PlotSequenceLengths(fasta_file, bins=1000):
+def PlotSequenceLengths(fasta_file):
     seq_lengths = []
+
 
     with open(fasta_file) as f:
         seq = ''
@@ -21,6 +22,7 @@ def PlotSequenceLengths(fasta_file, bins=1000):
 
         if seq:
             seq_lengths.append(len(seq))
+    bins=len(seq_lengths)//20
 
     fig, ax = plt.subplots()
     ax.hist(seq_lengths, bins)

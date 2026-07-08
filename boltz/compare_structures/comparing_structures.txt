@@ -1,0 +1,49 @@
+# Comparing the structures between predicted and crystal.
+cd boltz/compare_structures/
+
+# uvsx boltz prediction vs uvsx crystal
+usalign ../results/boltz_results_input/predictions/input/uvsx_predicted.pdb ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb > uvsx_boltz.txt
+
+# uvsx pbd trim boltz prediction vs uvsx crystal
+usalign ../uvsx_modelling/results/boltz_results_pdb_input/predictions/pdb_input/pdb_input_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb > uvsx_pdb_boltz.txt
+
+# uvsx swiss trim boltz prediction va uvsx crystal
+usalign ../uvsx_modelling/results/boltz_results_swiss_input/predictions/swiss_input/swiss_input_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb > uvsx_swiss_boltz.txt
+
+# 7Z3M boltz vs 7Z3M crystal
+usalign ../7Z3M_results/boltz_results_7Z3M_input/predictions/7Z3M_input/7Z3M.pdb ../../uvsx/data/structures/gold_standards/crystal/7Z3M.pdb > 7Z3M_boltz.txt
+
+# 9GBG boltz vs 9GBG crystal
+usalign ../9GBG_results/boltz_results_9GBG_input/predictions/9GBG_input/9GBG.pdb ../../uvsx/data/structures/gold_standards/crystal/9GBG.pdb > 9GBG_boltz.txt
+
+
+
+# COMPARING ALPHAFOLD TO CRYSTAL
+# uvsx alphafold vs uvsx crystal
+usalign ../uvsx_modelling/alphafold_results/uvsx/fold_uvsx_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb > uvsx_alphafold.txt
+
+# uvsx pdb trim alphafold vs uvsx crystal
+usalign ../uvsx_modelling/alphafold_results/pdb/fold_uvsx_pdb_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb > uvsx_pdb_alphafold.txt
+
+# uvsx swiss trim alphafold vs uvsx crystal
+usalign ../uvsx_modelling/alphafold_results/swiss/fold_uvsx_swiss_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb > uvsx_swiss_alphafold.txt
+
+# 7Z3M alphafold vs 7Z3M crystal
+usalign ../../uvsx/data/structures/gold_standards/predicted/alphafold/7Z3M/fold_7z3m_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/7Z3M.pdb > 7Z3M_alphafold.txt
+
+# 9GBG alphafold vs 9GBG
+usalign ../../uvsx/data/structures/gold_standards/predicted/alphafold/9GBG/fold_9gbg_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/9GBG.pdb > 9GBG_alphafold.txt
+
+
+# comparing structures from msa boltz
+# uvsx
+usalign ../improving_boltz/results/boltz_results_uvsx_input/predictions/uvsx_input/uvsx_input_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb > uvsx_msa.txt
+
+# 7Z3M
+usalign ../improving_boltz/results/boltz_results_7Z3M_input/predictions/7Z3M_input/7Z3M_input_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/7Z3M.pdb > 7Z3M_msa.txt
+
+# 9GBG
+usalign ../improving_boltz/results/boltz_results_9GBG_input/predictions/9GBG_input/9GBG_input_model_0.cif ../../uvsx/data/structures/gold_standards/crystal/9GBG.pdb > 9GBG_msa.txt
+
+Using the colabfold msa hasnt improved the alignment of the prediction with the crystal structure.
+Going to look to see if using an alignment of the top hits (a more focused database of homologs will improve the structural prediction accuracy

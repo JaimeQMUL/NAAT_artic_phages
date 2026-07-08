@@ -1,0 +1,25 @@
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: ../uvsx_modelling/results/boltz_results_pdb_input/predictions/pdb_input/pdb_input_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../uvsx/data/structures/gold_standards/crystal/3IO5.pdb:A
+Length of Structure_1: 329 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 125, RMSD=   5.94, Seq_ID=n_identical/n_aligned= 0.320
+TM-score= 0.25517 (normalized by length of Structure_1: L=329, d0=6.63)
+TM-score= 0.29716 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+DVVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFK------------SNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGV-------------------DP-ERV------------------------IHTPVQSL-EQLRIDMVNQLDAIERGEKVVVFIDSLGNLASKKETEDALNEKVVSDMTRAKTMKSLFRIVTPYFSTKNIPCIAINHTYETQEMFSK--------TVMGGGTG-PMYS-AD--TVFIIGKRQIKDGSDLQGYQFV-LNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLG---------AIDSNEIVEAEVD---------------------------------------------ELIN------S----------------
+  .                                              ..:::::  :      ....::.:.                                 .. .::                        :::::::: :::::::::::::::.::::::::::.:.                                                                  ....:::: ::.  ..  .:::::::::      .....  ...             . ...   ::.....:::  .:: ::.                                                                 ....::::...                                               ..        .                
+--V----------------------------------VRTKIPMMNIALSGEITGG--M------QSGLLILAG--------------PSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVDPERVIHTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDSLGN----------------------------------------------------------LASKMTRAKTMKSLFRIVTP-YFSTKNIPCIAINHT------TGPMY-SADT-------------V-FII---GKRYQFVLNV--EKS-RTV--------------------------------------------------------KEKSKFFIDVKFDGGIDPYS--GLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDTNCT--TFWGPLFKHQPFRDAIKRAYQLG
+
+#Total CPU time is  0.06 seconds

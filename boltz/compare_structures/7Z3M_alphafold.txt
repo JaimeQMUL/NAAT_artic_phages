@@ -1,0 +1,25 @@
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: ../../uvsx/data/structures/gold_standards/predicted/alphafold/7Z3M/fold_7z3m_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../uvsx/data/structures/gold_standards/crystal/7Z3M.pdb:A
+Length of Structure_1: 373 residues
+Length of Structure_2: 304 residues
+
+Aligned length= 304, RMSD=   1.93, Seq_ID=n_identical/n_aligned= 0.997
+TM-score= 0.76936 (normalized by length of Structure_1: L=373, d0=7.00)
+TM-score= 0.93547 (normalized by length of Structure_2: L=304, d0=6.40)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MTMITHHHHHHGSTSITDFLRLTGNEFASVAQDGVTAGDISGWVDSGSYAFNALLSGDIYKGFPGNKIVVIGADPSTGKTFFALGAAKNFLEQNKDGIVICFESESAITKNMLVERGIDVKRFGVVPVSTVQQFKTQALRIVDNYEKQPKNERQPVLFILDSLGMLSTDKEMADSAEGKDTRDMTRAQLIKAAFRVLTLKLGRAGIPMIVTNHVYEDVGAGPYASKVQAGGSGAVYASSTILTLSKAKDRDTSTNEVTGVIVTVTATKSRLTKENSKIKCLIRYDGGLDRYYGMLELAEEAGVFKKVSTRFELEDGTKLFGKTIMENPEKYFTNDILERINDYVKRKFCYGSGDDQAGADETLDDDEGQGDIH
+         ..:::::::::::::::::::::::.::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::         :: :::::::::::::::::::::::::::::::               :  ::::::::::::::          .::::::::::::::::::::::::::...::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::     :                  
+---------HHGSTSITDFLRLTGNEFASVAQDGVTAGDISGWVDSGSYAFNALLSGDIYKGFPGNKIVVIGADPSTGKTFFALGAAKNFLEQNKDGIVICFESESAITKNMLVERGIDVKRFGVVPVSTVQQFKTQALRIVDNYEKQPKNERQPVLFILDSLGMLSTDKEM---------RD-TRAQLIKAAFRVLTLKLGRAGIPMIVTNHVY---------------G--AVYASSTILTLSKA----------TGVIVTVTATKSRLTKENSKIKCLIRYDGGLDRYYGMLELAEEAGVFKKVSTRFELEDGTKLFGKTIMENPEKYFTNDILERINDYVKRKFC-----Y------------------
+
+#Total CPU time is  0.07 seconds
