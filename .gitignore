@@ -60,14 +60,7 @@ archive/alignments/**/*.csv
 seq2topt/*.pth
 
 # GROMACS simulation outputs
-gromacs/**/*.xtc
-gromacs/**/*.trr
-gromacs/**/*.edr
-gromacs/**/*.tpr
-gromacs/**/*.gro
-gromacs/**/*.xvg
-gromacs/**/*.cpt
-gromacs/**/*.log
+gromacs/**/results/
 
 # Keep analysis notebooks and scripts
 !gromacs/**/*.ipynb
