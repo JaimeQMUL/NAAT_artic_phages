@@ -47,5 +47,15 @@ literature/
 protherm/
 writeup/*word_doc*
 uvsx/plots/Jaime_ESPrint_Protein_Visualisation
-research
+research/
 TMP_results/accessions
+archive/
+
+# Large alignment datasets
+uvsx/data/alignments/**/*.fasta
+uvsx/data/alignments/**/*.csv
+archive/alignments/**/*.fasta
+archive/alignments/**/*.csv
+
+# ML model weights
+seq2topt/*.pth
