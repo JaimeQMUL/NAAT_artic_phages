@@ -10,7 +10,7 @@ import csv
 ########################################################################################################################
 # Sourcing all proteins from uniprot using search queries
 ########################################################################################################################
-def QuerySearchUniprot(query, protein_name):
+def QuerySearchUniprot(query, seq_dir, meta_dir):
 
     # UniProt REST API endpoint for JSON
     url = "https://rest.uniprot.org/uniprotkb/search"
@@ -47,7 +47,7 @@ def QuerySearchUniprot(query, protein_name):
             break
 
     # Save all metadata as JSON
-    with open(f"{protein_name}/data/curated_database/uniprot_query_search_metadata.json", "w") as f:
+    with open(f"{meta_dir}/uniprot_query_search_metadata.json", "w") as f:
         json.dump(all_results, f, indent=2)
 
     print(f"Downloaded {len(all_results)} entries with full metadata")
@@ -56,11 +56,11 @@ def QuerySearchUniprot(query, protein_name):
     # Save sequences extracted in metadata to fasta file
 
     # Load your JSON metadata file from UniProt
-    with open(f"{protein_name}/data/curated_database/uniprot_query_search_metadata.json") as f:
+    with open(f"{meta_dir}/uniprot_query_search_metadata.json") as f:
         data = json.load(f)
 
     # Output FASTA file
-    with open(f"{protein_name}/data/curated_database/uniprot_query_search.fasta", "w") as fasta_file:
+    with open(f"{seq_dir}/uniprot_query_search.fasta", "w") as fasta_file:
         for entry in data:
             accession = entry.get("primaryAccession")  # UniProt accession
             protein_name = entry.get("proteinDescription", {}).get("recommendedName", {}).get("fullName", {}).get("value", "")
@@ -86,7 +86,7 @@ def QuerySearchUniprot(query, protein_name):
 
 API_KEY ='eb2c0b97f55a588259931f07f1099b896207'
 
-def QuerySearchNCBI(query, protein_name):
+def QuerySearchNCBI(query, seq_dir, meta_dir):
 
     url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 
@@ -158,10 +158,10 @@ def QuerySearchNCBI(query, protein_name):
         print(f"Fetched sequences {start + 1} to {start + len(batch)}")
         sleep(0.4)  # polite delay to avoid hitting NCBI limits
 
-        with open(f"{protein_name}/data/curated_database/ncbi_query_search.fasta", "w") as f:
+        with open(f"{seq_dir}/ncbi_query_search.fasta", "w") as f:
             f.write(all_sequences)
 
-    print(f"All sequences saved to '{protein_name}/data/curated_database/ncbi_query_search.fasta'")
+    print(f"All sequences saved to '{seq_dir}/ncbi_query_search.fasta'")
 
 
     batch_size = 200
@@ -216,7 +216,7 @@ def QuerySearchNCBI(query, protein_name):
 
     print(f"Total records collected: {len(metadata_records)}")
 
-    with open(f"{protein_name}/data/curated_database/ncbi_query_search_metadata.csv", "w", newline="", encoding="utf-8") as csvfile:
+    with open(f"{meta_dir}/ncbi_query_search_metadata.csv", "w", newline="", encoding="utf-8") as csvfile:
         fieldnames=[]
         for i in metadata_records:
             fields=i.keys()
@@ -227,7 +227,7 @@ def QuerySearchNCBI(query, protein_name):
         writer.writeheader()
         writer.writerows(metadata_records)
 
-    print(f"Metadata saved to '{protein_name}/data/curated_database/ncbi_query_search_metadata.csv'")
+    print(f"Metadata saved to '{meta_dir}/ncbi_query_search_metadata.csv'")
 
 
 ########################################################################################################################
@@ -235,7 +235,7 @@ def QuerySearchNCBI(query, protein_name):
 ########################################################################################################################
 
 
-def InterproSearchUniprot(interpro_ids, protein_name):
+def InterproSearchUniprot(interpro_ids, seq_dir, meta_dir):
     # Build the query
     query = " OR ".join([f"(database:InterPro {ipr})" for ipr in interpro_ids])
 
@@ -274,17 +274,17 @@ def InterproSearchUniprot(interpro_ids, protein_name):
         params = None
 
     # Save all metadata as JSON
-    with open(f"{protein_name}/data/curated_database/interpro_domain_matches_metadata.json", "w") as f:
+    with open(f"{meta_dir}/interpro_domain_matches_metadata.json", "w") as f:
         json.dump(all_results, f, indent=2)
 
     print(f"Downloaded {len(all_results)} entries with full metadata")
 
     # Load your JSON metadata file from UniProt
-    with open(f"{protein_name}/data/curated_database/interpro_domain_matches_metadata.json") as f:
+    with open(f"{meta_dir}/interpro_domain_matches_metadata.json") as f:
         data = json.load(f)
 
     # Output FASTA file
-    with open(f"{protein_name}/data/curated_database/interpro_domain_matches.fasta", "w") as fasta_file:
+    with open(f"{seq_dir}/interpro_domain_matches.fasta", "w") as fasta_file:
         for entry in data:
             accession = entry.get("primaryAccession")  # UniProt accession
             protein_name = entry.get("proteinDescription", {}).get("recommendedName", {}).get("fullName", {}).get("value", "")
@@ -318,12 +318,12 @@ def get_polymer_entity(pdb_id, entity_id):
     return requests.get(f"{BASE}/polymer_entity/{pdb_id}/{entity_id}").json()
 
 
-def IDSearchRCSB(pdb_ids, protein_name):
+def IDSearchRCSB(pdb_ids, save_dir):
     for pdb_id in pdb_ids:
         entry = get_entry(pdb_id)
 
         # --- Save metadata (everything except sequence) ---
-        with open(f"{protein_name}/data/references/{pdb_id}_metadata.json", "w") as f:
+        with open(f"{save_dir}/{pdb_id}_metadata.json", "w") as f:
             json.dump(entry, f, indent=2)
 
         # --- Extract sequences ---
@@ -342,7 +342,7 @@ def IDSearchRCSB(pdb_ids, protein_name):
             fasta_lines.append(sequence.replace("\n", ""))  # clean formatting
 
         # --- Save FASTA ---
-        with open(f"{protein_name}/data/references/{pdb_id}.fasta", "w") as f:
+        with open(f"{save_dir}/{pdb_id}.fasta", "w") as f:
             f.write("\n".join(fasta_lines))
 
 
@@ -354,7 +354,7 @@ def IDSearchRCSB(pdb_ids, protein_name):
 
 # Single Amino acid mutations
 
-def CreateMutants(mutants, reference, protein_name):
+def CreateMutants(mutants, reference, save_dir):
 
     for mutant in mutants:
         parts = mutant.split('/')  # handles single + multi mutants
@@ -373,34 +373,5 @@ def CreateMutants(mutants, reference, protein_name):
         new_seq = ''.join(reference_list)
         safe_name = mutant.replace("/", "_")
 
-        with open(f"{protein_name}/data/references/{safe_name}.fasta", 'w') as f:
+        with open(f"{save_dir}/{safe_name}.fasta", 'w') as f:
             f.write(f">{safe_name} Rational Design UvsX mutant\n{new_seq}")
-
-
-
-##########################
-# Larger scale mutations #
-##########################
-# # Getting sequence of loop 2 donor recombinase
-# # IN Future develop this to recreate published mutations involving larger scale modifications, in this case a full loop swap.
-# header_to_find = ">YP_003097304"
-# sequence_lines = []
-# found = False
-#
-# with open('../data/ncbi/uvsx_sequences.fasta', 'r') as f:
-#     for line in f:
-#         line = line.strip()
-#         if line.startswith(">"):
-#             if found:
-#                 # We've reached the next header, stop reading
-#                 break
-#             if line.startswith(header_to_find):
-#                 found = True
-#         elif found:
-#             # Collect sequence lines
-#             sequence_lines.append(line)
-#
-# # Combine all sequence lines into a single string
-# # full_sequence = "".join(sequence_lines)
-# # print(f"{header_to_find}:\n{full_sequence}")
-# # idea for this was replicating the loop 2 swap from YP_003097304 into UvsX

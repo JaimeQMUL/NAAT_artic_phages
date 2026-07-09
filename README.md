@@ -1,6 +1,23 @@
 # UvsX Ortholog Identification - Cold Adaptation Research
 
+# WILL NEED TO READ-DO README FOR CLEANED REPO
+
 ## 🎯 Project Overview
+
+Question:
+Can we discover cold-adapted UvsX proteins?
+↓
+01_database_curation
+Find the candidates
+↓
+02_hmm_analysis
+Confirm they are real recombinases
+↓
+03_thermal_screening
+Predict cold adaptation
+↓
+04_molecular_dynamics
+Test structural behaviour
 
 This repository contains the complete bioinformatics pipeline for identifying **cold-adapted UvsX orthologs** across various microbial species. The project focuses on:
 

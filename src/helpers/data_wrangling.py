@@ -10,12 +10,11 @@ import numpy as np
 import re
 
 
-def GetUniqueAccessions(protein_name):
+def GetUniqueAccessions(meta1, meta2, meta3):
 
     #Find the accession from metadata
     ncbi_accessions = []
-    csv_path = f"{protein_name}/data/curated_database/ncbi_query_search_metadata.csv"
-    with open(csv_path, newline='') as f:
+    with open(meta1, newline='') as f:
         reader = csv.DictReader(f)
         for row in reader:
             accession = row.get("accession")
@@ -25,7 +24,7 @@ def GetUniqueAccessions(protein_name):
 
     # Get all query search accessions
     uniprot_search_accessions = []
-    with open(f"{protein_name}/data/curated_database/uniprot_query_search_metadata.json") as f:
+    with open(meta2) as f:
         data = json.load(f)
         for entry in data:
             accession = entry.get("primaryAccession")  # UniProt accession
@@ -34,7 +33,7 @@ def GetUniqueAccessions(protein_name):
 
     # Get all interpro match accessions
     domain_match_accessions = []
-    with open(f"{protein_name}/data/curated_database/interpro_domain_matches_metadata.json") as f:
+    with open(meta3) as f:
         data = json.load(f)
         for entry in data:
             accession = entry.get("primaryAccession")  # UniProt accession
@@ -61,22 +60,17 @@ def GetUniqueAccessions(protein_name):
 from collections import defaultdict
 
 
-def RemoveRedundancies(unique_accessions, protein_name):
-    files = [
-        f'{protein_name}/data/curated_database/uniprot_query_search.fasta',
-        f'{protein_name}/data/curated_database/ncbi_query_search.fasta',
-        f'{protein_name}/data/curated_database/interpro_domain_matches.fasta'
-    ]
+def RemoveRedundancies(unique_accessions, files, meta1, meta2, meta3):
 
     # NCBI CSV
-    ncbi_df = pd.read_csv(f'{protein_name}/data/curated_database/ncbi_query_search_metadata.csv', low_memory=False)
+    ncbi_df = pd.read_csv(meta1, low_memory=False)
 
     # UniProt JSON
-    with open(f'{protein_name}/data/curated_database/uniprot_query_search_metadata.json') as f:
+    with open(meta2) as f:
         uniprot_data = json.load(f)
 
     # InterPro JSON
-    with open(f'{protein_name}/data/curated_database/interpro_domain_matches_metadata.json') as f:
+    with open(meta3) as f:
         interpro_data = json.load(f)
 
     ncbi_lookup = dict(zip(ncbi_df["accession"], ncbi_df["taxonId"]))
@@ -136,13 +130,13 @@ def RemoveRedundancies(unique_accessions, protein_name):
 
 
 
-def WriteCleanedFasta(non_dupe_accessions, filename, protein_name):
+def WriteCleanedFasta(non_dupe_accessions, filename):
 
     with open(filename, 'w') as f:
         for acc in non_dupe_accessions:
-            header, seq = ExtractSequence(acc, f'{protein_name}/data/curated_database/ncbi_query_search.fasta', header=True)
+            header, seq = ExtractSequence(acc, f'raw/sequences/ncbi_query_search.fasta', header=True)
             if seq=='':
-                header, seq = ExtractSequence(acc, f'{protein_name}/data/curated_database/uniprot_query_search.fasta', header=True)
+                header, seq = ExtractSequence(acc, f'raw/sequences/uniprot_query_search.fasta', header=True)
             f.write(f'{header} \n')
             for i in range(0, len(seq), 60):
                 f.write(f'{seq[i:i + 60]}\n')

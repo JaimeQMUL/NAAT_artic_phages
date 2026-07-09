@@ -6,11 +6,13 @@
 from src.helpers.data_wrangling import *
 import pandas as pd
 
+fastas=['raw/metadata/ncbi_query_search_.fasta', 'raw/metadata/uniprot_query_search.fasta', 'raw/metadata/interpro_domain_matches.fasta']
+
 # Get all the unique accessions from the initial database search
-unique_accessions=GetUniqueAccessions('uvsx')
+unique_accessions=GetUniqueAccessions('raw/metadata/ncbi_query_search_metadata.csv', 'raw/metadata/uniprot_query_search_metadata.json', 'raw/metadata/interpro_domain_matches_metadata.json')
 
 # Find the accessions of non-redudant proteins in the initial database
-non_dupes=RemoveRedundancies(unique_accessions, 'uvsx')
+non_dupes=RemoveRedundancies(unique_accessions, fastas, 'raw/metadata/ncbi_query_search_metadata.csv', 'raw/metadata/uniprot_query_search_metadata.json', 'raw/metadata/interpro_domain_matches_metadata.json')
 
 #Write to csv for later
 df = pd.DataFrame(non_dupes, columns=['accession'])
@@ -44,7 +46,6 @@ print(f'Final Cleaned Accession Count: {len(non_dupes)}')
 
 
 
-#Creating clean metadata
 
 
 
