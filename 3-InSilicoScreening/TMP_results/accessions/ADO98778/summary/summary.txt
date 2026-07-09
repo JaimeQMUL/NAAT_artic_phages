@@ -1,0 +1,165 @@
+Summary file for ADO98778
+Number of papers: 10
+=============Summaries=============
+
+Paper: PMC11131426.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for E. coli) and 30°C (for Marine Broth 2216E medium).
+- Growth temperature range: 26°C and 32°C (for transcriptome analysis).
+- Survival temperature range: Not explicitly stated, but analysis was conducted at 26°C and 32°C.
+- Incubation conditions: Various temperatures were used for different assays (e.g., 37°C, 30°C, 26°C, 32°C).
+- Environmental source/habitat: Coral-associated microbiome, specifically isolated from the gastric cavity of a coral species.
+- Thermal stress responses: The study compared gene expression at 26°C and 32°C, noting that structural and lytic genes of one prophage increased expression at the higher temperature (32°C).
+
+Environmental Context:
+- Habitat/Source: Coral-associated microbiome (specifically from the gastric cavity of a coral species).
+- Extreme Environment Isolation: Not explicitly stated as extreme, but the source is a marine coral environment.
+- Explicit Classification: No explicit thermal classification (e.g., mesophile, thermophile) was provided by the authors.
+
+
+Paper: PMC13042499.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 30°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultures were generally grown and maintained at 30°C. UV resistance assays were conducted at 30°C.
+- Environmental source/habitat: Freshwater and marine environments (global oceans).
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: Freshwater and marine environments (global oceans).
+
+Concise Summary:
+The organism was studied in both freshwater and marine environments. The optimal and primary growth temperature used throughout the experiments was 30°C. The study details incubation conditions for both routine growth and specific assays, such as UV resistance testing, all conducted at 30°C. No specific thermal adaptation, such as thermophilic or psychrophilic characteristics, was reported, nor was a defined temperature range or classification provided by the authors.
+
+
+Paper: PMC10100731.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 24°C
+- Growth temperature range: Not explicitly stated, but growth was maintained at 24°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultures were grown at 24°C.
+- Environmental source/habitat: Marine environment (ocean).
+- Thermophilic adaptation: No evidence.
+- Psychrophilic adaptation: No evidence.
+- Mesophilic growth: Implied by growth at 24°C.
+- Heat tolerance: No evidence.
+- Cold tolerance: No evidence.
+- Enzymes adapted to temperature: No specific temperature-adapted enzymes mentioned.
+- Membrane adaptations: No evidence.
+- Thermal stress responses: No evidence.
+
+Environmental Context:
+- Habitat/source: Marine environment (ocean).
+
+Concise Summary:
+The study utilized laboratory culture conditions at 24°C for the growth of the analyzed marine picocyanobacteria strains. The organisms were sourced from the marine environment. The authors did not provide specific data regarding optimal, survival, or growth temperature ranges beyond the 24°C incubation temperature used in the experiments. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided, though growth at 24°C suggests mesophilic conditions were maintained during the study period.
+
+
+Paper: PMC13002823.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 21°C
+- Growth temperature range: Not explicitly stated, but optimal conditions were maintained at 21°C.
+- Survival temperature range: 4°C (for storage/stability).
+- Incubation conditions: 4°C (for storage/stability).
+- Environmental source/habitat: Local Salish Sea seawater; initial maintenance used commercial Sargasso Seawater.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided.
+
+Environmental Context:
+- Habitat/Source: Marine/Oceanic (Salish Sea, Sargasso Sea).
+
+Concise Summary:
+The optimal growth temperature for the host cyanobacterium was maintained at 21°C under a 12-h light:12-h dark cycle. The process utilized local Salish Sea seawater, adapting from commercial Sargasso Seawater to reduce costs. The final purified phage preparations demonstrated stability at 4°C, retaining infectivity over extended periods (e.g., 68% after 3 months, 23% after 6 months). The methodology is optimized for mesophilic conditions typical of surface marine waters, with storage and stability testing conducted at 4°C.
+
+
+Paper: 29938315.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, or specific temperature adaptations was made.
+
+Environmental Context:
+- The organisms were studied in the context of low light irradiance, specifically mentioning 'minimum oxygen zones'.
+- The source is described as 'marine'.
+
+Concise Summary:
+The study compared the photosynthetic performance of marine picocyanobacteria strains with varying degrees of oxygen-evolving complex (OEC) protein complementation. While the research focused on the structural and functional implications of missing extrinsic OEC proteins, it provided physiological data under varying light conditions (low vs. high irradiance) but did not report any explicit data regarding optimal growth temperature, temperature ranges, or specific thermal adaptations (e.g., thermophilic, psychrophilic). The organisms were sourced from marine environments and were observed exhibiting negative net $	ext{O}_2$ evolution rates at low irradiances, suggesting adaptation to low-oxygen marine niches.
+
+
+Paper: PMC4215834.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 22°C
+- Growth temperature range: Not explicitly stated, but optimal growth was achieved at 22°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultures were grown at 22°C.
+- Environmental source/habitat: Marine/oceanic waters (oligotrophic open ocean, coastal water environments, euphotic zone of oligotrophic lakes).
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided by the authors regarding thermal adaptation (e.g., mesophile, psychrophile). The organisms are described as thriving in oligotrophic open ocean environments, suggesting adaptation to stable, potentially cooler, marine conditions, but no specific thermal classification was given.
+
+Environmental Context:
+- Habitat/Source: Marine and freshwater oligotrophic waters.
+
+
+Paper: PMC12918739.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organisms studied.
+- No explicit mention of thermophilic, psychrophilic, mesophilic, or cold tolerance adaptations was found.
+- No details regarding temperature-adapted enzymes or membrane adaptations were reported.
+
+Environmental Context:
+- The organisms were studied in various environments, including stable aquatic environments and in situ within bacterial cells. No specific extreme environmental isolation was detailed.
+
+Concise Summary:
+This review focuses on the structural biology, assembly mechanisms, and functional components of $\alpha$-carboxysomes (a type of bacterial microcompartment). The discussion centers on the molecular machinery (shell proteins, cargo enzymes like Rubisco and carbonic anhydrase, and accessory proteins like CsoS2) and their interactions. The physiological context discussed includes the role of these compartments in carbon fixation (CCM) and the mechanisms of cellular organization (e.g., McdAB complex for positioning). No direct evidence regarding the optimal growth temperature, temperature range, or thermal adaptations of the studied organisms was presented in the provided text.
+
+
+Paper: PMC13101131.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but growth was accelerated at 40 °C compared to 25 °C.
+- Growth temperature range: Tested at 25 °C and 40 °C.
+- Survival temperature range: Can grow at temperatures up to 50 °C.
+- Incubation conditions: Tested at 25 °C and 40 °C.
+- Thermophilic adaptation: The organism is described as a thermophilic strain, and its growth at 40 °C showed specific adaptations.
+- Heat tolerance: Demonstrated by growth at 40 °C, which induced specific lipid changes (e.g., shift from unsaturated to saturated acyl groups in membrane lipids, and increased saturated TAG species).
+- Membrane adaptations: At high temperatures, there was a shift from unsaturated to saturated acyl groups in membrane lipids, and a decrease in the MGDG/SQDG ratio, contributing to membrane stabilization.
+- Enzymes adapted to temperature: The multifunctional acyltransferase was studied in the context of high temperature stress.
+
+Environmental Context:
+- Habitat/Source: Originally isolated from Euganean thermal springs.
+- Extreme Environment Isolation: Yes, isolated from thermal springs.
+- Explicit Classification: Described as a thermophilic, halotolerant single-cell cyanobacterium.
+
+Concise Summary:
+The organism is a polyextremophilic, thermophilic, halotolerant cyanobacterium originally isolated from thermal springs. It exhibits robust growth capabilities, with documented survival up to 50 °C. The study investigated its lipid metabolism in response to high temperature (40 °C). Under elevated temperatures, the organism undergoes significant membrane lipid remodeling, characterized by a shift in acyl unsaturation from unsaturated to saturated fatty acids (e.g., 16:1 to 16:0) to maintain membrane stability. This adaptation is paralleled by changes in nonpolar lipid accumulation, such as increased saturated TAG species. These findings highlight the organism's capacity for thermal adaptation through controlled lipidomic restructuring, which is crucial for its survival in extreme thermal environments.
+
+
+Paper: PMC8060472.1.txt
+Thermal Evidence:
+- Incubation temperature for lysis experiments was $37^	ext{o}	ext{C}$.
+- Enzyme assays (DiFMUP hydrolysis) were performed using a temperature-controlled plate reader, but specific optimal or tested temperature ranges for the enzymes were not detailed beyond the $37^	ext{o}	ext{C}$ lysis incubation.
+- Proteinase K activation was facilitated by increasing temperature to $55^	ext{o}	ext{C}$.
+
+Environmental Context:
+- The study utilized model bacteria cultured under laboratory conditions simulating oligotrophic aquatic regions (e.g., Sargasso Sea, North Pacific Subtropical Gyre).
+- No explicit mention of the organisms being isolated from an extreme environment, nor any explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided by the authors.
+
+Concise Summary:
+The experimental procedures involved culturing model bacteria and performing lysis and subsequent lysate incubations at $37^	ext{o}	ext{C}$. Enzyme assays utilized a temperature-controlled plate reader, and a specific enzyme treatment involved activation at $55^	ext{o}	ext{C}$. The study models nutrient cycling in oligotrophic aquatic environments, drawing comparisons to natural surface ocean conditions. No data regarding the optimal growth temperature range, survival temperature range, or specific thermal adaptations (thermophilic, psychrophilic, etc.) were reported for the tested organisms.
+
+
+Paper: PMC4094844.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for one strain).
+- Growth temperature range: 22°C to 30°C (observed for different strains/conditions).
+- Survival temperature range: Not explicitly stated, but conditions tested include low temperature stress.
+- Incubation conditions: Continuous white light illumination (50–80 μmol quanta m⁻² s⁻¹); 12/12 h light/dark cycles; 10–30 μmol quanta m⁻² s⁻¹ continuous white cool light.
+- Mention of adaptation: The study notes the existence of strains from extreme environments, including hot springs and Antarctic meltwater ponds.
+- Thermal stress responses: Transcriptomic data included analysis under heat stress (HS) and low temperature stress (LT).
+
+Environmental Context:
+- Habitats/Sources: Desert crusts, hot springs, hypersaline water, Antarctic meltwater ponds, and general light-exposed habitats.
+- Extreme Environment Isolation: Yes, strains were isolated from hot springs and Antarctic meltwater ponds.
+- Explicit Classification: No explicit thermal classification (e.g., mesophile, psychrotolerant) was provided by the authors, though conditions suggest adaptation across mesophilic to psychrophilic ranges.
+
+

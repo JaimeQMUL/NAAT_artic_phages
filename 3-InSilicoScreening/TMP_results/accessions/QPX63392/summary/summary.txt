@@ -1,0 +1,143 @@
+Summary file for QPX63392
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC8713573.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 41.6°C
+- Growth temperature range: Not explicitly stated, but optimal growth is at 41.6°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Microaerobic conditions (6% O2, 6% CO2, 88% H2N2).
+- Environmental source/habitat: Broiler chickens (Danish broilers).
+- Thermal adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations.
+
+Environmental Context:
+- Habitat/Source: Broiler chickens (poultry reservoir).
+
+Concise Summary:
+The organism was isolated from broiler chickens and was cultured under specific, controlled conditions. The optimal growth temperature identified for the organism was 41.6°C, and standard incubation was performed under microaerobic conditions (6% O2, 6% CO2, 88% H2N2). No information regarding the organism's adaptation to extreme temperatures (thermophilic, psychrophilic) or its general thermal tolerance range was provided in the text.
+
+
+Paper: PMC9230969.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed proteins or associated organisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The analyzed proteins originate from diverse sources including: bacterial phages (Myoviridae, Ackermannviridae, etc.), archaeal viruses (Haloarcula, Halobacterium, etc.), and various prokaryotic genomes/plasmids (e.g., *Desulfitobacterium*, *Listeria*, *Clostridium*, *Pseudomonas*, *Burkholderia*, *Methanothrix*, *Nitrososphaera*, *Planctomycetes*, *Acidobacteria*, *Euryarchaeota*, *Crenarchaeota*, *Thaumarchaeota*). 
+- The source organisms span various environments, including marine, soil, and potentially deep subsurface environments (indicated by the diversity of archaeal and bacterial sources).
+
+Concise Summary:
+The study focuses on the structural evolution of tail sheath proteins (TShPs) from diverse phages and contractile injection systems (T6SSs). The analyzed proteins are derived from a vast array of prokaryotes and archaea, including members of the Haloferacalesvirus, Myohalovirus, and various bacterial groups. While the source organisms are highly diverse and span multiple ecological niches (marine, soil, etc.), the paper does not provide specific physiological data regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) for the source organisms or the proteins themselves. The analysis is purely structural and phylogenetic, utilizing advanced modeling techniques (AlphaFold 2) to classify TShPs into structural types (Type 1, 2, and 3) based on domain architecture and evolutionary relationships, suggesting that the core function is related to contractile machinery assembly and host adhesion, independent of explicit thermal constraints in the provided data.
+
+
+Paper: PMC7692668.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages or the bacterial hosts.
+- The experiments were conducted using standard laboratory growth conditions (LB broth) and incubation protocols (mid-logarithmic growth phase, 2 hours incubation period), which are typical for mesophilic laboratory microbiology but do not define the organism's natural thermal niche.
+
+Environmental Context:
+- The phages are associated with *Campylobacter* species, which are generally associated with the gastrointestinal tract of animals, suggesting a mesophilic or potentially facultatively thermophilic niche, although no specific temperature data was provided.
+
+Concise Summary:
+The study details the molecular mechanisms of lysis regulation in two genera of phages infecting *Campylobacter*. The experimental procedures utilized standard laboratory growth conditions (LB broth, mid-logarithmic phase) for protein expression and lytic assays. No explicit data regarding the optimal growth temperature, temperature range, or thermal adaptation (thermophilic, psychrophilic, etc.) of the phages or their hosts were reported. The phages are associated with *Campylobacter*, suggesting an environmental origin within the gastrointestinal tract.
+
+
+Paper: PMC5808241.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but growth was maintained at 37°C.
+- Incubation conditions: Microaerobic conditions (6% CO2, 6% O2, and 88% N2H2) were used for primary culture and incubation.
+- Environmental source/habitat: Isolated from poultry/animal sources (e.g., broiler intestine, duck abattoir).
+- Thermal adaptation: The organism exhibits mesophilic growth characteristics, as indicated by the optimal growth temperature of 37°C.
+
+Environmental Context:
+- Habitat/Source: The organism is associated with the gastrointestinal tract of poultry (broiler and duck).
+
+Concise Summary:
+The organism exhibits mesophilic growth, with an optimal growth temperature of 37°C. Culturing and incubation were consistently performed under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2). The organism was isolated from animal sources, specifically the gastrointestinal tracts of poultry. No evidence of thermophilic or psychrophilic adaptation was reported; the physiological parameters align with typical mesophilic gut commensals.
+
+
+Paper: PMC4293142.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: Microaerobically at 37°C
+- Environmental source/habitat: Free-range poultry farms (chicken and goose)
+
+Environmental Context:
+- Habitat/source: Free-range poultry farms
+
+Concise Summary:
+The bacterium was cultured under standard growth conditions requiring incubation at 37°C under microaerobic conditions. No specific information regarding thermophilic, psychrophilic, or extreme temperature adaptations was provided. The organism was isolated from free-range poultry farms, suggesting a mesophilic lifestyle typical of intestinal commensals.
+
+
+Paper: PMC10877375.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but optimal growth is at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Standard growth conditions (37°C, microaerobic conditions: 6% O2, 6% CO2, 88% H2N2 or 6% O2, 6% CO2, 88% N2).
+- Environmental source/habitat: Not explicitly stated, but the pathogen is associated with foodborne infections (e.g., contaminated chicken meat).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+- Extreme environment isolation: No.
+- Explicit classification: None provided by the authors regarding thermal classification.
+
+Environmental Context:
+- Habitat/Source: Associated with the gut/intestinal tract of animals (e.g., broiler chickens).
+
+Concise Summary:
+The organism was cultured under standard conditions optimized for growth at 37°C under microaerobic conditions (6% O2, 6% CO2, 88% H2N2 or 6% O2, 6% CO2, 88% N2). The study focused on phage-host interactions and resistance mechanisms, with no specific data provided regarding the organism's thermal adaptation, survival temperature range, or isolation from extreme environments. The organism is a foodborne pathogen associated with the gut.
+
+
+Paper: PMC5808241.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated, but growth was maintained at 37°C.
+- Incubation conditions: Microaerobic conditions (6% CO2, 6% O2, and 88% N2H2) were used for primary culture and incubation.
+- Environmental source/habitat: Isolated from poultry/animal sources (e.g., broiler intestine, duck abattoir).
+- Thermal adaptation: The organism exhibits mesophilic growth characteristics, as indicated by the optimal growth temperature of 37°C.
+
+Environmental Context:
+- Habitat/Source: The organism is associated with the gastrointestinal tract of poultry (broiler and duck).
+
+Concise Summary:
+The organism exhibits mesophilic growth, with an optimal growth temperature of 37°C. Culturing and incubation were consistently performed under microaerobic conditions (6% CO2, 6% O2, and 88% N2H2). The organism was isolated from animal sources, specifically the gastrointestinal tracts of poultry. No evidence of thermophilic or psychrophilic adaptation was reported; the physiological parameters align with typical mesophilic gut commensals.
+
+
+Paper: PMC3715477.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but optimal growth is at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Microaerobic conditions (85% N2, 10% CO2, and 5% O2) for optimal growth of the primary pathogens.
+- Environmental source/habitat: Natural hosts include poultry and swine; sources include contaminated food, human/animal samples, and the environment.
+- Thermophilic adaptation: No mention of thermophilic adaptation.
+- Psychrophilic adaptation: No mention of psychrophilic adaptation.
+- Mesophilic growth: Growth is optimized at 37°C, consistent with mesophilic organisms.
+- Heat tolerance: No specific data on heat tolerance provided.
+- Cold tolerance: No specific data on cold tolerance provided.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Primary sources are associated with foodborne gastroenteritis, originating from poultry and swine, and are found in human/animal samples and the environment.
+
+
+Paper: PMC4293142.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: Microaerobically at 37°C
+- Environmental source/habitat: Free-range poultry farms (chicken and goose)
+
+Environmental Context:
+- Habitat/source: Free-range poultry farms
+
+Concise Summary:
+The bacterium was cultured under standard growth conditions requiring incubation at 37°C under microaerobic conditions. No specific information regarding thermophilic, psychrophilic, or extreme temperature adaptations was provided. The organism was isolated from free-range poultry farms, suggesting a mesophilic lifestyle typical of intestinal commensals.
+
+

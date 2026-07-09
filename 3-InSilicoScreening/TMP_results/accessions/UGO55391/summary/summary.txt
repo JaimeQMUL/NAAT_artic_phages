@@ -1,0 +1,83 @@
+Summary file for UGO55391
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC13198411.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C (used for initial incubation)
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37°C (for initial incubation); 30°C (for protein expression/induction); 23°C (for cryo-EM reaction incubation).
+- Environmental source/habitat: Not specified.
+- Mention of adaptations: None mentioned.
+- Explicit classification: None given by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/source: Not specified.
+
+Concise Summary:
+The study utilized *E. coli* BL21(DE3) for protein expression and purification. Initial bacterial cultures were grown at 37°C, followed by an induction period at 30°C. Subsequent biochemical assays and cryo-EM sample preparation were conducted at 23°C. The organism is not described as being isolated from an extreme environment, and no specific thermal adaptations (thermophilic, psychrophilic, etc.) were discussed in relation to the experimental procedures.
+
+
+Paper: 42163408.txt
+Thermal Evidence:
+- Survival at 4 °C and 37 °C.
+- No explicit optimal growth temperature or range provided.
+- No mention of thermophilic, psychrophilic, mesophilic adaptation, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Food samples (soy milk, mashed potatoes).
+
+Concise Summary:
+The bacteriophage demonstrated stability at both 4 °C and 37 °C. The phage was tested in food samples (soy milk, mashed potatoes) and showed efficacy over a seven-day incubation period. No information regarding optimal growth temperature, specific temperature ranges, or adaptation to extreme thermal environments was provided.
+
+
+Paper: 42177889.txt
+Thermal Evidence:
+- Survival temperature range: 4-45 °C
+- Optimal growth temperature: Not specified
+- Growth temperature range: Not specified
+- Incubation conditions: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Not explicitly stated, but stability across a broad range suggests mesophilic capability.
+- Heat tolerance: Indicated by stability up to 45 °C.
+- Cold tolerance: Indicated by stability down to 4 °C.
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Hospital sewage
+
+Concise Summary:
+The phage exhibits broad stability across a temperature range of 4–45 °C and a pH range of 3–12. No specific optimal growth temperature, thermophilic, psychrophilic, or mesophilic classification was provided. The phage was isolated from hospital sewage.
+
+
+Paper: PMC13193621.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Anaerobic conditions maintained with nitrogen gas bubbling through the media; pH maintained at 6.6 to 7.0.
+- Environmental source/habitat: Human gut (faecal samples).
+- Mention of adaptations: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/source: Human gut (faecal samples).
+
+Concise Summary:
+The study utilized an in vitro batch-culture fermentation colon model to simulate the human gut system. The experimental conditions were strictly controlled, maintaining a constant temperature of 37°C, anaerobic conditions via nitrogen gas bubbling, and a pH range of 6.6 to 7.0. The source material was healthy donor faecal samples, establishing the gut as the primary environmental context for the observed microbial dynamics. No specific information regarding the thermal adaptation (thermophilic, psychrophilic, mesophilic) of the detected microbial components was provided; the conditions were maintained at a standard mammalian body temperature (37°C), consistent with mesophilic growth for gut commensals.
+
+
+Paper: 42169395.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions related to temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was provided.
+
+Environmental Context:
+- The biosensors were tested using grass silage leachate samples from Austrian and Irish sources.
+- No information regarding isolation from an extreme environment or explicit thermal classification was provided.
+
+

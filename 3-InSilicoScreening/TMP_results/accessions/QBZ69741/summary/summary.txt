@@ -1,0 +1,51 @@
+Summary file for QBZ69741
+Number of papers: 3
+=============Summaries=============
+
+Paper: PMC10054541.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 35 °C (for phage adsorption, one-step growth, and endolysin activity assays).
+- Growth temperature range: Assays were conducted at 35 °C, with phage stability tested across a range from 5 °C to 95 °C.
+- Survival temperature range: Phage stability was assessed up to 95 °C, with significant loss of titer observed at 65 °C (1000-fold reduction) and complete inactivation at 75 °C and higher.
+- Incubation conditions: Endolysin activity was tested at 35 °C for 10 hours (turbidimetry) and thermal stability was tested at 20–70 °C for 1 hour.
+- Heat tolerance: Endolysin Gp84 retained activity after incubation at 60 °C, while Gp82 showed significant loss of activity at 60 °C. Gp84 was completely inactivated at 70 °C.
+- Cold tolerance: Phage titers remained similar to the control sample incubated at 5 °C.
+- Enzymes adapted to temperature: No explicit classification (e.g., thermophilic) was given, but the stability data suggests activity maintained up to 60 °C for Gp84.
+
+Environmental Context:
+- Habitat/Source: Isolated from a commercial phage cocktail used in clinical/therapeutic settings.
+- Extreme Environment Isolation: No mention of isolation from an extreme environment.
+
+Concise Summary:
+The phage exhibited optimal activity and adsorption kinetics at 35 °C. Thermal stability testing showed the phage was highly stable up to 45 °C, with significant inactivation occurring above 65 °C. Endolysin Gp84 demonstrated notable thermal resilience, retaining activity after incubation at 60 °C, whereas Gp82 showed greater thermal sensitivity. The phage maintained viability at 5 °C, indicating cold tolerance. The enzymes were tested for stability across a range up to 70 °C, with Gp84 showing superior stability compared to Gp82 under these conditions. The phage was isolated from a commercial therapeutic phage cocktail, and no evidence of isolation from an extreme environment was reported.
+
+
+Paper: PMC8322680.1.txt
+Thermal Evidence:
+- Optimal pH for storage was 7.
+- Viability was lost when pH was lower than 4 or higher than 11.
+- Stable at different temperatures, maintaining a titer of $10^5$ after 60 min incubation at $70^	ext{o}	ext{C}$.
+- Wholly inactivated over $80^	ext{o}	ext{C}$.
+- Stable for 3 months when stored at $4^	ext{o}	ext{C}$.
+
+Environmental Context:
+- Isolated from hospital sewage.
+
+Concise Summary:
+The bacteriophage was found to be stable at $4^	ext{o}	ext{C}$ for up to 3 months. It demonstrated thermal stability, maintaining titer after incubation at $70^	ext{o}	ext{C}$ for 60 minutes, but was completely inactivated above $80^	ext{o}	ext{C}$. Optimal storage pH was 7, with viability lost below pH 4 or above pH 11. The phage was isolated from hospital sewage. The data suggest mesophilic stability with good cold tolerance ($4^	ext{o}	ext{C}$) and moderate heat tolerance ($70^	ext{o}	ext{C}$).
+
+
+Paper: PMC12273212.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: 37°C
+- Mesophilic growth: Implied by the optimal growth temperature of 37°C.
+
+Environmental Context:
+- Habitat/Source: Human fecal samples (colonic fermentation).
+
+Concise Summary:
+The study utilized incubation conditions at 37°C for both single bacterial strain cultivation and in vitro fecal fermentation. The selected lactic acid bacteria strains were cultured at this optimal temperature, indicating mesophilic growth conditions for the metabolic processes studied. No explicit mention of thermophilic, psychrophilic, or extreme temperature adaptations was provided for the organisms or the processes described.
+
+

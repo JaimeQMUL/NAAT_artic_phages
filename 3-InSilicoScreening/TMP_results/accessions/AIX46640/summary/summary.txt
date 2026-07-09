@@ -1,0 +1,172 @@
+Summary file for AIX46640
+Number of papers: 11
+=============Summaries=============
+
+Paper: PMC13198022.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms are associated with the marine environment.
+- The source material discusses marine picocyanobacteria, including genera known to inhabit oceanic settings.
+
+Concise Summary:
+This study focuses on the auxiliary metabolic gene *pebS*, an enzyme involved in phycoerythrobilin biosynthesis, found in cyanophages infecting marine picocyanobacteria. The research utilized genomic and phylogenetic analyses across metagenomes and cyanobacterial assemblies. The findings confirm that *pebS* is encoded by phages, while the host cyanobacteria utilize a two-step enzymatic pathway involving *PebA* and *PebB*. The analysis confirms that the detected *pebS* sequences are associated with phage DNA, suggesting lytic phage infection in the sampled environmental samples. The study does not provide any data regarding the thermal physiology or growth conditions of the organisms involved.
+
+
+Paper: PMC13041748.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- Incubation conditions mentioned include 24° ± 2°C for growth assays.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was studied in the context of marine environments (e.g., marine cyanophages, ocean microbes).
+- The study utilized a model cyanobacterium, which is a phototroph found in marine settings.
+
+Concise Summary:
+The study focuses on the metabolic hijacking mechanisms employed by bacteriophages infecting a marine cyanobacterium. The experimental validation was conducted using a genetically tractable model cyanobacterium under controlled laboratory conditions (24° ± 2°C). The analysis is purely metabolic and computational, focusing on flux changes, and does not provide any data regarding the organism's thermal physiology, adaptation to extreme temperatures, or temperature-dependent enzyme kinetics.
+
+
+Paper: 41930475.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes was made.
+- Membrane adaptations were noted in the context of phage infection and resistance, but not in relation to temperature stress.
+
+Environmental Context:
+- Estuarine ecosystems (China).
+- The organisms were studied in both field metagenomes and laboratory-evolved mutant strains.
+
+
+Paper: PMC7472177.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 25 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Constant illumination of approximately 25 µmol m⁻² s⁻¹ at 25 °C in a 12-h/12-h light-dark cycle.
+- Environmental source/habitat: Coastal waters of the Yellow Sea; Yellow Sea; estuarine waters.
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: Coastal waters of the Yellow Sea; Yellow Sea; estuarine waters.
+
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *E. coli* MG1655 and general plaque assays).
+- Growth temperature range: 22°C (for cyanophages isolated from seawater samples).
+- Incubation conditions: 37°C (for phages against *E. coli* MG1655 and general plaque assays); 22°C (for cyanophages).
+- Environmental source/habitat: Wastewater samples, pig trough water, seawater samples, and bacterial cultures.
+
+Environmental Context:
+- The phages were isolated from diverse sources including wastewater, pig trough water, and seawater, suggesting adaptation to varied environmental conditions. The specific temperature requirements noted are 37°C (optimal for many bacterial hosts) and 22°C (for cyanophages from seawater).
+
+Concise Summary:
+The study details a methodology for sequencing phages isolated from diverse environmental sources, including wastewater, pig trough water, and seawater. The optimal incubation temperature for phages against common bacterial hosts was established at 37°C, while cyanophages isolated from seawater were incubated at 22°C. The methodology successfully applied across phages targeting various bacterial species, indicating the technique's robustness across different physiological niches. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided for the phages themselves, but the tested conditions span mesophilic ranges (22°C to 37°C).
+
+
+Paper: 41549294.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The samples were collected from an estuarine creek (khazan ecosystem) and a tropical freshwater lake.
+- The authors did not explicitly classify the organisms based on temperature adaptation (e.g., mesophile, psychrotolerant). The study focused on virome analysis and functional annotation of viral components (bacteriophages).
+
+Concise Summary:
+This virome analysis compared viral communities from an estuarine creek and a tropical freshwater lake. The study provided taxonomic and functional insights into the viral diversity, noting the predominance of Duplodnaviria. Crucially, the paper contains no direct evidence regarding the optimal growth temperature, temperature range, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic) of the associated microbial life or viruses. The environmental sources were an estuarine creek and a freshwater lake, both located in a tropical region.
+
+
+Paper: PMC12783734.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for protein expression in *E. coli*).
+- Growth temperature range: 37°C (for protein expression in *E. coli*); 25°C (for phage cultivation in *Synechococcus*).
+- Survival temperature range: Not explicitly stated for the enzyme/phage system, but *E. coli* growth was performed at 37°C.
+- Incubation conditions: 37°C for protein expression; 18°C (for *in vitro* ligation assay); 25°C (for phage cultivation).
+- Environmental source/habitat: Marine/coastal environment (phage isolation from *Synechococcus*).
+- Mention of adaptation: None explicitly stated regarding thermophilic, psychrophilic, or mesophilic adaptation for the enzymes or phage itself, though the host organism was grown at 25°C.
+
+Environmental Context:
+- Habitat/source: Marine/coastal environment (phage isolation from *Synechococcus*).
+
+Concise Summary:
+The study utilized *E. coli* for recombinant protein expression, with optimal growth temperatures noted at 37°C. Phage cultivation was conducted at 25°C. *In vitro* enzymatic assays were performed at 18°C. The source organism was isolated from a marine/coastal environment. No explicit thermal classification (e.g., mesophile, thermophile) was provided for the enzymes or the phage system itself, although the host growth conditions suggest mesophilic conditions were relevant for the system's function.
+
+
+Paper: PMC10665884.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 22°C
+- Growth temperature range: Not explicitly stated
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: Incubated at a temperature of 22°C under a constant cool-white light intensity of 20 μE m−2 s−1.
+- Mention of thermal adaptation: None.
+
+Environmental Context:
+- Habitat/Source: Surface seawater of the Changjiang River Estuary.
+
+Concise Summary:
+The phage was isolated from the surface seawater of an estuarine environment. Laboratory culture and initial isolation were performed under controlled conditions at 22°C with constant cool-white light. The paper does not provide explicit data regarding the optimal, range, or survival temperatures, nor does it discuss specific thermal adaptations (e.g., thermophilic, psychrophilic) for the phage or its host.
+
+
+Paper: PMC10436341.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 25°C
+- Growth temperature range: Not explicitly stated
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 12-h/12-h light–dark cycle
+- Environmental source/habitat: Oligotrophic open-ocean site in the South China Sea; distributed in temperate and tropical epipelagic and mesopelagic waters.
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by the 25°C incubation temperature.
+- Heat tolerance: No mention
+- Cold tolerance: No mention
+- Enzymes adapted to temperature: No mention
+- Membrane adaptations: No mention
+- Thermal stress responses: No mention
+
+Environmental Context:
+- Habitat/Source: Oligotrophic open-ocean basin (South China Sea); global distribution observed in temperate and tropical epipelagic and mesopelagic zones.
+
+Concise Summary:
+The organism was isolated from an oligotrophic open-ocean environment in the South China Sea. Laboratory culture and one-step growth curve experiments were conducted at a constant temperature of 25°C under a 12-h/12-h light–dark cycle. The study notes the phage's distribution across temperate and tropical epipelagic and mesopelagic waters, suggesting adaptation to these ambient marine conditions, but provides no specific data regarding optimal, survival, or extreme temperature ranges, or explicit classification regarding thermophilic or psychrophilic adaptation.
+
+
+Paper: PMC12029665.1.txt
+Thermal Evidence:
+- Temperature was identified as a significant factor influencing community composition, with a positive correlation observed between temperature and abundance.
+- Summer samples showed higher metabolic activity, which may be related to high temperature and strong sunlight, stimulating the expression of functional genes related to photosynthesis and pigment metabolism.
+- The study observed temperature-influenced patterns in community composition, with specific clades correlating positively with temperature.
+
+Environmental Context:
+- Coastal subtropical waters (Xiamen, China).
+
+Concise Summary:
+The organism exhibits clear seasonal variations in community structure and functional genes, with temperature being a significant environmental determinant. Higher metabolic activity and functional gene expression were noted in summer samples, which is attributed to high temperature and strong sunlight stimulating photosynthetic and pigment metabolism. The overall community composition is significantly influenced by temperature, suggesting adaptation to fluctuating thermal regimes within the subtropical coastal environment.
+
+
+Paper: PMC10808157.1.txt
+Thermal Evidence:
+- Optimal growth temperature: The optimum temperature range for high abundance was observed in the summer (27.5–29.5°C).
+- Growth temperature range: The study noted that S5.1-I was dominant in winter and spring when temperatures were $\le 16^{\circ}\text{C}$.
+- Survival temperature range: No explicit survival temperature range was provided.
+- Incubation conditions: Not applicable.
+- Thermophilic adaptation: No evidence of thermophilic adaptation was reported.
+- Psychrophilic adaptation: The dominance of a specific lineage in winter and spring at low temperatures suggests adaptation to cooler conditions.
+- Mesophilic growth: The general seasonal pattern of high abundance in summer and low abundance in winter suggests mesophilic growth within the observed temperate range.
+- Heat tolerance: No specific data on heat tolerance was provided.
+- Cold tolerance: The dominance of a lineage in winter and spring at temperatures $\le 16^{\circ}\text{C}$ suggests cold tolerance.
+- Enzymes adapted to temperature: No specific enzyme adaptations to temperature were detailed.
+- Membrane adaptations: No information regarding membrane adaptations to temperature was provided.
+- Thermal stress responses: The seasonal variation in abundance correlated positively with temperature, indicating temperature as a key regulator of growth.
+
+Environmental Context:
+- Habitat/Source: Temperate semi-enclosed bay (Jiaozhou Bay), with sampling across inner bay (estuarine), central bay, and outer bay stations.
+
+Concise Summary:
+The study investigated seasonal and spatial variations of a dominant cyanobacterium in a temperate semi-enclosed bay. Abundance exhibited a strong positive correlation with temperature, peaking in summer (optimal range $27.5–29.5^{\circ}\text{C}$) and reaching minimums in winter, consistent with temperature-driven growth patterns. The dominance of certain lineages in winter and spring at temperatures $\le 16^{\circ}\text{C}$ suggests cold tolerance, while the overall pattern points towards mesophilic growth within the observed temperate range. The variation in abundance, pigment type, and genetic diversity were found to be significantly influenced by temperature, salinity, nutrients, and turbidity. The combination of multiple techniques (flow cytometry, pigment operon sequencing, and $rpoC1$ gene sequencing) provided a comprehensive understanding of these environmental controls on the microbial community structure.
+
+

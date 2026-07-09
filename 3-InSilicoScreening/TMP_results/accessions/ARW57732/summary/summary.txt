@@ -1,0 +1,208 @@
+Summary file for ARW57732
+Number of papers: 12
+=============Summaries=============
+
+Paper: PMC13082176.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37°C (for growth curves, biofilm formation, and phage assays)
+- Environmental source/habitat: Soil, plants, surface water, hospital/clinical settings (nosocomial)
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by optimal growth at 37°C
+- Heat tolerance: Not explicitly tested
+- Cold tolerance: Not explicitly tested
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Soil, plants, surface water, and hospital/clinical environments.
+
+Concise Summary:
+The organism exhibits optimal growth at 37°C, which is the temperature used for all growth curve measurements, biofilm formation, and phage assays. The organism is described as having environmental reservoirs spanning soil, plants, and surface water, in addition to being an opportunistic pathogen in hospital settings. The growth conditions utilized throughout the study were consistently maintained at 37°C. No specific data regarding thermophilic, psychrophilic, or extreme temperature adaptations were provided; the growth profile is consistent with a mesophile.
+
+
+
+Paper: PMC12949355.1.txt
+Thermal Evidence:
+- Survival at 4 °C (refrigeration T°).
+- Survival at 37 °C (body T°).
+- Survival at -20 °C (freezing T°).
+- Survival at 25 °C (room T°).
+- Survival at 80 °C (stress T°).
+- Most phages (14/17) were inactivated at 80 °C.
+- Some phages survived at 37 °C, and a subset survived at 4 °C.
+
+Environmental Context:
+- Wastewater and river water samples from South-western Uganda.
+
+Concise Summary:
+The isolated phages demonstrated survival across a range of temperatures, including 4 °C, 25 °C, 37 °C, and -20 °C. Thermal stability testing showed that while most phages were inactivated at 80 °C, some phages maintained lytic activity at 37 °C, suggesting mesophilic characteristics. The phages were isolated from environmental sources, specifically river and wastewater samples in South-western Uganda. No explicit classification (e.g., thermophilic, psychrophilic) was provided by the authors, but the survival profile indicates adaptation to ambient and body temperatures.
+
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 1 hour at 22°C with illumination (for cyanophages); overnight incubation at 37°C (for phages against *Enterobacter* group).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The isolation protocols utilized incubation temperatures ranging from 22°C to 37°C, suggesting adaptation to mesophilic conditions typical of environmental reservoirs.
+
+
+Paper: PMC10132071.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for phage isolation and propagation).
+- Growth temperature range: 30°C (for phage isolation and propagation).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 30°C with shaking (160 r.p.m.) was used for phage isolation and propagation.
+- Environmental source/habitat: Wastewater samples collected from a wastewater treatment plant.
+- Mention of adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was provided.
+- Explicit classification: No explicit thermal classification was given by the authors.
+
+Environmental Context:
+- Habitat/Source: Wastewater samples from a wastewater treatment plant.
+
+Concise Summary:
+Phage isolation and characterization were conducted using incubation and propagation conditions at 30°C with shaking. The phage was isolated from wastewater samples collected from a wastewater treatment plant. The study details phage life cycle measurements, including one-step growth curves, performed at 30°C. No specific information regarding the organism's thermal adaptation, such as thermophilic, psychrophilic, or mesophilic classification, was provided in the text.
+
+
+Paper: PMC13027821.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Shaking incubation at 37 °C for 16 h, followed by continued shaking cultivation.
+- Environmental source/habitat: Not explicitly stated for the chassis cells, but the source organism for the GV gene cluster was from a marine environment.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the use of 37 °C incubation for *E. coli* strains.
+- Heat tolerance: No specific data provided.
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- The chassis cells used for heterologous expression were selected for their established laboratory use or specific physiological traits (e.g., probiotic, marine bacterium). The source organism for the GV gene cluster was derived from a marine source.
+
+Concise Summary:
+The study utilized several bacterial chassis strains, including *Escherichia coli* variants, *Salmonella*, and *Vibrio*, for the heterologous biosynthesis of gas vesicles (GVs). The primary growth and induction conditions employed were standard laboratory protocols, involving incubation at 37 °C with shaking. The source organism for the GV gene cluster was derived from a marine environment. The physiological context suggests the use of mesophilic organisms, as indicated by the optimal incubation temperature of 37 °C. No specific data regarding the thermal adaptation (thermophilic, psychrophilic) or survival temperature ranges of the chassis cells were provided; the focus remained on optimizing GV yield and imaging performance under standard culture conditions.
+
+
+Paper: PMC11778176.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for *Serratia* and *Pectobacterium* strains).
+- Growth temperature range: 30°C (implied optimal/standard culture temperature).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 30°C for potato rotting assays; 25°C for *C. elegans* killing assays; 30°C for overnight liquid cultures.
+- Environmental source/habitat: Phytopathogen; soft rot in potato.
+- Thermal adaptation: No explicit classification (e.g., thermophilic, psychrophilic) provided. The organism is cultured at 30°C, suggesting mesophilic growth.
+
+Environmental Context:
+- Habitat/Source: Phytopathogen; soft rot in potato.
+
+Concise Summary:
+The organism is characterized as a phytopathogen that causes soft rot in potato. Standard laboratory culture conditions utilized for growth and assays were 30°C, with specific virulence assays conducted at 25°C. The study does not provide explicit data on the organism's thermal adaptation, but the consistent use of 30°C suggests mesophilic growth conditions. The organism was isolated from a plant-associated environment (phytopathogen).
+
+
+
+Paper: PMC11726168.1.txt
+Thermal Evidence:
+- Incubation temperature for protein production in *E. coli* was $25^	ext{o}	ext{C}$ for an additional 12–14 h after initial growth at $37^	ext{o}	ext{C}$.
+- Crystallization of the enzyme was performed at $20^	ext{o}	ext{C}$.
+- The in vitro activity assay was conducted at $30^	ext{o}	ext{C}$.
+
+Environmental Context:
+- The organism was isolated from a source associated with a putative secondary metabolite biosynthetic gene cluster, but no specific extreme environment or habitat was detailed for the organism itself.
+
+Concise Summary:
+The enzyme was studied in vitro at $30^	ext{o}	ext{C}$, and crystallization was performed at $20^	ext{o}	ext{C}$. Protein expression in *E. coli* involved an initial growth phase at $37^	ext{o}	ext{C}$, followed by induction and incubation at $25^	ext{o}	ext{C}$. No explicit classification regarding thermal adaptation (e.g., thermophilic, mesophilic) was provided for the source organism.
+
+
+Paper: PMC12081810.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but growth was optimized at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Growth was performed at 37 °C for 72 hours (induction period) and for 3 days (fermentation time).
+- Environmental source/habitat: Not specified for the engineered system, but the source organisms included species from various environments (e.g., cyanobacteria, *Bacillus* species, *Halobacterium* species).
+- Thermophilic adaptation: No mention of thermophilic adaptation.
+- Psychrophilic adaptation: No mention of psychrophilic adaptation.
+- Mesophilic growth: The optimal growth temperature of 37 °C suggests mesophilic growth conditions for the host organism (*E. coli*).
+- Heat tolerance: No specific data on heat tolerance was provided.
+- Cold tolerance: No specific data on cold tolerance was provided.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No specific mention of membrane adaptations.
+- Thermal stress responses: No specific mention of thermal stress responses.
+
+Environmental Context:
+- The study utilized a combination of gene clusters from diverse sources, including cyanobacteria, *Bacillus* species, and halophilic archaea, indicating the potential for utilizing genes from various environmental niches.
+
+Concise Summary:
+The study focused on engineering gas vesicles (GVs) using a combinatorial biosynthesis strategy in *E. coli*. The optimal growth and induction conditions for the engineered system were established at 37 °C, suggesting mesophilic growth for the host bacterium. While the source gene clusters were derived from diverse microorganisms (including cyanobacteria, *Bacillus* species, and halophilic archaea), the experimental procedures for the final engineered system were conducted under standard laboratory mesophilic conditions (37 °C). No specific data regarding the thermophilic, psychrophilic, or extreme temperature adaptations of the utilized components were reported.
+
+
+Paper: PMC13113151.1.txt
+The provided text snippets do not contain specific information regarding the optimal growth temperature or temperature tolerance for any organism. Therefore, I cannot generate a summary based on temperature data.
+
+
+Paper: PMC13097137.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for one bacterial strain) and 30 °C (for another bacterial strain).
+- Growth temperature range: Not explicitly stated, but optimal growth was observed at 30 °C and 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultivation was performed on agar plates at 37 °C and 30 °C. Cell culture was maintained at 37 °C in a humidified atmosphere with 5% CO2.
+- Environmental source/habitat: One organism was derived from a cyanobacterium; another was derived from a cyanobacterium. The study also involved testing in HeLa cells (human cervical carcinoma line).
+- Mention of adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was provided.
+
+Environmental Context:
+- Habitat/Source: Cyanobacteria (source of natural products); Human cell line (HeLa cells).
+
+Concise Summary:
+The study utilized two distinct bacterial strains, one optimized for growth at 37 °C and another at 30 °C. Cell culture experiments were conducted under standard mammalian cell culture conditions (37 °C, 5% CO2). The natural products were sourced from cyanobacteria. No specific thermal adaptation classifications (e.g., thermophilic, psychrophilic) were provided for the organisms studied, focusing instead on their biochemical mechanism of action (uncoupling oxidative phosphorylation) across different biological systems (prokaryotic and eukaryotic). The physiological assays were conducted at standard physiological temperatures (30–37 °C).
+
+
+Paper: PMC13060164.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation performed at 37 °C for 11 hours.
+- Environmental source/habitat: Not explicitly stated.
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: Not explicitly stated.
+
+Concise Summary:
+The experimental procedures utilized incubation and assay temperatures of 37 °C. No information regarding the organism's optimal growth temperature range, survival temperature range, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic) was provided in the text. The organism was not stated to be isolated from an extreme environment, and no explicit thermal classification was given by the authors.
+
+
+Paper: PMC12409353.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 30°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 30°C.
+- Environmental source/habitat: Salt-marsh environment.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the optimal growth temperature of 30°C.
+- Heat tolerance: No mention.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/source: Salt-marsh environment.
+
+Concise Summary:
+The bacterium was cultured and subjected to serial passage evolution experiments at an optimal temperature of 30°C. The organism was isolated from a salt-marsh environment, suggesting mesophilic growth conditions. No specific data regarding thermophilic, psychrophilic, or extreme temperature adaptations were provided in the text.
+
+

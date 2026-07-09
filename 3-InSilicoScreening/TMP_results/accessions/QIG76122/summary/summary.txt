@@ -1,0 +1,46 @@
+Summary file for QIG76122
+Number of papers: 3
+=============Summaries=============
+
+Paper: PMC5968381.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organisms studied.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was made.
+- No details regarding temperature-adapted enzymes or membrane adaptations were reported.
+
+Environmental Context:
+- The organisms were studied in the context of root nodules associated with legumes (e.g., *Phaseolus vulgaris*, *Mimosa affinis*, *Trifolium* spp.).
+- The study focused on the molecular mechanisms of horizontal gene transfer (HGT) and symbiotic plasmid evolution, rather than physiological responses to temperature stress.
+
+Concise Summary:
+The paper details a novel computational method (RecentHGT) for detecting recent horizontal gene transfer (HGT) events between bacterial genomes, specifically applied to *Rhizobium* strains associated with legume root nodules. The analysis focuses on sequence similarity distributions, the Expectation-Maximization (EM) algorithm, and the Weibull distribution to quantify gene transfer, particularly mediated by symbiotic plasmids (pSyms). No data regarding the optimal growth temperature, temperature range, or thermal adaptation of the studied bacteria were presented; the focus was purely on genomic evolution and comparative genomics.
+
+
+Paper: PMC11872809.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C
+- Growth temperature range: 28°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 28°C (for general growth/assays); 30°C (for competition assays); 16°C (for nodulation assays, 8h); 18°C (for nodulation assays, 8h); 26°C (for nodulation assays).
+- Environmental source/habitat: Soil-borne (rhizosphere).
+- Thermal adaptation: No explicit classification (e.g., mesophile, thermophile) provided; growth is observed across a range including 16°C to 30°C, suggesting mesophilic capability.
+
+Environmental Context:
+- Habitat/Source: Soil-borne, rhizosphere.
+
+Concise Summary:
+The organism exhibits optimal growth at 28°C. Incubation conditions tested for various assays spanned a range, including 16°C to 30°C, suggesting mesophilic growth capabilities. The organism is naturally found in the soil-borne rhizosphere. No evidence of adaptation to extreme temperatures (thermophilic or psychrophilic) was reported, and no explicit thermal classification was provided by the authors.
+
+
+Paper: PMC13133039.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organisms were isolated from root nodules of compatible legume plants, soil, and were associated with plant-microbe interactions.
+
+Concise Summary:
+This study focuses on the diversity and evolution of quorum-sensing systems in a genus of bacteria associated with legume root nodules. The analysis utilized comparative genomics across 142 complete genomes. The research details the genetic distribution of AHL-based QS systems (LuxI/LuxR) across chromosomes and plasmids, highlighting the role of horizontal gene transfer in shaping QS evolution. Key findings include the identification of multiple, independent acquisition events of QS systems on the chromosome, and the observation that plasmid-encoded systems exhibit greater diversity and mobility compared to chromosomal ones. The study also analyzed the coevolutionary patterns, noting that chromosomal pairs show evidence of stable, vertical inheritance, while plasmid-borne systems show high plasticity. The research also identified evidence of QSS gene exchange between plasmids and chromosomes, and documented instances of QSS degradation (pseudogenes or truncated genes). The environmental context is consistently linked to plant-microbe interactions, particularly nitrogen fixation and symbiosis with legumes.
+
+

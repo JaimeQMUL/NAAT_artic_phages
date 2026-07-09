@@ -1,0 +1,63 @@
+Summary file for CAD5241258
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC8006926.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but culturing was performed at 37°C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Overnight incubation at 37°C for plaque assays; incubation at 37°C for lysis period measurements.
+- Environmental source/habitat: Isolated from rivers, ponds, estuaries, canals, slurry, and sewage.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/source: Water samples from various sources including sewage, rivers, ponds, estuaries, canals, and slurry.
+
+
+Paper: PMC11782208.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (implied by standard incubation conditions).
+- Growth temperature range: 30°C to 70°C (stable lytic activity observed).
+- Survival temperature range: Stable at 30°C to 70°C; activity significantly decreased at 70°C and lost at 80°C.
+- Incubation conditions: Standard incubation at 37°C was used for initial characterization.
+- Environmental source/habitat: River water sample.
+- Thermophilic adaptation: No explicit mention.
+- Psychrophilic adaptation: No explicit mention.
+- Mesophilic growth: Implied by optimal activity at 37°C.
+- Heat tolerance: Demonstrated stability up to 70°C.
+- Cold tolerance: Stable activity observed down to 30°C.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Stability assessed across a range of 30–80°C.
+
+Environmental Context:
+- Habitat/source: River water sample (Jungnangcheon River).
+- Extreme environment isolation: No explicit mention of isolation from an extreme environment.
+- Explicit classification: No explicit classification given by the authors regarding temperature adaptation (e.g., mesophile, thermophile).
+
+
+Paper: PMC13198607.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was isolated from a freshwater lake in Central Europe.
+
+Concise Summary:
+The study provides detailed morpho-molecular characterization of a ciliate component within a tripartite symbiotic system found in a freshwater snail. The analysis focuses on taxonomy, phylogeny, and the metabolic interactions within the symbiosis (snail-ciliate-algae). No data regarding the organism's thermal physiology, optimal growth temperature, or adaptation to extreme temperatures were presented.
+
+
+Paper: PMC13198723.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, range, or survival temperatures were provided for any organism.
+
+Environmental Context:
+- No environmental source or habitat information related to temperature was provided for any organism.
+
+Concise Summary:
+This paper focuses on developing and benchmarking a computational framework (Untangled) for unsupervised consensus clustering of high-dimensional biological datasets derived from high-throughput screening (e.g., drug-by-imaging, transcriptomics). The analysis involves computational methods applied to data from various biological systems (e.g., ovarian cancer cell lines, *E. coli* gene deletion library, human PBMC data) and does not contain any physiological data regarding the temperature, growth conditions, or thermal adaptations of any microorganisms.
+
+

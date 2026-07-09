@@ -1,0 +1,336 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Biomolecules
+Journal ID: Biomolecules
+Journal ID: biomolecules
+
+Biomolecules
+
+EISSN: 2218-273X
+Publisher: Multidisciplinary Digital Publishing Institute (MDPI)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC9405906
+PMID: 36009001
+DOI: 10.3390/biom12081107
+Article ID: biomolecules-12-01107
+Article version: 1
+Subjects: Article
+
+Characterization of a Virally Encoded Flavodoxin That Can Drive Bacterial Cytochrome P450 Monooxygenase Activity
+
+Lamb David C. 1 *
+Goldstone Jared V. 2
+https://orcid.org/0000-0003-0104-7508 Zhao Bin 3
+Lei Li 4
+Mullins Jonathan G. L. 1
+https://orcid.org/0000-0001-8504-7171 Allen Michael J. 5
+Kelly Steven L. 1
+Stegeman John J. 2
+Urban Philippe Academic Editor
+1 Faculty of Medicine, Health and Life Sciences, Swansea University, Swansea SA2 8PP, UK
+2 Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543-1050, USA
+3 Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, NB21, Cleveland, OH 44195, USA
+4 Department of Biochemistry, Vanderbilt University Medical School, Vanderbilt University, Nashville, TN 37232-0146, USA
+5 Department of Biosciences, College of Life and Environmental Sciences, University of Exeter, Stocker Road, Exeter EX4 4QD, UK
+* Correspondence: d.c.lamb@swansea.ac.uk
+Electronic publication date: 2022 Aug 11
+Publication date: 2022 Aug
+Volume: 12
+Issue: 8
+Electronic Location ID: 1107
+Received 2022 May 31; Accepted 2022 Aug 4
+Copyright: © 2022 by the authors.
+Copyright year: 2022
+License: Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: flavodoxin, virus/phage, cytochrome P450, evolution, Bacteria
+
+Funding: National Institutes of Health 5U41HG003345 Woods Hole Center for Oceans and Human Health NIH P01 ES021923 NSF OCE-1314642 European Regional Development Fund/Welsh European Funding Office The study was supported by the National Institutes of Health grant 5U41HG003345 (J.V.G.), by the Woods Hole Center for Oceans and Human Health, NIH P01 ES021923 and NSF OCE-1314642 (J.J.S.), and by a Fulbright Scholarship (to D.C.L.). Funding at Swansea University supported by the European Regional Development Fund/Welsh European Funding Office via the BEACON project (S.L.K).
+
+==============================
+Flavodoxins are small electron transport proteins that are involved in a myriad of photosynthetic and non-photosynthetic metabolic pathways in Bacteria (including cyanobacteria), Archaea and some algae. The sequenced genome of 0305φ8-36, a large bacteriophage that infects the soil bacterium Bacillus thuringiensis, was predicted to encode a putative flavodoxin redox protein. Here we confirm that 0305φ8-36 phage encodes a FMN-containing flavodoxin polypeptide and we report the expression, purification and enzymatic characterization of the recombinant protein. Purified 0305φ8-36 flavodoxin has near-identical spectral properties to control, purified Escherichia coli flavodoxin. Using in vitro assays we show that 0305φ8-36 flavodoxin can be reconstituted with E. coli flavodoxin reductase and support regio- and stereospecific cytochrome P450 CYP170A1 allyl-oxidation of epi-isozizaene to the sesquiterpene antibiotic product albaflavenone, found in the soil bacterium Streptomyces coelicolor. In vivo, 0305φ8-36 flavodoxin is predicted to mediate the 2-electron reduction of the β subunit of phage-encoded ribonucleotide reductase to catalyse the conversion of ribonucleotides to deoxyribonucleotides during viral replication. Our results demonstrate that this phage flavodoxin has the potential to manipulate and drive bacterial P450 cellular metabolism, which may affect both the host biological fitness and the communal microbiome. Such a scenario may also be applicable in other viral-host symbiotic/parasitic relationships.
+
+1. Importance
+
+Herein, we demonstrate that virally encoded flavodoxin has the potential to manipulate and drive host bacterial P450 cellular metabolism affecting both host biological fitness and the communal microbiome. Viral phenotypic impact was thought limited to merely affecting host mortality. Recent work has cast this aspersion aside, as we have come to realize that close metabolic integration appears to be required for viruses to subdue and coerce their unwitting hosts. Our work herein clearly demonstrates the potential for viruses to not just manipulate ‘virus centric’ replication activities, but also broader host metabolic activities and cellular function(s) as well.
+
+2. Introduction
+
+Flavodoxins (Fld) are small water-soluble electron transfer proteins that contain non-covalently bound flavin mononucleotide (FMN) as the active redox component [1]. Flds were first discovered in the 1960s in both cyanobacteria and Clostridia growing in low iron conditions, where they serve as electron carriers, replacing iron-containing ferredoxin (Fd) in metabolic reactions leading to NADP+ and N2 reduction [2,3]. Since that time, Flds have been isolated from numerous Bacteria, Archaea, cyanobacteria and some eukaryotic algae [1]. Flds are located in the bacterial cytosol and algal chloroplasts and function in electron-consuming metabolic pathways and act as electronic switches between cellular sources of reducing power (e.g., light-driven reactions, pyridine nucleotides, sugars). Biochemically, all characterised flavodoxin proteins to date are highly acidic proteins consisting of ~140–180 amino acid residues (MWs~15–22 kDa) and structurally consist of a five-stranded parallel beta sheet enclosed by alpha helices on either side [1]. Catalytically, the Fld FMN cofactor is responsible for electron transfer, cycling between a neutral semiquinone (sq) and hydroquinone (hq) forms [4,5].
+
+In bacteria the Fld gene is inducible, functioning as an adaptive resource under environmental or nutritional hardships (e.g., iron limitation). Furthermore, Fld has been shown to be an essential gene in some bacteria such as Escherichia coli [6] and Helicobacter pylori [7]. Although not present in higher eukaryotes such as plants and animals, a descendent of the Fld gene appears fused in some eukaryotic genes that encode multidomain redox proteins, e.g., cytochrome P450 reductase (POR) [8]. Flds are divided into short-chain and long-chain types differing by a 20-residue loop of unknown function. Based on phylogenetic analysis it has been proposed that the long-chain Flds may have preceded the shorter ones in evolution [9]. Long chain Flds are found exclusively in cyanobacteria and algae [10,11].
+
+Genes thought to encode flavodoxin have been tentatively annotated in some viral (bacteriophage) genomes. In such phages, the flavodoxin gene is most often associated with genes encoding α and β-ribonucleotide reductase (RNR), and the gene products are thought to form a reversible protein complex that is responsible for converting ribonucleotides to deoxyribonucleotides, a critical reaction for viral DNA synthesis [12,13]. In this reaction, flavodoxin is proposed to mediate the two-electron reduction of the di-ferric cluster of RNR via two successive one-electron transfers. However, this has never been shown experimentally.
+
+Previously, we have reported that genes for multiple and unique monooxygenase cytochromes P450 enzymes are encoded in many genomes of giant viruses (Megavirales) including Mimiviridae and Pandoraviridae [14]. Therein, we also reported that P450 genes are encoded in other viral genomes including a herpesvirus (Ranid herpesvirus 3) and a Mycobacterium phage (Mycobacterium phage Adler). However, genes encoding known P450 redox partners (cytochrome P450 reductase or POR, ferredoxin and ferredoxin reductase, flavodoxin and flavodoxin reductase) were not found in any viral/phage genome thus far described, implying that host redox partners may drive viral P450 activities [14]. Herein, we now show that a bacteriophage 0305φ8-36 [15,16] encodes FMN-bound flavodoxin that can drive bacterial P450 activity, namely CYP170A1 oxidation, to produce the sequiterpene albaflavenone in the soil bacterium Streptomyces coelicolor. This result strongly suggests that phage flavodoxin can influence the biochemical activity of bacterial host enzymes, including P450 enzymes. The environmental relevance of bacteriophages for microbial systems has been widely explored in aquatic environments, but our current understanding of the role of phage(s) in soil ecosystems remains limited. Our results emphasize the importance of accounting for the effect of phage-encoded enzymes on interacting with and manipulating host metabolic pathways and therefore community function, with a novel and exciting example here from the soil microbiome.
+
+3. Materials and Methods
+
+3.1. Bioinformatic and Phylogenetic Analysis
+
+Fld sequences were retrieved from the NCBI sequence databases and BLAST searches employed to identify candidate phage Fld genes. Inferred protein sequences were initially aligned using ClustalOmega [17] and scored with T-Coffee [18]. Alignments were then visualized in BioEdit [19]. Final sequence alignment was constructed as described previously [20]. Virus names are those in the original reports or Genbank. Note that the sequence identities in the text are pairwise amino acid identities based on the length of the shortest protein in the alignment. Identity values used in the tables are based on multiple sequence alignments and are usually not more than 1% different from values stated in the text. Phylogenetic analyses were conducted on a mixture sequences obtained from BLAST searches of the NCBI databases, host sequences, and reference flavodoxin sequences. Sequences were aligned to the PFAM flavodoxin hidden Markov model (FMN_red, PF03358.18) using Clustal-omega v1.2.2 [17]. Maximum likelihood analyses were carried out using RAxML-NG (v1.1.0) [21]. Twenty independent ML searches were carried out followed by 1000 bootstrap replicates. Bootstrap support was assigned using the transfer bootstrap expectation method [22] and visualized using Figtree.
+
+3.2. Cloning, Heterologous Expression and Purification of 0305φ8-36 Flavodoxin
+
+The 0305φ8-36 flavodoxin gene was generated by DNA2.0 (Eurofins) and gene integrity confirmed by DNA sequencing. A unique NdeI restriction site was generated prior to the ATG start codon and a HindIII site following the TGA stop codon to facilitate cloning into the E. coli expression plasmid, pET17b. Additionally, a six residue polyhistidine tag was engineered into the C-terminus of the protein to allow purification of the expressed protein by Ni2+-NTA affinity chromatography. 0305φ8-36 Fld was expressed and purified using similar conditions described for P450 haemoproteins in our laboratory [23,24]. Briefly, transformed BL21(DE3)pLys cells were cultured overnight in Luria Bertani broth containing 100 μg/mL ampicillin. After inoculation (1:100) in 3 litres of Terrific Broth containing 100 μg/mL ampicillin, growth was carried out at 37 °C and 250 rpm for 6 h. Following the addition of riboflavin (1 mM final concentration) for flavin synthesis, flavodoxin expression was induced by the addition of isopropyl-β-D-thiogalactopyranoside (1 mM final concentration). Cell growth was continued for an additional 24 h at 27 °C and 190 rpm. Cells were harvested by centrifugation, resuspended in 250 mM sucrose, 50 mM Tris-HCl, pH 7.4 and disrupted by sonication. The insoluble cell debris was removed by centrifugation at 12,000× g and the supernatant applied to a 5 mL nickel affinity chromatography column (Qiagen) pre-equilibrated with 50 mM Tris-HCl, 100 mM NaCl, 20 mM imidazole, pH 7.4. Unbound protein was removed with further washes, and the His-tagged protein eluted in a single step with 50 mM Tris-HCl, 100 mM NaCl, 500 mM imidazole, pH 7.4. The eluted protein was concentrated to 2 mL using a 3 kDa molecular weight cut off Amicon centrifugal concentrator (Amicon, Merck) and glycerol (20% (v/v)) was added as a cryoprotectant. The purified protein was frozen at −80 °C until used.
+
+3.3. Reconstitution of Streptomyces coelicolor CYP170A1 Activity with 0305φ8-36 Flavodoxin
+
+S. coelicolor CYP170A1 (1 nmol), 0305φ8-36 flavodoxin or E. coli flavodoxin (10 nmol), and E. coli flavodoxin reductase (2 nmol) were reconstituted in 400 μL of 50 mM Tris-HCl buffer (pH 8.2) containing 20% (v/v) glycerol and epiisozizaene (20 nmol) plus 1% (v/v) Me2SO. Following incubation of this mixture for 5 min on ice, the reconstituted enzyme solution was placed in a shaking bath at 35 °C. The reaction was started by the addition of NADPH to a final concentration of 1 mM and 60 μL of an NADPH-regenerating system (glucose-6-phosphate (60 mM), β-nicotinamide adenine dinucleotide phosphate (3 mM), and glucose-6-phosphate dehydrogenase (0.2 unit)). The reaction was carried out for 1.5 h in a 10-mL test tube, at which time it was quenched with 4 μL of concentrated HCl and extracted three times with 400 μL of pentane:methylene chloride (4:1). The extracts were concentrated under a stream of N2, and 2 μL of extract was analyzed by gas chromatography/mass spectrometry (GC/MS). The mixtures were extracted and analyzed by GC/MS. Turnover rates for the epi-isozizaene oxidation was determined from triplicate experiments.
+
+3.4. General Methods
+
+The flavin content of Flds were determined by UV-visible and fluorescence spectrometry [25]. S. coelicolor CYP170A1 was expressed and purified as reported earlier [26]. To improve protein expression, CYP170A1 was coexpressed with molecular chaperones GroES/GroEL. Reduced carbon monoxide (CO) difference spectra for quantification of CYP170A1 content were measured and calculated according to the method described by Omura and Sato [27]. Additionally, recombinant E.coli flavodoxin and flavodoxin reductase were expressed and purified as described previously [28]. Protein quantification was performed by using the bicinchoninic acid assay. Unless otherwise stated, all chemicals were supplied by Sigma Chemical Company (Poole, Dorset, United Kingdom). UV-visible absorption spectra of purified flavodoxins and cytochrome P450 were recorded using a Shimadzu UV-2401 scanning spectrophotometer as described previously [26,29].
+
+4. Results
+
+4.1. Bioinformatic and Phylogenetic Analysis of 0305φ8-36 ORF223
+
+Our earlier work has shown that some giant viruses and a Mycobacterium phage encode cytochrome P450 monooxygenase enzymes, however the associated genes for P450 electron transfer proteins have remained elusive [14]. Hence, we have looked in more detail for the presence of P450 redox partner genes in the virosphere. A BLASTP bioinformatic search of all published viral genomes, using flavodoxin amino acid sequences from a variety of bacterial sources, revealed the presence of a putative flavodoxin gene (ORF223) present in the genome of the bacteriophage 0305φ8-36. 0305φ8-36 has a genome size of 218 kb and contains 247 putative ORFs [15,16]. 0305φ8-36 infects the bacterium Bacillus thuringiensis, a soil bacterium commonly used as a biological pesticide [30]. The complete genome sequence of 0305φ8-36 was published in 2007 (Genbank accession no. EF583821). Examination of the genomic context of 0305φ8-36 ORF223 reveals that this putative flavodoxin gene is directly downstream of 2 ORFs predicted to encode α and β ribonucleotide reductase (ORFs 224 and 225 respectively) and that all three genes are translated from the same mRNA transcript (Figure 1), suggesting gene products that work in a complex.
+
+The 0305φ8-36 ORF223 is predicted to encode a 147 amino acid polypeptide with a predicted molecular weight 16.5 kDa. The isoelectric point of 0305φ8-36 ORF223 was calculated to be approximately 4.9, resulting in an acidic protein similar to other flavodoxin proteins [1]. Amino acid sequence alignment revealed that key bacterial flavodoxin residues essential to binding and stabilising of the FMN cofactor, as determined by protein crystallography analysis of E. coli FldA, are also conserved in the 0305φ8-36 phage flavodoxin protein. These include Thr14 and Thr17 (Thr12 and Thr15 in E. coli flavodoxin), whose side chains form hydrogen bonds to stabilise the FMN phosphate group. Also conserved were phage Trp61 and Tyr97 (Trp57 and Tyr94 in E. coli flavodoxin), which form tight coplanar interactions with the isoalloxazine ring of FMN (Figure 2).
+
+BLASTP analysis of 0305φ8-36 ORF223 against the public databases resulted in the best matches (46–37% sequence identity) to predicted flavodoxin proteins from soil dwelling bacteria including Bacillus massiliosenegalensis (46.5% identity; E-value 2 × 10−35); Bacillus alkalicellulosilyticus (43.2% identity; E-value 5 × 10−33); Rhodococcus qingshengii (43.7% identity; E-value 2 × 10−32) and Mycobacteroides abscessus subsp. Abscessus (42.3% identity; E-value 5 × 10−29). BLASTP analysis of 0305φ8-36 ORF223 against B. thuringiensis genomes revealed matches with a number of predicted flavodoxin proteins but with lower sequence identity (34–31% sequence identity; 95–65% sequence coverage e.g., Bacillus thuringiensis MC28, 33% identity, E-value 7 × 10−16). The closest homologues of most of the 0305φ8-36 virion protein-encoding genes and a few replicative genes were found to reside in a single segment of the chromosome of B. thuringiensis serovar Israelensis. Sequence identity between B. thuringiensis serovar Israelensis flavodoxin and 0305φ8-36 flavodoxin is only 31%. Thus, it is difficult to say with any great certainty whether the 0305φ8-36 phage captured ORF223 by horizontal gene transfer from the host B. thurigiensis or from another soil bacterial species.
+
+We also undertook a BLASTP analysis to search for the presence of flavodoxin genes in other viruses. Putative flavodoxin genes were identified in the following phages: Psychrobacillus phage Perkons (34.7% identity; E-value 2 × 10−9); Enterococcus phage EF1 (31.3% identity; E-value 3 × 10−8); Bacillus phage vB_BcoS-136 (32% identity; E-value 3 × 10−7) and Staphylococcus phage vB_SepS_SEP9 (28.2% identity; E-value 8 × 10−4) and many identical or near identical isolates in Listeria phage (19 isolates; see also Table 1 for a list of phage genomes with encoded flavodoxin genes). We performed maximum likelihood (ML) phylogenetic analyses of 0305phi8-36 along with these additional phage proteins and the respective hosts of most of the phages with flavodoxins. Most of the phage proteins cluster together, in many cases with the host from which they were isolated (e.g., Listeria, Psychrobacillus). In other cases, notably 0305phi8-36, and Staphylococcus, Enterococcus, and Arcanobacterium phages, the phages are not clustered with their hosts, perhaps reflecting an origin in other soil bacteria (Figure 3).
+
+4.2. Expression, Purification and Spectral Analysis of Recombinant 0305φ8-36 ORF223
+
+The heterologous expression of histidine-tagged 0305φ8-36 ORF223 in E. coli and purification using Ni2+-NTA affinity chromatography yielded an average of 10 mg of purified flavodoxin protein per liter of culture. Cell fractionation by ultracentrifugation at 100,000× g revealed 0305φ8-36 ORF223 to be a soluble protein being located in the cytosolic fraction. No FMN-bound protein was detected in the isolated E. coli membranes. After two consecutive Ni2+-affinity chromatography purification steps a homogeneous band was observed on sodium dodecyl sulphate-polyacrylamide gel electrophoresis at approximately ~20 kDa, compared with the predicted molecular mass of the protein (16.5 kDa). This is probably due to inclusion of the engineered His tag into the recombinant protein, which results in mobility retardation in the PAGE gel. The UV-visible absorption spectrum of purified 0305φ8-36 ORF223 showed maxima at 360 and 460 nm with a shoulder at 490 nm typical of oxidized Flds (Figure 4). The spectra generated for 0305φ8-36 ORF223 protein was similar with those produced for control purified E. coli flavodoxin (Figure 4; [23,26]) and these characteristics are typical of other purified and spectrally characterized flavodoxin proteins described in the literature [11,28].
+
+4.3. Characterization of the Catalytic Activity of 0305φ8-36 Flavodoxin in P450-Mediated Monooxygenation
+
+In the soil bacterium S. coelicolor, cytochrome P450 170A1 (CYP170A1) catalyzes the sequential allylic oxidation of epi-isozizaene to the sequiterpene, albaflavenone (Figure 5A). Because the endogenous reductase complex is not known for CYP170A1, we previously used the E. coli flavodoxin and flavodoxin reductase system to drive this monooxygenase activity [26]. To investigate if 0305φ8-36 flavodoxin is functionally active we reconstituted S. coelicolor CYP170A1 enzymatic activity, replacing E. coli flavodoxin in the E. coli flavodoxin/flavodoxin system with the viral flavodoxin protein. Analysis of the CYP170A1-catalyzed reaction products by GC/MS revealed the time-dependent formation of two isomeric albaflavenol products with m/z 220 (tR 11.8 min; tR 12 min) and the ketone albaflaveone sequiterpene product with m/z 218 (tR 12.7 min) (Figure 5B). Using the E. coli flavodoxin/flavodoxin reductase couple, the turnover number was calculated to be ~0.36 ± 0.04 min−1 for the conversion of epi-isozizaene to albaflavenone. When the E. coli flavodoxin was replaced with 0305φ8-36 flavodoxin the turnover number was ~0.29 ± 0.03 min−1. Negative control incubations lacking CYP170A1, flavodoxins, or NADPH did not generate any products.
+
+5. Discussion
+
+When first discovered, flavodoxin was characterized as a key electron transfer protein functioning in photosynthetic cyanobacteria growing under limiting iron conditions [2,3]. Since that time flavodoxins have been discovered in numerous non-photosynthetic organisms, mainly Bacteria and in Archaea, where they function in diverse metabolic pathways. For example, in E.coli flavodoxin is involved in the biosynthesis of methionine through activation of cobalamine-dependent methionine synthase [60]; in B. subtilis flavodoxin plays a role in electron transfer to drive the cytochrome P450 enzyme (CYP107H1) involved in the biosynthesis of the water-soluble vitamin biotin [61]; and in the diazotroph Azotobacter vinelandii flavodoxin transfers reducing equivalents to the nitrogenase enzyme involved in nitrate reduction [62]. In the archaeon Methanosarcina acetivorans a flavodoxin plays a role in electron transfer in the metabolic pathway converting acetate to methane [63]. In bacterial cytochrome P450 systems flavodoxin, while driving P450 as a stand-alone protein, can be structurally linked to P450 in three ways: (i) fused to a P450 domain e.g., Rhodococcus rhodochrous XplA which is used in biotechnology to degrade the military explosive hexahydro-1,3,5-trinitro-1,3,5-triazine [64] (ii) fused to both the P450 domain and a flavodoxin reductase domain e.g., Rhodococcus ruber CYP116B3 a protein which can metabolize an array of hydrocarbons including the environmental pollutant xylene [65] and (iii) genetically organised in an operon with P450 and flavodoxin reductase e.g., Citrobacter braakii CYP176A1 catalyzes the conversion of cineole to 6β-hydroxycineole in energy metabolism [66]. In all cases genetic organisation is thought to favour optimal flavodoxin electron transfer during P450 catalysis.
+
+Microsynteny analysis of phage flavodoxin genes reveals that in all cases that we examined, the flavodoxin gene is linked to or in the close neighbourhood of genes encoding α and β ribonucleotide reductase (Figure 6). This strongly suggests that the endogenous function of phage flavodoxin is to provide reducing equivalents to these enzymes during the catalytic removal of the 2′-hydroxyl group of the ribose ring of nucleoside diphosphates [67]. This reaction occurs during the formation of deoxyribonucleotides from ribonucleotides, which are necessary for DNA synthesis during phage replication.
+
+0305φ8-36 is a bacteriophage that infects the soil bacterium B. thuringiensis [15,16]. Examining the metabolic pathways of this bacterium, our analysis of the sequenced genome of the B. thuringiensis reference strain Bt407 [68] revealed the presence of three cytochrome P450 genes: CYP102A5, CYP106B4 and CYP107J3. Furthermore, other strains of B. thuringiensis, infected by phage encoding flavodoxin [31], have been shown to encode P450 family members: CYP102 (CYP102A8); CYP106 (CYP106B1, B5); CYP107DY4; CYP107J (CYP107J2); CYP109T5 and CYP2467A1 [69] (D. Nelson personal communication). It is feasible that the infected B. thuringiensis strains can have their P450 enzyme activities enhanced, modified or inhibited by the phage flavodoxin. The phenotypic results will be dependent on the host P450 activity. CYP102A enzymes are generally self-sufficient P450s with a fused C-terminal reductase domain that are known to metabolize fatty acids and lipids, although no endogenous function for a CYP102 has been determined [24]. Similarly, the endogenous functions of the CYP106 and CYP107 enzymes are unknown. However, individual recombinant CYP106 and CYP107 enzymes have been shown to selectively hydroxylate a variety of steroid molecules including testosterone, progesterone and their derivatives [70]. Phages that encode flavodoxin can also infect other Bacillus species including B. cereus, B. subtilis and B. anthracis (Figure 6; [71]. Previous in silico analysis of P450s in 128 Bacillus species revealed the presence of 507 P450s grouped into 13 P450 families and 28 subfamilies with no P450 family found to be conserved across Bacillus species [72]. Bioinformatic analysis of those Bacillus P450 genes revealed that a limited number of P450 families dominate - CYP102, CYP106, CYP107, CYP109, CYP134, CYP152, and CYP197. Conversely, no P450 genes have been found to be encoded in any sequenced genome of a Listeria species [69]. However, of the more than 90 Staphylococcus species that have been sequenced, nine have been shown to encode P450. Staphylococcus P450s are limited to members of the CYP134 and CYP152 families [73]. Of note is P450 P450 OleTSA, a cytochrome P450 enzyme from Staphylococcus aureus that catalyzes the oxidative decarboxylation and hydroxylation of fatty acids to generate terminal alkenes and fatty alcohols [74]. It is possible that Staphylococcus phage flavodoxin can interact with S. aureus OleT and impact this catalytic activity.
+
+Data are now revealing a remarkable diversity of metabolic genes in viruses, including many involved in sphingolipid biosynthesis, fermentation, and nitrogen metabolism [75,76]. For example, numerous giant viruses are predicted to encode the components of glycolysis and the tricarboxylic acid cycle, suggesting that they can re-program fundamental aspects of their host’s central carbon metabolism [77,78]. However, many of these viral enzymes also require cofactors to function. For example, aconitase and fumarase require Fe-S clusters—and other enzymes show other prosthetic group requirements (FAD/FMN/heme). This has led to a re-evaluation of the complex metabolic capabilities of viruses, particularly given their roles as important drivers of global bio-geochemical cycles [79].
+
+In this study, we have found that a phage encoded FMN-containing flavodoxin can drive bacterial P450 activity. Similar phages infect different species of soil-inhabiting bacteria, mainly of the Bacillus genus and this suggests that the impacts of this metabolic activity may be widespread. Our results clearly show that viruses can engage with and possibly hijack host oxidative enzyme capacity. Historically, viruses were considered as metabolically inactive, non-living entities in comparison to the metabolic complexity displayed by cellular life. Their phenotypic impact was thought limited to merely affecting host mortality. Recent work has cast this aspersion aside, as we have come to realize that close metabolic integration appears to be required for viruses to subdue and coerce their unwitting hosts. This work clearly demonstrates the potential for viruses to not just manipulate ‘virus centric’ replication activities, but broader host metabolic activities and cellular function(s) as well. The large number of viral metabolic genes, including the different classes of redox proteins, requires further research into how these virus-specific enzymes affect both host physiology and the global microbiome and biogeochemical cycling.
+
+Author Contributions
+
+Conceptualization, D.C.L., S.L.K., J.V.G. and J.J.S.; methodology, D.C.L., J.V.G., B.Z., L.L., M.J.A., J.G.L.M., S.L.K. and J.J.S.; validation, D.C.L., J.V.G., B.Z., L.L., M.J.A., J.G.L.M., S.L.K. and J.J.S.; data analysis, D.C.L., J.V.G., B.Z., L.L., M.J.A., J.G.L.M., S.L.K. and J.J.S.; writing—original draft preparation, D.C.L., S.L.K., J.V.G. and J.J.S.; writing—review and editing, D.C.L., J.V.G., B.Z., L.L., M.J.A., J.G.L.M., S.L.K. and J.J.S.; project administration, D.C.L. and J.J.S. All authors have read and agreed to the published version of the manuscript.
+
+Institutional Review Board Statement
+
+Not applicable.
+
+Informed Consent Statement
+
+Not applicable.
+
+Data Availability Statement
+
+The data used to support the findings of this research are available upon request.
+
+Conflicts of Interest
+
+The authors declare no conflict of interest.
+
+Figure 1 Schematic diagram showing the genomic region of bacteriophage 0305φ8-36 where the flavodoxin gene is located. The scale is in kilobase pairs. Each arrow represents an individual orf. The flavodoxin gene, colored green, is 0305φ8-36 ORF number 223. ORFs colored yellow and blue have been tentatively assigned dCMP deaminase and α and β-ribonucleotide reductase (nrd), respectively. Arrows shown in grey represent genes predicted to encode virion proteins of unknown function.
+
+Figure 2 Amino acid sequence alignment of 0305φ8-36 phage flavodoxin with selected cellular flavodoxins. Alignment was generated using the Clustal Omega program via the EBI (https://www.ebi.ac.uk/Tools/msa/clustalo/, accessed on 22 July 2022). The flavodoxin sequences used were: long chain flavodoxins, E. coli (strain K12) FldA (accession number: P61949), E. coli (strain K12) FplB (P0ABY4) and short chain flavodoxins, B. subtilis (strain 168) ykuN (O34737), B. subtilis ykuP (strain 168) (O34589), Methanosarcina acetivorans (strain ATCC 35395) (Q8TPV5), B. thuringiensis serovar israelensis (strain ATCC 35646) (Q3ESQ3), Azotobacter vinelandii (strain DJ/ATCC BAA-1303) (P52964), Clostridium beijerinckii (Clostridium MP) (P00322) and Synechocystis sp. (strain PCC 6803/Kazusa) (P27319). Residues indicated by asterisks are conserved in all sequences. Residues indicated by single and double dots are of similar and highly similar chemical character, respectively, according to criteria set in the program. The residues comprising the three FMN-binding loops are underlined in red.
+
+Figure 3 Relationship of 0305φ8-36 flavodoxin with other phage and bacterial host flavodoxins. Phylogenetic tree of 0305φ8-36 flavodoxin with additional phage flavodoxins and the respective hosts of most of the phages with flavodoxins. Numbers indicate the bootstrap probability values for the branch topology shown.
+
+Figure 4 UV-visible absorbance spectra of purified E. coli and 0305φ8-36 phage flavodoxins. (A) Oxidized spectrum obtained for purified E. coli flavodoxin (15 μM). (B) Oxidized spectrum obtained for purified phage 0305φ8-36 flavodoxin (15 μM).
+
+Figure 5 Epi-isozizaene allylic oxidation by CYP170A1 supported by 0305φ8-36 flavodoxin. (A) Metabolic pathway for the formation of albaflavenone catalysed by CYP170A1. (B) In vitro catalytic activity of CYP170A1 supported by 0305φ8-36 and E. coli flavodoxin reductase. Product profile was obtained using individual component concentrations as follows: 1 nmol CYP170A1, 10 nmol 0305φ8-36 flavodoxin or 10 nmol E. coli flavodoxin, 2.0 nmol E. coli flavodoxin reductase and 40 nmol epi-isozizaene. Three products are noted, 2 and 3 (4(R)-albaflavenol and 4(S)-albaflavenol epimers respectively) and 4 (albaflavenone), respectively; substrate epi-isozizaene as 1. Experiments were performed in triplicate. In negative control incubations (without CYP170A1 or without flavodoxin/flavodoxin reductase), no product formation was observed (data not shown).
+
+Figure 6 Microsynteny around phage flavodoxin genes. Comparison of the genetic loci and surrounding genes for flavodoxins in Bacillus phages, Listeria phages and Staphylococcus phages. Each phage flavodoxin gene (fld) is colored green and α and β ribonucleotide reductase genes (α and β nrb) are colored blue. In each Bacillus, Listeria and Staphylococcus phage genomes examined the fld gene was next to or close to α and β nrb genes, strongly suggesting functional linkage.
+
+biomolecules-12-01107-t001_Table 1 Table 1 Flavodoxin genes found in Bacillus, Listeria and Staphylococcus phage genomes.
+
+Class	Phage	Phage Host	Sample Location	Predicted Phage ORFs	Flavodoxin
+aa	Genbank
+Identifier	Ref.	
+Bacillus	0305φ8-36	Bacillus thuringiensis	soil	246	148	ABS83781.1	[16]	
+	Hakuna	Bacillus thuringiensis	soil	294	159	YP_009036585.1	[31]	
+	Megatron	Bacillus thuringiensis	soil	290	159	YP_009036208.1	[31]	
+	Riley	Bacillus thuringiensis	soil	290	149	YP_009055891.1	[31]	
+	CAM003	Bacillus thuringiensis	soil	287	150	YP_009037037.1	[31]	
+	Evoli	Bacillus thuringiensis	soil	294	150	YP_009035659.1	[31]	
+	Hoody T	Bacillus thuringiensis	soil	270	153	YP_009035330.1	[31]	
+	Troll	Bacillus thuringiensis	soil	289	149	YP_008430917.1	[31]	
+	SalinJah	Bacillus cereus	soil	292	149	ANH50605.1	[32]	
+	Eyuki	Bacillus cereus	soil	300	159	YP_009212082.1	[33]	
+	AvesoBmore	Bacillus thuringiensis	soil	301	149	YP_009206486.1	[33]	
+	BigBertha	Bacillus thuringiensis	soil	291	153	YP_008771155.1	[34]	
+	Spock	Bacillus thuringiensis	soil	283	149	YP_008770352.1	[35]	
+	Belinda	Bacillus thuringiensis	soil	295	159	ANM46069.1	[36]	
+	Tomato	Bacillus thuringiensis	soil	200	159	QLF85935.1	[37]	
+	AaronPhadgers	Bacillus thuringiensis	soil	301	159	ASR78796.1	[38]	
+	Beyonphe	Bacillus cereus	water	300	149	QDH49824.1	[38]	
+	Bubs	Bacillus thuringiensis	soil	302	159	ASR78601.1	[38]	
+	Kamfam	Bacillus thuringiensis	soil	293	150	AXQ67322.1	[38]	
+	PIPsBest	Bacillus thuringiensis	soil	301	159	ASR78379.1	[38]	
+	ALPS	Bacillus thuringiensis	soil	295	159	QDH50122.1	[38]	
+	Phireball	Bacillus thuringiensis	soil	299	159	QDH49415.1	[38]	
+	OmnioDeoPrimus	Bacillus thuringiensis	soil	299	159	AXQ67477.1	[38]	
+	Zainny	Bacillus thuringiensis	soil	303	159	ASR79375.1	[38]	
+	vB_BthM-Goe5	Bacillus thuringiensis	soil	272	150	AZF89241.1	[39]	
+	SageFayge	Bacillus thuringiensis	soil	300	159	YP_009280944.1	[40]	
+	Nemo	Bacillus thuringiensis	soil	301	159	YP_009287019.1	[40]	
+	Nigalana	Bacillus thuringiensis	soil	302	159	YP_009282535.1	[40]	
+	DIGNKC	Bacillus thuringiensis	soil	291	159	AMW62869.1	[40]	
+	Zuko	Bacillus thuringiensis	soil	294	159	AMW62552.1	[40]	
+	Phrodo	Bacillus thuringiensis	soil	288	149	YP_009290006.1	[40]	
+	NotTheCreek	Bacillus thuringiensis	soil	296	159	YP_009284467.1	[40]	
+	Juglone	Bacillus thuringiensis	soil	293	149	AMW61744.1	[40]	
+	Vinny	Bacillus thuringiensis	soil	297	150	AMW61891.1	[40]	
+	DirtyBetty	Bacillus thuringiensis	soil	302	159	YP_009285086.1	[41]	
+	Kida	Bacillus thuringiensis	soil	304	159	YP_009279309.1	[41]	
+	TsarBomba	Bacillus thuringiensis	soil	247	151	YP_009206942.1	[42]	
+	HonestAbe	Bacillus thuringiensis	soil	286	159	AUV57777.1	[43]	
+	Taffo16	Bacillus thuringiensis	soil	284	149	ASZ75860.1	[43]	
+	Anthony	Bacillus thuringiensis	soil	279	150	ASU00988.1	[43]	
+	Saddex	Bacillus thuringiensis	soil	208	159	AXF41931.1	[44]	
+	Janet	Bacillus thuringiensis	soil	285	150	ASR79938.1	[45]	
+	OTooleKemple52	Bacillus thuringiensis	soil	291	153	ASR79614.1	[45]	
+	SBP8a	Bacillus cereus	soil	298	146	AOZ62389.1	DS *	
+	QCM8	Bacillus cereus	soil	288	151	AOZ62044.1	DS *	
+	BJ4	Bacillus cereus	soil	298	146	AOZ61763.1	DS *	
+	Bastille	Bacillus cereus	soil	273	150	YP_006907364.1	DS *	
+	Chotacabras	Bacillus thuringiensis	soil	285	149	QEM43180.1	DS *	
+	vB_BcoS-136	Bacillus cohnii	lake sediment	238	146	AYP68319.1	DS *	
+	Flapjack	Bacillus thuringiensis	soil	288	149	ARQ95040.1	DS *	
+	vB_BanH_
+RonSwanson	Bacillus anthracis	soil	-	202	UGO50429.1	DS *	
+	vB_BanH_
+Emiliahah	Bacillus anthracis	soil	-	174	UGO49205.1	DS *	
+	vB_BanH_JarJar	Bacillus anthracis	soil	-	202	UGO48939.1	DS *	
+	vB_BanH_
+McCartney	Bacillus anthracis	soil	-	174	UGO47691.1	DS *	
+	vB_BanH_
+Abinadi	Bacillus anthracis	soil	-	159	UGO46389.1	DS *	
+	Anthos	Bacillus thuringiensis	soil	290	149	QPY77365.1	DS *	
+	Smudge	Bacillus thuringiensis	soil	292	159	ANI24755.1	DS *	
+	BC-T25	Bacillus sp.	soil	236	151	QEG04194.1	DS *	
+Listeria	vB_LmoM_AG20	Listeria monocytogenes	abbatoir	178	141	YP_007676786.1	DS *	
+	LP-124	Listeria monocytogenes	silage	188	150	YP_009784573.1	[46]	
+	LP-064	Listeria monocytogenes	silage	188	150	YP_009592673.1	[46]	
+	LP-083-2	Listeria monocytogenes	silage	189	150	YP_009044596.1	[46]	
+	LP-048	Listeria monocytogenes	silage	177	150	YP_009042933.1	[46]	
+	LP-125	Listeria monocytogenes	silage	189	150	YP_008240106.1	[46]	
+	LP-Mix_6.2	Listeria monocytogenes	laboratory	197	150	QNL32088.1	[47]	
+	LP-Mix_6.1	Listeria monocytogenes	laboratory	195	150	QNL31890.1	[47]	
+	LP-039	Listeria monocytogenes	silage	201	150	QEP53123.2	[48]	
+	LP-066	Listeria monocytogenes	silage	189	150	QDK04972.2	[48]	
+	LMTA-94	Listeria monocytogenes	laboratory	189	150	AID17150.1	DS	
+Staphylococcus	Maine	Staphylococcus aureus	pig barn swab	219	130	QEM41386.1	[49]	
+	MarsHill	Staphylococcus aureus	pig barn swab	262	134	QQM14610.1	[50]	
+	Madawaska	Staphylococcus aureus	pig barn swab	264	134	QQO92731.1	[50]	
+	Machias	Staphylococcus aureus	pig barn swab	263	140	QQO92468.1	[50]	
+	phiIPLA-RODI	Staphylococcus aureus	sewage	213	139	AJA42083.1	[51]	
+	phiIPLA-C1C	Staphylococcus aureus	sewage	203	132	YP_009214514.1	[51]	
+	Team1	Staphylococcus aureus	hospital	217	143	YP_009098273.1	[52]	
+	MCE-2014	Staphylococcus aureus	sewage	204	130	P_009098058.1	[53]	
+	GH15	Staphylococcus aureus	sewage	214	130	YP_007002257.1	[54]	
+	Metroid	Staphylococcus sp.	soil	254	143	KE56191.1	[55]	
+	pSco-10	Staphylococcus cohnii	duck feces	131	130	ANH50479.1	[56]	
+	BT3	Staphylococcus aureus	animal	232	139	QVD58098.1	[57]	
+	Stab23	Staphylococcus xylosus	sewage	247	130	VEV88569.1	[58]	
+	vB_Sau_S24	Staphylococcus aureus	soil	209	130	ARM69410.1	[59]	
+	vB_Sau_Clo6	Staphylococcus aureus	sewage	213	130	ARM69197.1	[59]	
+	vB_SsapH-Golestan-100	Staphylococcus saprophyticus	-	192	133	BDA81541.1	DS *	
+	phiSA_BS1	Staphylococcus sp.	dairy farm	200	129	YP_009799552.1	DS *	
+	vB_SsapH-Golestan-105-M	Staphylococcus saprophyticus	-	203	149	BDA82285.1	DS *	
+	SA3	Staphylococcus aureus	sewage	223	130	ASZ78055.1	DS *	
+	PALS_1	Staphylococcus aureus	animal	191	130	QDJ97591.1	DS *	
+* DS direct submission to Genbank.
+
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+
+References
+
+1. Sancho J. Flavodoxins: Sequence, folding, binding, function and beyond Cell Mol. Life Sci. 2006 63 855 864 10.1007/s00018-005-5514-4 16465441 PMC11136378
+2. Smillie R.M. Isolation of two proteins with chloroplast ferredoxin activity from a blue-green alga Biochem. Biophys. Res. Commun. 1965 20 621 629 10.1016/0006-291X(65)90445-6 4379300
+3. Knight E. D’Eustachio A.J. Hardy R.W. Flavodoxin: A flavoprotein with ferredoxin activity from Clostrium pasteurianum Biochim. Biophys. Acta 1966 113 626 628 10.1016/S0926-6593(66)80025-5 5869809
+4. Anderson R.F. Energetics of the one-electron reduction steps of riboflavin, FMN and FAD to their fully reduced forms Biochim. Biophys. Acta 1983 722 158 162 10.1016/0005-2728(83)90169-X 6824643
+5. Mayhew S.G. The effects of pH and semiquinone formation on the oxidation-reduction potentials of flavin mononucleotide. A reappraisal Eur. J. Biochem. 1999 265 698 702 10.1046/j.1432-1327.1999.00767.x 10504402
+6. Gaudu P. Weiss B. Flavodoxin mutants of Escherichia coli K-12 J. Bacteriol. 2000 182 1788 1793 10.1128/JB.182.7.1788-1793.2000 10714981 PMC101859
+7. Freigang J. Diederichs K. Schafer K.P. Welte W. Paul R. Crystal structure of oxidized flavodoxin, an essential protein in Helicobacter pylori Protein Sci. 2002 11 253 261 10.1110/ps.28602 11790835 PMC2373437
+8. Zhao Q. Modi S. Smith G. Paine M. McDonagh P.D. Wolf C.R. Tew D. Lian L.Y. Roberts G.C. Driessen H.P. Crystal structure of the FMN-binding domain of human cytochrome P450 reductase at 1.93 A resolution Protein Sci. 1999 8 298 306 10.1110/ps.8.2.298 10048323 PMC2144264
+9. Lopez-Llano J. Maldonado S. Jain S. Lostao A. Godoy-Ruiz R. Sanchez-Ruiz J.M. Cortijo M. Fernandez-Recio J. Sancho J. The long and short flavodoxins: II. The role of the differentiating loop in apoflavodoxin stability and folding mechanism J. Biol. Chem. 2004 279 47184 47191 10.1074/jbc.M405791200 15317817
+10. Fukuyama K. Matsubara H. Rogers L.J. Crystal structure of oxidized flavodoxin from a red alga Chondrus crispus refined at 1.8 A resolution. Description of the flavin mononucleotide binding site J. Mol. Biol. 1992 225 775 789 10.1016/0022-2836(92)90400-E 1602481
+11. Peleato M.L. Ayora S. Inda L.A. Gomez-Moreno C. Isolation and characterization of two different flavodoxins from the eukaryote Chlorella fusca Biochem. J. 1994 302 807 811 10.1042/bj3020807 7945206 PMC1137302
+12. Dwivedi B. Xue B. Lundin D. Edwards R.A. Breitbart M. A bioinformatic analysis of ribonucleotide reductase genes in phage genomes and metagenomes BMC Evol. Biol. 2013 13 33 10.1186/1471-2148-13-33 23391036 PMC3653736
+13. Harrison A.O. Moore R.M. Polson S.W. Wommack K.E. Reannotation of the Ribonucleotide Reductase in a Cyanophage Reveals Life History Strategies Within the Virioplankton Front. Microbiol. 2019 10 134 10.3389/fmicb.2019.00134 30804913 PMC6370689
+14. Lamb D.C. Follmer A.H. Goldstone J.V. Nelson D.R. Warrilow A.G. Price C.L. True M.Y. Kelly S.L. Poulos T.L. Stegeman J.J. On the occurrence of cytochrome P450 in viruses Proc. Natl. Acad. Sci. USA 2019 116 12343 12352 10.1073/pnas.1901080116 31167942 PMC6589655
+15. Hardies S.C. Thomas J.A. Serwer P. Comparative genomics of Bacillus thuringiensis phage 0305phi8-36: Defining patterns of descent in a novel ancient phage lineage Virol. J. 2007 4 97 10.1186/1743-422X-4-97 17919320 PMC2147016
+16. Thomas J.A. Hardies S.C. Rolando M. Hayes S.J. Lieman K. Carroll C.A. Weintraub S.T. Serwer P. Complete genomic sequence and mass spectrometric analysis of highly diverse, atypical Bacillus thuringiensis phage 0305phi8-36 Virology 2007 368 405 421 10.1016/j.virol.2007.06.043 17673272 PMC2171028
+17. Sievers F. Wilm A. Dineen D. Gibson T.J. Karplus K. Li W. Lopez R. McWilliam H. Remmert M. Soding J. Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega Mol. Syst. Biol. 2011 7 539 10.1038/msb.2011.75 21988835 PMC3261699
+18. Chang J.M. Di Tommaso P. Notredame C. TCS: A new multiple sequence alignment reliability measure to estimate alignment accuracy and improve phylogenetic tree reconstruction Mol. Biol. Evol. 2014 31 1625 1637 10.1093/molbev/msu117 24694831
+19. Hall T.A. BioEdit: A user-friendly biological sequence alignment editor and analysis program for Windows 95/98/NT Nucl. Acids Symp. Series 1999 41 95 98
+20. Robert X. Gouet P. Deciphering key features in protein structures with the new ENDscript server Nucleic Acids Res. 2014 42 320 324 10.1093/nar/gku316 PMC4086106 24753421
+21. Kozlov A. Darriba D. Flouri T. Morel B. Stamatakis A. RAxML-NG: A fast, scalable, and user-friendly tool for maximum likelihood phylogenetic inference Bioinformatics 2019 35 4453 4455 10.1093/bioinformatics/btz305 31070718 PMC6821337
+22. Lemoine F. Domelevo Entfellner J.B. Wilkinson E. Correia D. Felipe M.D. De Oliveira T. Gascuel O. Renewing Felsenstein’s phylogenetic bootstrap in the era of big data Nature 2018 556 452 456 10.1038/s41586-018-0043-0 29670290 PMC6030568
+23. Lamb D.C. Lei L. Warrilow A.G. Lepesheva G.I. Mullins J.G. Waterman M.R. Kelly S.L. The first virally encoded cytochrome P450 J. Virol. 2009 83 8266 8269 10.1128/JVI.00289-09 19515774 PMC2715754
+24. Lamb D.C. Lei L. Zhao B. Yuan H. Jackson C.J. Warrilow A.G. Skaug T. Dyson P.J. Dawson E.S. Kelly S.L. Streptomyces coelicolor A3(2) CYP102 protein, a novel fatty acid hydroxylase encoded as a heme domain without an N-terminal redox partner Appl. Environ. Microbiol. 2010 76 1975 1980 10.1128/AEM.03000-09 20097805 PMC2838009
+25. Jenkins C.M. Waterman M.R. Flavodoxin and NADPH-flavodoxin reductase from Escherichia coli support bovine cytochrome P450c17 hydroxylase activities J. Biol. Chem. 1994 269 27401 27408 10.1016/S0021-9258(18)46999-2 7961651
+26. Zhao B. Lin X. Lei L. Lamb D.C. Kelly S.L. Waterman M.R. Cane D.E. Biosynthesis of the sesquiterpene antibiotic albaflavenone in Streptomyces coelicolor A3(2) J. Biol. Chem. 2008 283 8183 8189 10.1074/jbc.M710421200 18234666 PMC2276382
+27. Omura T. Sato R. The Carbon Monoxide-Binding Pigment of Liver Microsomes. I. Evidence for Its Hemoprotein Nature J. Biol. Chem. 1964 239 2370 2378 10.1016/S0021-9258(20)82244-3 14209971
+28. Jenkins C.M. Waterman M.R. NADPH-flavodoxin reductase and flavodoxin from Escherichia coli: Characteristics as a soluble microsomal P450 reductase Biochemistry 1998 37 6106 6113 10.1021/bi973076p 9558349
+29. Zhao B. Guengerich F.P. Bellamine A. Lamb D.C. Izumikawa M. Lei L. Podust L.M. Sundaramoorthy M. Kalaitzis J.A. Reddy L.M. Binding of two flaviolin substrate molecules, oxidative coupling, and crystal structure of Streptomyces coelicolor A3(2) cytochrome P450 158A2 J. Biol. Chem. 2005 280 11599 11607 10.1074/jbc.M410933200 15659395
+30. Bravo A. Likitvivatanavong S. Gill S.S. Soberon M. Bacillus thuringiensis: A story of a successful bioinsecticide Insect Biochem. Mol. 2011 41 423 431 10.1016/j.ibmb.2011.02.006 PMC3689885 21376122
+31. Sauder A.B. Quinn M.R. Brouillette A. Caruso S. Cresawn S. Erill I. Lewis L. Loesser-Casey K. Pate M. Scott C. Genomic characterization and comparison of seven Myoviridae bacteriophage infecting Bacillus thuringiensis Virology 2016 489 243 251 10.1016/j.virol.2015.12.012 26773385
+32. Erill I. Caruso S.M. 2015 UMBC Phage Hunters Genome sequence of Bacillus cereus group phage SalinJah Genome Announc. 2016 4 e00953-16 10.1128/genomeA.00953-16 27688335 PMC5043553
+33. Erill I. Caruso S.M. Genome sequences of two Bacillus cereus group Bacteriophages, Eyuki and AvesoBmore Genome Announc. 2015 3 e01199-15 10.1128/genomeA.01199-15 26472840 PMC4611692
+34. Ting J.H. Smyth T.B. Chamakura K.R. Kuty Everett G.F. Complete genome of Bacillus thuringiensis myophage BigBertha Genome Announc. 2013 1 e00853-13 10.1128/genomeA.00853-13 24309723 PMC3853046
+35. Maroun J.W. Whitcher K.J. Chamakura K.R. Kuty Everett G.F. Complete genome of Bacillus thuringiensis myophage Spock Genome Announc. 2013 1 e00863-13 10.1128/genomeA.00863-13 24309729 PMC3853052
+36. Breslin E.F. Cornell J. Schuhmacher Z. Himelright M. Andos A. Childs A. Clem A. Gerber M. Gordillo A. Harb L. Complete genome sequence of Bacillus phage Belinda from Grand Cayman Island Genome Announc. 2016 4 e00571-16 10.1128/genomeA.00571-16 27738022 PMC5064095
+37. Denes T. Vongkamjan K. Ackermann H.W. Moreno Switt A.I. Wiedmann M. den Bakker H.C. Comparative genomic and morphological analyses of Listeria phages isolated from farm environments Appl. Environ. Microbiol. 2014 80 4616 4625 10.1128/AEM.00720-14 24837381 PMC4148797
+38. Peters T.L. Song Y. Bryan D.W. Hudson L.K. Denes T.G. Mutant and recombinant phages selected from in vitro coevolution conditions overcome phage-resistant Listeria monocytogenes Appl. Environ. Microbiol. 2020 86 e02138-20 10.1128/AEM.02138-20 32887717 PMC7642079
+39. Duperier J. Bulpitt M. Bispo F. Greguske E. Genome annotations of two Bacillus phages, Tomato and Baseball Field Microbiol. Resour. Announc. 2021 10 e01196-20 10.1128/MRA.01196-20 33414332 PMC8407708
+40. Peters T.L. Hudson L.K. Song Y. Denes T.G. Complete genome sequences of two Listeria phages of the genus Pecentumvirus Microbiol. Resour. Announc. 2019 8 e01229-19 10.1128/MRA.01229-19 31727716 PMC6856282
+41. Kostyk N. Chigbu O. Cochran E. Davis J. Essig J. Do L. Farooque N. Gbadamosi Z. Gnanodayan A. Hale A. Complete genome sequences of Bacillus cereus group phages AaronPhadgers, ALPS, Beyonphe, Bubs, KamFam, OmnioDeoPrimus, Phireball, PPIsBest, YungSlug, and Zainny Microbiol. Resour. Announc. 2021 10 e0030021 10.1128/MRA.00300-21 34410150 PMC8375487
+42. Nordmann B. Schilling T. Hoppert M. Hertel R. Complete genome sequence of the virus isolate vB_BthM-Goe5 infecting Bacillus thuringiensis Arch Virol. 2019 164 1485 1488 10.1007/s00705-019-04187-z 30848388
+43. Foltz S. Johnson A.A. Complete genome sequences of nine Bacillus cereus group phages Genome Announc. 2016 4 e00473-16 10.1128/genomeA.00473-16 27417827 PMC4945787
+44. Flounlacker K. Miller R. Marquez D. Johnson A. the 2015–2016 VCU Phage Hunters complete genome sequences of Bacillus phages DirtyBetty and Kida Genome Announc. 2017 5 e01385-16 10.1128/genomeA.01385-16 PMC5347238 28280018
+45. Erill I. Caruso S.M. Complete genome sequence of Bacillus cereus group phage TsarBomba Genome Announc. 2015 3 e01178-15 10.1128/genomeA.01178-15 26472830 PMC4611682
+46. Lee M. Puglisi K.M. UMBC STEM-BUILD Cohort 1 Erill I. Caruso S.M. Complete genome sequences of HonestAbe, Anthony, and Taffo16, three cluster C Bacillus cereus group bacteriophages Genome Announc. 2018 6 e00493-18 10.1128/genomeA.00493-18 29930035 PMC6013610
+47. Greguske E. Nadeau A. Fitzmeyer E. Fucikova K. Genome sequence of Bacillus phage Saddex Microbiol. Resour. Announc. 2018 7 e01044-18 10.1128/MRA.01044-18 30533646 PMC6256669
+48. Kent B. Raymond T. Mosier P.D. Johnson A.A. the 2016–2017 VCU Phage Hunters Complete genome sequences of Bacillus phages Janet and OTooleKemple52 Genome Announc. 2018 6 e00083-18 10.1128/genomeA.00083-18 29748396 PMC5946042
+49. Moreland R. Korn A. Newkirk H. Liu M. Gill J.J. Cahill J. Ramsey J. Complete genome sequence of Staphylococcus aureus myophage Maine Microbiol. Resour. Announc. 2019 8 e01050-19 10.1128/MRA.01050-19 31582443 PMC6776783
+50. Korn A.M. Hillhouse A.E. Sun L. Gill J.J. Comparative genomics of three novel jumbo bacteriophages infecting Staphylococcus aureus J. Virol. 2021 95 e0239120 10.1128/JVI.02391-20 34287047 PMC8428398
+51. Gutiérrez D. Vandenheuvel D. Martínez B. Rodríguez A. Lavigne R. García P. Two phages, phiIPLA-RODI and phiIPLA-C1C, lyse mono- and dual-species Staphylococcal biofilms Appl. Environ. Microbiol. 2015 81 3336 3348 10.1128/AEM.03560-14 25746992 PMC4407228
+52. El Haddad L. Ben Abdallah N. Plante P.L. Dumaresq J. Katsarava R. Labrie S. Corbeil J. St-Gelais D. Moineau S. Improving the safety of Staphylococcus aureus polyvalent phages by their production on a Staphylococcus xylosus strain PLoS ONE 2014 9 e102600 25061757 10.1371/journal.pone.0102600 PMC4111496
+53. Alves D.R. Gaudion A. Bean J.E. Perez Esteban P. Arnot T.C. Harper D.R. Kot W. Hansen L.H. Enright M.C. Jenkins A.T. Combined use of bacteriophage K and a novel bacteriophage to reduce Staphylococcus aureus biofilm formation Appl. Environ. Microbiol. 2014 80 6694 6703 10.1128/AEM.01789-14 25149517 PMC4249044
+54. Gu J. Liu X. Lu R. Li Y. Song J. Lei L. Sun C. Feng X. Du C. Yu H. Complete genome sequence of Staphylococcus aureus bacteriophage GH15 J. Virol. 2012 86 8914 8915 10.1128/JVI.01313-12 22843868 PMC3421715
+55. Crane A. Abaidoo J. Beltran G. Fry D. Furey C. Green N. Johal R. La Rosa B. Jimenez C.L. Luong L. The complete genome sequence of the Staphylococcus bacteriophage Metroid G3 2020 10 2975 2979 10.1534/g3.120.401365 32727926 PMC7466978
+56. Jun J.W. Giri S.S. Kim H.J. Chi C. Yun S. Kim S.G. Kim S.W. Kang J.W. Park S.C. Complete genome sequence of the novel bacteriophage pSco-10 Infecting Staphylococcus cohnii Genome Announc. 2017 5 e01032-17 10.1128/genomeA.01032-17 29167239 PMC5701464
+57. Sáez Moreno D. Visram Z. Mutti M. Restrepo-Córdoba M. Hartmann S. Kremers A.I. Tišáková L. Schertler S. Wittmann J. Kalali B. ε2-phages are naturally bred and have a vastly improved host range in Staphylococcus aureus over wild type phages Pharmaceuticals 2021 14 325 10.3390/ph14040325 33918287 PMC8065394
+58. Oduor J.M.O. Kadija E. Nyachieo A. Mureithi M.W. Skurnik M. Bioprospecting Staphylococcus phages with therapeutic and bio-control potential Viruses 2020 12 133 10.3390/v12020133 PMC7077315 31979276
+59. Abatángelo V. Peressutti Bacci N. Boncompain C.A. Amadio A.F. Carrasco S. Suárez C.A. Morbidoni H.R. Broad-range lytic bacteriophages that kill Staphylococcus aureus local field strains PLoS ONE 2017 12 e0181671 28742812 10.1371/journal.pone.0181671 PMC5526547
+60. Hoover D.M. Jarrett J.T. Sands R.H. Dunham W.R. Ludwig M.L. Matthews R.G. Interaction of Escherichia coli cobalamin-dependent methionine synthase and its physiological partner flavodoxin: Binding of flavodoxin leads to axial ligand dissociation from the cobalamin cofactor Biochemistry 1997 36 127 138 10.1021/bi961693s 8993326
+61. Green A.J. Rivers S.L. Cheeseman M. Reid G.A. Quaroni L.G. Macdonald I.D. Chapman S.K. Munro A.W. Expression, purification and characterization of cytochrome P450 Biol: A novel P450 involved in biotin synthesis in Bacillus subtilis J. Biol. Inorg. Chem. 2001 6 523 533 10.1007/s007750100229 11472016
+62. Gangeswaran R. Eady R.R. Flavodoxin 1 of Azotobacter vinelandii: Characterization and role in electron donation to purified assimilatory nitrate reductase Biochem. J. 1996 317 103 108 10.1042/bj3170103 8694750 PMC1217449
+63. Prakash D. Iyer P.R. Suharti S. Walters K.A. Santiago-Martinez M.G. Golbeck J.H. Murakami K.S. Ferry J.G. Structure and function of an unusual flavodoxin from the domain Archaea Proc. Natl. Acad. Sci. USA 2019 116 25917 25922 10.1073/pnas.1908578116 31801875 PMC6926009
+64. Jackson R.G. Rylott E.L. Fournier D. Hawari J. Bruce N.C. Exploring the biochemical properties and remediation applications of the unusual explosive-degrading P450 system XplA/B Proc. Natl. Acad. Sci. USA 2007 104 16822 16827 10.1073/pnas.0705110104 17940033 PMC2040458
+65. Liu L. Schmid R.D. Urlacher V.B. Cloning, expression, and characterization of a self-sufficient cytochrome P450 monooxygenase from Rhodococcus ruber DSM 44319 Appl. Microbiol. Biotechnol. 2006 72 876 882 10.1007/s00253-006-0355-0 16607529
+66. Hawkes D.B. Adams G.W. Burlingame A.L. Ortiz de Montellano P.R. De Voss J.J. Cytochrome P450(cin) (CYP176A), isolation, expression, and characterization J. Biol. Chem. 2002 277 27725 27732 10.1074/jbc.M203382200 12016226
+67. Jordan A. Reichard P. Ribonucleotide reductases Annu. Rev. Biochem. 1998 67 71 98 10.1146/annurev.biochem.67.1.71 9759483
+68. Sheppard A.E. Poehlein A. Rosenstiel P. Liesegang H. Schulenburg H. Complete Genome Sequence of Bacillus thuringiensis Strain 407 Cry Genome Announc. 2013 1 e00158-12 10.1128/genomeA.00158-12 PMC3569317 23405326
+69. Mthethwa B.C. Chen W. Ngwenya M.L. Kappo A.P. Syed P.R. Karpoormath R. Yu J.H. Nelson D.R. Syed K. Comparative Analyses of Cytochrome P450s and Those Associated with Secondary Metabolism in Bacillus Species Int. J. Mol. Sci. 2018 19 3623 10.3390/ijms19113623 PMC6275058 30453558
+70. Szaleniec M. Wojtkiewicz A.M. Bernhardt R. Borowski T. Donova M. Bacterial steroid hydroxylases: Enzyme classes, their functions and comparison of their catalytic mechanisms Appl. Microbiol. Biotechnol. 2018 102 8153 8171 10.1007/s00253-018-9239-3 30032434 PMC6153880
+71. Grose J.H. Jensen G.L. Burnett S.H. Breakwell D.P. Genomic comparison of 93 Bacillus phages reveals 12 clusters, 14 singletons and remarkable diversity BMC Genom. 2014 15 855 10.1186/1471-2164-15-855 PMC4197329 25280881
+72. Furuya T. Shibata D. Kino K. Phylogenetic analysis of Bacillus P450 monooxygenases and evaluation of their activity towards steroids Steroids 2009 74 906 912 10.1016/j.steroids.2009.06.005 19559718
+73. Padayachee T. Nzuza N. Chen W. Nelson D.R. Syed K. Impact of lifestyle on cytochrome P450 monooxygenase repertoire is clearly evident in the bacterial phylum Firmicutes Sci. Rep. 2020 10 13982 10.1038/s41598-020-70686-8 32814804 PMC7438502
+74. Jiang Y. Li Z. Wang C. Zhou Y.J. Xu H. Li S. Biochemical characterization of three new α-olefin-producing P450 fatty acid decarboxylases with a halophilic property Biotechno. Biofuels 2019 12 79 10.1186/s13068-019-1419-6 PMC6452516 30996734
+75. Vardi A. Haramaty L. Van Mooy B.A. Fredricks H.F. Kimmance S.A. Larsen ABidle K.D. Host-virus dynamics and subcellular controls of cell fate in a natural coccolithophore population Proc. Natl. Acad. Sci. USA 2012 109 19327 19332 10.1073/pnas.1208895109 23134731 PMC3511156
+76. Monier A. Chambouvet A. Milner D.S. Attah V. Terrado R. Lovejoy C. Moreau H. Santoro A.E. Derelle E. Richards T.A. Host-derived viral transporter protein for nitrogen uptake in infected marine phytoplankton Proc. Natl. Acad. Sci. USA 2017 114 489 498 10.1073/pnas.1708097114 PMC5594687 28827361
+77. Moniruzzaman M. Martinez-Gutierrez C.A. Weinheimer A.R. Aylward F.O. Dynamic genome evolution and complex virocell metabolism of globally-distributed giant viruses Nat. Commun. 2020 11 1710 10.1038/s41467-020-15507-2 32249765 PMC7136201
+78. Blanc-Mathieu R. Dahle H. Hofgaard A. Brandt D. Ban H. Kalinowski J. Ogata H. Sandaa R.A. A persistent giant algal virus, with a unique morphology, encodes an unprecedented number of genes involved in energy metabolism J. Virol. 2021 95 e02446-20 10.1128/JVI.02446-20 PMC8103676 33536167
+79. Brahim Belhaouari D. Pires De Souza G.A. Lamb D.C. Kelly S.L. Goldstone J.V. Stegeman J.J. Colson P. La Scola B. Aherfi S. Metabolic arsenal of giant viruses: Host hijack or self-use? eLife 2022 11 e78674 10.7554/eLife.78674 35801640 PMC9270025

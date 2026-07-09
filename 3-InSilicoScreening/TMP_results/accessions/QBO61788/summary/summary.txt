@@ -1,0 +1,139 @@
+Summary file for QBO61788
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC12805682.1.txt
+Thermal Evidence:
+- Optimal stability observed at pH 7.
+- Good thermal stability demonstrated up to 45 °C.
+- Significant reduction in titer observed at 55 °C, with further reductions at 65 °C and 75 °C.
+- The phage demonstrated good survival rate at broad pH values (pH 3 to 11).
+
+Environmental Context:
+- Isolated from sewage water.
+
+Concise Summary:
+The phage exhibited good thermal stability up to 45 °C, with significant titer reductions noted at 55 °C, 65 °C, and 75 °C. Its stability was also assessed across a broad pH range, showing optimal stability at pH 7 and good tolerance between pH 3 and 11. The phage was isolated from sewage water. The overall findings suggest a robust survival profile across moderate temperature and pH variations, making it suitable for various formulations.
+
+
+Paper: PMC9230969.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed proteins or associated organisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The analyzed proteins originate from diverse sources including: bacterial phages (Myoviridae, Ackermannviridae, etc.), archaeal viruses (Haloarcula, Halobacterium, etc.), and various prokaryotic genomes/plasmids (e.g., *Desulfitobacterium*, *Listeria*, *Clostridium*, *Pseudomonas*, *Burkholderia*, *Methanothrix*, *Nitrososphaera*, *Planctomycetes*, *Acidobacteria*, *Euryarchaeota*, *Crenarchaeota*, *Thaumarchaeota*). 
+- The source organisms span various environments, including marine, soil, and potentially deep subsurface environments (indicated by the diversity of archaeal and bacterial sources).
+
+Concise Summary:
+The study focuses on the structural evolution of tail sheath proteins (TShPs) from diverse phages and contractile injection systems (T6SSs). The analyzed proteins are derived from a vast array of prokaryotes and archaea, including members of the Haloferacalesvirus, Myohalovirus, and various bacterial groups. While the source organisms are highly diverse and span multiple ecological niches (marine, soil, etc.), the paper does not provide specific physiological data regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) for the source organisms or the proteins themselves. The analysis is purely structural and phylogenetic, utilizing advanced modeling techniques (AlphaFold 2) to classify TShPs into structural types (Type 1, 2, and 3) based on domain architecture and evolutionary relationships, suggesting that the core function is related to contractile machinery assembly and host adhesion, independent of explicit thermal constraints in the provided data.
+
+
+Paper: PMC6563267.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Incubation conditions: 37 °C (for phage propagation and host range analysis)
+- Environmental source/habitat: Manure, sewage, surface water, animal feces, clinical material (human/poultry origin).
+- Thermal adaptation: No explicit mention of thermophilic, psychrophilic, or cold/heat tolerance adaptations.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including manure, sewage, surface water, and animal feces, as well as clinical samples from human and poultry origins.
+
+Concise Summary:
+The study utilized a consistent incubation temperature of 37 °C for phage propagation and host range analysis. The phages were isolated from a wide variety of environmental sources, including manure, sewage, surface water, and animal feces, alongside clinical samples from human and poultry origins. No specific thermal adaptations (thermophilic, psychrophilic, etc.) were detailed in the provided methods or results sections.
+
+
+Paper: PMC8145870.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: Overnight incubation at 37 °C; Growth curve measurements performed at 37 °C.
+- Environmental source/habitat: Sewage sample (municipal sewage sample).
+- Mention of adaptation: None explicitly mentioned.
+- Explicit classification: None given regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/source: Sewage sample.
+
+Concise Summary:
+The organism was isolated from a municipal sewage sample. Growth and infection assays were consistently performed at an optimal temperature of 37 °C. No specific information regarding the organism's thermal adaptation (e.g., thermophilic, psychrophilic) or survival temperature range was provided in the text.
+
+
+Paper: PMC13211663.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated for the probiotic organisms.
+- Growth temperature range: The study utilized incubation conditions of 30 °C for 5 days during the preparation of the fermented liquid.
+- Survival temperature range: The probiotic cultures were stored at 0–4 °C during the trial period.
+- Incubation conditions: 30 °C for 5 days for fermentation; storage at 0–4 °C.
+- Environmental source/habitat: Meadow grass forage; the probiotic was derived from a natural fermentation process using molasses as a substrate.
+- Thermophilic adaptation: No mention of thermophilic adaptation.
+- Psychrophilic adaptation: No mention of psychrophilic adaptation.
+- Mesophilic growth: The general incubation and storage conditions (30 °C and 0–4 °C) are consistent with mesophilic growth.
+- Heat tolerance: The probiotic was tested in an animal model subjected to heat stress (34.5–36.2 °C), and the results suggest the probiotic enhanced performance under these stressful conditions.
+- Cold tolerance: No specific data on cold tolerance were provided.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No mention of membrane adaptations.
+- Thermal stress responses: The probiotic was administered to animals under induced heat stress, and its application was shown to mitigate negative physiological and microbial consequences associated with this stress.
+
+Environmental Context:
+- Habitat/Source: The probiotic was derived from meadow grass forage, which is a natural plant source.
+
+Concise Summary:
+The probiotic preparation utilized a natural fermentation process involving meadow grass forage and molasses, incubated at 30 °C for 5 days, resulting in a final product stored at 0–4 °C. The study's primary focus on thermal conditions involved challenging broiler chickens with induced heat stress (34.5–36.2 °C). The probiotic was administered to these animals, demonstrating its ability to positively influence growth performance, gut microflora, and immune organ health specifically under these elevated temperature conditions. The study design directly tested the resilience and efficacy of the probiotic under thermal stress, indicating its relevance to environmental challenges faced by livestock. The use of natural substrates and the focus on gut health suggest an application in mitigating heat stress in poultry.
+
+
+Paper: 42202222.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were reported.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes.
+- The study describes the fabrication of superlattice-like membranes using layer-by-layer assembly of materials (PDDA and $\text{Ti}_{0.87}\text{O}_2$ nanosheets) for ion transport and osmotic power generation, but does not detail the thermal stability or adaptation of any associated biological components.
+
+Environmental Context:
+- The study focuses on the application to industrial iodine wastewater and osmotic energy generation, not the isolation or growth of a microorganism from a specific natural habitat.
+
+Concise Summary:
+The paper details the engineering of two-dimensional (2D) organic-inorganic superlattice-like membranes ($\text{PDDA/Ti}_{0.87}\text{O}_2$ SLMs) featuring periodically arranged molecular-level asymmetric channels. These membranes were fabricated via a layer-by-layer assembly strategy to achieve high iodide-ion selectivity ($\sim 680$) and facilitate continuous ionic flow through a periodic adsorption-repulsion mechanism. The primary applications discussed are sustainable osmotic power generation using artificial iodine wastewater and subsequent sterilization of the resulting iodine solution (99.5% bactericidal effect against *E. coli* within 30 min). No information regarding the thermal physiology, growth conditions, or temperature adaptation of any associated biological entity was provided.
+
+
+Paper: PMC13211681.1.txt
+Thermal Evidence:
+- No temperature-related data was provided in the text.
+
+Environmental Context:
+- The study focuses on canine urinary tract infections and does not discuss microbial thermal ecology.
+
+Concise Summary:
+This paper is a veterinary survey analyzing diagnostic and therapeutic practices for canine cystitis in Italy. It details clinical management, antibiotic usage, and diagnostic testing variability among different veterinary settings. No information regarding microbial physiology, optimal growth temperature, or thermal adaptation was present.
+
+
+Paper: PMC13211563.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the microorganisms discussed in the context of natural products.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The natural products and their applications were discussed in the context of veterinary medicine, animal physiology, and disease management, not in relation to microbial ecology or thermal adaptation.
+
+Concise Summary:
+This systematic review focuses on the clinical and physiological applications of natural products (clinoptilolite, ozone therapy, bee-derived products, and phytotherapy) as alternatives to antibiotics in veterinary medicine. The evidence base details mechanisms of action (e.g., antimicrobial, immunomodulatory, gut-modulating effects) and clinical outcomes across various animal species. There is no microbiological or physiological data presented regarding the thermal characteristics, optimal growth temperatures, or environmental isolation of any associated microorganisms.
+
+
+Paper: PMC13211727.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37.8 ± 0.5 °C (for incubation).
+- Growth temperature range: Initial brooding period started at 35 ± 3 °C, gradually reducing weekly by 3 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Constant temperature of 37.8 ± 0.5 °C and 50–60% relative humidity.
+- Environmental source/habitat: Not specified for the organism itself, but the experiment was conducted in a controlled animal house environment.
+- Mention of thermal adaptations: None.
+- Explicit classification: None provided regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Controlled laboratory/animal house setting for the experiment.
+
+Concise Summary:
+The study details controlled environmental parameters for the animal model, including an incubation temperature of 37.8 ± 0.5 °C and 50–60% relative humidity. The subsequent brooding period for the animals started at 35 ± 3 °C and was gradually reduced weekly by 3 °C. No information regarding the organism's natural thermal niche, extreme environment isolation, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic) was provided in the text.
+
+

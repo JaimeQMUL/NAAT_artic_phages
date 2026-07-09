@@ -1,0 +1,106 @@
+Summary file for UIO58113
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC9022588.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Overnight incubation at 37°C
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by optimal growth at 37°C
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Manures collected from cattle farms
+- Extreme environment isolation: No
+- Explicit classification: None provided regarding temperature adaptation.
+
+
+Paper: PMC11521287.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages or their hosts.
+
+Environmental Context:
+- The phages were isolated from diverse environments, including agricultural soil, surface water, and gut microbiomes (e.g., human and farm animal gut).
+
+Concise Summary:
+The study focuses on developing a deep-learning tool (DeepPL) to predict bacteriophage lifecycles (lytic vs. lysogenic) using nucleotide sequences. The phages analyzed were sourced from various natural environments, including agricultural soil, surface water, and the gut microbiome. No specific thermal parameters (optimal, range, or survival temperatures) were reported for the phages or their bacterial hosts, and thus, no evidence of thermophilic, psychrophilic, or mesophilic adaptation was detailed.
+
+
+Paper: 42178479.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- Incubation conditions were not specified in terms of temperature.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or thermal stress responses.
+- No specific enzymes adapted to temperature were mentioned.
+- No membrane adaptations were discussed.
+
+Environmental Context:
+- The organism used in the study was a recombinant strain derived from a bacterium, but no specific environmental source or habitat was detailed for the organism itself.
+
+Concise Summary:
+The study details the enhancement of 1,12-dodecanediol production via microbial bioconversion of 1,12-dodecanedioic acid using a recombinant *E. coli*-based system. Key findings focus on metabolic engineering, specifically the introduction of a polyphosphate kinase 2 (PPK2) to regenerate ATP from AMP, significantly improving conversion yield (22.0% to 31.8% at 40 mM substrate). Further optimization using sodium hexametaphosphate (SHMP) increased diol production to 19.5 mM with a 48.8% yield. In cell-lysate systems, NADPH and NADH showed comparable efficiencies, with the highest conversion (28 mM C12 diol, ~70% conversion) achieved at 100 mM MgCl2 in the presence of NADPH within 1 hour. The analysis provides no data regarding optimal growth temperature, temperature ranges, or thermal adaptations of the utilized microorganism.
+
+
+Paper: PMC13198750.1.txt
+The provided text does not contain specific information regarding the optimal growth temperature or temperature tolerance of any organism. Therefore, no summary can be generated based on temperature data.
+
+
+Paper: PMC12685146.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the enzyme or organism.
+- The study utilized *E. coli* for bacterial expression and cultured mammalian cells (HEK293T) for mammalian expression.
+- Differential Scanning Fluorimetry (DSF) was used to assess thermal stability, measuring melting temperatures ($T_m$) for PKM2 variants, with observed $T_m$ values around $\sim 54^{\circ} \text{C}$ (in the presence of FBP) and $\sim 35^{\circ} \text{C}$ (in the absence of FBP) for WT and some acetylated variants. The $T_m$ for AcK305 PKM2 was $\sim 43^{\circ} \text{C}$ in the presence of FBP.
+- Residual activity measurements were performed at increasing temperatures, with WT PKM2 activity dropping to $\sim 60\%$ at $40^{\circ} \text{C}$ in the absence of FBP.
+
+Environmental Context:
+- The study utilized *E. coli* (a common laboratory bacterium) and cultured mammalian cells (HEK293T). No natural environmental source or extreme habitat was specified for the enzyme's physiological context.
+
+
+Paper: 42178361.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, or survival range for any isolated organism was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was present.
+- No incubation conditions were detailed.
+
+Environmental Context:
+- The study analyzed recreational water quality parameters (pH, DO, TN, TP, E. coli, enterococci) in coastal waters.
+- Seasonal variation in water quality was statistically significant, with environmental factors like temperature and runoff influencing the index score.
+- The analysis focused on general water quality indicators rather than specific microbial physiology related to temperature adaptation.
+
+Concise Summary:
+This study developed a recreational water quality index for a coastal area, assessing parameters like DO, nutrients, and indicator bacteria. While seasonal variation was found to be statistically significant, influenced by environmental factors such as temperature and runoff, the paper does not contain any microbiological data regarding the optimal growth temperature, temperature range, or thermal adaptations of any specific microbial species. Therefore, no thermal classification evidence can be extracted.
+
+
+Paper: PMC13198682.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or thermal adaptation (thermophilic, psychrophilic, mesophilic) were provided for the microorganisms studied.
+- No mention was made of enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The study focused on the gut microbiome of cats, indicating an intestinal/gastrointestinal tract habitat.
+
+Concise Summary:
+The paper details the physiological effects of a probiotic strain on the feline gut microbiome and bile acid metabolism following antibiotic administration. The analysis is based on molecular techniques (qPCR) and metabolic profiling (bile acids) and does not contain any data regarding the thermal physiology, optimal growth temperature, or temperature adaptations of the involved microorganisms.
+
+
+Paper: PMC13198646.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms are associated with the oral cavity/mucocutaneous tissue, which is a human-associated environment. No extreme environmental source was mentioned.
+
+Concise Summary:
+The paper focuses on the development and application of engineered RNase P ribozymes as antiviral therapeutics against human herpesviruses (HSV-1 and KSHV) in the oral cavity. The discussion is entirely molecular and physiological, detailing the mechanism of action (sequence-specific RNA degradation) and therapeutic potential. There is no microbiological data provided regarding the thermal physiology, growth conditions, or environmental adaptation of the viruses or the enzymes involved.
+
+

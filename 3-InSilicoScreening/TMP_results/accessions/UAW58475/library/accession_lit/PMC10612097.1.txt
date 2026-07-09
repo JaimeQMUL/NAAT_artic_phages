@@ -1,0 +1,326 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Viruses
+Journal ID: Viruses
+Journal ID: viruses
+
+Viruses
+
+EISSN: 1999-4915
+Publisher: Multidisciplinary Digital Publishing Institute (MDPI)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC10612097
+PMID: 37896873
+DOI: 10.3390/v15102095
+Article ID: viruses-15-02095
+Article version: 1
+Subjects: Article
+
+The Isolation and Characterization of Bacteriophages Infecting Avian Pathogenic Escherichia coli O1, O2 and O78 Strains
+
+Smith Kat R. 1
+https://orcid.org/0000-0003-0292-2589 Bumunang Emmanuel W. 2
+https://orcid.org/0000-0003-1375-2570 Schlechte Jared Software Formal analysis Writing – review & editing 1
+Waldner Matthew 1
+Anany Hany Investigation Writing – review & editing 3
+Walker Matthew Formal analysis Investigation Writing – review & editing 4
+MacLean Kellie Software Formal analysis 1
+https://orcid.org/0000-0001-8784-0042 Stanford Kim Resources Writing – review & editing Supervision 5
+Fairbrother John M. 6
+Alexander Trevor W. 2
+https://orcid.org/0000-0002-8266-6513 McAllister Tim A. 2
+Abdul-Careem Mohamed Faizal Writing – review & editing Supervision Funding acquisition 1
+https://orcid.org/0000-0002-4483-5734 Niu Yan D. 1 *
+Jun Jin Woo Academic Editor
+1 Faculty of Veterinary Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada; kat1996.smith@gmail.com (K.R.S.); jared.schlechte@ucalgary.ca (J.S.); matthew.waldner1@ucalgary.ca (M.W.); kellie.maclean@gmail.com (K.M.); mfabdulc@ucalgary.ca (M.F.A.-C.)
+2 Agriculture and Agri-Food Canada, Lethbridge Research and Development Centre, Lethbridge, AB T1J 4B1, Canada; emmanuel.bumunang@agr.gc.ca (E.W.B.); trevor.alexander@agr.gc.ca (T.W.A.); tim.mcallister@agr.gc.ca (T.A.M.)
+3 Agriculture and Agri-Food Canada, Guelph Research and Development Centre, Guelph, ON N1G 5C9, Canada; hany.anany@agr.gc.ca
+4 Canadian Science Centre for Human and Animal Health, Public Health Agency of Canada, Winnipeg, MB R3E 3R2, Canada; matthew.walker@phac-aspc.gc.ca
+5 Department of Biological Sciences, University of Lethbridge, Lethbridge, AB T1K 1M4, Canada; kim.stanford@uleth.ca
+6 Department of Pathology and Microbiology, Faculty of Veterinary Medicine, Université de Montréal, Saint-Hyacinthe, QC J2S 2M2, Canada; john.morris.fairbrother@umontreal.ca
+* Correspondence: dongyan.niu@ucalgary.ca
+Electronic publication date: 2023 Oct 16
+Publication date: 2023 Oct
+Volume: 15
+Issue: 10
+Electronic Location ID: 2095
+Received 2023 Sep 4; Revised 2023 Oct 5; Accepted 2023 Oct 6
+Copyright: © 2023 by the authors.
+Copyright year: 2023
+License: Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: bacteriophages, avian pathogenic Escherichia coli, colibacillosis, lytic activity, comparative genomics
+
+Funding: Egg Farmers of Canada Results Driven Agriculture Research Natural Sciences and Engineering Research Council (NSERC) This research was funded by Egg Farmers of Canada, Results Driven Agriculture Research and Natural Sciences and Engineering Research Council (NSERC).
+
+==============================
+Avian pathogenic Escherichia coli (APEC), such as O1, O2 and O78, are important serogroups relating to chicken health, being responsible for colibacillosis. In this study, we isolated and characterized bacteriophages (phages) from hen feces and human sewage in Alberta with the potential for controlling colibacillosis in laying hens. The lytic profile, host range, pH tolerance and morphology of seven APEC-infecting phages (ASO1A, ASO1B, ASO2A, ASO78A, ASO2B, AVIO78A and ASO78B) were assessed using a microplate phage virulence assay and transmission electron microscopy (TEM). The potential safety of phages at the genome level was predicted using AMRFinderPlus and the Virulence Factor Database. Finally, phage genera and genetic relatedness with other known phages from the NCBI GenBank database were inferred using the virus intergenomic distance calculator and single gene-based phylogenetic trees. The seven APEC-infecting phages preferentially lysed APEC strains in this study, with ECL21443 (O2) being the most susceptible to phages (n = 5). ASO78A had the broadest host range, lysing all tested strains (n = 5) except ECL20885 (O1). Phages were viable at a pH of 2.5 or 3.5–9.0 after 4 h of incubation. Based on TEM, phages were classed as myovirus, siphovirus and podovirus. No genes associated with virulence, antimicrobial resistance or lysogeny were detected in phage genomes. Comparative genomic analysis placed six of the seven phages in five genera: Felixounavirus (ASO1A and ASO1B), Phapecoctavirus (ASO2A), Tequatrovirus (ASO78A), Kayfunavirus (ASO2B) and Sashavirus (AVIO78A). Based on the nucleotide intergenomic similarity (<70%), phage ASO78B was not assigned a genus in the siphovirus and could represent a new genus in class Caudoviricetes. The tail fiber protein phylogeny revealed variations within APEC-infecting phages and closely related phages. Diverse APEC-infecting phages harbored in the environment demonstrate the potential to control colibacillosis in poultry.
+
+1. Introduction
+
+Avian pathogenic Escherichia coli (APEC) is the causal agent of colibacillosis in poultry, a disease characterized by polyserositis and the formation of lesions on major organs such as the liver and spleen. The primary APEC serogroups responsible for colibacillosis in chickens are O1, O2 and O78 [1,2]. Possible infection routes in chickens include the cloaca, respiratory/gastrointestinal tract, skin abrasions and the navel. APEC infections are important for chicken health and food production as they contribute to economic losses in food-producing industries [3,4].
+
+Food-producing animals such as chickens may act as a reservoir for disseminating E. coli and/or virulence genes that are responsible for urinary tract infections (UTIs) in humans [5,6,7]. Analysis of APEC strains from healthy chickens has shown that they can induce UTIs in mice when administered via a urethral catheter [7]. Therefore, APEC-contaminated chicken meat and eggs may pose a potential health risk to humans, although there is no evidence of APEC being isolated from UTI patients.
+
+The prophylactic use of antimicrobials in chickens is not recommended in Canada due to concerns that it may select for antibiotic-resistant APEC strains. The Chicken Farmers of Canada eliminated the use of category I and II antibiotics [8] in 2014 and 2018, respectively. It is their desire to completely eliminate category III antibiotics such as bacitracins and tetracyclines [9] for preventive use, but this revision in antimicrobial use (AMU) is still under assessment. The Chicken Farmers of Canada did maintain the preventative use of ionophores as category IV antimicrobials in order to preserve treatment options [9]. Good management practices such as proper ventilation, effective sanitation and culling of sick chickens to reduce exposure to APEC are reliable methods of preventing colibacillosis [10]. A probiotic preparation of Enterococcus faecalis-1 reduced the invasion by O78 in challenged commercial broilers [11] and could be used to prevent colibacillosis. Live or attenuated vaccines targeting O78 APEC have been evaluated and proven to be beneficial regarding chicken survival and increased productivity [12,13,14]. However, APEC strains causing colibacillosis are highly diverse, reducing the effectiveness of APEC-specific control strategies and vaccines [15]. Thus, other non-antibiotic strategies, such as using bacteriophages to control APEC in chickens, are worth consideration.
+
+Bacteriophages (phages) are bacterial viruses that specifically infect and kill their hosts [16]. Phages possess several attractive benefits in relation to antibiotics when used for biocontrol. First, the higher host specificity of phages, as compared to other antimicrobials, reduces the risk of disruption to non-target microbiota, while phage cocktails allow for the treatment of multiple strains of the same pathogen, increasing their utility [17,18]. Retaining beneficial E. coli is important to maintaining a healthy gut and preventing pathogen infection. Second, phages targeting pathogens of interest can be readily isolated from areas where the pathogen is found [17]. Third, phage biocontrol is inexpensive, and mechanisms of host resistance are generally different from those of existing antibiotic therapies [19,20].
+
+Some phage products are approved in Canada for biocontrol in foods, as single phages and phage cocktails have been used to reduce bacterial contamination of meat and vegetables by Salmonella, Listeria monocytogenes and E. coli O157:H7 [16]. Phages and their cocktails have varying degrees of efficacy in reducing APEC infection of broiler chickens when applied directly or indirectly as a coarse phage spray [21,22]; however, these studies focused on serogroup O2. A study characterized two myophages that were broadly active against the APEC serogroups O1, O2 and O78 from Ontario, Canada [23]. However, this research did not evaluate diverse APEC-infecting phages for laying hens. Hence, we hypothesized that APEC-infecting phages could be readily isolated from hen feces and human sewage in Alberta for improved control of colibacillosis in laying hens. The objective of this study was to isolate APEC-targeting phages, evaluate their biocontrol potential in vitro and characterize their genomic features.
+
+2. Materials and Methods
+
+2.1. Bacteria and Media
+
+APEC strains used in this study were collected in 2015–2018 from broiler chickens that had died exhibiting signs of colibacillosis and were provided by the reference laboratory for E. coli, Université de Montréal (Supplementary Table S1). The antibiograms of these APEC strains are shown in Table S2. Overnight APEC cultures were prepared by inoculating a single APEC colony into 10 mL of tryptic soy broth (TSB) (Sigma, Oakville, ON, Canada), followed by subsequent incubation for 18–20 h at 37 °C. Early-log-phase cultures were prepared by inoculating 5 mL of TSB with 100 µL of overnight culture, followed by incubation at 37 °C in a shaking incubator (170–190 rpm) until reaching early-log phase (OD600 = 0.2−0.3, ~107 CFU/mL) [24]. Mid-log-phase cultures were prepared by inoculating 9 mL of TSB with 1 mL overnight culture and incubated in the same manner until mid-log-phase (OD600 = 0.5−0.6, ~108 CFU/mL) culture was obtained. Bacterial stocks were maintained at −80 °C in TSB containing 20% glycerol. Modified nutrient agar (MNA) (Dalynn Biologicals, Calgary, AB, Canada) composed of 20 g/L nutrient broth, 8.5 g/L NaCl, 10.0 g/L agar #1, 8.325 mg/L CaCl2, 1.15 mg/L FeCl3, 0.5 g/L MgSO4·7H2O, and 10 mL 30% glucose was used for enumeration and isolation of phages from APEC hosts.
+
+2.2. Sample Collection and Processing
+
+Hen fecal and wastewater samples were collected from Alberta, Canada, between May and August 2020. Seven geographically separated egg farms (Calgary area, May–June 2020, n = 16; Lethbridge area, August 2020, n = 3; and Edmonton area, June 2020, n = 1) were sampled for feces. Approximately 100 g of fecal material was collected from droppings on the barn floors (free-run system) and conveyor belts (cage system), added to a sterile zip-lock bag, homogenized by hand and transported to the laboratory at 4 °C. Wastewater samples (1 L of sewage influent) were collected from the same egg farms between July and August 2020 and storage at 4 °C. Fecal and wastewater samples were processed within 48 h of receipt.
+
+The hosts for phage isolation were ECL20885 (O1), ECL21443 (O2) and ECL23026 (O78) (Table S1), and each phage host was used for phage enrichment, propagation and overlay experiments. Established methods were used for fecal processing [24]. Feces (10 g) were mixed with 60–100 mL of lambda diluent (10 mM Tris-Cl, pH 7.5, 8 mM MgSO4) and processed using low-speed stomaching for 60 sec in a Seward Stomacher 80 Biomaster (Seward, Worthing, West Sussex, UK).
+
+Fecal slurries were allowed to settle at 22 °C for 0.5–1 h, and 1.8 mL of the slurry top layer was centrifuged at 22 °C, 11,000× g for 10 min. Supernatants were filtered through 0.8/0.2 µm Acrodisc syringe filters (Pall, VWR, Edmonton, AB, Canada). Sewage water influent samples (400 mL) were centrifuged at 4 °C, 4816× g for 25 min and resulting supernatants were filtered using 0.45 µm Nalgene bottle top filter units (Sigma-Aldrich, Burlington, MA, USA). Figure 1 outlines the main steps from phage isolation, purification to characterization.
+
+2.3. Sample Enrichment and Phage Recovery
+
+Phage enrichment of processed fecal and sewage samples was conducted using previously established methods depicted in Figure 1 [24]. Filtrate (1 mL) was transferred into 5 mL of early-log-phase (OD600 = 0.2–0.3, ~107 CFU/mL) APEC culture grown in tryptic soy broth (TSB) (Sigma, Oakville, ON, Canada) containing 10 mM MgSO4 (mTSB). Filtrate/APEC cultures were then incubated at 37 °C in a shaking incubator at 150 rpm for 18–20 h. An extraction of 1.8 mL of culture was centrifuged at 22 °C, 11,000× g for 10 min and filtered using 0.2 µm Acrodisc syringe filters (Pall, VWR). Phages were enumerated using a soft-agar overlay plaque assay [25].
+
+2.4. Purification and Phage Research Stock Preparation
+
+Phages were purified by isolating a single, distinct plaque from the initial soft-agar overlay plaque assay and then storing it in 900 µL of lambda diluent with 20% glycerol at 4 °C to allow phage particles to diffuse into the medium. These steps were conducted 3 times, with the third preparation used as research laboratory stocks as described previously [26]. Concentration of phage stocks was assessed using the soft-agar overlay plaque assay [25].
+
+2.5. Host Range and Lytic Activity
+
+Phage host range and lytic activity were determined using microplate phage virulence assays [27]. Assays using phage cocktails were conducted by preparing the phage cocktail such that each phage was equally represented. Briefly, high titer phage stocks (~109–1011 PFU/mL) were serially diluted ten-fold in eight rows of a 96-well microplate in mTSB, then 20 µL of a ten-fold dilution of an overnight APEC culture (~108 CFU/mL) was transferred into each well in triplicate columns. Microplates were incubated for 5 h at 37 °C, and wells were visually scored for turbidity. The highest dilution of phage which completely lysed APEC in the well (no turbidity) was recorded, and the multiplicity of infection (MOI) of each well was determined by dividing the initial phage concentration by the initial bacterial concentration as determined by spread plating dilutions of the original APEC culture. Microplate experiments were conducted in duplicate.
+
+2.6. pH Tolerance
+
+Phage pH tolerance was determined with methods adapted from Niu et al. [28]. A total of 100 µL high titer (~108–1011 PFU/mL) phage stock was transferred into 900 µL of TSB adjusted to pHs of 2.5, 3.5, 4.5, 5.5 and 9.0 by adding 10 M sodium hydroxide or 6 M hydrochloric acid. TSB (pH = 7.0) was used as a control. Phages in pH-adjusted TSB were incubated at 22 °C for 4 h (pH ≤ 7) and 24 h (pH = 9). Subsamples (50 µ) were taken at 1, 4 and 24 h to enumerate phages via a modified drop-plaque assay [29]. Ten-fold serial dilutions of phage-TSB mixtures in lambda diluent and 50 µL of a mid-log-phase (OD600 = 0.5−0.6, ~108 CFU/mL) APEC culture were combined, and 20 µL of the suspensions were spotted onto modified nutrient agar (Dalynn Biologicals, Calgary, AB, Canada) and incubated at 37 °C for 18−20 h. Independent assays were conducted in triplicate. The pH of TSB was measured with an Orion ROSS Ultra pH Electrode probe (Fisher Scientific). Significant differences between each pH condition were assessed using one-way ANOVA with Tukey’s multiple comparisons test for 1 h and 4 h incubation times and a t-test for 24 h incubation time.
+
+2.7. Transmission Electron Microscopy
+
+Purification of crude phage lysates was conducted by centrifugation at 25,000× g, 4 °C for 1 h, followed by two washes of the resulting pellet with 1 mM HEPEs buffer and suspension in HEPEs (30 µl 1 mM). Phages were allowed to diffuse into the buffer overnight at 4 °C, prior to fixation onto carbonized 200 mesh copper grids (Electron Microscopy Sciences, Hatfield, PA, USA) and subsequent staining using 1% uranyl acetate. A Tecnai F20 (Thermo Scientific) transmission electron microscope and Gatan 4K CCD camera were used for imaging at the University of Guelph’s Molecular and Cellular Imaging Facility.
+
+2.8. DNA Extraction and Whole-Genome Sequencing
+
+To extract phage DNA (n = 7), 2 mL of filtered phage lysate (108−1011 PFU/ml) was centrifuged at 8000× g at 22 °C for 10 min and 30 µL of DNase 1 (10 µg ml−1) and RNase A (30 µg ml−1) (Sigma) were added to 1.3 mL of the resulting supernatants at 22 °C for 15 min to remove non-phage DNA and RNA. A phage DNA isolation kit (Norgen Biotek Corp., Ontario, Canada) was then used to extract phage DNA, according to the manufacturer. A Nanodrop Lite spectrophotometer (Thermo Fisher Scientific, Verona, WI, USA) was used to determine DNA concentrations and purity prior to submission to the Canadian Science Centre for Human and Animal Health, Public Health Agency of Canada, Winnipeg, Manitoba, for sequencing. The Illumina MiSeq platform (2 × 150 bp paired-end reads) was used along with a V2 kit for sequencing. Reads were assembled with SPAdes version v3.11.1 [30].
+
+2.9. Bioinformatic Analysis of Sequencing Data
+
+Aligned phage genomes were annotated using Snakemake [31] and Prokka [32] for putative open reading frame (ORF) and protein prediction. Predicted ORFs were compared locally to viral and bacterial proteins from the NCBI RefSeq database [33]. Putative transfer RNA genes (tRNA genes) were predicted by Prokka [32] using Aragorn [34] and then additionally by tRNAscan-SE (at http://lowelab.ucsc.edu/tRNAscan-SE/, accessed on 20 August 2023) [35] using Infernal [36]. Regulatory regions such as Rho-independent terminators were predicted using a combination of TransTermHP v2.08 [37], WebGeSTer [38] and bTSSfinder [39]. The presence of E. coli σ70 promoter regions was determined by locating promoter motifs in reference phages and scanning isolated phages for the presence of these motifs. The presence of antimicrobial resistant genes (ARGs) and virulence genes was determined by scanning predicted ORF nucleotide sequences using Abricate version 0.8.7 at https://github.com/tseemann/ABRICATE, accessed on 20 August 2023 [40], with the following datasets: NCBI AMRFinderPlus [41], ARG-ANNOT [42], Virulence Factor Database (VFDB) [43] and ResFinder [44]. Peptide transmembrane regions were described using TMHMM [45], and SignalP 5.0 was used to discover signal peptides [46]. Predicted proteins were compared against the prokaryotic virus orthologous groups (pVOG) database [47] with HMMER3 [48] hmmsearch. Predicted protein sequences were queried against the NCBI nr database with BLASTP [49], and all annotations were then manually assessed to improve the number of proteins with assigned putative functions based on homology with reference phages in the NCBI database. All code is available online at http://github.com/jaredmychal/phageAnnote, accessed on 20 August 2023. The annotated genomic sequences have been deposited in GenBank under the accession numbers ASO1A (MZ726791), ASO1B (MZ726792), ASO2A (MZ726793), ASO78A (MZ726795), ASO2B (MZ726794), ASO78B (MZ726796), and AVIO78A (MZ726797).
+
+Virus intergenomic distance calculator (VIRIDIC) [50] was used to establish nucleotide identity between closely related phages within the same genus. A nucleotide identity cut-off for genera (>70%) and species (>95%) [51] was used. CoreGenes 3.5 was used to determine the presence of core genes shared between the isolated phages and other closely related phages within the same genus [52]. EasyFig, a Python-based program for genome alignment, was used [53] to compare isolated phages with the chosen phages in the NCBI database. TBLASTX was used to compare phages and produce identity values in EasyFig, and resulting figures were given coloured labels based on predicted CDS function. Identity was set to 85% except for ASO78B, which produced a more legible figure with a 50% cut-off. The portal, capsid, tail fiber and large subunit of terminase proteins were used to determine the phylogeny of these phages. Representative sequences for each of the 4 protein types listed above were identified by using the representative protein sequences identified in the APEC phages as a TBLASTN [49] query against the portal, capsid, tail fiber and large subunit of terminase proteins of all other strain types. The start and end nucleotide coordinates of the sequences identified by each TBLASTN search were manually curated to fully identify and extract annotated proteins within the target viral genomes. If a previously annotated protein was not present within the target region identified as one of the four protein types by the TBLASTN query, the target region was extracted instead. These extracted protein sequences were then aligned with MAFFT [54] by protein type, and a maximum-likelihood (ML) phylogenetic tree was constructed in mega-cc v11.0.11 [55] using the Jones–Taylor–Thornton model, nearest-neighbor-interchange ML heuristic, and 500 bootstrap replications. The trees were visualized with iTOL [56]. As ASO78B lacks an assigned genus, its sequences were compared to the phages within the genus Roufvirus that possessed the most similar BLASTN matches [49].
+
+3. Results
+
+3.1. Phage Isolation, Host Range and Lytic Activity
+
+A total of 28 phages (hen feces; n = 22, sewage water; n = 6) that infect O1 (n = 9), O2 (n = 8) or O78 (n = 11) serogroup APEC were isolated. Seven phages (hen feces; n = 1, sewage water; n = 6) were chosen for further characterization based on their efficacy in lysing APEC cultures and in their ease of propagation (Table S3). These APEC phages were assigned descriptors according to Kropinski et al. [57]: vB (bacterial virus) followed by Eco (E. coli); M or S or P (Myovirus or Siphovirus or Podovirus ); A (Alberta); S (isolate source); O1, O2 and O78 (host serotype); and A or B (strain designation). A short form name, for example, ASO78A, was adopted for phage vB_EcoM_ASO78A.
+
+The tested APEC strains were differentially susceptible to at least one phage isolate. ECL21443 (O2) was most susceptible to phages (n = 5), followed by ECL20885 (O1), (n = 4) and ECL22102 (O78) and ECL23026 (O78), (n = 3), respectively. However, ECL20834 (O1) was moderately susceptible to one phage (ASO78A) only (Table 1). ASO78A had the broadest host range, lysing all tested strains (n = 5) except ECL20885 (O1) followed by vB_EcoS_ASO78B, vB_EcoS_AVIO78A and vB_EcoM_ASO2A (n = 3), respectively (Table 1). vB_EcoM_ASO1A and vB_EcoM_ASO1B had similar lysis profiles (n = 2). Overall, phages exhibited stronger lytic activity against their original host than the other tested APEC strains. With the exception of O78 (n =3), no phage cocktail exhibited activity against O1 (n = 2) or O2 (n = 1). All O78 APEC strains were found to be extremely susceptible to phage cocktails comprised of ASO78A, ASO78B and/or AVIO78A, and the anti-APEC activity of the phage cocktails was found to equal or exceed that of individual phages (Table 1).
+
+3.2. pH Tolerance
+
+Phage viability was higher between pH = 3.5 and 5.5 than at pH = 2.5 after 1 or 4 h of incubation at 22 °C (p < 0.0001; Figure 2A,B). ASO1A, ASO1B and ASO2B were largely inactivated (p < 0.0001) at pH = 2.5, with <3.48 log10 PFU/mL (<0.01% survival) at 1 h compared to ASO78A, ASO78B and AVIO78A. ASO78A exhibited a population of 6.61 log10 PFU/mL (11% survival, p < 0.0001) after 4 h incubation at this pH (Figure 2B). For ASO78B and AVIO78A, activity at pH = 2.5 was intermediate (p < 0.0001), possessing titers of 3.6 log10 and 3.0 log10 PFU/mL (1.3−3.1% survival), respectively, after 4 h of incubation (Figure 2B). ASO1A, ASO1B, ASO2A and vB_EcoP_ASO2B were completely inactivated at pH = 2.5 after 4 h of incubation (Figure 2B). At a pH of 9.0, all phages exhibited no discernible titer drop (< 1 log10 CFU/mL, p > 0.05) after 24 h of incubation (Figure 2C).
+
+3.3. Phage Virion Morphology and Genomic Organization
+
+Phage morphotype (determined by tail length and contractibility), length and width of phage tails and head diameters are shown in Table 2 and visualized in Figure 3. Phages ASO1A, ASO1B, ASO2A and ASO78A had a long, contractile tail sheath ranging from (88.4–125.7 × 17.6–21.5 nm) and an icosahedral head with a diameter of 61.4–119.1 nm, suggesting they are myoviruses [58]. These phages contained genome sizes ranging from 87.6 to 166.3 kb, which is within the range (60–160 kb) described [59] for myoviruses. Genomic features (GC content 35.4–39.0%, transfer RNAs (tRNAs) 10–26, promoters 9–81 and terminators 19–57) were identified (Table 3). Phage ASO2B had a short, non-contractile tail sheath (10.5 × 8.8 nm) and an icosahedral head with a diameter of 58.0 nm, suggesting it was a podovirus morphotype [60,61]. The genome size of 39.9 kb is similar to that of 40 kb [59] for podoviruses. Furthermore, phage ASO2B had a GC content of 49.7% and 11 promoters and terminators (Table 3). Phages ASO78B and AVIO78A had a long, non-contractile tail sheath (107.4 × 10.6 nm and 157.6 × 10.4 nm) with icosahedral heads with a diameter of 61.8 nm and 63.3 nm, respectively, suggesting they have a siphovirus morphotype [58]. Their genome size was 46.2 and 57.8 kb, which placed them within the genome size range (40–60 kb) [59] for siphoviruses. Furthermore, a GC content of 46.6% and 43.7%, 15 and 14 Rho-dependent terminators and five and seven promoters were detected. No tRNA was detected in AVIO78A compared to two in ASO78B (Table 3). Three phages (ASO78A, ASO78B and ASO2A) possessed tail fibers ranging from 13.2–23.7 × 4.6–8.5 nm. Overall, undesirable traits such as genes associated with exotoxin production, antimicrobial resistance, or lysogeny were not detected in the genomes.
+
+3.4. Comparative and Phylogenetic Analysis
+
+Of the four (ASO1A, ASO1B, ASO2A and ASO78A) myoviruses, the nucleotide-based intergenomic analysis showed that ASO1A and ASO1B were 97.3% similar, and both phages had 86.5–91.0% nucleotide similarity to 16 phages in the Felixounavirus (Supplementary Figure S1). CoreGenes analysis indicated that ASO1A and ASO1B shared 83.46−94.44% protein homology with proteins of 16 other members from the Felixounavirus subfamily Ounavirinae (Table S3). Of the 16 members, Salmonella phage BPS15Q2 shared more protein homology with ASO1A (94.44%) and ASO1B (93.7%) (Table S4). Based on EasyFig alignment, ASO1A and ASO1B showed a higher sequence similarity with each other than with AYO145A (Figure 4A). Sequences with putative functions such as head and tail proteins, DNA metabolism and recombination, DNA packaging and lysis proteins together with hypothetical proteins were conserved in (ASO1A and ASO1B) and phage AYO145A.
+
+The majority of sequences with a putative function in the Felixounavirus phage genome were those encoding proteins involved in DNA metabolism and recombination, depicted in orange (Figure 4A). ASO1A and ASO1B had 20 unique DNA metabolism and recombination proteins each, 4 more than AYO145A with 16 proteins (Figure 4A). Phage ASO2A also had a 90.3–94.1% nucleotide identity and 88.81–94.58% protein homology with six other known phages belonging to the genus Phapecoctavirus, subfamily Stephanstirmvirinae (Supplementary Figure S2 and Table S4). ASO2A and phAPEC8 each had two proteins associated with lysis, and each had one protein associated with DNA packaging and the head, respectively. ASO2A had one more unique protein associated with the tail and with DNA metabolism and recombination than phAPEC8 (Figure 4B). ASO78A had an 85.4–94.7% pairwise nucleotide similarity and 86.3–97.04% protein homology with members of the Tequatroviruse (n = 22) (Supplementary Figure S3 and Table S4). ASO78A shared a large number of protein homologs (262/270; 97.04%) as well as a higher nucleotide sequence identity (94.7%) with Escherichia phage CF2. EasyFig alignment showed that DNA metabolism and recombination proteins were numerous in ASO78A and phage SF21, followed by tail proteins compared to lysis, head and DNA packaging proteins (Figure 4C). ASO78A had five lysis proteins compared to three in SF21. However, the same number (n = 2) of DNA packaging protein was detected in ASO78A and SF21 (Figure 4C).
+
+A nucleotide similarity of 68.9–90.02% and 72.92–91.67% protein homology placed ASO2B with phages belonging to the genus Kayfunavirus, subfamily Studiervirinae, family Autographiviridae (n= 19) (Supplementary Figure S4 and Table S3). Of the 19 Kayfunavirus, K1F was more closely related to phage ASO2B, with 90.02% DNA identity. The same number and pattern of sequences arrangement with putative function for lysis, DNA packaging and phage head were found in ASO2B and K1F genome as depicted (Figure 4D). Twelve DNA metabolism and recombination proteins were detected in ASO2B, whereas the K1F genome had ten complete and four truncated DNA metabolism and recombination proteins (Figure 4D).
+
+Phage AVIO78A possessed a 73.8%, 75.4% and 75.5% nucleotide similarity and 63.81%, 68.57% and 69.52% protein homology to closely related Salmonella phages Sasha, Solent and Serge, respectively (Supplementary Figure S5 and Table S4). All DNA packaging proteins, tail proteins, lysis proteins and head proteins were conserved in AVIO78A and phage Solent. On the other hand, phage AVIO78A, a siphovirus, had 11 DNA metabolism and recombination proteins—1 protein less than phage Solent (n = 12). (Figure 4E). Phage ASO78B showed a low DNA identity (30.4–62.7%) and protein homology (50.62–77.78%) with other (Salmonella, Klebsiella, Aeromonas, Escherichia, Vibrio or Shigella) phages (n = 16) (Supplementary Figure S5 and Table S4). ASO78B was more closely related to Salmonella phage IME207 (KX523699.2, a Shuimuvirus based on NCBI taxonomy) with 62.7% DNA identity, less than the threshold (≥70%) for genus classification. Phage ASO78B could represent a new genus in the Caudoviricetes class. EasyFig alignment showed that ASO78B and phage IME207 had equal numbers of DNA metabolism and recombination proteins (n = 10) and head proteins (n = 3). However, the number of lysis (n = 2), DNA packaging (n = 2) and tail (n = 5) proteins in ASO78B were different compared to those in phage IME207; lysis (n = 4), DNA packaging (n = 1) and tail (n = 3) proteins (Figure 4F).
+
+Phylogenetic analysis based on capsid, portal and the large subunit of terminase protein sequences grouped six of the seven APEC-infecting phages within their predicted genus (Figure 5A–C). Phage ASO78B clustered with phage IME207, a Shuimuvirus (Figure 5A–C). The inferred phylogenetic tree of tail fiber protein sequences showed distinct branches within each genus (Figure 5D). Tail proteins of ASO2A and ASO2B, Phapecoctavirus and Kayfunavirus, respectively, clustered together compared to other phages which clustered within their respective genera (Figure 5D). Although ASO78B is more closely related to IME207, a Shuimuvirus, with a nucleotide similarity of 62.7%, its tail protein is distantly related to that of IME207. Rather, the IME207 tail protein clustered with Phapecoctavirus and Kayfunavirus (Figure 5D).
+
+4. Discussion
+
+We isolated seven phages from hen feces and wastewater samples in Alberta, which can infect APEC strains, revealing a diversity of phage types based on the lytic activity with the potential for controlling colibacillosis in chickens. The ability of a phage to infect and lyse a bacterium and the host range are important requirements and the initial step for selecting a potential phage candidate for pathogen biocontrol. Ease of propagation is also an important requirement for scale-up purposes. The target-specific application of a phage for treatment or control purposes will require a highly specific phage with a narrow host range. On the other hand, a non-target-specific application will require a phage with a broad host range or a cocktail preparation that targets different bacterial/bacterial cell-surface receptor structures. Additionally, prolonged stability of a phage in different states (liquid) and/or medium is important for its preparation and application [62].
+
+The preferential lysis of APEC strains ECL20834 and ECL20885 (O1), ECL21443 (O2) and ECL22102, ECL20719 and ECL23026 (O78) by the seven APEC-infecting phages may suggest the distribution of these phages with respect to the different APEC host serogroups and their suitability for both target- and non-target-specific application. Phage ASO78A had the broadest host range amongst the seven APEC-infecting phages and can be used in non-target-specific applications such as diverse APEC serogroups in a planktonic or biofilm form. Strains belonging to O78, a common APEC serogroup [63,64,65], were highly susceptible to different cocktail preparations compared to a single phage; thus, these cocktails (ASO78A/ASO78B/AVIO78A or ASO78A/AVIO78A) could be useful in eliminating APEC of this serogroup or used in a situation where phage-resistant O78 strains may arise. Ongoing in vitro and in vivo experiments are undertaken to validate their potential in biocontrol of APEC in laying hen model.
+
+Differential phage pH tolerance (2.5, 3.5–9.0) was exhibited by the APEC-infecting phages. APEC O78-infecting phages (ASO78A, ASO78B and AVIO78A) remained viable at a low pH of 2.5 after 4 h compared to the other phages (ASO1A, ASO1B, ASO2B and ASO2A), which were stable at pH >3.5 after 4 h. A previous study showed that an APEC O78-infecting phage, vB_EcoM_APEC, can tolerate a pH range of 3.0–12.0 [65]. The seven APEC-infecting phages were classified as siphovirus, podovirus and myovirus based on capsid size, tail length and contractibility. The distinct difference in morphology in regard to the tail length and flexibility and capsid size corroborate phage diversity, as they may exhibit different mechanisms for infection and replication.
+
+The safety of a potential candidate Ihage is a primordial consideration for selecting a phage for control or therapeutic applications; thus, regulatory agencies require that the phage meet rigorous quality standards [62] before approval. Traits such as ARGs, phage-encoded Shiga toxin genes and integrases associated with phage lysogenic life cycle are undesirable characteristics for pathogen control or therapeutic applications. Measures for identifying these traits outlined in Philipson et al. [66] include high-quality sequenced data, prediction of putative open reading frames, annotation of coding sequences and the search for undesirable traits using ResFinder, AMRFinder and Virulence Factor Database. Our phages satisfied these conditions as no homology to integrase coding sequences was detected in the seven APEC-infecting phages, which correlates with the lytic capability observed in this study. Furthermore, no sequences coding undesirable virulence or antimicrobial traits were detected, indicating they meet the requirements as candidates for controlling APEC O1-, O2- and O78-associated colibacillosis in laying hens. In fact, preliminary findings from the safety trial of phages in laying hens indicated that the phage isolates did not induce any adverse effects in the birds [67]. In addition, phages are cost-effective, with abundant sources, simple production and broad commercialization (including current use on vegetables and a preslaughter hide wash for cattle) [17]. The projected expense for manufacturing a single new antibiotic totals USD 1.5 billion [68], significantly surpassing the production cost of a phage-based product, which falls within the range of USD 8000 to USD 20,000 [69]. Under the phage production framework, the expenditure for a single dose of Salmonella Enteritidis in poultry is estimated at just USD 0.02 [70].
+
+Syntenic regions in the same or different species/strains of phages are predictive of the lifestyle and evolution as well as useful in the classification of phages. Phages were classified to the genus level as follows: Felixounavirus, ASO1A and ASO1B; Phapecoctavirus, ASO2A; Tequatrovirus, ASO78A; Kayfunavirus, ASO2B; and Sashavirus, AVIO78A. Phages ASO1A and ASO1B, from the genus Felixounavirus, represent the same species, as they showed 97.3% nucleotide similarity with each other. ASO78B had a low nucleotide-based intergenomic similarity of <70% with other siphoviruses; therefore, ASO78B might be a novel genus within siphoviruses. Except for DNA metabolism and recombination proteins and tail proteins (for Phapecoctavirus), the number of sequences with putative functions such as head and tail proteins, DNA packaging and lysis proteins in the closely related phage from NCBI GenBank database were the same in our phages. This may suggest different replication and metabolism mechanisms or a stable protein number with putative function in closely related phages. However, the difference between ASO78B and phage IME207 regarding the number of the tail fiber proteins (ASO78B; n = 5, IME207; n = 3), DNA packaging proteins (ASO78B; n = 2, IME207; n = 1) and lysis proteins (ASO78B; n = 2, IME207; n = 4) correlates with the low nucleotide sequence similarity (62.7%), suggesting differences in mechanisms of attachment, packaging and lysis, re-inforcing a lack of close relationshiI.
+
+The inferred phylogeny of the large subunit of terminase, portal and capsid protein sequences showed that the seven APEC-infecting phages were highly related to phages within Felixounavirus, Phapecoctavirus, Tequatrovirus, Kayfunavirus and Sashavirus regarding the viral DNA translocation and genome packaging mechanisms. Although large subunit of terminase, portal and capsid proteins of ASO78B clustered with those of other classified (Salmonella, Klebsiella, Aeromonas, Escherichia, Vibrio or Shigella spp.) phages, this cluster was designated as unclassified based on the nucleotide similarity <70% of phage ASO78B with these known phages and suggest the importance of nucleotide-based intergenomic analysis in the classification of phages compared with a single gene-based evolution.
+
+The interaction between phage tail fibers and bacterial cell-surface receptors and/or lipopolysaccharide is the first step for phage attachment and subsequent infection of the bacterial host. Phage–host interaction dictates the phage’s host range activity [71]. As previously discussed, phage ASO78A had the broadest host range amongst the seven APEC-infecting phages. The cross-serogroup activity of ASO78A may reflect its tail fiber’s ability to recognize several distinct bacterial cell-surface receptors. Phage–bacterial interactive events can also confer a selective pressure on both phage and bacteria. Thus, bacteria have developed ways to subvert or prevent phage absorption by either modifying or downregulating their cell-surface receptors. Consequently, phages can adapt by modifying their tail fibers through mutations in order to recognize the modified/new bacterial cell-surface receptors during infection [72,73,74]. The high degree of variation within the tail fiber proteins of our phages and other known phages in the same genus might be due to the selective pressure of different bacterial strains that phages are constantly being exposed to. Variabilities in the tail fibers were also observed within the same species, ASO1A and ASO1B, from the same region and sample type (hen feces) in the genus Felixounavirus. This suggests that these highly related phages may have been exposed to different bacterial strains or are structurally different at the tail fiber proteins. Furthermore, ASO2A, a Phapecoctavirus, clustered together with ASO2B, a Kayfunavirus, within the tail fiber phylogenetic tree. This also highlights the fact that the tail fibers of the distantly related phages may be closely related structurally by amino acid sequence, as evidence for horizontal transfer of tail fiber genes among unrelated phages has been reported [75].
+
+5. Conclusions
+
+Various types of phages from six genera of the myovirus, siphovirus and podovirus were harbored in the environment that lysed APEC serotypes O1, O2 and O78. Among the seven phages, O78-infecting phages (ASO78A, ASO78B and AVIO78A) demonstrated the overall strongest lytic activity, broadest host range against APEC strains tested and relatively high acid and chemical tolerance. These phages can be used as antibacterial agents and could be cost-effective compared to antimicrobial treatment due to ease of isolation. In vivo study with these O78-infecting phages is ongoing to confirm their great potential for biocontrol of APEC in laying hens.
+
+Acknowledgments
+
+We acknowledge technical support from Jieting Lin, Tahreem Asrar, Celina Liu, Mihret Girum and Viviane Berger from the University of Calgary; feces coordination and/or collection from Egg Farmers of Alberta; several Alberta egg farms that participated; Marshall Swine and Poultry Health Services; APEC strains provision by Fairbrother from the reference laboratory for E. coli, Université de Montréal; sewage collection from City of Calgary; as well as Smith’s stipend support from Alberta Graduate Excellence Scholarships.
+
+Supplementary Materials
+
+The following are available online at https://www.mdpi.com/article/10.3390/v15102095/s1. Figure S1: Nucleotide intergenomic sequence similarity of ASO1A and ASO1B with other known phages using VIRIDIC; Figure S2: Nucleotide intergenomic sequence similarity of ASO2A with other known phages using VIRIDIC; Figure S3: Nucleotide intergenomic sequence similarity of ASO78A with other known phages using VIRIDIC; Figure S4: Nucleotide intergenomic sequence similarity of ASO2B with other known phages using VIRIDIC; Figure S5: Nucleotide intergenomic sequence similarity of AVIO78A with other known phages using VIRIDIC; Figure S6: Nucleotide intergenomic sequence similarity of ASO78B with other known phages using VIRIDIC; Table S1: E. coli strains used during the study; Table S2: Antibiograms of isolates used in this study; Table S3: Phages chosen for further characterization in this study; Table S4: Protein homology of 7 APEC-infecting phages with closely related phages using CoreGenes 3.5.
+
+Click here for additional data file.
+
+Author Contributions
+
+Conceptualization, Y.D.N.; methodology, K.R.S. and Y.D.N.; software, J.S., M.W. (Matthew Waldner) and K.M.; validation, Y.D.N.; formal analysis, K.R.S., J.S., M.W. (Matthew Waldner), M.W. (Matthew Walker) and K.M.; investigation, K.R.S., M.W. (Matthew Walker) and H.A.; resources, K.S., J.M.F., T.W.A., T.A.M. and Y.D.N.; data curation, K.R.S. and Y.D.N.; writing—original draft preparation, K.R.S. and E.W.B.; writing—review and editing, K.R.S., E.W.B., M.W. (Matthew Waldner), J.M.F., T.A.M., H.A., K.S., M.F.A.-C. and Y.D.N.; visualization, K.R.S., E.W.B., M.W. (Matthew Waldner) and K.M.; supervision, K.S., T.W.A., T.A.M., M.F.A.-C. and Y.D.N.; project administration, Y.D.N.; funding acquisition, T.A.M., M.F.A.-C. and Y.D.N. All authors have read and agreed to the published version of the manuscript.
+
+Institutional Review Board Statement
+
+Not applicable.
+
+Informed Consent Statement
+
+Not applicable.
+
+Data Availability Statement
+
+Not applicable.
+
+Conflicts of Interest
+
+The authors declare no conflict of interest.
+
+Figure 1 Flowchart of phage isolation, purification and characterization.
+
+Figure 2 pH tolerance ranges for 7 APEC phages under varied pH and incubation time: (A) 1 h incubation, (B) 4 h incubation and (C) 24 h incubation. Data expressed as mean ± SD for 3 independent trials. Significance was assessed using one-way ANOVA with Tukey’s multiple comparisons test for (A) and (B) and t-test for (C). Symbols indicate statistical significance: * (p < 0.05), **** (p < 0.0001).
+
+Figure 3 TEM images of 7 phages. Scale bars represent 20 nm (A–F) or 50 nm (G). (A) ASO1A, (B) ASO1B, (C) ASO2A, (D) ASO2B, (E) ASO78A, (F) ASO78B, (G) AVIO78A.
+
+Figure 4 (A): Linear alignment of ASO1A, ASO1B and AYO145A genomes. (B): Linear alignment of ASO2A and phAPEC8 genomes. (C): Linear alignment of ASO78A and SF21 genomes. (D): Linear alignment of ASO2B and K1F genomes. I(E): Linear alignment of AVIO78A and Solent genomes. (F): Linear alignment of ASO78B and IME027 genomes. CDSs are represented by arrows, with arrow colour corresponding to predicted CDS function, and grey bands represent sequence similarity between genomic regions.
+
+Figure 5 (A): Phylogenetic analysis of phage capsid proteins, (B): phage portal proteins, (C): phage large terminase subunits, (D): phage tail fiber proteins. Each leaf describes the phage from which their corresponding proteins were extracted for analysis. Phages sequenced in this study are highlighted with a red block. The colour of the brackets indicates the genus for each phage within.
+
+viruses-15-02095-t001_Table 1 Table 1 Sensitivity a of APEC strains to single phage and phage cocktails.
+
+Phages	APEC Strains (Serogroup)	
+ECL20834 (O1)	ECL20885 (O1)	ECL21443 (O2)	ECL22102 (O78)	ECL20719 (O78)	ECL23026 (O78)	
+ASO1A	−	+++	++	−	−	−	
+ASO1B	−	+++	++	−	−	−	
+ASO2A	−	++	+++	−	++	−	
+ASO2B	−	++	+++	−	−	−	
+ASO78A	+	−	++	+++	+++	+++	
+ASO78B	−	−	−	±	+++	+++	
+AVIO78A	−	−	−	+	+++	+++	
+ASO78A + ASO78B	NA	NA	NA	+++	+++	+++	
+ASO78A + AVIO78A	NA	NA	NA	+++	+++	+++	
+ASO78B + AVIO78A	NA	NA	NA	++	+++	+++	
+ASO78A + ASO78B + AVIO78A	NA	NA	NA	+++	+++	+++	
+a Sensitivity is based on the multiplicity of infection (MOI; the lowest phage: bacteria ratio that results in complete bacterial clearance of a microplate well after 5 h of incubation at 37 °C). +++: extremely susceptible (MOI < 0.01); ++: highly susceptible (0.01 ≤ MOI <1); +: moderately susceptible (1 ≤ MOI < 10); ±: minimally susceptible (10 ≤ MOI ≤ 100); −: non-susceptible (i.e., no lysis observed); NA: not applicable.
+
+viruses-15-02095-t002_Table 2 Table 2 Characterization of 7 APEC phages from TEM imaging. Sizes were estimated by measurement using GIMP photo editing software v.2.99.16 located at http://gimp.org (accessed on 20 August 2023) and are presented as an average of 2–6 measurements ± standard deviation.
+
+Phage	Assigned
+morphotype	Head Diameter (nm)	Tail Sheath Length (nm)	Tail Width (nm)	
+ASO1A	Myovirus	61.4 ± 1.3	125.7 ± 3.3	20.2 ± 0.9	
+ASO1B	Myovirus	69.6 ± 2.4	108.1 ± 2.1	17.6 ± 0.6	
+ASO2A	Myovirus	83.4 ± 3.6	88.4 ± 1.3	17.8 ± 2.0	
+ASO2B	Podovirus	53.2 ± 0.8	10.6 ± 4.5	12.9 ± 3.4	
+ASO78A	Myovirus	97.3 ± 5.0	115.3 ± 6.4	27.3 ± 4.6	
+ASO78B	Siphovirus	61.8 ± 5.1	107.4 ± 4.8	10.6 ± 0	
+AVIO78A	Siphovirus	63.3 ± 2.4	157.6 ± 3.2	10.4 ± 0.60	
+
+viruses-15-02095-t003_Table 3 Table 3 Genome characteristics of 7 isolated APEC-infecting phages.
+
+Genus	Phage	Genbank Accession Number	Genome Size (Kbp)	CDS	G+C%	tRNA	Promoters	Terminators	
+Felixounavirus	ASO1A	MZ726791	87.613	126	38.8	25	18	19	
+Felixounavirus	ASO1B	MZ726792	89.496	127	38.8	26	19	20	
+Phapecoctavirus	ASO2A	MZ726793	151.661	277	39.0	12	9	55	
+Tequatrovirus	ASO78A	MZ726795	166.374	270	35.4	10	81	57	
+Kayfunavirus	ASO2B	MZ726794	39.917	48	49.7	0	11	11	
+Undetermined	ASO78B	MZ726796	46.233	81	46.6	2	5	15	
+Sashavirus	AVIO78A	MZ726797	57.881	105	43.7	0	7	14	
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
+References
+
+1. McPeake S. Smyth J. Ball H. Characterisation of avian pathogenic Escherichia coli (APEC) associated with colisepticaemia compared to faecal isolates from healthy birds Vet. Microbiol. 2005 110 245 253 10.1016/j.vetmic.2005.08.001 16150559
+2. Koutsianos D. Athanasiou L.V. Mossialos D. Franzo G. Cecchinato M. Koutoulis K.C. Investigation of Serotype Prevalence of Escherichia coli Strains Isolated from Layer Poultry in Greece and Interactions with Other Infectious Agents Vet. Sci. 2022 9 152 10.3390/vetsci9040152 35448650 PMC9025756
+3. La Ragione R. Woodward M.J. Virulence factors of Escherichia coli serotypes associated with avian colisepticaemia Res. Vet. Sci. 2002 73 27 35 10.1016/S0034-5288(02)00075-9 12208104
+4. Lutful Kabir S. Avian colibacillosis and salmonellosis: A closer look at epidemiology, pathogenesis, diagnosis, control and public health concerns Int. J. Environ. Res. Public Health 2010 7 89 114 10.3390/ijerph7010089 20195435 PMC2819778
+5. Vincent C. Boerlin P. Daignault D. Dozois C.M. Dutil L. Galanakis C. Reid-Smith R.J. Tellier P.-P. Tellis P.A. Ziebell K. Food reservoir for Escherichia coli causing urinary tract infections Emerg. Infect. Dis. 2010 16 88 10.3201/eid1601.091118 20031048 PMC2874376
+6. Bergeron C.R. Prussing C. Boerlin P. Daignault D. Dutil L. Reid-Smith R.J. Zhanel G.G. Manges A.R. Chicken as reservoir for extraintestinal pathogenic Escherichia coli in humans, Canada Emerg. Infect. Dis. 2012 18 415 421 10.3201/eid1803.111099 22377351 PMC3309577
+7. Stromberg Z.R. Johnson J.R. Fairbrother J.M. Kilbourne J. Van Goor A. Curtiss 3rd R. Mellata M. Evaluation of Escherichia coli isolates from healthy chickens to determine their potential risk to poultry and human health PLoS ONE 2017 12 e0180599 10.1371/journal.pone.0180599 28671990 PMC5495491
+8. Health Canada Categorization of Antimicrobial Drugs Based on Importance in Human Medicine 2009 Available online: https://www.canada.ca/en/health-canada/services/drugs-health-products/veterinary-drugs/antimicrobial-resistance/categorization-antimicrobial-drugs-based-importance-human-medicine.html (accessed on 10 November 2022)
+9. Chicken Farmers of Canada. Canadian Chicken Industry Reduces Antimicrobial Use 2018 Available online: https://www.chickenfarmers.ca/wp-content/uploads/2018/10/AMU-Magazine-insides_ENG-Issue2.pdf (accessed on 24 August 2022)
+10. Christensen H. Bachmeier J. Bisgaard M. New strategies to prevent and control avian pathogenic Escherichia coli (APEC) Avian Pathol. 2021 50 370 381 10.1080/03079457.2020.1845300 33146543
+11. Tarabees R. El-Sayed M.S. Shehata A.A. Diab M.S. Effects of the probiotic candidate E. faecalis-1, the poulvac E. coli vaccine, and their combination on growth performance, caecal microbial composition, immune response, and protection against E. coli O78 challenge in broiler chickens Probiot. Antimicrob. Proteins 2020 12 860 872 10.1007/s12602-019-09588-9 31650414
+12. Uotani Y. Kitahara R. Imai T. Tsutsumi N. Sasakawa C. Nagai S. Nagano T. Efficacy of an avian colibacillosis live vaccine for layer breeder in Japan J. Vet. Med. Sci. 2017 79 1215 1219 10.1292/jvms.17-0189 28603216 PMC5559366
+13. Nagano T. Kitahara R. Nagai S. An attenuated mutant of avian pathogenic Escherichia coli serovar O78: A possible live vaccine strain for prevention of avian colibacillosis Microbiol. Immunol. 2012 56 605 612 10.1111/j.1348-0421.2012.00482.x 22708916
+14. La Ragione R. Woodward M. Kumar M. Rodenberg J. Fan H. Wales A. Karaca K. Efficacy of a live attenuated Escherichia coli O78: K80 vaccine in chickens and turkeys Avian Dis. 2013 57 273 279 10.1637/10326-081512-Reg.1 24689185
+15. Guabiraba R. Schouler C. Avian colibacillosis: Still many black holes FEMS Microbiol. Lett. 2015 362 fnv118 10.1093/femsle/fnv118 26204893
+16. Moye Z.D. Woolston J. Sulakvelidze A. Bacteriophage applications for food production and processing Viruses 2018 10 205 10.3390/v10040205 29671810 PMC5923499
+17. Loc-Carrillo C. Abedon S. Pros and cons of phage therapy Bacteriophage 2011 1 111 114 10.4161/bact.1.2.14590 22334867 PMC3278648
+18. Hyman P. Phages for Phage Therapy: Isolation, Characterization, and Host Range Breadth Pharmaceuticals 2019 12 35 10.3390/ph12010035 30862020 PMC6469166
+19. Lin D.M. Koskella B. Lin H.C. Phage therapy: An alternative to antibiotics in the age of multi-drug resistance World J. Gastrointest. Pharmacol. Ther. 2017 8 162 173 10.4292/wjgpt.v8.i3.162 28828194 PMC5547374
+20. Kortright K.E. Chan B.K. Koff J.L. Turner P.E. Phage therapy: A renewed approach to combat antibiotic-resistant bacteria Cell Host Microbe Rev. 2019 25 219 232 10.1016/j.chom.2019.01.014 30763536
+21. Huff W. Huff G. Rath N. Balog J. Donoghue A. Alternatives to antibiotics: Utilization of bacteriophage to treat colibacillosis and prevent foodborne pathogens Poult. Sci. 2005 84 655 659 10.1093/ps/84.4.655 15844825
+22. El-Gohary F. Huff W. Huff G. Rath N. Zhou Z. Donoghue A. Environmental augmentation with bacteriophage prevents colibacillosis in broiler chickens Poult. Sci. 2014 93 2788 2792 10.3382/ps.2014-04282 25214555
+23. Jamalludeen N. She Y.-M. Lingohr E. Griffiths M. Isolation and characterization of virulent bacteriophages against Escherichia coli serogroups O1, O2, and O78 Poult. Sci. 2009 88 1694 1702 10.3382/ps.2009-00033 19590085
+24. Niu Y. McAllister T. Xu Y. Johnson R. Stephens T. Stanford K. Prevalence and impact of bacteriophages on the presence of Escherichia coli O157: H7 in feedlot cattle and their environment Appl. Environ. Microbiol. 2009 75 1271 1278 10.1128/AEM.02100-08 19139243 PMC2648163
+25. Sambrook J. Russell D. Molecular Cloning: A Laboratory Manual 3rd ed. Cold Spring Harbor Laboratory Press New York, NY, USA 2001
+26. Niu Y.D. Stanford K. McAllister T.A. Ackermann H.-W. Characterization of 4 T1-like lytic bacteriophages that lyse Shiga-toxin Escherichia coli O157: H7 Can. J. Microbiol. 2012 58 923 927 10.1139/w2012-063 22691120
+27. Niu Y.D. Johnson R.P. Xu Y. McAllister T.A. Sharma R. Louie M. Stanford K. Host range and lytic capability of four bacteriophages against bovine and clinical human isolates of Shiga toxin-producing Escherichia coli O157:H7 J. Appl. Microbiol. 2009 107 646 656 10.1111/j.1365-2672.2009.04231.x 19302306
+28. Niu Y.D. Stanford K. Kropinski A.M. Ackermann H.W. Johnson R.P. She Y.M. Ahmed R. Villegas A. McAllister T.A. Genomic, proteomic and physiological characterization of a T5-like bacteriophage for control of Shiga toxin-producing Escherichia coli O157:H7 PLoS ONE 2012 7 e34585 10.1371/journal.pone.0034585 22514640 PMC3326045
+29. Mazzocco A. Waddell T.E. Lingohr E. Johnson R.P. Enumeration of bacteriophages using the small drop plaque assay system Methods Mol. Biol. 2009 501 81 85 19066813 10.1007/978-1-60327-164-6_9
+30. Bankevich A. Nurk S. Antipov D. Gurevich A.A. Dvorkin M. Kulikov A.S. Lesin V.M. Nikolenko S.I. Pham S. Prjibelski A.D. SPAdes: A new genome assembly algorithm and its applications to single-cell sequencing J. Comput. Biol. 2012 19 455 477 10.1089/cmb.2012.0021 22506599 PMC3342519
+31. Köster J. Rahmann S. Snakemake—A scalable bioinformatics workflow engine Bioinformatics 2012 28 2520 2522 10.1093/bioinformatics/bts480 22908215
+32. Seemann T. Prokka: Rapid prokaryotic genome annotation Bioinformatics 2014 30 2068 2069 10.1093/bioinformatics/btu153 24642063
+33. O’Leary N.A. Wright M.W. Brister J.R. Ciufo S. Haddad D. McVeigh R. Rajput B. Robbertse B. Smith-White B. Ako-Adjei D. Reference sequence (RefSeq) database at NCBI: Current status, taxonomic expansion, and functional annotation Nucleic Acids Res. 2016 44 D733 D745 10.1093/nar/gkv1189 26553804 PMC4702849
+34. Laslett D. Canback B. ARAGORN, a program to detect tRNA genes and tmRNA genes in nucleotide sequences Nucleic Acids Res. 2004 32 11 16 10.1093/nar/gkh152 14704338 PMC373265
+35. Lowe T.M. Eddy S.R. tRNAscan-SE: A program for improved detection of transfer RNA genes in genomic sequence Nucleic Acids Res. 1997 25 955 964 10.1093/nar/25.5.955 9023104 PMC146525
+36. Nawrocki E.P. Eddy S.R. Infernal 1.1: 100-fold faster RNA homology searches Bioinformatics 2013 29 2933 2935 10.1093/bioinformatics/btt509 24008419 PMC3810854
+37. Kingsford C.L. Ayanbule K. Salzberg S.L. Rapid, accurate, computational discovery of Rho-independent transcription terminators illuminates their relationship to DNA uptake Genome Biol. 2007 8 R22 10.1186/gb-2007-8-2-r22 17313685 PMC1852404
+38. Mitra A. Kesarwani A.K. Pal D. Nagaraja V. WebGeSTer DB—A transcription terminator database Nucleic Acids Res. 2011 39 D129 D135 10.1093/nar/gkq971 20972211 PMC3013805
+39. Shahmuradov I.A. Mohamad Razali R. Bougouffa S. Radovanovic A. Bajic V.B. bTSSfinder: A novel tool for the prediction of promoters in cyanobacteria and Escherichia coli Bioinformatics 2017 33 334 340 10.1093/bioinformatics/btw629 27694198 PMC5408793
+40. Seemann T. ABRicate: Mass Screening of Contigs for Antimicrobial and Virulence Genes: Github 2018 Available online: https://github.com/tseemann/abricate (accessed on 20 August 2023)
+41. Feldgarden M. Brover V. Haft D.H. Prasad A.B. Slotta D.J. Tolstoy I. Tyson G.H. Zhao S. Hsu C.-H. McDermott P.F. Validating the AMRFinder tool and resistance gene database by using antimicrobial resistance genotype-phenotype correlations in a collection of isolates Antimicrob. Agents Chemother. 2019 63 e00483-19 10.1128/AAC.00483-19 31427293 PMC6811410
+42. Gupta S.K. Padmanabhan B.R. Diene S.M. Lopez-Rojas R. Kempf M. Landraud L. Rolain J.-M. ARG-ANNOT, a new bioinformatic tool to discover antibiotic resistance genes in bacterial genomes Antimicrob. Agents Chemother. 2014 58 212 220 10.1128/AAC.01310-13 24145532 PMC3910750
+43. Liu B. Zheng D. Jin Q. Chen L. Yang J. VFDB 2019: A comparative pathogenomic platform with an interactive web interface Nucleic Acids Res. 2019 47 D687 D692 10.1093/nar/gky1080 30395255 PMC6324032
+44. Zankari E. Hasman H. Cosentino S. Vestergaard M. Rasmussen S. Lund O. Aarestrup F.M. Larsen M.V. Identification of acquired antimicrobial resistance genes J. Antimicrob. Chemother. 2012 67 2640 2644 10.1093/jac/dks261 22782487 PMC3468078
+45. Krogh A. Larsson B. Von Heijne G. Sonnhammer E.L. Predicting transmembrane protein topology with a hidden Markov model: Application to complete genomes J. Mol. Biol. 2001 305 567 580 10.1006/jmbi.2000.4315 11152613
+46. Armenteros J.J.A. Tsirigos K.D. Sønderby C.K. Petersen T.N. Winther O. Brunak S. von Heijne G. Nielsen H. SignalP 5.0 improves signal peptide predictions using deep neural networks Nat. Biotechnol. 2019 37 420 423 10.1038/s41587-019-0036-z 30778233
+47. Kristensen D.M. Waller A.S. Yamada T. Bork P. Mushegian A.R. Koonin E.V. Orthologous gene clusters and taxon signature genes for viruses of prokaryotes J. Bacteriol. 2013 195 941 950 10.1128/JB.01801-12 23222723 PMC3571318
+48. Mistry J. Finn R.D. Eddy S.R. Bateman A. Punta M. Challenges in homology search: HMMER3 and convergent evolution of coiled-coil regions Nucleic Acids Res. 2013 41 e121 10.1093/nar/gkt263 23598997 PMC3695513
+49. Camacho C. Coulouris G. Avagyan V. Ma N. Papadopoulos J. Bealer K. Madden T.L. BLAST+: Architecture and applications BMC Bioinform. 2009 10 421 10.1186/1471-2105-10-421 PMC2803857 20003500
+50. Moraru C. Varsani A. Kropinski A.M. VIRIDIC—A novel tool to calculate the intergenomic similarities of prokaryote-infecting viruses Viruses 2020 12 1268 10.3390/v12111268 33172115 PMC7694805
+51. Turner D. Kropinski A.M. Adriaenssens E.M. A roadmap for genome-based phage taxonomy Viruses 2021 13 506 10.3390/v13030506 33803862 PMC8003253
+52. Turner D. Reynolds D. Seto D. Mahadevan P. CoreGenes3. 5: A webserver for the determination of core genes from sets of viral and small bacterial genomes BMC Res. Notes 2013 6 140 10.1186/1756-0500-6-140 23566564 PMC3630060
+53. Sullivan M. Petty N. Beatson S. Easyfig: A genome comparison visualizer Bioinformatics 2011 27 1009 1010 10.1093/bioinformatics/btr039 21278367 PMC3065679
+54. Katoh K. Standley D.M. MAFFT multiple sequence alignment software version 7: Improvements in performance and usability Mol. Biol. Evol. 2013 30 772 780 10.1093/molbev/mst010 23329690 PMC3603318
+55. Tamura K. Stecher G. Kumar S. MEGA11: Molecular evolutionary genetics analysis version 11 Mol. Biol. Evol. 2021 38 3022 3027 10.1093/molbev/msab120 33892491 PMC8233496
+56. Letunic I. Bork P. Interactive Tree Of Life (iTOL) v4: Recent updates and new developments Nucleic Acids Res. 2019 47 W256 W259 10.1093/nar/gkz239 30931475 PMC6602468
+57. Kropinski A.M. Prangishvili D. Lavigne R.J.E.m. Position paper: The creation of a rational scheme for the nomenclature of viruses of Bacteria and Archaea Environ. Microbiol. 2009 11 2775 2777 10.1111/j.1462-2920.2009.01970.x 19519870
+58. Ackermann H.-W. Phage classification and characterization Bacteriophages Springer New York, NY, USA 2009 127 140 10.1007/978-1-60327-164-6_13 19066817
+59. Dion M.B. Oechslin F. Moineau S. Phage diversity, genomics and phylogeny Nat. Rev. Microbiol. 2020 18 125 138 10.1038/s41579-019-0311-5 32015529
+60. Wintachai P. Surachat K. Singkhamanan K. Isolation and Characterization of a Novel Autographiviridae Phage and Its Combined Effect with Tigecycline in Controlling Multidrug-Resistant Acinetobacter baumannii-Associated Skin and Soft Tissue Infections Viruses 2022 14 194 10.3390/v14020194 35215788 PMC8878389
+61. Adriaenssens E.M. Sullivan M.B. Knezevic P. van Zyl L.J. Sarkar B. Dutilh B.E. Alfenas-Zerbini P. Łobocka M. Tong Y. Brister J.R. Taxonomy of prokaryotic viruses: 2018-2019 update from the ICTV Bacterial and Archaeal Viruses Subcommittee Arch. Virol. 2020 165 1253 1260 10.1007/s00705-020-04577-8 32162068
+62. Pires D.P. Costa A.R. Pinto G. Meneses L. Azeredo J. Current challenges and future opportunities of phage therapy FEMS Microbiol. Rev. 2020 44 684 700 10.1093/femsre/fuaa017 32472938
+63. Oliveira A. Sillankorva S. Quinta R. Henriques A. Sereno R. Azeredo J. Isolation and characterization of bacteriophages for avian pathogenic E. coli strains J. Appl. Microbiol. 2009 106 1919 1927 10.1111/j.1365-2672.2009.04145.x 19239552
+64. Kathayat D. Helmy Y.A. Deblais L. Rajashekara G. Novel small molecules affecting cell membrane as potential therapeutics for avian pathogenic Escherichia coli Sci. Rep. 2018 8 15329 10.1038/s41598-018-33587-5 30333507 PMC6193035
+65. Deng S. Xu Q. Fu Y. Liang L. Wu Y. Peng F. Gao M. Genomic analysis of a novel phage infecting the Turkey pathogen Escherichia coli APEC O78 and its endolysin activity Viruses 2021 13 1034 10.3390/v13061034 34072620 PMC8229158
+66. Philipson C.W. Voegtly L.J. Lueder M.R. Long K.A. Rice G.K. Frey K.G. Biswas B. Cer R.Z. Hamilton T. Bishop-Lilly K.A. Characterizing phage genomes for therapeutic applications Viruses 2018 10 188 10.3390/v10040188 29642590 PMC5923482
+67. Gohar M. Smith R. Hyun J. Mehina N. Abdelsalam R. Fairbrother J. Faizal A.C.M. Niu D. Use of bacteriophage cocktail in the prevention of colibacillosis in laying hens Proceedings of the 72nd Annual Conference of the Canadian Society of Microbiologists Halifax, NS, Canada 25–28 June 2023
+68. Plackett B. Why big pharma has abandoned antibiotics Nature 2020 586 S50 10.1038/d41586-020-02884-3
+69. Parfitt T. Georgia: An unlikely stronghold for bacteriophage therapy Lancet 2005 365 2166 2167 10.1016/S0140-6736(05)66759-1 15986542
+70. Torres-Acosta M.A. Clavijo V. Vaglio C. González-Barrios A.F. Vives-Flórez M.J. Rito-Palomares M. Economic evaluation of the development of a phage therapy product for the control of Salmonella in poultry Biotechnol. Prog. 2019 35 e2852 10.1002/btpr.2852 31131556
+71. Bertozzi Silva J. Storms Z. Sauvageau D. Host receptors for bacteriophage adsorption FEMS Microbiol. Lett. 2016 363 fnw002 10.1093/femsle/fnw002 26755501
+72. Labrie S.J. Samson J.E. Moineau S. Bacteriophage resistance mechanisms Nat. Rev. Microbiol. 2010 8 317 327 10.1038/nrmicro2315 20348932
+73. Azam A.H. Tanji Y. Bacteriophage-host arm race: An update on the mechanism of phage resistance in bacteria and revenge of the phage with the perspective for phage therapy Appl. Microbiol. Biotechnol. 2019 103 2121 2131 10.1007/s00253-019-09629-x 30680434
+74. Abdelsattar A.S. Dawooud A. Rezk N. Makky S. Safwat A. Richards P.J. El-Shibiny A. How to train your phage: The recent efforts in phage training Biologics 2021 1 70 88 10.3390/biologics1020005
+75. Haggård-Ljungquist E. Halling C. Calendar R. DNA sequences of the tail fiber genes of bacteriophage P2: Evidence for horizontal transfer of tail fiber genes among unrelated bacteriophages J. Bacteriol. 1992 174 1462 1477 10.1128/jb.174.5.1462-1477.1992 1531648 PMC206541

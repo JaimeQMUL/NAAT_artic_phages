@@ -1,0 +1,68 @@
+Summary file for AGY47872
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC3868846.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No specific survival temperature range was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was made.
+
+Environmental Context:
+- The phage was isolated from a sewage sample.
+- The host bacterium is described as surviving in harsh environments associated with food packaging and shipping, but no specific thermal parameters for the phage or host were detailed in relation to temperature adaptation.
+
+
+Paper: PMC13215166.1.txt
+Thermal Evidence:
+- No temperature-related data was provided in the text.
+
+Environmental Context:
+- No environmental source or habitat information was provided in the text.
+
+Concise Summary:
+This paper provides a comprehensive evaluation of 25 structurally diverse N-nitrosamines using a multi-modal approach combining in vitro (Ames test), in vivo (liver comet, Big Blue transgenic mutation, and duplex sequencing), and in silico methods (quantum mechanical modeling and CYP–binding analysis) to assess genotoxicity and carcinogenicity. The study's primary focus is developing a weight-of-evidence decision tree to derive compound-specific acceptable intakes (AIs) for these impurities, aiming to reduce reliance on animal testing. The analysis highlights that complex API-derived N-nitrosamines are often less mutagenic or have lower potency compared to simple small-molecule dialkyl N-nitrosamines. Key methodological advancements include the superior sensitivity of duplex sequencing (DS) over traditional assays and the integration of computational models (like CADRE QM) with experimental data to propose a risk-based AI derivation framework. The study also correlated physicochemical properties (size, shape, ionization) with predicted and observed mutagenic potential, suggesting that larger, more globular, and neutral compounds tend to be less potent.
+
+
+Paper: PMC13209205.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 39 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 39 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Anaerobic atmosphere (90% nitrogen: 5% carbon dioxide: 5% hydrogen) was used for pure culture experiments. Mixed culture incubations were performed at 39 °C and agitated at 43 rpm.
+- Environmental source/habitat: Rumen microbiota from a Jersey steer maintained on pasture.
+- Thermal adaptation: No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations.
+
+Environmental Context:
+- Habitat/Source: Gut/Rumen microbiota from a ruminant (Jersey steer).
+
+Concise Summary:
+The study utilized an incubation temperature of 39 °C for both pure culture and mixed culture experiments. Pure culture conditions were maintained under strict anaerobic gas mixtures (90% N2: 5% CO2: 5% H2). The source of the microbiota was the rumen fluid of a Jersey steer maintained on pasture. No specific thermal adaptations (e.g., thermophilic, psychrophilic) were discussed or observed for the organisms studied.
+
+
+Paper: PMC13209214.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for thermal classification.
+- Incubation conditions mentioned include culturing at 37 °C for 24 h.
+
+Environmental Context:
+- The organism was studied in the context of the gut microbiota of mice and was not explicitly stated to be isolated from an extreme environment.
+
+Concise Summary:
+The study utilized *in vitro* culturing conditions at 37 °C for 24 hours. No data regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) were presented for downstream thermal classification.
+
+
+Paper: PMC13209872.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C in a humidified incubator containing 5% CO2
+- Environmental source/habitat: Intestinal tract (gut lumen)
+- Mention of adaptations: None mentioned
+- Explicit classification: None given
+
+Environmental Context:
+- Habitat/source: Intestinal tract (gut lumen)
+
+

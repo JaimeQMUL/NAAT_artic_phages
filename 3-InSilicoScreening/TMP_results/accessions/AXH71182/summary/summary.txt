@@ -1,0 +1,81 @@
+Summary file for AXH71182
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC9610010.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28 °C (used for bacterial growth, phage induction, host range testing, and initial stability tests).
+- Growth temperature range: 28 °C (optimal for bacterial growth).
+- Survival temperature range: Stable at 30 °C and 40 °C for one hour; no survival observed at 60 °C and higher.
+- Incubation conditions: Standard incubation for bacterial growth and phage assays was performed at 28 °C.
+- Environmental source/habitat: Isolated from a bacterial host in standard laboratory culture media (Lysogeny broth).
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: No evidence of psychrophilic adaptation.
+- Mesophilic growth: The optimal growth temperature of 28 °C suggests mesophilic growth.
+- Heat tolerance: Stable up to 40 °C for one hour; significant decrease in titer observed at 50 °C.
+- Cold tolerance: Stability was tested at 4 °C, with no significant loss of titer reported compared to the control.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: Not discussed.
+- Thermal stress responses: Stability was tested across a range of temperatures (4–90 °C).
+
+Environmental Context:
+- Habitat/Source: Isolated from a bacterial host in standard laboratory culture media.
+- Extreme Environment Isolation: Not isolated from an extreme environment.
+- Explicit Classification: No explicit classification (e.g., mesophile) was given by the authors regarding temperature adaptation, but the optimal growth temperature suggests mesophilic characteristics.
+
+
+Paper: 30506469.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions related to temperature was provided.
+- No specific evidence regarding thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was provided.
+
+Environmental Context:
+- Isolated from a sewage sample.
+
+Concise Summary:
+The analysis provides genomic and morphological characterization of a novel phage infecting *Bacillus subtilis*. The phage's genome size is 153,268 bp with 41.8% G+C content. The phage was isolated from a sewage sample. No data regarding the optimal growth temperature, temperature range, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were presented in the provided text.
+
+
+Paper: PMC9756591.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the phages.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+- No specific enzymes adapted to temperature were detailed.
+
+Environmental Context:
+- The phages were isolated from *B. subtilis* group species, which are associated with food industries and other sectors, suggesting an environmental source related to these hosts.
+
+Concise Summary:
+This study focused on the genomic diversity and taxonomic classification of 61 bacteriophages infecting *Bacillus subtilis* group members. The analysis utilized comparative genomics, pangenome analysis, and phylogenetic reconstruction based on various conserved and signature genes (e.g., Major Capsid Protein, poly-gamma-glutamate hydrolase). The research established a correlation between genome size and established phage families (e.g., Salasmaviridae $\rightarrow$ small genomes; Herelleviridae $\rightarrow$ large genomes). Crucially, the study proposed the creation of two new subfamilies based on inter-genera sequence similarities and the identification of unique ortholog signature genes (e.g., MCP Type III for New subfamily1; peptidoglycan binding proteins for New subfamily2). The analysis confirmed that the phages are associated with *B. subtilis* group species, which are relevant in food industries. No direct thermal physiological data regarding growth or survival temperatures was reported for the phages.
+
+
+Paper: PMC10413263.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but assays were conducted at 30°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 30°C for various periods (e.g., 4 hours, 20 hours, 5 days).
+- Environmental source/habitat: Wastewater treatment plants (WWTPs), treatment wetlands, activated sludge, and various aquatic environments (e.g., groundwater, river water).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, or cold/heat tolerance adaptations was found. The general conditions suggest mesophilic growth.
+
+Environmental Context:
+- The organisms were isolated from diverse wastewater sources, including treatment wetlands and WWTPs, indicating adaptation to nutrient-rich, fluctuating environmental conditions typical of these habitats.
+
+
+Paper: PMC5977233.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated, but fermentation was conducted at 37 °C.
+- Incubation conditions: Incubation at 37 °C for various periods (e.g., 12 h, 72 h).
+- Environmental source/habitat: Isolated from Meju (a dried fermented soybean brick) and tested in Cheonggukjang (a soybean fermented food).
+- Adaptation notes: No explicit mention of thermophilic, psychrophilic, or specific thermal adaptation mechanisms were provided for the phage or host bacterium.
+
+Environmental Context:
+- Habitat/Source: Soybean-based fermented foods (Meju, Cheonggukjang).
+
+Concise Summary:
+Bacteriophage BSP10 was isolated from Meju, a dried fermented soybean brick, and its activity was tested in Cheonggukjang, a soybean fermented food. The optimal and tested growth temperature for both the host bacterium and the phage was 37 °C. The study details incubation conditions at this temperature for periods up to 72 hours. No specific thermal adaptations (thermophilic, psychrophilic) were characterized, but the organism was sourced from a fermented food matrix, indicating adaptation to mesophilic conditions typical of such environments.
+
+

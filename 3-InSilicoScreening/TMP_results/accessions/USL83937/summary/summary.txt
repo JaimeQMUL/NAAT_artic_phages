@@ -1,0 +1,124 @@
+Summary file for USL83937
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC11514452.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37°C (for various assays)
+- Environmental source/habitat: Not specified (laboratory culture conditions used)
+- Thermophilic adaptation: No evidence
+- Psychrophilic adaptation: No evidence
+- Mesophilic growth: Implied by optimal growth at 37°C
+- Heat tolerance: Not explicitly tested
+- Cold tolerance: Not explicitly tested
+- Enzymes adapted to temperature: None mentioned
+- Membrane adaptations: None mentioned
+- Thermal stress responses: None mentioned
+
+Environmental Context:
+- Habitat/source: Laboratory culture conditions (LB broth, Gutnick minimal media).
+
+Concise Summary:
+The organism was cultured optimally at 37°C under aerobic conditions. The experimental procedures utilized this temperature for various assays, including RNA processing and translation studies. The evidence strongly suggests a mesophilic lifestyle, as the optimal growth temperature is 37°C, which is typical for human-associated or laboratory-adapted bacteria. No data regarding extreme temperature adaptations (thermophilic or psychrophilic) were provided; all thermal evidence relates to standard laboratory incubation protocols.
+
+
+Paper: PMC13138079.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but optimal growth was observed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Anaerobic conditions were used for culturing the bacterium.
+- Environmental source/habitat: Intestinal/Gut environment (implied by the study context).
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Gut microbiota/Intestinal tract.
+
+Concise Summary:
+The bacterium was cultured anaerobically at an optimal growth temperature of 37°C. The study context places the organism within the gut microbiota, suggesting an adaptation to the intestinal environment. No specific information regarding temperature ranges, thermal adaptations (thermophilic, psychrophilic), or temperature-adapted enzymes was provided.
+
+
+Paper: 41652749.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for any organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The study utilized *in vitro* experiments simulating gut microenvironment conditions, specifically under nitrite stress.
+
+Concise Summary:
+The study investigated the synergistic effects of blended dietary fibers on the modulation of two gut bacteria species under *in vitro* conditions simulating nitrite stress. The analysis focused on the interaction between the fibers (arabinoxylan and fucoidan blend) and the bacteria's growth/viability, showing that the blend promoted the proliferation of one species while inhibiting the growth of the other under these specific chemical stress conditions. No data regarding the optimal, range, or survival temperatures, or any specific thermal adaptations (thermophilic, psychrophilic, mesophilic) of the tested microorganisms were reported.
+
+
+Paper: PMC13155118.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 37°C overnight for plaque assays; incubated at 37°C for OD measurements and time-shift experiments.
+- Environmental source/habitat: Intestinal microbiota context (simulated via chemostat culture).
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/Source: Intestinal microbiota (simulated in chemostats).
+
+Concise Summary:
+The experimental system utilized a chemostat culture maintained at a constant temperature of 37°C for bacterial growth, phage propagation, and coevolutionary tracking over 10 days. Plaque assays and time-shift experiments were also conducted at 37°C. The study focused on the physiological and evolutionary responses of the microbial community to oxidative stress (using H₂O₂), rather than temperature gradients. No data or discussion regarding thermophilic, psychrophilic, or specific temperature-adapted enzymes were presented; the conditions were maintained within a standard mesophilic range appropriate for gut microbiota simulation.
+
+
+Paper: PMC13192267.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, or cold tolerance adaptations was made.
+- No specific enzymes adapted to temperature or membrane adaptations were discussed.
+
+Environmental Context:
+- The organism was isolated from the ileum of a patient with Crohn’s disease.
+- The general gut environment was discussed, but no extreme environmental isolation was noted.
+
+Concise Summary:
+This review focuses on the association between adherent-invasive *E. coli* (AIEC) pathobionts and Crohn’s disease pathogenesis, detailing the molecular mechanisms by which these bacteria maintain a pathobiont lifestyle. The discussion centers on genetic variations, particularly SNPs in the RNA polymerase gene, which alter gene expression to enhance adherence, invasion, and survival within the host gut environment. No specific data regarding the organism's thermal physiology, such as optimal growth temperature, temperature range, or adaptations to extreme temperatures, were presented in the text.
+
+
+Paper: PMC13108364.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37°C, 5% CO2
+- Environmental source/habitat: Gastrointestinal tract (human colon-derived organoids and cell lines)
+- Mention of thermal adaptation: None
+
+Environmental Context:
+- Habitat/source: Gastrointestinal tract (human colon-derived organoids and cell lines)
+
+Concise Summary:
+The experimental conditions utilized for culturing the human colon-derived epithelial cells and organoids were maintained at 37°C under a 5% CO2 atmosphere. The study focuses on the physiological responses of these gut microbes/epithelial cells to bacterial challenge and cytokine treatment, with no data provided regarding the organism's thermal adaptation, optimal growth temperature range, or survival temperature range beyond the standard physiological incubation temperature of 37°C.
+
+
+Paper: PMC13114140.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the organism.
+- Incubation conditions mentioned include 37°C for cell culture and 24h incubation periods for various assays.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was derived from the gut microbiota.
+- No explicit classification regarding thermal adaptation was provided by the authors.
+
+
+Paper: 41619420.txt
+Thermal Evidence:
+- VBNC induction was modulated by temperature.
+
+Environmental Context:
+- No specific environmental source or habitat was detailed.
+
+Concise Summary:
+The study investigated the induction of a viable-but-non-culturable (VBNC) state in an adherent-invasive *E. coli* strain when exposed to cupric gluconate. The induction of this VBNC state was explicitly noted to be temperature-dependent. While the paper details metabolic shifts (repression of energy metabolism, enhanced outer-membrane maintenance, Fe-S cluster repair) and susceptibility changes (tolerance to ciprofloxacin, susceptibility to ampicillin/tetracycline), it does not provide quantitative data regarding optimal growth temperature, specific growth temperature ranges, or defined survival temperature ranges. The authors did not classify the organism based on thermal adaptation (e.g., mesophile, thermophile). The primary focus remains on metal redox imbalance and oxidative stress mechanisms driving the VBNC program, with temperature acting as a modulating factor rather than a defining characteristic of the organism's thermal niche.
+
+

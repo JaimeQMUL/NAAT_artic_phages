@@ -1,0 +1,86 @@
+Summary file for AXQ67807
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC11406892.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for one set of assays) and 30°C (for another set of assays).
+- Growth temperature range: 30°C (for one set of assays) and 37°C (for another set of assays).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 30°C overnight (O/N) for phage host spectrum assessment; incubation at 37°C for ectolysin activity assay; incubation at 30°C for Vp4 adsorption assay.
+- Environmental source/habitat: The bacterial group includes species associated with foodborne intoxication and infection.
+- Mention of adaptations: The bacterial group includes species described as 'psychrotolerant'.
+- Explicit classification: The bacterial group includes species classified as 'psychrotolerant'.
+
+Environmental Context:
+- The bacterial group is associated with foodborne intoxication and infection, and includes species described as 'psychrotolerant'.
+
+Concise Summary:
+Assays were conducted using bacterial strains from the *Bacillus cereus* group, which includes species noted for their association with foodborne intoxication and infection. The bacterial group contains species explicitly classified as 'psychrotolerant'. Experimental incubation conditions varied, with assays performed at 30°C and 37°C. The phage adsorption and host spectrum assessments were conducted at 30°C, while ectolysin activity was tested at 37°C. The study does not provide data on the survival temperature range or specific thermal adaptations beyond the noted psychrotolerance of the bacterial group.
+
+
+Paper: PMC11302227.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for initial culture growth and sporulation/germination).
+- Growth temperature range: 30°C (mentioned for initial culture growth).
+- Survival temperature range: Not explicitly stated, but sporulation/germination was performed at 30°C.
+- Incubation conditions: Incubation at 30°C for 16–18 hours for sporulation induction, followed by 72 hours at 30°C for sporulation. Subsequent steps involved heat-shocking at 60°C for 1 hour.
+- Thermophilic adaptation: None mentioned.
+- Psychrophilic adaptation: None mentioned.
+- Mesophilic growth: Implied by the optimal growth temperature of 30°C.
+- Heat tolerance: Demonstrated survival/activity at 60°C (heat-shock).
+- Cold tolerance: Not explicitly mentioned.
+- Enzymes adapted to temperature: None mentioned.
+- Membrane adaptations: None mentioned.
+- Thermal stress responses: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Not specified, but the organism is used as a surrogate for a bacterium associated with biothreat concerns, and experiments were conducted in nonsterile environments (e.g., outdoors).
+
+Concise Summary:
+The organism was cultured and subjected to experimental conditions primarily at 30°C, suggesting mesophilic growth. Sporulation and germination protocols required incubation at 30°C for extended periods (16–18 hours followed by 72 hours). A heat-shock step was performed at 60°C. The organism was not isolated from an extreme environment, and the authors did not provide an explicit thermal classification, though the growth conditions point towards mesophilic characteristics.
+
+
+Paper: PMC9965433.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold tolerance adaptations was made.
+- No specific details regarding temperature-adapted enzymes or membrane adaptations were reported.
+
+Environmental Context:
+- The phages were isolated from soil samples collected across the mid-Atlantic region.
+
+Concise Summary:
+The study focuses on the comparative genomics of 16 bacteriophages infecting *Bacillus* species. The phages were isolated from soil samples collected across the mid-Atlantic region. No specific thermal data regarding optimal growth temperature, temperature range, or thermal adaptations (thermophilic, psychrophilic, etc.) were reported in the provided text.
+
+
+Paper: PMC8375487.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Samples were collected from soil and water across eastern and central Virginia.
+- The phages infect *Bacillus* species, which are described as ubiquitous in the environment.
+
+Concise Summary:
+This study reports the complete genome sequences of 10 bacteriophages infecting *Bacillus cereus* group bacteria. The phages were isolated from environmental samples collected from soil and water in Virginia. No specific thermal parameters, such as optimal growth temperature, temperature ranges, or evidence of thermophilic/psychrophilic adaptation, were reported in the provided abstract or table data.
+
+
+Paper: PMC3317741.1.txt
+Thermal Evidence:
+- Optimal gene expression (asbF) was observed at ambient temperature (30 °C).
+- Catechol production was highest at 25 °C, followed by 30 °C, and lowest at 37 °C.
+- Gene expression (asbF) was lowest at 37 °C.
+- The study compared growth at 25 °C, 30 °C, and 37 °C, mimicking environmental conditions.
+- The optimal growth temperature for the compound's regulation was suggested to be at lower temperatures (ambient/soil cycle).
+
+Environmental Context:
+- The organism is an ubiquitous soil bacterium.
+- The study compared conditions mimicking soil cycles (lower temperatures) versus virulence factor expression in humans (37 °C).
+- The authors suggest the compound's role is related to soil growth cycles.
+
+Concise Summary:
+Protocatechuic acid production and gene expression were analyzed across three temperatures: 25 °C, 30 °C, and 37 °C. Catechol production was highest at 25 °C, suggesting optimal conditions for this compound at ambient temperatures. Gene expression of the relevant enzyme (asbF) was also lowest at 37 °C, indicating that the compound's regulation is favored at lower temperatures, consistent with its hypothesized role in soil growth cycles. The organism is an ubiquitous soil bacterium, and the experimental design explicitly compared conditions mimicking soil environments (lower temperatures) against human virulence temperatures (37 °C). No explicit classification (e.g., mesophile) was provided, but the data strongly suggest adaptation and optimal function in cooler, ambient conditions relative to the tested pathogenic temperature.
+
+

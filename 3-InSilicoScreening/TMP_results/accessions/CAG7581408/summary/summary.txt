@@ -1,0 +1,172 @@
+Summary file for CAG7581408
+Number of papers: 12
+=============Summaries=============
+
+Paper: PMC13198022.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms are associated with the marine environment.
+- The source material involves marine picocyanobacteria (genera *Prochlorococcus* and *Synechococcus*) and their associated cyanophages.
+
+Concise Summary:
+This study focuses on the auxiliary metabolic gene *pebS*, an enzyme found in cyanophages that catalyzes the reduction of biliverdin IX$\alpha$ to phycoerythrobilin (PEB). The analysis compares this phage-encoded enzyme to the two-step reduction pathway utilized by the host cyanobacteria, which employ two distinct enzymes (*PebA* and *PebB*). The research utilized comparative genomics, screening the Ocean Gene Atlas and NCBI cyanobacterial genomes. Phylogenetic analysis confirmed that *pebS*, *PebA*, and *PebB* form distinct clades. Crucially, the study concluded that *pebS* is exclusively encoded by phages, as no corresponding gene was found in the analyzed cyanobacterial genomes, which instead possess *PebA* and *PebB*. The detected *pebS* sequences in cyanobacterial assemblies were confirmed to originate from phage contigs, suggesting the samples were derived from lytic phage infections. The environmental context is strictly marine, involving photosynthetic cyanobacteria. No data regarding the thermal physiology or adaptation of the organisms was presented.
+
+
+Paper: PMC12629253.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Growth was monitored at $26^	ext{o}	ext{C}$ in natural seawater-based medium.
+- Environmental source/habitat: Marine environments, including coastal waters, surface waters, deep chlorophyll maximum (DCM) layer, polar, estuarine, trade, and westerlies biomes.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the $26^	ext{o}	ext{C}$ incubation temperature, which is typical for mesophilic organisms.
+- Heat tolerance: No specific data provided.
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No specific data provided.
+- Membrane adaptations: No specific data provided.
+- Thermal stress responses: No specific data provided.
+
+Environmental Context:
+- Habitat/Source: Marine environments, with specific detection patterns across various oceanic biomes (polar, estuarine, trade, westerlies). The phages were found to be widely distributed across the global ocean and adapted to diverse marine environments, with some subgroups showing correlation with temperature and salinity.
+
+Concise Summary:
+The phages were isolated and studied using host bacteria cultured at $26^	ext{o}	ext{C}$ in natural seawater-based medium. The phages were found to be widely distributed across diverse marine environments, including surface waters, the deep chlorophyll maximum (DCM) layer, and various oceanic biomes (polar, estuarine, trade, westerlies). The study noted that the relative abundance of certain phage subgroups correlated positively with temperature and salinity, suggesting adaptation to varying environmental conditions. The overall context points to the phages being adapted to diverse, non-extreme marine conditions, consistent with mesophilic life cycles, although no specific thermal adaptation mechanisms were detailed.
+
+
+Paper: PMC13189709.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the general microbial populations analyzed.
+- One use case identified proteins associated with the DC/4HB cycle, and the corresponding MAGs were found to be predominantly associated with environments such as hot springs, hydrothermal vents, and marine sediments, suggesting adaptation to high-temperature or extreme thermal niches.
+
+Environmental Context:
+- The reference database is derived from the Microbiome Datahub, which integrates MAGs from 123 distinct environmental categories, including hot springs, hydrothermal vents, and marine sediments. The analysis also covered the human gut microbiome and fecal-associated environments.
+
+
+Paper: 41189414.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions related to temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses was provided.
+
+Environmental Context:
+- The virus was isolated from an organism associated with a marine environment.
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+
+Paper: PMC13192320.1.txt
+The provided text snippets do not contain specific information regarding the optimal growth temperature or temperature-dependent characteristics of the organisms or processes. Therefore, no temperature-related data can be extracted.
+
+
+Paper: PMC13193486.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: Continuous light (50 $\mu E m^{-2} s^{-1}$) at 37°C and 120 r.p.m.
+- Environmental source/habitat: Not explicitly stated
+- Thermophilic adaptation: The organism is described as an acidophilic alga and the study involves assays at 30°C, suggesting adaptation to varying temperatures.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: The optimal growth temperature of 37°C suggests mesophilic growth conditions.
+- Heat tolerance: The organism is described as acidophilic and the study involves protein purification and assays at 30°C, indicating stability under these conditions.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: No specific enzyme temperature adaptations were detailed.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/source: The organism is an acidophilic alga.
+
+Concise Summary:
+The organism was cultivated under conditions suggesting mesophilic growth, with an optimal growth temperature of 37°C. The study utilized assays at 30°C, and the organism is characterized as an acidophilic alga. The text does not provide a defined survival temperature range, but the experimental procedures imply robustness across a range including 30°C and 37°C.
+
+
+Paper: PMC11323488.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed viral or bacterial components.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was made.
+
+Environmental Context:
+- The analyzed viral genomes originated from diverse sources, including marine environments (seawater, Mediterranean deep chlorophyll maximum), human guts, and chicken guts.
+
+Concise Summary:
+The study focuses on developing a molecular tool (ANI gap analysis) to define intra-species units (proposed term: genomovars) in viruses, primarily using bacteriophage genomes, but also examining eukaryotic viruses like SARS-CoV-2. The analysis utilized genomes recovered from diverse environments, including marine samples, human, and chicken guts. No direct physiological data regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) were reported for the viral or bacterial components analyzed. The focus remains purely on genomic sequence comparison (ANI values) to establish taxonomic boundaries.
+
+
+Paper: PMC12915355.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 28°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 28°C for various periods (e.g., 24h, 40h).
+- Environmental source/habitat: Coastal waters of Qingdao, China; Abalone tissue (Haliotis discus hannai Ino) tissue; Marine environment (implied by *Vibrio* pathogens and coastal water isolation).
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, or mesophilic adaptation.
+- Heat tolerance: The enzyme was tested against heat-inactivated controls (100°C for 10 min) to confirm activity, indicating stability up to this point for the assay, but no general heat tolerance profile was established.
+
+Environmental Context:
+- The organism was isolated from a marine/coastal environment (coastal waters, abalone tissue). The study focuses on *Vibrio* pathogens, which are typically associated with aquatic/marine settings.
+
+Concise Summary:
+The experimental work was conducted under controlled laboratory conditions, with the primary incubation and growth temperature maintained at 28°C. The source material for the phage and bacterial host was derived from coastal waters and diseased abalone tissue, indicating an environmental origin in a marine/coastal setting. While the study utilized heat-inactivated controls (100°C for 10 min) to confirm enzyme activity, there is no explicit characterization of the organism's optimal, growth, or survival temperature range, nor is there any classification provided regarding thermophilic, psychrophilic, or mesophilic adaptation. The conditions suggest the organism is adapted to mesophilic, ambient aquatic temperatures.
+
+
+Paper: 40911772.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- Prevalent in marine and freshwater ecosystems.
+
+Concise Summary:
+The reviewed subject is a class of double-stranded DNA viruses that specifically infect cyanobacteria. The text details the coevolutionary relationship between these viruses and their hosts, noting their role in biogeochemical cycling. The viruses are found in marine and freshwater ecosystems. The review summarizes genomic, metagenomic, and structural data, and discusses assembly processes, uncultured virus exploration, and potential applications, but provides no specific physiological data regarding temperature optima, ranges, or thermal adaptations.
+
+
+Paper: PMC9687132.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28 °C
+- Growth temperature range: Not explicitly stated, but optimal growth was tested at 28 °C.
+- Survival temperature range: Tested range was 4 °C to 40 °C.
+- Incubation conditions: General incubation was performed at 28 °C.
+- Environmental source/habitat: Marine aquaculture seawater.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by optimal growth at 28 °C.
+- Heat tolerance: The phage showed moderate stability at 40 °C (survival rate of about 68%).
+- Cold tolerance: The phage was tested at 4 °C.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Marine aquaculture seawater (Sanggou Bay, China).
+
+Concise Summary:
+The phage was isolated from marine aquaculture seawater. Its optimal growth and infectivity were determined at 28 °C. Stability testing revealed that the phage maintained activity across a temperature range of 4 °C to 40 °C, showing moderate stability at the higher end (40 °C survival rate of ~68%) and activity at the lower end (4 °C). The general growth conditions for the host bacterium were maintained at 28 °C. The authors did not classify the organism's thermal adaptation (e.g., mesophile, psychrotolerant) but provided evidence of stability across a broad, environmentally relevant temperature spectrum.
+
+
+Paper: PMC12915355.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 28°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 28°C for various periods (e.g., 24h, 40h).
+- Environmental source/habitat: Coastal waters of Qingdao, China; Abalone tissue (Haliotis discus hannai Ino) tissue; Marine environment (implied by *Vibrio* pathogens and coastal water isolation).
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, or mesophilic adaptation.
+- Heat tolerance: The enzyme was tested against heat-inactivated controls (100°C for 10 min) to confirm activity, indicating stability up to this point for the assay, but no general heat tolerance profile was established.
+
+Environmental Context:
+- The organism was isolated from a marine/coastal environment (coastal waters, abalone tissue). The study focuses on *Vibrio* pathogens, which are typically associated with aquatic/marine settings.
+
+Concise Summary:
+The experimental work was conducted under controlled laboratory conditions, with the primary incubation and growth temperature maintained at 28°C. The source material for the phage and bacterial host was derived from coastal waters and diseased abalone tissue, indicating an environmental origin in a marine/coastal setting. While the study utilized heat-inactivated controls (100°C for 10 min) to confirm enzyme activity, there is no explicit characterization of the organism's optimal, growth, or survival temperature range, nor is there any classification provided regarding thermophilic, psychrophilic, or mesophilic adaptation. The conditions suggest the organism is adapted to mesophilic, ambient aquatic temperatures.
+
+
+Paper: PMC12300592.1.txt
+The provided text discusses various aspects of bacteriophage biology and phage applications, but it does not contain specific, detailed information regarding the optimal growth temperature ranges for the organisms or phages. Therefore, I cannot extract temperature data for this summary.
+
+

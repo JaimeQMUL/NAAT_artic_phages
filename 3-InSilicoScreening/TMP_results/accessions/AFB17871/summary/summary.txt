@@ -1,0 +1,242 @@
+Summary file for AFB17871
+Number of papers: 15
+=============Summaries=============
+
+Paper: PMC13198022.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms are described as marine picocyanobacteria, specifically mentioning genera associated with the oceanic environment.
+- The source material involves analysis of sequences from the Ocean Gene Atlas and cyanobacterial genomes, indicating a marine/oceanic habitat.
+
+
+Paper: PMC13041748.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- Incubation conditions mentioned include $24^	ext{o}	ext{C}$ for growth assays.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism is a marine cyanobacterium, with studies conducted in both laboratory culture conditions and in silico models simulating natural environments (e.g., photic zone, upwelling events).
+
+Concise Summary:
+The study focuses on the metabolic hijacking mechanisms employed by bacteriophages infecting a marine cyanobacterium. The experimental validation was performed using a model cyanobacterium, which was cultured at $24^	ext{o}	ext{C}$. The analysis is primarily metabolic and computational, detailing how phage auxiliary metabolic genes (AMGs) reprogram host metabolism by altering fluxes in pathways like carbon fixation and nucleotide synthesis. No direct thermal characterization data (optimal temperature, temperature range, or thermal adaptation) was presented for the organism or the phage-host interaction studied.
+
+
+Paper: 41930475.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes was made.
+- Membrane adaptations were noted in the context of phage infection and resistance, but not in relation to temperature stress.
+
+Environmental Context:
+- Estuarine ecosystems (China).
+- The organisms were studied in both field metagenomes and laboratory-evolved mutant strains.
+
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 1 hour at 22°C with illumination (for cyanophages); overnight incubation at 37°C (for phages against *Enterobacter* group).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The isolation protocols utilized incubation temperatures ranging from 22°C to 37°C, suggesting adaptation to mesophilic conditions typical of environmental reservoirs.
+
+
+Paper: 41549294.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The viromes were analyzed from an estuarine creek (khazan ecosystem) and a tropical freshwater lake.
+- The organisms were not explicitly stated to be isolated from an extreme environment, nor were any explicit thermal classifications provided by the authors.
+
+
+Paper: PMC10100731.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 24°C
+- Growth temperature range: Not explicitly stated, but growth was maintained at 24°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultures were grown at 24°C.
+- Environmental source/habitat: Marine environment (ocean).
+- Thermophilic adaptation: No evidence.
+- Psychrophilic adaptation: No evidence.
+- Mesophilic growth: Implied by growth at 24°C.
+- Heat tolerance: No evidence.
+- Cold tolerance: No evidence.
+- Enzymes adapted to temperature: No specific temperature-adapted enzymes mentioned.
+- Membrane adaptations: No evidence.
+- Thermal stress responses: No evidence.
+
+Environmental Context:
+- Habitat/source: Marine environment (ocean).
+
+Concise Summary:
+The study utilized laboratory culture conditions at 24°C for the growth of the analyzed marine picocyanobacteria strains. The organisms were sourced from the marine environment. The authors did not provide specific data regarding optimal, survival, or growth temperature ranges beyond the 24°C incubation temperature used in the experiments. No evidence of thermophilic, psychrophilic, or extreme temperature adaptations was reported. The general growth conditions suggest mesophilic adaptation within the studied temperature range.
+
+
+Paper: PMC8209453.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 20°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 12 h light/12 h dark cycle, temperature 20°C, light with a white LED lamp at 50 $\mu$mol photon m$^{-2}$ s$^{-1}$ of irradiance.
+- Environmental source/habitat: Not specified.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the 20°C incubation temperature.
+- Heat tolerance: No mention.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Not specified.
+
+Concise Summary:
+The study investigated the activity of ATP Sulfurylase (ATPS) in two cyanobacterial strains under various growth conditions, including standard, transitional, and possible Proterozoic conditions. The controlled laboratory incubation conditions were maintained at 20°C under a 12 h light/12 h dark cycle with specific light irradiance. The organisms were grown in liquid cultures, and the experimental design focused on nutrient limitation (low sulfate, switch from nitrate to ammonium) and atmospheric composition ($\text{CO}_2$/$\text{O}_2$ ratio) rather than temperature variation. No data or discussion regarding the optimal, range, or survival temperatures, or any specific thermal adaptations (thermophilic, psychrophilic, etc.), were provided for the tested strains. The organisms were cultured under controlled, mesophilic-like conditions (20°C). The primary focus was on the metabolic regulation of ATPS in response to sulfur and nitrogen availability, and the comparison between redox-regulated and non-redox-regulated isoforms in relation to hypothesized ancient environmental conditions.
+
+
+Paper: PMC13159264.1.txt
+Thermal Evidence:
+- **Temperature Gradient:** The study analyzed microbial communities across a natural thermal gradient ranging from $50^	ext{o}	ext{C}$ to $93^	ext{o}	ext{C}$.
+- **Community Shifts:** Distinct community shifts were observed correlating with temperature: moderate-temperature springs ($50–70^	ext{o}	ext{C}$) were dominated by certain phyla; high-temperature springs ($70–90^	ext{o}	ext{C}$) enriched specific taxa; and extreme-temperature springs ($	ext{≥}90^	ext{o}	ext{C}$) were characterized by distinct, specialized lineages.
+- **Taxa Specificity:** Specific phyla showed temperature preferences: e.g., one phylum dominated at $85^	ext{o}	ext{C}$ but was scarce at $93^	ext{o}	ext{C}$; another phylum was found to dominate exclusively at $93^	ext{o}	ext{C}$.
+- **Adaptation Trends:** Thermophilic lineages in extreme-temperature environments exhibited genomic streamlining, specialized metabolic functions, and narrower ecological niches, consistent with adaptation to persistent thermal stress.
+- **Metabolic Pathways:** Carbon fixation pathways shifted with temperature, moving from partial Calvin-Benson-Bassham (CBB) and 3-Hydroxypropionate (3H) cycles at moderate temperatures to reductive tricarboxylic acid (rTCA) cycles, dicarboxylate-hydroxybutyrate (DH) cycle, and hydroxypropionate-hydroxybutyrate (HH) cycle at extreme temperatures.
+- **Nitrogen Metabolism:** Nitrogen metabolism showed progressive simplification with rising temperatures, shifting from diverse processes (like dissimilatory nitrate reduction) at moderate/high temperatures to efficient, nitrogen-retaining pathways (like assimilatory nitrate reduction, ANR) in extreme environments.
+- **Genome Adaptation:** Hyperthermophilic lineages showed significantly smaller genome sizes compared to mesophilic phyla, accompanied by a loss of regulatory genes and reduced functional complexity, suggesting energy conservation and enhanced thermal stability.
+- **Molecular Markers:** Increased GC content in tRNA and rRNA, particularly in tRNA, was noted in hyperthermophilic phyla, suggesting genomic adaptations for thermotolerance.
+
+Environmental Context:
+- **Habitat/Source:** Western Sichuan Plateau hot springs, representing a natural thermal gradient.
+- **Isolation:** Organisms were isolated from a range of geothermal hot springs spanning $50^	ext{o}	ext{C}$ to $93^	ext{o}	ext{C}$.
+
+Concise Summary:
+Temperature is identified as the primary driver shaping microbial community structure, genome evolution, and metabolic specialization across the $50–93^	ext{o}	ext{C}$ thermal gradient. The study details clear community shifts: moderate temperatures favor phyla utilizing CBB cycles and diverse nitrogen reduction; high temperatures favor taxa employing the Wood–Ljungdahl pathway; and extreme temperatures are dominated by lineages utilizing specialized autotrophic pathways (rTCA, DH/HH cycles). Thermophilic adaptation is characterized by genomic streamlining (smaller genomes, reduced regulatory genes) and metabolic specialization, particularly evident in the shift towards energy-efficient, coupled sulfur/carbon/nitrogen cycles in hyperthermophiles. These extreme thermophiles exhibit deeper phylogenetic branches and narrower niches, contrasting with more flexible, broader-niche groups found at moderate temperatures. Genomic stability adaptations include increased GC content in nucleic acids. The overall pattern suggests a strong correlation between increasing temperature, increasing thermal stress, and increasing metabolic specialization/genome reduction.
+
+
+Paper: PMC9910659.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 23°C
+- Growth temperature range: Not explicitly stated, but maintained at 23°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Continuous light (20–23 μE m-2 s-1).
+- Environmental source/habitat: Marine environment (oligotrophic regions of the oceans).
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+- Explicit classification: None provided by the authors regarding thermal classification.
+
+Environmental Context:
+- Habitat/Source: Marine environment (oligotrophic regions of the oceans).
+
+Concise Summary:
+The study was conducted under controlled laboratory conditions simulating a marine environment. The optimal and maintained growth temperature for the host organism was 23°C, under continuous light. The source habitat is the marine environment, specifically oligotrophic regions of the oceans. No specific thermal adaptations (thermophilic, psychrophilic, etc.) or temperature ranges were detailed in the provided text; the conditions maintained were consistent with mesophilic growth at 23°C.
+
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 1 hour at 22°C with illumination (for cyanophages); overnight incubation at 37°C (for phages against *Enterobacter* group).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The isolation protocols utilized incubation temperatures ranging from 22°C to 37°C, suggesting adaptation to mesophilic conditions typical of environmental reservoirs.
+
+
+Paper: PMC13001362.1.txt
+Thermal Evidence:
+- Temperature emerged as the strongest driver structuring viral communities, outpacing the effects of salinity, depth, dissolved oxygen, chlorophyll-a, and geography.
+- Viral diversity was consistently higher in the northern warmer waters (7.5–10.4 °C), while southern colder sites (4.0–7.4 °C) harbored less diverse and compositionally distinct communities.
+- Giant viruses shift from Pandoravirales and AG_04 (Algavirales) at lower temperatures to increasing dominance of IM_01 (Imitervirales) and Prasinoviridae (AG_01) in warmer habitats.
+- Prokaryotic virus communities also displayed strong temperature structuring, with additional influence from salinity.
+- For giant viruses, 65.1% of total gvOTUs were detected exclusively in samples at higher temperatures, with the majority assigned to the Prasinoviridae (AG_01). In contrast, only 14.3% of gvOTUs were exclusive to colder temperatures, most belonging to the IM_01 family.
+- Temperature shifts resulted in distinct community transitions: AG_04 family and Pandoravirales dominated below 6.1 °C, IM_01 family became prominent between 6.4 °C and 7.5 °C, and AG_01 family dominated above 8.9 °C.
+- For prokaryotic viruses, community composition differed markedly between colder and warmer samples.
+- PERMANOVA confirmed that temperature had a statistically significant effect on beta diversity in both viral communities (Giant viruses: R2 = 0.30, p < 0.05; Prokaryotic viruses: R2 = 0.21, p < 0.05).
+
+Environmental Context:
+- Subantarctic Chilean Patagonia fjords, spanning a latitudinal gradient with temperatures ranging from 4 to 10 °C.
+
+Concise Summary:
+Temperature is identified as the primary and strongest ecological driver structuring both giant virus and prokaryotic virus communities in the subantarctic Chilean Patagonia fjords. Viral diversity is significantly higher in the warmer northern waters (7.5–10.4 °C) compared to the colder southern sites (4.0–7.4 °C). This temperature dependence dictates community structure: giant viruses shift from Pandoravirales/AG_04 at lower temperatures to dominance by IM_01 and Prasinoviridae (AG_01) in warmer conditions. Specifically, the Prasinoviridae (AG_01) dominate above 8.9 °C, while AG_04 and Pandoravirales are prevalent below 6.1 °C. Prokaryotic virus communities also show clear structural differentiation between cold and warm habitats. The overall analysis confirms temperature's role as a key structuring force for both viral groups, with statistical confirmation via PERMANOVA (R2 values of 0.30 and 0.21, respectively). The study highlights the high environmental sensitivity of these viral communities to temperature-driven changes, suggesting potential vulnerability to climate warming.
+
+
+Paper: PMC13101131.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but growth was accelerated at 40 °C compared to 25 °C.
+- Growth temperature range: Tested at 25 °C and 40 °C.
+- Survival temperature range: Can grow at temperatures up to 50 °C.
+- Incubation conditions: Tested at 25 °C and 40 °C.
+- Thermophilic adaptation: The organism is described as a thermophilic strain, and its growth at 40 °C showed specific adaptations.
+- Heat tolerance: Demonstrated by growth at 40 °C, which induced specific lipid changes (e.g., shift from unsaturated to saturated acyl groups in membrane lipids, and increased saturated TAG species).
+- Membrane adaptations: At high temperatures, there was a shift from unsaturated to saturated acyl groups in membrane lipids, and a decrease in the MGDG/SQDG ratio, contributing to membrane stabilization.
+- Enzymes adapted to temperature: The multifunctional acyltransferase was studied in the context of high temperature stress.
+
+Environmental Context:
+- Habitat/Source: Originally isolated from Euganean thermal springs.
+- Extreme Environment Isolation: Yes, isolated from thermal springs.
+- Explicit Classification: Described as a thermophilic, halotolerant single-cell cyanobacterium.
+
+Concise Summary:
+The organism is characterized as a thermophilic, halotolerant cyanobacterium, originally isolated from thermal springs. It exhibits high heat tolerance, growing optimally at 40 °C, and can survive up to 50 °C. Thermal stress responses involve significant membrane lipid remodeling: at elevated temperatures, there is a clear trend towards replacing unsaturated acyl groups with saturated ones in membrane lipids, which is a common adaptation mechanism in thermophilic cyanobacteria to counteract increased membrane fluidity. Furthermore, the accumulation of triacylglycerol (TAG) also shifts towards more saturated molecular species under high temperature. These lipidomic changes, alongside the observed structural rearrangements (e.g., thylakoid membrane rearrangement and carboxysome accumulation), confirm the organism's robust adaptive mechanisms to thermal stress, which are crucial for its biotechnological potential.
+
+
+Paper: PMC8060472.1.txt
+Thermal Evidence:
+- Incubation temperature for lysis experiments was $37^	ext{o}	ext{C}$.
+- Enzyme assays (DiFMUP hydrolysis) were performed using a temperature-controlled plate reader, but specific optimal or tested temperature ranges for the enzymes were not detailed beyond the $37^	ext{o}	ext{C}$ lysis incubation.
+- Proteinase K activation was facilitated by increasing temperature to $55^	ext{o}	ext{C}$.
+
+Environmental Context:
+- The study utilized model bacteria cultured under laboratory conditions simulating oligotrophic aquatic regions (e.g., Sargasso Sea, North Pacific Subtropical Gyre).
+- No explicit mention of the organisms being isolated from an extreme environment, nor any explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided by the authors.
+
+Concise Summary:
+The experimental procedures involved culturing model bacteria and performing lysis and subsequent lysate incubations at $37^	ext{o}	ext{C}$. Enzyme assays utilized a temperature-controlled plate reader, and a specific enzyme treatment involved activation at $55^	ext{o}	ext{C}$. The study models nutrient cycling in oligotrophic aquatic environments, drawing comparisons to natural surface ocean conditions. No data regarding the optimal growth temperature range, survival temperature range, or specific thermal adaptations (thermophilic, psychrophilic, etc.) were reported for the tested organisms. The focus remains on the physiological and biochemical processes of phosphorus regeneration following lysis under controlled laboratory temperature regimes.
+
+
+Paper: PMC12925178.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 26°C
+- Growth temperature range: Not explicitly stated, but the organism thrives in dynamic tidal environments with daily temperature fluctuations exceeding 15°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: SEC-HPLC was performed at 20°C and 50°C. AUC measurements were performed at 25°C and 40°C. Chaperone assays used 37°C (for lysozyme aggregation) and 45°C (for GAPDH aggregation).
+- Environmental source/habitat: Coastal waters of Okinawa Prefecture, Japan; dynamic tidal environments.
+- Thermophilic adaptation: No explicit mention of thermophilic adaptation, but the organism is studied in relation to temperature fluctuations.
+- Psychrophilic adaptation: No explicit mention.
+- Mesophilic growth: Implied by the optimal growth temperature of 26°C.
+- Heat tolerance: The organism is studied in a context of high temperature stress (e.g., 50°C in SEC-HPLC, 45°C in GAPDH assay).
+- Cold tolerance: No explicit mention.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: The sHsp is characterized as a stress chaperone, suggesting a role in stress resistance.
+
+Environmental Context:
+- Habitat/source: Coastal waters of Okinawa Prefecture, Japan; dynamic tidal environments.
+- Extreme environment isolation: Yes, isolated from a dynamic tidal environment with large daily temperature fluctuations.
+- Explicit classification: None provided by the authors (e.g., mesophile, psychrotolerant). The optimal growth temperature suggests mesophilic tendencies.
+
+
+Paper: PMC9430850.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 24°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 24°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Continuous blue irradiance (40 μmol quanta m⁻² s⁻¹).
+- Environmental source/habitat: Mesotrophic waters; upper surface layer of the water column.
+- Mention of adaptations: None explicitly mentioned regarding temperature adaptation (thermophilic, psychrophilic, etc.).
+
+Environmental Context:
+- Habitat/Source: Mesotrophic waters; upper surface layer of the water column.
+
+Concise Summary:
+The organism was isolated from mesotrophic waters and is noted to thrive in the upper surface layer of the water column. The experimental growth conditions were maintained at 24°C under continuous blue irradiance (40 μmol quanta m⁻² s⁻¹). The authors did not provide specific data regarding optimal, range, or survival temperatures, nor did they classify the organism based on thermal adaptation (e.g., mesophile, psychrotolerant). The physiological studies focused on nutrient metabolism (nitrate assimilation) under these controlled, ambient conditions.
+
+

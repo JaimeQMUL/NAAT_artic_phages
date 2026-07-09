@@ -1,0 +1,101 @@
+Summary file for YP_010066255
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC12136435.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 39°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 39°C.
+- Survival temperature range: Not explicitly stated, but experiments were conducted at 39°C.
+- Incubation conditions: Anaerobic incubation at 39°C for 48 hours (in vitro) and in vivo for 48 hours.
+- Environmental source/habitat: Rumen fluid from cattle.
+- Mention of adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, or cold tolerance adaptations. The study focuses on adaptation to the ruminal environment, which is characterized by specific pH and VFA levels, rather than temperature extremes.
+
+Environmental Context:
+- Habitat/Source: Bovine rumen fluid from cattle.
+
+Concise Summary:
+The study investigated the growth dynamics and protein expression of non-O157 serotypes of *E. coli* in the bovine rumen. All *in vitro* and *in vivo* experiments were conducted under controlled anaerobic conditions at a constant temperature of 39°C for 48 hours. The primary environmental context is the rumen fluid, which varies based on diet (lactation vs. maintenance), exhibiting pH ranges from acidic (5.2–6.0) to near-neutral (6.0–7.0) and varying volatile fatty acid (VFA) concentrations. The analysis focused on adaptation to these physicochemical parameters rather than thermal extremes, with no specific evidence provided regarding thermophilic, psychrophilic, or general thermal stress responses beyond the consistent 39°C incubation temperature.
+
+
+Paper: 35082070.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was studied in vitro on abiotic surfaces (stainless steel and polyoxymethylene plastic) using nutrient-deficient (M9) and nutrient-rich (cooked meat broth) media. No extreme environmental source was specified.
+
+
+Paper: PMC4138183.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not specified
+- Incubation conditions: 37°C for 10–12 h (for optimal colony size for scattering); 42°C for 10 h (for enrichment in mTSB); 37°C for 10.5 h (for food sample incubation).
+- Environmental source/habitat: Food samples (lettuce and ground beef).
+- Mention of adaptations: None specified.
+- Explicit classification: None given by the authors regarding thermal adaptation.
+
+
+Paper: PMC5831388.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for bacterial culture/incubation).
+- Growth temperature range: 37 °C (for bacterial culture/incubation).
+- Survival temperature range: 20 °C (for *C. elegans* maintenance/assays) and 25 °C (for *C. elegans* incubation).
+- Incubation conditions: 37 °C for bacterial culture; 20 °C or 25 °C for *C. elegans* assays.
+- Heat treatment: 80 °C for 10 minutes (used to test toxin effect).
+- Thermal stress responses: Heat-treated strains showed reduced toxicity compared to live strains.
+
+Environmental Context:
+- Habitat/Source: Soil environment (for *C. elegans*); various sources including cow, ground beef, and humans (for bacterial strains).
+
+Concise Summary:
+The bacterial strains were cultured and incubated optimally at 37 °C. The model nematode was maintained and assayed at 20 °C or 25 °C. A specific heat treatment was applied at 80 °C for 10 minutes to assess toxin activity, demonstrating that the toxins are heat-labile. The organisms were sourced from diverse environments, including soil and various food/human sources. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided for the bacteria, but the general incubation conditions suggest mesophilic growth for the bacteria and the nematode.
+
+
+Paper: PMC9046965.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 ± 1°C (for enrichment media incubation).
+- Growth temperature range: 37 ± 2°C (for enrichment incubation).
+- Incubation conditions: Aerobic incubation at 41.5 ± 1°C (for enrichment).
+- Lysis heating temperature: 100 ± 1°C (for lysis step).
+- Storage/Handling temperature: 2–8°C (for storing lysates).
+- Survival/Handling temperature: Ambient laboratory temperature (20–25°C) (for some steps).
+
+Environmental Context:
+- Habitat/Source: Intestines of people and animals; contaminated food (meat, fresh fruits, vegetables).
+
+Concise Summary:
+The target organism is generally associated with human and animal intestinal tracts. Optimal growth conditions are centered around 37°C, with enrichment incubation performed at 41.5°C. The methodology involves a critical thermal step at 100°C during the lysis phase. The organism is not explicitly classified regarding thermal adaptation (e.g., mesophile, thermophile); however, the routine incubation temperatures (37°C to 41.5°C) suggest a mesophilic lifestyle. The study does not provide data on extreme temperature survival or specific enzyme adaptations related to temperature stress.
+
+
+Paper: PMC9046966.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 ± 1°C (for enrichment media incubation).
+- Growth temperature range: 37 ± 2°C (for exclusivity strains incubation).
+- Incubation conditions: Aerobic incubation at 41.5 ± 1°C (for enrichment).
+- Heat treatment/Lysis: 100 ± 1°C for 15 ± 1 min.
+- Storage/Handling: 2–8°C (for storing lysates).
+- Survival/Stability: Product stability testing was conducted at ambient temperature (20–25°C) for the chill block insert.
+
+Environmental Context:
+- Habitat/Source: Found in the environment, in foods (meat, spinach), and in the intestines of people and animals.
+- Extreme Environment Isolation: No mention of isolation from an extreme environment.
+- Explicit Classification: No explicit thermal classification (e.g., thermophilic, psychrophilic) was provided by the authors. The growth conditions described are consistent with mesophilic organisms.
+
+
+Paper: 34347868.txt
+Thermal Evidence:
+- Growth temperature range: The study maintained storage at room temperature ($22 	ext{ °C} 	ext{ ± 1°C}$). 
+- Survival temperature range: Survival was assessed at room temperature ($22 	ext{ °C}$). 
+- Incubation conditions: Storage was conducted in sealed Mylar bags to maintain water activity.
+- Mentioned adaptations: No specific mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- Habitat/Source: Wheat grain (low-moisture environment).
+
+Concise Summary:
+Survival of enteric pathogens on wheat grain was evaluated over 52 weeks at a constant room temperature ($22 	ext{ °C}$). The study demonstrated the long-term survival capability of these pathogens in a low-moisture, ambient temperature environment. The calculated D-values indicated significant differences in survival kinetics between the two groups of pathogens, with survival times ranging from approximately 40 to 52 weeks under these specific storage conditions. The pathogens were isolated from a food matrix (wheat grain) and were tested under mesophilic-like storage conditions, confirming their persistence as a food safety concern over extended shelf life.
+
+

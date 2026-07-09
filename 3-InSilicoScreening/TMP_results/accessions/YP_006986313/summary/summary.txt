@@ -1,0 +1,141 @@
+Summary file for YP_006986313
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC13176939.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for incubation on ESIA/TSA).
+- Growth temperature range: 37°C (for incubation on ESIA/TSA).
+- Survival temperature range: Not explicitly stated, but persistence is noted in dry processing environments.
+- Incubation conditions: 18–24h at 37°C (for ESIA/TSA); 42°C for 18–24h (for screening broth).
+- Heat tolerance: Not high enough to survive pasteurization (HTST treatment at $\ge 72°C$ for $\ge 15s$).
+- Cold tolerance: Not explicitly detailed, but persistence is observed over a 12-month period in the environment.
+- Thermophilic/Psychrophilic/Mesophilic: The organism is associated with mesophilic growth conditions (optimal growth at 37°C).
+- Thermal stress responses: Exceptional tolerance to desiccation is noted.
+
+Environmental Context:
+- Habitat/Source: Dairy powder processing environments, specifically in the dry processing areas (e.g., spray dryer levels, bagging sieve area) post-pasteurization. The organism is described as a resident contaminant in dry dairy processing environments.
+
+Concise Summary:
+The organism exhibits optimal growth at 37°C, with incubation protocols utilizing both 37°C and 42°C. It demonstrates significant desiccation resistance, allowing for long-term persistence in dry processing environments within dairy powder facilities, even after the raw milk undergoes pasteurization ($\ge 72°C$ for $\ge 15s$). The authors classify its growth profile within the mesophilic range. The persistence is attributed to the dry processing zones, which create niches favoring survival. Whole-genome sequencing revealed long-term persistence patterns over a 12-month surveillance period, highlighting the organism's ability to colonize and persist in these challenging, low-water-activity, dry environments.
+
+
+Paper: 42169307.txt
+Thermal Evidence:
+- Optimal adhesion temperature: 37 °C
+- Adhesion temperature: 37 °C
+- Simulated gastric condition exposure: Suggests membrane integrity maintenance at conditions that cause loss of culturability.
+- Simulated intestinal phase: Suggests recovery of culturability.
+
+Environmental Context:
+- Source: Food and human clinical sources.
+
+Concise Summary:
+Surface adhesion was significantly influenced by an incubation temperature of 37 °C, and the medium used (powdered infant formula). The organism demonstrated resilience to simulated gastrointestinal conditions; specifically, exposure to simulated adult gastric conditions maintained membrane integrity but resulted in a loss of culturability, suggesting a viable but non-culturable (VBNC)-like state. Subsequently, in the simulated intestinal phase, the bacteria regained culturability. The study utilized 37 °C for adhesion testing and simulated physiological temperatures for resilience testing. The organism was isolated from food and human clinical sources. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided, but the optimal adhesion temperature was 37 °C, consistent with mesophilic growth conditions.
+
+
+Paper: PMC13184272.1.txt
+The provided text does not contain specific information regarding the optimal growth temperature or temperature-dependent characteristics of any organism. Therefore, no temperature-related summary can be generated.
+
+
+Paper: PMC13185626.1.txt
+Thermal Evidence:
+- No specific optimal or growth temperature range was provided.
+- Survival temperature range was not explicitly detailed, but the study involved incubation in a temperature-controlled incubator.
+- Incubation conditions involved controlled temperature settings during desiccation and rehydration phases.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The study investigated survival in conditions mimicking hyperarid desert soils and desiccation/rewetting cycles.
+- The organism was studied in the context of extreme desiccation tolerance, suggesting adaptation to harsh, fluctuating environmental conditions.
+
+Concise Summary:
+The research focused on the physiological responses of a soil bacterium to desiccation and rewetting, utilizing a temperature-controlled incubation system. While the study details metabolic and transcriptomic changes across varying water activities (low water activity achieved via saturated salt solutions), it provides no explicit data regarding the organism's optimal growth temperature, growth range, or specific thermal adaptations (e.g., thermophilic or psychrophilic). The environmental context is highly desiccating, mimicking hyperarid desert soil conditions, suggesting extreme tolerance to water stress rather than specific thermal niche adaptation.
+
+
+Paper: PMC13189113.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Shaking at 37 °C
+- Environmental source/habitat: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by 37 °C incubation
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/source: Not specified
+
+Concise Summary:
+The organism was incubated at 37 °C with shaking, suggesting mesophilic growth conditions. The source environment and any specific thermal adaptations (thermophilic, psychrophilic, etc.) were not detailed in the provided text.
+
+
+Paper: PMC13188896.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but growth was monitored at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37°C for 24 hours, followed by a second 24-hour incubation at 37°C.
+- Environmental source/habitat: Low-moisture foods (LMFs) and environmental surfaces/equipment in food processing facilities.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Growth was observed under conditions typical for mesophiles (37°C).
+- Heat tolerance: No specific data on heat tolerance were provided.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Low-moisture foods (LMFs) and associated processing environments.
+
+Concise Summary:
+The study focused on microbial growth dynamics in low-moisture food (LMF) matrices under varying relative humidity (RH) conditions, rather than on thermal adaptation. The primary incubation temperature used for culturing the tested pathogens was 37°C, which is characteristic of mesophilic growth. The organisms were isolated from LMFs and environmental surfaces within food processing facilities. The research did not provide data regarding thermophilic, psychrophilic, or cold tolerance, nor did it detail specific enzyme or membrane adaptations related to temperature extremes. The key physiological finding related to growth was the dependence on water activity ($a_w$) maintained by RH, rather than temperature variation, with growth observed across a range of RH levels (33% to 97%) at a constant 37°C incubation temperature.
+
+
+Paper: PMC13196792.1.txt
+Thermal Evidence:
+- Growth temperature range: 5 to 47°C.
+- Survival temperature range: Can survive refrigeration (below 4°C).
+- Incubation conditions: Specific incubation temperatures mentioned include 37°C, 41.5°C, and 42°C for isolation/enrichment.
+- Heat tolerance: Tolerates heat up to 47°C.
+- Cold tolerance: Can survive refrigeration (below 4°C).
+- Classification: No explicit classification (e.g., psychrotolerant, mesophile) was provided by the authors.
+
+Environmental Context:
+- Habitat/Source: Found in the environment, especially in the digestive tract of humans and animals. Isolated from various sources including blood, sputum, urine, wounds, water, soil, sewage, and food, such as milk.
+
+Concise Summary:
+The organism exhibits a growth temperature range of 5 to 47°C and can survive refrigeration (below 4°C). It demonstrates heat tolerance up to 47°C. Isolation and enrichment procedures utilized incubation temperatures ranging from 37°C to 42°C. The organism is widely distributed in the environment, colonizing various niches including the digestive tracts of humans and animals, and has been isolated from diverse sources such as water, soil, sewage, and food products like milk. No specific thermal classification (e.g., psychrotolerant) was assigned by the authors.
+
+
+Paper: PMC13164342.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for any microorganisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The study utilized *in vivo* models (pregnant rats) and *in vitro* assays (Western blotting, qRT-PCR) on tissue samples (cortex). The bacterial strain was cultured on specialized agar media and in broth, but no environmental source or habitat related to temperature was described for the organism itself.
+
+Concise Summary:
+The provided scientific paper focuses on the molecular and behavioral consequences of maternal infection in a rat model. It details findings related to inflammation (C5a, IL-6), matrix metalloproteinase activity (MMP-2, -3, -9), epigenetic modifications (DNMT3A, MeCP2, H3K4me3), and the regulation of *Reln* expression, all linked to impaired motor coordination in the offspring. There is no microbiological or physiological data within this paper pertaining to the thermal characteristics, growth temperatures, or environmental adaptation of any microbial species.
+
+
+Paper: 42155939.txt
+Thermal Evidence:
+- No specific temperature data provided regarding optimal growth, growth range, survival range, or incubation conditions for the target bacteria.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The target bacteria were analyzed in the context of food contamination, but no specific environmental source/habitat was detailed beyond this application area.
+
+Concise Summary:
+This study details a novel, enzyme-mediated, PAM-independent, and amplification-free CRISPR/Cas12a system for rapid detection of bacteria in food samples. The methodology relies on cleaving bacterial genomic DNA with a specific endonuclease to expose sticky ends, which then activate Cas12a for reporter cleavage. The system achieves one-pot detection within 60 minutes. No information regarding the thermal physiology, optimal growth temperature, or environmental adaptation of the target bacteria was provided in the abstract.
+
+

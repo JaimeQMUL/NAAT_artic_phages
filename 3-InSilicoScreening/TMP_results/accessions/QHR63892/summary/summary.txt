@@ -1,0 +1,227 @@
+Summary file for QHR63892
+Number of papers: 12
+=============Summaries=============
+
+Paper: PMC13196028.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but experiments were conducted at 30°C and 38°C.
+- Growth temperature range: The system was maintained at 30°C for pre-culturing and at 38°C for induction/main experiments.
+- Survival temperature range: Not explicitly detailed, but the system operates across 30°C and 38°C.
+- Incubation conditions: Batch cultures were incubated at 30°C (pre-culture) and 38°C (main experiments). Microfluidic imaging was performed at 38°C.
+- Environmental source/habitat: The study utilized an *Escherichia coli* model system, with the context drawing parallels to marine environments.
+- Thermophilic adaptation: No evidence provided.
+- Psychrophilic adaptation: No evidence provided.
+- Mesophilic growth: The operational temperatures (30°C–38°C) are consistent with mesophilic growth conditions.
+- Heat tolerance: The system was induced at 38°C, suggesting tolerance to this elevated temperature.
+- Cold tolerance: Pre-culturing at 30°C suggests viability at this temperature.
+- Enzymes adapted to temperature: No specific enzyme thermal adaptations were discussed.
+- Membrane adaptations: No evidence provided.
+- Thermal stress responses: The use of temperature-sensitive prophages (TS lysogen) controlled by temperature (30°C vs. 38°C) demonstrates the ability to induce a lytic cycle in response to thermal shifts.
+
+Environmental Context:
+- Habitat/Source: The model system is based on *Escherichia coli*, and the ecological context discussed relates to marine environments, though the experiment itself was conducted in a controlled laboratory setting.
+
+Concise Summary:
+The study utilized a controlled *Escherichia coli* model system to investigate the physiological consequences of phage-mediated lysis. The experimental setup required precise temperature control, operating at 30°C for initial pre-culturing and shifting to 38°C to induce the lytic cycle of a temperature-sensitive prophage. This temperature-dependent induction mechanism allowed for the selective lysis of a bacterial subpopulation. The operational temperatures (30°C–38°C) place the organism within a mesophilic range. The ability to induce lysis by shifting temperature suggests the system's sensitivity to thermal shifts, which is a key physiological control mechanism exploited in the research. The ecological discussion draws parallels to marine environments, but the core evidence is derived from controlled laboratory conditions simulating nutrient recycling during active growth at these defined temperatures.
+
+
+Paper: PMC8540833.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for bacterial culture and phage propagation).
+- Growth temperature range: Not explicitly stated for optimal growth, but bacterial culture was performed at 37 °C.
+- Survival temperature range: Stable and infectious following storage at a temperature range of −70 °C to 60 °C.
+- Incubation conditions: Bacterial cultures were incubated at 37 °C for 16 h. Phage propagation and challenge assays were conducted at 37 °C.
+- Environmental source/habitat: Isolated from slaughterhouse sewage.
+- Mention of adaptations: The phage exhibited robust stability at a broad temperature range between −70 °C and 60 °C. Stability significantly decreased at 70 °C and 80 °C, and was completely lost at 90 °C.
+- Classification: No explicit classification (e.g., thermophilic, psychrophilic) was given by the authors regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Slaughterhouse sewage.
+
+Concise Summary:
+The phage was isolated from slaughterhouse sewage. Its stability profile indicates robust resilience across a wide temperature range, maintaining infectivity between −70 °C and 60 °C. Optimal bacterial growth and phage activity were observed at 37 °C. The phage demonstrated significant thermal stability up to 60 °C, but activity was notably reduced at 70 °C and 80 °C, and completely lost at 90 °C. No specific classification regarding thermophilic or psychrophilic adaptation was provided.
+
+
+Paper: PMC8472732.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but optimal growth was achieved at 37 °C.
+- Survival temperature range: Not explicitly stated, but stability was tested at 37 °C for incubation periods.
+- Incubation conditions: Incubation was performed at 37 °C for various assays (e.g., 1 h for pH stability, 48 h for *in vivo* assays).
+- Environmental source/habitat: River water, sewage, and stream water.
+- Thermophilic adaptation: No mention of thermophilic adaptation.
+- Psychrophilic adaptation: No mention of psychrophilic adaptation.
+- Mesophilic growth: The optimal growth temperature of 37 °C indicates mesophilic growth.
+- Heat tolerance: No specific data on heat tolerance beyond the standard incubation at 37 °C.
+- Cold tolerance: No specific data on cold tolerance.
+- Enzymes adapted to temperature: No mention of temperature-adapted enzymes.
+- Membrane adaptations: No mention of membrane adaptations related to temperature.
+- Thermal stress responses: No specific details on thermal stress responses beyond general incubation at 37 °C.
+
+Environmental Context:
+- Habitat/Source: Isolated from river water, sewage, and stream water.
+
+Concise Summary:
+The phages were propagated and tested under standard laboratory conditions, with an optimal growth temperature established at 37 °C. The stability assays, including those simulating gastric conditions, were conducted at 37 °C. The phages were isolated from environmental sources such as river water, sewage, and stream water. The consistent use of 37 °C for incubation and growth suggests the organisms are mesophiles. No evidence of thermophilic or psychrophilic adaptation was reported; the study focused on stability under varying pH and simulated gastric fluid conditions at the physiological temperature of 37 °C.
+
+
+Paper: 42177889.txt
+Thermal Evidence:
+- Survival temperature range: 4-45 °C
+- Optimal growth temperature: Not specified
+- Growth temperature range: Not specified
+- Incubation conditions: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Not explicitly stated, but stability across a broad range suggests mesophilic capability.
+- Heat tolerance: Indicated by stability up to 45 °C.
+- Cold tolerance: Indicated by stability down to 4 °C.
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Hospital sewage
+
+Concise Summary:
+The phage exhibits broad stability across a temperature range of 4–45 °C and a pH range of 3–12. No specific optimal growth temperature, thermophilic, psychrophilic, or mesophilic classification was provided by the authors. The phage was isolated from hospital sewage.
+
+
+Paper: PMC7552041.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Overnight incubation at 37 °C.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the use of 37 °C incubation for *E. coli* host.
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Danish wastewater environment (WWTPs).
+- Extreme environment isolation: No mention of isolation from extreme environments.
+- Explicit classification: The phages are described as culturable virulent dsDNA phages, and the host bacterium (*E. coli* MG1655, K-12) is a mesophile, suggesting the phages are adapted to mesophilic conditions.
+
+
+Paper: PMC12671086.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 37°C for 6 h (for plaque assays) and overnight incubation at 37°C (for phage stocks).
+- Environmental source/habitat: Small ponds in a botanical garden.
+
+Environmental Context:
+- Habitat/source: Freshwater ponds.
+
+Concise Summary:
+The phages were isolated from environmental water samples collected from small ponds in a botanical garden. All experimental assays, including plaque assays and phage stock preparation, were conducted at an optimal temperature of 37°C. The study details the characterization of five environmental phages infecting *Escherichia coli* K-12. No specific information regarding thermophilic, psychrophilic, or extreme temperature adaptations was provided; the observed growth and lytic activity were confined to standard mesophilic laboratory conditions (37°C).
+
+
+Paper: PMC13093741.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organism was cultured under sterile conditions in a chemically defined nutrient medium.
+- No extreme environment source was mentioned.
+
+Concise Summary:
+The provided text details the safety assessment of a novel food ingredient produced via fermentation. The microbiological details focus on the use of a genetically modified strain of *Escherichia coli* K-12 as the production organism. The text describes the culture conditions as being in a chemically defined nutrient medium under sterile conditions. There is no specific physiological or environmental data provided regarding the organism's optimal growth temperature, temperature range, survival temperature, or any evidence of adaptation to extreme thermal conditions (thermophilic, psychrophilic, etc.). The assessment confirms the use of the organism for biotechnological applications in a controlled, laboratory setting.
+
+
+Paper: PMC13196028.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but experiments were conducted at 30°C and 38°C.
+- Growth temperature range: The system was maintained at 30°C for pre-culturing and at 38°C for induction/main experiments.
+- Survival temperature range: Not explicitly detailed, but the system operates across 30°C and 38°C.
+- Incubation conditions: Batch cultures were incubated at 30°C (pre-culture) and 38°C (main experiments). Microfluidic imaging was performed at 38°C.
+- Environmental source/habitat: The study utilized an *Escherichia coli* model system, with the context drawing parallels to marine environments.
+- Thermophilic adaptation: No evidence provided.
+- Psychrophilic adaptation: No evidence provided.
+- Mesophilic growth: The operational temperatures (30°C–38°C) are consistent with mesophilic growth conditions.
+- Heat tolerance: The system was induced at 38°C, suggesting tolerance to this elevated temperature.
+- Cold tolerance: Pre-culturing at 30°C suggests viability at this temperature.
+- Enzymes adapted to temperature: No specific enzyme thermal adaptations were discussed.
+- Membrane adaptations: No evidence provided.
+- Thermal stress responses: The use of temperature-sensitive prophages (TS lysogen) controlled by temperature (30°C vs. 38°C) demonstrates the ability to induce a lytic cycle in response to thermal shifts.
+
+Environmental Context:
+- Habitat/Source: The model system is based on *Escherichia coli*, and the ecological context discussed relates to marine environments, though the experiment itself was conducted in a controlled laboratory setting.
+
+Concise Summary:
+The study utilized a controlled *Escherichia coli* model system to investigate the physiological consequences of phage-mediated lysis. The experimental setup required precise temperature control, operating at 30°C for initial pre-culturing and shifting to 38°C to induce the lytic cycle of a temperature-sensitive prophage. This temperature-dependent induction mechanism allowed for the selective lysis of a bacterial subpopulation. The operational temperatures (30°C–38°C) place the organism within a mesophilic range. The ability to induce lysis by shifting temperature suggests the system's sensitivity to thermal shifts, which is a key physiological control mechanism exploited in the research. The ecological discussion draws parallels to marine environments, but the core evidence is derived from controlled laboratory conditions simulating nutrient recycling during active growth at these defined temperatures.
+
+
+Paper: PMC13192267.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was isolated from the ileum of a patient with Crohn’s disease.
+- The general gut environment is implied, but no extreme environment isolation was noted.
+
+Concise Summary:
+This review focuses on the association between adherent-invasive *E. coli* (AIEC) pathobionts and Crohn’s disease (CD) pathogenesis. The discussion centers on the molecular mechanisms, particularly genetic variations (SNPs) within the RNA polymerase gene, that allow these bacteria to acquire pathobiont-like traits such as adherence, invasion, and survival within host macrophages. The analysis details how a specific SNP in the $\sigma^{70}$ subunit can alter gene expression, leading to the upregulation of genes associated with the AIEC lifestyle, including those related to antibiotic resistance and metabolic pathways. The study emphasizes that these pathogenic-like properties can arise from mutations in highly conserved genes necessary for normal bacterial function, rather than through the acquisition of typical virulence islands. The findings suggest that the AIEC's ability to manipulate host gene expression machinery is a key mechanism in its potential role in IBD, though the study notes that the specific SNP investigated is unique to the studied strain and its link to inflammation in other contexts requires further investigation.
+
+
+Paper: PMC13197776.1.txt
+Thermal Evidence:
+- Optimal activity was observed at 37 °C for antibacterial assays.
+- Optimal activity was observed at 35 °C for enzyme activity assays.
+- Optimal activity was observed at 60 °C for one enzyme variant.
+- Optimal activity was observed at 65 °C for another enzyme variant.
+
+Environmental Context:
+- The enzymes were studied in the context of wastewater (soy whey wastewater) and were tested under conditions mimicking microbial metabolism in such environments.
+
+Concise Summary:
+The study reports enzyme activity measurements conducted at specific temperatures, including 37 °C for antibacterial assays and 35 °C for general enzyme activity assays. Furthermore, the optimal activity for two enzyme variants was determined at 60 °C and 65 °C, respectively. The enzymes were investigated in the context of wastewater, suggesting an environmental relevance to microbial metabolic processes. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided, but the tested temperatures suggest activity within a mesophilic range, with specific adaptations noted for elevated temperatures (60–65 °C) for certain mutants.
+
+
+Paper: PMC13101720.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but cultivation was performed at 37 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Orbital shaker set at 37 °C; PC1 incubation at 37 °C; PC2 incubation at 37 °C; Main culture incubation at 37 °C.
+- Environmental source/habitat: Not mentioned.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by optimal growth at 37 °C.
+- Heat tolerance: No mention.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/source: Not mentioned.
+
+Concise Summary:
+The organism was cultivated under standard laboratory conditions, with optimal growth and incubation consistently maintained at 37 °C using an orbital shaker. The physiological data provided does not contain any information regarding the organism's adaptation to extreme temperatures, such as thermophilic or psychrophilic conditions, nor does it detail specific thermal stress responses or enzyme adaptations related to temperature variations. The growth conditions described are consistent with mesophilic metabolism.
+
+
+Paper: PMC13164435.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37 °C.
+- Environmental source/habitat: Not specified, but the organisms are associated with food safety and environmental persistence.
+- Mention of adaptations: No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- Habitat/Source: The organisms are associated with food safety and environmental persistence, with the study testing contamination on surfaces and in liquid matrices.
+
+Concise Summary:
+The tested bacterial strains were incubated and maintained under standard laboratory conditions at 37 °C. The paper does not provide specific data regarding the optimal, growth, or survival temperature ranges, nor does it discuss any specialized thermal adaptations (e.g., thermophilic or psychrophilic) for these organisms. The environmental context relates to their persistence on inanimate surfaces and in food/environmental matrices, rather than isolation from extreme thermal niches.
+
+

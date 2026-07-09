@@ -1,0 +1,109 @@
+Summary file for QBP05660
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC9389114.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial growth in LB medium).
+- Growth temperature range: Tested stability between 30°C and 60°C for 60 minutes, with high stability (>86% retention) observed at 60°C. No viable phages were detected at temperatures $\ge$ 70°C.
+- Survival temperature range: Stable between 30°C and 60°C for 60 minutes. The phage retained infectivity at ambient temperatures (implied by stability testing).
+- Incubation conditions: Bacterial growth was monitored at 4°C (refrigeration temperature) and 25°C (room temperature) in food matrices. In liquid culture, bacterial counts were significantly reduced at 4°C, and regrowth was not observed throughout the incubation period. At 25°C, bacterial regrowth was observed.
+- Environmental source/habitat: Isolated from sewage of a commercial pig farm.
+- Adaptation/Classification: The phage demonstrated stability at temperatures up to 60°C, suggesting good thermal tolerance within the mesophilic range, but no explicit classification (e.g., psychrotolerant, mesophile) was provided.
+
+Environmental Context:
+- Habitat/Source: Sewage from a commercial pig farm.
+
+Concise Summary:
+The phage was isolated from sewage of a commercial pig farm. Its optimal growth temperature for the bacterial host was 37°C. The phage exhibited significant thermal stability, retaining over 86% infectivity after 60 minutes incubation at 60°C, but showed no viability at $\ge$ 70°C. In food matrices, the phage demonstrated strong bactericidal activity at refrigeration temperatures (4°C), where bacterial regrowth was not observed over extended periods (up to 7 days in milk). At room temperature (25°C), bacterial regrowth was observed, indicating that lower temperatures are more favorable for phage efficacy. The phage's stability profile suggests suitability for food preservation processes involving refrigeration.
+
+
+Paper: PMC12605115.1.txt
+Thermal Evidence:
+- Survival temperature range for phages was tested at 4°C, 25°C, 37°C, and 50°C.
+- Phages were found to be stable at 37°C, which is relevant for use in mammals.
+- The highest stability for phages was observed between pH 5–8, which aligns with the conditions found in the rumen and cattle blood.
+- Phages showed low viability at pH below 3.
+- Specific stability data was provided for different temperatures, with some phages showing decline at 50°C.
+
+Environmental Context:
+- Phages were isolated from various sources including raw sewage from a poultry farm, domestic sewage, sewage from pig farms, and environmental samples from poultry meat, feces, organs, soil, and sewage.
+
+Concise Summary:
+Phage stability testing provided data across a range of temperatures, including 4°C, 25°C, 37°C, and 50°C. The data indicates that phages are stable at 37°C, which is relevant for mammalian applications. Optimal survival was noted in the pH range of 5–8, consistent with the physiological conditions of the rumen and bovine blood. Stability was poor at pH levels below 3. The phages were sourced from diverse environmental habitats, including sewage, feces, and various animal products. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided for the phages; however, the stability data suggests suitability for mesophilic conditions relevant to mammalian hosts.
+
+
+Paper: PMC13211663.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated for the probiotic organisms.
+- Growth temperature range: The study utilized incubation conditions of 30 °C for 5 days during the preparation of the fermented liquid.
+- Survival temperature range: The probiotic cultures were stored at 0–4 °C during the trial period.
+- Incubation conditions: 30 °C for 5 days for fermentation; storage at 0–4 °C.
+- Environmental source/habitat: Meadow grass forage; the probiotic was derived from a natural fermentation process using molasses as a substrate.
+- Thermophilic adaptation: No mention of thermophilic adaptation.
+- Psychrophilic adaptation: No mention of psychrophilic adaptation.
+- Mesophilic growth: The general incubation and storage conditions (30 °C and 0–4 °C) are consistent with mesophilic growth.
+- Heat tolerance: The probiotic was tested in an animal model subjected to heat stress (34.5–36.2 °C), and the results suggest the probiotic enhanced performance under these stressful conditions.
+- Cold tolerance: No specific data on cold tolerance were provided.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No mention of membrane adaptations.
+- Thermal stress responses: The probiotic was administered to animals under induced heat stress, and its application was shown to mitigate negative physiological and microbial consequences associated with this stress.
+
+Environmental Context:
+- Habitat/Source: The probiotic was derived from meadow grass forage, which is a natural plant source. The fermentation process utilized molasses as a carbon source.
+
+Concise Summary:
+The probiotic preparation was derived from meadow grass forage fermented with molasses over 5 days at 30 °C, resulting in a final product with a high concentration of lactic acid bacteria. The study's experimental design specifically tested the efficacy of this natural probiotic under induced heat stress (34.5–36.2 °C) compared to thermoneutral conditions. The probiotic was stored at 0–4 °C. The findings indicate that the bacteria utilized in the preparation are robust, suggesting adaptation to varying environmental conditions. The study provides evidence of the probiotic's viability under controlled, non-optimal conditions, which is relevant for its application in animal health.
+
+
+
+Paper: 42202222.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were reported.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes.
+- The study describes the fabrication of superlattice-like membranes using layer-by-layer assembly of materials (PDDA and $\text{Ti}_{0.87}\text{O}_2$ nanosheets) for ion transport and osmotic power generation, but does not detail the thermal stability or adaptation of any associated biological components.
+
+Environmental Context:
+- The study focuses on the application to industrial iodine wastewater and osmotic energy generation, not the isolation or growth of a microorganism from a specific natural habitat.
+
+Concise Summary:
+The paper details the engineering of two-dimensional (2D) organic-inorganic superlattice-like membranes ($\text{PDDA/Ti}_{0.87}\text{O}_2$ SLMs) featuring periodically arranged molecular-level asymmetric channels. These membranes were fabricated via a layer-by-layer assembly strategy to achieve high iodide-ion selectivity ($\sim 680$) and facilitate continuous ionic flow through a periodic adsorption-repulsion mechanism. The primary applications discussed are sustainable osmotic power generation using artificial iodine wastewater and subsequent sterilization of the resulting iodine solution (99.5% bactericidal effect against *E. coli* within 30 min). No information regarding the thermal physiology, growth conditions, or temperature adaptation of any associated biological entity was provided.
+
+
+Paper: PMC13211681.1.txt
+Thermal Evidence:
+- No temperature-related data was provided in the text.
+
+Environmental Context:
+- The study focuses on canine urinary tract infections and does not discuss microbial thermal ecology.
+
+Concise Summary:
+This paper is a veterinary survey analyzing diagnostic and therapeutic practices for canine cystitis in Italy. It details clinical management, antibiotic usage, and diagnostic testing variability among different veterinary settings. No information regarding microbial physiology, optimal growth temperature, or thermal adaptation was present.
+
+
+Paper: PMC13211563.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the microorganisms discussed in the context of natural products.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The reviewed materials (clinoptilolite, ozone, propolis, phytotherapy) are natural products applied in veterinary medicine, not microbial isolates whose thermal ecology was assessed. Therefore, no environmental source/habitat related to temperature adaptation was documented for any specific microorganism.
+
+
+Paper: PMC13211727.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37.8 ± 0.5 °C (for incubation).
+- Growth temperature range: Initial brooding period started at 35 ± 3 °C, gradually reducing weekly by 3 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Constant temperature of 37.8 ± 0.5 °C and 50–60% relative humidity.
+- Environmental source/habitat: Not specified for the organism itself, but the experiment was conducted in a controlled animal house environment.
+- Mention of thermal adaptations: None.
+- Explicit classification: None provided regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Controlled laboratory/animal house setting for the experiment.
+
+Concise Summary:
+The study details controlled environmental parameters for the animal model, including an incubation temperature of 37.8 ± 0.5 °C and 50–60% relative humidity. The subsequent brooding period for the animals started at 35 ± 3 °C and was gradually reduced weekly by 3 °C. No information regarding the organism's natural thermal niche, extreme environment isolation, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic) was provided in the text.
+
+

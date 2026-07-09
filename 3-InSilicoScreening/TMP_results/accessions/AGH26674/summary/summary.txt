@@ -1,0 +1,186 @@
+Summary file for AGH26674
+Number of papers: 13
+=============Summaries=============
+
+Paper: PMC13157829.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Isolated from an aeration basin of a wastewater treatment plant.
+- The host organism was isolated from eutrophic, fresh-brackish-saline water in a lake.
+
+
+Paper: PMC13198022.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms are described as marine picocyanobacteria, specifically mentioning genera associated with the oceanic environment.
+- The source material involves analysis of sequences from the Ocean Gene Atlas and cyanobacterial genomes from NCBI, indicating a marine/oceanic environmental source.
+
+
+Paper: PMC13079714.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the microbial or viral components analyzed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The study was conducted in an estuarine hypoxic zone at the Pearl River Estuary, which is a coastal, subtropical environment. The environmental conditions discussed relate to dissolved oxygen, salinity, and nutrient limitation, not temperature extremes.
+
+Concise Summary:
+This study characterizes the functional potential of viral auxiliary metabolic genes (AMGs) in a microbial community from an estuarine hypoxic zone. The analysis focused on the role of viruses in supporting host metabolism for adaptation to low dissolved oxygen, nutrient limitation (P, Fe, B vitamins), and general environmental stress. No direct evidence regarding the optimal or survival temperature range, or specific thermal adaptations (thermophilic, psychrophilic, etc.), was reported for the organisms or viruses studied. The environmental context is a subtropical, anthropogenically impacted estuarine hypoxic zone.
+
+
+Paper: 42057164.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Coastal lagoon water (Mediterranean).
+
+Concise Summary:
+The study investigated prokaryotic community dynamics in a coastal lagoon subjected to eutrophication and episodic environmental disturbances. The microbial community responded rapidly to short-term environmental fluctuations. Specific prokaryotic assemblages showed pronounced shifts following deoxygenation events induced by intense rainfall and unusually high temperatures. The analysis focused on functional traits associated with cyanobacterial proliferation in disturbed ecosystems, highlighting the role of environmental pressures in shaping community structure. No explicit thermal adaptation classifications were provided for the dominant organisms.
+
+
+Paper: PMC4476143.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the viral community or its components.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The samples were collected from the Sargasso Sea at the Bermuda Atlantic Time-series Study (BATS) site, spanning depths from the surface down to 1,000 m.
+- Sampling occurred across different seasons (summer/stratified vs. winter/mixed) and over multiple years, indicating a natural, variable marine environment.
+
+Concise Summary:
+The study analyzed viral diversity using the viral *phoH* gene signature across depth and time profiles in the Sargasso Sea. The analysis focused on temporal and depth-related patterns of viral community composition, revealing that the community structure is influenced by seasonal changes (e.g., stratification vs. mixing) and depth. The research utilized deep sequencing techniques to characterize the viral community structure, noting that the community is highly uneven, dominated by a few abundant Operational Taxonomic Units (OTUs) while the majority are rare. The findings support the concept of a viral 'bank' of rare species alongside a small subset of abundant, persistent OTUs. The study provides evidence of cyclical dynamics in viral community structure, consistent with models of phage predation, but does not contain any explicit physiological data regarding temperature optima, growth ranges, or thermal adaptations of the viruses or their hosts.
+
+
+Paper: PMC10846272.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the phages or their associated hosts.
+- Temperature was mentioned as a variable influencing the community assembly, suggesting environmental relevance.
+- The study noted that temperature affects the survival rate of free phages.
+
+Environmental Context:
+- The study was conducted in the northern South China Sea (nSCS), sampling across gradients from continental shelf to open sea, and across different water masses (Continental Water Mass, surface open sea water mass, and subsurface open sea water mass).
+- The subsurface open sea water mass was characterized by the lowest temperature (21.9–23.8°C) and highest salinity (>34.20).
+- The analysis confirmed that temperature is a significant environmental variable shaping the cyanophage community assembly.
+
+Concise Summary:
+The analysis focused on the T4-like cyanophage community in the northern South China Sea, where temperature was identified as a significant environmental variable influencing community assembly. While specific thermal optima or adaptation classifications (e.g., thermophilic, psychrophilic) were not provided, the study noted that temperature directly impacts the survival rate of free phages. The sampling spanned a range of conditions, including a subsurface water mass characterized by relatively low temperatures (21.9–23.8°C). The overall findings emphasize that environmental factors, including temperature, are critical determinants in shaping the biogeography and assembly of these viral communities.
+
+
+Paper: PMC11727651.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the analyzed microbial components.
+
+Environmental Context:
+- The samples analyzed were derived from marine metagenomic samples (ocean metagenomic sample, North Pacific Subtropical Gyre).
+
+Concise Summary:
+This study focuses on developing and validating a computational pipeline (Virseqimprover) for improving the completeness and accuracy of viral contig assemblies derived from metagenomic sequencing data. The analysis utilized samples sourced from marine environments. No physiological data related to temperature, thermal adaptation, or growth conditions were reported for the recovered viral sequences or the source organisms.
+
+
+Paper: PMC11724200.1.txt
+Thermal Evidence:
+- Growth temperature range: The study was conducted in cold, sub-Antarctic waters with temperatures ranging from 3.2°C to 15.0°C.
+- Cold tolerance: The study investigated organisms in cold, low-temperature conditions.
+- Latent period assumption: Cyanophage latent periods were assumed to range between 12 and 24 hours at the sampling site temperatures, which are lower than the 21°C–23°C range used for general phage studies.
+
+Environmental Context:
+- Habitat/Source: Cold, low-iron, sub-Antarctic waters of the southwest Pacific Ocean (Chatham Rise region).
+
+Concise Summary:
+The investigated microbial community, including picocyanobacteria and cyanophages, was sampled from cold, sub-Antarctic surface waters (3.2°C–15.0°C). The study utilized environmental conditions characterized by low temperatures, which influenced the assumed latent period for viral lysis (12–24 hours). The organisms were found in a cold, low-iron, sub-Antarctic oceanic environment.
+
+
+Paper: PMC12684733.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 18°C or 23°C
+- Growth temperature range: Not explicitly stated, but optimal growth was tested at 18°C or 23°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: Cultures were maintained at 18°C or 23°C under cool, white light (14:10 light dark cycle).
+- Mention of thermal adaptation: None.
+
+Environmental Context:
+- Habitat/Source: Natural seawater (0.2 μm filtered).
+
+Concise Summary:
+The tested phytoplankton strains were cultured and maintained at controlled temperatures of 18°C or 23°C under cool, white light conditions. The study focused on physiological responses (superoxide production, photophysiology, growth) under these specific, cool, mesophilic conditions, with no data provided regarding thermophilic, psychrophilic, or extreme temperature adaptations.
+
+
+Paper: PMC12095545.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the general microbial populations discussed.
+- One study mentioned mesophilic and thermophilic viruses associated with nutrient cycling during hyperthermophilic composting.
+- One study noted that the excision of a cryptic prophage was associated with cold adaptation in a specific bacterium.
+
+Environmental Context:
+- The general context involves diverse environments including marine, soil, and biofilm structures.
+- Specific habitats mentioned include: marine environments, soil aggregates, biofilms, and hyperthermophilic composting settings.
+
+Concise Summary:
+The review discusses phage-host interactions and metabolic reprogramming across various environmental niches, including marine, soil, and biofilm systems. While the general discussion covers diverse environmental conditions, specific quantitative data regarding the optimal, range, or survival temperatures for the studied microbial populations or their associated enzymes is absent. However, the text does mention the association of mesophilic and thermophilic viruses with nutrient cycling in hyperthermophilic composting. Furthermore, one case study detailed cold adaptation regulated by cryptic prophage excision in a bacterium, suggesting a mechanism related to temperature stress response. The overall context highlights the influence of environmental gradients (e.g., nutrient limitation, redox conditions) on phage-host dynamics, which inherently involves temperature-dependent physiological states, but lacks explicit thermal classification data for the organisms themselves.
+
+
+Paper: 35590460.txt
+Thermal Evidence:
+- No specific temperature data provided.
+
+Environmental Context:
+- Marine environment (associated with unicellular cyanobacteria).
+
+Concise Summary:
+The study focuses on the biochemical and structural characterization of a cyanophage-encoded phosphate-binding protein. The research utilized an infection model involving a marine cyanobacterium and its associated phage. No information regarding optimal growth temperature, growth temperature range, survival temperature range, incubation conditions, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic, etc.) was provided in the text.
+
+
+Paper: PMC8518828.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 24 °C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 24 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 13:11 light:dark cycle incubator at 24 °C.
+- Environmental source/habitat: Mid-latitude oceans; deep samples from the western Pacific; Gulf of Aqaba; Black Sea; Arctic Ocean; Suruga Bay.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the use of standard laboratory conditions (24 °C) for culturing and adaptation studies.
+- Heat tolerance: No mention.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Marine euphotic zone, deep ocean, and various specific marine locations.
+
+Concise Summary:
+The organism was cultured under controlled laboratory conditions at 24 °C, utilizing a simulated 13:11 light:dark cycle. The natural habitats reported include the mid-latitude oceans, deep ocean, and specific sites like the Gulf of Aqaba and the Black Sea. The study details adaptation to light energy deprivation rather than thermal extremes. No specific data regarding optimal, growth, or survival temperature ranges, or adaptations to temperature stress (thermophilic, psychrophilic, etc.), were provided. The general culture conditions suggest mesophilic growth within the tested range.
+
+
+Paper: PMC8374608.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 22°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 22°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Shaking at 100 r.p.m. in an incubator.
+- Environmental source/habitat: Marine (oligotrophic/coastal/open ocean).
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the 22°C incubation temperature.
+- Heat tolerance: No specific data provided.
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No specific thermal adaptation mentioned.
+- Thermal stress responses: No specific thermal stress responses detailed.
+
+Environmental Context:
+- Habitat/Source: Marine environments, including oligotrophic and coastal regions.
+
+Concise Summary:
+The study investigated the physiological responses of two genera of marine picocyanobacteria to zinc toxicity. The experimental incubation conditions were maintained at 22°C with shaking. The organisms were sourced from diverse marine ecological niches, including oligotrophic and coastal waters. The authors did not provide specific data regarding optimal, survival, or broader temperature ranges, nor did they detail any specific adaptations for thermophilic, psychrophilic, or general thermal stress responses. The experimental setup implies mesophilic growth conditions were maintained during the toxicity assays.
+
+

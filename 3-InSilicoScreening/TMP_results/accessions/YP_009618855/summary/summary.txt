@@ -1,0 +1,48 @@
+Summary file for YP_009618855
+Number of papers: 3
+=============Summaries=============
+
+Paper: PMC11675919.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was explicitly stated for the source organisms or the cell-free synthesis reactions.
+- The discussion mentions the synthesis of a 'thermostable' direct hemolysin, but this refers to the protein's stability, not the growth temperature of the source organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific enzymes adapted to temperature was found.
+
+Environmental Context:
+- The source materials for the toxins are diverse, including bacteria, fungi, plants, and animal venoms. The specific environmental source/habitat for the toxins is not detailed in terms of temperature adaptation.
+
+Concise Summary:
+This review focuses on the *in vitro* synthesis of protein toxins using cell-free protein synthesis (CFPS) platforms, rather than the growth physiology of the source organisms. Therefore, the paper provides no direct evidence regarding the optimal growth temperature, temperature range, or thermal adaptations (thermophilic, psychrophilic, mesophilic) of the bacteria, fungi, plants, or animals from which the toxins are derived. The only thermal reference is the synthesis of a 'thermostable' toxin, which pertains to the protein's inherent stability, not the organism's physiological niche.
+
+
+Paper: PMC12981562.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not specified
+- Incubation conditions: 37°C under 5% CO₂
+- Environmental source/habitat: Intestinal epithelial cells (Caco-2, MC-38 cell lines)
+- Mention of adaptation: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/source: Intestinal tract/gut (implied by Caco-2/MC-38 cell lines and EHEC association).
+
+Concise Summary:
+The organism was cultured and tested under standard physiological conditions, with optimal growth and incubation temperatures consistently reported at 37°C under 5% CO₂. The primary *in vitro* models utilized were human and murine intestinal epithelial cell lines (Caco-2 and MC-38), indicating an adaptation to the mammalian gut environment. No specific data regarding thermophilic, psychrophilic, or extreme temperature adaptations were provided in the text.
+
+
+Paper: PMC13153029.1.txt
+Thermal Evidence:
+- Optimal stability range: 4 °C to 50 °C.
+- Stability decline observed after 80 min at 60 °C, with an 87.8% reduction in titer.
+- Rapid decline at 70 °C.
+- Stable titer maintained after 1 year of storage at 4 °C.
+- The phage maintained stability within the range of 4 °C−50 °C.
+
+Environmental Context:
+- Isolated from untreated sewage at a hospital.
+
+Concise Summary:
+The phage exhibits robust thermal stability, maintaining activity across a broad range from 4 °C to 50 °C. Long-term storage stability was confirmed at 4 °C for over a year. Thermal inactivation was noted at higher temperatures, with significant titer reduction observed after 80 minutes at 60 °C and rapid loss of activity at 70 °C. The phage was isolated from untreated sewage, suggesting adaptation to environmental conditions, but the authors did not explicitly classify it as thermophilic, psychrophilic, or mesophilic; however, the stability profile suggests mesophilic suitability with good cold tolerance and moderate heat tolerance up to 50 °C.
+
+

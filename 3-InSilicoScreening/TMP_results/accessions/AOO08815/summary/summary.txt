@@ -1,0 +1,167 @@
+Summary file for AOO08815
+Number of papers: 10
+=============Summaries=============
+
+Paper: 27696643.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions related to temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was provided.
+
+Environmental Context:
+- Coastal waters of Southern New England, USA.
+
+
+Paper: PMC13208690.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C (under NTNL conditions).
+- Growth temperature range: The organism showed robust growth at 30 °C (NTNL) and also at 40 °C (HLHT).
+- Survival temperature range: The mutant strain exhibited accelerated growth at 42 °C under high light conditions, while the wild-type struggled at 42 °C.
+- Incubation conditions: Cultures were maintained in liquid BG11 medium in a bioreactor under controlled conditions, including 30 °C, 280 μmol photons m⁻² s⁻¹ (NTNL) and 40 °C, 2000 μmol photons m⁻² s⁻¹ (HLHT).
+- Environmental source/habitat: Not explicitly stated, but the study investigates adaptation to high-light–high-temperature (HLHT) stress, mimicking environmental challenges.
+- Thermophilic adaptation: The study focuses on adaptation to elevated temperatures (40 °C, 42 °C) combined with high light, indicating enhanced heat tolerance mechanisms.
+- Psychrophilic adaptation: No specific data or mention of psychrophilic adaptation was provided.
+- Mesophilic growth: The organism appears to thrive under mesophilic conditions (30 °C) but shows significant adaptation to supra-optimal temperatures (40–42 °C).
+- Heat tolerance: The C252Y mutation significantly enhanced tolerance to HLHT stress compared to the wild-type strain.
+- Cold tolerance: No data provided.
+- Enzymes adapted to temperature: The study analyzed the expression of heat shock proteins (HSPs) and sigma factors (e.g., SigC, HrcA) involved in thermal stress response.
+- Membrane adaptations: Not explicitly detailed, but the stability of the Fo subcomplex was noted in contrast to the F1 subcomplex under HLHT.
+- Thermal stress responses: The mutation leads to transcriptional remodeling, upregulation of genes related to energy metabolism (ATP synthase subunits, electron transport chain components), and enhanced stress resilience under elevated temperatures.
+
+Environmental Context:
+- The organism was studied under controlled laboratory conditions simulating high-light and high-temperature stress, rather than being isolated from an extreme natural environment.
+
+Concise Summary:
+The study investigated the physiological and transcriptomic adaptations of a cyanobacterium strain exhibiting a mutation (F1-α-C252Y) in its ATP synthase subunit. The organism demonstrates optimal growth at 30 °C (NTNL) but shows significantly enhanced survival and accelerated growth rates under combined high-light and high-temperature (HLHT) stress (e.g., 40–42 °C) compared to the wild-type. The C252Y mutation confers superior heat tolerance, which is mechanistically linked to increased intracellular ATP synthase complex levels, even though the measured ATP synthesis activity remained unchanged. This enhanced energy production supports a widespread metabolic remodeling, including the upregulation of genes in the electron transport chain (e.g., *petH*, *petA*, *petD*), the Calvin-Benson-Bassham (CBB) cycle (e.g., *fbp*, *rpiA*, *rsb*), and glycogen synthesis pathways. Furthermore, the mutant exhibits altered regulation of stress response genes, including the upregulation of the heat-inducible repressor (*hrcA*) and the downregulation of certain heat shock proteins, suggesting a comprehensive transcriptional reprogramming that boosts photosynthetic efficiency and stress resilience under elevated temperatures.
+
+
+Paper: PMC13178680.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the microalgae species.
+- Incubation conditions mentioned include culturing at 37°C for certain assays (e.g., hBMSC incubation) and general culture conditions maintained in a controlled environment (implied standard laboratory conditions).
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The microalgae were cultured in laboratory settings using controlled photoperiods and agitation, not explicitly sourced from an extreme environment.
+
+Concise Summary:
+The study details the biomanufacturing of extracellular vesicles (EVs) from four microalgae species. The experimental procedures involved culturing the algae under controlled laboratory conditions, varying photoperiods (0, 16, and 24 h light/day) over a two-week period. While the functional assays for the isolated EVs were performed at 37°C (for hBMSC incubation) and various other controlled temperatures, the paper does not provide any specific data regarding the optimal growth temperature, temperature range, or survival temperature range for the microalgae species themselves. Consequently, there is no evidence presented regarding thermophilic, psychrophilic, or mesophilic adaptations, nor any mention of thermal stress responses related to the algae's natural habitat.
+
+
+Paper: 42148731.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was found in a permanently anoxic, dark environment (Blue Hole).
+- The study focuses on adaptation to long-term oxygen limitation, not explicitly temperature extremes.
+
+Concise Summary:
+Analysis of cyanobacteria adaptation under persistent anoxia revealed transcriptomic activity in a permanently anoxic, dark marine blue hole. The study highlights adaptive streamlining under oxygen limitation, suggesting ecological plasticity. No specific data regarding optimal, growth, or survival temperatures, or any explicit thermal adaptations (thermophilic, psychrophilic, etc.), were presented in the provided abstract/excerpt.
+
+
+Paper: PMC13214033.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 30 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 30 °C under white LEDs (50 µmol photons m⁻² s⁻¹) for 2 hours (light condition) and at 30 °C in darkness for 2 hours (dark condition).
+- Environmental source/habitat: Photoautotrophic growth in BG-11 medium.
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/source: Cultured in a laboratory setting under controlled photoautotrophic conditions.
+
+Concise Summary:
+The organism was cultured photoautotrophically in BG-11 medium. The standard incubation temperature used for redox measurements was 30 °C, both under illumination (50 µmol photons m⁻² s⁻¹) and in the dark. No information regarding optimal, survival, or natural temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.), was provided in the text.
+
+
+Paper: PMC13215113.1.txt
+Thermal Evidence:
+- The study site experienced seasonal temperature fluctuations, with the lowest recorded temperature being 10.8 °C (in spring) and the warmest being 12.5 °C (in late autumn).
+- The short-term variability in temperature was minimal during the June-July period (2 °C range).
+- No specific optimal, growth, or survival temperature ranges were provided for the microbiota or the host organisms.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes.
+
+Environmental Context:
+- The organisms were collected from a nearshore site on the central Chile coast, which is characterized by strong seasonal and short-term fluctuations in temperature and dissolved oxygen, driven by upwelling.
+- The study compared conditions between a summer period (hypoxia-dominated) and a winter period (oxic).
+
+Concise Summary:
+The research investigated the microbiota of two marine invertebrates collected from a coastal upwelling system in central Chile. The environmental conditions exhibited significant seasonal temperature variability, ranging from a low of 10.8 °C to a high of 12.5 °C, with minimal short-term temperature variability noted during the June-July period. The study focused on the impact of dissolved oxygen fluctuations (hypoxia vs. oxia) rather than thermal stress on microbial community structure and function. No specific thermal adaptation classifications (e.g., psychrophilic, mesophilic) or temperature-dependent enzymatic adaptations were reported for the microbiota or the hosts.
+
+
+Paper: PMC13212877.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C
+- Growth temperature range: Not explicitly stated, but 30 °C was used for pre-culture and main cultivation.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Continuous white-light illumination at 50–70 μmol photons/m²/s (pre-culture); 200 μmol photons/m²/s (main cultivation).
+- Environmental source/habitat: Not specified for the optimal growth conditions, but the contaminant consortium was isolated from failed, contaminated outdoor pilot-scale cultures.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the use of 30 °C for optimal growth.
+- Heat tolerance: No mention.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Contaminant consortium isolated from failed, contaminated outdoor pilot-scale cultures.
+
+Concise Summary:
+The primary growth and pre-culture conditions utilized for the engineered cyanobacterial strain were maintained at 30 °C under continuous white-light illumination. The study does not provide explicit data on the organism's optimal or survival temperature ranges, nor does it mention any specific adaptations (thermophilic, psychrophilic, etc.). The contaminant consortium was sourced from failed, contaminated outdoor pilot-scale cultures, suggesting the organism is adapted to, or at least tested in, outdoor/environmental conditions. The operational temperature used throughout the experiment was consistently 30 °C, suggesting mesophilic growth conditions were maintained for the research protocol.
+
+
+Paper: 42191666.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Co-culture with mammalian cells over 28 days under light exposure.
+- Environmental source/habitat: Not specified.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by growth at 37°C.
+- Heat tolerance: Not specified.
+- Cold tolerance: Not specified.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Not specified.
+
+Environmental Context:
+- Habitat/Source: Not specified.
+
+Concise Summary:
+Photosynthetic microorganisms tested were capable of growing and being co-cultured with mammalian cells at an optimal temperature of 37°C. The study observed the viability and metabolic interactions of these organisms over a 28-day period under continuous light exposure within engineered tissue constructs. The metabolic activity and oxygen production of the tested microbes were shown to be critically influenced by the composition of the mammalian cell culture medium, suggesting metabolic flexibility across various physiological environments.
+
+
+Paper: 42148773.txt
+Thermal Evidence:
+- No specific temperature data (optimal, range, survival, or incubation) was provided in the text.
+
+Environmental Context:
+- No specific environmental source or habitat was provided in the text.
+
+Concise Summary:
+The study focused on characterizing transcription termination mechanisms in a cyanobacterium model organism. The research details the unique end architectures of the transcriptome, noting that intrinsic termination alone cannot explain most termination events. The findings suggest the existence of novel, undescribed termination mechanisms, highlighting a largely unexplored regulatory landscape. The work aims to improve the understanding of gene regulation and the applied potential of this organism in green biotechnology, but provides no data regarding temperature optima, growth ranges, or thermal adaptations.
+
+
+Paper: PMC13212558.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organism.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was made.
+- No details regarding temperature-adapted enzymes or membrane adaptations were reported.
+
+Environmental Context:
+- The organism was found in the global ocean surface waters, associated with plankton.
+- The study analyzed samples from various depths (surface, deep chlorophyll maximum, mesopelagic) across different oceanic regions.
+- The authors noted that pathogenic variants are often adapted to coastal conditions, specifically warm and low salinity waters.
+
+Concise Summary:
+The analysis focused on the global ecology and connectivity of the organism across diverse oceanic environments, utilizing metagenomic data from various depths and plankton size fractions. While the study details the organism's abundance in surface waters and its strong association with plankton, it does not provide specific physiological data regarding optimal growth temperature, temperature ranges, or thermal adaptations (e.g., thermophilic, psychrophilic). The environmental context is broad, covering global marine surface waters, with pathogenic variants noted to favor warm and low salinity conditions. The primary focus remains on dispersal mechanisms mediated by ocean currents and plankton transport, rather than thermal physiology.
+
+

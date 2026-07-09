@@ -1,0 +1,115 @@
+Summary file for AGB62738
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC8093625.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed proteins or organisms.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The study focused on SSAPs encoded by phages and bacteria from the Firmicutes phylum, which are generally associated with Gram-positive bacteria.
+- The source organisms were derived from various clinical and environmental isolates, including species from *Streptococcus*, *Staphylococcus*, *Lactobacillus*, *Bacillus*, *Clostridium*, and *Paenibacillus* genera.
+- The overall context suggests an analysis of microbial genetics across diverse, non-extreme environments, although the specific thermal niche of the isolates is not detailed.
+
+
+Paper: PMC3900605.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but growth was performed at 30°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation was performed at 30°C.
+- Environmental source/habitat: Water samples collected from a eutrophic lake.
+- Mention of adaptation: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, or cold tolerance adaptation.
+
+Environmental Context:
+- Habitat/Source: Eutrophic lake water.
+
+Concise Summary:
+The bacteriophage was isolated from water samples collected from a eutrophic lake. All laboratory procedures, including phage growth, adsorption rate determination, and one-step growth curve analysis, were conducted at an optimal temperature of 30°C. No specific information regarding the organism's thermal adaptation (e.g., thermophilic, psychrophilic) or survival temperature range was provided in the text.
+
+
+Paper: PMC8026635.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organisms.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms were isolated from various sources, including soil and clinical isolates, but no specific extreme environment was highlighted in relation to temperature adaptation.
+
+Concise Summary:
+This study focuses on the genomic characterization of putative plasmid prophages found in species belonging to the *Bacillus cereus* group. The analysis is based on comparative genomics of plasmid DNA recovered from various isolates. The research details the identification of multiple groups of putative prophages, characterized by shared structural and replication genes (e.g., tail components, partitioning systems, recombinases). The findings emphasize the high diversity and potential underestimation of phage populations in bacterial whole-genome sequencing data. The methodology relies heavily on bioinformatics tools (HMM profiling, pangenome analysis) to classify these elements into distinct groups (e.g., Group 1, Group 2, etc.). The authors stress that experimental confirmation, such as stress induction (e.g., with mitomycin C) or Southern blotting, is necessary to confirm the functional status of these prophages, distinguishing between active, degenerated, or integrated forms. The study concludes that the identified elements represent a significant reservoir of novel phage genetic material, suggesting the need for continued large-scale genomic surveillance.
+
+
+Paper: PMC11878797.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 30°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight culture incubation at 30°C with vigorous shaking (∼200 rpm).
+- Environmental source/habitat: Not specified, but the phages infect bacteria that are cultured in Trypticase Soy Broth (TSB) or on Tryptone Soy Agar plates.
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: Phages infecting bacteria cultured in standard laboratory media (TSB/TSA).
+
+Concise Summary:
+The experimental procedures for culturing the host bacteria and propagating the phages were consistently performed at 30°C. The phages were isolated from bacterial strains grown in Trypticase Soy Broth (TSB) or on Tryptone Soy Agar plates. No specific information regarding the optimal, range, or survival temperatures of the phages or their associated enzymes was provided; the study focused on molecular mechanisms (splicing) under controlled laboratory incubation conditions at 30°C.
+
+
+Paper: PMC12474458.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the phage.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The phage was isolated from a water sample collected from a river.
+
+Concise Summary:
+The paper focuses on the comparative genomics and evolutionary relationships of a novel bacteriophage infecting a *Bacillus* species. The analysis utilized broad database searches (BLASTP) and protein family content (Phamerator) to characterize the phage's genetic makeup relative to other known *Bacillus*-infecting phages. The phage was isolated from a river water sample. No specific physiological data regarding temperature optima, growth ranges, or thermal adaptations were reported in the provided text.
+
+
+Paper: PMC11794182.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 26 ± 1°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 26°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: BHI and WA plates incubated at 37°C for 24h; PDA plates incubated at 26°C for 7 days.
+- Environmental source/habitat: Laboratory-reared sandflies.
+- Mention of adaptations: None mentioned.
+- Explicit classification: None given by the authors regarding thermal adaptation.
+
+
+Paper: 16168510.txt
+Thermal Evidence:
+- Optimum enzyme activity observed at approximately 70 degrees C.
+- Enzyme stability decreases significantly above 60 degrees C.
+- The enzyme exhibited a half-life exceeding 75 hours at 30 degrees C.
+
+Environmental Context:
+- The organism was isolated from an alkalophilic environment.
+
+Concise Summary:
+An enzyme purified from an alkalophilic bacterium showed optimal activity at approximately 70°C. Its stability is noted to decrease above 60°C, while it maintained a half-life greater than 75 hours at 30°C. The organism was isolated from an alkalophilic source.
+
+
+Paper: PMC11878797.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 30°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight culture incubation at 30°C with vigorous shaking (∼200 rpm).
+- Environmental source/habitat: Not specified, but the phages infect bacteria that are cultured in Trypticase Soy Broth (TSB) or on Tryptone Soy Agar plates.
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: Phages infecting bacteria cultured in standard laboratory media (TSB/TSA).
+
+Concise Summary:
+The experimental procedures for culturing the host bacteria and propagating the phages were consistently performed at 30°C. The phages were isolated from bacterial strains grown in Trypticase Soy Broth (TSB) or on Tryptone Soy Agar plates. No specific information regarding the optimal, range, or survival temperatures of the phages or their associated enzymes was provided; the study focused on molecular mechanisms (splicing) under controlled laboratory incubation conditions at 30°C.
+
+
+Paper: PMC13161664.1.txt
+The provided text snippets do not contain specific information regarding the optimal growth temperature ranges or thermal adaptations for any microorganisms. Therefore, I cannot extract details about temperature tolerance or thermophilic/psychrophilic characteristics.
+
+

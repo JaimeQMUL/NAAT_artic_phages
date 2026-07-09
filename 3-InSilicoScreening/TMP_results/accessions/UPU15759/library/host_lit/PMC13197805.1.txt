@@ -1,0 +1,324 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Vet Anim Sci
+Journal ID: Vet Anim Sci
+
+Veterinary and Animal Science
+
+EISSN: 2451-943X
+Publisher: Elsevier
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13197805
+DOI: 10.1016/j.vas.2026.100695
+Article ID: S2451-943X(26)00125-0
+Article ID: 100695
+Article version: 1
+Subjects: Article
+
+Establishment of methods for the detection of Salmonella species by conventional and quantitative real-time PCR
+
+Liu Ningning a 1
+Liu Cong a b 1
+Chen Lijun a
+Hao Guijuan a
+Zhu Gang 37900883@qq.com c ⁎
+Wang Fangkun wangfangkun@sdau.edu.cn a ⁎
+a Department of Veterinary Public Health, College of Veterinary Medicine & Shandong Provincial Key Laboratory of Zoonoses, Shandong Agricultural University, Tai’an City, 271018, Shandong, PR China
+b Joint International Cooperation Laboratory of Animal Health and Food Safety, Nanjing Agricultural University, Nanjing 210095, PR China
+c The Emergency Department of The Second Affiliated Hospital of Shandong First Medical University, Tai’an City, 271000, Shandong Province, PR China
+⁎ Corresponding authors. 37900883@qq.comwangfangkun@sdau.edu.cn1 These authors contributed equally to this work.
+
+Publication date: 2026 Sep
+Electronic publication date: 2026 May 12
+Volume: 33
+Electronic Location ID: 100695
+Copyright: © 2026 The Author(s)
+Copyright year: 2026
+License: This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Salmonella, Conventional PCR, Quantitative real-time PCR, Detection
+
+==============================
+The aim of this study was to establish a highly specific and sensitive method to detect Salmonella spp. based on conventional PCR and quantitative real-time PCR (qPCR) and to validate its application in clinical and animal samples. First, primers and probes specific to the STM1410 gene were designed and systematically optimized in terms of annealing temperature, primer concentration, and probe concentration. Then, the method was used to test clinical samples to evaluate its specificity, stability, and sensitivity. The results showed that both PCR and qPCR successfully detected the genomes of 15 different serotypes of Salmonella. In contrast, no detection was observed in the genomes of eight other common pathogens or in negative controls, confirming the high specificity of the methods. The minimum detection limit of conventional PCR was 5 × 101 copies/μL, and the minimum detection limit of qPCR was 5 × 10° copies/μL, both of which are highly sensitive. In the qPCR reproducibility test, the coefficients of variation (CVs) were <3% for both intra-group and inter-group analyses, demonstrating excellent stability. Finally, 60 clinical samples were tested using the method established in this study. The results showed that the positive rates were 29/60 (48.3%) for conventional PCR, 32/60 (53.3%) for TaqMan qPCR. The study developed conventional PCR and TaqMan qPCR methods targeting a Salmonella spp.-specific gene sequence, the STM1410 gene. These methods can be effectively used for clinical detection and food hygiene monitoring, thus holding great significance for promoting healthy farming practices and ensuring food safety.
+
+Introduction
+
+Salmonella is a class of Gram-negative bacteria with a wide distribution and a wide range of serotypes: >2600 Salmonella serotypes have been detected, 292 of which have been reported in China (Brown et al., 2021). Research on the prevalence of different serotypes across various animal sources and human populations has provided valuable insights into the pathogen’s distribution. Globally, the distribution of Salmonella serotypes exhibits significant regional and host-specific variation: A global study on Salmonella serotypes in animal-derived foods revealed that Salmonella enteritidis is dominant in Asia, Europe, Africa, and Latin America (Ferrari et al., 2019), while in the United States and Europe, Salmonella typhimurium is the most prevalent serotype (Wang et al., 2024). Surveys in several EU member states have identified porcine-derived S. typhimurium as the primary serotype in confirmed human infections (Bonardi, 2017). Similarly, the main serotype causing infection in China is S. typhimurium (Wang et al., 2022, Yang et al., 2014), which is more common in both humans and non-human sources. In the field of livestock farming, Kang et al. (2022) collected 701 samples from the duck production chain and identified nine distinct serotypes among the positive specimens; notably, S. typhimurium, Salmonella anatum, and S. enteritidis emerged as the dominant serotypes. Similarly, Xu et al. (2020) analyzed 2139 dead embryo samples collected from 28 chicken hatcheries in Henan Province. By serum typing, 12 Salmonella serotypes were identified, among which Salmonella pullorum was the most prevalent. In swine farming, Shen et al. (2023) sampled ten pig farms in southeastern Shanxi and found that S. typhimurium and Salmonella rissen were the predominant serotypes (Shen et al., 2023).
+
+Salmonella is globally recognized as one of the major causes of foodborne disease outbreaks around the world (Galán, 2021; J. Lu et al., 2025; Wang et al., 2021). Contaminated foods of animal origin represent a significant source of infections transmitted to humans via the food chain (Zou et al., 2009), as contaminated food that fails to undergo proper treatment can readily induce host diseases that exhibit pathogenicity across a broad spectrum of animals and humans. Every year, Salmonella spp. inflict substantial economic losses on the livestock, poultry farming, and food-processing industries, as well as give rise to diverse public health challenges (Sears et al., 2021). Therefore, rapid and accurate detection of Salmonella spp. represents a pivotal step in the purification of contaminated sources and the prevention of salmonellosis.
+
+Regarding the current pathogenetic methods for Salmonella detection, the traditional process of Salmonella isolation and identification is relatively complex and time-consuming (Patel et al., 2024). For one, while LAMP has been widely used for Salmonella detection (Zhao et al., 2017), it is easily contaminated during its operation, leading to false-positive results (da Silva et al., 2023; Ye et al., 2024). Additionally, enzyme-linked immunosorbent assay (ELISA), the most commonly used immunoassay for Salmonella detection, has practical limitations (i.e., incomplete washing of plates may lead to false-negative results), thereby requiring testers with advanced operating skills, and its insufficient sensitivity often fails to meet the rigorous requirements for Salmonella detection (Brandão et al., 2015; Sheikhzadeh et al., 2016; ). Immunochromatography assay (ICA) has low sensitivity and cannot be quantified (Liu et al., 2025). Finally, challenges with the immunocolloidal gold technique (ICGT) include the complicated preparation of antibodies and enzyme-labeled secondary antibodies. Moreover, its detection capability is limited to qualitative analysis, and the results are prone to interference from the testing environment, among other drawbacks (Dong et al., 2022; Wu et al., 2021; Yeung et al., 2014). Compared to bacterial isolation methods, PCR techniques offer superior sensitivity and specificity. Although multiple methods exist for Salmonella detection, conventional PCR and TaqMan qPCR have proven more reliable in practical applications, making them preferable choices for real-world Salmonella testing (Bryan et al., 2021), which ensures food safety and the stable development of animal husbandry.
+
+Way et al. (1993) found that the Salmonella litchfield and Salmonella senftenberg serotypes could not be amplified and identified using the invA gene, and that several non-Salmonella strains could be amplified by this method. Rahn also found that Salmonella typhi and Salmonella paratyphi C could only be detected based on viaB, but other Salmonella serotypes could not (Rahn et al., 1992). A study by Aabo et al. found that when the fimA gene was targeted in the PCR analysis, all tested Salmonella strains were successfully identified except for two strains of Salmonella arizonae (Aabo et al., 1993). Moore et al. developed a TaqMan® RT-PCR method targeting the stn gene, which successfully detected 269 strains of S. enteritidis and Salmonella bongori; however, false-positive results were obtained for three strains of Citrobacter amalonaticus, which reduced the specificity of the assay (Moore et al., 2007). This study aimed to establish a highly specific and sensitive PCR/qPCR method for detecting Salmonella spp. The STM1410 gene sequence was identified as a specific detection target for the detection of Salmonella spp. Conventional and quantitative real-time PCR assays were established for Salmonella spp.
+
+Materials and methods
+
+Salmonella strains and clinical samples
+
+The bacterial isolates, including Escherichia coli, Klebsiella pneumoniae, Vibrio parahaemolyticus, Proteus mirabilis, Enterococcus faecalis, Staphylococcus aureus, Pseudomonas aeruginosa, and Listeria monocytogenes, were preserved in our laboratory and identified by Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-ToF MS) (Bruker Daltonics, Bremen, Germany). In addition, 60 clinical samples of dead embryos from poultry farms were donated by Professor Sun Shuhong of Shandong Agricultural University (Table 1). These samples were collected during the spring of 2023 from a hatchery in Shandong Province, China.Table 1 Experimental strains, clinical samples, and plasmid.
+
+Table 1: dummy alt textNo.	Experimental strains and clinical samples	Source	
+1	S. typhimurium CVCC541	①	
+2	S. typhimurium CVCC2229	①	
+3	S. typhimurium ATCC14028	①	
+4	Salmonella paratyphi A CMCCB50001	①	
+5	Salmonella paratyphi B CMCCB50094	①	
+6	Salmonella paratyphi C CICC21512	①	
+7	Salmonella agona CICC21586	①	
+8	Salmonella dublin CICC21497	①	
+9	Salmonella potsdam CICC21500	①	
+10	Salmonellas enftenberg CICC21502	①	
+11	S. typhimurium turkey CICC21501	①	
+12	Salmonellaa berdeen CICC21492	①	
+13	Salmonella cholerae CIVC21493	①	
+14	Salmonella pullorum ‌CVCC526	①	
+15	S. enteritidis CVCC3377	①	
+16	60 clinical samples of bacterial enrichment solution	②	
+17	Salmonella	③	
+18	E. coli	③	
+19	Klebsiella pneumoniae	③	
+20	Pseudomonas aeruginosa	③	
+21	Vibrio parahaemolyticus	③	
+22	Proteus mirabilis	③	
+23	Enterococcus faecalis	③	
+24	Staphylococcus aureus	③	
+25	Listeria monocytogenes	③	
+25	pBlueScript II KS (+) strains	③	
+26	DH5α competent cell	④	
+Note: ① genomic DNA, provided by Harbin Veterinary Research Institute; ② provided by Professor Sun Shuhong's laboratory at Shandong Agricultural University, of which 10 positive samples and 50 negative samples were identified by bacterial isolation; ③ preserved in our laboratory; ④ purchased from Shanghai Ang Yu Biotechnology Co.
+
+Reagents
+
+The main reagents used in this study include restriction endonuclease Hind III, T4 DNA Ligase (TaKaRa Bioengineering (Dalian) Co. Ltd), 2 × Taq Plus Master Mix (Beijing Ruibo Xingke Biotechnology Co. Ltd), AceQ® qPCR Probe Master Mix (Q112, Nanjing Vazyme Biotech Co., Ltd), ApexHF HS DNA Polymerase FS Master Mix (Hunan Accurate Biotechnology Co. Ltd), and DNA Marker (Genera Technology Co. Ltd). The bacterial genomic DNA extraction kit (AG21007) was purchased from Accurate Biology Co., Ltd.
+
+All media preparation followed the specifications outlined in Shandong Provincial Local Standard DB37/T 3989-2020. Specifically, one liter of Buffered Peptone Water (BPW) enrichment broth included 10.0 g peptone, 5.0 g sodium chloride, 9.0 g disodium hydrogen phosphate (Na₂HPO₄·12H₂O), and 1.5 g potassium dihydrogen phosphate. The composition of the Selenite Cystine (SC) enrichment broth consisted of 5.0 g peptone, 4.0 g lactose, 4.0 g sodium biselenite, 10.0 g disodium hydrogen phosphate, 0.01 g l-cystine, and 1000 mL distilled water. The ingredients of the Tetrathionate Broth Base (TTB) enrichment broth were 9.0 g peptone, 4.5 g beef powder, 2.7 g sodium chloride, 40.5 g calcium carbonate, 5.0 g bile salts, 50.0 g sodium thiosulfate, and 1050 mL distilled water, with 20 mL of 20% iodine solution and 10 mL of 0.1% brilliant green solution to be added just before use; the preparation steps included dissolving all components (excluding the iodine solution and brilliant green solution) in 1050 mL distilled water, heating the mixture to boiling, then adding 20 mL 20% iodine solution and 10 mL 0.1% brilliant green solution right before use. The formulation of the Xylose Lysine Desoxycholate (XLD) differential medium contained 3.0 g yeast extract powder, 5.0 g l-lysine, 3.75 g xylose, 7.5 g lactose, 7.5 g sucrose, 0.8 g ammonium ferric citrate, 6.8 g sodium thiosulfate, 5.0 g sodium chloride, 0.08 g phenol red, 13.0 g agar, and 1000 mL distilled water.
+
+Design of primers and probes
+
+In this study, primers and TaqMan probes were designed to target the Salmonella-specific STM1410 gene. The primer sequences used in this study are listed in Table 2. The primers and probes were synthesized by Sangon Biotech (Shanghai) Co., Ltd.Table 2 Primer and probe sequence.
+
+Table 2: dummy alt textPrimer name	Sequence (5′−3′)	Length(bp)	
+fimW-F	5′-AACAGTCACTTTGAGCATGGGTT-3′	477	
+fimW-R	5′-GAGTGACTTTGTCTGCTCTTCA-3′	477	
+STM1410-idF	AGTTGGATCGTCTTCTTGAC	410	
+STM1410-idR	CTCGGTAAGAGAAGTCTTCG	410	
+STM1410-F	AGGTCGACGGTATCGATGTGTTGCAACTTTATCGTTA	583	
+STM1410-R	GCTGCAGGAATTCGATATCATAGCAAATGCTCCATG	583	
+M13-F	TGTAAAACGACGGCCAGT	772	
+M13-R	CAGGAAACAGCTATGAC	772	
+qProbe-STM1410-F	TGGGCTGGGATTATTCAAACT	97	
+qProbe-STM1410-R	CCAGATCTCATCCTCGCTAAAC	97	
+Probe-STM1410	FAM-AGAAGCAATTGCCGATACTCTGGTAGC-BQH1	97	
+
+Specific identification of target gene
+
+In our previous study, the STM1410 gene was an interest point for S. typhimurium (Sun et al., 2021). For the screening of detection target genes, whole-genome sequences of Salmonella strains representing different serotypes were downloaded from the GenBank Nucleotide collection (nr/nt) databases. The STM1410 gene sequence was then subjected to local alignment analysis using BLASTN against the whole-genome sequences of 570 Salmonella strains retrieved from the database. To assess the genus specificity of the STM1410 sequence, a filtering criterion excluding the Salmonella species (taxid: 590) was applied to the database during the analysis.
+
+Isolation of Salmonella from clinical samples
+
+The procedures were performed in accordance with the Shandong Provincial Local Standard DB37/T 3989-2020 (Rapid detection method for avian Salmonella). In brief, the contents of dead embryos were collected and inoculated into the BPW pre-enrichment broth, which was subsequently placed in a shaking incubator at 37°C and incubated with shaking at 220 rpm for 12 h. Following the 12 h pre-enrichment, 500 μL aliquots of the pre-enriched culture were separately transferred to 4.5 mL of the SC enrichment broth and 4.5 mL of the TTB enrichment broth. These inoculated enrichment broths were then placed in a shaking incubator at 37°C and subjected to enrichment incubation with shaking at 220 rpm for 24 h. The cultured SC and TTB enrichment broths were streaked onto XLD differential agar plates, which were then placed in a 37°C incubator and incubated for 24 – 48 h. Salmonella pullorum formed colorless and translucent colonies, whereas other Salmonella spp. formed colonies with black centers on the XLD differential agar plates. For confirmation, suspected Salmonella isolates were further identified by using a Matrix-Assisted Laser Desorption/Ionization Time of Flight Mass Spectrometry (MALDI-ToF MS)instrument (Bruker Daltonics, Bremen, Germany).
+
+Bacterial DNA extraction
+
+The genomes of 15 serological reference strains of Salmonella used in this study were donated by Harbin Veterinary Research Institute. To obtain the DNA of the 60 clinical samples, DNA was extracted from the aforementioned Salmonella enrichment broth mixture according to the manufacturer’s instructions for the bacterial genomic DNA extraction kit. Other non-Salmonella strains were cultured in LB liquid medium at 37°C with shaking at 220 rpm overnight; similarly, their DNA was also extracted using an extraction kit, and the concentration of the extracted bacterial genome was measured using a Nanodrop 2000 spectrophotometer (Thermo Fisher Scientific).
+
+Construction of standard plasmids
+
+The STM1410 gene was amplified by PCR, using genomic DNA from S. typhimurium strain ATCC 14028 as a template and primers STM1410-F/R. The PCR product was purified, ligated into the pBlueScript II KS (+) vector, and transformed into DH5α competent cells. Transformants were plated on ampicillin-supplemented LB agar and incubated overnight at 37°C. Putative positive clones were screened by PCR using M13-F/R primers and were verified by Sanger sequencing (Sangon Biotech, Shanghai, China). The confirmed recombinant plasmid, designated pBlue-STM1410, was extracted using a Plasmid Mini Kit (AG21001, Hunan Accurate Biotechnology Co., Ltd.) and quantified using a NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific), then converted to several copies.
+
+Optimization of conditions for conventional PCR methods
+
+The recombinant plasmid pBlue-STM1410 was used as the template, and the annealing temperatures for STM1410-idF/R were set at 48°C, 50°C, 52°C, and 54°C for optimization. The upstream and downstream primer concentrations were optimized at 0.125 μM, 0.25 μM, and 0.5 μM, with a total of 35 cycles. This was performed in order to determine the optimal primer concentrations and annealing temperatures for PCR reactions. Sterile ddH2O was used as a negative template control.
+
+Conventional PCR specificity test
+
+The specificity of the test was evaluated by PCR amplification using DNA from 15 different serotypes of Salmonella along with E. coli, Klebsiella pneumoniae, Vibrio parahaemolyticus, Proteus mirabilis, Enterococcus faecalis, Staphylococcus aureus, Pseudomonas aeruginosa, and Listeria monocytogenes as templates, with sterile ddH2O used as a negative control and STM1410-idF/R used as a reaction primer pair.
+
+Limit of detection of conventional PCR
+
+The recombinant plasmid pBlue-STM1410 was diluted with sterile ddH2O at a 10-fold multiplicity of 5 × 109–5 × 10° copies/μL as a template and was amplified by conventional PCR. The PCR products were analyzed by agarose gel electrophoresis; thereafter, the minimum detection limit was calculated.
+
+Detection of clinical samples by the conventional PCR method
+
+The genomes of 60 clinical samples were extracted from enriched cultures using a bacterial genomic kit as previously described, with sterile ddH2O used as a negative control. This experiment amplified these templates using the optimized PCR method, and it performed a comparative analysis with the results of conventional bacterial isolation and identification, as evaluation of the method established in this study.
+
+Optimization of the TaqMan qPCR reaction system
+
+The constructed recombinant plasmid pBlue-STM1410 was used as a template. For optimization, three concentration gradients were set for the Salmonella spp.-specific qPCR primer (qProbe-STM1410-F/R) (0.2 µM, 0.1 µM, 0.05 µM) and for the TaqMan probe (Probe-STM1410) (0.2 μM, 0.1 μM, 0.05 μM). The optimized primer and TaqMan probe concentrations were selected by comparing the Ct values of each concentration gradient with three replicate reaction wells.
+
+Establishment of TaqMan qPCR standard curve
+
+The recombinant plasmid pBlue-STM1410 was diluted with sterile ddH2O at a 10-fold multiplicity to 5 × 109–5 × 10° copies/μL as a template, and three reaction wells were repeated for each concentration. The recombinant plasmid pBlue-STM1410 was detected using the optimized TaqMan qPCR reaction conditions to construct a standard curve for this method.
+
+TaqMan qPCR specificity test
+
+TaqMan qPCR reaction was conducted using 15 different serotypes of Salmonella along with E. coli, Klebsiella pneumoniae, Vibrio parahaemolyticus, Proteus mirabilis, Enterococcus faecalis, Staphylococcus aureus, Pseudomonas aeruginosa, and Listeria monocytogenes DNA as templates, to validate the specificity of the primers and the TaqMan probe.
+
+Limit of detection of TaqMan qPCR
+
+The recombinant plasmid pBlue-STM1410 was diluted with sterile ddH2O at a 10-fold multiplicity of 5 × 109–5 × 10° copies/μL as template, and sterile ddH2O was used as a negative control. Three reaction wells were repeated for each concentration to determine the minimum detection limit of the method.
+
+TaqMan qPCR repeatability test
+
+With the recombinant plasmid at a concentration of 5 × 107–5 × 103 copies/μL as a template, three parallel controls were made, an intra-group repetition test was performed, and the intra-group test was repeated three times, after which an inter-group repetition test was performed. The coefficient of variation (CV) (%) was calculated to assess the intra-group and inter-group differences.
+
+Clinical sample detection
+
+With the DNA extracted from 60 clinical samples used as templates and sterile ddH2O used as a negative control, the optimized conventional PCR and TaqMan qPCR methods established in this study were used to detect the templates. For evaluation, comparative analyses were conducted with the results of traditional bacterial isolation and identification.
+
+Statement
+
+The validation process was designed to comply with the international standard ISO 22174:2024, ensuring that all procedures for detection and quantification met established requirements.
+
+Results
+
+The STM1410 gene is conserved within the Salmonella genus
+
+In this study, the STM1410 gene from Salmonella strain ATCC14028 was designated as the reference sequence. Using the GenBank Nucleotide collection (nr/nt) database and BLASTN sequence alignment, we found that the STM1410 gene possessed highly homologous sequences in the complete genomes of all 570 Salmonella strains analyzed: specifically, 98.6% (562/570) of strains exhibited ≥95% sequence homology, and 98.1% (559/570) showed ≥ 98% homology (Table S3). When filtered to exclude Salmonella species, no matching sequences were identified (0 hits), demonstrating that the STM1410 gene is highly conserved within the Salmonella genus and represents a potential specific detection target.
+
+Identification of recombinant plasmids
+
+With S. typhimurium DNA (strain ATCC14028) used as a template, the STM1410 target gene was amplified by PCR, and the product was gel recovered and cloned into a pBlueScript II KS (+) vector. The sequencing primers were used to obtain a PCR product with a size of 772 bp, which is consistent with the expected size (Fig. 1A). One PCR-identified positive plasmid was sequenced and compared with the sequence of STM1410; no base mutation was found in the sequence (100% match), and the plasmid was named pBlue-STM1410.Fig. 1 Plot of routine PCR results.
+
+Fig 1: dummy alt textA. Identification of recombinant plasmid (M: DL2501 marker; 1: PCR product of STM1410 fragment; 2: negative control). B. Optimization of annealing temperature (M: DL2501 marker; 1: 48°C; 2: 50°C; 3: 52°C; 4: 54°C). C. Optimization results of primer concentration (M: DL2501 marker; 1: 0.125 μM; 2: 0.25 μM; 3: 0.5 μM). D. PCR-specific results of diverse serotypes of Salmonella and other common pathogens (M: DL2501 marker; 1–15: 15 different serotypes of Salmonella; 16: negative control; 17: E. coli; 18: Klebsiella pneumoniae; 19: Vibrio parahaemolyticus; 20: Proteus mirabilis; 21: Enterococcus faecalis; 22: Staphylococcus aureus; 23: Pseudomonas aeruginosa; 24: Listeria monocytogenes). E. PCR detection limit results (M: DL2501 marker; 1: 5 × 109 copies/μL; 2: 5 × 108 copies/μL; 3: 5 × 107 copies/μL; 4: 5 × 106 copies/μL; 5: 5 × 105 copies; 6: 5 × 104 copies/μL; 7: 5 × 103 copies/μL; 8: 5 × 102 copies/μL; 9: 5 × 101 copies/μL; 10: 5 × 10° copies/μL; 11: negative control).
+
+Optimization of conditions of the conventional PCR method
+
+For the optimization of the annealing temperature, the recombinant plasmid pBlue-STM1410 was used as a template and separately set to 48°C, 50°C, 52°C, and 54°C. The results of amplification at the four temperatures were positive (Fig. 1B), and 50°C was determined to be the optimal annealing temperature of the PCR reaction for subsequent tests. The optimal primers were concentrations of 0.25 μM and 0.5 μM, both of which could amplify bright bands (Fig. 1C); for cost purposes, 0.25 μM was chosen to be the concentration of the primers for the PCR reactions in this study. After optimization, the final reaction system was determined to be: 2 × Taq Plus Master Mix 10 μL, STM1410-idF 0.25 μM, STM1410-idR 0.25 μM, template 1 μL, and ddH2O supplemented to 20 μL. The reaction conditions were: 94°C pre-denaturation for 5 min, 94°C denaturation for 30 s, annealing at 50°C for 30 s, and extension at 72°C for 30 s (35 cycles) followed by extension for 7 min.
+
+Specificity of conventional PCR methods
+
+The amplification results revealed that the primer STM1410-idF/R could effectively amplify a specific target band of 410 bp for the DNA of 15 different serotypes of Salmonella (including typhimurium, pullorum, and enteritidis), while no bands were amplified for other common pathogens (including E. coli, Staphylococcus aureus, Listeria monocytogenes, and negative controls) (Fig. 1D).
+
+Sensitivity of the conventional PCR method
+
+With the fold dilution method, the recombinant plasmid pBlue-STM1410 was diluted 10-fold to 5 × 109–5 × 10° copies/μL as a template, and sterile ddH2O was used as a negative control. The results (Fig. 1E) revealed that the minimum detection limit of the conventional PCR method was 5 × 101 copies/μL.
+
+Optimization of the TaqMan qPCR reaction system
+
+The detection limit can reach 100 orders of magnitude of copies when the primer and probe concentrations are 0.2 µM and 0.1 µM, respectively, with the sensitivity being better than those of the remaining two groups. The results of the optimization of the final primer and probe concentrations (Table S1) led to a finalized reaction system at AceQ qPCR Probe Master Mix 10 μL, qProbe-STM1410-F 0.2 μM, qProbe-STM1410-R 0.2 μM, Probe-STM1410 0.1 μM, template 2 μL, and ddH2O made up to 20 μL, with reaction conditions of 95°C, 5 min, and (95°C, 10 s; 60°C, 30 s) × 40 cycles.
+
+Construction of TaqMan qPCR standard curve
+
+The recombinant plasmid of 5 × 109–5 × 101 copies/μL was used as the template for amplification. The standard curve was created, with the obtained Ct value as the y-axis and the logarithm of the corresponding number of copies of the standard as the x-axis. The results showed that the established standard curve had a good linear relationship, with a linear equation of y = -3.379x + 40.91, a slope of -3.3792, a correlation coefficient (R2) = 0.9995, and an amplification efficiency (E%) of 97.7 (Fig. 2).Fig. 2 TaqMan qPCR standard curve.
+
+Fig 2: dummy alt text
+
+TaqMan qPCR method specificity
+
+A comparative analysis was conducted to evaluate the specificity of the TaqMan qPCR method using 15 common Salmonella species belonging to different serotypes and 8 other common pathogenic bacteria. The results demonstrated that specific amplification was observed exclusively in the 15 Salmonella strains (across their respective serotypes), whereas no specific amplification signals were detected for the 8 other common pathogenic bacteria or for the negative control (Fig. 3).Fig. 3 Specific amplification curve of TaqMan qPCR.
+
+Fig 3 dummy alt text1–15: 15 different serotypes of Salmonella; 16: negative control; 17: E. coli; 18: Klebsiella pneumoniae; 19: Vibrio parahaemolyticus; 20: Proteus mirabilis; 21: Enterococcus faecalis; 22: Staphylococcus aureus; 23: Pseudomonas aeruginosa; 24: Listeria monocytogenes.
+
+TaqMan qPCR method sensitivity
+
+TaqMan PCR amplification was performed using the recombinant plasmid of pBlue-STM1410 with a copy number in the interval of 5 × 109–5 × 10° copies/μL as a template and sterile ddH2O as a negative control. The results showed that the lowest detection limit of qPCR was 5 × 10° copies/μL (Fig. 4).Fig. 4 Amplification curves for the limit of detection of TaqMan qPCR.
+
+Fig 4: dummy alt text1–10: 5 × 109–5 × 10° copies/μL of pBlue-STM1410 recombinant plasmid; 11: negative control
+
+Repeatability of the TaqMan qPCR method
+
+Recombinant plasmids with concentrations in the range of 5 × 10⁷–5 × 10³ copies/μL were employed as templates for intra-group and inter-group replicate experiments. As depicted in Table S2, the intra-group CV values ranged from 0.22 to 0.67%, while the inter-group CV values spanned 0.47 to 1.01%. Notably, both intra-group and inter-group CV were below 3%, firmly demonstrating that the assay exhibits excellent reproducibility and stability.
+
+Detection of clinical samples by conventional PCR and TaqMan qPCR methods
+
+The bacterial isolation results of the 60 samples were compared with the results of the conventional PCR and TaqMan qPCR methods established in this study. The results revealed that the traditional bacterial isolation method identified 10 Salmonella-positive samples among the 60 tested, for a positive rate of 16.7%. In contrast, the positive rate of the conventional PCR method was 48.3% (29/60), and that of the TaqMan qPCR method was 53.3% (32/60) (Table 3).Table 3 Results of 60 clinical samples.
+
+Table 3: dummy alt textTotal samples (60)	Isolation of Salmonella	Conventional PCR methods	TaqMan qPCR methods	
+Positive	10	29	32	
+Negative	50	31	28	
+Positivity rate	16.7%	48.3%	53.3%	
+
+Discussion
+
+Traditional detection methods for Salmonella are complicated and time-consuming, with low precision; furthermore, they lack the capacity for quantitative analysis. For example, immunological methods like ELISA are prone to false-negative results and exhibit poor sensitivity (Aydin et al., 2015). All this makes rapid bacterial detection difficult. Conventional PCR is a classic method for Salmonella detection, offering “semi-quantitative” results by comparing the intensity of amplified gel bands at the cycle end with known standard concentrations. The qPCR method is more sensitive and specific. Specifically, in the SYBR Green qPCR method, its fluorescent dye binds to any double-stranded DNA, meaning that the formation of DNA primer dimers or other nonspecific amplification products can lower Ct values; this reduces reaction specificity and potentially causes false-positive results. The TaqMan qPCR method addresses SYBR Green qPCR’s limitations by enhancing specificity and sensitivity while generating fewer false positives, thereby making it better suited for diagnostic applications.
+
+Due to the numerous serotypes of Salmonella, the selection of species-specific target gene fragments is critical for the development of pathogenic nucleic acid diagnostic methods. Numerous nucleic acid-based PCR detection methods have been developed for Salmonella. However, the invA and fimA genes—which are widely used as targets for Salmonella detection in existing literature—exhibit inherent limitations: invA, in particular, may lack coverage of all serotypes (such as Salmonella Kentucky strains, which were reported to be invA negative) (Rahn et al., 1992; Tanyag et al., 2021, Turki et al., 2012), while fimA exhibits low specificity (Way, 1993). Moore et al. (2007) developed a Salmonella detection method based on the stn gene, which yielded false positives in non-Salmonella samples, indicating that the target gene stn exhibits incomplete specificity. Furthermore, the staA and viaB genes have been demonstrated as specific exclusively to Salmonella enterica subspecies enterica serovar Typhi (Kariuki et al., 2021).
+
+In this study, to address the challenges of serotype coverage and specificity, we first analyzed whether STM1410, which may serve as a promising virulence factor of Salmonella spp. as found in our previous studies (Sun et al., 2021), could serve as a detection target for Salmonella. Through genome-wide BLASTN analysis, we identified the STM1410 gene fragment as highly homologous across the entire genomes of all 570 analyzed Salmonella strains, indicating its potential as a detection target. Specifically, BLASTN comparison results showed that the whole-genome sequence homology among the analyzed Salmonella strains was greater than 91% (Table S3). Additionally, TaqMan qPCR analysis revealed that the 15 different Salmonella serotypes exhibited specific amplification, whereas the 8 common non-Salmonella pathogens did not. The 570 Salmonella strains obtained from the whole genome were categorized by subtype as 561 strains of S. enterica (subspecies I), 2 strains of S. salamae (subspecies II), 2 strains of S. arizonae (subspecies IIIa), and 5 strains of S. diarizonae (subspecies IIIb) (Table S3); these could be categorized into 83 Salmonella serotypes, of which S. enteritidis accounted for 39.5% (225/570), S. typhimurium accounted for 11.1% (63/570), and S. typhi accounted for 8.4% (48/570) (Table S4). The STM1410 gene is highly conserved across numerous serotypes of Salmonella, which indicates that it can be used as a target gene fragment for nucleic acid detection.
+
+In recent years, numerous scholars have investigated Salmonella detection methods. In this study, the minimum detection limit of the conventional PCR method was determined to be 50 copies/μL, while that of qPCR was 5 copies/μL, demonstrating high sensitivity. Additionally, the qPCR reproducibility test showed intra- and intergroup CV of <3%, indicating good stability. Compared with methods developed by other scholars, the PCR method established by Zhou et al. (2020) has a minimum detection limit of 20 CFU, while the method in this study is 50 CFU. The sensitivity of the conventional PCR method used for detecting Salmonella in this study is comparable to the cigR gene-based PCR method reported by Zhou et al. (2020). Yang et al. (2020) developed a viable PCR assay for Salmonella spp. based on the flgE gene, however, its limit of detection (LOD) for bacterial cells is 100 colony-forming units per PCR reaction, and compared to the assay established in our study, its detection sensitivity appears to be less optimal. The LOD of the TaqMan qPCR assay established in our study is slightly lower than that of the dual qPCR method for bovine-derived Salmonella spp. established by Li et al., which had a detection limit of 10 copies/μL (Li et al., 2022). However, due to the relatively small clinical sample size of this study (n = 60), further research can be conducted by increasing the sample size to further validate the clinical application value of this method.
+
+The detection methods developed in the present study achieved more sensitive. In practical applications, only 10 strains were isolated from clinical samples through the traditional strain isolation method, while the positive rates detected through our conventional PCR assay and TaqMan qPCR assay were significantly higher (Table 3), this indicates that the sensitivity of PCR-based assays is far superior to that of traditional strain isolation approaches. This observation is consistent with the findings of previous studies (Dawood Saleem et al., 2022) and confirms that the established method can accurately identify Salmonella spp. nucleic acids in real samples and exhibits enhanced sensitivity.
+
+With the continuous advancement of nucleic acid detection technologies, digital PCR (dPCR), an emerging absolute quantification method, has been increasingly applied in microbial detection to address the limitations of conventional quantitative real-time PCR (qPCR) (Sancha Dominguez et al., 2024). Compared with qPCR, dPCR enables absolute nucleic acid quantification without standard curves, exhibits stronger anti-interference capacity for complex sample matrices, and achieves ultrahigh sensitivity with a detection limit as low as 1 copy/μL (Kuypers & Jerome, 2017). Nevertheless, dPCR presents higher detection costs. Importantly, neither approach can differentiate viable from dead bacteria, as both only detect microbial nucleic acids regardless of cell viability status (Cangelosi & Meschke, 2014). The differentiation between viable and non-viable bacteria remains critical in scenarios such as food safety. For instance, propidium monoazide (PMA), a commonly used nucleic acid intercalating agent, has been employed to detect viable bacteria and infectious viruses (Chen et al., 2022; Yin et al., 2024; Zeng et al., 2022). Building on the present study, future efforts will focus on developing a novel qPCR assay for identifying viable Salmonella spp. that will feature both high specificity and high sensitivity. With the ongoing advancement of PCR technology, these methods are expected to play a significant role in food testing, the prevention of foodborne diseases, disease monitoring, and environmental sample detection in the animal husbandry sector in the future.
+
+In summary, this study successfully established conventional PCR and real-time quantitative PCR methods based on the STM1410 gene, with the former demonstrating good specificity and sensitivity for Salmonella spp. The TaqMan qPCR method developed in this study exhibits excellent specificity, sensitivity, and reproducibility. This enables it not only to detect Salmonella in environmental samples but also to provide a technical approach for the rapid detection of Salmonella spp., thereby laying a foundation for the prevention and control of salmonellosis.
+
+Ethical approval
+
+The study protocol and chicken studies were approved by the Animal Care and Use Committee of Shandong Agricultural University, Tai’an, China (SCUC permission no. SDAUA-2023–040), and were performed in strict accordance with experimental animal regulation ordinances defined by the China National Science and Technology Commission.
+
+Data availability
+
+The data supporting the findings of this study are openly available in the article and in the supplementary material. The raw data supporting the conclusions of this manuscript will be made available by the authors, without undue reservation, to any qualified researcher.
+
+CRediT authorship contribution statement
+
+Ningning Liu: Writing – original draft, Methodology, Conceptualization. Cong Liu: Writing – review & editing, Methodology, Conceptualization. Lijun Chen: Investigation, Data curation. Guijuan Hao: Writing – review & editing, Supervision. Gang Zhu: Writing – review & editing, Supervision, Conceptualization. Fangkun Wang: Writing – review & editing, Methodology, Funding acquisition, Conceptualization.
+
+Declaration of competing interest
+
+The authors declare no conflict of interest.
+
+Appendix Supplementary materials
+
+Image, application 1
+
+Acknowledgments
+
+This work was supported by the Shandong Provincial Rural Revitalization Science and Technology Innovation Boosting Action Program (2025TZXD023) and the 10.13039/501100015335 Shandong Modern Technology System of Agricultural Industry (SDAIT-09-06).
+
+Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.vas.2026.100695.
+
+
+References
+
+Aabo S. Rasmussen O.F. Rossen L. Sørensen P.D. Olsen J.E. Salmonella identification by the polymerase chain reaction Molecular and Cellular Probes 7 3 1993 171 178 8366864 10.1006/mcpr.1993.1026
+Aydin S. A short history, principles, and types of ELISA, and our laboratory experience with peptide/protein analyses using ELISA Peptides 72 2015 4 15 25908411 10.1016/j.peptides.2015.04.012
+Bonardi S. Salmonella in the pork production chain and its impact on human health in the European Union Epidemiology and Infection 145 8 2017 1513 1526 28241896 10.1017/S095026881700036X PMC9203350
+Brandão D. Liébana S. Pividori M.I. Multiplexed detection of foodborne pathogens based on magnetic particles New Biotechnology 32 5 2015 511 520 25858812 10.1016/j.nbt.2015.03.011
+Brown E.W. Bell R. Zhang G. Timme R. Zheng J. Hammack T.S. Salmonella genomics in public health and food safety EcoSal Plus 9 2 2021 eESP00082020 10.1128/ecosalplus.ESP-0008-2020 PMC11163839 34125583
+Bryan T. Jann J.Q. Angeline A.K. Amarjet S. Flordeliza C. Ulysses M. Prevalence of invA Gene of Salmonella spp. in Fish and Fishery Resources from Manila Bay Aquaculture Farms Using Real-Time PCR Applied Microbiology 1 3 2021 510 519
+Cangelosi G.A. Meschke J.S. Dead or alive: Molecular assessment of microbial viability Applied and Environmental Microbiology 80 19 2014 5884 5891 25038100 10.1128/AEM.01763-14 PMC4178667
+Chen X. Li W. Ma Y. Real-time and visual detection of viable Salmonella in milk by a competitive annealing mediated isothermal amplification (CAMP) combined with propidium monoazide (PMA) Analytical Methods 14 2022 3773 3779 36112033 10.1039/d2ay01150f
+da Silva E.C. de Oliveira C.D. Ribeiro L.F.M. Casas M.R.T. Pereira J.G. Possebon F.S. Salmonella detection with LAMP and qPCR and identification of serovars of interest by multiplex qPCR in poultry carcasses Brazilian Journal of Microbiology 54 3 2023 2173 2182 37582950 10.1007/s42770-023-01095-y PMC10484893
+Dawood Saleem H. Fawwaz Alfarras A. Hameed N.M. Hasan Al-Zubaidi S. Shnain Ali M. Hamood S.A. Hameed S. Hamad D.A. Ali Hussein H. Mohsin Al-Dhalemi D. Detection of Salmonella spp. By traditional and PCR assays in raw milk, Maysan, Iraq Archives of Razi Institute 77 2022 1453 1457 36883154 10.22092/ARI.2022.359086.2369 PMC9985773
+Dong X. Sun W. Cao P. Liu X. Colloidal gold immunochromatographic test strip for virus detection: A review Chinese Journal of Biotechnology 38 9 2022 3243 3254 36151796 10.13345/j.cjb.220052
+Ferrari R.G. Rosario D.K.A. Cunha-Neto A. Mano S.B. Figueiredo E.E.S. Conte-Junior C.A. Worldwide epidemiology of Salmonella serovars in animal-based foods: A meta-analysis Applied and Environmental Microbiology 85 14 2019 e00591 -19 10.1128/AEM.00591-19 PMC6606869 31053586
+Galán J.E. Salmonella typhimurium and inflammation: A pathogen-centric affair Nature Reviews. Microbiology 19 2021 716 725 34012042 10.1038/s41579-021-00561-4 PMC9350856
+Kang X. Wang M. Meng C. Li A. Jiao X. Pan Z. Prevalence and whole-genome sequencing analysis of Salmonella reveal its spread along the duck production chain Poultry Science 101 9 2022 101993 10.1016/j.psj.2022.101993 PMC9289855 35839552
+Kariuki F. Getanda P. Nyachieo A. Juma G. Kinyanjui P. Kamau J. Evaluation of the detection of staA, viaB, and sopE genes in Salmonella spp. Using the polymerase chain reaction (PCR) Archives of Microbiology 204 2021 25 34921325 10.1007/s00203-021-02654-3
+Kuypers J. Jerome K.R. Applications of digital PCR for clinical microbiology Journal of Clinical Microbiology 55 6 2017 1621 1628 28298452 10.1128/JCM.00211-17 PMC5442518
+Li M. Double qPCR method for invA and aadA genes of Salmonella bovine establishment and separation and identification 2022 Inner Mongolia Agricultural University 10.27229/d.cnki.gnmnu.2021.000803 Chinese
+Liu J. Sun R. Ru J. Ma W.X. Shen Q. Chen M.L. Development of triplex loop-mediated isothermal amplification with immunochromatographic assay for rapid simultaneous detection three respiratory viruses Microchemical Journal 2025 213
+Lu J. Wu H. Wu S. Wang S. Fan H. Ruan H. Salmonella: Infection mechanism and control strategies Microbiological Research 292 2025 128013 10.1016/j.micres.2024.128013 39675139
+Moore M.M. Feist M.D. Real-time PCR method for Salmonella spp. targeting the stn gene Journal of Applied Microbiology 102 2 2007 516 530 17241358 10.1111/j.1365-2672.2006.03079.x
+Patel A. Wolfram A. Desin T.S. Advancements in detection methods for Salmonella in food: A comprehensive review Pathogens 13 12 2024 1075 39770335 10.3390/pathogens13121075 PMC11728791
+Rahn K. Degrandis S.A. Clarke R.C. McEwen S.A. Galan J.E. Ginocchio C. Amplification of an Inva gene sequence of Salmonella-typhimurium by polymerase chain reaction as a specific method of detection of Salmonella Molecular and Cellular Probe 6 4 1992 271 279 10.1016/0890-8508(92)90002-f 1528198
+Sancha Dominguez L. Cotos Suárez A. Sánchez Ledesma M. Present and future applications of digital PCR in infectious diseases diagnosis Diagnostics (Basel) 14 9 2024 931 38732345 10.3390/diagnostics14090931 PMC11083499
+Sears K.T. Galen J.E. Tennant S.M. Advances in the development of Salmonella-based vaccine strategies for protection against salmonellosis in humans Journal of Applied Microbiology 131 6 2021 2640 2658 33665941 10.1111/jam.15055 PMC9292744
+Sheikhzadeh E. Chamsaz M. Turner A.P.F. Jager E.W.H. Beni V. Label-free impedimetric biosensor for Salmonella typhimurium detection based on poly [pyrrole-co-3-carboxyl-pyrrole] copolymer supported aptamer Biosensors & Bioelectronics 80 2016 194 200 26836649 10.1016/j.bios.2016.01.057
+Shen Z. Ni H. Chen X. Zhao H. Yuan H. Serotype identification and drug sensitivity test of porcine Salmonella in the southeast of Shanxi Province Hunan Journal of Animal Science and Veterinary 05 2023 16 18 +57. (In Chinese)
+Sun N. Song Y. Liu C. Liu M. Yu L. Wang F. Analysis of In vivo transcriptome of intracellular bacterial pathogen Salmonella enterica serovar typhmurium isolated from mouse spleen Pathogens 10 7 2021 823 34209260 10.3390/pathogens10070823 PMC8308634
+Tanyag B. Quiambao J.J. Ko A.A. Singh A. Cambia F. Montojo U. Prevalence of invA gene of Salmonella spp. in fish and fishery resources from Manila Bay aquaculture farms using real-time PCR Applied Microbiology 1 3 2021 510 519
+Turki Y. Ouzari H. Mehri I. Ben Aissa R. Hassen A. Biofilm formation, virulence gene and multi-drug resistance in Salmonella Kentucky isolated in Tunisia Food Research International 45 2012 940 946
+Wang F. Zhang W. Niu D. Editorial: Foodborne Enterobacteriaceae of Animal origin Frontiers in Cellular and Infection Microbiology 11 2021 772359 10.3389/fcimb.2021.772359 PMC8505891 34650935
+Wang X. Zhao L. Zhang R. Research progress on serotyping and antimicrobial resistance mechanism of Salmonella Shandong Agricultural Sciences 56 01 2024 174 180 Chinese
+Wang Y. Liu Y. Lyu N. Li Z. Ma S. Cao D. The temporal dynamics of antimicrobial-resistant Salmonella enterica and predominant serovars in China National Science Review 10 3 2022 nwac269 10.1093/nsr/nwac269 PMC10076184 37035020
+Way J.S. Josephson K.L. Pillai S.D. Abbaszadegan M. Gerba C.P. Pepper I.L. Specific detection of Salmonella Spp by multiplex polymerase chain-reaction Applied Environmental Microbiology 59 5 1993 1473 1479 8517741 10.1128/aem.59.5.1473-1479.1993 PMC182106
+Wu Y.X. Wu M.J. Liu C. Tian Y.C. Fang S.Q. Yang H. Colloidal gold immunochromatographic test strips for broad-spectrum detection of Salmonella Food Control 126 2021
+Xu Y. Zhou X. Jiang Z. Qi Y. Ed-Dra A. Yue M. Epidemiological investigation and antimicrobial resistance profiles of Salmonella isolated from breeder chicken hatcheries in Henan, China Frontiers in Cellular and Infection Microbiology 10 2020 497 33042870 10.3389/fcimb.2020.00497 PMC7522330
+Yang B. Cui Y. Shi C. Wang J. Xia X. Xi M. Counts, serotypes, and antimicrobial resistance of Salmonella isolates on retail raw poultry in the People's Republic of China Journal of Food Protection 77 6 2014 894 902 24853510 10.4315/0362-028X.JFP-13-439
+Yang Y. Wang P. Xia P. Yang B. Dai P. Hong T. Li J. Meng X. El Qaidi S. Zhu G. Rapid detection of flagellated and non-flagellated Salmonella by targeting the common flagellar hook gene flgE Applied Microbiology and Biotechnology 104 2020 9719 9732 33009938 10.1007/s00253-020-10925-0
+Ye J.Q. Wu X.J. Mao C.J. Yu J.F. Xiao L. Xie J. Application of recombinase-mediated isothermal amplification technology in animal disease detection Animal Husbandry and Feed 23 08 2024 101 105
+Yeung C.Y. Liu C.C. Tseng Y.T. Tsai K.C. Hsieh M.A. Chan W.T. Rapid identification of Salmonella using Hektoen enteric agar and 16s ribosomal DNA probe-gold nanoparticle immunochromatography assay in clinical faecal specimens Letters in Applied Microbiology 58 4 2014 311 317 24286606 10.1111/lam.12191
+Yin W. Hu K. Yang Y. Zhuang J. Zou Z. Suo Y. Xia L. Li J. Gui Y. Mei H. Yin J. Zhang T. Mu Y. A propidium monoazide-assisted digital CRISPR/Cas12a assay for selective detection of live bacteria in sample Analytical Chemistry 96 2024 17941 17949 39482821 10.1021/acs.analchem.4c02204
+Zeng D. Qian B. Li Y. Zong K. Peng W. Liao K. Yu X. Sun J. Lv X. Ding L. Wang M. Zhou T. Jiang Y. Li J. Xue F. Wu X. Dai J. Prospects for the application of infectious virus detection technology based on propidium monoazide in African swine fever management Frontiers in Microbiology 13 2022 1025758 10.3389/fmicb.2022.1025758 PMC9563241 36246220
+Zhao Y. Jiang X. Qu Y. Pan R. Pang X. Jiang Y. Salmonella detection in powdered dairy products using a novel molecular tool Journal of Dairy Science 100 5 2017 3480 3496 28284694 10.3168/jds.2016-12535
+Zhou Y.Y. Kang X.L. Meng C. Xiong D. Xu Y. Geng S.Z. Multiple PCR assay based on the cigR gene for detection of Salmonella spp. and Salmonella Pullorum/Gallinarum identification Poultry Science 99 11 2020 5991 5998 10.1016/j.psj.2020.07.026 PMC7647733 33142517
+Zou W. Frye J.G. Chang C.W. Liu J. Cerniglia C.E. Nayak R. Microarray analysis of antimicrobial resistance genes in Salmonella enterica from preharvest poultry environment Journal of Applied Microbiology 107 3 2009 906 914 19320942 10.1111/j.1365-2672.2009.04270.x

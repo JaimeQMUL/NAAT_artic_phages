@@ -1,0 +1,85 @@
+Summary file for QIW86970
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC13198325.1.txt
+Thermal Evidence:
+- Optimal reaction temperature for the whole-cell system was $50^	ext{o}	ext{C}$ for the main reaction phase.
+- Thermal pretreatment was optimized at $50^	ext{o}	ext{C}$ for 3 hours to suppress side reactions while preserving enzyme activity.
+- A comparison was made between $50^	ext{o}	ext{C}$-3h and $60^	ext{o}	ext{C}$-1h pretreatment, with $50^	ext{o}	ext{C}$-3h being superior for maintaining enzyme function.
+- The recombinant enzymes retained full activity at $50^	ext{o}	ext{C}$ after pretreatment, while $60^	ext{o}	ext{C}$-1h caused transient suppression.
+- The overall process was conducted at $50^	ext{o}	ext{C}$ for 96 hours in the scaled-up reaction.
+
+Environmental Context:
+- The host organism is classified as mesophilic.
+- No explicit mention of isolation from an extreme environment was made.
+
+Concise Summary:
+The biocatalytic system utilizes a host organism classified as mesophilic. The optimal operational temperature for the whole-cell biocatalysis is $50^	ext{o}	ext{C}$. A critical thermal pretreatment step was established at $50^	ext{o}	ext{C}$ for 3 hours to selectively inhibit endogenous deamination side reactions while maintaining the activity of the recombinant nucleoside phosphorylases. This $50^	ext{o}	ext{C}$-3h pretreatment was found to be superior to $60^	ext{o}	ext{C}$-1h pretreatment for preserving enzyme function, as the enzymes retained full activity at $50^	ext{o}	ext{C}$ post-treatment. The scaled-up production was successfully executed at $50^	ext{o}	ext{C}$ for 96 hours.
+
+
+Paper: PMC13197782.1.txt
+The provided text discusses various aspects of microbiology and biotechnology, but it does not contain specific, quantifiable data regarding the optimal growth temperature ranges for any microorganisms. Therefore, I cannot extract temperature-related data points.
+
+
+Paper: 42183925.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range were provided.
+- No mention of incubation conditions related to temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was provided.
+
+Environmental Context:
+- The source organism is described as a major freshwater fish pathogen.
+
+Concise Summary:
+The study focuses on the immunogenic potential of a recombinant outer membrane porin derived from a freshwater fish pathogen. No specific data regarding the organism's optimal growth temperature, temperature range, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were presented in the provided text.
+
+
+Paper: PMC13189830.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for *A. hydrophila* culture).
+- Growth temperature range: 30°C (for *A. hydrophila* culture); 37°C (for *E. coli* culture).
+- Survival temperature range: 29°C ± 0.2°C (for fish maintenance).
+- Incubation conditions: 30°C for 24h (for bacterial plating); 37°C (for *E. coli* culture).
+- Environmental source/habitat: Freshwater environments (for the pathogen).
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations.
+- Extreme environment isolation: No mention of isolation from extreme environments.
+- Explicit classification: None provided by the authors regarding thermal classification.
+
+Environmental Context:
+- Habitat/Source: Freshwater environments; aquaculture settings.
+
+Concise Summary:
+The pathogen was cultured optimally at 30°C, while the cloning and expression host (*E. coli*) were maintained at 37°C. The *in vivo* challenge and maintenance of the model organism occurred at 29°C ± 0.2°C. The pathogen is naturally found in freshwater environments. No specific thermal adaptations (thermophilic, psychrophilic, etc.) were discussed or observed in the provided data.
+
+
+Paper: PMC13194095.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for initial culture).
+- Growth temperature range: 37 °C (for initial culture); 30 °C (for resistance training/testing).
+- Survival temperature range: Not explicitly stated, but growth was observed at 30 °C.
+- Incubation conditions: Shaking incubator at 250 rpm at 37 °C (initial culture); Shaking incubator at 250 rpm at 30 °C (resistance testing).
+- Environmental source/habitat: Aquatic environment (aquaculture, freshwater fish).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, or cold tolerance adaptations. No specific enzymes adapted to temperature were detailed.
+
+Environmental Context:
+- Habitat/Source: Aquatic environment, specifically associated with aquaculture and freshwater fish pathogens.
+- Extreme Environment Isolation: No evidence of isolation from an extreme environment.
+- Explicit Classification: No explicit thermal classification was provided by the authors.
+
+
+Paper: PMC13197452.1.txt
+Thermal Evidence:
+- Optimal induction temperature: 30 °C
+- Growth temperature range: 30 °C (for initial culture/screening) and 37 °C (for antimicrobial assays).
+- Incubation conditions: 30 °C, 250 rpm (for culture growth).
+- Survival temperature range: Not explicitly stated, but optimal expression was found at 30 °C.
+- Thermal adaptation: No mention of thermophilic or psychrophilic adaptation.
+
+Environmental Context:
+- Habitat/Source: The peptide originates from rainbow trout, a teleost fish, suggesting an aquatic/marine environment. The expression host is a yeast, which is generally mesophilic.
+
+Concise Summary:
+The study details the heterologous expression of a fish-derived antimicrobial peptide in a yeast system. The optimal conditions for protein expression were determined to be an induction temperature of 30 °C, using 1.0% methanol for 96 hours. The initial culture and screening were conducted at 30 °C. The peptide's antimicrobial activity was tested at 37 °C. The source organism is a fish, while the expression host is a yeast, indicating mesophilic growth conditions were utilized for the recombinant production process. No evidence of adaptation to extreme temperatures was reported.
+
+

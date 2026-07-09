@@ -1,0 +1,212 @@
+Summary file for QEG10268
+Number of papers: 12
+=============Summaries=============
+
+Paper: PMC9321532.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but optimal growth was tested at 37 °C.
+- Survival temperature range: Stable titer observed from 4 °C to 65 °C; significant decrease observed at 75 °C.
+- Incubation conditions: Optimal MOI determination and one-step growth curve were performed at 37 °C with shaking (220 rpm).
+- Environmental source/habitat: Isolated from hospital sewage.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by optimal growth at 37 °C.
+- Heat tolerance: Demonstrated stability up to 65 °C.
+- Cold tolerance: Stable titer observed at 4 °C.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Not specified.
+
+Environmental Context:
+- Habitat/source: Hospital sewage.
+
+Concise Summary:
+The bacteriophage was isolated from hospital sewage. Its optimal growth and activity were observed at 37 °C. The phage exhibited excellent thermal stability, maintaining a constant titer across a broad range from 4 °C to 65 °C, though activity significantly decreased at 75 °C. This stability profile suggests robust performance under standard laboratory and potential clinical storage conditions, indicating good cold tolerance and moderate heat tolerance, consistent with a mesophilic organism. The phage was characterized as lytic and showed no evidence of being isolated from an extreme thermal environment.
+
+
+Paper: PMC10345742.1.txt
+Thermal Evidence:
+- Optimal activity was observed in the temperature range of 4 to 45°C.
+- The phage maintained high activity within the range of 4 to 45°C.
+- Activity was significantly decreased when the temperature reached 50°C.
+- The phage titer dropped to zero after 1 hour in a water bath at 70°C.
+- The phage showed good thermal stability compared to other phages below 40°C.
+- The optimal Multiplicity of Infection (MOI) test was conducted at 37°C.
+- The one-step growth curve was monitored at 37°C.
+- The phage was stable at 37°C for the initial adsorption period (10 min).
+
+Environmental Context:
+- Isolated from hospital sewage.
+
+Concise Summary:
+The phage exhibited optimal activity and stability within a moderate temperature range, specifically between 4°C and 45°C. Its activity was noted to decrease significantly at 50°C and was completely inactivated after 1 hour at 70°C. The phage was characterized as having good thermal stability compared to other phages below 40°C. All in vitro characterization, including one-step growth curve determination and stability testing, was conducted at 37°C. The phage was isolated from hospital sewage, indicating an environmental source. No explicit classification (e.g., thermophilic, psychrophilic) was provided by the authors, but the observed stability profile suggests mesophilic characteristics with good resilience across a moderate temperature spectrum.
+
+
+Paper: 42156216.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The study analyzed samples from freshwater aquaculture environments, specifically associated with three types of aquaculture ponds (grass carp, crayfish, and crab ponds). The samples analyzed included water, sediment, and intestinal contents.
+
+
+Paper: 42153618.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were reported.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The organism was isolated from a clinical/hospital setting (implied by the context of carbapenem-resistant strains and hospital-acquired infections).
+- No mention of isolation from an extreme environment.
+
+Concise Summary:
+The study focused on the genomic impact of prophages in carbapenem-resistant bacteria. The analysis involved culturing and inducing prophages using chemical stressors (mitomycin-C) but provided no data regarding the optimal, range, or survival temperatures, nor any specific thermal adaptations (thermophilic, psychrophilic, etc.). The bacteria were studied in the context of drug resistance and pathogenicity, suggesting an adaptation to human-associated, potentially mesophilic, clinical environments, but no explicit thermal classification was provided by the authors.
+
+
+Paper: 41320702.txt
+Thermal Evidence:
+- Optimal growth temperature: 35 °C (observed during in-Lab degradation efficiency tests).
+- Growth temperature range: Not explicitly stated, but tested conditions were 35 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 35 °C, pH 7.
+- Environmental source/habitat: Soil and water (remediation context).
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the optimal test temperature of 35 °C.
+- Heat tolerance: Not explicitly detailed.
+- Cold tolerance: Not explicitly detailed.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Soil and water contamination remediation.
+
+Concise Summary:
+The mixed bacterial culture demonstrated effective biodegradation of diesel in both soil and water under controlled laboratory conditions. The degradation efficiency test was conducted at an optimal temperature of 35 °C, with a neutral pH of 7. Field studies confirmed successful remediation in natural soil and water matrices. The performance under these conditions suggests mesophilic activity, as the tested optimal temperature falls within the typical range for mesophiles. No specific data regarding extreme temperature adaptations (thermophilic or psychrophilic) or thermal stress responses were provided in the study.
+
+
+
+Paper: PMC9448873.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were reported.
+- Incubation conditions mentioned for conjugation experiments were $22^	ext{o}	ext{C}$ for 24 h.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was isolated from a sputum specimen (clinical/human source).
+- No mention of isolation from an extreme environment.
+
+Concise Summary:
+The provided text focuses extensively on the molecular epidemiology, antimicrobial resistance genes (e.g., $bla$ SIM-1, $mcr-9.2$), plasmid structure (IncHI2, IncHI5, IncFIIpKPHS2:IncFIB-4.1), and population genomics of the pathogen. Specific details regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) are absent. The only explicit incubation condition mentioned is $22^	ext{o}	ext{C}$ for 24 hours during conjugation experiments. The organism was isolated from a clinical source (sputum specimen).
+
+
+Paper: PMC9927358.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 24 h at 37°C for initial enrichment; 24 h at 37°C for subculture; overnight incubation at 37°C for curing assays.
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by optimal growth at 37°C.
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/source: Clam samples (bivalves) collected from natural beds along the coast of the Adriatic Sea in central Italy. The study also compares the isolate to environmental isolates from soil in South Korea and clinical isolates from human sputum in Japan.
+
+Concise Summary:
+The organism was isolated from bivalve samples collected from coastal marine environments. The physiological characterization details indicate that the organism was incubated and grew optimally at 37°C, suggesting a mesophilic lifestyle. No specific data regarding extreme temperature adaptation (thermophilic or psychrophilic) or thermal stress responses were provided in the text.
+
+
+Paper: PMC13173886.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The organism was isolated from a wheelchair handle in an orthopedic ward in a tertiary hospital in Mwanza, Tanzania. The study also discusses the potential for hospital environmental surfaces (including sinks and drainage systems) to act as reservoirs.
+
+Concise Summary:
+The analysis focused on the genomic, resistome, and plasmid content of an environmental isolate. No data regarding the organism's thermal physiology, optimal growth temperature, or temperature adaptation were presented in the paper.
+
+
+Paper: PMC8012231.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 24 hours at 37 °C
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by standard incubation at 37 °C
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Urban hospital effluent in Pietermaritzburg, KwaZulu-Natal, South Africa.
+- Extreme environment isolation: No.
+- Explicit classification: None provided regarding temperature adaptation.
+
+
+Paper: PMC12757027.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (mentioned multiple times for conjugation and editing assays).
+- Growth temperature range: 30°C (used for conjugation and editing assays).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 30°C (for conjugation and editing assays).
+- Environmental source/habitat: Not explicitly stated for the general organism, but the study involves testing in various bacterial species, including those relevant to industrial biotechnology and environmental settings.
+- Mention of adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, or cold tolerance adaptations was found.
+
+Environmental Context:
+- Habitat/Source: The study utilized various bacterial species, including those relevant to industrial biotechnology and environmental settings, but no specific extreme environment source was detailed for the general organism.
+
+Concise Summary:
+The experimental procedures for assessing VchCAST activity and the impact of host factors were consistently performed under controlled laboratory conditions, with the primary incubation and conjugation temperature set at 30°C. The study utilized a range of bacterial species, including those relevant to industrial biotechnology and environmental settings, but did not provide specific data regarding the optimal, growth, or survival temperature ranges, nor did it classify the organisms based on thermal adaptation (e.g., mesophile, thermophile). The focus remained on molecular mechanisms of genome editing efficiency under these standardized mesophilic laboratory conditions.
+
+
+Paper: PMC12708576.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 35 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 35 °C
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by incubation at 35 °C
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Manure (composed by animal feces, mostly of pigs)
+- Extreme environment isolation: No explicit mention of extreme environment isolation
+- Explicit classification: None provided regarding temperature adaptation.
+
+
+Paper: PMC10647098.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was reported.
+- Incubation conditions were not detailed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- The isolate was obtained from a urinary tract infection.
+- The organism was not explicitly stated to be isolated from an extreme environment.
+
+Concise Summary:
+The provided text focuses heavily on the molecular characterization, virulence factors (hypermucoviscous-like phenotype, capsule production), antimicrobial resistance genes, and genomic sequencing of the isolate. There is no explicit microbiological data regarding the optimal growth temperature, growth temperature range, survival temperature range, or any specific thermal adaptation characteristics (thermophilic, psychrophilic, mesophilic, etc.). The isolation source was a urinary tract infection, and no evidence of isolation from an extreme environment was presented.
+
+

@@ -1,0 +1,149 @@
+Summary file for QEA10278
+Number of papers: 10
+=============Summaries=============
+
+Paper: PMC9686305.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phage propagation and bacterial growth).
+- Growth temperature range: 37°C (for phage propagation and bacterial growth).
+- Survival temperature range: Stable at 4–60°C; stable at 22°C for 20h (phage application); stable at 4°C for at least 90 days (refrigeration storage).
+- Incubation conditions: 37°C for phage propagation; 22°C for phage application storage.
+- Environmental source/habitat: Surface water in a produce-growing area.
+- Thermophilic adaptation: None mentioned.
+- Psychrophilic adaptation: None mentioned.
+- Mesophilic growth: Implied by optimal growth at 37°C.
+- Heat tolerance: Stable up to 60°C for 24h; decreased titer at 60°C by ~3 log; non-detectable at 65°C.
+- Cold tolerance: Stable at 4°C for at least 90 days.
+- Enzymes adapted to temperature: None specified.
+- Membrane adaptations: None specified.
+- Thermal stress responses: Stability maintained across a wide range of temperatures (22–50°C) for 24h.
+
+Environmental Context:
+- Habitat/Source: Surface water in a produce-growing area.
+
+Concise Summary:
+The phage demonstrated optimal growth and propagation at 37°C. Its stability profile indicates resilience across a broad temperature range, maintaining infectivity from pH 4 to pH 10 at 25°C for 24 hours. Specifically, the phage was found to be stable at 4°C for at least 90 days, suggesting good cold tolerance. It exhibited heat tolerance up to 60°C, though activity decreased significantly at this point. The phage was isolated from surface water in a produce-growing area and is characterized as having mesophilic growth characteristics, with its stability profile supporting use in typical produce-associated environments.
+
+
+Paper: PMC10892097.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but isolation was performed at 37 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Overnight incubation was used for bacterial cultures.
+- Environmental source/habitat: Wastewater plants.
+- Mention of adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+
+Environmental Context:
+- Habitat/Source: Wastewater plants (Wasatch front, Utah, United States).
+
+Concise Summary:
+The phages were isolated from wastewater plants. The bacterial cultures used for phage propagation were grown and incubated at 37 °C. No specific data regarding the optimal, range, or survival temperatures of the phages or their associated enzymes were provided; thus, no thermal adaptation classification can be made based on this text.
+
+
+Paper: PMC8432352.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Aerobic incubation at 37°C overnight; incubation at 4°C and 50 rpm for 24h.
+- Environmental source/habitat: Not specified, but the phages infect Gram-negative bacteria, including pathogenic species like *E. coli* and *Salmonella*.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided regarding temperature adaptation.
+
+
+Paper: PMC7393951.1.txt
+Thermal Evidence:
+- No explicit optimal or growth temperature range was provided for the recovered lineages.
+- The study discusses adaptation to the hadal environment, which implies conditions of low temperature and high hydrostatic pressure.
+- Specific mentions include: 
+    - The recovery of a strain previously isolated from the PRT was described as "psychropiezophilic".
+    - The discussion notes that the recovery of SAGs from the hadal trench extends knowledge of temperature adaptation in one genus, noting that the species is considered "mesophilic (growing between 10°C and 45°C)".
+    - The general context of the hadal zone implies adaptation to low temperatures.
+- No specific enzymes adapted to temperature were detailed, but the general adaptation mechanisms discussed (membrane biogenesis, transcriptional regulation) are relevant to thermal stress.
+
+Environmental Context:
+- The organisms were recovered from the hadal zone of the Mariana Trench (depth of 8289 m).
+- The general environment is characterized by high hydrostatic pressure (60–110 MPa) and low temperature.
+- The authors discuss the need for adaptation to "low temperature" in the hadal trench environment.
+
+Concise Summary:
+Single-cell amplified genomes (SAGs) of two heterotrophic bacterial groups were recovered from the hadal zone of the Mariana Trench. While no explicit optimal growth temperature was provided, the environmental context is characterized by high hydrostatic pressure and low temperature, necessitating adaptation to cold conditions. The discussion references a previously isolated strain as "psychropiezophilic" and notes that one genus is considered "mesophilic (growing between 10°C and 45°C)". Adaptation mechanisms discussed, such as modifications to cell wall/membrane/envelope biogenesis and transcriptional regulation, are relevant to surviving the low temperature and high pressure of the hadal environment. The recovery of these lineages from the hadal trench suggests adaptation to cold, deep-sea conditions.
+
+
+Paper: 42197443.txt
+Thermal Evidence:
+- No specific optimal, growth range, or survival temperature ranges were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The organisms are described as being able to survive temperature fluctuations, but no specific environmental source or habitat was detailed beyond general mention of poultry/disinfection surfaces.
+
+Concise Summary:
+The study assessed the differential responses of three *Salmonella* serovars to chlorine dioxide disinfectant in vitro, focusing on growth and biofilm development. While the text notes that biofilms enable survival against 'temperature fluctuations,' it provides no quantitative data regarding optimal, growth, or survival temperature ranges, nor does it classify the organisms based on thermal adaptation (e.g., mesophile, psychrotolerant). The organisms were not explicitly stated to be isolated from an extreme environment, and no specific thermal adaptations were discussed.
+
+
+Paper: PMC13211758.1.txt
+Thermal Evidence:
+- Optimal physiological performance is noted at a moderate temperature range of 18–21 °C.
+- The normal body temperature range is typically between 37.7 and 39.0 °C.
+- The study subjected the animals to heat stress, indicated by a Heat Stress Index (THI) ranging between 28.7 and 31.2 °C.
+- The animals were monitored for stress responses related to elevated temperatures.
+
+Environmental Context:
+- The study was conducted in a controlled facility with ambient temperature monitored at 28 ± 3.7 °C and relative humidity at 56 ± 2.4%.
+
+Concise Summary:
+The physiological data indicate that the organism exhibits optimal performance within a moderate temperature range (18–21 °C) and maintains a normal body temperature between 37.7 and 39.0 °C. The experimental conditions simulated heat stress, evidenced by a THI of 28.7–31.2 °C. The study focused on mitigating the negative impacts of this thermal stress on various physiological systems, including growth, immunity, and reproduction, through dietary supplementation. No specific adaptations (thermophilic, psychrophilic, etc.) or enzyme adaptations related to extreme temperatures were explicitly detailed, but the research addressed the organism's response to elevated ambient temperatures.
+
+
+Paper: 42192676.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were reported.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The study focused on the dissemination of antimicrobial resistance (AMR) via mobile genetic elements (MGEs) across human, animal, and environmental interfaces in Africa. The sources analyzed included human, animal, food, and environmental contaminants. The organisms studied were not explicitly characterized by their isolation from extreme environments, nor were any explicit thermal classifications provided by the authors.
+
+
+Paper: 42191890.txt
+Thermal Evidence:
+- Survival temperature range: Up to 100 °C
+- Growth temperature range: Not explicitly stated, but stability was tested across a wide pH range relevant to food processing (up to 100 °C).
+
+Environmental Context:
+- Not specified; the study focuses on fermentation conditions.
+
+Concise Summary:
+The bacteriocin-like inhibitory substance (BLIS) produced by the starter culture demonstrated remarkable thermal stability, remaining active across a temperature range relevant to food processing, up to 100 °C. The study does not provide specific optimal or general growth temperatures for the organisms, but it confirms the bioprotective agent's high heat tolerance under simulated food processing conditions.
+
+
+Paper: PMC13211651.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the bacterial or fungal species discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organisms discussed are derived from various sources, including commensal and pathogenic bacteria, and are studied in vitro or in animal models (e.g., blood, urine, saliva, bronchoalveolar lavage fluid, gut). No specific extreme environmental isolation context was detailed for the organisms themselves, beyond their natural presence in host body fluids.
+
+Concise Summary:
+This review focuses on the use of bacterial membrane vesicles (BMVs) as vaccine platforms, detailing their structure, immune mechanisms, and application against bacterial, fungal, and viral pathogens. The analysis is purely immunological and biotechnological, with no data provided regarding the thermal physiology, growth conditions, or temperature adaptations of the source microorganisms. The discussion centers on the intrinsic immunostimulatory properties of BMVs, their ability to deliver antigens, and their capacity to induce systemic and mucosal immunity across various infection models.
+
+
+Paper: PMC13201067.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but growth was conducted at 37°C.
+- Survival temperature range: CueP showed stability between 35°C and 90°C when copper was present. In the absence of copper, thermal destabilization occurred above 50°C.
+- Incubation conditions: Aerobic incubation at 37°C.
+- Environmental source/habitat: Intracellular/phagosomal compartment within host cells (host immune system).
+- Mention of adaptations: The protein under study exhibits metal-dependent structural fortification, suggesting adaptation to harsh, fluctuating environments.
+
+Environmental Context:
+- Habitat/Source: Intracellular/phagosomal compartment within host cells.
+
+Concise Summary:
+The organism was studied under laboratory conditions simulating an intracellular/phagosomal environment. Optimal growth and incubation were maintained at 37°C under aerobic conditions. The protein of interest (CueP) demonstrated significant thermal stability, remaining stable between 35°C and 90°C when copper was present. Crucially, the stability of this protein is metal-dependent; in the absence of copper, it undergoes thermal destabilization above 50°C. This suggests a mechanism of thermal resilience linked directly to copper binding, which is vital for survival in the harsh, fluctuating microenvironment encountered within host cells, such as the phagosome, where the organism faces combined copper and oxidative stress.
+
+
+

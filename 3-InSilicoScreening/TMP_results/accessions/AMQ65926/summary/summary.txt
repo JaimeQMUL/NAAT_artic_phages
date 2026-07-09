@@ -1,0 +1,105 @@
+Summary file for AMQ65926
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC12784556.1.txt
+Thermal Evidence:
+- No temperature-related data was provided in the text.
+
+Environmental Context:
+- The study analyzed human serum samples collected from different geographical regions (Northern and Southern China) and was focused on arboviral antibody reactivity, not microbial growth conditions.
+
+Concise Summary:
+This paper details the high-throughput seroprofiling of arboviral antibody exposure in human populations across China using a programmable phage display platform. The analysis focused on quantifying cumulative IgG binding to viral peptides across different regions, sexes, and age groups. No information regarding the optimal growth temperature, temperature range, or thermal adaptation of any microorganisms was presented, as the study utilized human serum samples for serological profiling rather than culturing or characterizing microbial physiology under varying thermal conditions.
+
+
+Paper: PMC7139368.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for *E. coli* and general testing).
+- Growth temperature range: 30 °C (for most strains tested).
+- Survival temperature range: Tested at 43 °C, 60 °C, and 80 °C.
+- Incubation conditions: Standard incubation was performed at 30 °C or 37 °C.
+- Thermal stress responses: The phages showed differential stability; one phage was temperature-sensitive, decreasing titer to 50% after 15 min at 43 °C, and showed near-complete reduction after 1 hour at 43 °C. The other phage was more temperature-resistant at 43 °C but showed 85% inactivation after longer incubation. Survival at 60 °C was tested, with one phage showing only 18% survival.
+
+Environmental Context:
+- Habitat/Source: Wastewater treatment plants (WWTPs) and various environmental samples (water, soil, etc.).
+- Extreme Environment Isolation: The study utilized samples from WWTPs, suggesting an environmental origin, but no explicit classification (e.g., thermophilic, psychrophilic) was given for the organism's adaptation to extreme temperatures.
+
+Concise Summary:
+Two novel virulent phages were isolated from raw sewage samples collected from a wastewater treatment plant. The host bacterium, *Ochrobactrum* spp., was tested across various environmental conditions, with standard growth temperatures noted at 30 °C and 37 °C. Phage stability testing revealed temperature-dependent inactivation: one phage exhibited sensitivity at 43 °C, while the other showed greater resistance but still suffered significant inactivation over time at 43 °C. Survival was assessed up to 80 °C, with one phage showing limited survival at 60 °C. The phages were generally stable across a pH range of 7 to 8, though specific stability differences were noted (one phage preferred higher pH, the other lower pH). The phages were found to be UV-sensitive, with differential resistance observed between the two viral types.
+
+
+Paper: PMC7692377.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated for all taxa, but the overall community is characterized as inhabiting moderate to thermophilic conditions.
+- Growth temperature range: The samples were collected from hot springs with temperatures of $45-50^	ext{o}	ext{C}$.
+- Survival temperature range: The community is described as containing 'thermophilic bacteria' and the analysis discusses adaptation to 'extreme environments'.
+- Incubation conditions: Not specified.
+- Thermophilic adaptation: The community is generally characterized as thermophilic, with specific mentions of organisms adapted to high temperatures.
+- Heat tolerance: The presence of mechanisms to prevent cellular and DNA damage, such as superoxide dismutase and DNA repair systems, indicates adaptation to thermal stress.
+- Enzymes adapted to temperature: The study notes the presence of enzymes involved in metabolic pathways, suggesting adaptation to the thermal environment.
+- Membrane adaptations: The text mentions that the composition of fatty acids changes with increasing temperature, indicating membrane adaptation.
+
+Environmental Context:
+- Habitat/Source: Circumneutral terrestrial hot springs in Mexico (Chignahuapan, Puebla).
+- Extreme Environment Isolation: The study analyzes samples from a geothermal region, and the general context involves 'extremophile' environments.
+- Explicit Classification: The organisms are generally described as 'thermophilic' or 'moderately thermophilic'.
+
+Concise Summary:
+The microbial community analyzed originates from circumneutral terrestrial hot springs in Mexico, with measured water temperatures ranging from $45-50^	ext{o}	ext{C}$. The community is characterized as thermophilic, exhibiting adaptations to thermal stress, including mechanisms for preventing cellular and DNA damage (e.g., superoxide dismutase and DNA repair systems). Metabolic adaptations are evident through the presence of pathways related to carbon fixation and sulfur metabolism. The analysis confirms that the community structure is influenced by physicochemical properties typical of hot springs. The viral community is noted to consist of phages infecting moderate to thermophilic bacteria, and the viral auxiliary metabolic genes suggest viral contributions to metabolic pathways, including those related to sulfur and carbon cycles, further indicating adaptation to the thermal niche.
+
+
+Paper: PMC9206674.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (used for plaque assays and initial growth curves).
+- Growth temperature range: 30°C (primary culture/assay temperature); 37°C (used for some assays, e.g., phage activity on solid media).
+- Survival temperature range: Virions remained active after incubation at temperatures ranging from -20°C to 50°C for 1 hour.
+- Incubation conditions: Assays were conducted at 30°C and 37°C.
+- Environmental source/habitat: Isolated from potting soil.
+- Thermal adaptation: No explicit classification (e.g., thermophilic, psychrophilic) was given. The phage showed reduced efficiency at 37°C compared to 30°C, but this was not attributed to temperature instability of the phage particles.
+
+Environmental Context:
+- Habitat/Source: Potting soil.
+
+Concise Summary:
+The bacteriophage was isolated from potting soil. Optimal growth and plaque assays were conducted at 30°C, while some functional assays were performed at 37°C. The phage particles demonstrated stability across a wide temperature range, remaining active after incubation from -20°C to 50°C for one hour. The authors noted a decrease in infection efficiency at 37°C compared to 30°C, but this was not linked to temperature instability of the phage particles. The host bacterium is described as a ubiquitous environmental bacterium.
+
+
+
+Paper: PMC8228603.1.txt
+The provided text does not contain specific information regarding the optimal growth temperature or temperature tolerance for the organisms discussed. Therefore, no summary can be generated based on temperature data.
+
+
+Paper: PMC5349666.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: 30°C
+- Incubation conditions: 30°C
+- Mesophilic growth: Implied by optimal growth at 30°C.
+
+Environmental Context:
+- Habitat/Source: Planter soil sample.
+
+Concise Summary:
+The bacteriophage was isolated from a planter soil sample. The optimal growth temperature and incubation condition for plaque formation and general activity were consistently reported at 30°C. The organism exhibits mesophilic growth characteristics based on these culture conditions. No specific data regarding survival temperature ranges, thermophilic/psychrophilic adaptation, or thermal stress responses were provided.
+
+
+Paper: PMC7504290.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 30 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 30 °C was used for plaque assays and initial isolation.
+- Environmental source/habitat: Soil (specifically, the Patrick Seymour Alpine Garden).
+- Mention of adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, or cold tolerance adaptations was found.
+- Enzymes adapted to temperature: None mentioned.
+- Membrane adaptations: None mentioned.
+- Thermal stress responses: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Soil.
+
+Concise Summary:
+The bacteriophage was isolated from soil collected at the Patrick Seymour Alpine Garden. The primary laboratory incubation and plaque assay conditions utilized a constant temperature of 30 °C. The study does not provide data regarding the optimal, range, or survival temperatures, nor does it mention any specific thermal adaptations (thermophilic, psychrophilic, etc.) for the phage or its host bacterium. The phage was characterized as virulent and showed successful replication under standard laboratory conditions at 30 °C.
+
+

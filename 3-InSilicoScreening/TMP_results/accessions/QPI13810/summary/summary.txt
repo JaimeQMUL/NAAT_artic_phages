@@ -1,0 +1,143 @@
+Summary file for QPI13810
+Number of papers: 10
+=============Summaries=============
+
+Paper: PMC13131436.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the general microbial communities or specific signaling molecules.
+- One archaeal example mentioned a highly thermophilic organism.
+
+Environmental Context:
+- The primary habitat discussed is the rumen, which is an anaerobic or microaerophilic environment.
+- The archaeal example was sourced from a thermophilic niche.
+
+Concise Summary:
+The review focuses on the regulatory mechanisms of quorum sensing (QS) in diverse microbial communities, particularly within the rumen ecosystem. While the paper details the chemical and physiological roles of QS across various domains (bacteria, fungi, archaea), it does not provide explicit, quantifiable data regarding the optimal, growth, or survival temperature ranges for the general microbial populations or the signaling molecules themselves. The only direct thermal information relates to one archaeal example, which was noted as being highly thermophilic. The overall environmental context is the rumen, described as an anaerobic or microaerophilic habitat. The discussion emphasizes the complexity of QS in this specific, stable, yet fluctuating gut environment, rather than thermal adaptation mechanisms.
+
+
+Paper: PMC12403702.1.txt
+Thermal Evidence:
+- Optimal culture temperature: 37°C.
+- Growth temperature range: Optimal stability observed at 20–50°C.
+- Survival temperature range: Good stability observed at 4°C, 21°C, 37°C, and 50°C. Significant titer decrease observed when temperature exceeded 50°C, with near complete inactivation at 70°C.
+- Incubation conditions: Optimal plaque formation time was 6 hours, and the optimal culture temperature was 37°C.
+- Thermal stress responses: The phage demonstrated good stability within the 4°C to 50°C range.
+
+Environmental Context:
+- Habitat/Source: Isolated from the gut of *Periplaneta americana* L. (an insect).
+- Classification: No explicit classification (e.g., thermophilic, psychrophilic) was given by the authors, but the optimal growth conditions suggest mesophilic adaptation, particularly around 37°C.
+
+Concise Summary:
+The bacteriophage was characterized with an optimal culture temperature of 37°C, and the optimal plaque formation time was determined to be 6 hours. Stability analysis revealed that the phage maintained good titer stability across a range including 4°C, 21°C, 37°C, and 50°C. However, significant titer reduction was noted when temperatures exceeded 50°C, with near complete inactivation observed at 70°C. The phage was isolated from the gut of *Periplaneta americana* L. The stability profile suggests mesophilic characteristics, with robust activity maintained up to 50°C, making it suitable for use in environments mimicking mammalian body temperature (37°C) while showing limited tolerance to extreme heat.
+
+
+Paper: PMC13198327.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (mentioned multiple times for various stages/processes).
+- Growth temperature range: 30°C (primary operational temperature).
+- Survival temperature range: Not explicitly stated, but the organism is noted for its tolerance to various toxic substances and its ability to grow normally using crude glycerol as a sole carbon source.
+- Incubation conditions: Shaking at 30°C and 200 rpm (for shake flask/fermentation); 37°C (for initial E. coli cloning/culture).
+- Environmental source/habitat: Not explicitly stated, but the organism is noted for its broad-spectrum tolerance to terpenoid toxicity and ability to utilize crude glycerol.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the optimal growth temperature of 30°C.
+- Heat tolerance: Not explicitly detailed, but the organism is robust enough to maintain growth under various optimized conditions.
+- Cold tolerance: Not explicitly mentioned.
+- Enzymes adapted to temperature: No specific thermal adaptation of enzymes was detailed.
+- Membrane adaptations: The organism exhibits broad-spectrum tolerance to terpenoid toxicity, suggesting robust membrane integrity.
+- Thermal stress responses: Tolerance to terpenoid toxicity is highlighted as a key feature.
+
+Environmental Context:
+- The organism was not explicitly stated to be isolated from an extreme environment, but it demonstrates exceptional tolerance to various toxic substances, including terpenoids, and can utilize crude glycerol as a sole carbon source.
+- Explicit classification: No explicit thermal classification (e.g., mesophile) was provided by the authors, but the operational temperature of 30°C suggests mesophilic growth conditions.
+
+
+Paper: 42192712.txt
+Thermal Evidence:
+- Optimal growth temperature: 5 °C (hypothermic storage).
+- Growth temperature range: 5 °C (storage).
+- Survival temperature range: 5 °C (storage); temporary warming to 20 °C for 60 min followed by re-cooling to 5 °C (demonstrated robustness).
+- Incubation conditions: Hypothermic storage at 5 °C.
+- Environmental source/habitat: Not specified for the microorganisms, but the context is semen preservation under field conditions.
+- Mentioned adaptations: None explicitly mentioned (no mention of thermophilic, psychrophilic, mesophilic adaptation, etc.).
+- Mentioned stress responses: Temporary warming did not affect sperm quality or bacterial counts, suggesting resilience to mild thermal fluctuations.
+
+Environmental Context:
+- Habitat/Source: Not specified for the microorganisms; the study focuses on semen preservation in a controlled, field-simulated setting.
+
+Concise Summary:
+Hypothermic storage at 5 °C was utilized for semen preservation, contrasting with a conventional 17 °C control. The system demonstrated stability under these low temperatures. Furthermore, the system proved robust to temporary thermal stress, maintaining sperm quality and low bacterial counts after exposure to 20 °C for 60 minutes followed by re-cooling to 5 °C. The primary focus is on maintaining viability and biosafety under controlled, low-temperature, field-simulated conditions.
+
+
+Paper: PMC13207848.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed bacterial species.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The bacteria were associated with endodontic infections (acute apical abscess, symptomatic apical periodontitis, asymptomatic apical periodontitis, and post-treatment apical periodontitis).
+- The source of the analyzed genomes was human-associated isolates, not exclusively from endodontic infection-specific samples.
+
+Concise Summary:
+This bioinformatic study analyzed the resistome of bacteria implicated in endodontic infections. The analysis focused on the prevalence of efflux pump-related proteins associated with metal resistance, which are relevant to the antimicrobial action of metallic nanoparticles. The study did not provide any data regarding the thermal physiology, optimal growth temperature, or temperature adaptation of the analyzed microbial species. The environmental context is limited to the oral cavity and endodontic infections, with the genomic data sourced from human-associated isolates. The findings are purely bioinformatic, characterizing potential genetic resistance capacity rather than confirmed functional resistance or physiological adaptation to temperature extremes.
+
+
+Paper: PMC13206376.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for any organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- No environmental source or habitat was mentioned for any organism.
+
+Concise Summary:
+This paper focuses on the biochemical properties of metallopeptides, specifically their ability to bind Cu(II) and Ni(II) ions and induce DNA scission. The experimental procedures detailed involve chemical synthesis, spectroscopic titrations (UV/Vis, pH), and enzymatic/chemical reactions (DNA cleavage using ascorbate and metal ions) under controlled laboratory buffer conditions (e.g., 25 mM Tris buffer, pH 7.4). There is no information provided regarding the temperature requirements, growth conditions, or environmental origin of any biological material or enzyme system discussed.
+
+
+Paper: PMC13184143.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacteria) and 30°C (for fungi/yeasts).
+- Growth temperature range: 37°C (for bacteria) and 30°C (for fungi/yeasts).
+- Incubation conditions: 24h at 37°C for bacteria; 48h for yeasts; 3 days for molds (for biofilm/antifungal assays).
+- Environmental source/habitat: Fruits collected from local gardens in the Hail region (Saudi Arabia).
+
+Environmental Context:
+- The study tested the antimicrobial and biofilm inhibition of an essential oil derived from plant material collected from local gardens, with no mention of isolation from extreme environments or specific thermal adaptations (thermophilic, psychrophilic, etc.).
+
+Concise Summary:
+The experimental assays utilized controlled laboratory incubation conditions. Bacterial growth and antimicrobial testing were conducted at 37°C for 24 hours. Fungal and yeast assays were performed at 30°C for 3 days (for molds) or 48 hours (for yeasts). The source material for the tested essential oil was plant material collected from local gardens in the Hail region, with no evidence provided regarding the organism's natural thermal niche or adaptation to extreme temperatures.
+
+
+Paper: PMC13207255.1.txt
+The provided text does not contain specific information regarding the optimal growth temperature or temperature tolerance for any organism. Therefore, I cannot extract the requested data.
+
+
+Paper: 42162935.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- No specific environmental source or habitat was mentioned.
+
+Concise Summary:
+The study investigated the metabolic reprogramming enabling selenite detoxification and selenium nanoparticle biogenesis in a bacterium under selenite stress. The analysis focused on the molecular mechanisms, identifying a key enzyme (a putative phosphoadenosine phosphoselenate reductase) essential for detoxification. Energy metabolism is redirected to prioritize NADH/NADPH regeneration, and the process is sensitive to oxygen availability (impaired under hypoxia). The organism's response to the stressor was characterized by changes in sulfur assimilation pathways and the involvement of a thioredoxin-mediated redox pathway. No thermal parameters or environmental source information were provided in the text.
+
+
+Paper: PMC13208563.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for model bacteria).
+- Growth temperature range: 28 °C (for plant-pathogenic bacteria); 25 °C (for *Fusarium graminearum* mycelial growth).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 37 °C for 24 h (for *E. coli* and *S. aureus*); 28 °C for 48 h (for *P. syringae* and *X. campestris*); 25 °C for 6 days (for *F. graminearum* mycelial growth).
+- Environmental source/habitat: Soil-borne pathogens; controlled growth chamber conditions.
+- Mention of adaptations: None explicitly mentioned.
+- Explicit classification: None provided by the authors regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Soil-borne pathogens; controlled growth chamber.
+
+Concise Summary:
+The study utilized controlled laboratory conditions for microbial assays. Model bacteria were incubated at 37 °C for 24 hours, while plant-pathogenic bacteria were incubated at 28 °C for 48 hours. The fungal pathogen was cultured and tested for mycelial growth at 25 °C. The experiments were conducted in a controlled growth chamber environment for the pot experiment, maintaining a temperature of 24 °C during the day and 16 °C at night. No information regarding thermophilic, psychrophilic, or mesophilic adaptation, or specific temperature-adapted enzymes/membranes, was provided for the tested microorganisms.
+
+

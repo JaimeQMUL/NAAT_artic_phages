@@ -1,0 +1,110 @@
+Summary file for QZI93874
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC9569957.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the bacteriophages or the bacteria.
+- Incubation conditions mentioned for assays were $37^	ext{o}	ext{C}$ for 10 minutes.
+
+Environmental Context:
+- The phages were isolated from samples collected from horse feces.
+
+Concise Summary:
+The study details the molecular mechanisms of bacteriophage infection in *E. coli* strains, focusing on the role of the O antigen. The experimental assays were conducted at $37^	ext{o}	ext{C}$. The phages were isolated from horse feces. No information regarding the thermal adaptation, temperature ranges, or extreme environmental isolation of the organisms was provided.
+
+
+Paper: PMC8529584.1.txt
+Thermal Evidence:
+- Optimal temperature and pH range should be determined using in-house methods, with the chosen temperature range reflecting the technological role of the enzyme.
+- Measurements of thermal stability, involving exposure to various temperatures for a fixed period before assay, must be provided.
+- The data should allow for a judgment on the likelihood of activity survival under intended conditions of use.
+
+Environmental Context:
+- No specific environmental source or habitat information regarding temperature adaptation (thermophilic, psychrophilic, mesophilic, etc.) was provided in the scope of the guidance.
+
+Concise Summary:
+The guidance mandates the determination of the temperature and pH range, along with optimum values, for the food enzyme's activity. Crucially, data on thermal stability, which involves exposing the enzyme to various temperatures for a fixed period prior to assay, must be supplied. The selected temperature range must be relevant to the enzyme's intended technological function to assess the likelihood of activity survival under use conditions. No specific details regarding the organism's natural temperature adaptation or extreme environmental isolation were detailed in the scope of the required data submission.
+
+
+Paper: 42178479.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- Incubation conditions were not specified in terms of temperature.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or thermal stress responses.
+- No specific enzymes adapted to temperature were mentioned.
+- No membrane adaptations were discussed.
+
+Environmental Context:
+- The organism used in the study was a recombinant strain derived from a bacterium, but no specific environmental source or habitat was detailed for the organism itself.
+
+Concise Summary:
+The study details the enhancement of 1,12-dodecanediol production via microbial bioconversion of 1,12-dodecanedioic acid using a recombinant *E. coli*-based system. Key findings focus on metabolic engineering, specifically the introduction of a polyphosphate kinase 2 (PPK2) to regenerate ATP from AMP, significantly improving conversion yield (22.0% to 31.8% at 40 mM substrate). Further optimization using sodium hexametaphosphate (SHMP) increased diol production to 19.5 mM with a 48.8% yield. In cell-lysate systems, NADPH and NADH showed comparable efficiencies, with the highest conversion (28 mM C12 diol, ~70% conversion) achieved at 100 mM MgCl2 in the presence of NADPH within 1 hour. The analysis provides no data regarding optimal growth temperature, temperature ranges, or thermal adaptations of the utilized microorganism.
+
+
+Paper: PMC13198046.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C with 5% CO2
+- Environmental source/habitat: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by 37 °C incubation
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Collagenase (2 mg/mL, Roche, Basel, Switzerland) and DNase I (400 U/mL, Roche) were used for digestion at 37 °C.
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/source: Human metastatic melanoma tissues and mouse melanoma tissues (solid tumors).
+
+Concise Summary:
+The study utilized human and mouse melanoma tissues, which were processed and incubated at 37 °C with 5% CO2. Enzymes used for tissue digestion, including Collagenase and DNase I, were active at this temperature. The overall context is the analysis of extracellular vesicles (EVs) derived from solid tumor tissues, with the physiological incubation temperature of 37 °C being the primary thermal parameter noted for sample processing.
+
+
+Paper: 42178361.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, or survival range for any isolated organism was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was present.
+- No incubation conditions were detailed.
+
+Environmental Context:
+- The study analyzed recreational water quality parameters (pH, DO, TN, TP, E. coli, enterococci) in coastal waters.
+- Seasonal variation in water quality was statistically significant, with environmental factors like temperature and runoff influencing the index score.
+- The analysis focused on general water quality indicators rather than specific microbial physiology related to temperature adaptation.
+
+Concise Summary:
+This study developed a recreational water quality index for a coastal area, assessing parameters like DO, nutrients, and indicator bacteria. While seasonal variation was found to be statistically significant, influenced by environmental factors such as temperature and runoff, the paper does not contain any microbiological data regarding the optimal growth temperature, temperature range, or thermal adaptations of any specific microbial species. Therefore, no thermal classification evidence can be extracted.
+
+
+Paper: 42178561.txt
+Thermal Evidence:
+- Stability testing was conducted at 45 °C, showing an extension of the inactivation half-life by up to 1.4-fold for the engineered enzyme.
+
+Environmental Context:
+- No information provided regarding the organism's natural habitat or isolation from an extreme environment.
+
+Concise Summary:
+The study focused on engineering an enzyme derived from a bacterium. While the enzyme's stability was tested at 45 °C, indicating enhanced thermal stability, no specific optimal growth temperature, growth range, or natural environmental temperature adaptation (thermophilic, psychrophilic, or mesophilic) was reported for the organism or the enzyme's natural state. The enzyme was engineered for improved performance under controlled, mild conditions.
+
+
+Paper: PMC13197417.1.txt
+Thermal Evidence:
+- Incubation temperature used for protein expression and assays was 37°C.
+- The study discusses general bacterial adaptation to environmental stresses, including environmental temperature changes, which necessitates membrane phospholipid remodeling to maintain appropriate membrane fluidity.
+
+Environmental Context:
+- The organism is a plant pathogen, and the context involves adaptation to acidic conditions (low pH stress).
+
+Concise Summary:
+Structural and biochemical analyses focused on the lysyl-phosphatidylglycerol hydrolase. The experimental procedures utilized an incubation temperature of 37°C for protein expression and enzymatic assays. The physiological context highlights the bacterium's need to adapt to environmental stresses, specifically mentioning the modulation of membrane phospholipids in response to environmental temperature changes to maintain membrane fluidity. The enzyme's function is crucial for maintaining membrane homeostasis, particularly in response to acidic conditions (low pH stress). No explicit classification regarding thermal adaptation (e.g., mesophile, thermophile) was provided, but the operational temperature of 37°C suggests mesophilic growth conditions were utilized for the study.
+
+
+Paper: PMC13197570.1.txt
+The provided texts do not contain specific information regarding the optimal growth temperature or temperature-dependent characteristics for any microorganisms. Therefore, no summary can be generated based on this criterion.
+
+

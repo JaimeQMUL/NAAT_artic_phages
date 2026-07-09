@@ -1,0 +1,477 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Discov Nano
+Journal ID: Discov Nano
+
+Discover Nano
+
+EISSN: 2731-9229
+Publisher: Springer
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13181114
+PMID: 42143655
+DOI: 10.1186/s11671-026-04638-y
+Article ID: 4638
+Article version: 1
+Subjects: Research
+
+Nanoencapsulation of Anise oil and evaluation of its antimicrobial and antioxidant effects to propose for food preservation
+
+Qazvini Tina Ebrahimi 1
+Zamani Ehsan 2
+Evazalipour Mehdi 3
+Nemattalab Mehran 1 4
+Qazvini Pasha Ebrahimi 1
+Hesari Zahra z.hesari@gmail.com z.hesari@gums.ac.ir
+1
+1 https://ror.org/04ptbrd12 grid.411874.f 0000 0004 0571 1549 Department of Pharmaceutics, School of Pharmacy, Guilan University of Medical Sciences, Rasht, Iran
+2 https://ror.org/04ptbrd12 grid.411874.f 0000 0004 0571 1549 Department of Pharmacology and Toxicology, School of Pharmacy, Guilan University of Medical Sciences, Rasht, Iran
+3 https://ror.org/04ptbrd12 grid.411874.f 0000 0004 0571 1549 Department of Pharmaceutical Biotechnology, School of Pharmacy, Guilan University of Medical Sciences, Rasht, Iran
+4 https://ror.org/04ptbrd12 grid.411874.f 0000 0004 0571 1549 Department of Microbiology, School of Medicine, Guilan University of Medical Sciences, Rasht, Iran
+Electronic publication date: 2026 May 17
+Publication date: 2026 Dec
+Volume: 21
+Issue: 1
+Electronic Location ID: 189
+Received 2025 Oct 29; Accepted 2026 May 7
+Copyright: © The Author(s) 2026
+Copyright year: 2026
+License: Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Anise oil, Food preservation, Chitosan, Solid lipid nanoparticle, Antibacterial, Antioxidant
+issue-copyright-statement: © Springer Science+Business Media, LLC, part of Springer Nature 2026
+
+==============================
+Food spoilage is a complex process. Despite modern preservation methods use of alternative antimicrobial agents such as essential oils, as natural preservatives can be beneficial. This study aims to comparatively evaluate Anise essential oil (AEO) encapsulated in Solid lipid nanoparticles (SLN) versus chitosan nanocarriers against E. coli and S. typhimurium and oxidative stress in HU02 cells. The probable improvement of antioxidant, antibacterial, and antibiofilm effects of AEO relevant to food preservation, using two different nanocarriers, was not investigated previously. Nanoparticles were synthesized using natural based excipients and the probe-sonication method and their physico-chemical, antioxidant and antimicrobial properties were characterized. The mean size and zeta potential of AEO-SLN 292.66 nm and − 21.9 mV and for AEO-CH 188.41 nm and 29.7 mV, revealing the smaller size and positive surface charge for chitosan nano-carrier. Both systems showed sustained release up to 72 h with slightly higher cumulative release from AEO-CH (87.06%) than AEO-SLN (84.07%). The MIC against E. coli and S. typhimurium were AEO-CH (45–50 µg mL−1) < AEO-SLN (200–220 µg mL−1) < free AEO (540–560 µg mL−1). Additionally, AEO-NPs reduced H₂O₂-induced oxidative damage by increasing cell viability and normalizing MDA and GSH levels. Therefore, these nano-formulations, particularly AEO-CH, are promising natural nanocarriers for controlling MDR pathogens and biofilms while decreasing oxidative damage in food preservation systems.
+
+Supplementary Information
+
+The online version contains supplementary material available at 10.1186/s11671-026-04638-y.
+
+Introduction
+
+The food industry is highly valued globally, but faces a major concern of food spoilage [1]. Food manufacturing facilities may still harbor persistent microorganisms [2]. In addition, a rise in green consumption can be observed in the food industry with demands for natural food additives and antimicrobial agents with a minimal environmental impact, versus synthetic antimicrobials with the concerns of resistance, teratogenicity and toxicity [3]. Recently, essential oils have gained attention as natural compounds for use in the food industry, either alone or in combination with other technologies [4, 5].
+
+Foodborne illness outbreaks are mainly caused by a few pathogens, including Salmonella and Escherichia coli (E. coli) [6]. Foodborne pathogens commonly develop biofilms on food-contact surfaces, facilitating bacterial spread and recurrent cross-contamination of food products [7].
+
+Anise, also known as Pimpinella anisum`1 L., has been used in traditional medical practices for centuries [8]. Anise has been used for many years to treat gastrointestinal disorders, as well as for its antioxidant, antidiabetic, antimicrobial, antipyretic, and antifungal properties [9, 10]. Anise essential oil (AEO) is utilized as flavoring, antioxidant and preservative in industries, such as food, beverages, cosmetics, and pharmaceuticals [11]. Although AEO exhibits antibacterial and antioxidant properties, its low water solubility and instability limit its antimicrobial activity and direct use in food systems [12]. Hence, the encapsulation of AEOs is a promising solution to overcome their limitations [13]. Several studies have encapsulated the AEO in chitosan-based delivery systems including film, microparticle, nanoparticle, etc. for food preservation or other applications [14–16]. Also, some researches have synthesized lipid-based delivery systems, mainly nano-emulsion of anise oil to enhance its physicochemical or antibacterial properties [17–21]. But, to our knowledge, there is no previous comparative study of AEO loaded in SLN versus chitosan nanoparticles assessing antibacterial, antibiofilm (especially against food born bacteria), and antioxidant effects in a unified design. This comparative evaluation fills a critical gap in selecting the most efficient nanocarrier for food preservation.
+
+Solid lipid nanoparticles (SLNs) are a type of colloidal delivery system, used extensively in the food industries and pharmaceutical as they have become popular alternatives to emulsions, liposomes, polymeric structures, and microparticles [22]. SLNs represent a promising approach for drug delivery systems, allowing for controlled release and providing effective protection for bioactive substances against external factors, all while demonstrating high biodegradability and low toxicity [23, 24]. In addition, chitosan (CH) certified as GRAS by FDA, is a prevalent nanocarrier that its unique properties have made it an attractive material for food packaging [25]. For example, essential oil of clove buds (CEO) encapsulated in chitosan nanoparticles showed better antioxidant activity than the pure oil. Similarly, chitosan nanoparticles loaded with (CEO) had high antimicrobial activity against S. aureus and L. monocytogenes [26]. Consequently, it is widely used in multiple industries, including agriculture, food, and biopharmaceuticals because of its extensive antibacterial properties [27].
+
+Oxidative stress arises when the production of reactive oxygen species (ROS) overwhelms the system’s antioxidant defenses [28]. This can lead to DNA damage and mutation [29]. External antioxidants, such as catalase, superoxide reductase, superoxide dismutase, and glutathione peroxidase, catalytically remove oxidants [30]. In addition, researchers have shown that malondialdehyde (MDA) is an indicator of lipid peroxidation, and lipid peroxidation is recognized as a prevalent process through which numerous drugs exert their toxic effects [31].CH and SLN are two compounds that have been researched and identified as being resilient to environmental stressors [32, 33].
+
+We hypothesize that encapsulation of Pimpinella anisum EO into chitosan nanoparticles and solid lipid nanoparticles will (i) increase physical stability and control release, (ii) enhance antimicrobial and antibiofilm efficacy compared to free oil (chitosan, due to its antimicrobial activity, may outperform SLN in antibacterial/antibiofilm effects), and (iii) reduce oxidative damage in mammalian fibroblasts, thereby supporting potential food-preservation applications. Therefore, this study aimed to formulate AEO-SLN and AEO-CH; in vitro release; antioxidant effects in HU02 under H₂O₂; MIC/MBC and antibiofilm activity against standard and MDR E. coli and S. typhimurium.
+
+Materials and methods
+
+Materials
+
+Soya lecithin (DUKSAN reagents, South Korea), dichloromethane, acetic acid and tween 80, all of the analytical grade, were purchased from Merck, Germany. Cholesterol (Sigma, Germany), polyvinyl alcohol (PVA) (Merck, Darmstadt, Germany) with a molecular weight of 800000 Da, chitosan (9012-76-4- low molecular weight- Sigma-Aldrich, Germany), sodium tripolyphosphate (TPP) (7758-29-4, Sigma-Aldrich), dialysis bags (MWCO 12–14 kDa, Sigma-Aldrich, Steinheim, Germany), crystal violet (Sigma, Steinheim, Germany), as well as Mueller Hinton Agar/Broth (MHA/B) (Merck, Germany) were purchased. Anise essential oil was purchased from Lavandor co. (Tehran, Iran). DMEM (Modified Eagle’s Medium) and FBS (Fetal Bovine Serum) were purchased from Thermo Fisher Scientific, Germany. MTT ((3-[4,5-dimethylthiazol-2-yl]-2,5 diphenyl tetrazolium bromide) and DMSO (Dimethyl sulfoxide) were purchased from Sigma-Aldrich, Germany.
+
+Preparation of AEO -SLN
+
+The emulsification ultrasonic homogenization method was employed to create AEO-loaded SLNs. Precisely, 100 mg of lecithin and 100 mg of cholesterol as a lipid phase were mixed with 800 µL of Tween 80 as a surfactant, and this mixture was dissolved in 10 mL of dichloromethane at room temperature. Next, 1 g AEO and 10 mL of Polyvinyl alcohol (4% w/v in water) were gradually added to the previous mixture and homogenized using a high-speed probe sonicator (ultra-probe sonicator, Hielscher UP400s, Germany) for 10 min at 1500 Hz. Ultimately, the produced milky emulsion was subjected to a rotary evaporator (Heidolph Hei-VAP Value, Germany) at 37 °C for 25 min for evaporation of dichloromethane to remain AEO-SLN dispersed in water [34].
+
+Preparation of AEO-loaded chitosan nanoparticles
+
+A 1% w/v solution of chitosan in acetic acid (1% v/v) was prepared using a magnetic stirrer at 40 °C for a period of 24 h. The resulting solution was then filtered through a filter with a pore size of 1 μm, after which 1 mL of Tween 80 was added as a surfactant to the 100 mL chitosan solution. Next, to adjust the acidity level, the pH of the solution was adjusted to 4.2, and the mixture was stirred at 50 °C for 90 min to ensure homogeneity. Following this, 1 mL of AEO was incorporated into 2 mL of the chitosan solution using a homogenizer at 13,000 rpm for 10 min in an ice bath to create an oil-in-water (o/w) emulsion. To facilitate ionic gelation of the chitosan, 6 mL of a 1% w/v TPP solution was added while continuously agitating for 30 min. Lastly, the mixture was centrifuged centrifuged (Froilabo, FW14R; France) at 9000×g for 30 min at 4 °C, and the resulting particles were rinsed three times with deionized water [35].
+
+Characterization of AEO-SLN
+
+Particle size, polydispersity index (PDI) measurement, and Zeta Potential (ZP)
+
+The particle size, ZP and size distribution of NPs were analyzed using a Zetasizer Nano S (Malvern Instruments Ltd., Worcestershire, UK). For the analysis, the NPs were diluted with purified water in a 1:10 ratio and measured at a temperature of 25 °C. The Ver.6.01 software was used to calculate the mean particle size. Additionally, the PDI was calculated to determine whether the produced nanoparticles were polydisperse or monodisperse.
+
+TEM analysis
+
+Transmission Electron Microscopy (TEM) (ZEISS EM10C-100 KV, Oberkochen, Germany) was used to determine the morphology, shape, and particle size of the nanoparticles. Nanoparticle suspensions were placed on formvar-coated 200–300 mesh grids. The samples were dehydrated using serially increased ethanol concentration and analyzed by TEM.
+
+FTIR spectrometry
+
+FT-IR spectroscopy was conducted to investigate the molecular vibrations, surface chemistry, and possible incompatibilities between the oil and the excipients contained in the nanoparticles. The synthesized AEO-NPs and the oil were analyzed using a Spectrum Two FT-IR spectrometer with a UATR accessory (PerkinElmer ES Version 10.5.3, USA) at a resolution of 4 cm− 1, spanning a range of 400–4000 cm− 1 [36].
+
+% Encapsulation efficiency (EE) and drug loading (DL)
+
+To assess the encapsulation efficiency (%EE) and drug loading (%DL), 500 mg of each nanoparticle was separately dispersed in 10 mL of medium (distilled water with 2% (v/v) of tween 80). The resulting dispersion was centrifuged at 6000 rpm for 20 min at 25 °C (Sigma 4-16KHS heated refrigerated centrifuge, Germany). The supernatant was collected, and the concentration of free, unencapsulated AEO was analyzed by UV–Vis spectrophotometry (Agilent Technologies, Cary 60, Santa Clara, CA, USA) at 225 nm wavelength (n = 3) [37]. The %DL and %EE were calculated according to the following equations:\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \% {\mathrm{EE}} = \frac{{\left( {{\text{Total amount of AEO added - Amount of free AEO}}} \right)}}{{{\text{Total amount of AEO added}}}} \times 100 $$\end{document}
+
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \% {\mathrm{DL}} = \frac{{\left( {{\text{Total amount of AEO added - Amount of free AEO}}} \right)}}{{{\text{Total weight of nanoparticles}}}} \times 100 $$\end{document}
+
+The release and release kinetic study of AEO from NPs
+
+A study was conducted to examine the in vitro release of AEO from SLN and chitosan nanoparticles using a dialysis bag with a 12–14 kDa cutoff. The release medium was distilled water with 2% Tween 80. A total of 1200 mg of AEO-loaded nanoparticles was placed in the dialysis bag, which was stirred at 100 rpm and maintained at 37 °C in 100 mL of receptor medium. At intervals (0, 1, 3, 6, 24, 48, and 72 h), 3 mL samples were drawn and replaced with fresh medium to remain the sink condition, and samples were analyzed using UV spectrophotometry at 225 nm [38] (n = 3). The release kinetics of AEO from nanoparticles were examined by evaluating the in vitro release rates through different mathematical models, including zero-order, first-order, Higuchi, Hixson-Crowell, and Korsmeyer-Peppas, using Microsoft Office 2016 Excel [39].
+
+Cell culture and treatment
+
+The HU02 fibroblast cell line, derived from healthy skin, was obtained from the Iranian Biological Resource Center (Tehran, Iran). The cells were cultured in Dulbecco’s Modified Eagle’s Medium (DMEM) (supplemented with 10% fetal bovine serum (FBS) and 1% penicillin-streptomycin) and were kept in an incubator at 37 °C with 5% CO2. After the third passage, the cells were seeded at a density of 1 × 10⁴ cells/well in a 96-well culture plate for the MTT test and a 6-well culture plate for lipid peroxidation and glutathione content analysis. Non-adherent cells were removed, and adherent cells were exposed to different concentrations of the samples (the AEO loading in nanoparticles, based on DL% and EE% results, for both AEO-SLN and AEO-CH, 1 mg of NPs approximately equals to 0.3 mg of AEO). The experimental samples were categorized into specific groups as described below:
+
+i. Control group: HU02 cells cultured in DMEM medium and phosphate-buffered saline (PBS).
+
+ii. Positive control group: HU02 cells exposed to H2O2 (200 µM).
+
+iii. NPs group: Various concentrations of AEO-loaded SLN and chitosan (1, 6, and 12 µg mL−1- containing 0.3, 1.8 and 3.6 µg mL−1 AEO).
+
+iv. NPs group + H2O2: Various concentrations of AEO-loaded SLN and chitosan (1, 6, 12 µg mL−1) in combination with H2O2 (200 µM).
+
+The cells were pretreated with various concentrations of SLN and CH (1, 6 and 12 µg mL−1) for 24 h. Cell treatment with H2O2 was performed for 4 h.
+
+Various concentrations of NPs were utilized in the MTT assay to identify the most effective concentration. Subsequently, only the most effective NP concentration (6 µg mL−1) was employed to assess lipid peroxidation and the levels of glutathione. All experiments were performed in triplicate.
+
+Cytotoxicity assay
+
+NPs were tested for their ability to inhibit cell growth in the HU02 cell line using the MTT assay. After exposure, MTT solution (20 µL, 5 mg mL−1 in PBS) and DMEM were added to the cells and incubated for 4 h. MTT solution is highly sensitive to light and therefore was wrapped around the container and placed in the refrigerator. The supernatants were then discarded, and DMSO (150 µL) was added to each well to dissolve the formazan crystals and shaken for 10 min. The optical density (OD) was measured at 570 nm using an absorbance microplate reader (BioTek) (Epoch™ Microplate Spectrophotometer, BioTek) [36].
+
+Measurement of lipid peroxidation
+
+The level of MDA was assessed using a commercial colorimetric assay kit from ZellBio GmbH, located in Ulm, Germany (CAT No. ZB-MDA-48 A). This assay kit adheres to the manufacturer’s guidelines for evaluating the rate of lipid peroxidation by measuring the levels of malondialdehyde (MDA), which is the end product of lipid peroxidation. In this study, thiobarbituric acid (TBA) functioned as the indicator, and the absorbance of the formed complex was recorded at 532 nm with an ELISA reader [40].
+
+Measurement of glutathione content
+
+The intracellular glutathione (GSH) of HU02 cells was measured using the glutathione assay kit (ZellBio GmbH, Ulm, Germany, CAT No. ZB-GSH-48 A). This kit employs a colorimetric method to analyze either total GSH or the reduced form GSH alone using a microtiter plate reader. Absorbance was measured at 412 nm using a microplate reader. Subsequently, the GSH level was calculated based on the GSH standard curve and equation [41].
+
+Antibacterial assay
+
+Bacterial strains and culture conditions
+
+This research examined the antimicrobial effects of AEO and AEO-NPs against standard strains of S. typhimurium (ATCC 14028) and E. coli (ATCC 25922), in addition to ten isolates of multidrug-resistant (MDR) E. coli and S. typhimurium. To assess the susceptibility of the ten isolates of E. coli and S. typhimurium, collected from Shahrivar Children’s Hospital in Rasht, Iran, the disk-diffusion technique was employed according to the standards established by the Clinical and Laboratory Standards Institute (CLSI). The following antibiotics were tested (PadtanTeb Co, Iran): gentamicin (GM, 10 µg), ceftazidime (CAZ, 30 µg), meropenem (MEN, 10 µg), ampicillin (AM, 10 µg), ciprofloxacin (CP, 5 µg), trimethoprim-sulfamethoxazole (SXT, 1.25/23.75 µg), amikacin (AN, 30 µg), piperacillin-tazobactam (PTZ, 100/10 µg), levofloxacin (LEV, 5 µg), cefepime (FEP, 30 µg), ceftriaxone (CRO, 30 µg), cefazolin (CZ, 30 µg), and nitrofurantoin (FM, 300 µg). The CLSI standards were followed to interpret the results of susceptibility or resistance to each antibiotic, and the strains that showed resistance to at least three antibiotic classes were considered MDR [42].
+
+Minimum inhibitory/ bactericidal concentration determination
+
+The minimum inhibitory concentration (MIC) of the AEO and AEO-NPs was examined using the broth microdilution method. In this study, various concentrations of AEO and AEO-NPs were tested on a sterile 96-well plate. Each sample was serially diluted from a concentration of 5 mg mL−1 to 0.015 mg mL−1 in Mueller-Hinton Broth (MHB). The concentration of microbes in each well was set to 106 CFU mL− 1, adjusting to a 0.5 McFarland standard, then diluting in MHB. Negative controls were MHB and the antimicrobial solutions and for positive control the bacterial inoculum was used. After 24 h of incubation at a temperature of 37 °C, the plates were visually examined to determine the level of turbidity. The precision of bacterial growth inhibition was verified by measuring the absorbance of each well using an ELISA reader set at a wavelength of 640 nm. Then, the MIC value was determined as the minimum concentration of the antimicrobial substance that prevents bacterial growth after 24 h. To determine the MBC, 0.1 mL of the solution from each well with no visible growth was cultured on Mueller-Hinton agar (MHA) plates. The plates were then incubated aerobically at 37 °C for next 24 h. The MBC is the minimum concentration of sample required to eliminate the 99.9% of bacterial population [43].
+
+Anti-biofilm assay
+
+The biofilm-forming potential of E. coli and S. typhimurium isolates with the highest resistance was evaluated using biofilm inhibition test and the microtiter plate spectrophotometric assay [44]. The bacterial strains (E2 and S3) were inoculated in MHB containing AEO-NPs and AEO with the concentrations of 1/2, 1/4, and 1/8 MIC and incubated at 37 °C for 24 and 48 h. Bacterial cells with MHB were used as a positive control (to form mature biofilm), and MHB without bacteria containing AEO-NPs as a negative control. Following the incubation period, each well was rinsed three times with sterile PBS, after which methanol was added to each well to preserve the biofilms. Subsequently, the methanol was discarded and the plates were left to dry at room temperature. In each well, 150 µL of a 1% crystal violet stain was applied to color the adhered cells. After allowing it to sit for 10 min, the contents of the wells were discarded, and then 200 µL of 95% ethanol was introduced, with the optical density (OD) of the stained bacterial films being assessed at 570 nm using an ELISA reader (n = 3). The film-forming capabilities of each isolate were evaluated in comparison to the negative and positive controls. To determine the anti-biofilm index, the following equation was utilized:\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {\mathrm{Inhibition}}\% = \frac{{\left( {{\text{OD control - OD sample}}} \right)}}{{{\text{OD control}}}} \times 100 $$\end{document}
+
+Statistical analysis
+
+The data were analyzed using GraphPadInStat software and SPSS 22.0 software. Statistical analyses, such as One-way ANOVA and independent t-tests, were performed to determine any significant differences among groups. The results were reported as mean ± SD. Differences were considered statistically significant when the P value was less than 0.05.
+
+Results
+
+Physicochemical characterization of nanoparticles
+
+Particle size and zeta potential
+
+The nanoparticles size and zeta potential were measured by Dynamic Light Scattering (DLS). The results demonstrated that the unfiltered AEO-SLN exhibited an average particle size of approximately 292.66 nm, with a negative charge of -21.9 mV and a PDI of 0.32 (Fig. 1a, b). In contrast, the average size of AEO-CH was around 188.41 nm with a PDI of 0.158. The zeta potential for AEO-CH was + 29.7 mV (Fig. 1c, d). The relatively high zeta potential suggests that the particles repel each other, leading to a stable colloidal dispersion. Also, the positive zeta potential of AEO-CH (+ 29.7 mV) is characteristic of chitosan and suggests strong electrostatic stabilization, which may also enhance interaction with negatively charged bacterial membranes.
+
+Fig. 1 Evaluations of AEO-NPS; a hydrodynamic diameter measurement of AEO-SLN by DLS. b zeta potential of AEO-SLN. c hydrodynamic diameter measurement of AEO-CH using DLS. d zeta potential of AEO-CH
+
+Encapsulation efficiency and drug loading
+
+The results of EE and DL are presented in Table 1. According to calculations, the AEO-CH had EE and DL values of 72.63 ± 0.31% and 30.21 ± 0.13% respectively, while the AEO-SLN showed EE and DL values of 67.7 ± 0.01% and 28.16 ± 0.003% respectively. The EE values > 67% for both formulations confirm the efficiency of the probe-sonication and ionic gelation methods in encapsulating the hydrophobic AEO.
+
+Table 1 Average size, Zeta potential, PDI, entrapment efficiency, drug loading and weight of AEO in AEO-NPs
+
+	Sample	Average size (nm)	Zeta potential (mV)	PDI	EE %	DL%	NP weight (mg)	Oil
+weight (mg)	
+1	AEO-SLN	292.66	−21.9	0.32	67.7 ± 0.01%	28.16 ± 0.003%	2400	1000	
+2	AEO-CH	188.41	+ 29.7	0.158	72.63 ± 0.31%	30.21 ± 0.13%	2140	1000	
+
+TEM characterization
+
+The morphological characteristics of AEO-SLN were examined by TEM. The TEM images showed that the prepared AEO-SLNs are spherically shaped with clear-edged particles, and the particles are well dispersed (Fig. 2a, b). Furthermore, the TEM photos of AEO-CH show spherical with slight irregularity particles with clear edges (Fig. 2c, d).
+
+Fig. 2 TEM two-dimensional structural qualification; a AEO-SLN on the scale of 40 nm, b AEO-SLN on the scale of 250 nm, c AEO-CH on the scale of 500 nm, d AEO-CH on the scale of 40 nm
+
+ATR-FTIR spectrometry
+
+Based on FTIR spectra (Fig. 3), strong absorption peaks at 3021 cm− 1 and 3010 cm− 1 were identified, representing the C-H stretching vibration peaks of the benzene ring and the C=C, respectively. The sharp absorption peaks between 1608 cm− 1 to 1446 cm− 1 are describing the stretching vibration peaks of the benzene ring. The peaks at 1248, 1175 and 1038 cm− 1 are presenting the stretching vibration peaks of C–O–C. The peaks at 842 cm− 1 and 790 cm− 1 are defining C–H bending vibration peaks of the substituent aromatics. Aforementioned characteristic peaks of AEO are mainly observable in AEO-SLN and AEO-CH spectra, confirming the stability of AEO in utilized nano-carriers. The FTIR spectra for incorporated excipients was previously studied [45, 46].
+
+Fig. 3 ATR-FTIR spectra of Anise essential oils (Black), AEO-SLN (Green) and AEO-CH (Red)
+
+In vitro release and release kinetic
+
+Figure 4 displays the AEO release profile from NPS. The drug release from both nanoparticles was nearly identical for the first 6 h; however, after that period, chitosan exhibited a slight increase in drug release. After 72 h, the release profile indicated 87.06 ± 3.59% for AEO-CH and 84.07 ± 4.11% for AEO-SLN. Both AEO-CH and AEO-SLN showed an increasing release trend over time. These results demonstrate that the cumulative drug release from nanoparticles is controlled and sustained over 72 h. Additionally, the release rate of AEO from chitosan was relatively higher than that of AEO-SLN during this period which may be attributed to the more hydrophilic and swellable nature of the chitosan matrix compared to the solid lipid core of the SLNs.
+
+Fig. 4 The cumulative release profile of AEO from AEO-SLN and AEO-CH in 72 h (n = 3)
+
+The kinetic model that best matched the release data was determined by the highest regression coefficient (R²). The Higuchi model showed the highest R² (0.984) for AEO-SLN, while AEO-CH had the highest R² (0.983) with the Zero order model (Table 2).
+
+Table 2 Release kinetic parameters for AEO-SLN and AEO-CH based on mathematical models
+
+Formulation	Zero order
+(M s− 1)	First order
+(s− 1)	Higuchi
+(g cm− 2 min− 1)	Korsemeyer-peppas (M s− n)	Hixson–Crowell (g1/3min− 1)	
+K0	R 2	K1	R 2	KH	R 2	KK	R 2	KHc	R 2	
+AEO-SLN	15.775	0.98	-0.111	0.938	15.78	0.984	0.399	0.751	0.051	0.864	
+AEO-CH	16.82	0.983	-0.124	0.917	16.818	0.983	0.409	0.774	0.057	0.89	
+
+Result of measurement of the oxidative stress parameters
+
+Biocompatibility study
+
+The MTT test was conducted to assess the cell viability of foreskin fibroblast cells (HU02) when exposed to different concentrations of nanoparticles and H2O2. The experiment involved using 1, 6, and 12 µg mL− 1 concentrations of nanoparticles in combination with H2O2. The findings indicated a significant increase in cell viability for all three samples compared to the group treated solely with H2O2 (Fig. 5a, b). The most effective NP concentration was 6 µg mL-1 that used for lipid peroxidation and glutathione assays.
+
+Fig. 5 The protective effect of solid lipid nanoparticles and chitosan containing anise essential oil in HU02 cells exposed to H2O2. Data were expressed as mean ± SEM (n = 3). *** Significantly different from the control group (P < 0.001); ## Significantly different from the H2O2 group (P < 0.01); ### Significantly different from the H2O2 group (P < 0.001); ns: Insignificant
+
+Results of lipid peroxidation assay
+
+In Fig. 6, the concentration of MDA in the groups treated with H2O2 was significantly higher compared to the control group (p < 0.001). However, the MDA concentrations in the groups treated with SLN+H2O2 and CH+H2O2 were significantly lower than in the H2O2-treated group (p < 0.001). These results suggest that SLN-NPs and CH-NPs may protect against oxidative stress induced by H2O2.
+
+Fig. 6 Effects of AEO-CH and AEO-SLN on lipid peroxidation in HU02 cells. Data were expressed as mean ± SEM (n = 3). *** Significantly different from the control group (P < 0.001); ## Significantly different from the H2O2 group (P < 0.01); ### Significantly different from the H2O2 group (P < 0.001); ns: Insignificant
+
+Results of glutathione content assay
+
+Figure 7 illustrates that the H2O2-treated group experienced a substantial reduction in glutathione concentration compared to the control group (p < 0.01). Conversely, the groups treated with SLN-H2O2 and CH-H2O2 resulted in markedly increased GSH concentrations compared to the H2O2-treated group (p < 0.001). Importantly, there was no statistically significant difference observed among the NP-treated groups in terms of the elevation of GSH concentrations.
+
+Fig. 7 Effects of AEO-CH and AEO-SLN on Glutathione concentration in HU02 cells. Data were expressed as mean ± SEM (n = 3). *** Significantly different from the control group (P < 0.001); ### Significantly different from the H2O2 group (P < 0.001); ns: Insignificant
+
+Antibacterial activity
+
+Antibiotic susceptibilities against E. coli and S. typhimurium isolates
+
+The antibiotic susceptibility report for tested strains is shown in Table 3. Antibiogram showed that strains E3 of E. coli and ST5 of S. typhimurium were the most resistant to antibiotics. These strains were exposed to ten different antibiotic disks (ceftazidime, meropenem, gentamicin, ampicillin, trimethoprim-sulfamethoxazole, amikacin, ciprofloxacin, piperacillin-tazobactam, cefepime, ceftriaxone, levofloxacin, cefazolin, and nitrofurantoin). Then, the results were compared with AEO, AEO-SLN, and AEO-CH. Representative images of the disk diffusion assay for the most resistant strains, ST5 and E3, are shown in Fig. 8a, b, demonstrating clear zones of inhibition around disks containing AEO-NPs compared to several antibiotic disks.
+
+Table 3 Antimicrobial susceptibilities E. coli and S. typhimurium isolated from hospital laboratory (n = 1)
+
+Isolates	AM	CP	LEV	SXT	CRO	MEN	CAZ	GM	AN	PTZ	FEP	CZ	FM	
+E1	R	I	I	R	R	S	R	R	R	R	R	R	S	
+E2	R	R	R	S	R	R	R	R	R	R	R	R	S	
+E3	R	R	R	R	R	R	R	R	R	R	R	R	R	
+E4	R	I	R	R	R	R	R	R	R	S	R	R	R	
+E5	R	R	R	R	R	R	R	S	R	R	R	R	S	
+ST1	R	S	S	S	R	R	-	-	-	-	-	-	-	
+ST2	R	S	R	R	R	S	-	-	-	-	-	-	-	
+ST3	R	S	S	S	R	R	-	-	-	-	-	-	-	
+ST4	R	S	R	S	R	R	-	-	-	-	-	-	-	
+ST5	R	I	R	S	R	R	-	-	-	-	-	-	-	
+AM: ampicillin, CP: ciprofloxacin, LEV: levofloxacin, SXT: trimethoprim-sulfamethoxazole, CRO: ceftriaxone, MEN: meropenem, CAZ: ceftazidime, GM: gentamicin, AN: amikacin, PTZ: piperacillin-tazobactam, FEP: cefepime, CZ: cefazolin, FM: nitrofurantoin, E: E. coli, ST: S. typhimurium, S: Susceptible, I: Intermediate, R: Resistant. –:not tested
+
+Fig. 8 Antibiogram to assess S. Typhimurium and E. coli sensibility to mentioned antibiotics. To verify the sensibility of E. coli and S. typhimurium to antibiotics, all strains were incubated for 24 h with the antibiotic according to a disk-diffusion method. a ST5, (1): ceftriaxone, (2): meropenem, (3): levofloxacin, (4): ciprofloxacin, (5): ampicillin, (6): trimethoprim-sulfamethoxazole, (7): AEO-CH, (8): AEO-SLN, (9): AEO, b: E3, (1): ampicillin, (2): meropenem, (3): nitrofurantoin, (4): cefazolin, (5): levofloxacin, (6): ceftriaxone, (7): cefepime, (8): piperacillin-tazobactam, (9): amikacin, (10): gentamicin, (11): ceftazidime, (12): ciprofloxacin, (13): trimethoprim-sulfamethoxazole, (14): AEO-CH, (15): AEO-SLN, (16): AEO
+
+Determination of MIC and MBC
+
+The results for MIC and MBC of AEO, AEO-SLN, and AEO-CH were determined against standard microorganisms as well as multidrug-resistant E. coli and S. typhimurium using the broth microdilution method, as shown in Table 4. The findings from the experiment demonstrated clear antimicrobial activity against the tested microorganisms, with S. typhimurium displaying greater susceptibility to Anise essential oil compared to E. coli. For E. coli, the determined MICs for AEO, AEO-SLN, and AEO-CH ranged from 560 to 570, 220 to 225, and 50 µg mL− 1, while the MBC values were between 885 and 895, 475 to 480, and 80 µg mL− 1, respectively (Table 4a). In addition, against S. typhimurium, the MICs were recorded as 540 to 550, 200 to 205, and 45 to 50 µg mL− 1, with MBC concentrations of 880 to 890, 465 to 475, and 80 µg mL− 1, respectively (Table 5). Conversely, solid lipid nanoparticles without the essential oil exhibited no antibacterial activity against either strain, and chitosan nanoparticles lacking Anise oil showed only a minimal effect (Tables 4 and 5). The results indicated that AEO had the least antibacterial efficacy against both microorganisms when compared to the nanoparticles. Although a comparison of the MIC and MBC ranges indicated that SLN enhances the antimicrobial properties of the pure oil against the tested microorganisms, AEO-CH demonstrated a significant improvement in antimicrobial effect as a nano-carrier system.
+
+Table 4 The MIC and MBC values (µg mL− 1) for pure oil, AEO-NPS, SLN, and CH against E. coli (n = 1)
+
+	Anise essential oil	AEO-SLN	SLN	AEO-CH	CH	
+MIC	MBC	MIC	MBC	MIC	MBC	MIC	MBC	MIC	MBC	
+E. coli
+
+(ATCC 25922)
+
+	560	885	220	475	–	–	50	80	29,600	47,000	
+E1	560	890	220	480	–	–	50	80	29,600	47,000	
+E2	560	890	220	480	–	–	50	80	29,600	47,000	
+E3	570	895	225	480	–	–	50	80	29,600	47,000	
+E4	560	890	220	480	–	–	50	80	29,600	47,000	
+E5	560	890	220	475	–	–	50	80	29,600	47,000	
+
+Table 5 The MIC and MBC values (µg mL− 1) for pure oil, AEO-NPS, SLN, and CH against S. typhimurium (n = 1)
+
+	Anise essential oil	AEO-SLN	SLN	AEO-CH	CH	
+MIC	MBC	MIC	MBC	MIC	MBC	MIC	MBC	MIC	MBC	
+S. typhimurium (ATCC 14028)	540	880	200	465	–	–	45	80	29,800	47,000	
+S1	540	880	205	470	–	–	45	80	29,800	47,000	
+S2	540	880	200	465	–	–	45	80	29,800	47,000	
+S3	540	880	205	470	–	–	45	80	29,800	47,000	
+S4	540	880	200	470	–	–	45	80	29,800	47,000	
+S5	550	890	205	475	–	–	50	80	29,800	47,000	
+
+Anti-biofilm activity
+
+The ability of clinical isolates to form biofilms was assessed through crystal violet staining. Following initial antibacterial evaluations, isolates E3 and S5 were identified as the most resistant and were chosen to test the anti-biofilm effectiveness of nanoparticles. At the concentrations of 1/2 MIC, 1/4 MIC, and 1/8 MIC AEO-CH showed 52.12%, 45.11%, 25.56% inhibition on E. coli and 55.87%, 48.07%, 28.24% inhibition on S. typhimurium biofilm after 24 h, respectively (Fig. 9 a, b). Results also demonstrated that after 48 h, the biofilm inhibitory effect of AEO-CH decreased slightly to 50.61%, 43.22%, 24.04% on E3 and to 52.84%, 46.1%, and 27.05% on S5. At the concentration of 1/2 MIC and 1/4 MIC, the inhibitory rates of AEO-SLN in 24 h were 41.82% 32.32% on E3 and 44.16%, and 33.88% on S5, respectively. These values significantly decreased to 32.24%, 18.22% (E3), and 34.61%, 18.94% (S5) after 48 h. Also, evaluation of pure oil showed inhibition of biofilm formation in 24 h in concentrations of 1/2 MIC and 1/4 MIC were 28.53%, 16.52%, and 30.81%, 17.62% in E3 and S5 respectively. The findings indicated that after 48 h of incubation, AEO-CH exhibited a notably greater inhibitory effect compared to both AEO-SLN and the pure oil. Also, the data revealed that AEO-SLN demonstrated a more potent anti-biofilm activity than the pure oil, with the highest level of anti-biofilm efficacy being recorded for AEO-CH.Also, the results showed that AEO-NPS exhibited stronger antibiofilm activity against E. coli compared to S. typhimurium.
+
+Fig. 9 Anti-biofilm activity of the AEO-CH, AEO-SLN, and AEO. a E. coli, b S. typhimurium (n = 3)
+
+Discussion
+
+Chemical additives are frequently utilized in the processing and preservation of food to inhibit microbial growth and oxidation and extend the shelf life. In this regard, essential oils derived from different plant parts have been thoroughly researched for their possible applications in the food sector [47]. They are generally recognized as safe (GRAS) substances for human consumption by the Food and Drug Administration [48].Hence, Anise essential oil’s effectiveness in inhibiting the development and proliferation of E. coli and S. typhimurium is thoroughly established due to its antimicrobial and antioxidant characteristics [49, 50]. However, the antibacterial activity of AEO-SLN compared to AE-CH has not yet been evaluated, yet. In this paper, we evaluated nanoparticles as a delivery system for AEO to inhibit the growth of pathogens responsible for food spoilage and foodborne illness for controlling post-processing contamination and extending shelf life in real food systems.
+
+Comparing the MIC and MBC of AEO and AEO-SLN in this study revealed that AEO-SLN significantly decreased the MIC and MBC to approximately 200 to 225 µg mL− 1 and 465 to 480 µg mL− 1 (about twofold decrease) for both microorganisms (P value < 0.001). However, to our knowledge, there is no study on AEO loaded SLN and its antimicrobial effects, several studies have confirmed the potentiating influence of SLN as nanocarrier for antimicrobial agents. For example, in antibiotics, the MIC of Ofloxacin against P. aeruginosa showed a nearly two-fold decrease, when loading in SLN [51]. Furthermore, SLN was observed to increase the fungicidal activity of tea tree oil against C. guilliermondii and other species [52]. Likewise, encapsulation of lavender oil into SLN showed a threefold decrease in the MIC of lavender oil-loaded SLN against S. aureus compared to pure oil [43]. On the other hand, the antioxidant activity of AEO was previously reported and the strengthening effect of nano-formulations of AEO was studied [17, 53, 54] which suggests Sustained release and protection of AEO by nano-formulations to improve antioxidant protection in HU02 cells. Considering the lipid structure of AEO and nano-formulations, the underlying mechanism is not exactly discovered, it is suggested that solid lipid nanoparticles (SLNs) can prevent the evaporation of the essential oil, thus increasing its stability and duration of action [55, 56]. Also, solid lipid nanoparticles may enhance contact with bacterial surfaces and sustain release, potentially improving antibiofilm effect [57]. SLNs can enhance the antimicrobial activity of drugs by increasing the drug’s ability to penetrate the bacterial cell wall. The use of this nanoparticle reduces drug release by bacterial pumps and protects antimicrobial agents from enzymes [58–60].
+
+Also, current results indicated that AEO-CH markedly reduced the MIC and MBC to 45–50 µg mL− 1 and 80 µg mL− 1, respectively compared to AEO-SLN and pure AEO. The functional enhancement of the antimicrobial agents by chitosan has been vastly reported, specifically regarding AEO, Pimpinella anisum essential oil in chitosan nano biopolymer CS-PAEO-Nm exhibited improved antifungal activity and anti-aflatoxigenic activity. The CS-PAEO-Nm treatment significantly inhibited ergosterol, enhanced ion leakage, and induced impairment in defense enzymes [61]. Moreover, chitosan nano-carriers markedly enhanced the antibacterial efficacy of several antibiotic medicines, such as cefotaxime incorporated into chitosan as a nano-antibiotic and cefazolin loaded into chitosan nanoparticles, corroborating our data [62, 63].
+
+The precise mechanism behind the antifungal activity of chitosan is not fully understood. Nonetheless, it appears to depend on both the specific characteristics of the target organism, such as its cell wall or plasma membrane composition and its ability to break down chitosan and the degree of polycationic strength of the chitosan itself, which is influenced by factors like the degree of acetylation and the pH of the environment [64, 65]. These findings support the idea that chitosan may interact externally with negatively charged surfaces of the cell wall and membrane, leading to cell leakage and potentially cell death, as well as the possibility of internal interactions where chitosan binds to proteins or nucleic acids and disrupts normal metabolic processes [66, 67]. Both mechanisms may be at play, as chitosan polymers and oligomers likely have different modes of action. Larger chitosan polymers probably do not penetrate the cell, instead acting externally to compromise cell wall or membrane integrity. This disruption might then allow smaller molecules to enter the cell and exert intracellular effects, which could explain the synergistic antimicrobial activity observed when both forms are used together [68]. It is also suggested that the observed synergy results from different modes of action, such as chitosan interacting with the cell surface to facilitate the entry of other antifungal agents into the cell [69].
+
+Conclusion
+
+In order to introduce a novel effective natural preservative against foodborne pathogens, AEO was encapsulated in two different nano-carriers. The results indicated that nanoencapsulation of AEO into solid lipid and chitosan nanoparticles, significantly increased its antibacterial and antioxidant potencies. Among the nano-carriers, chitosan was the leading candidate due to its markedly superior antibacterial efficacy compared to SLN. However, However, this study faces some limitations, only performing in vitro assays, and future work should test the formulations in real food matrices and sensory contexts.
+
+Electronic Supplementary Material
+
+Below is the link to the electronic supplementary material.
+
+Supplementary Material 1
+
+Acknowledgements
+
+This project is registered in Guilan University of Medical Sciences under the registration number of 47285 which is acknowledged.
+
+Author contributions
+
+Tina Ebrahimi: Experimental investigation, collaboration in draft preparation.Mehdi Evazalipour: Supervision in biocompatibility experimentEhsan Zamani: Supervision in antioxidant experimentsMehran Nemattalab: Experimental investigation, draft preparation.Pasha Ebrahimi: Collaboration in draft preparationZahra Hesari: Supervision, conceptualization, methodology, project administration, manuscript finalization.
+
+Funding
+
+No funding.
+
+Data availability
+
+All data materials have been included in paper manuscript.
+
+Declarations
+
+Ethics approval and consent to participate
+
+The study protocol was evaluated and confirmed by the ethics committee of Guilan University of Medical Sciences with the code of: IR.GUMS.REC.1403.142. Not applicable.
+
+Consent for publication
+
+Not applicable.
+
+Clinical trial number
+
+Not applicable.
+
+Competing interests
+
+The authors declare no competing interests.
+
+Publisher’s note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+
+References
+
+1. Lahiri D Nag M Bhattacharya D Samanta A Roy D Ray RR Bacteriocin-mediated food coating: a strategic way to prevent food spoiling and food poisoning bacteria Nutrire 2024 49 1 22 10.1186/s41110-024-00264-9
+Lahiri D, Nag M, Bhattacharya D, Samanta A, Roy D, Ray RR, et al. Bacteriocin-mediated food coating: a strategic way to prevent food spoiling and food poisoning bacteria. Nutrire. 2024;49(1):22.
+2. Rudlong AM Pillai KV Goddard JM Synthesis of polymerizable quaternary ammonium bromides and their efficacy against pathogenic and food spoilage bacteria Food Humanity 2023 1 873 9 10.1016/j.foohum.2023.07.023
+Rudlong AM, Pillai KV, Goddard JM. Synthesis of polymerizable quaternary ammonium bromides and their efficacy against pathogenic and food spoilage bacteria. Food Humanity. 2023;1:873–9.
+3. Calo JR Crandall PG O’Bryan CA Ricke SC Essential oils as antimicrobials in food systems – A review Food Control 2015 54 111 9 10.1016/j.foodcont.2014.12.040
+Calo JR, Crandall PG, O’Bryan CA, Ricke SC. Essential oils as antimicrobials in food systems: a review. Food Control. 2015;54:111–9.
+4. Noorpisheh Ghadimi S Abedini MR Sarkari B Savardashtaki A Mikaeili F Neobalantidium coli: First molecular identification from the Eurasian wild boar, Sus scrofa in Bushehr Province, Southwestern Iran Veterinary Med Sci 2020 6 1 142 6 10.1002/vms3.210 PMC7036306 31650710
+Noorpisheh Ghadimi S, Abedini MR, Sarkari B, Savardashtaki A, Mikaeili F. Neobalantidium coli: First molecular identification from the Eurasian wild boar, Sus scrofa in Bushehr Province, Southwestern Iran. Veterinary Med Sci. 2020;6(1):142–6.10.1002/vms3.210 PMC7036306 31650710
+5. Chouhan S Sharma K Guleria S Antimicrobial activity of some essential oils—present status and future perspectives Medicines 2017 4 3 58 10.3390/medicines4030058 28930272 PMC5622393
+Chouhan S, Sharma K, Guleria S. Antimicrobial activity of some essential oils: present status and future perspectives. Medicines. 2017;4(3):58.28930272 10.3390/medicines4030058 PMC5622393
+6. Sateriale D Forgione G De Cristofaro GA Pagliuca C Colicchio R Salvatore P Antibacterial and Antibiofilm Efficacy of Thyme (Thymus vulgaris L.) Essential Oil against Foodborne Illness Pathogens, Salmonella enterica subsp. enterica Serovar Typhimurium and Bacillus cereus Antibiotics 2023 12 3 485 10.3390/antibiotics12030485 36978352 PMC10044538
+Sateriale D, Forgione G, De Cristofaro GA, Pagliuca C, Colicchio R, Salvatore P, et al. Antibacterial and antibiofilm efficacy of thyme (Thymus vulgaris L.) essential oil against foodborne illness pathogens, salmonella enterica subsp. enterica serovar typhimurium and bacillus cereus. Antibiotics. 2023;12(3):485.36978352 10.3390/antibiotics12030485 PMC10044538
+7. Qin M Han S Chen M Li P Wang Y Niu W Biofilm formation of Hafnia paralvei induced by c-di-GMP through facilitating bcsB gene expression promotes spoilage of Yellow River carp (Cyprinus carpio) Food Microbiol 2024 120 104482 10.1016/j.fm.2024.104482 38431313
+Qin M, Han S, Chen M, Li P, Wang Y, Niu W, et al. Biofilm formation of Hafnia paralvei induced by c-di-GMP through facilitating bcsB gene expression promotes spoilage of Yellow River carp (Cyprinus carpio). Food Microbiol. 2024;120:104482.38431313 10.1016/j.fm.2024.104482
+8. Jafari R Zandi M Ganjloo A Characterization of alginate-gelatin edible film containing anise (Pimpinella anisum L.) essential oil J Polym Environ 2023 31 4 1568 83 10.1007/s10924-022-02707-8
+Jafari R, Zandi M, Ganjloo A. Characterization of alginate-gelatin edible film containing anise (Pimpinella anisum L.) essential oil. J Polym Environ. 2023;31(4):1568–83.
+9. Almaimani G Jabbar AA Ibrahim IAA Alzahrani AR Bamagous GA Almaimani RA Anise (Pimpinella anisum L.) attenuates azoxymethane-induced colorectal cancer by antioxidant, anti-inflammatory, and anti-apoptotic pathways in rats Environ Sci Pollut Res 2024 31 3 4439 52 10.1007/s11356-023-31349-z 38103135
+Almaimani G, Jabbar AA, Ibrahim IAA, Alzahrani AR, Bamagous GA, Almaimani RA, et al. Anise (Pimpinella anisum L.) attenuates azoxymethane-induced colorectal cancer by antioxidant, anti-inflammatory, and anti-apoptotic pathways in rats. Environ Sci Pollut Res. 2024;31(3):4439–52.10.1007/s11356-023-31349-z 38103135
+10. Al-Shammeryi WHM. Green Synthesis of some nanoparticles (gold, copper) and their effect on seed growth and plant physiology anise (pimpinella anisum). 2024.
+11. Jafari R Zandi M Ganjloo A Effect of ultrasound and microwave pretreatments on extraction of anise (Pimpinella anisum L.) seed essential oil by ohmic-assisted hydrodistillation J Appl Res Med Aromatic Plants 2022 31 100418
+Jafari R, Zandi M, Ganjloo A. Effect of ultrasound and microwave pretreatments on extraction of anise (Pimpinella anisum L.) seed essential oil by ohmic-assisted hydrodistillation. J Appl Res Med Aromatic Plants. 2022;31:100418.
+12. Alderees F Akter S Mereddy R Sultanbawa Y Formulation, characterization, and stability of food grade oil-in‐water nanoemulsions of essential oils of Tasmannia lanceolata, Backhousia citriodora and Syzygium anisatum J Food Saf 2022 42 5 e13001 10.1111/jfs.13001
+Alderees F, Akter S, Mereddy R, Sultanbawa Y. Formulation, characterization, and stability of food grade oil-in‐water nanoemulsions of essential oils of Tasmannia lanceolata, Backhousia citriodora and Syzygium anisatum. J Food Saf. 2022;42(5):e13001.
+13. Safaeian Laein S Mohajer F Khanzadi A Gheybi F Azizzadeh M Noori SMA Effect of alginate coating activated by solid lipid nanoparticles containing Zataria multiflora essential oil on chicken fillet’s preservation Food Chem 2024 446 138816 10.1016/j.foodchem.2024.138816 38422646
+Safaeian Laein S, Mohajer F, Khanzadi A, Gheybi F, Azizzadeh M, Noori SMA, et al. Effect of alginate coating activated by solid lipid nanoparticles containing Zataria multiflora essential oil on chicken fillet’s preservation. Food Chem. 2024;446:138816.38422646 10.1016/j.foodchem.2024.138816
+14. Mendes CR Zortea AVL de Souza Laurentino G de Lima GHT de Freitas P Dilarri G Anise essential oil immobilized in chitosan microparticles: a novel bactericidal material for food protection Int Microbiol 2025 28 Suppl 1 161 75 39316255 10.1007/s10123-024-00594-8
+Mendes CR, Zortea AVL, de Souza Laurentino G, de Lima GHT, de Freitas P, Dilarri G, et al. Anise essential oil immobilized in chitosan microparticles: a novel bactericidal material for food protection. Int Microbiol. 2025;28(Suppl 1):161–75.39316255 10.1007/s10123-024-00594-8
+15. Mahdavi V Hosseini SE Sharifan A Effect of edible chitosan film enriched with anise (Pimpinella anisum L.) essential oil on shelf life and quality of the chicken burger Food Sci Nutr 2018 6 2 269 79 10.1002/fsn3.544 29564092 PMC5849928
+Mahdavi V, Hosseini SE, Sharifan A. Effect of edible chitosan film enriched with anise (Pimpinella anisum L.) essential oil on shelf life and quality of the chicken burger. Food Sci Nutr. 2018;6(2):269–79.29564092 10.1002/fsn3.544 PMC5849928
+16. Chen Q Wang Z Li H Xu B Effects of chitosan-based packaging film crosslinked with nanoencapsulated star anise essential oil and superchilled storage on the quality of rabbit meat patties Int J Biol Macromol 2024 271 Pt 1 132402 10.1016/j.ijbiomac.2024.132402 38754662
+Chen Q, Wang Z, Li H, Xu B. Effects of chitosan-based packaging film crosslinked with nanoencapsulated star anise essential oil and superchilled storage on the quality of rabbit meat patties. Int J Biol Macromol. 2024;271(Pt 1):132402.38754662 10.1016/j.ijbiomac.2024.132402
+17. Abu Ali OA El-Naggar ME Abdel-Aziz MS Saleh DI Abu-Saied MA El-Sayed WA Facile Synthesis of Natural Anise-Based Nanoemulsions and Their Antimicrobial Activity Polym [Internet] 2021 13 12 2009 10.3390/polym13122009 PMC8235015 34205409
+Abu Ali OA, El-Naggar ME, Abdel-Aziz MS, Saleh DI, Abu-Saied MA, El-Sayed WA. Facile synthesis of natural anise-based nanoemulsions and their antimicrobial activity. Polym [Internet]. 2021;13(12):2009.10.3390/polym13122009 PMC8235015 34205409
+18. Gülçın İ Oktay M Kıreçcı E Küfrevıoǧlu Öİ Screening of antioxidant and antimicrobial activities of anise (Pimpinella anisum L.) seed extracts Food Chem 2003 83 371 82 10.1016/S0308-8146(03)00098-0
+Gülçın İ, Oktay M, Kıreçcı E, Küfrevıoǧlu Öİ. Screening of antioxidant and antimicrobial activities of anise (Pimpinella anisum L.) seed extracts. Food Chem. 2003;83:371–82.
+19. Palermo D Giunti G Laudani F Palmeri V Campolo O Essential Oil-Based Nano-Biopesticides: Formulation and Bioactivity against the Confused Flour Beetle Tribolium confusum Sustain [Internet] 2021 13 17 9746 10.3390/su13179746
+Palermo D, Giunti G, Laudani F, Palmeri V, Campolo O. Essential oil-based nano-biopesticides: formulation and bioactivity against the confused flour beetle tribolium confusum. Sustain [Internet]. 2021;13(17):9746.
+20. Chen C, Tian Q, Yi J, Hu X, Du M, Jiang Y. Anise essential oil nano-emulsion prepared with nicandra physalodes (Linn.) Gaertn. Seed Pectin: Optim, Charac, Stab Bioact. 2024.
+21. Ghazy OA Fouad MT Saleh HH Kholif AE Morsy TA Ultrasound-assisted preparation of anise extract nanoemulsion and its bioactivity against different pathogenic bacteria Food Chem 2021 341 128259 10.1016/j.foodchem.2020.128259 33068847
+Ghazy OA, Fouad MT, Saleh HH, Kholif AE, Morsy TA. Ultrasound-assisted preparation of anise extract nanoemulsion and its bioactivity against different pathogenic bacteria. Food Chem. 2021;341:128259.33068847 10.1016/j.foodchem.2020.128259
+22. Stahl MA Lüdtke FL Grimaldi R Gigante ML Ribeiro APB Characterization and stability of solid lipid nanoparticles produced from different fully hydrogenated oils Food Res Int 2024 176 113821 10.1016/j.foodres.2023.113821 38163721
+Stahl MA, Lüdtke FL, Grimaldi R, Gigante ML, Ribeiro APB. Characterization and stability of solid lipid nanoparticles produced from different fully hydrogenated oils. Food Res Int. 2024;176:113821.38163721 10.1016/j.foodres.2023.113821
+23. Katopodi A Detsi A Solid Lipid Nanoparticles and Nanostructured Lipid Carriers of natural products as promising systems for their bioactivity enhancement: The case of essential oils and flavonoids Colloids Surf A 2021 630 127529 10.1016/j.colsurfa.2021.127529
+Katopodi A, Detsi A. Solid lipid nanoparticles and nanostructured lipid carriers of natural products as promising systems for their bioactivity enhancement: The case of essential oils and flavonoids. Colloids Surf A. 2021;630:127529.
+24. Laein SS Khanzadi S Hashemi M Gheybi F Azizzadeh M Peppermint essential oil-loaded solid lipid nanoparticle in gelatin coating: Characterization and antibacterial activity against foodborne pathogen inoculated on rainbow trout (Oncorhynchus mykiss) fillet during refrigerated storage J Food Sci 2022 87 7 2920 31 10.1111/1750-3841.16221 35703572
+Laein SS, Khanzadi S, Hashemi M, Gheybi F, Azizzadeh M. Peppermint essential oil-loaded solid lipid nanoparticle in gelatin coating: characterization and antibacterial activity against foodborne pathogen inoculated on rainbow trout (Oncorhynchus mykiss) fillet during refrigerated storage. J Food Sci. 2022;87(7):2920–31.35703572 10.1111/1750-3841.16221
+25. Geeta S Devi N Shayoraj, Bansal N Sharma S Novel chitosan-based smart bio-nanocomposite films incorporating TiO2 nanoparticles for white bread preservation Int J Biol Macromol 2024 267 131367 10.1016/j.ijbiomac.2024.131367 38583837
+Geeta S, Devi N, Shayoraj, Bansal N, Sharma S, et al. Novel chitosan-based smart bio-nanocomposite films incorporating TiO2 nanoparticles for white bread preservation. Int J Biol Macromol. 2024;267:131367.38583837 10.1016/j.ijbiomac.2024.131367
+26. Hadidi M Pouramin S Adinepour F Haghani S Jafari SM Chitosan nanoparticles loaded with clove essential oil: Characterization, antioxidant and antibacterial activities Carbohydr Polym 2020 236 116075 10.1016/j.carbpol.2020.116075 32172888
+Hadidi M, Pouramin S, Adinepour F, Haghani S, Jafari SM. Chitosan nanoparticles loaded with clove essential oil: characterization, antioxidant and antibacterial activities. Carbohydr Polym. 2020;236:116075.32172888 10.1016/j.carbpol.2020.116075
+27. Zhou Q Lan W Xie J Phenolic acid-chitosan derivatives: An effective strategy to cope with food preservation problems Int J Biol Macromol 2024 254 127917 10.1016/j.ijbiomac.2023.127917 37939754
+Zhou Q, Lan W, Xie J. Phenolic acid-chitosan derivatives: an effective strategy to cope with food preservation problems. Int J Biol Macromol. 2024;254:127917.37939754 10.1016/j.ijbiomac.2023.127917
+28. Waris G Ahsan H Reactive oxygen species: role in the development of cancer and various chronic conditions J Carcinog 2006 5 14 10.1186/1477-3163-5-14 16689993 PMC1479806
+Waris G, Ahsan H. Reactive oxygen species: role in the development of cancer and various chronic conditions. J Carcinog. 2006;5:14.16689993 10.1186/1477-3163-5-14 PMC1479806
+29. Sedelnikova OA Redon CE Dickey JS Nakamura AJ Georgakilas AG Bonner WM Role of oxidatively induced DNA lesions in human pathogenesis Mutat Research/Reviews Mutat Res 2010 704 1–3 152 9 10.1016/j.mrrev.2009.12.005 20060490 PMC3074954
+Sedelnikova OA, Redon CE, Dickey JS, Nakamura AJ, Georgakilas AG, Bonner WM. Role of oxidatively induced DNA lesions in human pathogenesis. Mutat Research/Reviews Mutat Res. 2010;704(1–3):152–9.20060490 10.1016/j.mrrev.2009.12.005 PMC3074954
+30. Atapour-Mashhad H, Tayarani-Najaran Z, Golmohammadzadeh S. Preparation and characterization of novel nanostructured lipid carriers (NLC) and solid lipid nanoparticles (SLN) containing coenzyme Q10 as potent antioxidants and antityrosinase agents. Heliyon. 2024;10(11).10.1016/j.heliyon.2024.e31429 PMC11180323 38882272
+31. Zamani E Klour RA Shekarsarayi AG Ghazizadeh F Evazalipour M vitro and in vivo assessment of indomethacin-induced genotoxicity: protection by curcumin Res Pharm Sci 2024 19 2 178 87 10.4103/RPS.RPS_100_23 39035581 PMC11257203
+Zamani E, Klour RA, Shekarsarayi AG, Ghazizadeh F, Evazalipour M. vitro and in vivo assessment of indomethacin-induced genotoxicity: protection by curcumin. Res Pharm Sci. 2024;19(2):178–87.39035581 10.4103/RPS.RPS_100_23 PMC11257203
+32. Castellani S Iaconisi GN Tripaldi F Porcelli V Trapani A Messina E Dopamine and Citicoline-Co-Loaded Solid Lipid Nanoparticles as Multifunctional Nanomedicines for Parkinson’s Disease Treatment by Intranasal Administration Pharmaceutics 2024 16 8 1048 10.3390/pharmaceutics16081048 39204393 PMC11360708
+Castellani S, Iaconisi GN, Tripaldi F, Porcelli V, Trapani A, Messina E, et al. Dopamine and citicoline-co-loaded solid lipid nanoparticles as multifunctional nanomedicines for Parkinson’s disease treatment by intranasal administration. Pharmaceutics. 2024;16(8):1048.39204393 10.3390/pharmaceutics16081048 PMC11360708
+33. Lin K-H Lin F-W Wu C-W Chang Y-S Biostimulation of maize (Zea mays) and irrigation management improved crop growth and water use under controlled environment Agronomy 2019 9 9 559 10.3390/agronomy9090559
+Lin K-H, Lin F-W, Wu C-W, Chang Y-S. Biostimulation of maize (Zea mays) and irrigation management improved crop growth and water use under controlled environment. Agronomy. 2019;9(9):559.
+34. Rohani M Nemattalab M Hedayati M Ghasemi S Hesari Z Comparison of chitosan and SLN nano-delivery systems for antibacterial effect of cinnamon (Cinnamomum verum) oil against MDR K pneumoniae and E coli Phys Scr 2023 98 10 105002 10.1088/1402-4896/acf3a5
+Rohani M, Nemattalab M, Hedayati M, Ghasemi S, Hesari Z. Comparison of chitosan and SLN nano-delivery systems for antibacterial effect of cinnamon (Cinnamomum verum) oil against MDR K pneumoniae and E coli. Phys Scr. 2023;98(10):105002.
+35. Payamifard M, Nemattalab M, Rezaie Shirmard L, Hesari Z. SLN and chitosan nano-delivery systems for antibacterial effect of black seed (Nigella sativa) oil against S. aureus. Int J Environ Health Res. 2024:1–12.10.1080/09603123.2024.2378103 39033513
+36. Ghasemi S Dabirian S Kariminejad F Koohi DE Nemattalab M Majidimoghadam S Process optimization for green synthesis of silver nanoparticles using Rubus discolor leaves extract and its biological activities against multi-drug resistant bacteria and cancer cells Sci Rep 2024 14 1 4130 10.1038/s41598-024-54702-9 38374139 PMC10876668
+Ghasemi S, Dabirian S, Kariminejad F, Koohi DE, Nemattalab M, Majidimoghadam S, et al. Process optimization for green synthesis of silver nanoparticles using Rubus discolor leaves extract and its biological activities against multi-drug resistant bacteria and cancer cells. Sci Rep. 2024;14(1):4130.38374139 10.1038/s41598-024-54702-9 PMC10876668
+37. Vase H Nemattalab M Rohani M Hesari Z Comparison of chitosan and SLN nano-delivery systems for antibacterial effect of tea tree (Melaleuca alternifolia) oil against P. aeruginosa and S. aureus Lett Appl Microbiol 2023 76 11 ovad130 10.1093/lambio/ovad130 37989849
+Vase H, Nemattalab M, Rohani M, Hesari Z. Comparison of chitosan and SLN nano-delivery systems for antibacterial effect of tea tree (Melaleuca alternifolia) oil against P. aeruginosa and S. aureus. Lett Appl Microbiol. 2023;76(11):ovad130.37989849 10.1093/lambio/ovad130
+38. Wakade VS Shende P Design of targeted delivery of DNA microplexes on insulin receptors for alveolar cancer J Drug Deliv Sci Technol 2021 65 102754 10.1016/j.jddst.2021.102754
+Wakade VS, Shende P. Design of targeted delivery of DNA microplexes on insulin receptors for alveolar cancer. J Drug Deliv Sci Technol. 2021;65:102754.
+39. Mortazavi SM Mortazavi SA Propranolol hydrochloride buccoadhesive tablet: development and in-vitro evaluation Iran J Pharm Research: IJPR 2020 19 2 22 33224208 10.22037/ijpr.2019.13866.13346 PMC7667541
+Mortazavi SM, Mortazavi SA. Propranolol hydrochloride buccoadhesive tablet: development and in-vitro evaluation. Iran J Pharm Research: IJPR. 2020;19(2):22.33224208 10.22037/ijpr.2019.13866.13346 PMC7667541
+40. Ahangar N Naderi M Noroozi A Ghasemi M Zamani E Shaki F Zinc deficiency and oxidative stress involved in valproic acid induced hepatotoxicity: protection by zinc and selenium supplementation Biol Trace Elem Res 2017 179 102 9 10.1007/s12011-017-0944-z 28124216
+Ahangar N, Naderi M, Noroozi A, Ghasemi M, Zamani E, Shaki F. Zinc deficiency and oxidative stress involved in valproic acid induced hepatotoxicity: protection by zinc and selenium supplementation. Biol Trace Elem Res. 2017;179:102–9.28124216 10.1007/s12011-017-0944-z
+41. Hosseini-Zijoud SM Ebadi SA Goodarzi MT Hedayati M Abbasalipourkabir R Mahjoob MP Lipid Peroxidation and Antioxidant Status in Patients with Medullary Thyroid Carcinoma: A Case-Control Study J Clin Diagn Res 2016 10 2 Bc04 7 27042443 10.7860/JCDR/2016/17854.7202 PMC4800508
+Hosseini-Zijoud SM, Ebadi SA, Goodarzi MT, Hedayati M, Abbasalipourkabir R, Mahjoob MP, et al. Lipid Peroxidation and Antioxidant Status in Patients with Medullary Thyroid Carcinoma: A Case-Control Study. J Clin Diagn Res. 2016;10(2):Bc04–7.27042443 10.7860/JCDR/2016/17854.7202 PMC4800508
+42. Peruzy MF Capuano F Proroga YTR Cristiano D Carullo MR Murru N Antimicrobial susceptibility testing for salmonella serovars isolated from food samples: Five-year monitoring (2015–2019) Antibiotics 2020 9 7 365 10.3390/antibiotics9070365 32610532 PMC7400401
+Peruzy MF, Capuano F, Proroga YTR, Cristiano D, Carullo MR, Murru N. Antimicrobial susceptibility testing for salmonella serovars isolated from food samples: Five-year monitoring (2015–2019). Antibiotics. 2020;9(7):365.32610532 10.3390/antibiotics9070365 PMC7400401
+43. Fahimnia F Nemattalab M Hesari Z Development and characterization of a topical gel, containing lavender (Lavandula angustifolia) oil loaded solid lipid nanoparticles BMC Complement Med Ther 2024 24 1 155 10.1186/s12906-024-04440-2 38589838 PMC11000301
+Fahimnia F, Nemattalab M, Hesari Z. Development and characterization of a topical gel, containing lavender (Lavandula angustifolia) oil loaded solid lipid nanoparticles. BMC Complement Med Ther. 2024;24(1):155.38589838 10.1186/s12906-024-04440-2 PMC11000301
+44. Hou S Guo J Liu L Qiu F Liu X Antibacterial and antibiofilm activity of Lagotis brachystachya extract against extended-spectrum β-lactamases-producing Escherichia coli from broiler chickens Poult Sci 2022 101 1 101555 10.1016/j.psj.2021.101555 34847518 PMC8637138
+Hou S, Guo J, Liu L, Qiu F, Liu X. Antibacterial and antibiofilm activity of Lagotis brachystachya extract against extended-spectrum β-lactamases-producing Escherichia coli from broiler chickens. Poult Sci. 2022;101(1):101555.34847518 10.1016/j.psj.2021.101555 PMC8637138
+45. Nemattalab M Rohani M Evazalipour M Hesari Z Formulation of Cinnamon (Cinnamomum verum) oil loaded solid lipid nanoparticles and evaluation of its antibacterial activity against Multi-drug Resistant Escherichia coli BMC Complement Med Ther 2022 22 1 289 10.1186/s12906-022-03775-y 36352402 PMC9647953
+Nemattalab M, Rohani M, Evazalipour M, Hesari Z. Formulation of Cinnamon (Cinnamomum verum) oil loaded solid lipid nanoparticles and evaluation of its antibacterial activity against multi-drug resistant escherichia coli. BMC Complement Med Ther. 2022;22(1):289.36352402 10.1186/s12906-022-03775-y PMC9647953
+46. Rohani M Nemattalab M Hedayati M Ghasemi S Hesari Z Comparison of chitosan and SLN nano-delivery systems for antibacterial effect of cinnamon (Cinnamomum verum) oil against MDR K pneumoniae and E coli Phys Scr 2023 98 105002 10.1088/1402-4896/acf3a5
+Rohani M, Nemattalab M, Hedayati M, Ghasemi S, Hesari Z. Comparison of chitosan and SLN nano-delivery systems for antibacterial effect of cinnamon (Cinnamomum verum) oil against MDR K pneumoniae and E coli. Phys Scr. 2023;98:105002.
+47. Merlino M Condurso C Cincotta F Nalbone L Ziino G Verzera A Essential Oil Emulsion from Caper (Capparis spinosa L.) Leaves: Exploration of Its Antibacterial and Antioxidant Properties for Possible Application as a Natural Food Preservative Antioxidants 2024 13 6 718 10.3390/antiox13060718 38929157 PMC11200896
+Merlino M, Condurso C, Cincotta F, Nalbone L, Ziino G, Verzera A. Essential Oil Emulsion from Caper (Capparis spinosa L.) Leaves: exploration of its antibacterial and antioxidant properties for possible application as a natural food preservative. Antioxidants. 2024;13(6):718.38929157 10.3390/antiox13060718 PMC11200896
+48. dos Frederico C Santos Franciscato LMS Ruiz SP Essential oils as natural food additives: stability and safety Arquivos de Ciências da Saúde da UNIPAR 2023 27 10 5739 55 10.25110/arqsaude.v27i10.2023-018
+Frederico C, dos Santos Franciscato LMS, Ruiz SP. Essential oils as natural food additives: stability and safety. Arquivos de Ciências da Saúde da UNIPAR. 2023;27(10):5739–55.
+49. AlBalawi AN Elmetwalli A Baraka DM Alnagar HA Alamri ES Hassan MG Chemical constituents, antioxidant potential, and antimicrobial efficacy of Pimpinella anisum extracts against multidrug-resistant bacteria Microorganisms 2023 11 4 1024 10.3390/microorganisms11041024 37110449 PMC10144661
+AlBalawi AN, Elmetwalli A, Baraka DM, Alnagar HA, Alamri ES, Hassan MG. Chemical constituents, antioxidant potential, and antimicrobial efficacy of Pimpinella anisum extracts against multidrug-resistant bacteria. Microorganisms. 2023;11(4):1024.37110449 10.3390/microorganisms11041024 PMC10144661
+50. Azam F Alqarni MH Alnasser SM Alam P Jawaid T Kamal M Formulation, In Vitro and In Silico Evaluations of Anise (Pimpinella anisum L.) Essential Oil Emulgel with Improved Antimicrobial Effects Gels 2023 9 2 111 10.3390/gels9020111 36826281 PMC9957046
+Azam F, Alqarni MH, Alnasser SM, Alam P, Jawaid T, Kamal M, et al. Formulation, in vitro and in silico evaluations of anise (pimpinella anisum l.) essential oil emulgel with improved antimicrobial effects. Gels. 2023;9(2):111.36826281 10.3390/gels9020111 PMC9957046
+51. Rodenak-Kladniew B Scioli Montoto S Sbaraglini ML Di Ianni M Ruiz ME Talevi A Hybrid Ofloxacin/eugenol co-loaded solid lipid nanoparticles with enhanced and targetable antimicrobial properties Int J Pharm 2019 569 118575 10.1016/j.ijpharm.2019.118575 31356956
+Rodenak-Kladniew B, Scioli Montoto S, Sbaraglini ML, Di Ianni M, Ruiz ME, Talevi A, et al. Hybrid Ofloxacin/eugenol co-loaded solid lipid nanoparticles with enhanced and targetable antimicrobial properties. Int J Pharm. 2019;569:118575.31356956 10.1016/j.ijpharm.2019.118575
+52. Mockdeci HR Junqueira LA Duarte LM de Souza Moreira CP de Oliveira MAL Brandão MAF Improved anti-Candida activity of hydrogel containing tea tree oil-loaded solid lipid nanoparticles for the treatment of oropharyngeal candidiasis RPS Pharm Pharmacol Rep 2023 2 1 rqac010 10.1093/rpsppr/rqac010
+Mockdeci HR, Junqueira LA, Duarte LM, de Souza Moreira CP, de Oliveira MAL, Brandão MAF, et al. Improved anti-Candida activity of hydrogel containing tea tree oil-loaded solid lipid nanoparticles for the treatment of oropharyngeal candidiasis. RPS Pharm Pharmacol Rep. 2023;2(1):rqac010.
+53. Liu S Zhao C Cao Y Li Y Zhang Z Nie D Comparison of Chemical Compositions and Antioxidant Activity of Essential Oils from Litsea Cubeba, Cinnamon, Anise, and Eucalyptus Molecules [Internet] 2023 28 13 5051 10.3390/molecules28135051 37446712 PMC10343171
+Liu S, Zhao C, Cao Y, Li Y, Zhang Z, Nie D, et al. Comparison of chemical compositions and antioxidant activity of essential oils from Litsea Cubeba, cinnamon, anise, and eucalyptus. Molecules [Internet]. 2023;28(13):5051.37446712 10.3390/molecules28135051 PMC10343171
+54. El-Sayed SM Ahmed N Selim S Al-Khalaf AA El Nahhas N Abdel-Hafez SH Acaricidal and Antioxidant Activities of Anise Oil (Pimpinella anisum) and the Oil’s Effect on Protease and Acetylcholinesterase in the Two-Spotted Spider Mite (Tetranychus urticae Koch) Agric [Internet] 2022 12 2 224
+El-Sayed SM, Ahmed N, Selim S, Al-Khalaf AA, El Nahhas N, Abdel-Hafez SH, et al. Acaricidal and antioxidant activities of anise oil (Pimpinella anisum) and the oil’s effect on protease and acetylcholinesterase in the two-spotted spider mite (Tetranychus urticae Koch). Agric [Internet]. 2022;12(2):224.
+55. Moghimipour E Ramezani Z Handali S Solid lipid nanoparticles as a delivery system for Zataria multiflora essential oil: formulation and characterization Curr Drug Deliv 2013 10 2 151 7 10.2174/1567201811310020001 23432388
+Moghimipour E, Ramezani Z, Handali S. Solid lipid nanoparticles as a delivery system for Zataria multiflora essential oil: formulation and characterization. Curr Drug Deliv. 2013;10(2):151–7.23432388 10.2174/1567201811310020001
+56. Tian H Lu Z Li D Hu J Preparation and characterization of citral-loaded solid lipid nanoparticles Food Chem 2018 248 78 85 10.1016/j.foodchem.2017.11.091 29329873
+Tian H, Lu Z, Li D, Hu J. Preparation and characterization of citral-loaded solid lipid nanoparticles. Food Chem. 2018;248:78–85.29329873 10.1016/j.foodchem.2017.11.091
+57. Severino P Silveira EF Loureiro K Chaud MV Antonini D Lancellotti M Antimicrobial activity of polymyxin-loaded solid lipid nanoparticles (PLX-SLN): Characterization of physicochemical properties and in vitro efficacy Eur J Pharm Sci 2017 106 177 84 10.1016/j.ejps.2017.05.063 28576561
+Severino P, Silveira EF, Loureiro K, Chaud MV, Antonini D, Lancellotti M, et al. Antimicrobial activity of polymyxin-loaded solid lipid nanoparticles (PLX-SLN): Characterization of physicochemical properties and in vitro efficacy. Eur J Pharm Sci. 2017;106:177–84.28576561 10.1016/j.ejps.2017.05.063
+58. Duan Y Dhar A Patel C Khimani M Neogi S Sharma P A brief review on solid lipid nanoparticles: Part and parcel of contemporary drug delivery systems RSC Adv 2020 10 45 26777 91 10.1039/D0RA03491F 35515778 PMC9055574
+Duan Y, Dhar A, Patel C, Khimani M, Neogi S, Sharma P, et al. A brief review on solid lipid nanoparticles: part and parcel of contemporary drug delivery systems. RSC Adv. 2020;10(45):26777–91.35515778 10.1039/d0ra03491f PMC9055574
+59. González-Paredes A Sitia L Ruyra A Morris CJ Wheeler GN McArthur M Solid lipid nanoparticles for the delivery of anti-microbial oligonucleotides Eur J Pharm Biopharm 2019 134 166 77 10.1016/j.ejpb.2018.11.017 30468838
+González-Paredes A, Sitia L, Ruyra A, Morris CJ, Wheeler GN, McArthur M, et al. Solid lipid nanoparticles for the delivery of anti-microbial oligonucleotides. Eur J Pharm Biopharm. 2019;134:166–77.30468838 10.1016/j.ejpb.2018.11.017
+60. Ratrey P Bhattacharya S Coffey L Thompson D Hudson SP Solid lipid nanoparticle formulation maximizes membrane-damaging efficiency of antimicrobial nisin Z peptide Colloids Surf B 2025 245 114255 10.1016/j.colsurfb.2024.114255 39303385
+Ratrey P, Bhattacharya S, Coffey L, Thompson D, Hudson SP. Solid lipid nanoparticle formulation maximizes membrane-damaging efficiency of antimicrobial nisin Z peptide. Colloids Surf B. 2025;245:114255.10.1016/j.colsurfb.2024.114255 39303385
+61. Das S Kumar Singh V Kumar Dwivedy A Kumar Chaudhari A Deepika, Kishore Dubey N Nanostructured Pimpinella anisum essential oil as novel green food preservative against fungal infestation, aflatoxin B1 contamination and deterioration of nutritional qualities Food Chem 2021 344 128574 10.1016/j.foodchem.2020.128574 33218855
+Das S, Kumar Singh V, Kumar Dwivedy A, Kumar Chaudhari A, Deepika, Kishore Dubey N. Nanostructured Pimpinella anisum essential oil as novel green food preservative against fungal infestation, aflatoxin B1 contamination and deterioration of nutritional qualities. Food Chem. 2021;344:128574.33218855 10.1016/j.foodchem.2020.128574
+62. Jamil B Habib H Abbasi S Nasir H Rahman A Rehman A Cefazolin loaded chitosan nanoparticles to cure multi drug resistant Gram-negative pathogens Carbohydr Polym 2016 136 682 91 10.1016/j.carbpol.2015.09.078 26572401
+Jamil B, Habib H, Abbasi S, Nasir H, Rahman A, Rehman A, et al. Cefazolin loaded chitosan nanoparticles to cure multi drug resistant Gram-negative pathogens. Carbohydr Polym. 2016;136:682–91.26572401 10.1016/j.carbpol.2015.09.078
+63. Jamil B Habib H Abbasi SA Ihsan A Nasir H Imran M Development of cefotaxime impregnated chitosan as nano-antibiotics: De novo strategy to combat biofilm forming multi-drug resistant pathogens Front Microbiol 2016 7 330 10.3389/fmicb.2016.00330 27047457 PMC4797315
+Jamil B, Habib H, Abbasi SA, Ihsan A, Nasir H, Imran M. Development of cefotaxime impregnated chitosan as nano-antibiotics: De novo strategy to combat biofilm forming multi-drug resistant pathogens. Front Microbiol. 2016;7:330.27047457 10.3389/fmicb.2016.00330 PMC4797315
+64. Cavallaro G Micciulla S Chiappisi L Lazzara G Chitosan-based smart hybrid materials: A physico-chemical perspective J Mater Chem B 2020 9 594 10.1039/D0TB01865A 33305783
+Cavallaro G, Micciulla S, Chiappisi L, Lazzara G. Chitosan-based smart hybrid materials: a physico-chemical perspective. J Mater Chem B. 2020;9:594.10.1039/d0tb01865a 33305783
+65. Francesconi S Steiner B Buerstmayr H Lemmens M Sulyok M Balestra GM Chitosan Hydrochloride Decreases Fusarium graminearum Growth and Virulence and Boosts Growth, Development and Systemic Acquired Resistance in Two Durum Wheat Genotypes Molecules 2020 25 20 4752 10.3390/molecules25204752 33081211 PMC7587526
+Francesconi S, Steiner B, Buerstmayr H, Lemmens M, Sulyok M, Balestra GM. Chitosan hydrochloride decreases fusarium graminearum growth and virulence and boosts growth, development and systemic acquired resistance in two durum wheat genotypes. Molecules. 2020;25(20):4752.33081211 10.3390/molecules25204752 PMC7587526
+66. Mejdoub-Trabelsi B Touihri S Nawaim A Anissa R Daami-Remadi M Effect of chitosan for the control of potato diseases caused by Fusarium species J Phytopathol 2019 168 18 10.1111/jph.12847
+Mejdoub-Trabelsi B, Touihri S, Nawaim A, Anissa R, Daami-Remadi M. Effect of chitosan for the control of potato diseases caused by Fusarium species. J Phytopathol. 2019;168:18.
+67. Zachetti VGL Cendoya E Nichea MJ Chulze SN Ramirez ML Preliminary Study on the Use of Chitosan as an Eco-Friendly Alternative to Control Fusarium Growth and Mycotoxin Production on Maize and Wheat Pathogens 2019 8 1 29 10.3390/pathogens8010029 30841490 PMC6470945
+Zachetti VGL, Cendoya E, Nichea MJ, Chulze SN, Ramirez ML. Preliminary study on the use of chitosan as an eco-friendly alternative to control fusarium growth and mycotoxin production on maize and wheat. Pathogens. 2019;8(1):29.30841490 10.3390/pathogens8010029 PMC6470945
+68. Attjioui M Gillet D El Gueddari NE Moerschbacher BM Synergistic Antimicrobial Effect of Chitosan Polymers and Oligomers Mol Plant Microbe Interact 2021 34 7 770 8 10.1094/MPMI-07-20-0185-R 33683142
+Attjioui M, Gillet D, El Gueddari NE, Moerschbacher BM. Synergistic antimicrobial effect of chitosan polymers and oligomers. Mol Plant Microbe Interact. 2021;34(7):770–8.33683142 10.1094/MPMI-07-20-0185-R
+69. Lemke P Jünemann L Moerschbacher BM Synergistic Antimicrobial Activities of Chitosan Mixtures and Chitosan–Copper Combinations Int J Mol Sci [Internet] 2022 23 6 3345 10.3390/ijms23063345 35328766 PMC8951000
+Lemke P, Jünemann L, Moerschbacher BM. Synergistic antimicrobial activities of chitosan mixtures and chitosan–copper combinations. Int J Mol Sci [Internet]. 2022;23(6):3345.35328766 10.3390/ijms23063345 PMC8951000

@@ -1,0 +1,60 @@
+Summary file for DAY67151
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC8201803.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed viral or bacterial components.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The analyzed samples originated from various human body sites, including gut (stool), mouth, nose, skin, and vagina.
+- The study focused on the human virome and microbiome, which are associated with human physiological conditions, not extreme thermal environments.
+
+Concise Summary:
+This study is a comprehensive metagenomic analysis of the human virome, cataloging tens of thousands of viral taxa from human-associated samples collected from multiple body sites (gut, mouth, nose, skin, vagina). The research focuses on virome composition, phage-bacterial interactions (including CRISPR spacer analysis), and correlating viral abundance with chronic human diseases using whole-genome shotgun sequencing data. No data regarding the optimal growth temperature, temperature range, or thermal adaptation of the associated microbial or viral components were reported.
+
+
+Paper: PMC13198865.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37°C, shaking (for overnight growth)
+- Environmental source/habitat: Intracellular niche within macrophages/host tissues
+- Mention of adaptations: None
+- Explicit classification: None
+
+Environmental Context:
+- Habitat/Source: Intracellular niche within macrophages/host tissues
+
+Concise Summary:
+The study utilized *Salmonella enterica* serovar Typhimurium, an intracellular bacterium, for infection models. The optimal growth temperature specified for the bacteria was 37°C, and overnight growth was performed at this temperature with shaking. The bacteria are studied in the context of infection within macrophages, suggesting an intracellular niche within host tissues. No specific information regarding the organism's thermal adaptation (thermophilic, psychrophilic, etc.) or survival temperature range was provided.
+
+
+Paper: PMC13198863.1.txt
+Thermal Evidence:
+- Moderate cold and heat exposure during early pregnancy were associated with a smaller crown–rump length (CRL) at 12 weeks.
+- Specific associations noted: Exposure to 19.2°C during weeks 1–6 was associated with a 7.2 mm smaller CRL (vs 9.0°C reference).
+- Cold exposure: Exposure to 3.6°C during weeks 1–11 was associated with a 7.6 mm smaller CRL (vs 9.0°C reference).
+- The effects were most evident at 12 weeks of gestation, but not at 8 or 10 weeks.
+- The study suggests early gestational development is sensitive to ambient temperature.
+
+Environmental Context:
+- Ambient air temperature during early pregnancy (first trimester).
+
+Concise Summary:
+Ambient temperature exposure during early pregnancy was linked to reduced embryonic and early fetal size, measured by a smaller crown–rump length (CRL) at 12 weeks gestation. Both moderate heat (e.g., 19.2°C) and moderate cold (e.g., 3.6°C) exposures were associated with smaller CRLs compared to a reference temperature (9.0°C). The sensitivity of early development to ambient temperature was observed during the first trimester, with the effects being most pronounced at 12 weeks. The study does not discuss microbial physiology, adaptation, or enzyme activity, as the subject is human fetal development influenced by ambient environmental temperature.
+
+
+Paper: PMC13198723.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, range, or survival temperatures were provided for any organism.
+
+Environmental Context:
+- No environmental source or habitat information related to temperature was provided for any organism.
+
+Concise Summary:
+This paper focuses on developing and benchmarking a computational framework (Untangled) for unsupervised consensus clustering of high-dimensional biological datasets, particularly from high-throughput screening (e.g., drug-by-imaging, transcriptomics). The analysis involves computational methods applied to data derived from various biological systems (e.g., cancer cell lines, *E. coli* deletion library) but contains no physiological data regarding the temperature requirements, thermal adaptations, or growth conditions of any microorganisms.
+
+

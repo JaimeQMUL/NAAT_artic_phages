@@ -1,0 +1,66 @@
+Summary file for YP_214708
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC3037559.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages or their hosts.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was made.
+- No specific enzymes adapted to temperature were discussed.
+
+Environmental Context:
+- The phages were isolated from diverse marine environments, including oligotrophic gyres, coastal waters, and surface waters.
+- The hosts were primarily picocyanobacteria inhabiting open ocean and coastal settings.
+
+Concise Summary:
+The study focuses on the genomic comparison of T4-like myoviruses from marine cyanophages and non-cyanophage relatives. The environmental context is exclusively marine, spanning oligotrophic gyres and coastal waters. No direct thermal physiological data (optimal temperature, temperature range, or thermal adaptation) was reported for the phages or their hosts, limiting the ability to classify them thermally based on this paper alone.
+
+
+Paper: PMC11559063.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated for all strains, but growth rates were measured across a range of temperatures.
+- Growth temperature range: Growth rates were measured at 15°C, 16°C, 18°C, 20°C, 22°C, 24°C, 26°C, 27°C, 28°C, and 29°C.
+- Survival temperature range: The data suggest survival/growth potential across the tested range, with specific strains showing growth up to 29°C (for one strain) and down to 15°C.
+- Incubation conditions: Growth experiments were conducted on a 14:10 h light:dark cycle.
+- Psychrophilic adaptation: The novel isolates (LLVII and LLVIII grades) were found to be adapted to colder conditions, showing growth rates distinct from the high-light adapted strain, particularly at lower temperatures.
+- Cold tolerance: The LL-adapted strains demonstrated growth at lower temperatures compared to the HL-adapted strain.
+- Mesophilic growth: The general growth conditions (22–25°C) suggest mesophilic growth for the majority of the tested conditions.
+- Thermophilic adaptation: No evidence of thermophilic adaptation was reported.
+- Heat tolerance: The HL-adapted strain showed the highest growth rates at higher temperatures (up to 29°C), while the LL-adapted strains showed significantly slower growth at temperatures $\ge 24^{\circ}C$.
+
+Environmental Context:
+- Habitat/Source: Isolated from the lower euphotic zone in the subtropical North Pacific Ocean (Station ALOHA).
+- Extreme Environment: The isolates were obtained from depths typically experiencing very low irradiance levels ($<5 \mu\text{mol photons m}^{-2} \text{s}^{-1}$), indicating adaptation to oligotrophic, deep-water conditions.
+
+Concise Summary:
+The novel isolates were characterized physiologically across temperature gradients. Growth rates were measured from $15^{\circ}\text{C}$ to $29^{\circ}\text{C}$. The LL-adapted lineages (LLVII and LLVIII grades) exhibited growth patterns distinct from the HL-adapted lineage, suggesting adaptation to colder, deeper water column conditions. While the HL-adapted strain showed optimal growth at higher temperatures ($\ge 24^{\circ}\text{C}$), the LL-adapted strains maintained measurable growth rates at lower temperatures, indicating psychrotolerance relative to the HL-type. The general growth conditions suggest mesophilic adaptation, with the LL-adapted strains showing a clear physiological niche favoring cooler, low-irradiance environments, consistent with their deep-water origin.
+
+
+Paper: PMC12684733.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 18°C or 23°C
+- Growth temperature range: Not explicitly stated, but cultures were maintained at 18°C or 23°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultures were maintained in borosilicate culture tubes with caps at 18°C or 23°C under cool, white light (14:10 light dark cycle).
+- Mention of thermal adaptation: None.
+
+Environmental Context:
+- Habitat/Source: Natural seawater (0.2 μm filtered).
+- Extreme environment isolation: Not mentioned.
+- Explicit classification: None provided by the authors regarding thermal adaptation.
+
+
+Paper: PMC12095545.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the general microbial populations discussed.
+- One study mentioned the association of mesophilic and thermophilic viruses with nutrient cycling during hyperthermophilic composting.
+- One study specifically investigated cold adaptation regulated by cryptic prophage excision in a bacterium.
+
+Environmental Context:
+- The bacterium exhibiting cold adaptation was studied in the context of cold temperature downshift.
+- The study on viral association occurred in hyperthermophilic composting environments.
+
+Concise Summary:
+The review discusses phage-host interactions and metabolic reprogramming across various environments, including marine, soil, and biofilm systems. Specific thermal parameters (optimal/range/survival temperatures) for the general microbial populations are not detailed. However, the literature cited includes evidence regarding viral associations with nutrient cycling in hyperthermophilic composting and a specific case detailing cold adaptation regulated by prophage excision in a bacterium subjected to a temperature downshift. The general context emphasizes that phage-host dynamics are influenced by environmental stressors, which can include temperature fluctuations, though quantitative thermal data for the host organisms themselves is sparse.
+
+

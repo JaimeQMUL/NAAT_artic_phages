@@ -1,0 +1,81 @@
+Summary file for YP_004324526
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC3037559.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages or their hosts.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+- No specific enzymes adapted to temperature were detailed.
+
+Environmental Context:
+- The phages were isolated from diverse marine environments, including: Atlantic Ocean oligotrophic gyre, Pacific Ocean oligotrophic gyre, Red Sea, English Channel, and coastal/open ocean surface waters.
+- The source waters were characterized by oligotrophic conditions, suggesting nutrient limitation (e.g., phosphate stress).
+
+Concise Summary:
+The study focuses on the genomic comparison of T4-like myoviruses from marine cyanophages and non-cyanophage relatives. The isolates were sourced from diverse, oligotrophic marine environments, including open ocean gyres and coastal waters. The analysis details core and accessory genes related to host metabolism (e.g., photosynthesis, phosphate acquisition, carbon metabolism) and host-pathogen interactions, but provides no explicit data regarding the thermal physiology, optimal growth temperature, or thermal adaptation of the phages or their hosts.
+
+
+Paper: PMC9860041.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 23°C (for phage isolation/incubation).
+- Growth temperature range: 23°C (for phage isolation/incubation).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Continuous light at 25 µmol photons m⁻² s⁻¹ (for phage isolation/incubation).
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/Source: South China Sea surface water (isolation site).
+
+Concise Summary:
+The isolated phages were cultured and incubated at 23°C under continuous light conditions (25 µmol photons m⁻² s⁻¹). The study does not provide data regarding optimal, range, or survival temperatures, nor does it mention any specific thermal adaptations (thermophilic, psychrophilic, etc.). The phages were isolated from surface seawater in the South China Sea.
+
+
+Paper: 29159966.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the tested systems.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The studies utilized ecologically relevant model systems, including marine plankton and bacteria, suggesting an oceanic/marine environment.
+- No information was provided regarding isolation from extreme environments or explicit thermal classification by the authors.
+
+
+Paper: PMC9146016.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 22–25 °C
+- Growth temperature range: 22–25 °C
+- Survival temperature range: Not specified
+- Incubation conditions: Co-cultivation in liquid medium; incubation for a week.
+- Mention of thermal adaptation: None.
+
+Environmental Context:
+- Habitat/Source: Surface seawater from Shenzhen Bay, Guangdong, China.
+- Extreme environment isolation: No explicit mention of isolation from an extreme environment.
+- Explicit classification: None provided regarding thermal adaptation.
+
+
+Paper: PMC10669429.1.txt
+Thermal Evidence:
+- **Optimal Growth Temperature:** Ranges observed, with specific optima cited for different groups (e.g., around 30–40 °C for warm-adapted strains).
+- **Growth Temperature Range:** Varies significantly across strains. Cold-adapted strains show minimum growth temperatures below 16 °C. Warm-adapted strains generally cannot survive below 10 °C.
+- **Survival Temperature Range:** The study details adaptation strategies for both high and low temperatures.
+- **Thermophilic Adaptation:** Specific core gene functional units were identified in thermophilic strains, involving metabolic and disease pathways. Key adaptive mechanisms include: 
+    - Heat shock protein expression (e.g., increased expression of SEC63 to correct misfolding).
+    - Molecular repair mechanisms (e.g., CDC48 for protein complex assembly/disassembly; MPG protein for base excision repair).
+    - Accumulation of solutes (e.g., using compatible solutes like glycine betaine and proline betaine via OpuA transporter; utilizing sulfate transport systems for sulfur sources).
+- **Psychrophilic/Cold Adaptation:** The study notes that cold-adapted strains employ alternative pathways, as no common cold-shock-protein-encoding genes were detected. Key adaptation strategies include:
+    - Membrane fluidity modulation via increased unsaturated fatty acid concentration (e.g., LcyB activity).
+    - Solute accumulation and energy management, notably the regulation of glycogen synthesis/breakdown.
+    - Protein structure stabilization mechanisms (e.g., Pex5 function in peroxisome targeting; DNAJC3 acting as an ER chaperone).
+- **General Thermal Stress Response:** The ability to grow at high or low temperatures is noted as industrially valuable, potentially reducing costs associated with cooling or contamination.
+- **Enzymes/Adaptations:** Specific enzymes and systems implicated include those involved in heat shock response, DNA repair, compatible solute transport (e.g., ABC transporters), and fatty acid synthesis.
+
+Environmental Context:
+- Strains were sourced from diverse habitats, including marine, freshwater, and thermal spring environments. The analysis explicitly separated strains into cold-adapted, warm-adapted, and thermophilic groups based on minimum tolerance for growth temperature.
+
+Concise Summary:
+Comparative genomic analysis of 56 strains revealed that the genus exhibits high genomic plasticity, with distinct metabolic pathways associated with temperature adaptation. Thermophilic strains possess unique core functional units related to heat shock response, molecular repair (e.g., DNA repair, protein folding), and compatible solute accumulation (e.g., via ABC transporters). Cold-adapted strains utilize mechanisms distinct from canonical cold-shock proteins, focusing on maintaining membrane fluidity through unsaturated fatty acids, regulating energy reserves (glycogen), and stabilizing protein structures via chaperones. The study confirms that temperature dictates unique metabolic signatures, providing numerous gene targets for enhancing thermal tolerance in industrial chassis applications.
+
+

@@ -1,0 +1,109 @@
+Summary file for CAD5241838
+Number of papers: 7
+=============Summaries=============
+
+Paper: 41942208.txt
+Thermal Evidence:
+- Cold tolerance demonstrated: Phage effectively suppressed bacterial populations in chickens at low temperatures (4 °C) within a few hours.
+
+Environmental Context:
+- The phage was tested in conditions simulating space sterilization environments and on food surfaces, including low-temperature storage (4 °C).
+
+Concise Summary:
+The phage exhibited demonstrable cold tolerance, effectively reducing bacterial populations in chickens stored at 4 °C. Testing was conducted under simulated space sterilization conditions, indicating stability and efficacy in non-standard, potentially low-temperature environments. No explicit optimal growth temperature, growth range, or classification (e.g., psychrophilic/mesophilic) was provided. The phage's efficacy was noted across various environmental applications, including food surfaces and space simulations.
+
+
+Paper: PMC11237459.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but optimal growth was achieved at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C with 180 rpm shaking for bacterial cultures; incubation at 37°C for phage/bacteria interactions.
+- Environmental source/habitat: Sewage/wastewater (raw sewage, mixed liquor sewage, estuary).
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/Source: Sewage/wastewater (raw sewage, mixed liquor sewage, estuary).
+
+Concise Summary:
+The study utilized bacterial cultures and phage propagation under controlled laboratory conditions. The optimal growth temperature for the bacterial cultures was consistently maintained at 37°C, with incubation performed overnight at this temperature under shaking conditions (180 rpm). Phage-bacteria interactions and virulence index determinations were also conducted at 37°C. The phages were isolated from various environmental sources, including raw sewage, mixed liquor sewage, and estuaries. No specific information regarding the organism's thermal adaptation (e.g., thermophilic, psychrophilic) or enzymes adapted to temperature was provided; the conditions described are standard mesophilic laboratory culture conditions.
+
+
+Paper: 42118066.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No specific survival temperature range was provided.
+- No explicit incubation conditions were detailed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was made.
+
+Environmental Context:
+- The phages were isolated from hospital sewage samples.
+
+Concise Summary:
+The isolated phages exhibited favorable temperature and pH stability. The study did not provide specific data regarding optimal growth temperature, growth temperature range, survival temperature range, or detailed incubation conditions. The phages were sourced from hospital sewage samples. The authors did not classify the phages based on thermal adaptation (e.g., mesophile, thermophile). The primary focus of the thermal characterization was on general 'favorable stability' rather than specific temperature optima or ranges.
+
+
+Paper: PMC12992998.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but optimal growth was achieved at 37°C.
+- Survival temperature range: Phage activity remained stable after incubation at 4°C, 25°C, 37°C, 50°C, 60°C, and 70°C for both 30 and 60 minutes.
+- Incubation conditions: Standard incubation for bacterial growth and phage assays was performed at 37°C.
+- Environmental source/habitat: Dairy farm wastewater.
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: No evidence of psychrophilic adaptation.
+- Mesophilic growth: The optimal growth temperature (37°C) and general incubation conditions suggest mesophilic growth.
+- Heat tolerance: Phages demonstrated stability up to 70°C for 30 minutes, and maintained activity after 60 minutes at 70°C.
+- Cold tolerance: Phage activity was maintained at 4°C.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No specific mention of temperature-adapted membrane adaptations.
+- Thermal stress responses: The stability of phage activity across a range of temperatures (4°C to 70°C) indicates robustness to thermal stress.
+
+Environmental Context:
+- Habitat/Source: Dairy farm wastewater.
+
+Concise Summary:
+The study utilized an organism isolated from dairy farm wastewater. The optimal growth and incubation temperature for the bacterial host and phage assays was consistently maintained at 37°C, indicating mesophilic characteristics. The phages exhibited significant thermal stability, retaining measurable biological activity after incubation at temperatures ranging from 4°C up to 70°C for periods up to 60 minutes. This broad thermal stability suggests robustness across typical environmental fluctuations encountered in the dairy setting. No evidence of adaptation to extreme temperatures (thermophilic or psychrophilic) was reported; the observed stability profile is characteristic of a mesophile with high thermal resilience.
+
+
+Paper: PMC8006926.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but culturing was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C for plaque assays; incubation at 37°C for lysis period measurements.
+- Environmental source/habitat: Isolated from rivers, ponds, estuaries, canals, slurry, and sewage.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided regarding temperature adaptation (e.g., mesophile, thermophile).
+
+Environmental Context:
+- Habitat/Source: Water samples from various sources including sewage, rivers, ponds, estuaries, canals, and slurry.
+
+
+Paper: 42070172.txt
+Thermal Evidence:
+- No specific optimal growth temperature was reported.
+- No specific growth temperature range was reported.
+- No specific survival temperature range was reported.
+- No explicit incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- Isolated from hospital wastewater.
+
+Concise Summary:
+The bacteriophage was isolated from hospital wastewater. No specific data regarding optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided. There is no evidence of adaptation to extreme temperatures (thermophilic or psychrophilic) or specific thermal stress responses mentioned in the provided text.
+
+
+Paper: PMC13198723.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, range, or survival temperatures were provided for any organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The study utilized high-throughput screening datasets involving various cell lines (e.g., ovarian cancer cell lines, normal ovarian surface epithelial cell line) and bacterial models (e.g., *Escherichia coli*). The context is molecular/phenotypic screening, not direct microbial cultivation under defined thermal conditions.
+
+Concise Summary:
+The provided scientific paper focuses entirely on developing and benchmarking a computational framework (Untangled) for unsupervised consensus clustering of high-dimensional biological datasets derived from high-throughput screening (e.g., drug-by-imaging, gene-trait association). The analysis involves computational biology, data processing, and molecular pathway enrichment across various cell lines and bacterial models. There is no microbiological data presented regarding the thermal physiology, growth conditions, or temperature adaptations of any organism.
+
+

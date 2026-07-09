@@ -1,0 +1,135 @@
+Summary file for YP_004323072
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC3037559.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages or their hosts.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was made.
+- No specific enzymes adapted to temperature were discussed.
+
+Environmental Context:
+- The phages were isolated from diverse marine environments, including: Atlantic Ocean oligotrophic gyre, Pacific Ocean oligotrophic gyre, Red Sea, English Channel, and coastal/open ocean surface waters.
+- The source waters were characterized by oligotrophic conditions, suggesting nutrient limitation (e.g., phosphate stress).
+
+Concise Summary:
+The study focuses on the genomic comparison of T4-like myoviruses from marine cyanophages and non-cyanophage relatives. The isolates were sourced from diverse, oligotrophic marine environments, including open ocean gyres and coastal waters. The analysis details core and accessory genes related to host metabolism (e.g., photosynthesis, phosphate acquisition, carbon metabolism) and host-pathogen interactions, but provides no explicit data regarding the thermal physiology, optimal growth temperature, or thermal adaptation of the phages or their hosts.
+
+
+Paper: PMC13178680.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or temperature range was provided for the microalgae species.
+- No mention of survival temperature range, thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The microalgae were cultured in laboratory settings using controlled conditions (shakers, artificial light source) and were not explicitly stated to be isolated from an extreme environment.
+
+Concise Summary:
+The study focused on optimizing the biomanufacturing of extracellular vesicles (EVs) from four microalgae species. The experimental parameters detailed involved culturing under varying photoperiods (0, 16, and 24 h light/day) and controlled agitation/temperature conditions within a laboratory bioreactor setup. No data regarding the optimal growth temperature, temperature range, or thermal adaptation (thermophilic, psychrophilic, mesophilic) of the microalgae were reported. The organisms were cultured in artificial media under controlled laboratory conditions, not explicitly sourced from an extreme natural environment.
+
+
+Paper: PMC3153035.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organism.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or thermal stress responses was found.
+- No specific enzymes adapted to temperature were discussed.
+
+Environmental Context:
+- The organism was studied in the context of the California Current System (CCS), which exhibits varying physical and chemical conditions, including coastal-upwelling, coastal-transition, core California Current, and oligotrophic open-ocean waters.
+- The study noted that the CCS undergoes seasonal variations, with expected seasonal changes in the distribution of subgroups.
+
+Concise Summary:
+The analysis focused on the biogeography and ecology of different *narB* gene subgroups within a marine cyanobacterium across the California Current System (CCS). The study utilized qPCR to quantify these subgroups across distinct water masses: coastal-upwelling, coastal-transition, core California Current, and oligotrophic open-ocean waters. The environmental context is characterized by significant gradients in nutrients (nitrate, ammonium), chlorophyll *a*, and physical parameters (salinity, temperature, depth) that vary seasonally. The authors noted that the distribution of subgroups is linked to these environmental gradients, suggesting distinct ecologies for different clades. However, the provided text contains no direct evidence regarding the organism's optimal, growth, or survival temperature ranges, nor does it mention any specific thermal adaptations (e.g., thermophilic, psychrophilic, mesophilic) or temperature-adapted enzymes.
+
+
+Paper: PMC3487772.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Included incubation at $80^	ext{o}	ext{C}$ for 10 min, room temperature for 10 min, and $4^	ext{o}	ext{C}$ overnight for staining optimization.
+- Environmental source/habitat: Marine/Oceanic.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the use of standard laboratory culturing conditions and the general marine environment context.
+- Heat tolerance: Demonstrated by the use of $80^	ext{o}	ext{C}$ incubation for staining optimization.
+- Cold tolerance: Demonstrated by the use of $4^	ext{o}	ext{C}$ incubation for staining optimization.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Marine/Oceanic.
+
+Concise Summary:
+The study utilized model marine virus-host systems, including a slow-growing, photoautotrophic cyanobacterium and a fast-growing, heterotrophic gammaproteobacterium. The methodology involved optimizing viral staining and washing protocols, which included testing incubation conditions at $80^	ext{o}	ext{C}$ for 10 minutes, room temperature for 10 minutes, and $4^	ext{o}	ext{C}$ overnight. The experiments were conducted using marine model organisms, indicating an oceanic environmental context. The observed thermal conditions suggest the techniques are applicable across a range of temperatures, from cold ($4^	ext{o}	ext{C}$) to elevated ($80^	ext{o}	ext{C}$), but no specific thermophilic or psychrophilic adaptations were characterized for the organisms or viruses studied.
+
+
+Paper: PMC6874581.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the analyzed phytoplankton populations.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The data were collected from surface waters (approximately 5 m depth) in the North Pacific Ocean.
+- Metadata included measurements of sea surface temperature, but no physiological temperature constraints were reported for the organisms.
+
+Concise Summary:
+The paper details the collection and analysis of high-resolution data on small phytoplankton populations (<5 $\mu$m ESD) from the surface waters of the North Pacific Ocean between 2010 and 2018. The analysis utilized a specialized flow cytometer (SeaFlow) to measure cell abundance, size (ESD), and carbon content for various groups, including cyanobacteria and picoeukaryotes. The environmental context is restricted to surface oceanic conditions, with associated metadata recording sea surface temperature, salinity, and light irradiance. Crucially, the provided text contains no physiological data regarding the optimal, growth, or survival temperature ranges, nor does it discuss any specific thermal adaptations (e.g., thermophilic, psychrophilic) for the analyzed microbial communities.
+
+
+Paper: PMC3377940.1.txt
+Thermal Evidence:
+- Cold, coastal communities were dominated by specific clades.
+- Clades were found to be abundant at colder, coastal stations.
+- Clades were found to be abundant at warmer, off-shore stations.
+- Clade III was classified as being specialized to warm, oligotrophic waters.
+- Clades I and IV were found to dominate in cold, coastal waters.
+- Clade II and the combined group of clades V/VI/VII were widely distributed in tropical and sub-tropical waters.
+- The study compared community structure across a transect moving from open-ocean to coastal environments, showing shifts in clade dominance related to temperature.
+
+Environmental Context:
+- Marine waters, including Sargasso Sea, Gulf Stream, and coastal stations in the northwest Atlantic.
+
+Concise Summary:
+The analysis of marine cyanobacteria community structure across a coastal to open-ocean transect revealed distinct biogeographical patterns correlated with temperature. Specific clades were observed to dominate in different thermal regimes: Clades I and IV were consistently associated with colder, coastal waters, while Clades II and V/VI/VII were abundant in warmer, off-shore, and tropical/sub-tropical waters. Furthermore, Clade III was noted as being specialized for warm, oligotrophic habitats. These observations suggest that the studied clades exhibit distinct thermal preferences and niche partitioning related to temperature gradients within the marine environment.
+
+
+Paper: 42018485.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes.
+- Membrane adaptations were noted in relation to silicate availability, but not explicitly linked to temperature stress.
+
+Environmental Context:
+- The study utilized coastal and marine strains, suggesting an environmental context in marine/coastal waters.
+
+Concise Summary:
+The study investigated the physiological and transcriptomic responses of a cyanobacterium to silicate availability using both coastal and marine strains. Growth was tested under silicate-depleted (<1 μmol·L⁻¹) and silicate-repleted (100 μmol·L⁻¹) conditions. The analysis revealed that silicate modulated photosynthetic and oxidative phosphorylation pathways, leading to strain-specific acclimation strategies. The study did not provide any data regarding optimal, range, or survival temperatures, nor did it classify the organism based on thermal adaptation (e.g., mesophile, psychrophile). The strains were sourced from coastal and marine environments.
+
+
+Paper: 42108655.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- No specific environmental source or habitat was detailed regarding temperature extremes.
+
+Concise Summary:
+The study investigated the interaction of phototropism and gravitropism in a cyanobacterium. The physiological mechanisms observed relate to the directional sensing of light, adhesion, and external physical forces (including gravity). Pigment distribution (phycobilins and chlorophyll) is regulated by these directional cues, with polyphosphate bodies being key regulators. The paper reports the first known intracellular directional gravity response mechanism in a prokaryote, but provides no data regarding the organism's thermal optimum, growth range, or adaptation to temperature extremes.
+
+
+Paper: 42082731.txt
+Thermal Evidence:
+- No specific optimal, growth range, or survival temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The study manipulated $\text{CO}_2$ concentrations (comparing air levels to $3\% \text{CO}_2$) to study physiological responses, not environmental temperature gradients.
+- No specific environmental source or habitat was mentioned.
+
+Concise Summary:
+The study investigated the structural and redox adaptability of $\text{CO}_2$ fixation machinery in a cyanobacterium under varying $\text{CO}_2$ concentrations ($0.04\%$ to $3\% \text{CO}_2$). The research utilized redox sensors and microscopy to observe changes in carboxysome encapsulation and redox state, noting the formation of partially encapsulated, procarboxysome-like structures under high $\text{CO}_2$. No data regarding temperature optima, growth ranges, or thermal adaptations were presented.
+
+

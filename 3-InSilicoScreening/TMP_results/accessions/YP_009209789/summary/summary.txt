@@ -1,0 +1,99 @@
+Summary file for YP_009209789
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC6563131.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C for plaque assays; incubation overnight at 37°C for enrichment procedures.
+- Mention of thermal adaptation: None.
+
+Environmental Context:
+- Habitat/Source: Coastal marine waters (United Kingdom and Poland) and a freshwater urban pond.
+
+Concise Summary:
+The phages were isolated and characterized from coastal marine waters and a freshwater urban pond. All laboratory procedures, including plaque assays and enrichment, were conducted with incubation at 37°C. The study details no specific information regarding the optimal, survival, or growth temperature ranges beyond the standard laboratory incubation temperature of 37°C, nor does it mention any specific adaptations to extreme temperatures (thermophilic, psychrophilic, etc.).
+
+
+Paper: PMC4576200.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for expression in *E. coli* BL21 (DE3) host strain).
+- Growth temperature range: 37 °C (for expression in *E. coli* BL21 (DE3) host strain); 18–20 °C (for expression in *E. coli* B834 (DE3) strain).
+- Survival temperature range: Maintained structure when heated up to 90°C (in 20 mM sodium phosphate buffer at pH 6.0 and 8.0).
+- Incubation conditions: Overnight incubation at 18 °C (approximately 16 h) for protein expression.
+- Heat tolerance: Demonstrated exceptional resistance to denaturation by heat, maintaining structure up to 90°C.
+- Thermal stress responses: Unfolding kinetics were monitored at elevated temperatures, showing irreversible unfolding upon heating in the presence of guanidinium.
+
+Environmental Context:
+- Habitat/Source: The protein is derived from a bacteriophage, suggesting an association with bacterial hosts (*Escherichia coli*). No explicit natural environmental source or extreme environment isolation is detailed for the phage itself, but the protein exhibits high stability under harsh laboratory conditions.
+
+Concise Summary:
+The protein fragment exhibits remarkable thermal stability, maintaining its $\beta$-structure up to $90^{\circ}\text{C}$ in phosphate buffers. Its expression in *E. coli* was optimized at $37^{\circ}\text{C}$, though specific mutant fragments were successfully expressed and purified at a lower temperature range of $18–20^{\circ}\text{C}$. The study details the protein's resistance to denaturation by heat and chemical agents, noting that unfolding kinetics were monitored across elevated temperatures. The protein's stability suggests robust structural integrity, which is crucial for its function as a membrane-disrupting spike component of the phage tail.
+
+
+
+Paper: 25753428.txt
+Thermal Evidence:
+- The phages are described as "low-temperature bacterial viruses."
+- No specific optimal growth temperature, growth temperature range, or survival temperature range is provided.
+- No mention of incubation conditions, thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- No specific environmental source or habitat is detailed, other than the association with *E. coli*.
+
+Concise Summary:
+The viruses are characterized as "low-temperature bacterial viruses." No quantitative data regarding optimal growth temperature, growth range, or survival temperatures were provided. The text does not contain any information regarding thermal adaptations (thermophilic, psychrophilic, mesophilic), heat/cold tolerance, or specific environmental isolation context beyond their association with *E. coli*.
+
+
+Paper: PMC13193548.1.txt
+Thermal Evidence:
+- No specific temperature data, optimal growth temperature, growth temperature range, or survival temperature range were provided for the organisms studied.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+- No details regarding membrane adaptations or thermal stress responses were reported.
+
+Environmental Context:
+- The study analyzed phosphate transporters across a diverse range of organisms, including bacteria, fungi, algae, bryophytes, pteridophytes, and various flowering plants (including model and cultivated vegetable species).
+- The organisms were sourced from various natural and agricultural contexts, but no specific extreme environmental isolation (e.g., hydrothermal vents, deep sea) was detailed for the entire group.
+
+Concise Summary:
+The paper provides a comparative analysis of seven types of phosphate transporters across 40 species spanning prokaryotes, fungi, algae, and diverse plant lineages. The focus is on the phylogenetic relationships, structural motifs, and transcriptomic expression patterns of these transporters in response to phosphate availability and tissue type. The analysis reveals that the seven transporter types have distinct evolutionary origins, with PHT3s, pPTs, and SPX-domain PTs being of eukaryotic origin, while PHT1s, PHT2s, PHT4s, and G3Pps show prokaryotic origins. Key findings include the differential expression patterns of these transporters, particularly the induction of PHT1s and G3Pps under phosphate starvation, and the specialized roles of transporters in root-to-shoot translocation (e.g., PHO1). The study concludes by proposing that PHT1s, G3Pps, and SPX-domain PTs are promising candidates for genetic engineering strategies aimed at developing phosphate-efficient crops. No thermal physiology data was presented.
+
+
+Paper: PMC13193252.1.txt
+Thermal Evidence:
+- No specific temperature parameters (optimal, range, survival) were provided for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The organism was isolated from human clinical/environmental sources within a long-term care facility (LTCF) setting (urine cultures, rectal swabs).
+- No mention of isolation from an extreme environment.
+- The authors provided no explicit thermal classification for the organism.
+
+
+Paper: 42172699.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions were mentioned.
+- The resulting protein nanocage exhibited remarkable resistance to thermal denaturation.
+
+Environmental Context:
+- The building block protein was derived from *Escherichia coli*.
+- No information regarding isolation from an extreme environment was provided.
+- No explicit classification regarding temperature adaptation (e.g., thermophilic, mesophilic) was given by the authors.
+
+
+Paper: PMC13192351.1.txt
+Thermal Evidence:
+- No specific temperature data, optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms were studied in the context of agricultural pests, gut microbiota, and environmental exposure to insecticides, with sources including gut contents, soil, and various insect hosts.
+
+Concise Summary:
+This review focuses on the molecular and physiological mechanisms by which microbial symbionts modulate insect resistance to insecticides. The discussion centers on three core resistance mechanisms: reduced penetration, enhanced metabolism (oxidative and hydrolytic detoxification), and target-site modification. Symbiont involvement is described through direct enzymatic degradation of insecticides (e.g., by bacterial enzymes) or by reprogramming host detoxification pathways (e.g., upregulating P450s, GSTs, and CarEs). The evidence is highly mechanistic, detailing molecular interactions, gene expression changes, and metabolic fluxes, but contains no data regarding the thermal physiology, growth temperatures, or environmental temperature adaptations of the involved microbes or insects.
+
+

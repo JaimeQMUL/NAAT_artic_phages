@@ -1,0 +1,233 @@
+Summary file for AIX42673
+Number of papers: 16
+=============Summaries=============
+
+Paper: PMC8643167.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was explicitly stated for the phages.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- Phages were isolated from diverse environments including marine sediments, water, soil, composts, animal feces, silkworms, and plant tissues.
+- The abstract and table provide numerous examples of isolation sources (e.g., wastewater, sewage, soil, marine sediment, river water, compost, etc.).
+
+Concise Summary:
+This review focuses on the genomic, structural, and evolutionary characteristics of jumbo bacteriophages. While the phages are isolated from a wide variety of environmental sources (including marine, soil, and sewage), the provided text does not contain specific physiological data regarding their optimal growth temperature, temperature range, or any explicit classification related to thermal adaptation (e.g., thermophilic or psychrophilic). The discussion emphasizes genetic features such as large genome size, the presence of tRNA and chaperonin genes, and mechanisms for host independence, rather than thermal physiology.
+
+
+Paper: PMC13198022.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organisms are associated with the marine environment, specifically the oceans.
+- The source material involves marine picocyanobacteria (genera including *Prochlorococcus* and *Synechococcus*).
+- The study utilized samples from the Ocean Gene Atlas (OGA) and NCBI cyanobacterial genome assemblies, which are derived from environmental samples (MAGs and SAGs).
+
+Concise Summary:
+This study focuses on the auxiliary metabolic gene *pebS*, an enzyme found in cyanophages infecting marine picocyanobacteria. The research details the biochemical differences in phycoerythrobilin (PEB) biosynthesis between phages (using *pebS*) and the host cyanobacteria (using two enzymes, *PebA* and *PebB*). The analysis confirms that *pebS* is phylogenetically distinct from the host enzymes and is exclusively found on phage contigs within environmental assemblies. The organisms are sourced from the marine environment, with the analyzed genomes originating from metagenomic and single-cell amplified samples. No direct information regarding the optimal growth temperature, temperature range, or specific thermal adaptations (thermophilic, psychrophilic, etc.) of the associated cyanobacteria or phages was presented in the text.
+
+
+Paper: PMC13041748.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- Incubation conditions mentioned include 24° ± 2°C for growth assays.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism is a marine cyanobacterium, with studies conducted in both in silico models and in vitro growth assays using BG-11 medium.
+
+Concise Summary:
+The study focuses on the metabolic hijacking mechanisms of bacteriophages infecting a marine cyanobacterium. While the experimental validation was performed at a controlled temperature of 24° ± 2°C, the paper does not provide any data regarding the organism's optimal, range, or survival temperatures, nor does it discuss any specific thermal adaptations (thermophilic, psychrophilic, etc.). The environmental context is established as a marine habitat, with laboratory validation conducted under controlled, mesophilic-like conditions.
+
+
+Paper: 41930475.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific temperature-adapted enzymes was made.
+- Membrane adaptations were noted in the context of phage infection and resistance, but not in relation to temperature stress.
+
+Environmental Context:
+- Estuarine ecosystems (China).
+
+Concise Summary:
+The study investigated the coevolution between cyanophages and picocyanobacteria in estuarine environments. The analysis focused on genetic adaptations related to phage interaction, including metabolic pathways and mutations in membrane-associated functions. No direct data regarding the optimal, growth, or survival temperature ranges, or specific thermal adaptations (thermophilic, psychrophilic, etc.), were presented for the organisms or viruses.
+
+
+Paper: PMC9230969.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed proteins or associated organisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The analyzed proteins originate from diverse sources including: bacterial phages (Myoviridae, Ackermannviridae, etc.), archaeal viruses, and components of Type VI secretion systems (T6SSs).
+- Sources include: *Desulfitobacterium hafniense*, *Listeria innocua*, *Pseudomonas aeruginosa*, *Clostridium difficile*, *Haloarcula*, *Halobacterium*, *Halorubrum*, *Natrialba*, *Methanothrix*, *Candidatus Bathyarchaeota*, *Candidatus Lokiarchaeota*, *Thaumarchaeota*, *Pacearchaeota*, *Euryarchaeota*, *Actinobacteria*, *Cyanobacteria*, and various environmental/metagenomic assemblies.
+- The study analyzed proteins from organisms spanning various ecological niches, including those associated with deep-sea/archaeal environments (e.g., *Candidatus* groups) and surface bacteria/phages.
+
+Concise Summary:
+The research focuses on the structural evolution of contractile sheath proteins (TShPs) from diverse viral and bacterial systems (including T6SSs). The analyzed proteins originate from a highly diverse set of prokaryotes and archaea, encompassing members of the Myoviridae, Haloferacalesvirus, and various deep-branching archaeal lineages. While the source organisms are ecologically diverse, the paper does not provide specific physiological data regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) for the source organisms or the proteins themselves. The analysis is purely structural and phylogenetic, utilizing advanced modeling (AlphaFold 2) to characterize conserved core domains and variable accessory domains across these diverse taxa.
+
+
+Paper: PMC13108922.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for phages against *Enterobacter* group).
+- Growth temperature range: 22°C (for cyanophages against *Synechococcus* sp. WH7803) and 37°C (for phages against *Enterobacter* group).
+- Incubation conditions: 1 hour at 22°C with illumination (for cyanophages); overnight incubation at 37°C (for phages against *Enterobacter* group).
+- Environmental source/habitat: Wastewater samples, pig trough water, and seawater samples.
+
+Environmental Context:
+- The phages were isolated from diverse environmental sources including wastewater, pig trough water, and seawater. The isolation protocols utilized incubation temperatures ranging from 22°C to 37°C, suggesting adaptation to mesophilic conditions typical of environmental reservoirs.
+
+
+Paper: PMC12263573.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37°C for 24–48 h under aerobic conditions
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by optimal growth at 37°C
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Marine water, ocean sediment, swimming pool water, and clinical samples (otitis externa).
+- Extreme environment isolation: Not explicitly stated as extreme, but sources include marine and wastewater-associated environments.
+- Explicit classification: None provided regarding temperature adaptation.
+
+
+Paper: 41549294.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The viromes were analyzed from an estuarine creek (khazan ecosystem) and a tropical freshwater lake.
+- The organisms were not explicitly stated to be isolated from an extreme environment, but the source habitats are described as inland aquatic ecosystems.
+
+
+Paper: PMC10580990.1.txt
+Thermal Evidence:
+- The phages were found to be more prevalent and abundant in colder regions.
+- A significant negative correlation was observed between the relative abundance (RPKM) of some phages and temperature (P < 0.05).
+- The phages were generally detected in surface and mesopelagic waters (0–1,000 m).
+- Some phages were found to be predominant in cold regions.
+- The phages were found to be relatively wider distributed in both cold regions and in stations with high temperature and lower salinity (<20 psu).
+
+Environmental Context:
+- The phages were isolated from coastal surface waters in both a Bohai Sea location and an Osaka Bay location.
+- Metagenomic analysis showed distinct biogeographic distributions, with some phages being predominant in cold regions, some exclusively detected in estuarine stations, and others displaying wider distributions.
+
+Concise Summary:
+The phages infecting the marine OM43 bacteria were found to exhibit strong correlations with temperature, showing higher relative abundance in colder regions, evidenced by a significant negative correlation between RPKM and temperature. Their distribution was generally observed in surface and mesopelagic waters. While some phages showed a preference for cold environments, others displayed a wider distribution, including detection in areas with higher temperatures and lower salinity. The study notes that the phages are associated with distinct biogeographic patterns, with some groups being exclusively found in estuarine environments, suggesting adaptation to specific salinity regimes rather than strictly thermal ones.
+
+
+Paper: PMC13208690.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30 °C (under NTNL conditions).
+- Growth temperature range: The study utilized conditions ranging from 30 °C (NTNL) up to 42 °C (HLHT testing).
+- Survival temperature range: The wild-type strain struggled to survive at 42 °C, while the mutant exhibited accelerated growth at 42 °C.
+- Incubation conditions: Cultures were grown in liquid BG11 medium in a bioreactor under controlled conditions, including NTNL (30 °C, 280 μmol photons m⁻² s⁻¹), and various HLHT conditions (e.g., 40 °C, 2000 μmol photons m⁻² s⁻¹).
+- Heat tolerance: The mutant strain showed significantly enhanced tolerance to high-light–high-temperature (HLHT) stress compared to the wild-type strain, which struggled under these conditions.
+- Thermal stress responses: The mutation induced changes in gene expression related to heat shock proteins (HSPs) and sigma factors, suggesting a mechanism for thermal stress adaptation. The upregulation of the heat-inducible transcriptional repressor (HrcA) was noted.
+
+Environmental Context:
+- The organism was studied under controlled laboratory conditions simulating environmental stress (HLHT).
+- No explicit classification (e.g., mesophile, thermophile) was provided by the authors, but the context implies adaptation to fluctuating, stressful environments.
+
+Concise Summary:
+The study investigated the physiological and transcriptomic responses of a cyanobacterium to high-light–high-temperature (HLHT) stress. The organism demonstrated superior growth and survival under HLHT conditions when carrying a specific mutation in the ATP synthase subunit $\alpha$ (C252Y) compared to the wild-type strain, which struggled at elevated temperatures (e.g., 42 °C). The optimal growth temperature observed under normal light and temperature (NTNL) was 30 °C. The enhanced tolerance to HLHT stress in the mutant was linked to increased intracellular ATP synthase complex levels, improved photosynthetic efficiency (higher Fv/Fm and ETR), and widespread metabolic remodeling. Transcriptomic analysis revealed significant changes in the expression of genes related to the electron transport chain, Calvin-Benson-Bassham (CBB) cycle, and glycogen synthesis, all contributing to enhanced stress resilience. The mutation also modulated the expression of stress-related genes, including the upregulation of the heat-inducible transcriptional repressor (HrcA) and the downregulation of certain heat shock proteins, indicating a robust thermal stress response mechanism. The overall findings suggest that the mutation facilitates adaptation to challenging, elevated temperature and light regimes.
+
+
+Paper: PMC13178680.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or temperature range was provided for the microalgae species.
+- No data regarding survival temperature range, thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes were reported.
+
+Environmental Context:
+- The microalgae were cultured in laboratory settings using controlled conditions (shakers, artificial light source) and were not explicitly stated to be isolated from an extreme environment.
+
+Concise Summary:
+The study focused on optimizing the biomanufacturing of extracellular vesicles (EVs) from four microalgae species. The experimental parameters detailed involved culturing the algae under varying photoperiods (0, 16, and 24 h light/day) over a two-week period, utilizing controlled laboratory equipment (shakers, LED light source). No data concerning the thermal physiology, such as optimal growth temperature, temperature ranges, or adaptations to extreme temperatures (thermophilic, psychrophilic, etc.), were presented for these organisms. The cultivation was conducted under controlled, non-extreme laboratory conditions.
+
+
+Paper: 42148731.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was found in a permanently anoxic, dark environment (Blue Hole).
+- The study focuses on adaptation to long-term oxygen limitation, not explicitly temperature extremes.
+
+Concise Summary:
+Analysis of cyanobacteria adaptation under persistent anoxia revealed transcriptomic activity in a permanently anoxic, dark marine blue hole. The study highlights adaptive streamlining under oxygen limitation, suggesting ecological plasticity. No specific data regarding optimal, growth, or survival temperatures, or any explicit thermal adaptations (thermophilic, psychrophilic, etc.), were presented in the provided abstract/excerpt.
+
+
+Paper: PMC13203629.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the general mechanisms or the types of pili studied.
+- One study mentioned a bacterium that assembled two distinct type IV pili forms, one of which was from a source suggesting adaptation to high temperatures (implied by the genus name, though not explicitly stated as a temperature range).
+
+Environmental Context:
+- The general context involves diverse environments, including host-associated behaviors, environmental microbiology, and natural settings (e.g., chitinous surfaces, liquid interfaces, air-agar interfaces).
+- No explicit extreme environment isolation or classification (e.g., thermophilic, psychrophilic) was provided for the general mechanisms.
+
+Concise Summary:
+The review focuses on the structural, dynamic, and functional aspects of Type IV pili across various physiological processes (motility, biofilm formation, DNA uptake). While the study discusses the structural diversity and functional plasticity of these pili, it does not provide specific quantitative data regarding the optimal, range, or survival temperatures for the mechanisms described. The environmental contexts covered are broad, ranging from host interactions to various artificial laboratory surfaces. One structural comparison noted the assembly of two distinct pilus forms from a source suggesting adaptation to high temperatures, but no explicit thermal classification or detailed thermal adaptation mechanisms were detailed for the general mechanisms reviewed.
+
+
+Paper: PMC13208498.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 24 ± 1 °C
+- Growth temperature range: Not explicitly stated, but controlled conditions were maintained at 24 ± 1 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 37 °C for bacterial assays; 24 ± 1 °C for culture maintenance.
+- Mention of thermal adaptation: None.
+
+Environmental Context:
+- Habitat/Source: Marine and freshwater environments, including coastal lagoons, saltworks, and open water samples.
+- Extreme environment isolation: Not explicitly stated.
+- Explicit classification: None provided regarding thermal adaptation.
+
+
+Paper: 42191666.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Co-culture with mammalian cells over 28 days under light exposure.
+- Environmental source/habitat: Not specified.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by growth at 37°C.
+- Heat tolerance: Not specified.
+- Cold tolerance: Not specified.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Not specified.
+
+Environmental Context:
+- Habitat/Source: Not specified.
+
+Concise Summary:
+Photosynthetic microorganisms tested were capable of growing and being co-cultured with mammalian cells at an optimal temperature of 37°C. The study observed the viability and metabolic interactions of these organisms over a 28-day period under continuous light exposure within engineered tissue constructs. The metabolic activity and oxygen production were shown to be critically influenced by the composition of the surrounding mammalian cell culture medium, suggesting metabolic flexibility across various nutrient environments. The organisms demonstrated the ability to function within conditions mimicking various tissue culture media (cardiac, cartilage, liver).
+
+
+
+Paper: 42148773.txt
+Thermal Evidence:
+- No specific temperature data (optimal, range, survival, or incubation) was provided in the text.
+
+Environmental Context:
+- No specific environmental source or habitat was provided in the text.
+
+Concise Summary:
+The study focused on characterizing transcription termination mechanisms in a cyanobacterium model organism. The research details the unique end architectures of the transcriptome, noting that intrinsic termination alone cannot explain most termination events. The findings suggest the existence of novel, undescribed termination mechanisms, highlighting a largely unexplored regulatory landscape. The work aims to improve the understanding of gene regulation and the applied potential of this organism in green biotechnology, but provides no data regarding its thermal physiology or environmental niche.
+
+

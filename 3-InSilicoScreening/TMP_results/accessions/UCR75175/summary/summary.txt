@@ -1,0 +1,131 @@
+Summary file for UCR75175
+Number of papers: 10
+=============Summaries=============
+
+Paper: PMC11711101.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic, heat/cold tolerance) were reported for the phages or hosts.
+
+Environmental Context:
+- The study utilized metagenomic data sourced from the gut microbiome of human individuals.
+
+Concise Summary:
+The paper focuses on developing a computational framework (DSPHI) to predict phage-host interactions (PHI) using a dual-view sparse network model. The methodology integrates high-order mutual information derived from metagenomic data, sequence similarity information, and known association data. The analysis is purely computational and predictive, relying on bioinformatics techniques (e.g., graph convolutional networks, logical probability theory) and does not report any physiological data regarding the optimal growth temperature, temperature range, or thermal adaptations of the studied microbial components.
+
+
+Paper: PMC10746027.1.txt
+Thermal Evidence:
+- Optimal MOI determination and one-step growth curve were conducted at $37^	ext{o}	ext{C}$ and $200 	ext{ rpm}$.
+- The phage showed good activity at $70^	ext{o}	ext{C}$.
+- The phage maintained good activity across a wide temperature range, specifically tested at $-20^	ext{o}	ext{C}$, $4^	ext{o}	ext{C}$, $25^	ext{o}	ext{C}$, $37^	ext{o}	ext{C}$, $50^	ext{o}	ext{C}$, and $70^	ext{o}	ext{C}$.
+- At $50^	ext{o}	ext{C}$ and $70^	ext{o}	ext{C}$, the titer decreased with increased culture time.
+- The phage demonstrated good tolerance to temperature variations.
+
+Environmental Context:
+- Samples were collected from seafood aquaculture water and aquaculture environmental sewage.
+- The phage was found to have good activity at $-20^	ext{o}	ext{C}$ and $70^	ext{o}	ext{C}$.
+
+Concise Summary:
+Phage VA5 was isolated from aquaculture water and sewage. Its optimal growth conditions for activity testing were established at $37^	ext{o}	ext{C}$. The phage exhibits significant thermal stability, showing good activity across a broad range including $-20^	ext{o}	ext{C}$ up to $70^	ext{o}	ext{C}$. While activity was maintained at $70^	ext{o}	ext{C}$, the titer showed a measurable decrease at $50^	ext{o}	ext{C}$ and $70^	ext{o}	ext{C}$ over extended incubation periods. The overall characterization indicates good thermal tolerance, suggesting potential for survival in varying aquatic temperatures.
+
+
+Paper: PMC11997392.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: 5 °C to 50 °C (for the selected phages)
+- Incubation conditions: 37 °C (for bacterial growth and phage assays)
+- Environmental source/habitat: Sewage water, cattle and pig rectal swabs, and feces.
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, or specific enzyme adaptations.
+- Explicit classification: None provided for thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Sewage water, cattle and pig rectal swabs, and feces from Brazilian commercial broiler farms.
+
+Concise Summary:
+The study utilized bacterial isolates from Brazilian commercial broiler farms, with phage isolation sources including sewage water, cattle, and pig rectal swabs. Bacterial growth and phage assays were consistently performed at an optimal temperature of 37 °C. For the characterized bacteriophages, stability testing revealed that they retained infectivity within a temperature range of 5 °C to 50 °C. The phages were found to be stable at these temperatures, while exposure below -20 °C or above 50 °C reduced their titers. No specific adaptations (thermophilic, psychrophilic) were classified for the phages based on the provided data.
+
+
+Paper: PMC13198450.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Incubated aerobically at 37 °C for 24–48 h (for bacterial plates); Incubated at 37 °C for 48 h (for fungal susceptibility testing).
+- Environmental source/habitat: Clinical isolates obtained from ear canal swabs collected from dogs with otitis externa.
+- Mention of temperature adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: Canine ear canal (associated with otitis externa).
+
+Concise Summary:
+The study utilized standard microbiological incubation conditions for testing antimicrobial activity. Bacterial isolates were incubated aerobically at 37 °C for 24–48 hours. Fungal susceptibility testing was conducted by incubating isolates at 37 °C for 48 hours. The source of the clinical isolates was the ear canal of dogs presenting with otitis externa. No information regarding the organism's thermal adaptation, extreme environment isolation, or specific temperature ranges was provided.
+
+
+Paper: PMC13198750.1.txt
+The provided text does not contain specific information regarding the optimal growth temperature or temperature tolerance of any organism. Therefore, no summary can be generated based on temperature data.
+
+
+Paper: 42183934.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions related to temperature was provided.
+- No specific adaptations (thermophilic, psychrophilic, mesophilic, heat/cold tolerance) were detailed.
+- No mention of temperature-adapted enzymes or membrane adaptations was provided.
+
+Environmental Context:
+- The organism was isolated from the rhizosphere soil of a Jatropha tree.
+- No indication that the organism was isolated from an extreme environment was provided.
+- The authors provided a molecular identification but did not give an explicit thermal classification (e.g., mesophile, psychrotolerant).
+
+
+Paper: 42183952.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range were provided.
+- No mention of incubation conditions related to temperature was given.
+- No evidence of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was presented.
+
+Environmental Context:
+- The organisms were isolated from surface waters along a rural-urban gradient in a subtropical watershed.
+- No explicit classification regarding temperature adaptation was provided by the authors.
+
+
+Paper: PMC13198682.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or thermal adaptation (thermophilic, psychrophilic, mesophilic) were provided for the organism.
+- No mention of temperature-adapted enzymes, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- The organism was studied in the context of the feline gastrointestinal tract (fecal samples).
+
+Concise Summary:
+The provided article focuses on the physiological effects of a probiotic strain on feline gut dysbiosis and bile acid metabolism following antibiotic treatment. There is no microbiological data presented regarding the organism's optimal growth temperature, temperature range, or thermal adaptations (e.g., thermophilic, psychrophilic). The organism was studied in the context of the feline gastrointestinal tract.
+
+
+Paper: PMC13198723.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, range, or survival temperatures were provided for any organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The study utilized high-throughput screening datasets derived from various biological sources, including: 
+    - Handwritten digits (MNIST dataset).
+    - High-content imaging data from ovarian cancer cell lines (AOCS-2, VOA-6406, SLC58) and normal ovarian surface epithelial cell line (IOSE-523).
+    - *Escherichia coli* gene-deletion library screened against chemical and environmental stressors.
+    - Single-cell RNA-seq data from peripheral blood mononuclear cells (PBMC).
+    - Connectivity Map (CMap) data from various cancer cell lines (breast, prostate, leukaemia).
+- No organism was explicitly stated to be isolated from an extreme environment, and no explicit thermal classification was provided by the authors.
+
+
+Paper: PMC13198646.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The discussion focuses on the molecular mechanisms and therapeutic applications of ribozymes derived from an enzyme found in *Escherichia coli* and its potential to target human herpesviruses (HSV-1 and KSHV) in the oral cavity. The source organisms for the ribozyme are not discussed in terms of their natural environmental temperature adaptations.
+
+Concise Summary:
+The paper reviews the use of engineered RNase P ribozymes (M1GS) as antiviral agents against oral herpesvirus infections (HSV-1 and KSHV). The focus is entirely on molecular biology, gene targeting, and therapeutic potential. There is no physiological or environmental data provided regarding the temperature requirements, growth conditions, or thermal adaptations of the source organisms or the viruses themselves. The discussion is limited to *in vitro* and cell culture studies, with no mention of extreme environments or thermal classification for the relevant biological components.
+
+

@@ -1,0 +1,89 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Genome Announc
+Journal ID: Genome Announc
+Journal ID: GA
+
+Genome Announcements
+
+EISSN: 2169-8287
+Publisher: American Society for Microbiology (ASM)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC5477406
+PMID: 28546493
+DOI: 10.1128/genomeA.00409-17
+Article ID: genomeA00409-17
+Article version: 1
+Subjects: Prokaryotes
+
+Whole-Genome Sequence of the Bacteriophage-Sensitive Strain Campylobacter jejuni NCTC12662
+
+Genome Announcement
+
+Gencay et al.
+
+Gencay Yilmaz Emre
+Sørensen Martine C. H.
+Brøndsted Lone
+Department of Veterinary and Animal Sciences, University of Copenhagen, Frederiksberg, Denmark
+Address correspondence to Lone Brøndsted, lobr@sund.ku.dk.
+Electronic publication date: 2017 May 25
+Publication date: 2017 May
+Volume: 5
+Issue: 21
+Electronic Location ID: e00409-17
+Received 2017 Apr 4; Accepted 2017 Apr 6
+Copyright: Copyright © 2017 Gencay et al.
+Copyright year: 2017
+Copyright holder: Gencay et al.
+License: This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Figure count: 0
+Table count: 0
+Equation count: 0
+Reference count: 9
+Page count: 2
+
+cover-date: May 2017
+
+==============================
+ABSTRACT
+
+Campylobacter jejuni NCTC12662 has been the choice bacteriophage isolation strain due to its susceptibility to C. jejuni bacteriophages. This trait makes it a good candidate for studying bacteriophage–host interactions. We report here the whole-genome sequence of NCTC12662, allowing future elucidation of the molecular mechanisms of phage–host interactions in C. jejuni.
+
+GENOME ANNOUNCEMENT
+
+Campylobacter jejuni is a zoonotic Gram-negative bacterium and the leading cause of foodborne gastroenteritis in the western world. Research within bacteriophages as biocontrols of C. jejuni has resulted in the isolation of phages belonging to two genera: Cp220virus and Cp8virus. C. jejuni NCTC12662 is susceptible to most of these phages, including phages dependent on the capsular polysaccharide (CPS) or a motile flagellum for infection (1). Here, we report the genome sequence of NCTC12662 as a common host for C. jejuni phages, allowing future molecular investigation and comparison of phage–host interactions in C. jejuni.
+
+DNA libraries from the genomic DNA from C. jejuni NCTC12662 (obtained from the National Collection of Type Cultures) were prepared using the Nextera XT version 3 kit (Illumina) and sequenced with MiSeq (Illumina) in 2 × 250-bp operating mode. The 550,920 reads generated were de novo assembled using CLC Genomics Workbench version 9.5.3, resulting in a total of 47 contigs. Due to the obtained low coverage, another round of sequencing was executed at the Sanger Institute (Cambridge, United Kingdom) using HiSeq 2000 (Illumina), yielding 4,635,024 100-bp raw reads. Subsequently, contigs were joined by the extend and align contig functions using flanking genome data, resulting in an average coverage of 287-fold. The genome sequence was annotated using the NCBI Prokaryotic Genome Annotation Pipeline (2). The circular genome of NCTC12662 is 1,612,586 bp with an average G+C content of 30.7%. It comprises 1,548 coding sequences, 44 tRNA genes, and 3 rRNA operons and carries no prophage-associated genes (3) or plasmids.
+
+Phase-variable expression of genes that carry polyG tracts is a well-known phenomenon for generating phenotypic population diversity in C. jejuni (4), and C. jejuni NCTC12662 contains 19 polyG tracts. Previously, we found that the phase-variable expression of cj1421 and cj1422, which modify GalfNac and heptose residues of the CPS with O-methyl phosphoramidate (MeOPN), respectively, were responsible for phage resistance in C. jejuni NCTC11168 (5, 6). NCTC12662 encodes one putative phase-variable MeOPN-transferase (06810), showing 83% identity to Cj1421 and Cj1422 at the N-terminal part of the protein. Although this indicates that a different CPS residue of NCTC12662 is modified by MeOPN compared to NCTC11168, the phase-variable nature of gene 06810 is conserved in NCTC12662.
+
+NCTC12662 harbors 7 clustered regularly interspaced palindromic repeats (CRISPR) with subtype-II-C CRISPR-associated genes (Cas-1, -2, and -9) sharing high similarity with NCTC11168. However, one of the protospacers is duplicated, and thus NCTC12662 encodes only 5 distinct 31-bp protospacers. Noteworthy, the duplicate protospacer exclusively matches a hypothetical protein (CJE0597) found in C. jejuni integrated element 2 (CJIE2) in strain RM1221 (7) and group 4 prophages CJIE4-1 and CJIE4-5 (8). Whether the absence of both groups of prophages in NCTC12662 is due to CRISPR-Cas activity is an intriguing question. Sequence homologies also suggest that NCTC12662 encodes type I, II, III, and IV RM systems (9), indicating no significant effect of these RM systems in C. jejuni phage resistance. Thus, further studies are needed to elucidate why NCTC12662 is susceptible to many diverse phages of C. jejuni.
+
+Accession number(s).
+
+The C. jejuni NCTC12662 complete genome is available under GenBank accession no. CP019965
+
+ACKNOWLEDGMENT
+
+This work was supported by grant 34009-14-0873 (TOPSAFE: Targeted Optimized Phage Solutions for Food Safety) from The Danish AgriFish Agency, Ministry of the Environment and Food, which otherwise had no involvement in the presented work.
+
+Citation Gencay YE, Sørensen MCH, Brøndsted L. 2017. Whole-genome sequence of the bacteriophage-sensitive strain Campylobacter jejuni NCTC12662. Genome Announc 5:e00409-17. https://doi.org/10.1128/genomeA.00409-17.
+
+
+REFERENCES
+
+1. Sørensen MCH , Gencay YE , Birk T , Baldvinsson SB , Jäckel C , Hammerl JA , Vegge CS , Neve H , Brøndsted L 2015 Primary isolation strain determines both phage type and receptors recognised by Campylobacter jejuni bacteriophages. PLoS One 10:e0116287. doi:10.1371/journal.pone.0116287.25585385 PMC4293142
+2. Angiuoli SV , Gussman A , Klimke W , Cochrane G , Field D , Garrity G , Kodira CD , Kyrpides N , Madupu R , Markowitz V , Tatusova T , Thomson N , White O 2008 Toward an online repository of standard operating procedures (SOPs) for (meta)genomic annotation. Omics 12:137–141. doi:10.1089/omi.2008.0017.18416670 PMC3196215
+3. Arndt D , Grant JR , Marcu A , Sajed T , Pon A , Liang Y , Wishart DS 2016 PHASTER: a better, faster version of the PHAST phage search tool. Nucleic Acids Res 44:W16–W21. doi:10.1093/nar/gkw387.27141966 PMC4987931
+4. Bayliss CD , Palmer ME 2012 Evolution of single sequence repeat-mediated phase variation in bacterial genomes. Ann N Y Acad Sci 1267:39–44. doi:10.1111/j.1749-6632.2012.06584.x.22954215
+5. Sørensen MC , van Alphen LB , Harboe A , Li J , Christensen BB , Szymanski CM , Brøndsted L 2011 Bacteriophage F336 recognizes the capsular phosphoramidate modification of Campylobacter jejuni NCTC11168. J Bacteriol 193:6742–6749. doi:10.1128/JB.05276-11.21965558 PMC3232882
+6. Holst Sørensen MC , van Alphen LB , Fodor C , Crowley SM , Christensen BB , Szymanski CM , Brøndsted L 2012 Phase variable expression of capsular polysaccharide modifications allows Campylobacter jejuni to avoid bacteriophage infection in chickens. Front Cell Infect Microbiol 2:11. doi:10.3389/fcimb.2012.00011.22919603 PMC3417653
+7. Fouts DE , Mongodin EF , Mandrell RE , Miller WG , Rasko DA , Ravel J , Brinkac LM , DeBoy RT , Parker CT , Daugherty SC , Dodson RJ , Durkin AS , Madupu R , Sullivan SA , Shetty JU , Ayodeji MA , Shvartsbeyn A , Schatz MC , Badger JH , Fraser CM , Nelson KE 2005 Major structural differences and novel potential virulence mechanisms from the genomes of multiple Campylobacter species. PLoS Biol 3:e15. doi:10.1371/journal.pbio.0030015.15660156 PMC539331
+8. Clark CG , Chong PM , McCorrister SJ , Mabon P , Walker M , Westmacott GR 2014 DNA sequence heterogeneity of Campylobacter jejuni CJIE4 prophages and expression of prophage genes. PLoS One 9:e95349:e95394. doi:10.1371/journal.pone.0095349.24756024 PMC3995785
+9. Gardner SP , Olson JW 2012 Barriers to horizontal gene transfer in Campylobacter jejuni, p 19–42. In Gadd G , Sariaslani S (ed), Advances in applied microbiology, 1st ed. Academic Press, San Diego, CA.10.1016/B978-0-12-394318-7.00002-4 22569516

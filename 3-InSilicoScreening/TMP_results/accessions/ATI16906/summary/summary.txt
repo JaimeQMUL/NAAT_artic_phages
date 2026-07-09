@@ -1,0 +1,144 @@
+Summary file for ATI16906
+Number of papers: 11
+=============Summaries=============
+
+Paper: PMC10037218.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C overnight
+- Environmental source/habitat: Gut epithelium (for host bacteria)
+- Mention of adaptations: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/source: Gut epithelium (for host bacteria)
+
+Concise Summary:
+The study utilized incubation conditions of 37 °C for initial host range assays. The host bacteria are associated with the gut epithelium. No specific data regarding optimal growth temperature range, survival temperature range, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were provided for the organisms or phages studied.
+
+
+Paper: PMC12892980.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 30°C (for protein expression/culture) to 37°C (for bacterial growth)
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37°C (for bacterial growth); 30°C (for protein expression)
+- Environmental source/habitat: Swine stool samples (for phage isolation)
+- Mention of adaptation: None explicitly stated.
+
+Environmental Context:
+- Habitat/source: Swine stool samples.
+
+Concise Summary:
+The study utilized *E. coli* O157:H7, which was grown and cultured at 37°C. Protein expression and initial phage work were conducted at 30°C. The phage was isolated from swine stool samples. No specific thermal adaptations (thermophilic, psychrophilic, etc.) were discussed or observed in the context of the molecular interactions studied.
+
+
+Paper: PMC10575539.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C was used for plaque assays and initial bacterial growth.
+- Environmental source/habitat: Hospital wastewater.
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, or heat/cold tolerance.
+- Explicit classification: None provided regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Hospital wastewater.
+
+
+Paper: PMC11141557.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but cultures were grown at 37 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Overnight incubation at 37 °C with 200 rpm in a shaking incubator.
+- Environmental source/habitat: Human sera and stool specimens from patients with shigellosis.
+- Mention of adaptations: None mentioned.
+- Explicit classification: None provided by the authors regarding temperature adaptation.
+
+
+Paper: PMC12945076.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C shaking incubator; 37 °C incubation (for formaldehyde inactivation); 37 °C incubation (for subsequent cooling to 10 °C).
+- Environmental source/habitat: Not specified
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: Not specified
+
+Concise Summary:
+The organism was cultured under standard laboratory conditions, with optimal growth and initial incubation temperatures consistently maintained at 37 °C. The process involved controlled temperature shifts, including cooling to 10 °C after formaldehyde inactivation. No information regarding extreme environments, thermophilic, psychrophilic, or specific thermal adaptations was provided in the text.
+
+
+Paper: PMC13196422.1.txt
+The provided text does not contain specific information regarding the optimal growth temperature or temperature tolerance for any described microorganisms. Therefore, no temperature-related data can be extracted.
+
+
+Paper: PMC13203102.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organism was studied in the context of its natural role in bacterial cell division, but no specific extreme environmental source was detailed.
+
+Concise Summary:
+This study focuses on the structural and functional analysis of a key protein involved in bacterial cell division (FtsQ) from a Gram-negative bacterium. The research is entirely computational and structural, utilizing X-ray crystallography data and *in silico* modeling to map potential drug targets. Consequently, there is no physiological or environmental data provided regarding the organism's optimal growth temperature, temperature range, or thermal adaptations. The analysis is purely focused on molecular interactions and druggability assessment.
+
+
+Paper: PMC13209904.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the analyzed organisms.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+- No specific enzymes adapted to temperature or membrane adaptations related to temperature were discussed.
+
+Environmental Context:
+- The organisms were isolated from fecal specimens of pediatric patients with diarrhea and were studied in the context of enteric infections.
+- No mention of isolation from an extreme environment was made.
+
+Concise Summary:
+The provided article focuses on the comparative genomics, phylogenomics, and virulence profiles of several related enterobacteria strains. The analysis details genomic comparisons, pangenome structure, and virulence gene carriage across the strains. Crucially, the manuscript does not contain any data or discussion regarding the optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) of these microorganisms. The environmental context is limited to clinical/fecal isolation sources.
+
+
+Paper: PMC11520789.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided in the text.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- The organism was isolated from human stool samples (diarrhea/fecal-oral route) in various geographical locations across Africa (e.g., community-based and health facility-based settings).
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+
+Paper: PMC12704457.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No specific survival temperature range was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was found.
+
+Environmental Context:
+- The organism is described as a bacterium of the Enterobacteriaceae family.
+- It is noted to be a gastric acid-resistant bacterium, indicating survival in low pH environments (stomach).
+- The primary natural reservoir is humans.
+- The organism is associated with waterborne, foodborne, and person-to-person transmission, suggesting environmental exposure via contaminated sources.
+
+Concise Summary:
+The organism is characterized as a Gram-negative, facultative intracellular bacterium belonging to the Enterobacteriaceae family. Key physiological traits include resistance to gastric acidity, allowing survival in low pH environments. The organism is primarily associated with human reservoirs and transmission via the fecal-oral route through contaminated food, water, and direct contact. No specific data regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were detailed in the provided text.
+
+
+Paper: PMC13188704.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, incubation conditions, or enzyme/membrane adaptations were provided for the pathogen.
+
+Environmental Context:
+- The study focused on the epidemiology and spatial/temporal dynamics of the disease, not on the microbiology or thermal physiology of the causative agent.
+
+Concise Summary:
+This paper is an epidemiological and spatio-temporal analysis of the incidence of the disease. It details trends, seasonal patterns, and geographical clustering but contains no microbiological data regarding the pathogen's thermal physiology, such as optimal growth temperature, temperature ranges, or adaptations (thermophilic, psychrophilic, mesophilic). Therefore, no thermal evidence can be extracted for downstream classification.
+
+

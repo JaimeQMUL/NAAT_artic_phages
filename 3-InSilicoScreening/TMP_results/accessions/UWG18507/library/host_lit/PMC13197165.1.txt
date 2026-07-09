@@ -1,0 +1,947 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: eLife
+Journal ID: Elife
+Journal ID: eLife
+
+eLife
+
+EISSN: 2050-084X
+Publisher: eLife Sciences Publications, Ltd
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13197165
+PMID: 42172063
+DOI: 10.7554/eLife.107154
+Article ID: 107154
+Article version: 1
+Article version: version of record
+Subjects: Tools and Resources, Computational and Systems Biology, Developmental Biology
+
+A quantitative pipeline for whole-mount deep imaging and analysis of multi-layered organoids across scales
+
+Gros Alice https://orcid.org/0009-0000-8957-4673 1 † §
+Vanaret Jules 1 2 † §
+Dunsing-Eichenauer Valentin 1 †
+Rostan Agathe 1
+Roudot Philippe https://orcid.org/0000-0001-6632-8728 2 3
+Lenne Pierre-François https://orcid.org/0000-0003-1066-7506 1
+Guignard Léo https://orcid.org/0000-0002-3686-1385 leo.guignard@univ-amu.fr 1 ‡
+Tlili Sham https://orcid.org/0000-0001-6018-9923 sham.tlili@univ-amu.fr 1 ‡
+1 https://ror.org/035xkbk20 Aix Marseille Univ, CNRS IBDM (UMR 7288), Turing Centre for Living Systems Marseille France
+2 https://ror.org/035xkbk20 Aix Marseille University, CNRS, Centrale Marseille, I2M (UMR 7373), Turing Centre for Living Systems Marseille France
+3 https://ror.org/035xkbk20 Aix Marseille University, CNRS, Centrale Marseille, FRESNEL (UMR 7249), Turing Centre for Living Systems Marseille France
+Sugimura Rio Reviewing Editor https://ror.org/02zhqgq86 The University of Hong Kong Hong Kong
+
+Walczak Aleksandra M Senior Editor https://ror.org/02feahw73 CNRS France
+
+† These authors contributed equally to this work.
+
+‡ These authors also contributed equally to this work.
+
+§ The order of these authors reflects the amount of time each dedicated to the project.
+
+Electronic publication date: 2026 May 22
+Publication date: 2026
+Volume: 14
+Electronic Location ID: RP107154
+2025 May 13
+Copyright: © 2025, Gros, Vanaret, Dunsing-Eichenauer et al
+Copyright year: 2025
+Copyright holder: Gros, Vanaret, Dunsing-Eichenauer et al
+
+License: This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+10.1101/2024.08.13.607832
+10.7554/eLife.107154.1
+10.7554/eLife.107154.2
+Keywords: whole-mount 3D imaging, gastruloids, morphometrics, 3D nuclei segmentation, napari, gene expression analysis
+Keywords: Mouse
+
+Funding: https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-16-CONV-0001 Gros Alice Vanaret Jules Roudot Philippe Lenne Pierre-François Guignard Léo Tlili Sham https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-19-CE13-0022 Lenne Pierre-François https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-22-CE30-0021 Tlili Sham https://ror.org/0472cxd90 European Research Council 10.3030/101072123 Rostan Agathe Lenne Pierre-François Tlili Sham https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-10-INBS-04 Lenne Pierre-François Tlili Sham https://ror.org/04w6kn183 Fondation pour la Recherche Médicale FDT202404018538 Gros Alice https://ror.org/04w6kn183 Fondation pour la Recherche Médicale EQU202003010407 Lenne Pierre-François https://ror.org/02ebx7v45 Human Frontier Science Program HFSP LT0058/2022- L Dunsing-Eichenauer Valentin https://ror.org/02vjkv261 Institut National de la Santé et de la Recherche Médicale Inserm Booster Program MecaCell3D Lenne Pierre-François Tlili Sham The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.
+
+Author impact statement: The Tapenade pipeline enables single-cell, whole-mount 3D quantification in dense multilayer organoids, linking spatial gene co-expression and nuclear deformation to emerging tissue-scale organization.
+publishing-route: prc
+
+==============================
+Whole-mount 3D imaging at the cellular scale is a powerful tool for exploring complex processes during morphogenesis. In organoids, it allows examining tissue architecture, cell types, and morphology simultaneously in 3D models. However, cell packing in multilayered organoid tissues hinders both deep imaging and quantification of cell-scale processes. To address these challenges, we developed an experimental and computational pipeline to extract properties at scales ranging from cell to tissue. The experimental module is based on two-photon imaging of immunostained organoids. The computational module corrects for optical artifacts, performs accurate 3D nuclei segmentation and reliably quantifies gene expression. We provide the computational module as a user-friendly Python package called Tapenade, along with napari plugins which enable joint data processing and exploration across scales. We demonstrate the pipeline by quantifying 3D spatial patterns of gene expression and nuclear morphology in gastruloids, revealing how local cell deformations and gene co-expression relate to tissue-scale organization. This quantitative pipeline improves our understanding of gastruloid development, and lays the groundwork for a wide range of multi-layered organoids and tumoroids systems
+
+Introduction
+
+Understanding organoid development and variability at multiple scales
+
+The biology of organoids and tumoroids represents a frontier in fundamental biology and biomedical research, driven by the need for accurate 3D models complementary to 2D cell cultures and animal studies (Clevers and Tuveson, 2019; Kim et al., 2020). In the context of the ‘3Rs’ (Replacement, Reduction, and Refinement) aimed at minimizing the use of animals in research and enhancing ethical experimental practices (Russell et al., 1959). Developing these models in 3D is crucial for mimicking the complex architecture and functionality of tissues, enabling deeper insights into developmental, or disease mechanisms and treatment responses (Simian and Bissell, 2017; Lancaster and Huch, 2019). Organoids models exhibit less stereotypic development compared to embryos, where cell identification is typically straightforward based on position within the embryo at specific developmental stages (McDole et al., 2018; Guignard et al., 2020). In contrast, organoids present more complex developmental trajectories (Farag et al., 2024; Suppinger et al., 2023; Villaronga Luque et al., 2023; Hofer and Lutolf, 2021), characterized by variability in morphology, cell type composition, and differentiation levels. This variability may stem from differences in the initial cell differentiation state or number (Cermola et al., 2021), as well as from a less controlled biochemical and mechanical environment than that of embryos (Gjorevski et al., 2022), which grow confined within maternal tissues for mammals or in a rigid shell for insects (Lenne et al., 2021). This inherent variability underscores the need for detailed characterization of a sufficient number of organoids in parallel to properly characterize the diversity of their developmental processes. To this end, coarse-grained methods have been developed to classify phenotypes of intestinal organoids (Lukonin et al., 2020) and gastruloids (Suppinger et al., 2023; Gritti et al., 2021) by analyzing maximum projections from 3D immunofluorescence staining using high-throughput confocal imaging. These approaches are effective for systematically screening the impact of chemical compounds or signaling pathway perturbations on organoid morphology, as well as on the localization and proportion of various cell types and tissues within the organoid.
+
+However, understanding how organoids or tumoroids develop and self-organize also requires capturing how individual stem cells or cancerous cells differentiate and modulate their behavior and morphology in response to their local microenvironment (Costa et al., 2016; Hass et al., 2020). Simultaneously, it is essential to quantify tissue characteristics on a coarser scale (where each measurement integrates data from groups of several neighboring cells) to capture the mechanical and biochemical interactions among different tissues and cell populations within the overall geometry of the organoid (Liu et al., 2023). To achieve this, a challenge is to image these 3D tissues in toto at a resolution sufficient to identify each cell and its neighbors both in live and fixed samples (van Ineveld et al., 2022). On fixed samples, multiple specific fluorescent markers can be used to capture cell fate by measuring the expression levels of particular genes or proteins by immunostaining or in situ hybridization. Complementary, live imaging is essential for understanding how local cellular events (division, migration, rearrangements) underlie the morphogenesis of these systems, as it has been done previously for embryonic development (Bosveld et al., 2012; Guirao et al., 2015).
+
+Imaging organoids in toto at cell resolution
+
+Recently, light-sheet and confocal imaging systems have been optimized for parallel imaging or long-term live imaging of organoids (Zheng et al., 2023; de Medeiros et al., 2022; Beghin et al., 2022; Moos et al., 2024). Using deep-learning-based segmentation, tracking, and classification tools, these protocols generate digital atlases of developing organoids at single-cell resolution. For example, (de Medeiros et al., 2022) employed a dual illumination inverted light-sheet microscope to live-image gut organoids over several days, enabling cell lineage reconstruction from nuclei tracking. In (Beghin et al., 2022), a single-objective light-sheet microscope was used to image tens of 3D tissues, such as gut, hepatocyte, and neuroectoderm organoids, in parallel for phenotypic classification.
+
+While advances in light-sheet microscopy have extended imaging depth in organoids, maintaining high image quality throughout thick samples remains challenging. In practice, quantitative analyses are still largely restricted to organoids under roughly 100 µm in diameter (Dekkers et al., 2019; Ong et al., 2025; Zheng et al., 2023), or hollow organoids with cavities, lumens, and epithelial structures (de Medeiros et al., 2022). These organoids are less optically opaque than larger organoids like gastruloids (Beccari et al., 2018; Hashmi et al., 2022), neuromuscular organoids (Faustino Martins et al., 2020), or cancer spheroids (Zanoni et al., 2016), which can reach diameters of 300 microns and more.
+
+For large organoids, multiphoton microscopy provides a powerful alternative due to its ability to penetrate deep into thick tissues with minimal photodamage (Schießl and Castrop, 2016). This technique utilizes longer wavelengths of light to excite fluorescent molecules within the specimen, allowing the visualization of cellular structures and interactions in high resolution (Helmchen and Denk, 2005). Furthermore, it avoids drawbacks of confocal or light-sheet microscopy on large, densely packed samples, such as strong intensity gradients, image blurring, and reduced axial information due to light scattering, aberrations, degradation, or divergence of the light-sheet (Hobson et al., 2022). Finally, two-photon microscopes are typically more accessible than light-sheet systems and allow for straightforward sample mounting, as they rely on procedures comparable to standard confocal imaging.
+
+Gastruloids: A toy model for an integrated pipeline to analyze organoids development in toto at cell resolution
+
+We have recently developed two-photon live imaging protocols to image developing gastruloids over multiple hours (Hashmi et al., 2022; Gsell et al., 2023). Gastruloids are mouse embryonic stem cells that self-organize into 3D embryonic organoids, sharing similarities with their in vivo counterparts (Beccari et al., 2018). Recent studies have shown that, within a few days, gastruloids undergo significant morphological changes, developing structures that closely resemble organs both genetically and morphologically, such as neural tube-, (Veenvliet et al., 2020) gut-, and cardiac-like structures (Rossi et al., 2021). Live two-photon imaging of gastruloids around their mid-plane has enabled us to propose biophysical models for their early symmetry breaking and elongation, using coarse-grained 2D analysis of collective tissue flows and gene patterning (Gsell et al., 2023). However, investigating in a full 3D context the relation between cellular fate and local tissue architecture during gastruloids morphogenesis (Lenne and Tlili, 2023) is still a key challenge. Indeed, it necessitates imaging in toto these dense 3D cell aggregates, which have a typical diameter above 200 microns and are highly light-diffusive objects.
+
+In this work, we present an integrated pipeline to: (1) image multiple immunostained and cleared gastruloids in whole-mount configuration using two-photon microscopy, capturing both in toto and cellular scale details; (2) process and filter the resulting 3D images to correct optical artifacts from deep imaging and segment individual cell nuclei; and (3) analyze gene expression patterns, cellular events, and morphologies in 3D across multiple spatial scales (Figure 1).
+
+Figure 1. Overview of the experimental and computational pipeline for in toto imaging of organoids at cellular resolution and multiscale analyses.
+
+Results
+
+An experimental and computational pipeline for in toto organoid imaging
+
+We have developed a versatile pipeline to image, process, and analyze tens of immunostained gastruloids (with diameters ranging from 100 to 500 μm). The experimental pipeline consists of sequential opposite-view multi-channel imaging of cleared samples, imaged with a commercial two-photon microscope (Figure 1). Afterwards, multiple processing steps are performed to extract meaningful information from the acquired images: (i) spectral unmixing to remove signal cross-talk, (ii) dual-view registration and fusion to reconstruct in toto images, (iii) sample and single cell segmentation, and (iv) signal normalization across depth and channels. Finally, reconstructed in toto images are analyzed at different scales, from cell-level correlations of different genes to coarse-grained maps of gene expression patterns, cell shapes, densities, and division events. All processing and analysis tools are open-source and Python-based. They are openly accessible as notebooks and interactive napari plugins.
+
+In toto multi-color two-photon imaging
+
+To facilitate dual-view imaging, we mounted immunostained gastruloids between two glass coverslips using spacers of defined thickness (typically 250–500 μm, adapted to match the size of the gastruloids without compressing them), allowing us to image the sample iteratively from two opposing sides (Figure 2a, see Methods Sample preparation Mounting). To optimize imaging performance, we compared several refractive index matching mounting mediums, glycerol (Ahmad et al., 2021), ProLong Gold Antifade mounting medium (Thermo Fisher), and optiprep (Boothe et al., 2017), on gastruloids labeled with Hoechst nuclei stain (see Methods Gastruloid culture). We identified 80% glycerol as the mounting medium with best clearing performance (Figure 2b, Figure 2—figure supplement 1c), leading to a threefold/eightfold reduction in intensity decay at 100 μm/ 200 μm depth compared to mounting in phosphate-buffered saline (PBS) and superior performance to gold antifade and live-cell compatible optiprep medium (Figure 2—figure supplement 1c). At these depths, information content was significantly improved by 1.5- and threefold, quantified using Fourier ring correlation quality estimate (FRC-QE) (Preusser et al., 2021; Figure 2c). Segmenting cell nuclei in images acquired on glycerol-cleared samples reliably detected cells at depth up to 200 μm, whereas a continuous decline in cell density was observed for PBS mounting, with four times fewer cells detected at 200 μm depth (Figure 2c, see details on the segmentation in the next section). These degradation effects were much more pronounced in confocal imaging even in glycerol clearing, which showed 2× lower intensity and 8× lower FRC-QE than two-photon imaging at 100 μm depth (Figure 2—figure supplement 1a and b).
+
+Figure 2. Dual-view multi-color two-photon imaging.
+
+(a) Multiple gastruloids are mounted in glycerol clearing medium in between two glass slides using spacers. (b) Mounting gastruloids in 80% glycerol significantly improves imaging at depth compared to phosphate-buffered saline (PBS) mounting. Insets show images at different depth in a central square region of 60×60 μm (c) Quantification of intensity, Fourier ring correlation quality estimate (FRC-QE) image quality metric, and density of segmented nuclei as a function of depth in the central region depicted in (b) for both glycerol- and PBS-mounted samples. Shaded areas show standard deviation for six (PBS) and nine (glycerol) gastruloids. (d-f) Top and bottom positions are assigned using a pattern-matching algorithm that is robust to residual movements of individual gastruloids, as illustrated for position 6 (d). Respective image stacks are registered using rigid 3D transformations and fused applying sigmoid fusion weights (e). This leads to in toto coverage of whole gastruloids, in which individual cells are still visible in the mid-plane (e), as shown for a gastruloid of typical size of 250 μm diameter. The average intensity per plane and FRC-QE are shown in (f) for one- and dual-view images. (g) Polar histogram plots of rotation angles around X-,Y-, and Z-axis from the 3D registration of dual-view top and bottom acquisitions, pooled for 37 aggregates. The sample slide was flipped around the X-axis. (h–j) Multi-color detection using two-photon excitation can lead to significant spectral cross-talk, as shown in the apparent emission spectra detected on gastruloids stained with a single fluorophore species (h). Using spectral unmixing, false-positive signal due to spectral cross-talk is effectively removed, as shown in the raw and filtered images (here at 50 μm depth) of gastruloids stained with T-Bra-AF568 and Sox2-AF647 (i) and the quantification of the intensity along a line (10 pixels width) across few nuclei for raw and spectrally filtered images (j). (k) Four-color images of the mid-plane of 77 hr gastruloids stained with Hoechst, FoxA2-AF488, Oct4-AF568, and T-Bra-AF647, obtained with dual-view four-channel two-photon imaging and spectral unmixing. The gastruloids were acquired in the same experiment. Scale bars are 50 μm in (b, i) and 100 μm in (k).
+
+Figure 2—figure supplement 1. Benchmarking of dual-view two-photon imaging and spectral unmixing.
+
+(a) Two-photon and confocal images of Hoechst-stained 77 hr gastruloids at 100 μm depth. Insets show nuclei in the central 100x100 pixels. Scale bars are 100 μm. (b) Normalized intensity and FRC-QE in the center of gastruloids described in (a), as a function of depth. Shaded regions show standard deviation across six gastruloids of similar size. (c) Normalized intensity and FRC-QE obtained with two-photon imaging in the center (60×60 μm2 region) of 72 hr Hoechst-stained gastruloids as a function of depth, mounted in either PBS, 20% optiprep, ProLong gold antifade, or 80% glycerol medium. (d) Normalized relative intensities detected in four detector channels as a function of imaging depth on aggregates stained with either Hoechst, AF488, AF568, or AF647. (e, f) Spectral unmixing of images acquired on gastruloids expressing transgenic H2B-GFP, additionally stained with Ecad-AF488. Raw data show significant cross-talk, particularly in the second channel. Unmixing using the spectra shown in (f) strongly reduces nuclei cross-talk in the Ecad-AF488 channel.
+
+Figure 2—figure supplement 2. Illustration of the sigmoid function that is used for weighted fusion of dual-view images, see Equation 3.
+
+The coordinate along the overlapping region between the two views is mapped to the range [0,1] to define the parameters of the sigmoid function independently from the gastruloid size. l is the decay length of the sigmoid, and we define the effective fusion width δ as the fixed fraction of the overlapping region where both signals are substantially present to create the fused part.
+
+Nevertheless, two-photon microscopy in glycerol beyond 200 μm depth suffered from decreased signal-to-noise-ratio (SNR) (Figure 2b and c). To properly image larger gastruloids in toto, a second detection side was required. We, therefore, flipped the sample slide and re-imaged the same set of gastruloids from the opposing side. Whereas the flipping was done manually, all mounted gastruloids were imaged automatically after defining their positions in the imaging software. A typical acquisition took about 5–10  min per gastruloid per side for 1 μm z-spacing and full field-of-view (318 μm with 0.62 μm pixel size at 40× magnification). To reconstruct in toto image stacks, we automatically identified opposite views of the same gastruloid by applying a pattern matching algorithm to gastruloids positions in the two acquisitions (Figure 2d, see Methods Preprocessing: Dual-view registration and fusion). Next, we registered each pair of image stacks acquired on the same aggregate using a rigid 3D transformation determined by a content-based block-matching registration algorithm (Ourselin et al., 2000) previously applied for multi-view and time registration of light-sheet imaging data (McDole et al., 2018; Guignard et al., 2020). Finally, the registered image stacks were fused using a sigmoid decay function to weight contributions of the two sides (Figure 2e,f, Figure 2—figure supplement 1). The registration was performed on the ubiquitous nuclei channel, i.e., Hoechst staining. In some instances, flipping of the slide resulted in additional minor rotations (on average (−13±11)°, (−13±18)° and (−5±10)° around the X-, Y-, and Z-axis for n=37 aggregates), which occasionally prohibited convergence of the registration algorithm (Figure 2g). For these cases, we implemented a napari plugin to pre-register the images manually and visualize the result in 3D (Figure 6). Fused gastruloid images exhibit about fourfold lower intensity in the mid-plane compared to the outer ends, but approximately constant FRC-QE across depth (Figure 2f).
+
+A common limitation in fluorescence imaging is the low number of targets that can be excited simultaneously and spectrally discriminated. To image multiple targets in parallel, we excited four fluorophore species (Hoechst, AF488-, AF568-, AF647-tagged secondary antibodies on immunostained gastruloids) simultaneously. Thanks to the broad two-photon excitation spectra, the four dye species could be excited with just two laser lines, 920  nm and 1040  nm. However, detecting their emission simultaneously on four non-descanned detectors resulted in significant signal cross-talk, due to spectral overlap (Figure 2h–j). We circumvented this problem by applying spectral decomposition (Dunsing et al., 2021). We calibrated spectral patterns, i.e., apparent emission spectra for each separate fluorophore species, in gastruloids stained with a single fluorophore species, and used these as reference patterns to decompose multi-color data (Figure 2h). Because of chromatic effects due to dispersion, spectral patterns were not constant at different depths in the sample. For example, shorter wavelength emission decays stronger with imaging depth than longer wavelength fluorescence (Figure 5—figure supplement 1b). To account for this, we performed the unmixing with depth-dependent spectral patterns (see Methods Preprocessing: Spectral unmixing). Thereby, we could significantly remove cross-talk, for example, false positive cells in the far-red detection channel that resulted from cross-talk of bright cells visible in the red channel (Figure 2i and j). Notably, spectral decomposition with four-channel detection was even possible for spectrally strongly overlapping fluorophores, which we verified on gastruloids with transgenic H2B-GFP expression in the nuclei, stained with E-cadherin (Ecad)-AF488 at cell membranes (Figure 2—figure supplement 1e and f). We thus applied spectral unmixing to all data presented throughout this work. This way, we could generate cross-talk-free four-color images of several biologically relevant markers imaged simultaneously in multiple gastruloids in the same experiment (Figure 2k, Videos 1–3).
+
+Video 1. 3D rendering of a 78 hr small sample processed through the pipeline.
+
+Hoechst is in gray, T-Bra in magenta, Oct4 in green, and FoxA2 in blue.
+
+Video 2. Z-stack of a 78 hr big sample processed through the pipeline.
+
+Hoechst in gray, T-Bra in red, Oct4 in green, and FoxA2 in blue.
+
+Video 3. Z-stacks of eight samples imaged at 78 hr, all in the same acquisition, and processed through the pipeline.
+
+Hoechst in gray, T-Bra in red, Oct4 in green, and FoxA2 in blue. Depth in the sample is indicated in the bottom right corner.
+
+Single cell segmentation
+
+Quantifying cell-scale gene expression and nuclei morphological properties requires accurate instance segmentation of individual nuclei. In early-stage gastruloid datasets acquired with two-photon microscopy, accurate segmentation of nuclei is hindered by high nuclei packing (Figure 2b, Figure 3—figure supplement 1), shape heterogeneity, and spatially varying SNR due to optical aberrations and scattering, especially deeper in the sample. We qualitatively assessed the performance of two open-source state-of-the-art methods for 3D segmentation of nuclei in dense environments, i.e., Cellos (Mukashyaka et al., 2023) and AnyStar (Dey et al., 2024), and observed unsatisfying results (Figure 3—figure supplement 2a). We also considered 3DCellScope (Ong et al., 2025), but its closed-source nature and required a paid licence to access full segmentation features. We thus trained a custom Stardist3D (Weigert et al., 2020) model to segment nuclei, as it excels with separating star-convex objects in close contact.
+
+A mid-plane section of the StarDist prediction is shown Figure 3a, exhibiting a qualitatively good result on outer layers as well as inner part of the sample. To increase robustness, the network was trained on three datasets acquired with two-photon microscopy in different experimental conditions, namely on (1) live-imaging of Histone 2B (H2B)-GFP gastruloids, (2) live-imaging of sparsely labeled mosaic gastruloids (composed of a mix of 75% of non-fluorescently labeled cells and 25% of cells expressing H2B-GFP under the Brachyury gene promoter Hashmi et al., 2022), and (3) 96  hr fixed samples stained with Hoechst. This combined dataset presented variations in labeled nuclei density, nuclei texture, and in voxel dimensions (Figure 3b, see Table 3 and Figure 3—figure supplement 1a). In total, we annotated 4414 nuclei in 3D and used data augmentation (see Methods Nuclei segmentation) to enrich the training datasets (Figure 3b). Both during training and inference, we applied local contrast enhancement and normalization to all datasets by clipping intensity histograms computed in local boxes at the first and 99th percentile and by mapping intensities between 0 and 1. This step was crucial to homogenize the intensity distribution across and inside datasets during training, and improved segmentation quality by reducing the number of false detections at depths at which the SNR is reduced.
+
+Figure 3. 3D nuclei segmentation with StarDist3D.
+
+(a) Exemplary segmentation (contours) of Hoechst-stained nuclei (gray) using custom-trained StarDist3D model. Insets show segmentation results in inner and outer cell layers, at 150 μm depth. (b) Three different datasets were annotated and used for training. Images show exemplary annotated patches (top row: intensity images, bottom row: label images). Before training, images were resampled to a common voxel size of 0.62×0.62×0.62 μm3. Image contrast when enhanced using local histogram clipping and normalization. During training, data augmentation was used to maximize training input. (c) To evaluate segmentation performance, entire z-planes of a gastruloid were annotated at different depths in 2D, on a 250 μm size gastruloid imaged from two views and fused, and the segmentation result was compared with the ground truth. (d) Top: Precision and Recall at IoU threshold 0.5 as a function of depth. Bottom: F1 score as a function of IoU thresholds, color represents depth. (e) Cell density obtained from 3D segmentation of gastruloids of different diameters. The corresponding images at the mid-plane are shown at the bottom. (f) 3D rendering of the detection of mitotic cells using StarDist3D. Top image shows phospho-histone H3 (ph3)-stained sample, bottom image shows detected cell divisions overlayed with the ph3 signal.
+
+Figure 3—figure supplement 1. Quantification of StarDist3D performance.
+
+(a) Training dataset of StarDist3D. Five samples with different characteristics were annotated in 3D, all the nuclei in a cropped region, with dimensions indicated in the table. (b) Comparison for each sample of the F1 scores obtained using either 3D or 2D ground-truths. 2D annotations were obtained on XY slices sampled every 20 μm. For each slice, we quantified the F1 score at IoU threshold=0.5. To check for eventual biases due to the original anisotropy of the image, we also plot the F1 scores using 2D annotations in YZ and XZ (yellow and pink bars). Light blue bars represent the average of scores along all 2D planes. The F1 score using 3D annotations (dark blue bars) is well approximated by the F1 score using 2D annotations in XY, with a 5% difference at most. (c) As a consequence, we could quantify the segmentation score on new samples only by annotating in 2D the XY planes of two samples. 7–8 slices were annotated regularly throughout the volumes and the plots (d-g) show the 2D quantification of nuclei segmentation performance in depth. (d) F1 score as a function of depth in sample 1, comparing our contrast enhancement method in a local window (solid line) versus using a classical contrast enhancement method based on histogram statistics from the full image (dotted line), see Methods. The arrow shows the midplane, where the signal-to-noise-ratio (SNR) is the lowest after fusion of both sides. (e) XZ view of the images and corresponding segmentation using either global or local contrast enhancement methods. The dotted line indicates the midplane. (f) F1 score as a function of depth in sample 2, comparing two-views imaging (solid line) versus one-view imaging on the same sample (dotted line). We enhanced contrast locally in both samples to increase the signal in deeper z planes, but two-views imaging is still necessary to segment the nuclei deeper than 200 μm in the sample. (g) Cropped regions at 210 μm depth of a sample imaged from two sides, registered, reconstructed in 3D, and locally enhanced, versus the same image from only one side, far from the objective.
+
+Figure 3—figure supplement 2. Qualitative benchmark of our segmentation model.
+
+All images were segmented in 3D, and we show here one XY plane for simplicity. (a) Qualitative assessment of the performance of different segmentation models against Stardist-Tapenade on gastruloid images (Hoechst staining). The pre-trained Cellpose-SAM (Pachitariu et al., 2025) model gives high-quality results, which are further investigated in Figure 3—figure supplement 3. (b) Qualitative comparison of our custom Stardist3D segmentation strategy (Stardist-Tapenade) on diverse published 3D nuclei datasets proves the versatility of our model. (1) Gastruloid stained with the nuclear marker DRAQ5 imaged with an open-top dual-view and dual-illumination LSM (Moos et al., 2024). (2) Breast cancer spheroid (Ong et al., 2025). (3) Primary pancreatic ductal adenocarcinoma organoids imaged with confocal microscopy (Ong et al., 2025). (4) Human colon organoid imaged with LSM laser scanning confocal microscope (Ong et al., 2025). (5) Monolayer HCT116 cells imaged with LSM laser scanning confocal microscope (Ong et al., 2025). (6) Fixed zebrafish embryo stained for nuclei and imaged with a Zeiss LSM 880 confocal microscopy (Li et al., 2023).
+
+Figure 3—figure supplement 3. Validation of the Cellpose–SAM pretrained model for nuclear segmentation and morphology in gastruloids.
+
+(a) The Tapenade preprocessing pipeline improves Cellpose–SAM (Pachitariu et al., 2025) outputs, especially in deep planes (z>150 μm), by using local contrast enhancement. (b) Compared to our StarDist3D model (stardist-tapenade), Cellpose–SAM better preserves elongated nuclei (green arrows), while StarDist3D tends to under-segment by rounding objects. Cellpose–SAM can, however, yield partial segments in low–signal-to-noise regions (red arrows). Overall this model seems highly competent for nuclei segmentation in gastruloids. Here and in the rest of this figure, we used the same sample as in Figure 4 to allow for direct comparison. (c) Tissue-scale, packing-related metrics from Cellpose–SAM labels qualitatively match those from stardist-tapenade, though the more accurate boundaries increase estimated nuclear volume and volume fraction. The true-strain major-axis field remain similar because StarDist3D mostly preserves orientations. (d) Quantification of the region where the cell-density gradient and the true-strain major axes are anti-aligned is consistent when using Cellpose–SAM. Vector magnitudes of both fields are displayed to aid interpretation in areas with small gradients or deformations.
+
+To assess the performance of the training, we manually annotated 2D planes at different depths throughout a sample (see Figure 3—figure supplement 1c, sample 1) and compared the result of StarDist3D to the ground truth, both in terms of quality of nuclei detection and volume reconstruction (Figure 3c). To evaluate the performance, we computed the recall and the precision (resp. quantifying how many relevant items are retrieved and how many retrieved items are relevant), and the F1 score as the harmonic average between the two. We show in Figure 3d that our trained model recovers a constant precision and recall across the full depth, and the F1 score is superior to 0.8 up to intersection over union (IoU) threshold 0.5. Comparing the recall and precision to the ones obtained with global contrast enhancement, i.e., histogram clipping based on the percentiles of the whole image, our local contrast enhancement scheme mitigates both false positives and false negatives in deeper z planes (Figure 3—figure supplement 1d–e). It is still necessary to image from two views to recover all the nuclei, as shown Figure 3—figure supplement 1f-g, even using the local contrast enhancement method. Our score measurement is based on computing the IoU of 3D objects based on 2D images. As manually annotating many dense organoid datasets for validation is a slow and cumbersome process, we designed a validation method based on comparing the 3D prediction of StarDist3D with 2D annotations in several XY planes along the z-axis. We validate this approach on Figure 3—figure supplement 1b using four different samples in which we chose XY planes spaced evenly along the z-axis, and on which nuclei were annotated in 3D. The F1 score obtained in 3D (3D prediction compared with the 3D ground-truth) is well approximated by the F1 score obtained in 2D (2D predictions compared with the 2D sliced annotated segments). The difference between the 2 scores was at most 5%. Finally, we observed that the model preserves a constant cell density across depth in spherical gastruloids of up to 475 μm in diameter (Figure 3e).
+
+Overall, our custom model achieved an F1 score of 85±3% at 50% IoU. Using a variety of annotated datasets, dual-view imaging and a local contrast enhancement algorithm, we trained a powerful StarDist3D model that shows robust segmentation performances regardless of depth, sample size, and experimental conditions.
+
+Maps of proliferation and cell density
+
+Differential division and growth rates in tissues are key drivers of morphogenetic changes (Fox et al., 2018). Therefore, quantifying tissue-scale gradients in cell proliferation is crucial for understanding the morphogenesis of gastruloids. To detect division events, we stained gastruloids with phosphohistone H3 (ph3) and trained a separate custom Stardist3D model using 3D annotations of nuclei expressing ph3 (see Methods Mitotic cells segmentation). This model together allowed us to detect nearly all mitotic nuclei in whole-mount samples for any stage and size (Figure 3f and Video 4), and we used minimal manual curation to correct remaining errors. To probe quantities related to the tissue structure at multiple scales, we smooth their signal with a Gaussian kernel of width σ, with σ defined as the spatial scale of interest. From the segmented nuclei instances, we compute 3D fields of cell density (number of cells per unit volume), nuclear volume fraction (ratio of space occupied by nuclear volume within the local averaging volume, as defined in the Methods Masked Gaussian convolution to probe spatial fields at different scales with a scale of σ), and nuclear volume at multiple scales. We plot each field on Figure 4a at three spatial scales ranging from the nuclei scale, i.e., σ set to the average nuclear radius, to the tissue scale, i.e., σ set to six times the average nuclei radius. Taking this smoothing approach, we computed fields of division density (number of division events per unit volume), that represent the local density of cells in mitosis, from the division labels detected on ph3 as described above. An increased volumetric division density can result from either elevated cell proliferation or higher cellular volumetric density. To distinguish between these effects, we computed a proliferation probability field that represents the local fraction of cells undergoing mitosis within the 3D sample (by dividing the division density field by the cell density field). A cross-section of each of these 3D maps is represented in Figure 4b, showing a typical heterogeneous pattern of division density and cell density. These maps can be visualized in parallel for several samples, which allows systematic comparison of patterns for high-throughput acquisitions. Analyzing proliferation fields in 3D gives us insight on growth patterns during development and is key to understand and quantify gastruloid morphogenesis. Importantly, this quantification can be applied across various developmental stages, providing quantitative insights into growth phases under different stages or media conditions. A proliferation pattern for a strongly elongated 120 hr gastruloid grown in a modified culture protocol is shown in Figure 4—figure supplement 1b.
+
+Figure 4. Cell-to-tissue scale morphological analysis.
+
+(a) Segmenting individual nuclei instances in 3D allows a complete characterization of object packing by quantifying cell density, nuclear volume fraction, and nuclear volume. Each quantity is shown at three resolutions ranging from the cell scale to the tissue scale, which correspond to convolution with Gaussian averaging kernels with σ=6, 12 and 25 μm, respectively. (b) Divisions stained with ph3 and nuclei stained with Hoechst are segmented using StardDist3D and used to compute respectively maps of division density and cell density. The proliferation is defined as the ratio of the division density with the cell density, showing the local fraction of cells undergoing mitosis. (c) Cell-scale fields of deformation, quantified by the major axis of the nuclei true strain tensors. A version sampled on a regular grid is provided for better readability. The deformation field reveals a region of spatially persistent alignment that overlaps with the density boundary and highlights nuclei forming the lining of a lumen. (d) We compute the tissue-scale field of squared cosine of the angle between the cell density gradient and the true strain tensor major axis to quantify local regions of anti-alignment. The vector magnitudes of the two fields are shown to add perspective to the analysis in regions where the gradient or the local deformation is small. All quantities shown in this figure are computed in 3D, but we show a single z-slice (vector quantities are projected onto the slice) for convenience.
+
+Figure 4—figure supplement 1. Reproducibility of the high to low cell density boundary.
+
+(a) Illustration of the reproducibility of the spatial colocalization of a sharp low-to-high density boundary with a region of high nuclei alignment in XY and orthogonal views from several gastruloids. The leftmost column shows locally enhanced Hoechst signal in the XY plane, and a plane perpendicular to it. The red lines give the positions of the complementary plane. (b) 120 hr gastruloid, stained with ph3 and Hoechst, processed and segmented (nuclei and divisions) using the pipeline to generate the division density map and the cell density map. With these two fields, we compute a 3D proliferation map (shown here is a 2D section in the mid-plane).
+
+Video 4. Z-stacks of two samples stained with ph3, on the right at 72 hr and on the left at 96 hr.
+
+Detected divisions are visualized as multicolor ROIs superimposed with the image, where only the contour is shown.
+
+Morphometric analysis
+
+Tissue-scale patterns of cell/nuclei deformations in developing embryos or organoids are good indicators of the existence of mechanical stresses which can contribute to tissue morphogenesis (Stooke-Vaughan and Campàs, 2018) and affect in return cell differentiation (Chan et al., 2017). To explore changes in tissue structure and organization during gastruloid development, we studied spatial heterogeneities in cell densities and cell deformations emerging during the first morphogenetic phase of gastruloids development, which consists in a global tissue elongation between 72 and 96  hr after their initial aggregation. We have shown in previous work (Hashmi et al., 2022; Gsell et al., 2023) that such elongation is associated with the polarization of the gastruloid, exhibiting a posterior pole rich in E-cadherin and constituted of a mixed population of both endoderm and nascent mesoderm tissues, and an anterior pole poor in E-cadherin constituted of cardiac and vascular mesoderm tissues which are mesenchymal. Here, to prevent any relaxation of cellular deformation caused by tissue fixation, we performed 3D acquisition of live gastruloids with an H2B-GFP marker. We illustrate the full approach on a single sample in Figure 4c–d, and show that the findings are reproducible across different samples and views (see Figure 4—figure supplement 1a). The cell density field revealed a high level of heterogeneity at the nuclei scale, but analysis at different scales always showed the presence of two tissue-scale populations of low and high cell densities located, respectively, in the posterior and anterior part of the sample, separated by a sharp boundary characterized by the length scale of a few nuclei. These two populations and the boundary were also visible, although less clearly, from the nuclear volume and nuclear volume fraction fields, with the high-density population showing a higher nuclear volume fraction but lower nuclear volumes. The nuclear volume fraction indicates regions of high packing located in the high-density population, with a maximum of 61%, close to the theoretical value for random close packing of spheres (64%). As extra-cellular space volume fraction is low in such sample (Gsell et al., 2023), this indicates high nuclei-to-cell volume ratios, which suggests that nuclei shapes are a good proxy for cell shapes, and thus nuclei could be relevant in cell-scale mechanotransduction processes.
+
+To quantify cell deformation, we first computed the inertia tensor from each segmented nuclei instance and obtained the true strain tensor (Tlili et al., 2015) for each cell (see Methods Morphometric analysis), which is a size-independent measure of object deformation. This justifies averaging these tensors among nuclei with large size variations by effectively removing the size bias. We plot the major axis (associated with the largest eigenvalue) of the true strain tensor for each nucleus on Figure 4 at the nuclei scale. The major axis is oriented along the direction of the largest deformation of the nuclei. Close to the low-to-high density boundary, we observed that nuclei are elongated in the direction of the boundary, i.e., perpendicular to the gradient of cell density. We further quantified this observation by computing the angle θ between the gradient of cell density and the major axis of the true strain tensors. In Figure 4d, we plot the continuous field representing the quantity cos2⁡(θ) averaged at the tissue scale. For random orientations of the major axis with respect to the gradient of cell density, the average value of cos2⁡(θ) is 1/3, and the value approaches 0 or 1 for respectively perpendicular and parallel orientations. The field reveals a wide region with values below 0.1 around the boundary, confirming that nuclei are elongated along the tissue boundary. Other regions show comparatively smaller values of the local gradient amplitude or no tissue-scale alignment. These descriptions appear reproducibly in several samples, see Figure 4—figure supplement 1a, and are consistent with an interpretation of the boundary as a region where mechanical stresses are generated between gastruloids anterior and posterior poles. This analysis also shows how nuclei shapes at small scales are appropriate proxies for deformation inside and around tissue micro-structures like lumen and cavities, which allows for an accurate description of the local epithelial architecture. At the tissue scale, nuclei shapes can serve as a proxy for tissue mechanical stresses in the context of tissues modeled as visco-elastic liquids with residual elasticity in cell deformation (Tlili et al., 2020).
+
+Quantitative analysis of gene expression at global and cell-scale level
+
+A key interest in in toto imaging is that it allows quantifying expression gradients of genetic markers and proteins of interest across entire organoids. In the case of gastruloids, gradients of differentiation emerge during Wnt activation, prior or concomitant with symmetry breaking (Hashmi et al., 2022; Suppinger et al., 2023; Villaronga Luque et al., 2023; van den Brink et al., 2014). Due to the previously mentioned limitations of light-sheet microscopy for in toto coverage and quantitative intensity analyses for gastruloids beyond 100−200 μm diameter, investigations of such gradients have thus far been restricted to analyses of low resolution 2D images (Villaronga Luque et al., 2023; Suppinger et al., 2023). Because of this limitation, it is still unknown when gradients of differentiation are established during gastruloid development. To explore this, we analyzed images of gastruloids fixed at 77  hr, labeled with Hoechst, and additionally immunostained with T-Bra, a mesendoderm marker expressed upon Wnt-mediated cell differentiation. Previous investigations with 2D imaging indicated a gradient of higher T-Bra expression in outer cell layers and lower expression in the interior (Hashmi et al., 2022). Although our dual-view imaging pipeline delivers in toto coverage, images of the ubiquitous Hoechst nuclei stain still exhibited intensity gradients along the z direction and between outer and inner cell layers (Figure 5a). We attributed these gradients to optically induced heterogeneities and developed a correction method that re-normalizes the channels of interest based on the local nuclei intensity. To this aim, we first corrected the intensity decrease, which is dependent on the emission wavelength and the depth (see Figure 5—figure supplement 1). We applied on this corrected signal a convolution with a 3D Gaussian kernel masked with the nuclei segmentation. The result of that convolution is a coarse-grained map of nuclei intensity, that we use to locally normalize the original image (Figure 5a, Figure 5—figure supplement 2). Since this normalization was done in 3D, the intensity values in the mid-plane of a gastruloid were enhanced while the intensities in the first and last z-planes remained constant (Figure 5—figure supplement 3b). Furthermore, the method effectively and robustly homogenized nuclei intensities across gastruloids from different acquisitions and imaging conditions (Figure 5—figure supplement 3c and d). We evaluated different sizes for the Gaussian kernel of the convolution and chose an optimal one, with a typical value around the diameter of the nuclei (10−15 μm), that lead to the most homogeneous Hoechst signal after re-normalization (see Methods Preprocessing: Intensity normalization and Figure 5—figure supplement 3e). This normalization scheme accounts for heterogeneities in gastruloids of arbitrary shape, as well as local cell density, and thus variations in the optical paths of excitation and fluorescence light rays that cannot be captured by a simple geometrical model.
+
+Figure 5. Coarse-grained and cell-level gene expression analysis.
+
+(a, b) Images of Hoechst and T-Bra in the mid-plane of 77 hr gastruloids. Using the nuclei segmentation, maps of averaged nuclei intensity were generated and used to locally re-normalize the T-Bra signal. The graphs on the right side of each panel show the intensity across rectangular sections of the mid-plane, shown in the images as blue/ brown boxes, before and after intensity normalization. This intensity profile is smoothed using a Gaussian kernel on the images to extract the large-scale intensity variations. (a) example of a radially symmetric gradient of nuclei intensity, from the exterior to the interior. (b) Example of an asymmetric gradient, the left side of the sample has a high nuclei intensity that is corrected after normalization, changing the T-Bra profile (bottom right graph). (c) Images of 77 hr gastruloids (mid-plane) of different size, immunostained for T-Bra and FoxA2 gene expression markers. From the re-normalized 3D images, radial intensity plots were generated for big (291±15 μm average diameter, n=5) and small (193±20 μm average diameter, n=8) gastruloids as a function of distance to the border. Shaded regions show standard deviations. (d) For one of the previously described samples fixed at 77 hr, FoxA2 positive cells are visualized from the re-normalized data using the interactive napari tools and the image thresholded accordingly. Using the binary image of FoxA2-positive cells, a map of local fraction of FoxA2-positive cells, rescaled by the local cell density, was computed, showing a radial pattern. (e) Analysis of the radial distribution, i.e., fraction of FoxA2-positive cells as a function of distance to the border, for big (278±16 μm average diameter, n=3) and small (193±20 μm average diameter, n=8) aggregates, computed from the coarse-grained maps as shown in (d). Shaded regions show standard deviations. (f) Three-color image of a 77 hr gastruloid immunostained for T-Bra, Oct4, and FoxA2. The three plots show a cell-level correlation analysis of the three markers for the entire gastruloid. Each dot in the correlation plot represents an individual cell. Shown are all three marker combinations. Quadrants show regions of background signal (-) and actual expression (+) for each marker in the respective color, defined by Otsu thresholding.
+
+Figure 5—figure supplement 1. The wavelength-dependent normalization method.
+
+(a) We evaluated how the intensity decreases in an ubiquitous signal as a function of depth and wavelength. Samples are immunostained with histones markers in the four colors. The intensity is measured in a central column of the sample, to simplify the geometry and remove border effects. In this region, we compute the median intensity in each plane. (b) Plot of the intensity in each channel, normalized to 1. Shaded regions indicate standard deviation. An exponential function is fitted to the normalized intensity to extract the characteristic length of decrease d. (c) This length d is plotted for each sample as a function of their wavelength. (d) We extract the ratio r=dblue/d,dblue, being the median of the characteristic length d in the blue channel. Mean and standard deviation are shown. (e) Plot of the intensity in the far-red channel as a function of the intensity in the blue channel, both axis are in logarithmic scale. Images are binned so that each black dot represents a 10. 10 μm2 square. N=5 samples are stacked onto the plot. The slope of 0.46 validates the value of r=dbluedfar−ref (f) Using the method described in Figure 5—figure supplement 3c, we measure the intensity in the far-red channel as a function of depth, using the local normalization method described in the Methods Preprocessing: Intensity normalization, and different values of the ratio r=dblue/dfar−red. The black dotted line is the non-normalized signal, the red line represents the case r=1 where we apply the correction without taking into account the wavelength-dependency of the intensity decrease. The blue line represents the ratio found experimentally and cyan and blue lines show the profile for close values. Corresponding XZ views are shown on the right. (g) Similarly to panel (e), intensity in depth for the blue channel, without normalization and using r=1, which flattens the profile in depth as shown also in the XZ views. (h) Using the experimental value r=0.48. we show for the far-red channel the profile obtained plane by plane by slicing either in Z, X, or Y. The flat profiles shows no big heterogeneities in the normalized sample.
+
+Figure 5—figure supplement 2. Illustration of the intensity model and of the normalization procedure based on a ubiquitous signal.
+
+(a) In Equation 9, we model any arbitrary intensity signal Ib by decomposing it into three terms: (i) a continuous field A representing local intensity artifacts, (ii) a field Sb representing a continuous depiction of the biological signal, and (iii) an instance mask Minst, which localizes the biological objects (e.g. nuclei or membranes) from where the biological signal originates. The first two fields are assumed to have variations at length scales equal or above the typical cell size. Finally, an additive term ε which varies at sub-cellular length-scales and encompasses all the remaining voxel-scale signal (e.g. measurement noise or intra-cellular gene expression heterogeneities) completes the model. (b) An ubiquitous signal (here Hoechst) can be used to approximate the field of intensity artifacts, which can be removed from the original intensity signal.
+
+Figure 5—figure supplement 3. Effect of spectral filtering and local intensity normalization on 3D gene expression analysis.
+
+(a) As illustrated in Figure 5d for FoxA2, we analyze the radial distribution of Sox2 in 60 hr gastruloids. Below, we present 3D visualizations of the normalized Sox2 signal alongside the segmentation of Sox2 + cells. The resulting 3D maps of the local fraction of Sox2+ cells reveal no preferential radial pattern. (b) Comparison of lateral intensity profiles at different depths. We compute the intensity across rectangular sections of each image in 2D, as shown on the left. The graphs show the line profiles at different depths for the Hoechst channel (top) and the T-Bra channel (bottom), comparing profiles before (left plot) and after (right plot) normalization. Color code stands for depth (darker colors correspond to deeper z-sections). We observe for non-normalized data that z-planes at mid-depth have a low intensity that is corrected in the normalized case. Hoechst profiles are flattened throughout the section after normalization, as expected. (c) Illustration of plots (d) and (e): for each z-plane, we measure the median intensity in the Hoechst channel, within the sample, and plot it as a function of its depth. We use this method to quantitatively check that the intensity in the nuclei channel is constant in depth and does not present gradients after normalization. (d) Using the method described in (c), we show the median intensity as a function of depth for four samples from different acquisitions, corresponding to different timing and/or diameters. We compare the intensities before (dotted lines) and after normalization (solid lines), and observe that the normalization scheme robustly flattens the intensity profile. (e) For one sample, we compare different values of σ which is the standard deviation of the Gaussian kernel used to normalize the data. The images are respective maps of nuclei intensities for σ=10, 20 and 40 μm. Using the method described in (d), we show the median nuclei intensity as a function of depth for these three σ values. f Correlation maps between FoxA2 and Oct4 for spectrally non-filtered data (top) versus filtered data (bottom), and the corresponding images shown on the left. Besides filtering, images were still registered and normalized the same way. (g) Correlation maps between FoxA2 and T-Bra for non-normalized data (top) versus normalized data (bottom), and the corresponding images are shown on the left. Images were still filtered and registered the same way.
+
+Figure 5—figure supplement 4. Direct comparison of depth-dependent correlation of intensity between immunostained T-Bra signal and the intensity signal of a T-Bra reporter (H2B-GFP expressed under a T-Bra promoter) in gastruloids grown from a transgenic cell line fixed at 72 hr.
+
+(a) Image of a sample expressing the endogenous T-Bra reporter (green) and immunostained T-Bra (magenta). Signals are correlated almost everywhere (1) except for cells in mitosis (2) (b) Comparison of XZ views of Hoechst, endogenous T-Bra, and immunostained T-Bra, before and after wavelength-dependent intensity normalization using the Hoechst signal as reference. (c) Intensity correlation heatmaps between the immunostained and endogenous T-Bra signals, in the full sample. After normalization, the two signals are directly equal up to a small additive bias. Vertical and horizontal black lines represent the median of each signal. (d) Intensity correlation heatmaps computed in three 3D slices of width 50 μm at varying depths. Normalization leads to a totally homogeneous correlation relationship between the two signals, with the same slope and additive bias at all depths.
+
+When we applied the correction method to the T-Bra signal and evaluated re-normalized T-Bra intensity in a lateral section across the mid-plane of a 77  hr gastruloid, we still observed a gradient with higher intensity in outer cell layers (Figure 5a), while the nuclei signal recovered a flat profile. Besides reflecting a true T-Bra expression gradient, a possible explanation for this observation could be hindered penetration of primary and secondary antibodies being considerably larger than Hoechst stain. To evaluate this, we compared immunostained T-Bra signal with the intensity of a T-Bra reporter (H2B-GFP expressed under a T-Bra promoter) in gastruloids grown from a transgenic cell line fixed at 72  hr. We found a strong correlation between the two channels at all depths, excluding penetration artifacts (Figure 5—figure supplement 4).
+
+In addition to optical artifacts, our re-normalization method also corrects for intensity variations effectively induced by residual rotations of aggregates after flipping, which tilt the optical axis with respect to the axis of the first acquisition (Figure 2g). This is illustrated in Figure 5b, providing an example where the nuclei signal exhibits an asymmetrical gradient due to the fusion of two opposite views that were subject to residual rotations. After re-normalization, the nuclei profile is homogeneous, whereas the profile in T-Bra drastically changed, showing a polarization in the opposite direction with respect to the initial gradient that was also visible both in the nuclei stain and T-Bra channel. This emphasizes the importance of our method to properly quantify gene expression gradients in 3D. The observed polarized T-Bra appearance is in agreement with our previous study, in which we have reported that T-Bra expression already commences to be polarized at 77  hr in some gastruloids (Hashmi et al., 2022).
+
+Because the intensity decay in depth is wavelength-dependent (Figure 5—figure supplement 1b), normalizing the different channels only based on the Hoechst intensity in the blue channel would have induced over-corrections in depth. We applied a wavelength-dependent correction to the different channels, by first measuring the characteristic length of exponential decay for the four colors independently (Figure 5—figure supplement 1a and c), and second by computing a map of Hoechst intensity corrected by this characteristic length. This gave us the equivalent of coarse-grained maps of nuclei intensity in each color, serving as a reference to correct the different channels (details in Methods Preprocessing: Intensity normalization).
+
+We then applied the correction scheme to four-color 3D acquisitions of multiple gastruloids of different sizes (obtained by varying the initial cell number of the culture) imaged in the same slide, immunostained with T-Bra, the pluripotency marker Oct4, and the early endoderm marker FoxA2 (Figure 5c). We sorted these gastruloids into two groups and observed an approximately constant T-Bra expression for small aggregates (193±20 μm average diameter, n=8), whereas big aggregates (291±15 μm average diameter, n=5) showed a clear decay of T-Bra expression towards the interior (Figure 5c). Notably, we quantified T-Bra intensity as a function of distance to the gastruloid border using the in toto 3D image stack, thus reflecting expression gradients in 3D. For FoxA2, a similar pattern was observed, but expression appeared in much fewer cells (Figure 5d). Because FoxA2 signal was sparse and noisy, we could not compute simply the map of expression as done previously for T-Bra. Instead, we computed a map of the fraction of FoxA2 cells in a given neighborhood. We first thresholded the signal in segmented nuclei, using the interactive visualization tools developed in napari (see Figure 6 and Methods). This allowed us to identify the correct intensity threshold and generate a binary mask of FoxA2 expression. We then computed the number of FoxA2-positive cells rescaled by the local nuclei density, using the same method as applied for proliferation analysis, except that we consider FoxA2 positive cells instead of ph3-positive cells. The coarse-grained map of FoxA2-positive cells was then analyzed radially for gastruloids of various sizes, small gastruloids of 193±20 μm average diameter (n=8) and bigger gastruloids of 278±16 μm average diameter (n=3). We observed slightly higher FoxA2 levels in outermost cell layers, and in general more cells expressing FoxA2 in small gastruloids proportionally to the total number of cells. We applied the same method of radial analysis on 3D maps of Sox2 fraction, see Figure 5—figure supplement 3a on five gastruloids at 60 hr. Cells expressing Sox2 are heterogeneously distributed but there is no radial gradient. Taken together, these analyses demonstrate that coarse-grained maps coupled with radial profiling can quantify large-scale patterns and gradients of gene expression across gastruloids.
+
+Figure 6. Interactive napari plugins for bioimage handling, manual registration, preprocessing, data exploration, and analysis.
+
+(a) A napari plugin for exploring and processing large nD bioimages. Users can load datasets lazily, inspect slices along a chosen dimension, and export them as separate TIFF files. Compatible with common bioimage formats, it simplifies handling complex datasets. (b, c) To fuse data acquired with our dual-view setup, we provide a napari plugin to assist users in manually defining a 3D rigid transformation either when it is trivial (e.g. a single axial translation) or to initialize an automatic registration tool close to the optimum. The first mode (left) allows the user to select salient landmarks and match them between the two views. An optimal rigid transformation is found automatically. The plugin’s second mode (right) lets the user define each element of the transformation (translations and rotations) until a satisfactory match is observed in 3D or on 2D planes. (d) A complete preprocessing suite is provided as a napari plugin to transform raw 3D and 3D+ time datasets into datasets ready for analysis. The napari implementation allows for quick and visual exploration of parameters best suited to a given dataset. A recording feature can be toggled to save a complete user-defined pipeline into a JSON file, that can be used to process large datasets in batch or for sharing. (e) Interactive analysis of multiscale correlation heatmaps in napari is provided by allowing users to change the analysis length scale and to draw regions of interest directly on the correlation plot to see which cells contributed to the region’s statistics on a 3D view of the data.
+
+Our ability to image multiple expression markers in the same acquisition without cross-talk and to reliably segment all cells allows correlating expression of different genes at the single cell level. To demonstrate this, we analyzed correlations between T-Bra, Oct4, and FoxA2 in the data described above, after spectral filtering and intensity re-normalization. Both processing steps were crucial to obtain unbiased results (Figure 5—figure supplement 3f and g). To discriminate marker positive from cells only showing background levels, we applied Otsu thresholding on the cells’ intensity distribution for each marker and confirmed the distinction by visible inspection.
+
+We expected that FoxA2 and Oct4 are mutually exclusive (since cells are either in the process of endoderm differentiation or still pluripotent). A similar behavior was expected for T-Bra and Oct4/T Bra and FoxA2, although some co-expression could be present since T-Bra marks very early mesendoderm differentiation en route to meso- or endoderm and Oct4 is a relatively long-lived pluripotency marker (Abranches et al., 2013).
+
+We indeed observed that Oct4 and FoxA2 appeared as two mutually exclusive populations (Figure 5f, left). On the contrary, while the brightest Oct4 cells also showed low T-Bra signal and vice versa, a large pool of T-Bra and Oct4 positive cells appeared, not showing a striking correlation pattern for most cells (Figure 5f, center). For FoxA2 and T-Bra, a clear anti-correlation was observed, with cells appearing in all four quadrants (Figure 5f, right). Interestingly, we overall detected fewer FoxA2-positive cells than T-Bra-positive cells. While we found many cells that were T-Bra positive and FoxA2 negative, most of the FoxA2 positive cells showed at least some T-Bra signal. This indicates that T-Bra expression might be required to activate FoxA2. However, cells expressing both markers still showed a negative correlation, suggesting that once FoxA2 is activated, T-Bra expression is repressed. Overall, these data suggest a sequence of cellular transitions from Oct4 progressively to T-Bra, from which a fraction of cells, presumably the ones expressing low T-Bra levels, will commit to FoxA2. To further explore such transitions and localize specific cell populations, tools that allow interactive mapping of cell populations selected in the correlation plot to the actual gastruloid are needed. We have, therefore, integrated this functionality into our napari plugin (see Figure 6). We believe that our integrated imaging and analysis pipeline will allow researchers to study cell differentiation and cell state transitions at different stages of gastruloid development for the first time in full spatial context.
+
+Community-driven tools
+
+We packaged our preprocessing and analysis pipeline into a Python library called Tapenade (for ‘Thorough Analysis PipEliNe for Advanced DEep imaging’). The code is freely available on GitHub at github.com/GuignardLab/tapenade/, Vanaret et al., 2026. The library comes with an extensive documentation and Jupyter notebooks accessible to non-specialist users. All datasets used to train our custom StarDist models to detect nuclei and mitotic events, along with the optimized weights for nuclei and mitotic events detection are currently available at https://doi.org/10.5281/zenodo.14748083. A non-specialist user can quickly segment a custom dataset by downloading the weights and loading them into one of the user-friendly implementations of Stardist like the Stardist Fiji plugin, the napari plugin stardist-napari, or the ZeroCostDL4Mic notebook (Weigert et al., 2020; von Chamier et al., 2021).
+
+While working with large and dense 3D and 3D+ time gastruloid datasets, we found that being able to visualize and interact with the data dynamically greatly helped processing it. During the preprocessing stage, dynamical exploration and interaction led to faster tuning of the parameters by allowing direct visual feedback, and gave key biophysical insight during the analysis stage. We thus created four user-friendly napari plugins designed around facilitating such interactions (Figure 6):
+
+napari-file2folder Efficient handling of large nD bioimaging datasets is a common challenge in bioimage analysis. To address this, we developed a napari plugin for lazy loading and efficient exploration of heavy bioimages using the zarr library. The plugin supports a wide range of standard bioimage file formats, including lsm, tif, ome.tiff, zarr, and czi. Upon lazy loading of an image, the user can immediately inspect its total shape across dimensions, even for datasets that cannot be fully loaded into memory. The plugin enables interactive selection of a single element along a specified dimension for focused exploration (e.g. viewing a single z-slice or a timepoint). Additionally, it offers a feature to save all elements along a selected dimension as separate tif files in a specified folder, which is particularly useful for downstream processing workflows with other plugins (Figure 6a). The plugin is freely available on the napari hub or at github.com/GuignardLab/napari-file2folder, Vanaret, 2026b.
+
+napari-manual-registration When using our automatic registration tool to spatially register two views of the same organoid, we were sometimes faced with the issue that the tool would not converge to the true registration transformation. This happens when the initial position and orientation of the floating view are too far from their target values. We thus designed a napari plugin to quickly find a transformation that can be used to initialize our registration tool close to the optimal transformation. From two images loaded in napari representing two views of the same organoid, the plugin allows the user to either (i) annotate matching salient landmarks (e.g. bright dead cells or lumen-like structures) in both the reference and floating views, from which an optimal rigid transformation can be found automatically using singular value decomposition (Arun et al., 1987; Figure 6b), or (ii) manually define a rigid transformation by continually varying 3D rotations and translations while observing the results until a satisfying fit is found (Figure 6c). The plugin is freely available on the napari hub or at github.com/GuignardLab/napari-manual-registration, Vanaret and Gros, 2026a.
+
+napari-tapenade-processing From a given set of raw images, segmented object instances, and object mask, the plugin allows the user to quickly run all preprocessing functions from our main pipeline with custom parameters while being able to see and interact with the result of each step (Figure 6d). For large datasets that are cumbersome to manipulate or cannot be loaded in napari, the plugin provides a macro recording feature: the users can experiment and design their own pipeline on a smaller subset of the dataset, then run it on the full dataset without having to load it in napari. The plugin is freely available on the napari hub or at github.com/GuignardLab/napari-tapenade-processing, Vanaret and Gros, 2026b.
+
+napari-spatial-correlation-plotter This plugins allows the user to analyze the spatial correlations of two 3D fields loaded in napari (e.g. two fluorescent markers). The user can dynamically vary the analysis length scale, which corresponds to the standard deviation of the Gaussian kernel used for smoothing the 3D fields. If a layer of segmented nuclei instances is additionally specified, the histogram is constructed by binning values at the nuclei level (each point corresponds to an individual nucleus). Otherwise, individual voxel values are used. We took inspiration from the plugin napari-clusters-plotter Zigutyte et al., 2023 in letting the user dynamically interact with the correlation heatmap by manually selecting a region in the plot. The corresponding cells (or voxels) that contributed to the region’s statistics will be displayed in 3D on an independent napari layer for the user to interact with and gain biological insight (Figure 6e). The plugin is freely available on the napari hub or at github.com/GuignardLab/napari-spatial-correlation-plotter, Vanaret, 2026a.
+
+Discussion
+
+Multiscale imaging and analysis pipeline
+
+We have developed an integrated pipeline for in toto imaging of whole-mount gastruloids and automated image processing. A key innovation of our approach is its specific optimization for dense 3D tissues, such as gastruloids, which present similar imaging challenges and artifacts as tumors and spheroids, unlike many organoids that are shallow and less light-diffusive. Unlocking deep whole-mount imaging is crucial for researchers working with such dense tissues, as cryosectioning strategies cannot fully substitute for comprehensive three-dimensional (3D) in toto analysis (van Ineveld et al., 2022; Costa et al., 2016). Reconstructing 3D tissue microstructure from cryosectioned data is complex and challenging, involving slicing tissue into thin sections and imaging them individually. To achieve a 3D reconstruction, these 2D images must be meticulously aligned and stitched together, a process complicated by frequent issues, such as tissue deformation and section loss. In contrast, whole-mount imaging preserves spatial relationships and tissue integrity, making it the method of choice for studying cellular interactions and tissue architecture in their native context. Additionally, whole-mount imaging reduces sampling bias and enhances the detection of rare cell populations or phenotypic variations that might be missed in thin tissue sections. This limitation also apply to state-of-the-art spatial transcriptomic techniques, due to the fact that only few RNAs are typically captured per cell for each individual gene and many cells do not show any counts for a gene of interest expressed at low level (Schott et al., 2024).
+
+Application to other biological systems
+
+In general, the pipeline is applicable to any tissue, but it is particularly useful for large and dense 3D samples, such as organoids, embryos, explants, spheroids, or tumors, that are typically composed of multiple cell layers and have a thickness greater than 50 µm. The processing and analysis pipeline are compatible with any type of 3D imaging data (e.g. confocal, 2 photon, light-sheet, live, or fixed). The applicability and limitations of the different modules of the pipeline are detailed Table 1.
+
+Table 1. Purpose, requirements, applicability, and limitations of each step in the processing and analysis pipeline.
+
+	Spectral filtering	Custom 3D nuclei segmentation	Normalization	Multi-scale analysis	
+Purpose	Generate cross-talk free four-color images of markers imaged simultaneously	Quantifying cell-scale gene expression and nuclei morphological properties	Correct for intensity gradients due to optical artifacts in 3D	Analyze gene expression patterns, cellular events, and morphologies in 3D across multiple spatial scales	
+Requirements	Calibration of emission spectra as a function of imaging depth	Nuclei must be star-convex and ∼15 px per nucleus after resampling	At least one ubiquitously expressed channel; calibration for wavelength-dependent correction	If domain-based signal (e.g. gene expression signals): domain expression mask. If object-based signal (e.g. morphological features) instance masks.	
+Applicability	Mostly useful in two-photon imaging because of broad excitation spectra	Tested on tissues from multiple species and modalities (Figure 3—figure supplement 2d)	Applicable to any multichannel data across tissues and modalities	Any 3D data with gene expression or morphological information	
+Limitations	/	Small (<15 px/nucleus) and anisotropic resolution may impair segmentation	/	Hollow structures may bias results if no proper masking is available	
+
+Spectral unmixing to remove signal cross-talk of multiple fluorescent targets is typically more relevant in two-photon imaging due to the broader excitation spectra of fluorophores compared to single-photon imaging. In confocal or light-sheet microscopy, alternating excitation wavelengths often circumvents the need for unmixing. Spectral decomposition performs even better with true spectral detectors; however, these are usually not non-descanned detectors, which are more appropriate for deep tissue imaging. Our approach demonstrates that simultaneous cross-talk-free four-color two-photon imaging can be achieved in dense 3D specimen with four non-descanned detectors and co-excitation by just two laser lines. Depending on the dispersion in optically dense samples, depth-dependent apparent emission spectra need to be considered. Spectral filtering has already been applied in other systems (e.g. Rakhymzhan et al., 2017 and Dunsing et al., 2021), but is here extended to account for imaging depth-dependent apparent emission spectra of the different fluorophores. In our pipeline, we provide a code to run spectral filtering on multichannel images, integrated in Python. In order to apply the spectral filtering algorithm utilized here, spectral patterns of each fluorophore need to be calibrated as a function of imaging depth, which depends on the specific emission windows and detector settings of the microscope.
+
+Nuclei segmentation using our trained StarDist3D model is applicable to any system under two conditions: (1) the nuclei exhibit a star-convex shape, as required by the StarDist architecture, and (2) the image resolution is sufficient in XYZ to allow resampling. The exact sampling required is object- and system-dependent, but the goal is to achieve nearly isotropic objects with diameters of approximately 15 pixels while maintaining image quality. In practice, images containing objects that are natively close to or larger than 15 pixels in diameter should segment well after resampling. Conversely, images with objects that are significantly smaller along one or more dimensions will require careful inspection of the segmentation results. To evaluate our 3D nuclei segmentation model, we tested it on diverse systems, including gastruloids stained with the nuclear marker Draq5 from Moos et al., 2024; breast cancer spheroids; primary ductal adenocarcinoma organoids; human colon organoids and HCT116 monolayers from Ong et al., 2025; and zebrafish tissues imaged by confocal microscopy from Li et al., 2023. These datasets were acquired using either light-sheet or confocal microscopy, with varying imaging parameters (e.g. objective lens, pixel size, staining method). Given the difficulty to access ground truth annotations of 3D organoid data and the multiplicity of models in the literature, we only show qualitatively the versatility of our segmentation model (Figure 3—figure supplement 2). The results show satisfactory performance on these different datasets and imaging conditions.
+
+Normalization is broadly applicable to multicolor data when at least one channel is expected to be ubiquitously expressed within its domain. Wavelength-dependent correction requires experimental calibration using either an ubiquitous signal at each wavelength. Importantly, this calibration only needs to be performed once for a given set of experimental conditions (e.g. fluorophores, tissue type, mounting medium). To our knowledge, the calibration procedures for spectral-filtering and our image-normalization approach have not been performed previously in 3D samples, which is why validation on published datasets was not possible. Nevertheless, they are described in detail in the Methods section, and the code used from the calibration measurements to the corrected images is available open-source at the Zenodo link in the manuscript.
+
+Multi-scale analysis of gene expression and morphometrics is applicable to any 3D multicolor image. This includes both the 3D visualization tools (Napari plugins) and the various analytical plots (e.g., correlation plots, radial analysis). Multi-scale analysis can be performed even with imperfect segmentation, as long as segmentation errors tend to cancel out when averaged locally at the relevant spatial scale. However, systematic errors, such as segmentation uncertainty along the Z-axis due to strong anisotropy may accumulate and introduce bias in downstream analyses. Caution is advised when analyzing hollow structures (e.g. lumen or curved epithelial monolayers with large cavities), as the pipeline was developed primarily for 3D bulk tissues, and appropriate masking of cavities would be needed.
+
+In this work, we have not used refined masks of the gastruloids that would account for and exclude hollow structures. In Figure 4a and c, we noted that this lead to noticeable patterns in the packing-related coarse-grained fields and in the local alignment of the true strain tensor major axis. To improve our current implementation, our masking approach could be augmented by a second method used to specifically detect these structures. Pixel classification based on Random-Forests could be used to get accurate segmentation using only a few manually annotated lines. These approaches are now widely accessible to non-specialist users in softwares like Fiji (with Labkit Arzt et al., 2002), Ilastik Berg et al., 2019, or napari (with napari-APOC Haase et al., 2023).
+
+A Python integrated pipeline for non-specialists, with napari-enabled 3D exploration
+
+We built our pipeline in Python to leverage its rich ecosystem of scientific computing libraries while keeping the code as accessible and user-friendly as possible. We provide detailed installation instructions and Jupyter notebooks with step-by-step instructions designed to be used by non-specialists, with a focus on ease of use and reproducibility. To tackle the challenges that arise from manipulating deep and dense 3D data, we provide napari plugins for manual registration, preprocessing, and analysis. napari provides a user-friendly graphical interface which enables real-time visualization and exploration of 3D data during each step of the preprocessing and analysis. This was essential for the development of the pipeline, as the direct visual feedback allowed us to quickly iterate and optimize the processing steps, while gaining insights into the 3D organization of gastruloids. We believe our pipeline offers a distinctive and effective integration of 3D data exploration and processing, providing a valuable tool for the organoid and tumoroids research community.
+
+We did not explore continuously adjusting laser power based on excitation depth to enhance signals in deeper tissue layers, which could further extend the depth limits of our imaging method. In principle, incorporating such adaptation should not affect our pipeline, as long as the laser used for exciting the nuclei channel (which normalizes all other signals) is the same or maintains the same power-to-depth relationship as the lasers exciting the other fluorophores to be normalized. Here, we developed a wavelength-dependent normalization scheme based on a simplified columnar model. Future work could focus on creating a complete model that accounts for photon paths in a complex geometry, for example, in elongated gastruloids, and integrate the spectral filtering approach to the wavelength-dependent normalization scheme.
+
+In this work, we assume that the nuclear signal is the most reliable for normalizing other signals due to its extensive coverage of the tissue (over 60% in gastruloids). Instead of normalizing signals at the level of individual nuclei, we developed a correction scheme that identifies the optimal scale of characteristic gradients in nuclear intensities to generate a continuous field for re-normalization. This approach has the added advantage of being applicable to markers with different subcellular localizations (e.g. nuclei, cell membrane, intracellular organelles).
+
+A necessary component of our quantitative imaging pipeline was the use of spectral unmixing to address spectral cross-talk, an inherent challenge in multi-color acquisitions, particularly with two-photon excitation. This allowed us to image four different fluorescent targets simultaneously and was required to capture and correlate multiple genetic markers on the single-cell level. This can be further expanded in the future by using state-of-the-art hyperspectral detection, which allows capturing up to 32 channels simultaneously and thus decompose even more spectrally overlapping fluorescent targets (Cutrale et al., 2017). Two-photon excitation is advantageous in this context, allowing for the excitation of multiple targets with a single laser line. In our work, three of the four fluorophore species (Hoechst, AF488, and AF568) were excited using a 920  nm laser line. Additionally, iterative rounds of immunostaining and washing can be applied to maximize the information content (Zheng et al., 2023; Bolognesi et al., 2017). In this context, the interactive registration tools that we have implemented here will be key ingredients to correct for sample movements between subsequent staining steps.
+
+Exploring gastruloid development in 3D
+
+In the context of gastruloid development, which serves as the central biological theme of this paper, it is crucial to understand how spatial heterogeneities in gene expression arise at both the cell microenvironment scale and the larger gastruloid scale. During early gastruloid symmetry breaking and elongation, radial and later antero-posterior gradients of the gene T-Bra, a nascent mesoderm marker, emerge. These radial gradients can be captured with our coarse-grained analysis (see Figure 5c). However, while both the endoderm marker FoxA2 and T-Bra exhibit radial gradients at the coarse-grained scale, their anti-correlated expression is only evident at the single-cell level (see Figure 5c–f). This example highlights the importance of a multiscale analysis pipeline that allows simultaneous visualization of tissue-scale properties and local cellular events. Our methodology utilizes segmentation of the Hoechst-stained nuclei channel to (1) identify individual cells for cell-scale analysis and (2) normalize other channels using the nuclei signal. By developing a diverse training set for nuclei segmentation, we achieved precise determination of nuclei shapes. This precision enables systematic studies of the relationship between nuclear morphology and gene expression patterns, and can be extended to cell morphology using membrane stains, such as ZO-1 and cell shape segmentation methods like CellPose (Stringer et al., 2021; Pachitariu et al., 2025). Note that the latest version of the latter method, CellPoseSAM (Pachitariu et al., 2025), can give satisfactory results for nuclei segmentation, and we showed qualitatively that it benefits from the Tapenade preprocessing workflow for segmenting deep tissues (Figure 3—figure supplement 3a) and that using it as a replacement for our trained StarDist3D model lead to similar results for the nuclear morphology study (Figure 3—figure supplement 3b–d).
+
+Nuclei deformation patterns show large-scale alignment at the gastruloid level (see Figure 4c–d) and localized alignment near lumens and cavities, providing potential insights into the structuring of epithelial and mesenchymal tissues during gastruloid development. In older gastruloids with cavity-containing structures, such as somitic structures (Veenvliet et al., 2020), automated cavity detection will be crucial for accurately quantifying coarse-grained fields of cell or division densities.
+
+While this work focuses on gastruloid datasets, we believe that the pipeline effectively extends to organoid, tumoroid, and other datasets that encounter challenges related to whole-mount deep imaging. We designed the library in the prospect of long-term maintenance, and it will receive continuous improvements in the future.
+
+Materials and methods
+
+Sample preparation
+
+Gastruloid culture
+
+Gastruloids were generated using the protocol described previously in Hashmi et al., 2022, from four different cell lines. Briefly, cells were seeded and aggregated for 48  hr in low-adherence 96-well plates (Costar ref: 7007) and subsequently pulsed with the Wnt agonist Chiron, which was washed out after 24 hr, i.e., at 72  hr of aggregate culture. Time points indicated throughout the paper refer to the time after seeding. The two cell lines T-Bra-GFP/NE-mKate2 and E-cad-GFP/Oct4-mCherry were used for gene expression analyses. The E14Tg2a.4 line (ATCC) was used for spectral calibration and benchmarking, as it is devoid of any fluorescent construct. The H2B-GFP (a generous gift from Kat Hadjantonakis) was used for live imaging experiments and morphometric analyses. In brief, between 50 and 400 cells were seeded in low adhesive 96 well plates in a neural differentiation medium. In order to promote endoderm formation and to reduce symmetry breaking variability compared to the standard gastruloids protocol (van den Brink et al., 2014), we enriched the medium with Fibroblast Growth Factor and Activin as in Hashmi et al., 2022. All cell lines were tested to be free from mycoplasma contamination using qPCR.
+
+Immunostaining
+
+Samples were immunostained using the same protocol as in Hashmi et al., 2022 apart from the fact that samples were incubated in a 1  mM glycine solution, and that primary antibodies (see table below) were incubated during three consecutive days. Secondary antibodies AF488, A568, AF647 (Thermo Fisher) and Hoechst 33342 (Thermo Fisher) were chosen to be compatible with four-color two-photon imaging. They were diluted 500 times for incubation, except for Hoechst which was diluted 10,000 times in order to minimize the crosstalk of the Hoechst signal into other channels (Table 2).
+
+Table 2. Antibodies.
+
+Antibody	Species	Reference	Provider	Dilution	
+Brachyury	Goat	AF2085	RD system	1:40	
+E-cadherin	Rat	M108	Takara	1:200	
+FoxA2	Goat	sc-6554	Santa-Cruz	1:50	
+Snail	Goat	AF3639	RD system	1:50	
+OB-cadherin	Rabbit	71–7600	Invitrogen	1:500	
+pH3	Rat	ab10543	abcam	1:250	
+Oct4	Mouse	MAB4419	Merck Millipore	1:100	
+Sox2	Mouse	sc-365823	SantaCruz Biotech.	1:100	
+anti-GFP	Chicken	GFP-1020	Aves	1:100	
+
+Mounting
+
+Samples were mounted between two glass coverslips of standard thickness (0.31 to 0.17 mm) using 250 μm or 500 μm spacers (SUNJin Lab, Taiwan, R.O.C.) in 20 μl or 40 μl mounting medium. For the clearing benchmark, gastruloids were incubated overnight and then mounted in either PBS, 80% glycerol solution in PBS (v/v) (Ahmad et al., 2021), 20% optiprep solution in PBS (v/v) (Boothe et al., 2017), or antifade mounting medium (ProLong Gold Antifade Mountant, Thermo Fisher Scientific). For all other experiments with fixed samples, gastruloids were mounted in 80% glycerol solution in PBS (v/v). For live imaging, gastruloids were transferred from 96-well plates to either MatTek dishes (MatTek corporation, ref: P35G-1.5–14 C) or to micro-well plates (500 μm wells, SUNBIOSCIENCE ref: Gri3D) in culture medium and imaged in a chamber maintained at 37°C, 5% Co2 with a humidifier.
+
+Two-photon imaging
+
+Four-colors two-photon imaging of immunostained samples was performed on an upright Nikon A1 R MP microscope using an Apo LWD 40x/1.1 WI λS DIC N2 objective. Fluorescence was simultaneously excited at 920  nm (to excite simultaneously Hoechst, AF488, and AF568) with a tunable femtoseconde laser (Chameleon Discovery NX from Coherent) and at 1040  nm (to excite simultaneously AF568 and AF647) with the same laser secondary output at fixed wavelength. Fluorescence was detected on four non-descanned GaAsP detectors with the following emission filters: 450/70 (Ch1), 530/55 (Ch2), 607/70 (Ch3), 700/50 (Ch4). To spectrally separate the channels, three dichroic mirrors (488 LP, 562 LP, 650 LP) were used. Multiposition imaging was used to automatically acquire image stacks on multiple gastruloids mounted in the same sample slide.
+
+Live imaging of gastruloids was performed on a Zeiss 510 NLO (Inverse - LSM) with a femtosecond laser (Laser Mai Tai DeepSee HP) with a 40x/1.2 C Apochromat objective. The Histone-GFP signal was excited at 920  nm and detected with a non-descanned GaAsP detector with a 560 LP. The images were acquired with the full field-of-view (318 μm, pixel size 0.62 μm), and a z-spacing of 1 μm. Depth in z varies from 150 to 350 μm, depending on the acquisitions and the sample size, but always past the midplane of the gastruloid.
+
+Confocal imaging
+
+Confocal imaging was performed on a Zeiss LSM880 system (Carl Zeiss) using a Plan-Apochromat 40x/1.2 NA water immersion objective. Fluorescence was excited with the 488 nm line of an Argon laser. To split excitation and emission light, a 488 dichroic mirror was used. Fluorescence was detected between 491 and 700 nm on a 32-channel GaAsP array detector, with a pinhole set to one airy unit.
+
+Image quality estimation
+
+To quantitatively assess clearing efficiency and compare the information content of images at depth, we used the Fourier ring correlation quality estimate (FRC-QE) (Preusser et al., 2021). We selected a column of 400×400 pixels for the clearing benchmark and 100×100 pixels for all other analyses in the center of aggregates and computed FRC-QE using the available Fiji plug-in.
+
+Preprocessing: Spectral unmixing
+
+To remove spectral cross-talk, four-channel images were spectrally unmixed into n images corresponding to the contribution from each of the n fluorophore species present in the sample.
+
+Spectral calibration
+
+To this aim, reference spectra pik of the utilized fluorophores were determined from calibration images acquired on aggregates stained with only one fluorophore species at the same excitation and detection settings. To account for wavelength-dependent signal decay with imaging depths, spectral patterns were computed as a function of imaging depth. It is important to note that spectral patterns depend on the gain settings of each detector. However, once calibrated for a certain set of gain values, reference patterns for different gains can be easily interpolated by simply measuring the count ratios for both sets of gains on a sample providing sufficient signal (i.e. well above background counts) on each detector for all gains.
+
+Spectral decomposition
+
+Four-channel images Ik(x,y,z) were decomposed using a previously published unmixing algorithm originally developed in the context of fluorescence lifetime correlation spectroscopy (Ghosh et al., 2018), image correlation (Schrimpf et al., 2018), and fluorescence correlation spectroscopy (Benda et al., 2014; Dunsing et al., 2021). First, spectral filter functions fik were calculated using the calibrated reference spectra pik(z):(1) fik(z)=([P^TDP^]−1P^D)ik
+
+Here, P is a matrix with elements Pki=pik(z) and D a diagonal matrix computed from the average image intensity in each channel k, D=diag[1/⟨Ik(x,y,z)⟩x,y].
+
+The spectral filter functions represent intensity weights per spectral channel. To obtain the filtered images Ii(x,y,z) for each fluorophore species i, the channel images are multiplied with the filter functions and summed over all channels (m=4 here):(2) Ii(x,y,z)=∑k=1mfik(z)Ik(x,y,z).
+
+It should be noted that unmixing successfully works as long as signal levels are well above background counts and all images, acquired for spectral calibration and in actual imaging experiments, are devoid of detector saturation. This way, even closely overlapping fluorophore species can be discriminated with only few detector channels, at the expense of increased image noise (Schrimpf et al., 2018). In this context, pure detector channels, i.e., channels that predominantly detect one of the fluorophore species, are beneficial. This is the case in the example of GFP and AF488 presented in Figure 2—figure supplement 1e and f, in which the first channel detects mostly GFP fluorescence. In addition, samples in which signal from different fluorophore species is detected in different pixels (e.g. pixels corresponding to nuclei and membranes) are generally easier to unmix and suffer less from noise increase than samples were different fluorophore species contribute to the signal in the same pixels.
+
+Preprocessing: Dual-view registration and fusion
+
+Multiple organoids were acquired from the same slide, first from one side for all of them, then from the other side. Therefore, the first step of the registration and fusion algorithm was to pair the two sides of each organoid together. This pairing was done by extracting the sample positions stored in the metadata of the acquisitions and finding the pairing that minimizes the sum of the distances between paired samples using a linear assignment algorithm.
+
+Registration of these dual-view image stacks was achieved using an existing intensity-based blockmatching algorithm (Ourselin et al., 2000), adapted for 3D microscopy images and previously used in McDole et al., 2018; Guignard et al., 2020. From the two distinct images, one is arbitrarily chosen as the reference image and the other, named the floating image, is registered onto the reference one. Starting from an initial transformation, the blockmatching algorithm compares, on multiple hierarchical levels, each block in the floating image with the corresponding neighboring blocks in the reference image, and finds the rigid 3D transformation (specified by rotation around axes X, Y, Z, and translation along axes X, Y, Z) from these sets of blocks. Then, we apply the transformation to the floating image, so that the two views are in the same referential, and fuse them into one image stack.
+
+Because of the computational cost of comparing blocks in large 3D images, the size of the neighborhood that the registration algorithm explores is restricted. Therefore, the magnitude of the transformation between the two image stacks has to be relatively small (typically less than 30° rotations and 100 units in translation). As a consequence, the user has to provide an initial transformation to the algorithm, which approximates the actual transformation. In the case of dual-view imaging with opposite views, the initial transformation would correspond to 180° rotation around the X axis and some additional translation. To explore the initial transformation, we developed the napari plugin napari-manual-registration detailed above and illustrated in Figure 6. This tools allows to interactively rotate and translate the floating with respect to the reference image stack. The tool also allows users to specify manual landmarks in both image stacks, e.g. lumen, dead or dividing cells, from which an initial transformation can be automatically computed. While the blockmatching algorithm generally allows for any type of transformation (rigid, affine, non-linear, …), we restrained the search space to rigid transformations. Moreover, since the stacks comprise multiple channels, we used a reference one that was expressed ubiquitously, here the nuclei staining, on which the transformation was computed. The other channels were registered using the same transformation matrix as the reference channel. Because the SNR of each stack decreased roughly with the distance to the objective, we weighted the contribution in the fusion of the two opposing sides of the sample. The weights f1 and f2, respectively, for the reference view and floating view were computed as a sigmoid:(3) f1(z)=11+ep(z−z0),
+
+(4) f2(z)=1−f1(z).
+
+with z being the depth in the stack in voxels, z0 the middle (i.e. inflection point) of the sigmoid, where f1(z0)=0.5, and p the slope of the sigmoid. The decay length l of the sigmoid and the effective fusion width δ are linked by l=4/p and δ=2l.
+
+As illustrated in Figure 2e, the two sides were imaged up to a certain depth depending on the sample size and the image quality, past the mid-plane to ensure some overlap with the other view. Because we acquired the same depth and number of z-planes for both views, the sigmoid is centered in the middle of the overlapping region, which is why we considered z0=0.5. The overlapping region to fuse had a typical width value of w=70 to 150 μm (depending on the image depth) around the midplane. The coordinate along the overlap region was mapped to the range [0,1] to allow setting the parameters of the sigmoid fusion function independently from the size of the overlap or the size of the gastruloid, as illustrated on Figure 2—figure supplement 2. The slope of the sigmoid was set to p=15, which leads to l=0.27 and δ=0.53. Intuitively, this means that 53% of the overlapping region was used to mix both signals with non-negligible mixing coefficients to create the fused part.
+
+Nuclei segmentation
+
+To segment nuclei, we trained a custom Stardist3D (Weigert et al., 2020) model on three annotated datasets acquired with two-photon microscopy in different acquisition modalities: one fixed dataset, two live datasets (one with mosaic fluorescence labeling), see Table 3 and Figure 3—figure supplement 1a.
+
+Table 3. Description of the datasets used for training our custom StarDist3D model to detect nuclei.
+
+All datasets were acquired with a two-photon microscope.
+
+Density	Dimension	Num. nuclei	Pixel size (µm/pix)	
+Dense	3D	1018	Z: 1, Y/X: 0.25	
+Dense	3D+time	100	Z: 1, Y/X: 0.62	
+Sparse	3D+time	3296	Z: 1, Y/X: 0.62	
+
+Global contrast enhancement
+
+Before training and inference with our Stardist3D model, we applied percentile-based histogram clipping and normalization to the input images. For a given image voxel at position x→=(z,y,x), its intensity I(x→) is first transformed as follows:(5) I′(x→)=I(x→)−Pminimage(x→)Pmaximage(x→)−Pminimage(x→),
+
+where Pminimage(x→) and Pmaximage(x→) are low and high percentile intensity values in the image.
+
+In practice, we choose Pminimage and Pmaximage to be the first and 99th percentile of the intensity values in the image. As shown Figure 3—figure supplement 1d, applying global contrast enhancement was not sufficient to restore sufficient intensity in the deeper regions of some samples, which lead to poor segmentation performances. We thus extended our contrast enhancement method to apply in local sub-regions of the images.
+
+Local contrast enhancement
+
+Because the image contrast is not homogeneous within and across samples, we homogenized intensity profiles across the training datasets by applying local percentile-based histogram clipping and normalization.
+
+For a given image voxel at position x→=(z,y,x), its intensity I(x→) is first transformed as follows:(6) I′(x→)=I(x→)−Pminwindow(x→)Pmaxwindow(x→)−Pminwindow(x→),
+
+where Pminwindow(x→) and Pmaxwindow(x→) as before, the first and 99th percentile of the intensity values within the window, and w close to the average size of the nuclei in the dataset. The transformed image I′ is finally clipped to the range [0,1] to obtain the locally enhanced image.
+
+The training datasets were rescaled to an isotropic voxel scale of 0.62 μm/pix in all directions, from which crops of 64×64×64 voxels were extracted and augmented during training by 3D rotations, flipping, intensity shifts, and additive Gaussian noise.
+
+Applying scaling transformations to crops during training is often regarded as the best way to achieve robustness in the case of a wide object size distribution. This is typically the case when several raw datasets acquired in different experimental conditions are combined, particularly due to different pixel sizes across datasets. However, we found in our case that the size distribution related to a single dataset is narrow enough that robustness is better achieved by first rescaling all training datasets to a common isotropic nuclei size. (Stringer et al., 2021; Vanaret et al., 2023).
+
+Before inference, a new dataset simply needs to be rescaled to reach that common nuclei size.
+
+Mitotic cells segmentation
+
+Another StarDist model was trained to detect the divisions stained by ph3. To this aim, we iteratively trained StarDist3D models with a very small batch of annotated data, using the model trained on all nuclei, and corrected the prediction using napari to train again. At the end, 31 images of whole-mount gastruloids and 5300 divisions were used to train a custom Stardist3D model, using the same parameters as for the nuclei detection model in terms of preprocessing, crops size, and data augmentation.
+
+Whereas the model trained on nuclei was not very successful on ph3-stained nuclei, because of their particular shapes, the final model after multiple iterations achieved better results, around F1=82%. Some over-segmentations around large and deformed nuclei were still present, and using 3D Gaussian blur did not achieved a better score, because they led to misdetections where neighboring nuclei were in mitosis. Therefore, after prediction, post-processing was used to filter out small volumes with thresholding. Events detected from the background or dead cells (using a mask of the sample computed from the nuclei channel) and minimal manual curation was done, using napari.
+
+Masked Gaussian convolution to probe spatial fields at different scales
+
+To probe volumetric signals at different length scales σ ranging from the average nuclei size to the width of the organoid, we convolve signals with a Gaussian kernel of size σ. We propose two ways to compute convolutions depending on whether the signal is dense (e.g. an image representing a signal intensity) or sparse (e.g. nuclei volumes defined only locally on nuclei centroids).
+
+Dense data
+
+We apply convolution with a normalized Gaussian kernel to dense signals. For a given voxel at position x→=(z,y,x), its value I(x→), whether scalar or vector, is transformed according to:(7) Iσ(x→)=∑x→′∈[−a,a]3kσ(x→′)I(x→−x→′),
+
+with kσ(x→′)=(2πσ2)−3/2exp⁡(−‖x→−x→′‖2/2σ2), and a the convolution window size. In our implementation, we choose a=3σ.
+
+When a binary mask (e.g. defining the inside of the organoid) is available, we apply a masked convolution with a correcting normalization factor. Let M be a binary masking function, e.g., M(x→)=1 for voxels at positions x→ inside the organoid, and 0 everywhere else, we compute(8) Iσ,M(x→)=∑x→′∈[−a,a]3kσ(x→′)I(x→−x→′)M(x→−x→′)∑x→′∈[−a,a]3kσ(x→′)M(x→−x→′).
+
+This additional normalization factor prevents the artifactual decay of the convolved signal close to the mask boundaries by ‘excluding’ voxels outside the mask from the convolution. Note that the masked formulation allows the user to compute values of a quantity outside its domain of expression. For instance, if both a mask Minst of nuclear instances and a mask Min/out that marks the inside and outside of the sample are provided, a quantity like the nuclear Hoechst expression can be computed in the full region defined by Min/out, even though it only appears in the nuclei.
+
+Sparse data
+
+For sparse data, i.e., quantities defined locally at n specific positions X={x→1,x→2,…,x→n}, we compute the convolution and masked convolution in a similar manner, but with a mask M that is non-zero only at the positions at which the sparse signal is defined (e.g. nuclei centroids). This formulation allows the user to choose between studying the sparse signal (i) at its original positions, i.e., by computing the above convolution at positions x→∈X, (ii) at resampled positions, e.g., on a uniform grid for convenience, or (iii) as a dense continuous field across the whole domain of the gastruloid.
+
+We provide a second implementation of the masked convolution specifically for sparse data, which is more convenient when the smoothed sparse signals should also be smooth (e.g. when it should be defined at its initial positions or on a regular grid). This implementation uses the Kd-Tree data structure implemented in Scipy to efficiently find neighbor relationships from the positions at which the sparse signal is defined, which is used to optimize the computation of the convolution (Equation 8).
+
+Preprocessing: Intensity normalization
+
+Quantifying gene expression in 3D tissue samples from imaging data is hindered by various sources of noise and optical artifacts that induce large scale intensity gradients (e.g. scattering, aberrations). The main sources of artifacts are (local) variations in optical paths and cell density, that usually manifest as decreased intensities towards deep tissue regions. Artifactual gradients can also appear during the registration of two non-collinear views, which further complexifies the expected distribution of artifacts and resulting intensity gradients.
+
+We model the intensity signal I(x→) from a given channel as(9) I(x→)=Minst(x→)S(x→)A(x→)+ε(x→),
+
+where Minst(x→) is a binary mask of the signal instances (e.g. nuclei or membranes), i.e., Minst(x→)=1 if x→ is inside an instance and 0 otherwise, S(x→) is the gene expression field, which provides a continuous representation of the cell-scale variations of the biological signal, A(x→) is the field representing the artifactual intensity variations, and ε(x→) is an additive uncorrelated noise term which models both variations in the signal at scales below the cell-scale and acquisition noise. This decomposition is illustrated on Figure 5—figure supplement 2.
+
+We hypothesize that the Hoechst signal Sh(x→) is globally homogeneous throughout the volume, i.e Sh(x→)=Sh,0, and that the field of optical artifacts A has large scale variations (typically superior to a few cell diameters). In particular, direct observations of homogeneous signals like Hoechst with different emission wavelengths, as displayed of Figure 5—figure supplement 1a–b, indicate that optical artifacts are mostly dominated by exponential decay with depth with a wavelength-dependent decay length. A second order contribution comes from scattering effects related to heterogeneities in photon’s optical paths, cellular density, or to geometrical considerations, e.g., proximity to the sample’s boundaries. For every wavelength λ and every signal, we thus model A to first order as(10) A(x→,λ)=e−z/d+a(x→,λ),
+
+with d the wavelength-dependent decay length. The second term a on the right hand side corresponds to second order corrections to the exponential decay model. Note that, in accordance with Beer-Lambert law, the value d(λ) also likely depends on experimental parameters E, like the nature of the mounting medium or the settings of the experiments, in a multiplicative fashion, i.e.,(11) d(λ,E)=f(E)d′(λ),
+
+so that in similar imaging scenarios, ratios of decay lengths at two wavelengths(12) d(λ2,E)d(λ1,E)=d′(λ2)d′(λ1)=r(λ2,λ1)
+
+only depend on λ1 and λ2.
+
+To estimate the decay lengths across the range of wavelengths in use, we measured the intensity decay in samples with ubiquitous nuclei stainings in four emission wavelengths: Hoechst for the blue channel (λ=405nm), H2B-GFP amplified for the green channel (λ=488nm), SPY-DNA555 or the endogenous H2B-Tomato for the red channel (λ=555nm) and DRAQ5 for the far-red channel (λ=647nm). Stainings for different wavelengths were done on separated samples to avoid signal crosstalk between the channels. All samples were imaged with the same excitation and detection settings. For each sample, we extracted the intensity profile in a central column along the z-axis to minimize boundary artifacts, and fitted Equation 10 to recover the decay lengths d(λ) (Figure 5—figure supplement 1a–c). We observe a monotonous relationship between median values of d across different samples and λ. To confirm our measurements, we also computed decay lengths via a second method: notice that the model of Equation 10 leads to the following identity for two ubiquitous signals I1 and I2 at wavelengths λ1 and λ2 (neglecting the noise term ε in Equation 9 and the second order term from Equation 10)(13) log⁡(I1)=r(λ2,λ1)log⁡(I2)+cst.
+
+We imaged new samples with both Hoechst (λ=405nm) and the Far-red nuclei stain (λ=647nm). There was no significant spectral overlap between the two signals. By fitting Equation 13, we obtained another estimate of the ratio r(λ=405nm,λ=647nm)≈0.46, consistent with the value of 0.48 obtained with the previous method (Figure 5—figure supplement 1e). In Figure 5—figure supplement 1d, we plot the decay length ratios with the decay length of the Hoechst channel dblue. In our model, these ratios are independent of imaging conditions, and the monotonicity and smoothness of the trend suggests that the ratios dblue/d(λ) in the range λ∈[405nm,647nm] could be estimated by interpolating our results.
+
+In our experiments, it was not possible to image ubiquitous nuclei signals at the same wavelengths as relevant biological signals, while Hoechst staining was often easily available. We thus developed a correction scheme based on Hoechst staining to separate the contribution of artifactual gradients from true gradients in gene expression. The rationale of the scheme stems from the fact that Equation 13 also allows us to relate two ubiquitous signals up to a multiplicative constant:(14) I1∝I2r(λ2,λ1).
+
+The Hoechst signal could, therefore, be used to predict the intensity profile from another ‘virtual’ ubiquitous signal imaged at some wavelength λ≠λblue that coincides with the wavelength of the biological signal of interest.
+
+First, we compute the Gaussian average of the reference Hoechst signal Ih at a scale σ using Equation 8, in which we keep only voxel intensities that belong to the nuclei using a mask Mnuc:(15) Ihσ,Mnuc(x→)≈Sh,0A(x→).
+
+Here, σ is chosen large enough to average out the additive noise ε but small enough that the structure of the field of optical artifacts A is preserved. The practical choice of σ is discussed below.
+
+We then normalize other biologically relevant intensity signals Ib by the Gaussian-averaged nuclei field (Ihσ,Mnuc(x→))r(λblue,λb) to get(16) Ib^(x→)=Ib(x→)(Ihσ,Mnuc(x→))r(λblue,λb)=Minst(x→)S(x→)Sh,0r(λblue,λb)+ε′(x→),
+
+with ε′ the normalized version of the additive noise ε. This step effectively removes the field of optical artifacts from the signal. The choice of σ used for the Gaussian averaging of the ubiquitous signal depends on the length scale at which the field of artifacts A varies. Since this is not known in practice, we choose in our implementation the value σ that leads to the most homogeneous normalized ubiquitous signal across all z-planes. Formally,(17) {σ=argminσMAD(Ihσ)Ihσ={median(Ihσ,Mnuc(z=Z))}Z∈[0,Zmax],
+
+with MAD the median absolute deviation and Zmax the depth of the last z-slice. Figure 5—figure supplement 1f shows the decay profile of a sample normalized using different values of σ, as well as the corresponding Gaussian-averaged nuclei fields.
+
+With the aim of comparing normalized signals across different samples acquired with the same imaging setup, we further rescale the normalized signal by a global multiplicative factor designed to mitigate the sample-dependent impact of the normalizing factor Sh,0r(λblue,λb) in Equation 16. We multiply each normalized signal by a multiplicative factor such that the median intensity of the raw Hoechst signal computed in a region of brightest intensity is transmitted to the normalized Hoechst signal. The rationale is that the median intensity in the brightest regions reflects the expected intensity in the absence of artifacts, e.g., in outer cell layers close to the cover glass.
+
+We tested the normalization method on a sample stained with both Hoechst and a Far-red nuclei stain, using Hoechst to normalize the Far-red channel and then look at the intensity profile. Figure 5—figure supplement 1e shows the depth decay for the unnormalized signal, as well as the signal normalized using the ratio r(λblue,λfar−red)=0.48 as found experimentally. On the same plot, we show the profile for the ratio r=1 that would model a situation where we do not correct for wavelength dependency. In the latter, the intensity is over-corrected in depth, whereas with the correct ratio, we recover a flat profile in depth. Because there is an error associated with the measurement of r, we tested small variations around the value 0.48. The depth decay changes slightly, as shown on the right panel with a 10% difference above and below. XZ profiles for these two panels are shown on the right. In addition, we correct the Hoechst for its own intensity decay, in that case using r=1 which recovers a flat profile in depth, this is shown Figure 5—figure supplement 1g with the corresponding XZ views. The last sanity check is performed by plotting the profile not only along the Z axis but also along X and Y, to ensure the absence of any other gradients of intensity. This is Figure 5—figure supplement 1h, plotted on the Far-red channel normalized with r=0.48.
+
+Density maps
+
+To quantify the local abundance of a target object, e.g., nuclei or specifically mitotic nuclei, we study three spatial fields: the density (number of objects per volume), the volume fraction (percentage of local space filled by the objects), and the map of objects volumes.
+
+All fields are first computed at the voxel scale. The voxel-scale density field and map of objects volumes are computed by replacing each object by a single voxel of value, respectively, 1 or the object’s volume placed at its centroid. The voxel-scale volume fraction corresponds to a binary mask of the target objects, and can be obtained directly with semantic segmentation methods or by binarising segmented object instances as output by Stardist3D. The voxel-scale fields are finally convolved with a Gaussian kernel of the desired analysis scale.
+
+These quantities give a complete description of the local object abundance, as the volume fraction and map of objects volumes inform on the impact of volume on the object density. For instance, a large spatial region can misleadingly display a constant volume fraction but have large variations in object density and local objects volumes if the latter two compensate.
+
+Morphometric analysis
+
+To quantify object-scale deformation, we fit an ellipse to each segmented object. This can be done efficiently by computing the inertia tensor I. For a given object composed of N voxels at positions {x→1,x→2,…,x→N}, we first compute the positions of the voxels relative to the object’s centroid c→, {r→1,r→2,…,r→N}, with r→k=x→k−c→=(rk,1,rk,2,rk,3). The inertia tensor is then defined as:(18) Ii,j=∑k=1N(δi,jrk2−rk,irk,j),
+
+with rk2=rk,12+rk,22+rk,32, and δi,j the Kronecker delta. The eigenvectors and eigenvalues of the inertia tensor correspond to the principal axes and moments of inertia of the object. Notably, the principal axes of I are the same as the principal axes of the ellipse that best fits the object. The lengths of the ellipse’s semi-axes can be obtained from the moments of inertia: if (I1,I2,I3) are the moments of inertia associated with the principal axes (e→1,e→2,e→3), the lengths of the corresponding semi-axii (L1,L2,L3) are given by:(19) Li2=52N(I1+I2+I3−2Ii),i=1,2,3.
+
+Computing the inertia tensor for each object leads to a sparse tensor field that can be studied at arbitrary scales using the sparse Gaussian convolution equation defined previously. For instance, it can be used to study local object alignments by focusing only on the largest semi-axis (the main axis of deformation of the object). In practice, quantifying local object alignment by averaging inertia tensors introduces a bias by over-representing large objects. To avoid this bias, we instead compute the true strain tensor from the inertia tensor. The true strain tensor T is defined as:(20) T=Vdiag(T1,T2,T3)VT,
+
+with V the matrix of eigenvectors of I and Ti=13log⁡(Li3/(L1L2L3)). The eigenvalues (T1,T2,T3) of T represent the relative amount of deviation of each principal length from the radius of a sphere with the same volume as the object. Due to its relative nature, the true strain tensor is suited to compare the deformations of two objects with different sizes, and is thus appropriate for averaging in a local neighborhood.
+
+Funding Information
+
+This paper was supported by the following grants:
+
+https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-16-CONV-0001 to Alice Gros, Jules Vanaret, Philippe Roudot, Pierre-François Lenne, Léo Guignard, Sham Tlili.
+
+https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-19-CE13-0022 to Pierre-François Lenne.
+
+https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-22-CE30-0021 to Sham Tlili.
+
+https://ror.org/0472cxd90 European Research Council 10.3030/101072123 to Agathe Rostan, Pierre-François Lenne, Sham Tlili.
+
+https://ror.org/00rbzpz17 Agence Nationale de la Recherche ANR-10-INBS-04 to Pierre-François Lenne, Sham Tlili.
+
+https://ror.org/04w6kn183 Fondation pour la Recherche Médicale FDT202404018538 to Alice Gros.
+
+https://ror.org/04w6kn183 Fondation pour la Recherche Médicale EQU202003010407 to Pierre-François Lenne.
+
+https://ror.org/02ebx7v45 Human Frontier Science Program HFSP LT0058/2022- L to Valentin Dunsing-Eichenauer.
+
+https://ror.org/02vjkv261 Institut National de la Santé et de la Recherche Médicale Inserm Booster Program MecaCell3D to Pierre-François Lenne, Sham Tlili.
+
+Acknowledgements
+
+This work is supported by the French National Research Agency ('France 2030,' ANR-16-CONV-0001 from Excel lence Initiative of Aix-Marseille University- A*MIDEX), a generic grant to P-FL (ANR-19-CE13-0022), a generic grant to ST. ANR-22-CE30-0021 and an ERC grant (to P-FL, ERC SyG 101072123). We also acknowledge the France-Bioimaging Infrastructure (ANR-10-INBS-04). This work was supported by the Fondation pour la Recherche M´edicale, (to AG, grant number FDT202404018538, and to P-FL, grant number EQU202003010407) VDE acknowledges support by an HFSP long-term postdoctoral fellowship (HFSP LT0058/2022- L). ST and P-FL thank financial support from Inserm to the Booster Program Mecacell3D. We thank Dalia El-Arawi for providing one of the datasets used in Figure 3—figure supplement 1.
+
+Additional information
+
+Competing interests
+
+Author contributions
+
+Additional files
+
+MDAR checklist
+
+Data availability
+
+All datasets used to reproduce the figures of the articles, the trained Stardist3D weights, and the associated training datasets can be found in the following link: https://doi.org/10.5281/zenodo.14748083. The Tapenade package is available on GitHub: https://github.com/GuignardLab/tapenade, Vanaret et al., 2026. The napari plugin napari-manual registration is available here: https://github.com/GuignardLab/napari-manual-registration, Vanaret and Gros, 2026a. The napari plugin napari-tapenade-processing is available here: https://github.com/GuignardLab/napari-tapenade-processing, Vanaret and Gros, 2026b. The napari plugin napari-spatial-correlation-plotter is available here: https://github.com/GuignardLab/napari-spatial-correlation-plotter, Vanaret, 2026a.
+
+The following dataset was generated:
+
+Vanaret J Gros A Dunsing V Rostan A Guignard L Tlili SL 2025 Analysis Data and Stardist3D Trained Weights for Whole-mount Gastruloid Deep Imaging and Multiscale Analysis Zenodo 10.5281/zenodo.14748083
+
+DOI: 10.7554/eLife.107154.3.sa0
+
+eLife Assessment
+
+Sugimura Rio Reviewing Editor The University of Hong Kong Hong Kong
+
+Keywords: Compelling
+Keywords: Important
+
+This work describes the establishment of an image analysis pipeline for signal correction, segmentation and quantitative data analysis of multilayered organoid and tumoroid systems. The revised study is important for the field to address many practical challenges in deep-tissue visualization. The image analysis pipeline is well-designed and compelling.
+
+DOI: 10.7554/eLife.107154.3.sa1
+
+Reviewer #1 (Public review):
+
+Reviewer
+
+Summary:
+
+The image analysis pipeline is tested in analysing microscopy imaging data of gastruloids of varying sizes, for which an optimised protocol for in toto image acquisition is established based on whole mount sample preparation using an optimal refractive index matched mounting media, opposing dual side imaging with two-photon microscopy for enhaced laser penetration, dual view registration and weighted fusion for improved in toto sample data representation. For enhanced imaging speed in a two-photon microscope, parallel imaging was used and the authors performed spectral unmixing analysis to avoid issues of signal cross-talk.
+
+In the image analysis pipeline image, different pre-treatments are done dependent on the analysis to be performed (for nuclear segmentation - contrast enhancement and normalisation; for quantitative analysis of gene expression - corrections for optical artifacts inducing signal intensity variations). Stardist3D was used for the nuclear segmentation. The study analyses in toto properties of gastruloid nuclear density, patterns of cell division, morphology, deformation and gene expression.
+
+Strengths:
+
+The methods developed are sound, well described and well validated, using a sample challenging for microscopy, gastruloids. Many of the established methods are very useful (e.g. registration, corrections, signal normalisation, lazy loading bioimage visualisation, spectral decomposition analysis), facilitate the development of quantitative research and would be of interest to the wide scientific community.
+
+Comments on revisions:
+
+I am happy with the job the authors have done with the revision. No further comments.
+
+DOI: 10.7554/eLife.107154.3.sa2
+
+Reviewer #2 (Public review):
+
+Reviewer
+
+Summary:
+
+This study presents an integrated experimental and computational pipeline for high-resolution, quantitative imaging and analysis of gastruloids. The experimental module employs dual-view two-photon spectral imaging combined with optimized clearing and mounting techniques, enabling improved deep-tissue visualization compared with conventional methods. This advanced approach allows comprehensive 3D imaging of whole-mount immunostained gastruloids, capturing both tissue-scale architecture and single-cell-level information.
+
+The computational module encompasses both pre-processing of acquired images and downstream analysis, providing quantitative insights into the structural and molecular characteristics of gastruloids. The pre-processing pipeline, tailored for dual-view two-photon microscopy, includes spectral unmixing of fluorescence signals using depth-dependent spectral profiles, as well as image fusion via rigid 3D transformation based on content-based block-matching algorithms. Nuclei segmentation was performed using a custom-trained StarDist3D model, validated against 2D manual annotations, and achieving an F1 score of 85+/-3% at a 50% intersection-over-union (IoU) threshold. Another custom-trained StarDist3D model enabled accurate detection of proliferating cells and the generation of 3D spatial maps of nuclear density and proliferation probability. Moreover, the pipeline facilitates detailed morphometric analysis of cell density and nuclear deformation, revealing pronounced spatial heterogeneities during early gastruloid morphogenesis.
+
+All computational tools developed in this study are released as open-source, Python-based software.
+
+Strengths:
+
+The authors applied two-photon microscopy to whole-mount deep imaging of gastruloids, achieving in toto visualization at single-cell resolution. By combining spectral imaging with an unmixing algorithm, they successfully separated four fluorescent signals, enabling spatial analysis of gene expression patterns.
+
+The image analysis method for nuclei segmentation was thoroughly benchmarked against existing methods, demonstrating advantages over conventional approaches, and its applicability across diverse datasets was convincingly established. The authors also evaluated the state-of-the-art Cellpose-SAM framework, showing that it performs well on their data and that the authors' preprocessing strategy can further enhance Cellpose-SAM's segmentation performance in deep tissues.
+
+The entire computational workflow, from image pre-processing to segmentation with a custom-trained StarDist3D model and subsequent quantitative analysis, is made available as open-source software. In addition, user-friendly interfaces are provided through the open-source, community-driven napari platform, facilitating interactive exploration and analysis.
+
+Weaknesses:
+
+In my initial review, I noted that the developed image analysis pipeline lacked benchmarking against existing methods and provided only a limited demonstration of its applicability to other datasets. These points have been appropriately addressed in the revised manuscript, and I have no further weaknesses to note.
+
+Appraisal:
+
+The authors set out to establish a quantitative imaging and analysis pipeline for gastruloids using dual-view two-photon microscopy, spectral unmixing, and a custom computational framework for 3D segmentation and gene expression analysis. This aim was compellingly achieved. The integration of experimental and computational modules enables high-resolution in toto imaging and robust quantitative analysis at the single-cell level. The data presented support the authors' conclusions regarding the ability to capture spatial patterns of gene expression and cellular morphology across developmental stages.
+
+Impact and utility:
+
+This work presents a compelling and broadly applicable methodological advance. The approach is particularly impactful for the developmental biology community, as it allows researchers to extract quantitative information from high-resolution images to better understand morphogenetic processes. The data are publicly available on Zenodo, and the software is released on GitHub, making them highly valuable resources for the community. Given that suitable datasets for developing advanced 3D cell segmentation methods remain scarce in biological image analysis, the public release of these data is significant and is expected to stimulate further advances in the development of sophisticated computational approaches.
+
+Comments on revisions:
+
+The authors have addressed the previous revision thoroughly and appropriately. I have no further suggestions or additional recommendations at this time.
+
+DOI: 10.7554/eLife.107154.3.sa3
+
+Reviewer #3 (Public review):
+
+Reviewer
+
+Summary
+
+The paper presents a imaging and analysis pipeline for whole-mount gastruloid imaging with two-photon microscopy. The presented pipeline includes spectral unmixing, registration, segmentation, and a wavelength-depended intensity normalization step, followed by quantitative analysis of spatial gene expression patterns and nuclear morphometry on a tissue level. The utility of the approach is demonstrated by several experimental findings such as establishing spatial correlations between local nuclear deformation and tissue density changes, as well as radial distribution pattern of mesoderm markers. The pipeline is distributed as a Python package, notebooks and multiple napari plugins.
+
+Strengths
+
+The paper is well-written with detailed methodological descriptions, which I think would make it a valuable reference for researchers performing similar volumetric tissue imaging experiments (gastruloids/organoids). The pipeline itself addresses many practical challenges including resolution loss within tissue, registration of large volumes, nuclear segmentation, and intensity normalization. Especially the intensity decay measurements and wavelength-dependent intensity normalization approach using nuclear (Hoechst) signal as reference is very interesting and should be applicable to other imaging contexts. The morphometric analysis is equally well done with the correlation between nuclear shape deformation and tissue density changes being a interesting finding. The paper is quite thorough in its technical description of the methods (which are a lot) and their experimental validation is appropriate. Finally, the provided code and napari plugins seem to be well done (I installed a selected list of the plugins and they ran without issues) and should be very helpful for the community.
+
+Comments on revisions:
+
+The minor issues that I originally raised in my first review have been fully resolved in the revised version.
+
+DOI: 10.7554/eLife.107154.3.sa4
+
+Author response
+
+Gros Alice Author Institut de Biologie du Développement Marseille Marseille France
+
+Vanaret Jules Author Institut de Biologie du Développement Marseille Marseille France
+
+Dunsing-Eichenauer Valentin Author Institut de Biologie du Développement Marseille Marseille France
+
+Rostan Agathe Author Institut de Biologie du Développement Marseille Marseille France
+
+Roudot Philippe Author Institut de Mathématiques de Marseille Marseille France
+
+Lenne Pierre-François Author Aix Marseille University, CNRS UMR7288 Marseille France
+
+Guignard Léo Author Institut de Biologie du Développement Marseille Marseille France
+
+Tlili Sham Author Aix Marseille University, CNRS UMR7288 Marseille France
+
+The following is the authors’ response to the original reviews.
+
+Public Reviews:
+
+Reviewer #1 (Public review):
+
+Summary:
+
+The image analysis pipeline is tested in analysing microscopy imaging data of gastruloids of varying sizes, for which an optimised protocol for in toto image acquisition is established based on whole mount sample preparation using an optimal refractive index matched mounting media, opposing dual side imaging with two-photon microscopy for enhanced laser penetration, dual view registration, and weighted fusion for improved in toto sample data representation. For enhanced imaging speed in a two-photon microscope, parallel imaging was used, and the authors performed spectral unmixing analysis to avoid issues of signal cross-talk.
+
+In the image analysis pipeline, different pre-treatments are done depending on the analysis to be performed (for nuclear segmentation - contrast enhancement and normalisation; for quantitative analysis of gene expression - corrections for optical artifacts inducing signal intensity variations). Stardist3D was used for the nuclear segmentation. The study analyses into properties of gastruloid nuclear density, patterns of cell division, morphology, deformation, and gene expression.
+
+Strengths:
+
+The methods developed are sound, well described, and well-validated, using a sample challenging for microscopy, gastruloids. Many of the established methods are very useful (e.g. registration, corrections, signal normalisation, lazy loading bioimage visualisation, spectral decomposition analysis), facilitate the development of quantitative research, and would be of interest to the wider scientific community.
+
+We thank the reviewer for this positive feedback.
+
+Weaknesses:
+
+A recommendation should be added on when or under which conditions to use this pipeline.
+
+We thank the reviewer for this valuable feedback, we added the text in the revised version, ines 418 to 474. “In general, the pipeline is applicable to any tissue, but it is particularly useful for large and dense 3D samples—such as organoids, embryos, explants, spheroids, or tumors—that are typically composed of multiple cell layers and have a thickness greater than 50 µm”.
+
+“The processing and analysis pipeline are compatible with any type of 3D imaging data (e.g. confocal, 2 photon, light-sheet, live or fixed)”.
+
+“Spectral unmixing to remove signal cross-talk of multiple fluorescent targets is typically more relevant in two-photon imaging due to the broader excitation spectra of fluorophores compared to single-photon imaging. In confocal or light-sheet microscopy, alternating excitation wavelengths often circumvents the need for unmixing. Spectral decomposition performs even better with true spectral detectors; however, these are usually not non-descanned detectors, which are more appropriate for deep tissue imaging. Our approach demonstrates that simultaneous cross-talk-free four-color two-photon imaging can be achieved in dense 3D specimen with four non-descanned detectors and co-excitation by just two laser lines. Depending on the dispersion in optically dense samples, depth-dependent apparent emission spectra need to be considered”.
+
+“Nuclei segmentation using our trained StarDist3D model is applicable to any system under two conditions: (1) the nuclei exhibit a star-convex shape, as required by the StarDist architecture, and (2) the image resolution is sufficient in XYZ to allow resampling. The exact sampling required is object- and system-dependent, but the goal is to achieve nearly isotropic objects with diameters of approximately 15 pixels while maintaining image quality. In practice, images containing objects that are natively close to or larger than 15 pixels in diameter should segment well after resampling. Conversely, images with objects that are significantly smaller along one or more dimensions will require careful inspection of the segmentation results”.
+
+“Normalization is broadly applicable to multicolor data when at least one channel is expected to be ubiquitously expressed within its domain. Wavelength-dependent correction requires experimental calibration using either an ubiquitous signal at each wavelength. Importantly, this calibration only needs to be performed once for a given set of experimental conditions (e.g., fluorophores, tissue type, mounting medium)”.
+
+“Multi-scale analysis of gene expression and morphometrics is applicable to any 3D multicolor image. This includes both the 3D visualization tools (Napari plugins) and the various analytical plots (e.g., correlation plots, radial analysis). Multi-scale analysis can be performed even with imperfect segmentation, as long as segmentation errors tend to cancel out when averaged locally at the relevant spatial scale. However, systematic errors—such as segmentation uncertainty along the Z-axis due to strong anisotropy—may accumulate and introduce bias in downstream analyses. Caution is advised when analyzing hollow structures (e.g., curved epithelial monolayers with large cavities), as the pipeline was developed primarily for 3D bulk tissues, and appropriate masking of cavities would be needed”.
+
+Reviewer #2 (Public review):
+
+Summary:
+
+This study presents an integrated experimental and computational pipeline for high-resolution, quantitative imaging and analysis of gastruloids. The experimental module employs dual-view two-photon spectral imaging combined with optimized clearing and mounting techniques to image whole-mount immunostained gastruloids. This approach enables the acquisition of comprehensive 3D images that capture both tissue-scale and single-cell level information.
+
+The computational module encompasses both pre-processing of acquired images and downstream analysis, providing quantitative insights into the structural and molecular characteristics of gastruloids. The pre-processing pipeline, tailored for dual-view two-photon microscopy, includes spectral unmixing of fluorescence signals using depth-dependent spectral profiles, as well as image fusion via rigid 3D transformation based on content-based block-matching algorithms. Nuclei segmentation was performed using a custom-trained StarDist3D model, validated against 2D manual annotations, and achieving an F1 score of 85+/-3% at a 50% intersection-over-union (IoU) threshold. Another custom-trained StarDist3D model enabled accurate detection of proliferating cells and the generation of 3D spatial maps of nuclear density and proliferation probability. Moreover, the pipeline facilitates detailed morphometric analysis of cell density and nuclear deformation, revealing pronounced spatial heterogeneities during early gastruloid morphogenesis.
+
+All computational tools developed in this study are released as open-source, Python-based software.
+
+Strengths:
+
+The authors applied two-photon microscopy to whole-mount deep imaging of gastruloids, achieving in toto visualization at single-cell resolution. By combining spectral imaging with an unmixing algorithm, they successfully separated four fluorescent signals, enabling spatial analysis of gene expression patterns.
+
+The entire computational workflow, from image pre-processing to segmentation with a custom-trained StarDist3D model and subsequent quantitative analysis, is made available as open-source software. In addition, user-friendly interfaces are provided through the open-source, community-driven Napari platform, facilitating interactive exploration and analysis.
+
+We thank the reviewer for this positive feedback.
+
+Weaknesses:
+
+The computational module appears promising. However, the analysis pipeline has not been validated on datasets beyond those generated by the authors, making it difficult to assess its general applicability.
+
+We agree that applying our analysis pipeline to published datasets—particularly those acquired with different imaging systems—would be valuable. However, only a few high-resolution datasets of large organoid samples are publicly available, and most of these either lack multiple fluorescence channels or represent 3D hollow structures. Our computational pipeline consists of several independent modules: spectral filtering, dual-view registration, local contrast enhancement, 3D nuclei segmentation, image normalization based on a ubiquitous marker, and multiscale analysis of gene expression and morphometrics. We added the following sentences to the Discussion, lines 418 to 474, and completed the discussion on applicability with a table showing the purpose, requirements, applicability and limitations of each step of the processing and analysis pipeline.
+
+“Spectral filtering has already been applied in other systems (e.g. [7] and [8]), but is here extended to account for imaging depth-dependent apparent emission spectra of the different fluorophores. In our pipeline, we provide code to run spectral filtering on multichannel images, integrated in Python. In order to apply the spectral filtering algorithm utilized here, spectral patterns of each fluorophore need to be calibrated as a function of imaging depth, which depend on the specific emission windows and detector settings of the microscope”.
+
+“Image normalization using a wavelength-dependent correction also requires calibration on a given imaging setup to measure the difference in signal decay among the different fluorophores species. To our knowledge, the calibration procedures for spectral-filtering and our image-normalization approach have not been performed previously in 3D samples, which is why validation on published datasets is not readily possible. Nevertheless, they are described in detail in the Methods section, and the code used—from the calibration measurements to the corrected images—is available open-source at the Zenodo link in the manuscript”.
+
+Dual-view registration, local contrast enhancement, and multiscale analysis of gene expression and morphometrics are not limited to organoid data or our specific imaging modalities. To evaluate our 3D nuclei segmentation model, we tested it on diverse systems, including gastruloids stained with the nuclear marker Draq5 from Moos et al. [1]; breast cancer spheroids; primary ductal adenocarcinoma organoids; human colon organoids and HCT116 monolayers from Ong et al. [2]; and zebrafish tissues imaged by confocal microscopy from Li et al [3]. These datasets were acquired using either light-sheet or confocal microscopy, with varying imaging parameters (e.g., objective lens, pixel size, staining method). The results are added in the manuscript, Fig. S9b.
+
+Besides, the nuclei segmentation component lacks benchmarking against existing methods.
+
+We agree with the reviewer that a benchmark against existing segmentation methods would be very useful. We tried different pre-trained models:
+
+CellPose, which we tested in a previous paper ([4]) and which showed poor performances compared to our trained StarDist3D model.
+
+DeepStar3D ([2]) is only available in the software 3DCellScope. We could not benchmark the model on our data, because the free and accessible version of the software is limited to small datasets. An image of a single whole-mount gastruloid with one channel, having dimensions (347,467,477) was too large to be processed, see screenshot below. The segmentation model could not be extracted from the source code and tested externally because the trained DeepStar3D weights are encrypted.
+
+Author response image 1. Screenshot of the 3DCellScore software.
+
+We could not perform 3D nuclei segmentation of a whole-mount gastruloids because the image size was too large to be processed.
+
+AnyStar ([5]), which is a model trained from the StarDist3D architecture, was not performing well on our data because of the heterogeneous stainings. Basic pre-processing such as median and gaussian filtering did not improve the results and led to wrong segmentation of touching nuclei. AnyStar was demonstrated to segment well colon organoids in Ong et al, 2025 ([2]), but the nuclei were more homogeneously stained. Our Hoechst staining displays bright chromatin spots that are incorrectly labeled as individual nuclei.
+
+Cellos ([6]), another model trained from StarDist3D, was also not performing well. The objects used for training and to validate the results are sparse and not touching, so the predicted segmentation has a lot of false negatives even when lowering the probability threshold to detect more objects. Additionally, the network was trained with an anisotropy of (9,1,1), based on images with low z resolution, so it performed poorly on almost isotropic images. Adapting our images to the network’s anisotropy results in an imprecise segmentation that can not be used to measure 3D nuclei deformations.
+
+We tried both Cellos and AnyStar predictions on a gastruloid image from Fig. S2 of our main manuscript. The results are added in the manuscript, Fig. S9b. Fig3 displays the results qualitatively compared to our trained model Stardist-tapenade.
+
+Author response image 2. Qualitative comparison of two published segmentation models versus our model.
+
+We show one slice from the XY plane for simplicity. Segmentations are displayed with their contours only. (Top left) Gastruloid stained with Hoechst, image extracted from Fig S2 of our manuscript. (Top right) Same image overlayed with the prediction from the Cellos model, showing many false negatives. (Bottom left) Same image overlayed with the prediction from our Stardist-tapenade model. (Bottom right) Same image overlayed with the prediction from the AnyStar model, false positives are indicated with a red arrow.
+
+CellPose-SAM, which is a recent model developed building on the CellPose framework. The pre-trained model performs well on gastruloids imaged using our pipeline, and performs better than StarDist3D at segmenting elongated objects such as deformed nuclei. The performances are qualitatively compared on Fig. S9a and S10. We also demonstrate how using local contrast enhancement improves the results of CellPose-SAM (Fig. S10a), showing the versatility of the Tapenade pre-processing module. Tissue-scale, packing-related metrics from Cellpose–SAM labels qualitatively match those from stardist-tapenade as shown Fig.10c and d.
+
+Appraisal:
+
+The authors set out to establish a quantitative imaging and analysis pipeline for gastruloids using dual-view two-photon microscopy, spectral unmixing, and a custom computational framework for 3D segmentation and gene expression analysis. This aim is largely achieved. The integration of experimental and computational modules enables high-resolution in toto imaging and robust quantitative analysis at the single-cell level. The data presented support the authors' conclusions regarding the ability to capture spatial patterns of gene expression and cellular morphology across developmental stages.
+
+Impact and utility:
+
+This work presents a compelling and broadly applicable methodological advance. The approach is particularly impactful for the developmental biology community, as it allows researchers to extract quantitative information from high-resolution images to better understand morphogenetic processes. The data are publicly available on Zenodo, and the software is released on GitHub, making them highly valuable resources for the community.
+
+We thank the reviewer for these positive feedbacks.
+
+Reviewer #3 (Public review):
+
+Summary
+
+The paper presents an imaging and analysis pipeline for whole-mount gastruloid imaging with two-photon microscopy. The presented pipeline includes spectral unmixing, registration, segmentation, and a wavelength-dependent intensity normalization step, followed by quantitative analysis of spatial gene expression patterns and nuclear morphometry on a tissue level. The utility of the approach is demonstrated by several experimental findings, such as establishing spatial correlations between local nuclear deformation and tissue density changes, as well as the radial distribution pattern of mesoderm markers. The pipeline is distributed as a Python package, notebooks, and multiple napari plugins.
+
+Strengths
+
+The paper is well-written with detailed methodological descriptions, which I think would make it a valuable reference for researchers performing similar volumetric tissue imaging experiments (gastruloids/organoids). The pipeline itself addresses many practical challenges, including resolution loss within tissue, registration of large volumes, nuclear segmentation, and intensity normalization. Especially the intensity decay measurements and wavelength-dependent intensity normalization approach using nuclear (Hoechst) signal as reference are very interesting and should be applicable to other imaging contexts. The morphometric analysis is equally well done, with the correlation between nuclear shape deformation and tissue density changes being an interesting finding. The paper is quite thorough in its technical description of the methods (which are a lot), and their experimental validation is appropriate. Finally, the provided code and napari plugins seem to be well done (I installed a selected list of the plugins and they ran without issues) and should be very helpful for the community.
+
+We thank the reviewer for his positive feedback and appreciation of our work.
+
+Weaknesses
+
+I don't see any major weaknesses, and I would only have two issues that I think should be addressed in a revision:
+
+(1) The demonstration notebooks lack accompanying sample datasets, preventing users from running them immediately and limiting the pipeline's accessibility. I would suggest to include (selective) demo data set that can be used to run the notebooks (e.g. for spectral unmixing) and or provide easily accessible demo input sample data for the napari plugins (I saw that there is some sample data for the processing plugin, so this maybe could already be used for the notebooks?).
+
+We thank the reviewer for this relevant suggestion. The 7 notebooks were updated to automatically download sample tests. The different parts of the pipeline can now be run immediately:
+
+https://github.com/GuignardLab/tapenade/tree/chekcs_on_notebooks/src/tapenade/notebooks
+
+(2) The results for the morphometric analysis (Figure 4) seem to be only shown in lateral (xy) views without the corresponding axial (z) views. I would suggest adding this to the figure and showing the density/strain/angle distributions for those axial views as well.
+
+A morphometric analysis based on the axial views was added as Fig. S6a of the manuscript, complementary to the XY views.
+
+Recommendations for the authors:
+
+Reviewer #1 (Recommendations for the authors):
+
+In lines 64 and 65, it is mentioned that confocal and light-sheet microscopy remain limited to samples under 100μm in diameter. I would recommend revising this sentence. In the paper of Moos and colleagues (also cited in this manuscript; PMID: 38509326), gastruloid samples larger than 100μm are imaged in toto with an open-top dual-view and dual-illumination light-sheet microscope, and live cell behaviour is analysed. Another example, if considering also multi-angle systems, is the impressive work of McDole and colleagues (PMID: 30318151), in which one of the authors of this manuscript is a corresponding author. There, multi-angle light sheet microscopy is used for in toto imaging and reconstruction of post-implantation mouse development (samples much larger than 100μm). Some multi-sample imaging strategies have been developed for this type of imaging system, though not to the sample number extent allowed by the Viventis LS2 system or the Bruker TruLive3D imager, which have higher image quality limitations.
+
+We thank the reviewer for this remark. As reported in their paper, Moos et al. used dual-view light-sheet microscopy to image gastruloids, which are particularly dense and challenging tissues, with whole-mount samples of approximately 250 µm in diameter. Nevertheless, their image quality metric (DCT) shows a rapid twofold decrease within 50 µm depth (Extended Fig 5.h), whereas with two-photon microscopy, our image quality metric (FRC-QE) decreases by a factor of two over 150 µm in non-cleared samples (PBS) (see Fig. 2 c). While these two measurements (FRC-QE versus DCT) are not directly comparable, the observed difference reflects the superior depth performance of two-photon microscopy, owing in part to the use of non-descanned detectors. In our case, imaging was performed with Hoechst, a blue fluorophore suboptimal for deep imaging, whereas in the Moos dataset (Draq5, far-red), the configuration was more favorable for imaging in depth which further supports our conclusion.
+
+In McDole et al, tissues reaching 250µm were imaged from 4 views, but do not reach cellular-scale resolution in deeper layers compatible with cell segmentation to our knowledge.
+
+We corrected the sentence ‘However, light-sheet and confocal imaging approaches remain limited to relatively small organoids typically under 100 micrometers in diameter ‘ by the following (line 64) :
+
+“While advances in light-sheet microscopy have extended imaging depth in organoids, maintaining high image quality throughout thick samples remains challenging. In practice, quantitative analyses are still largely restricted to organoids under roughly 100 µm in diameter”.
+
+It is worth mentioning that two-photon microscopes are much more widely available than light sheet microscopes, and light sheet systems with 2-photon excitation are even less accessible, which makes the described workflow of Gros and colleagues have a wide community interest.
+
+We thank the reviewer for this remark, and added this suggestion line 74:
+
+“Finally, two-photon microscopes are typically more accessible than light-sheet systems and allow for straightforward sample mounting, as they rely on procedures comparable to standard confocal imaging”.
+
+Reviewer #2 (Recommendations for the authors):
+
+Suggestions:
+
+A comparison with established pre-trained models for 3D organoid image segmentation (e.g., Cellos[1], AnyStar[2], and DeepStar3D[3], all based on StarDist3D) would help highlight the advantages of the authors' custom StarDist3D model, which has been specifically optimized for two-photon microscopy images.
+
+(1) Cellos: https://doi.org/10.1038/s41467-023-44162-6
+
+(2) AnyStar: https://doi.org/10.1109/WACV57701.2024.00742
+
+(3) DeepStar3D: https://doi.org/10.1038/s41592-025-02685-4
+
+We agree with the reviewer that a benchmark against existing segmentation methods is very useful. This is addressed in the revised version, as detailed above (Figure 3).
+
+Recommendations:
+
+Please clarify the following point. In line 195, the authors state, "This allowed us to detect all mitotic nuclei in whole-mount samples for any stage and size." Does this mean that the custom-trained StarDist3D model can detect 100% of mitotic nuclei? It was not clear from the manuscript, figures, or videos how this was validated. Given the reported performance scores of the StarDist3D model for detecting all nuclei, claiming 100% detection of mitotic nuclei seems surprisingly high.
+
+We thank the reviewer for this comment. As it was detailed in the methods section, the detection score reaches 82%, and only the complete pipeline (detection+minimal manual curation) allows us to detect all mitotic nuclei. To make it clearer, the following precisions were added in the Results section:
+
+”To detect division events, we stained gastruloids with phosphohistone H3 (ph3) and trained a separate custom Stardist3D model using 3D annotations of nuclei expressing ph3 (see Methods III H). This model together allowed us to detect nearly all mitotic nuclei in whole-mount samples for any stage and size (Fig.3f and Suppl.Movie 4), and we used minimal manual curation to correct remaining errors.”
+
+Minor corrections:
+
+It appears that Figures 4-6 are missing from the submitted version, but they can be found in the manuscript available on bioRxiv.
+
+We thank the reviewer for this remark, this was corrected immediately to add Figures 4 to 6.
+
+In line 185, is the intended phrase "by comparing the 2D predictions and the 2D sliced annotated segments..."?
+
+To gain some clarity, we replaced the initial sentence:
+
+“The f1 score obtained by comparing the 3D prediction and the 3D ground-truth is well approximated by the f1 score obtained by comparing the 2D annotations and the 2D sliced annotated segments, with at most a 5% difference between the two scores.” by
+
+“The f1 score obtained in 3D (3D prediction compared with the 3D ground-truth) is well approximated by the f1 score obtained in 2D (2D predictions compared with the 2D sliced annotated segments). The difference between the 2 scores was at most 5%.”
+
+Reviewer #3 (Recommendations for the authors):
+
+(1) How is the "local neighborhood volume" defined, and how was it computed?
+
+The reviewer is referring to this paragraph (the term is underscored) :
+
+“To probe quantities related to the tissue structure at multiple scales, we smooth their signal with a Gaussian kernel of width σ, with σ defined as the spatial scale of interest. From the segmented nuclei instances, we compute 3D fields of cell density (number of cells per unit volume), nuclear volume fraction (ratio of nuclear volume to local neighborhood volume), and nuclear volume at multiple scales.”
+
+To improve clarity, the phrasing has been revised: the term local neighborhood volume has been replaced by local averaging volume, and a reference to the Methods section has been added.
+
+From the segmented nuclei instances, we compute 3D fields of cell density (number of cells per unit volume), nuclear volume fraction (ratio of space occupied by nuclear volume within the local averaging volume, as defined in the Methods III I), and nuclear volume at multiple scales.
+
+(2) In the definition of inertia tensor (18), isn't the inner part normally defined in the reversed way (delta_i,j - ...)?
+
+We thank the reviewer for noticing this error, which we fixed in the manuscript.
+
+(3) For intensity normalization, the paper uses the Hoechst signal density as a proxy for a ubiquitous nuclei signal. I would assume that this is problematic, for eg, dividing cells (which would overestimate it). Would using the average Hoechst signal per nucleus mask (as segmentation is available) be a better proxy?
+
+We agree that this idea is appealing if one assumes a clear relationship between nuclear volume and Hoechst intensity. However, since cell and nuclear volumes vary substantially with differentiation state (see Fig. 4), such a normalization approach would introduce additional biases at large spatial scales. We believe that the most robust improvement would instead consist in masking dividing cells during the normalization procedure, as these events could be detected and excluded from the computation.
+
+Nonetheless, we believe the method proposed by the reviewer could prove relevant for other types of data, so we will implement this recommendation in the code available in the Tapenade package.
+
+(4) Figures 4-6 were part of the Supplementary Material, but should be included in the main text?
+
+We thank the reviewer for this remark, this was corrected immediately to add Figures 4-6.
+
+We also noticed a missing reference to Fig. S3 in the main text, so we added lines 302 to 307 to comment on the wavelength-dependency of the normalization method. We improved the description of Fig.6, which lacked clarity (line 316 to 321, line 327).
+
+(1) Moos, F., Suppinger, S., de Medeiros, G., Oost, K.C., Boni, A., Rémy, C., Weevers, S.L., Tsiairis, C., Strnad, P. and Liberali, P., 2024. Open-top multisample dual-view light-sheet microscope for live imaging of large multicellular systems. Nature Methods, 21(5), pp.798-803.
+
+(2) Ong, H. T.; Karatas, E.; Poquillon, T.; Grenci, G.; Furlan, A.; Dilasser, F.; Mohamad Raffi, S. B.; Blanc, D.; Drimaracci, E.; Mikec, D.; Galisot, G.; Johnson, B. A.; Liu, A. Z.; Thiel, C.; Ullrich, O.; OrgaRES Consortium; Racine, V.; Beghin, A. (2025). Digitalized organoids: integrated pipeline for high-speed 3D analysis of organoid structures using multilevel segmentation and cellular topology. Nature Methods, 22(6), pp.1343-1354
+
+(3) Li, L., Wu, L., Chen, A., Delp, E.J. and Umulis, D.M., 2023. 3D nuclei segmentation for multi-cellular quantification of zebrafish embryos using NISNet3D. Electronic Imaging, 35, pp.1-9.
+
+(4) Vanaret, J., Dupuis, V., Lenne, P. F., Richard, F., Tlili, S., & Roudot, P. (2023). A detector-independent quality score for cell segmentation without ground truth in 3D live fluorescence microscopy. IEEE Journal of Selected Topics in Quantum Electronics, 29(4:Biophotonics), 1-12.
+
+(5) Dey, N., Abulnaga, M., Billot, B., Turk, E. A., Grant, E., Dalca, A. V., & Golland, P. (2024). AnyStar: Domain randomized universal star-convex 3D instance segmentation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (pp. 7593-7603).
+
+(6) Mukashyaka, P., Kumar, P., Mellert, D. J., Nicholas, S., Noorbakhsh, J., Brugiolo, M., ... & Chuang, J. H. (2023). High-throughput deconvolution of 3D organoid dynamics at cellular resolution for cancer pharmacology with Cellos. Nature Communications, 14(1), 8406.
+
+(7) Rakhymzhan, A., Leben, R., Zimmermann, H., Günther, R., Mex, P., Reismann, D., ... & Niesner, R. A. (2017). Synergistic strategy for multicolor two-photon microscopy: application to the analysis of germinal center reactions in vivo. Scientific reports, 7(1), 7101.
+
+(8) Dunsing, V., Petrich, A., & Chiantia, S. (2021). Multicolor fluorescence fluctuation spectroscopy in living cells via spectral detection. Elife, 10, e69687.
+
+No competing interests declared.
+
+Resources, Data curation, Software, Formal analysis, Validation, Investigation, Visualization, Methodology, Writing – original draft, Writing – review and editing.
+
+Resources, Data curation, Software, Formal analysis, Validation, Visualization, Methodology, Writing – original draft, Writing – review and editing.
+
+Conceptualization, Resources, Data curation, Software, Formal analysis, Validation, Investigation, Visualization, Methodology, Writing – original draft.
+
+Investigation.
+
+Supervision, Funding acquisition.
+
+Conceptualization, Supervision, Funding acquisition, Project administration.
+
+Conceptualization, Resources, Software, Formal analysis, Supervision, Funding acquisition, Validation, Methodology, Writing – original draft, Project administration, Writing – review and editing.
+
+Conceptualization, Resources, Formal analysis, Supervision, Funding acquisition, Validation, Investigation, Methodology, Writing – original draft, Project administration, Writing – review and editing.
+
+
+References
+
+Abranches E Bekman E Henrique D 2013 Generation and characterization of a novel mouse embryonic stem cell line with a dynamic reporter of Nanog expression PLOS ONE 8 e59928 10.1371/journal.pone.0059928 23527287 PMC3602340
+Ahmad A Goodarzi S Frindel C Recher G Riviere C Rousseau D 2021 Clearing Spheroids for 3D fluorescent microscopy: combining safe and soft chemicals with deep convolutional neural network bioRxiv 10.1101/2021.01.31.428996
+Arun KS Huang TS Blostein SD 1987 Least-squares fitting of two 3-d point sets IEEE Transactions on Pattern Analysis and Machine Intelligence 9 698 700 10.1109/tpami.1987.4767965 21869429
+Arzt M Deschamps J Schmied C Pietzsch T Schmidt D Tomancak P 2002 LABKIT: labeling and segmentation toolkit for big image data Frontiers in Computer Science 4 77728 10.3389/fcomp.2022.777728
+Beccari L Moris N Girgin M Turner DA Baillie-Johnson P Cossy AC Lutolf MP Duboule D Arias AM 2018 Multi-axial self-organization properties of mouse embryonic stem cells into gastruloids Nature 562 272 276 10.1038/s41586-018-0578-0 30283134
+Beghin A Grenci G Sahni G Guo S Rajendiran H Delaire T Mohamad Raffi SB Blanc D de Mets R Ong HT Galindo X Monet A Acharya V Racine V Levet F Galland R Sibarita J-B Viasnoff V 2022 Automated high-speed 3D imaging of organoid cultures with multi-scale phenotypic quantification Nature Methods 19 881 892 10.1038/s41592-022-01508-0 35697835
+Benda A Kapusta P Hof M Gaus K 2014 Fluorescence spectral correlation spectroscopy (FSCS) for probes with highly overlapping emission spectra Optics Express 22 2973 2988 10.1364/OE.22.002973 24663589
+Berg S Kutra D Kroeger T Straehle CN Kausler BX Haubold C Schiegg M Ales J Beier T Rudy M Eren K Cervantes JI Xu B Beuttenmueller F Wolny A Zhang C Koethe U Hamprecht FA Kreshuk A 2019 ilastik: interactive machine learning for (bio)image analysis Nature Methods 16 1226 1232 10.1038/s41592-019-0582-9 31570887
+Bolognesi MM Manzoni M Scalia CR Zannella S Bosisio FM Faretta M Cattoretti G 2017 Multiplex staining by sequential immunostaining and antibody removal on routine tissue sections Journal of Histochemistry & Cytochemistry 65 431 444 10.1369/0022155417719419 28692376 PMC5533273
+Boothe T Hilbert L Heide M Berninger L Huttner WB Zaburdaev V Vastenhouw NL Myers EW Drechsel DN Rink JC 2017 A tunable refractive index matching medium for live imaging cells, tissues and model organisms eLife 6 e27240 10.7554/eLife.27240 28708059 PMC5582871
+Bosveld F Bonnet I Guirao B Tlili S Wang Z Petitalot A Marchand R Bardet P-L Marcq P Graner F Bellaïche Y 2012 Mechanical control of morphogenesis by Fat/Dachsous/Four-jointed planar cell polarity pathway Science 336 724 727 10.1126/science.1221071 22499807
+Cermola F D’Aniello C Tatè R De Cesare D Martinez-Arias A Minchiotti G Patriarca EJ 2021 Gastruloid Development competence discriminates different states of pluripotency Stem Cell Reports 16 354 369 10.1016/j.stemcr.2020.12.013 33482102 PMC7878839
+Chan CJ Heisenberg CP Hiiragi T 2017 Coordination of morphogenesis and cell-fate specification in development Current Biology 27 R1024 R1035 10.1016/j.cub.2017.07.010 28950087
+Clevers H Tuveson DA 2019 Organoid models for cancer research Annual Review of Cancer Biology 3 223 234 10.1146/annurev-cancerbio-030518-055702
+Costa EC Moreira AF de Melo-Diogo D Gaspar VM Carvalho MP Correia IJ 2016 3D tumor spheroids: an overview on the tools and techniques used for their analysis Biotechnology Advances 34 1427 1441 10.1016/j.biotechadv.2016.11.002 27845258
+Cutrale F Trivedi V Trinh LA Chiu CL Choi JM Artiga MS Fraser SE 2017 Hyperspectral phasor analysis enables multiplexed 5D in vivo imaging Nature Methods 14 149 152 10.1038/nmeth.4134 28068315
+Dekkers JF Alieva M Wellens LM Ariese HCR Jamieson PR Vonk AM Amatngalim GD Hu H Oost KC Snippert HJG Beekman JM Wehrens EJ Visvader JE Clevers H Rios AC 2019 High-resolution 3D imaging of fixed and cleared organoids Nature Protocols 14 1756 1771 10.1038/s41596-019-0160-8 31053799
+de Medeiros G Ortiz R Strnad P Boni A Moos F Repina N Challet Meylan L Maurer F Liberali P 2022 Multiscale light-sheet organoid imaging framework Nature Communications 13 4864 10.1038/s41467-022-32465-z 35982061 PMC9388485
+Dey N Abulnaga SM Billot B Turk EA Ellen Grant P Dalca AV Golland P 2024 AnyStar: Domain randomized universal star-convex 3D instance segmentation 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 7593 7603 10.1109/WACV57701.2024.00742 PMC12381811 40881967
+Dunsing V Petrich A Chiantia S 2021 Multicolor fluorescence fluctuation spectroscopy in living cells via spectral detection eLife 10 e69687 10.7554/eLife.69687 34494547 PMC8545396
+Farag N Sacharen C Avni L Nachman I 2024 Coordination between endoderm progression and mouse gastruloid elongation controls endodermal morphotype choice Developmental Cell 59 2364 2374 10.1016/j.devcel.2024.05.017 38838673
+Faustino Martins JM Fischer C Urzi A Vidal R Kunz S Ruffault PL Kabuss L Hube I Gazzerro E Birchmeier C Spuler S Sauer S Gouti M 2020 Self-organizing 3D human trunk neuromuscular organoids Cell Stem Cell 26 172 186 10.1016/j.stem.2019.12.007 31956040
+Fox S Southam P Pantin F Kennaway R Robinson S Castorina G Sánchez-Corrales YE Sablowski R Chan J Grieneisen V Marée AFM Bangham JA Coen E 2018 Spatiotemporal coordination of cell division and growth during organ morphogenesis PLOS Biology 16 e2005952 10.1371/journal.pbio.2005952 30383040 PMC6211367
+Ghosh A Karedla N Thiele JC Gregor I Enderlein J 2018 Fluorescence Lifetime Correlation Spectroscopy: Basics and Applications Academic Press Inc 10.1016/j.ymeth.2018.02.009 29454862
+Gjorevski N Nikolaev M Brown TE Mitrofanova O Brandenberg N DelRio FW Yavitt FM Liberali P Anseth KS Lutolf MP 2022 Tissue geometry drives deterministic organoid patterning Science 375 eaaw9021 10.1126/science.aaw9021 34990240 PMC9131435
+Gritti N Lim JL Anlaş K Pandya M Aalderink G Martínez-Ara G Trivedi V 2021 MOrgAna: accessible quantitative analysis of organoids with machine learning Development 148 dev199611 10.1242/dev.199611 34494114 PMC8451065
+Gsell S Tlili S Merkel M Lenne PF 2023 Marangoni-like tissue flows enhance symmetry breaking of embryonic organoids bioRxiv 10.1101/2023.09.22.559003
+Guignard L Fiúza UM Leggio B Laussu J Faure E Michelin G Biasuz K Hufnagel L Malandain G Godin C Lemaire P 2020 Contact area-dependent cell communication and the morphological invariance of ascidian embryogenesis Science 369 eaar5663 10.1126/science.aar5663 32646972
+Guirao B Rigaud SU Bosveld F Bailles A López-Gay J Ishihara S Sugimura K Graner F Bellaïche Y 2015 Unified quantitative characterization of epithelial tissue development eLife 4 e08519 10.7554/eLife.08519 26653285 PMC4811803
+Haase R Lee D Pop DD 2023 Haesleinhuepf/napari-accelerated-pixel-and-object- classification 0.14.1 Zenodo 10.5281/zenodo.10071078
+Hashmi A Tlili S Perrin P Lowndes M Peradziryi H Brickman JM Martínez Arias A Lenne P-F 2022 Cell-state transitions and collective cell movement generate an endoderm-like region in gastruloids eLife 11 e59371 10.7554/eLife.59371 35404233 PMC9033300
+Hass R von der Ohe J Ungefroren H 2020 Impact of the tumor microenvironment on tumor heterogeneity and consequences for cancer cell plasticity and stemness Cancers 12 3716 10.3390/cancers12123716 33322354 PMC7764513
+Helmchen F Denk W 2005 Deep tissue two-photon microscopy Nature Methods 2 932 940 10.1038/nmeth818 16299478
+Hobson CM Guo M Vishwasrao HD Wu Y Shroff H Chew TL 2022 Practical considerations for quantitative light sheet fluorescence microscopy Nature Methods 19 1538 1549 10.1038/s41592-022-01632-x 36266466
+Hofer M Lutolf MP 2021 Engineering organoids Nature Reviews. Materials 6 402 420 10.1038/s41578-021-00279-y 33623712 PMC7893133
+Kim J Koo BK Knoblich JA 2020 Human organoids: model systems for human biology and medicine Nature Reviews. Molecular Cell Biology 21 571 584 10.1038/s41580-020-0259-3 32636524 PMC7339799
+Lancaster MA Huch M 2019 Disease modelling in human organoids Disease Models & Mechanisms 12 dmm039347 10.1242/dmm.039347 31383635 PMC6679380
+Lenne P-F Munro E Heemskerk I Warmflash A Bocanegra-Moreno L Kishi K Kicheva A Long Y Fruleux A Boudaoud A Saunders TE Caldarelli P Michaut A Gros J Maroudas-Sacks Y Keren K Hannezo E Gartner ZJ Stormo B Gladfelter A Rodrigues A Shyer A Minc N Maître J-L Di Talia S Khamaisi B Sprinzak D Tlili S 2021 Roadmap for the multiscale coupling of biochemical and mechanical signals during development Physical Biology 18 041501 10.1088/1478-3975/abd0db 33276350 PMC8380410
+Lenne PF Tlili S 2023 Learning the mechanobiology of development from gastruloids Emerging Topics in Life Sciences 7 417 422 10.1042/ETLS20230081 38054574
+Li L Wu L Chen A Delp EJ Umulis DM 2023 3D nuclei segmentation for multi-cellular quantification of zebrafish embryos using NISNet3D Electronic Imaging 35 109 10.2352/EI.2023.35.17.3DIA-109
+Liu ZY Trivedi V Heemskerk I 2023 Mapping morphogenesis and mechanics in embryo models Nature Methods 20 1859 1862 10.1038/s41592-023-02079-4 38057513 PMC11072672
+Lukonin I Serra D Challet Meylan L Volkmann K Baaten J Zhao R Meeusen S Colman K Maurer F Stadler MB Jenkins J Liberali P 2020 Phenotypic landscape of intestinal organoid regeneration Nature 586 275 280 10.1038/s41586-020-2776-9 33029001 PMC7116869
+McDole K Guignard L Amat F Berger A Malandain G Royer LA Turaga SC Branson K Keller PJ 2018 In Toto imaging and reconstruction of post-implantation mouse development at the single-cell level Cell 175 859 876 10.1016/j.cell.2018.09.031 30318151
+Moos F Suppinger S de Medeiros G Oost KC Boni A Rémy C Weevers SL Tsiairis C Strnad P Liberali P 2024 Open-top multisample dual-view light-sheet microscope for live imaging of large multicellular systems Nature Methods 21 798 803 10.1038/s41592-024-02213-w 38509326 PMC11093739
+Mukashyaka P Kumar P Mellert DJ Nicholas S Noorbakhsh J Brugiolo M Courtois ET Anczukow O Liu ET Chuang JH 2023 High-throughput deconvolution of 3D organoid dynamics at cellular resolution for cancer pharmacology with Cellos Nature Communications 14 8406 10.1038/s41467-023-44162-6 38114489 PMC10730814
+Ong HT Karatas E Poquillon T Grenci G Furlan A Dilasser F Mohamad Raffi SB Blanc D Drimaracci E Mikec D Galisot G Johnson BA Liu AZ Thiel C Ullrich O OrgaRES Consortium Racine V Beghin A 2025 Digitalized organoids: integrated pipeline for high-speed 3D analysis of organoid structures using multilevel segmentation and cellular topology Nature Methods 22 1343 1354 10.1038/s41592-025-02685-4 40369245 PMC12165853
+Ourselin S Roche A Prima S Ayache N 2000 Block matching: A general framework to improve robustness of rigid registration of medical images Medical Image Computing and Computer-Assisted Intervention – MICCAI 2000 557 566
+Pachitariu M Rariden M Stringer C 2025 Cellpose-SAM: superhuman generalization for cellular segmentation bioRxiv 10.1101/2025.04.28.651001
+Preusser F Dos Santos N Contzen J Stachelscheid H Costa ÉT Mergenthaler P Preibisch S 2021 FRC-QE: a robust and comparable 3D microscopy image quality metric for cleared organoids Bioinformatics 37 3088 3090 10.1093/bioinformatics/btab160 33693580 PMC8479654
+Rakhymzhan A Leben R Zimmermann H Günther R Mex P Reismann D Ulbricht C Acs A Brandt AU Lindquist RL Winkler TH Hauser AE Niesner RA 2017 Synergistic strategy for multicolor two-photon microscopy: application to the analysis of germinal center reactions in vivo Scientific Reports 7 7101 10.1038/s41598-017-07165-0 28769068 PMC5540998
+Rossi G Broguiere N Miyamoto M Boni A Guiet R Girgin M Kelly RG Kwon C Lutolf MP 2021 Capturing cardiogenesis in gastruloids Cell Stem Cell 28 230 240 10.1016/j.stem.2020.10.013 33176168 PMC7867643
+Russell WMS Burch RL Hume CW 1959 The Principles of Humane Experimental Technique Methuen
+Schießl IM Castrop H 2016 Deep insights: intravital imaging with two-photon microscopy Pflugers Archiv 468 1505 1516 10.1007/s00424-016-1832-7 27352273
+Schott M León-Periñán D Splendiani E Strenger L Licha JR Pentimalli TM Schallenberg S Alles J Samut Tagliaferro S Boltengagen A Ehrig S Abbiati S Dommerich S Pagani M Ferretti E Macino G Karaiskos N Rajewsky N 2024 Open-ST: High-resolution spatial transcriptomics in 3D Cell 187 3953 3972 10.1016/j.cell.2024.05.055 38917789
+Schrimpf W Lemmens V Smisdom N Ameloot M Lamb DC Hendrix J 2018 Crosstalk-free multicolor RICS using spectral weighting Methods 140–141 97 111 10.1016/j.ymeth.2018.01.022 29408283
+Simian M Bissell MJ 2017 Organoids: A historical perspective of thinking in three dimensions The Journal of Cell Biology 216 31 40 10.1083/jcb.201610056 28031422 PMC5223613
+Stooke-Vaughan GA Campàs O 2018 Physical control of tissue morphogenesis across scales Current Opinion in Genetics & Development 51 111 119 10.1016/j.gde.2018.09.002 30390520 PMC6298228
+Stringer C Wang T Michaelos M Pachitariu M 2021 Cellpose: a generalist algorithm for cellular segmentation Nature Methods 18 100 106 10.1038/s41592-020-01018-x 33318659
+Suppinger S Zinner M Aizarani N Lukonin I Ortiz R Azzi C Stadler MB Vianello S Palla G Kohler H Mayran A Lutolf MP Liberali P 2023 Multimodal characterization of murine gastruloid development Cell Stem Cell 30 867 884 10.1016/j.stem.2023.04.018 37209681 PMC10241222
+Tlili S Gay C Graner F Marcq P Molino F Saramito P 2015 Colloquium: Mechanical formalisms for tissue dynamics The European Physical Journal E 38 1 31 10.1140/epje/i2015-15033-4 25957180
+Tlili S Durande M Gay C Ladoux B Graner F Delanoë-Ayari H 2020 Migrating epithelial monolayer flows like a maxwell viscoelastic liquid Physical Review Letters 125 088102 10.1103/PhysRevLett.125.088102 32909763
+Vanaret J Dupuis V Lenne PF Richard F Tlili S Roudot P 2023 A detector-independent quality score for cell segmentation without ground truth in 3D live fluorescence microscopy IEEE Journal of Selected Topics in Quantum Electronics 29 1 12 10.1109/JSTQE.2023.3275108
+Vanaret J Gros A Léo L 2026 Tapenade 20f7cc9 Github https://github.com/GuignardLab/tapenade
+Vanaret J 2026a Napari-spatial-correlation-plotter 022f498 Github https://github.com/GuignardLab/napari-spatial-correlation-plotter
+Vanaret J Gros A 2026a Napari-manual-registration 2faf9ac Github https://github.com/GuignardLab/napari-manual-registration
+Vanaret J 2026b Napari-file2folder 5d8de4d Github https://github.com/GuignardLab/napari-file2folder
+Vanaret J Gros A 2026b Napari-tapenade-processing 468b052 Github https://github.com/GuignardLab/napari-tapenade-processing
+van den Brink SC Baillie-Johnson P Balayo T Hadjantonakis AK Nowotschin S Turner DA Martinez Arias A 2014 Symmetry breaking, germ layer specification and axial organisation in aggregates of mouse embryonic stem cells Development 141 4231 4242 10.1242/dev.113001 25371360 PMC4302915
+van Ineveld RL van Vliet EJ Wehrens EJ Alieva M Rios AC 2022 3D imaging for driving cancer discovery The EMBO Journal 41 e109675 10.15252/embj.2021109675 35403737 PMC9108604
+Veenvliet JV Bolondi A Kretzmer H Haut L Scholze-Wittler M Schifferl D Koch F Guignard L Kumar AS Pustet M Heimann S Buschow R Wittler L Timmermann B Meissner A Herrmann BG 2020 Mouse embryonic stem cells self-organize into trunk-like structures with neural tube and somites Science 370 eaba4937 10.1126/science.aba4937 33303587
+Villaronga Luque A Savill R López-Anguita N Bolondi A Garai S Gassaloglu SI Poddar A Bulut-Karslioglu A Veenvliet JV 2023 Integrated molecular-phenotypic profiling reveals metabolic control of morphological variation in stembryos bioRxiv 10.1101/2023.12.04.569921 40245869
+von Chamier L Laine RF Jukkala J Spahn C Krentzel D Nehme E Lerche M Hernández-Pérez S Mattila PK Karinou E Holden S Solak AC Krull A Buchholz TO Jones ML Royer LA Leterrier C Shechtman Y Jug F Heilemann M Jacquemet G Henriques R 2021 Democratising deep learning for microscopy with ZeroCostDL4Mic Nature Communications 12 2276 10.1038/s41467-021-22518-0 33859193 PMC8050272
+Weigert M Schmidt U Haase R Sugawara K Myers G 2020 Star-convex polyhedra for 3D Object detection and segmentation in microscopy 2020 IEEE Winter Conference on Applications of Computer Vision (WACV) 3666 3673 10.1109/WACV45572.2020.9093435
+Zanoni M Piccinini F Arienti C Zamagni A Santi S Polico R Bevilacqua A Tesei A 2016 3D tumor spheroid models for in vitro therapeutic screening: a systematic approach to enhance the biological relevance of data obtained Scientific Reports 6 19103 10.1038/srep19103 26752500 PMC4707510
+Zheng X Betjes MA Ender P Goos YJ Huelsz-Prince G Clevers H van Zon JS Tans SJ 2023 Organoid cell fate dynamics in space and time Science Advances 9 eadd6480 10.1126/sciadv.add6480 37595032 PMC10438469
+Zigutyte L Savill R Müller J Zoccoler M Wagner T 2023 Napari-clusters-plotter 0.7.3 Zenodo 10.5281/zenodo.8238460

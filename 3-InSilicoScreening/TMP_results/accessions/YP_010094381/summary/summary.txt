@@ -1,0 +1,85 @@
+Summary file for YP_010094381
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC6499177.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but optimal growth was achieved at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 37°C, 220 rpm for various assays (e.g., plaque formation, one-step growth curve).
+- Environmental source/habitat: Sewage samples.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided.
+
+Environmental Context:
+- Habitat/Source: Sewage samples from a State Key Laboratory of Pathogens and Biosecurity.
+
+Concise Summary:
+The study utilized *E. coli* BL21 (DE3) as the host strain, which was cultured and incubated optimally at 37°C with shaking (220 rpm) for various assays, including phage plaque formation and one-step growth curve determination. The phages were isolated from sewage samples. No specific information regarding thermophilic, psychrophilic, or extreme temperature adaptations was reported for the host or the phages. The primary growth condition detailed is mesophilic growth at 37°C.
+
+
+Paper: PMC13189123.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: Overnight incubation at 4°C (for reconstitution/storage); Growth at 37°C (for expression)
+- Environmental source/habitat: Not explicitly stated
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by 37°C growth temperature
+- Heat tolerance: No mention
+- Cold tolerance: No mention
+- Enzymes adapted to temperature: No mention
+- Membrane adaptations: No mention
+- Thermal stress responses: No mention
+
+Environmental Context:
+- Habitat/source: Not explicitly stated
+
+Concise Summary:
+The organism was cultured at 37°C for protein expression and stored/incubated at 4°C. The growth conditions suggest mesophilic characteristics, as the optimal growth temperature was reported as 37°C. No information regarding extreme environments, thermophilic, psychrophilic, or specific thermal adaptations was provided in the text.
+
+
+Paper: 42162811.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided for the expression host or the source organism.
+- No survival temperature range was reported.
+- Incubation conditions for expression/refolding were not specified, though refolding utilized a hypersaline buffer (4 M NaCl, 50 mM Tris-HCl, 10 mM CaCl2).
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The source organism is a halophilic archaeon, indicating adaptation to hypersaline conditions.
+- The organism was isolated from a hypersaline environment (implied by the source being a halophilic archaeon).
+
+Concise Summary:
+The study details the heterologous expression and functional characterization of an antimicrobial peptide derived from a halophilic archaeon. While the source organism is adapted to hypersaline conditions, no specific temperature parameters (optimal growth, range, or survival) were provided for either the source or the expression system. The protein refolding was performed in a hypersaline buffer. The peptide exhibits antimicrobial and antioxidant activity, providing a technical reference for functional protein expression from extreme environments.
+
+
+Paper: 42156297.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of incubation conditions were provided.
+- No specific adaptations (thermophilic, psychrophilic, etc.) were discussed.
+
+Environmental Context:
+- No environmental source or habitat was specified for the physiological parameters.
+
+Concise Summary:
+The study details the engineering of microbial strains for enhanced carbon fixation and prodrug biosynthesis. The focus is on metabolic pathway optimization using components from cyanobacteria and the host bacterium. No explicit data regarding optimal growth temperature, temperature ranges, or thermal adaptations were presented in the provided text.
+
+
+Paper: 42159684.txt
+Thermal Evidence:
+- Optimal activity observed at 80 °C.
+- Enzyme exhibited enhanced stability at high temperatures, suitable for high-temperature industrial applications.
+- The enzyme demonstrated a half-life of 30.39 h under tested conditions.
+
+Environmental Context:
+- The source organism was isolated from a hot spring.
+
+Concise Summary:
+Recombinant $\alpha$-amylase derived from a source organism isolated from a hot spring. The purified enzyme exhibits maximal activity at $80 \text{ }^	ext{o}\text{C}$ and is noted for its enhanced stability, making it suitable for high-temperature industrial processes. The source organism is associated with thermophilic conditions.
+
+

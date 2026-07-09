@@ -1,0 +1,67 @@
+Summary file for QYC51163
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC8778798.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 37 °C.
+- Survival temperature range: Stability of phages was assessed at 4 °C over time.
+- Incubation conditions: Incubation was performed at 37 °C with shaking (180 rpm) in LB broth supplemented with 1 mM CaCl2. Static maintenance was also performed at room temperature.
+- Environmental source/habitat: Sewage water.
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations was found. No specific enzymes adapted to temperature were detailed.
+
+Environmental Context:
+- Habitat/source: Sewage water.
+
+Concise Summary:
+The lytic phages were isolated from sewage water. Phenotypic characterization and growth experiments were consistently conducted at an optimal temperature of 37 °C, utilizing shaking incubation conditions. Stability testing was performed at 4 °C. The study does not provide explicit data regarding the organism's thermal adaptation classification (e.g., mesophile) or specific enzymes adapted to temperature extremes.
+
+
+Paper: PMC12135510.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 37°C with shaking at 180 rpm (for Appelmans protocol) or 37°C (for general assays).
+- Environmental source/habitat: Clinical isolates from human patients (hospital/clinical settings).
+- Mention of adaptations: None mentioned.
+- Extreme environment isolation: No.
+- Explicit classification: None given by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/Source: Clinical isolates from human patients.
+
+Concise Summary:
+The study utilized clinical isolates of a high-risk bacterial clone, which were cultured and tested under standard laboratory conditions, primarily at 37°C. The methodology involved standard microbiological techniques, including incubation at 37°C with shaking at 180 rpm for phage adaptation (Appelmans protocol). No data or discussion regarding the organism's adaptation to extreme temperatures (thermophilic, psychrophilic) or specific thermal stress responses were provided. The source of the bacteria was clinical human samples, indicating a typical mesophilic pathogen profile within the context of the experiment.
+
+
+Paper: 42176574.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes.
+- Membrane adaptations or thermal stress responses were not detailed.
+
+Environmental Context:
+- Isolated from raw milk and dairy farm environments.
+- The study focused on the effects of heavy metals and antibiotic resistance transfer under varying concentrations of $\text{Cu}^{2+}$ (0.5-100 $\mu\text{g/L}$), which induced oxidative stress and modulated stress-related pathways, but did not specify temperature-dependent growth conditions.
+
+Concise Summary:
+The study investigated antibiotic resistance gene transfer in *E. coli* isolates from raw milk and dairy farm environments under heavy metal stress. The research focused on the molecular mechanisms of co-resistance, specifically demonstrating that low-to-moderate $\text{Cu}^{2+}$ concentrations (1-10 $\mu\text{g/L}$) significantly enhanced intrageneric conjugation frequency via ROS-dependent pathways. The environmental context is agricultural/dairy, and the physiological data provided relates to metal/antibiotic stress responses, not temperature adaptation or growth kinetics.
+
+
+Paper: PMC13197452.1.txt
+Thermal Evidence:
+- Optimal induction temperature: 30 °C
+- Growth temperature range: 30 °C (for initial culture/screening) and 37 °C (for antimicrobial assays).
+- Incubation conditions: 30 °C, 250 rpm (for culture growth).
+- Survival temperature range: Not explicitly stated, but optimal expression was found at 30 °C.
+- Thermal adaptation: No mention of thermophilic or psychrophilic adaptation.
+
+Environmental Context:
+- Habitat/Source: The peptide originates from rainbow trout, a teleost fish, suggesting an aquatic/marine environment. The expression host is a yeast, which is generally mesophilic.
+
+Concise Summary:
+The study details the heterologous expression of a fish-derived antimicrobial peptide in a yeast system. The optimal conditions for protein expression were determined to be an induction temperature of 30 °C, utilizing 1.0% methanol for 96 hours. The initial culture and screening were conducted at 30 °C. The peptide's antimicrobial activity was tested at 37 °C. The source organism is a fish, while the expression host is a yeast, and the conditions described are consistent with mesophilic growth requirements, with no evidence of adaptation to extreme temperatures.
+
+

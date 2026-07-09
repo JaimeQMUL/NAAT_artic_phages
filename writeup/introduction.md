@@ -1,8 +1,18 @@
 # Introduction 3000 words
 
-## What is RPA
-In this paper we set out to revolutionise the current state of DNA diagnostics. DNA amplification is a fundamental component of nucleic based diagnostic testing, enabling the detection and analysis of small quantities of nucleic acids that would otherwise be difficult or impossible to measure. Recombinase polymerase amplification (RPA) is a rapid, highly sensitive isothermal DNA amplification method that enables nucleic acid detection without the need for thermal cycling or complex laboratory equipment (Piepenburg, 2006). By combining recombinase-mediated primer targeting with strand-displacing DNA polymerase, RPA achieves exponential amplification at low, constant temperatures and can detect very low concentrations of target DNA. These characteristics make RPA well suited for portable diagnostics and point-of-care applications.
+## The need for portable DNA diagnostics
+Rapid nucleic acid detection is essential for clinical diagnostics, disease surveillance, and environmental monitoring. However, conventional molecular diagnostic workflows often require centralised laboratory infrastructure, specialised equipment, and trained personnel, limiting their deployment in field-based and resource-limited settings.
 
+The development of portable diagnostic platforms aims to overcome these limitations by enabling rapid molecular testing directly at the point of need. Such technologies have the potential to improve outbreak response, support environmental monitoring, and expand access to molecular diagnostics beyond traditional laboratory environments. Achieving this requires amplification methods that maintain high sensitivity while operating with minimal equipment.
+
+## What is RPA
+DNA amplification is a fundamental component of nucleic acid-based diagnostic testing, enabling detection and analysis of small quantities of genetic material that would otherwise be difficult or impossible to measure. Recombinase polymerase amplification (RPA) is a rapid, highly sensitive isothermal DNA amplification method that enables nucleic acid detection without the need for thermal cycling or complex laboratory equipment (Piepenburg, 2006).
+
+By combining recombinase-mediated primer targeting with strand-displacing DNA polymerase, RPA achieves exponential amplification at low, constant temperatures and can detect very low concentrations of target DNA. These characteristics make RPA well suited for portable diagnostics and point-of-care applications.
+
+Despite these advantages, current RPA systems still require controlled incubation temperatures, typically between 37–42°C, meaning that external heating remains necessary. This requirement represents a remaining barrier to truly equipment-free molecular diagnostics. Since amplification efficiency depends on the temperature-dependent activity of the RPA enzymes, particularly the recombinase UvsX, identifying naturally occurring cold-adapted UvsX orthologues represents a potential strategy for extending RPA activity towards ambient temperatures.
+
+This project therefore develops a computational pipeline to discover and characterise cold-adapted UvsX candidates with potential applications in next-generation ambient-temperature RPA systems.
 
 ## How RPA works
 Recombinase polymerase amplification (RPA) is an isothermal DNA amplification technique that combines recombinase-mediated primer targeting with strand-displacing DNA synthesis. A typical RPA reaction contains the recombinase UvsX, its loading factor UvsY, the single-stranded DNA-binding protein gp32, and a strand-displacing DNA polymerase (Piepenburg, 2006).
@@ -13,18 +23,25 @@ These nucleoprotein filaments actively scan double-stranded DNA for homologous s
 
 ATP hydrolysis regulates UvsX filament dynamics, promoting disassembly after successful strand invasion and thereby exposing the primer 3′ end. This allows a strand-displacing DNA polymerase (commonly the large fragment of Bacillus subtilis DNA polymerase I) to extend the primer. Repeated cycles of filament formation, strand invasion, and primer extension lead to exponential amplification of the target sequence under isothermal conditions (Lobato, 2018).
 
+Because successful amplification depends on dynamic processes including UvsX filament assembly, DNA homology searching and strand invasion, changes in protein flexibility and conformational dynamics may influence the temperature range over which RPA remains efficient.
+
 
 <img src="images/rpa_diagram.png" alt="RPA Diagram" width="500">
 **Figure 1. Overview of recombinase polymerase amplification (RPA).**  
 Schematic representation of the RPA mechanism. UvsX recombinase binds single-stranded primers and facilitates their invasion into homologous double-stranded DNA regions. Following primer binding, strand displacement synthesis by polymerase enables rapid DNA amplification under isothermal conditions without the need for thermal cycling.
 
 ### RPA vs PCR
-| RPA              | PCR            |
-|------------------|----------------|
-| isothermal       | Thermocycling  |
-| faster           | slower         |
-| highly sensitive | less sensitive |
-| less specific    | more specific  |
+
+| Feature | Recombinase Polymerase Amplification (RPA) | Polymerase Chain Reaction (PCR) |
+|---|---|---|
+| **Temperature requirement** | Isothermal amplification performed at a constant low temperature (~37–42°C) | Requires repeated thermal cycling between denaturation, annealing, and extension temperatures |
+| **Equipment requirements** | Minimal equipment; can be performed using simple heating devices, enabling portable and point-of-care applications | Requires a specialised thermocycler, limiting portability |
+| **Amplification speed** | Rapid amplification, typically producing detectable products within ~20–40 minutes | Generally slower due to multiple thermal cycling steps |
+| **Sensitivity** | Highly sensitive and capable of detecting low concentrations of target nucleic acids | Highly sensitive, particularly when combined with quantitative PCR (qPCR) |
+| **Specificity** | Can tolerate some primer-template mismatches, which may increase the risk of non-specific amplification | Generally higher specificity due to strict primer annealing requirements and controlled thermal cycling |
+| **Quantification capability** | Primarily qualitative or semi-quantitative due to rapid amplification kinetics | Excellent quantitative capability when using qPCR approaches |
+| **Primer design** | Relatively simple but still requires optimisation to minimise non-specific amplification | Well-established primer design principles and extensive optimisation tools available |
+| **Applications** | Point-of-care diagnostics, field pathogen detection, environmental monitoring, and resource-limited settings | Clinical diagnostics, research applications, pathogen detection, and molecular biology workflows |
 
 
 ## UvsX
@@ -32,7 +49,10 @@ UvsX is a recombinase protein encoded by bacteriophage T4 that plays a central r
 
 During homologous recombination, UvsX binds to ssDNA and promotes strand exchange by locating a complementary region within dsDNA. This occurs through transient interactions with dsDNA during homology searching, with stable pairing initiated once sufficient sequence identity is detected between the ssDNA and dsDNA substrates.
 
+Among the components of the RPA reaction, UvsX represents a particularly attractive target for optimisation because recombinase-mediated filament formation and strand invasion constitute the first rate-limiting steps of amplification. Improving UvsX activity under reduced thermal conditions could therefore increase the operational range of the entire reaction.
+
 ### ATP binding domains
+ATP hydrolysis controls the dynamic assembly and disassembly of UvsX-DNA filaments, mutations affecting ATP-binding regions could alter recombinase activity and therefore influence amplification efficiency.
 
 #### Walker A motif
 The Walker A motif, also known as the P-loop, is a conserved phosphate-binding region responsible for ATP binding. In UvsX, the Walker A motif is located at residues 59–67 and corresponds to residues 65–73 in RecA. Structural comparison between UvsX and RecA demonstrates conservation of this motif in both position and residue composition, indicating preservation of the ATP-binding architecture. The Walker A motif interacts with the phosphate groups of ATP and provides the primary nucleotide-binding site within the ATPase domain (Gajewski, 2011).
@@ -42,6 +62,7 @@ The Walker B motif of UvsX is located at residues 138–143 and corresponds to r
 
 
 ### DNA binding loops
+DNA binding requires conformational rearrangement of flexible loop regions, these regions may represent potential contributors to temperature-dependent changes in recombinase activity.
 
 UvsX interacts with both ssDNA and dsDNA through conserved DNA-binding loops located within the core RecA-like domain. Despite relatively low sequence conservation between UvsX and RecA, the overall folding of the core domain is highly conserved, including the presence of two DNA-binding loops, L1 and L2. These flexible loops mediate interactions with DNA and are positioned to stabilise nucleic acid binding within the UvsX nucleoprotein filament. Structural studies of RecA-like recombinases suggest that these loops undergo conformational flexibility to accommodate DNA, with each UvsX monomer interacting with approximately three nucleotide or DNA base pairs (Pan, 2023).
 
@@ -70,11 +91,11 @@ Identifying such cold-adapted orthologues could extend the operational temperatu
 Comparison of the environmental temperature ranges occupied by psychrophilic, mesophilic, and thermophilic organisms. Cold-adapted proteins from psychrophilic organisms exhibit structural adaptations that maintain catalytic activity and flexibility at reduced temperatures, providing a potential source of enzymes for low-temperature biotechnological applications.
 
 ## UvsX Gold Standards
-To evaluate the performance of the UvsX discovery pipeline, experimentally validated UvsX proteins were used as gold-standard references. The well-characterised UvsX recombinase from bacteriophage T4 was included as the primary reference sequence due to its established role in homologous recombination and extensive structural and biochemical characterisation.
+To evaluate the performance of the UvsX discovery pipeline, experimentally validated UvsX proteins were used as gold-standard references. The well-characterised UvsX recombinase from bacteriophage T4 was included as the primary reference sequence due to its established role in homologous recombination and extensive structural and biochemical characterisation. 
 
 In addition, two recently characterised UvsX orthologs, UvsX$_t$ (7Z3M) and UvsX$_p$ (9BGB), identified from extremophilic phages through metagenomic analysis as part of the Virus-X project, were incorporated as additional gold standards (Tarrant, 2026). These proteins provide independent examples of functional UvsX recombinases outside the canonical T4 system. Both orthologs have been experimentally validated through biochemical assays demonstrating DNA strand-exchange activity and structural analyses confirming conservation of the RecA-like ATPase fold, including key catalytic residues and DNA-binding motifs.
 
-Together, these three experimentally confirmed UvsX proteins represent a diverse set of true-positive sequences for assessing the ability of the discovery pipeline to identify functional UvsX orthologs across different phage lineages.
+Together, these three experimentally validated UvsX proteins represent a diverse set of true-positive reference sequences for evaluating the performance of the discovery pipeline across different phage lineages. These gold standards provide a benchmark for determining whether the computational workflow can successfully identify known UvsX proteins, while enabling comparative analysis of candidate sequences against experimentally confirmed recombinases. This validation step ensures that subsequently prioritised candidates are supported by sequence and structural characteristics consistent with characterised functional UvsX orthologs.
 
 ## Current limitations of RPA
 Although recombinase polymerase amplification (RPA) offers rapid amplification, high analytical sensitivity and minimal equipment requirements, several limitations currently restrict its widespread adoption. RPA tolerates primer-template mismatches, this increased mismatch tolerance reduces assay specificity. Consequently, background DNA present in complex biological samples may undergo unintended amplification, increasing the likelihood of false-positive results in diagnostic applications (Rohrman, 2015).

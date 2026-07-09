@@ -1,0 +1,122 @@
+Summary file for YP_004782219
+Number of papers: 8
+=============Summaries=============
+
+Paper: 41690342.txt
+Thermal Evidence:
+- The enzyme source is characterized as thermostable.
+
+Environmental Context:
+- The enzyme source is derived from an organism associated with high-temperature environments (implied by the thermostable nature of the enzyme).
+
+Concise Summary:
+The enzyme studied is derived from a source exhibiting thermostable characteristics. The structural analysis focused on understanding the role of a specific motif in maintaining function, suggesting adaptation to elevated temperatures.
+
+
+Paper: PMC13140390.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 65°C (in Thermus broth culture medium).
+- Growth temperature range: 55°C to 80°C.
+- Survival temperature range: Not explicitly stated, but the organism is characterized as an extremophile.
+- Incubation conditions: Liquid cultures incubated under aeration at 65°C; solid medium on agar plates in a humidification chamber.
+- Thermophilic adaptation: The organism is characterized as an extremophile and belongs to a genus known for thermophilic bacteria.
+- Heat tolerance: High tolerance to high temperatures is a defining characteristic.
+
+Environmental Context:
+- Habitat/Source: The organism is studied in the context of its natural environment, which includes hot springs and other extreme environments.
+
+Concise Summary:
+The organism is a thermophilic bacterium, with a documented growth temperature range of 55°C to 80°C, and was cultured optimally at 65°C. The study utilized conditions mimicking its natural habitat in extreme environments, confirming its status as an extremophile with high heat tolerance. The analysis of its genome and physiology is framed within the context of its thermophilic lifestyle.
+
+
+Paper: PMC13126070.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were explicitly stated for the enzymes or organisms in the provided text.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or thermal stress responses was found.
+
+Environmental Context:
+- The source organisms are derived from various environments, including those associated with industrial/synthetic biology applications (e.g., *E. coli*, *C. necator*, *Clostridium* species) and natural sources (e.g., *Ascaris suum*, *Faecalibacterium duncaniae*).
+- No explicit classification regarding temperature adaptation (e.g., mesophile, thermophile) was provided by the authors.
+
+
+Paper: PMC13039148.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 68°C
+- Growth temperature range: Not explicitly stated, but growth was maintained at 68°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 68°C for 48h for cryoET sample preparation.
+- Environmental source/habitat: Not explicitly stated, but the organism is described as a thermophilic bacterium.
+- Thermophilic adaptation: Yes, the organism is explicitly identified as a thermophilic bacterium.
+- Heat tolerance: Yes, the organism is adapted to high temperatures, evidenced by optimal growth and incubation at 68°C.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Not specified.
+
+Environmental Context:
+- Habitat/Source: Not explicitly stated, but the organism is a thermophile.
+
+Concise Summary:
+The organism is a thermophilic bacterium with an optimal growth and incubation temperature of 68°C. The study utilized this high temperature for sample preparation and analysis of the Type IV pilus machinery. The authors explicitly classify the organism as thermophilic, indicating adaptation to high thermal conditions.
+
+
+Paper: PMC12907556.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 65°C
+- Growth temperature range: 50°C (cold stress) to 80°C (heat stress)
+- Survival temperature range: Demonstrated activity/stability up to 90°C (for the kinase component)
+- Incubation conditions: Tested at 50°C, 65°C, and 80°C for RNA-seq analysis.
+- Environmental source/habitat: Not explicitly stated, but the organism is a thermophile.
+- Thermophilic adaptation: The system is characterized as a thermosensitive TCS, and the kinase component exhibits considerable thermostability, maintaining activity at 90°C.
+- Cold tolerance: The system is shown to mediate cold adaptation, with the knockout mutant exhibiting a pronounced cold-sensitive growth defect at 50°C.
+- Heat tolerance: The system is studied in the context of thermal adaptation, and the kinase component shows optimal activity at 70°C.
+- Enzymes adapted to temperature: The key metabolic enzyme regulated (DHQase) is part of a pathway essential for aromatic amino acid biosynthesis, which is crucial for stress resilience.
+- Membrane adaptations: The sensor kinase is predicted to be a transmembrane protein with two transmembrane $\alpha$-helices.
+- Thermal stress responses: The entire pathway is identified as a dedicated thermosensor that modulates metabolic reprogramming in response to temperature downshift (cold stress).
+
+Environmental Context:
+- The organism is a thermophile, and the regulatory system is described as a conserved, temperature-responsive regulatory paradigm in its genus.
+
+Concise Summary:
+The study characterizes a novel, temperature-sensitive two-component system (TCS) in a thermophilic bacterium. The system is designed to sense thermal cues and orchestrate cellular thermoadaptation, specifically mediating a response to cold stress (50°C). The sensor histidine kinase component exhibits high thermostability, maintaining activity up to 90°C, with optimal activity observed at 70°C. The TCS utilizes a unique, noncanonical phosphotransfer mechanism, transferring a phosphate group from the histidine residue of the kinase to a tyrosine residue (Tyr84) on the response regulator, deviating from the typical aspartate-based phosphorelay. Functionally, this system directly regulates the expression of a key enzyme in the shikimate pathway (DHQase), which is essential for aromatic amino acid biosynthesis. Under cold stress, the activation of this TCS leads to the upregulation of DHQase, ensuring metabolic flux necessary for cold adaptation. The system also exhibits a negative feedback loop, with the response regulator repressing its own expression. The overall regulatory circuit demonstrates an elegant coupling between environmental sensing (temperature) and core metabolism, providing a model for microbial environmental adaptation in thermophiles.
+
+
+Paper: PMC13123458.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided for the organisms studied.
+
+Environmental Context:
+- The organisms were studied in buffered solutions (ammonium acetate and phosphate buffer) at room temperature, but no specific environmental source or habitat was detailed in relation to temperature extremes.
+
+Concise Summary:
+This study investigates the ultrafast electronic and vibrational dynamics of blue copper sites in two evolutionarily divergent proteins: one single-domain electron-transfer protein and one two-domain multicopper oxidase. The research utilized transient absorption spectroscopy to compare the excited-state dynamics of these proteins, focusing on low-frequency collective modes. The analysis revealed that the protein fold surrounding the conserved copper coordination sphere significantly modulates these ultrafast energy relaxation pathways. Specifically, the single-domain protein exhibited a low-frequency mode at 29 cm⁻¹, while the multicopper oxidase displayed a mode at 38 cm⁻¹. The authors correlated these differences in vibrational dynamics with the structural rigidity imparted by the protein scaffold, suggesting that protein mechanics control the ultrafast nuclear dynamics at the active site. No information regarding the thermal adaptation, growth temperature, or environmental source extremes of the studied proteins was provided.
+
+
+Paper: PMC12898461.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 70 °C (for initial propagation/incubation).
+- Growth temperature range: Optimal growth was observed at 70 °C.
+- Survival temperature range: The enzymes exhibited optimal activity between 60 °C and 80 °C, with activity retained at 90 °C for one enzyme and significant activity observed up to 90 °C for another.
+- Incubation conditions: Initial propagation was performed at 70 °C.
+- Thermophilic adaptation: The enzymes are characterized as thermostable, with optimal activity in the 60–80 °C range.
+- Heat tolerance: The enzymes demonstrate high thermal stability, with activity maintained at elevated temperatures (e.g., 50% activity retained at 90 °C for one enzyme).
+
+Environmental Context:
+- Habitat/Source: Isolated from an extreme geothermal field characterized by high temperatures (80 °C).
+- Extreme Environment: Yes, the organism was isolated from a poly-extreme habitat.
+- Explicit Classification: The enzymes are classified as thermostable esterases/lipolytic enzymes, and the source organism is noted for its thermophilic nature.
+
+
+Paper: PMC12595480.1.txt
+Thermal Evidence:
+- The enzyme was isolated from a compost metagenome.
+- The enzyme is described as 'thermophilic' and 'glucose-tolerant'.
+- Kinetic assays were performed at $65^	ext{o}	ext{C}$ for measuring disaccharide hydrolysis.
+- The enzyme's optimal pH was determined to be 5.6 to 5.7, with activity reduced at pH 8.52.
+
+Environmental Context:
+- Isolated from a compost metagenome.
+
+Concise Summary:
+The enzyme studied is a $eta$-glucosidase (GH1 BGL) isolated from a compost metagenome. The authors explicitly classify the enzyme as 'thermophilic' and 'glucose-tolerant'. Kinetic assays were conducted at elevated temperatures, specifically $65^	ext{o}	ext{C}$, indicating high thermal stability and activity under these conditions. The enzyme's optimal pH range was determined to be acidic (pH 5.6–5.7), suggesting adaptation to mildly acidic environments, while its activity was noted to decrease at higher pH levels (e.g., pH 8.52). The source material (compost) suggests adaptation to variable, potentially fluctuating, environmental temperatures.
+
+

@@ -1,0 +1,163 @@
+Summary file for YP_009876592
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC10702751.1.txt
+Thermal Evidence:
+- Optimal temperature activity was designated between 30°C and 50°C.
+- The phage exhibited stability when kept at 30°C to 60°C for 1 hour.
+- The phage was found to be stable at temperatures ranging from 30°C to 60°C for 1 hour.
+- The phage was tested for thermal stability across temperatures ranging from 30°C to 80°C.
+- The phage titers were lost by about 40% during incubation at 70°C and 70% during incubation at 80°C.
+- The phage demonstrated high stability across a pH range of 4 to 12, with no significant titer reduction observed when kept at 30°C to 60°C for 1 hour.
+- The phage was tested for stability at various temperatures ranging from 30°C to 80°C.
+- The phage was tested for stability at various pH levels ranging from 2 to 13.
+
+Environmental Context:
+- Isolated from wastewater samples taken from a chicken farm.
+
+Concise Summary:
+The phage demonstrated optimal activity between 30°C and 50°C. It exhibited significant stability when incubated at temperatures between 30°C and 60°C for one hour, suggesting mesophilic characteristics. Thermal stability testing spanned a range from 30°C to 80°C, with notable titer loss observed at 70°C and 80°C. The phage was also assessed for stability across a wide pH range (2 to 13), showing high tolerance between pH 4 and 12. The phage was isolated from wastewater collected at a chicken farm. The data supports its potential for use in various processing environments due to its demonstrated thermal and pH resilience.
+
+
+Paper: PMC11428620.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but assays were conducted at 37 °C.
+- Survival temperature range: Cold storage conditions (4 °C) were used for food contamination assays.
+- Incubation conditions: Incubation at 37 °C for bacterial growth/phage propagation; incubation at 4 °C for food matrices.
+- Environmental source/habitat: Sewage, feces, and litter samples from traditional markets and poultry farms.
+- Mention of temperature adaptation: The study notes that cold temperatures (5 °C to 8 °C) can inhibit Salmonella growth by suppressing metabolic and enzymatic activities, which can limit phage lytic activity.
+- Explicit classification: None provided for temperature adaptation.
+
+Environmental Context:
+- Habitat/Source: Sewage, feces, and litter samples from traditional markets and poultry farms.
+
+Concise Summary:
+The study utilized bacterial strains and phages isolated from sewage, feces, and litter samples collected from traditional markets and poultry farms. Optimal growth and initial characterization of the bacterial host and phage propagation were conducted at 37 °C. However, the efficacy testing of the phage cocktail in preventing contamination in food matrices (milk, pork, chicken) was specifically performed under refrigerated conditions (4 °C) over a 2-day incubation period. The authors discussed the physiological impact of cold storage (5 °C to 8 °C) on Salmonella, noting that these temperatures inhibit bacterial growth by suppressing metabolic and enzymatic activities, which consequently can limit phage lytic activity. The phages were shown to maintain effective biocontrol activity even under these cold storage conditions, suggesting potential utility in refrigerated food preservation.
+
+
+Paper: PMC12114859.1.txt
+Thermal Evidence:
+- Pasteurization: 65–75 °C (for liquid products); 77 °C for 1 min; 80 °C for 10–60 s.
+- Heat sterilization: >100–150 °C.
+- Freezing: −18 °C to −30 °C.
+- Refrigeration: −1 to 8 °C (slowing down decomposition).
+- High hydrostatic pressure (HPP): Applied at low temperatures (e.g., <20 °C) for a few seconds to 1 min.
+- Pulsed UV light (PUV): Non-thermal approach.
+- Fermentation: Occurs at 30–40 °C (Homofermentative) and 15–22 °C (Heterofermentative).
+- Optimal growth temperature/range for specific pathogens were not explicitly detailed in terms of optimal growth, but survival/inactivation temperatures were provided for control methods.
+
+Environmental Context:
+- Bacteriophages are naturally occurring in freshwater (approx. $10^9$ phages/mL) and marine water (approx. $10^7$ phages/mL).
+- Pathogens are associated with various sources, including soil, fodder, and water (for *Listeria* spp.).
+
+Concise Summary:
+Microbial control methods detailed include thermal treatments: pasteurization (65–75 °C), heat sterilization (>100–150 °C), and freezing (−18 °C to −30 °C). Non-thermal methods include High Hydrostatic Pressure (HPP) applied at low temperatures (<20 °C) and Pulsed UV light (PUV). Biological control via fermentation occurs across temperature ranges (15–40 °C). Bacteriophages are naturally abundant in freshwater and marine environments. The text focuses on inactivation/reduction techniques rather than optimal growth conditions for the pathogens themselves, though fermentation processes are linked to specific temperature ranges. No explicit classification (e.g., psychrophilic, mesophilic) was provided for the pathogens in relation to their growth temperatures, but the environmental source of phages is noted as freshwater and marine water.
+
+
+Paper: 30297056.txt
+Thermal Evidence:
+- Incubation conditions for efficacy testing were at room temperature (25 °C).
+
+Environmental Context:
+- The study tested the application of the phage cocktail on fresh produce (iceberg lettuce and cucumber).
+
+Concise Summary:
+The antimicrobial efficacy of the phage cocktail against the target pathogen was demonstrated under room temperature (25 °C) incubation conditions over a 12-hour period. No specific optimal, growth, or survival temperature ranges, or adaptations (thermophilic, psychrophilic, etc.), were reported for the phages or the pathogen in the provided text.
+
+
+Paper: PMC12390700.1.txt
+Thermal Evidence:
+- Host strain growth range: 5 °C to 37 °C, with an optimum of 25–37 °C.
+- Siphophage reproduction: Effective at temperature $\le$ 25 °C.
+- Giant phage vB_AerVM_332-Igor optimum: 25 °C.
+- Giant phage vB_AerVM_332-Vera infection: 5–10 °C.
+- Phage 332-Yuliya lytic activity: Decreased at 5 °C, low activity at 5 °C, and inactive at 37 °C.
+- Phage 332-Vera reproduction: Weakly multiplied at low temperatures (5 °C and 10 °C).
+- Phage 332-Igor reproduction: Narrower temperature range, with an optimum at 25 °C.
+- Real-time PCR results: Phage 332-Yuliya propagated efficiently at 10 °C to 25 °C; low efficiency at 5 °C; traces observed at 37 °C.
+- Real-time PCR results: Phage 332-Igor optimum growth at 25 °C.
+- Real-time PCR results: Phage 332-Vera showed activity across tested temperatures, but the text implies different optimal ranges for the three phages.
+
+Environmental Context:
+- Source: Water + sediments sample collected in a freshwater pond.
+- Habitat: Freshwater pond environment, suggesting exposure to variable seasonal temperatures (e.g., 4 °C in winter, above 30 °C in summer).
+
+Concise Summary:
+Three novel phages (one siphophage and two giant phages) were isolated from a freshwater pond water + sediment sample, infecting a host bacterium capable of growing across a wide temperature range (5 °C to 37 °C, optimum 25–37 °C). The phages exhibit distinct thermal preferences: the siphophage is effective at $\le$ 25 °C, the phage vB_AerVM_332-Igor has an optimum at 25 °C, and vB_AerVM_332-Vera infects at 5–10 °C. In vitro kinetic assays confirmed these differences, showing the siphophage thriving between 10 °C and 25 °C, while the giant phages showed narrower optimal ranges. The environmental context suggests the phages are adapted to fluctuating temperatures characteristic of natural freshwater bodies, allowing them to exploit the host across different seasons. No explicit classification (e.g., psychrophilic, mesophilic) was assigned, but the observed activity profiles suggest adaptation to mesophilic conditions with distinct temperature niches for each phage.
+
+
+
+Paper: PMC12724128.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 37°C was used for phage adsorption, plaque development, and bacterial growth assays.
+- Environmental source/habitat: Swine farm wastewater.
+
+Environmental Context:
+- Habitat/source: Swine farm wastewater.
+
+Concise Summary:
+The phage was isolated from swine farm wastewater. All experimental procedures, including phage adsorption, plaque development, and bacterial growth assays, were conducted at an optimal temperature of 37°C. No specific information regarding the organism's thermophilic, psychrophilic, or general thermal adaptation was provided; the conditions utilized suggest mesophilic growth at mammalian body temperature.
+
+
+Paper: PMC8432352.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 37°C (for plaque assays) and 4°C (for subsequent incubation).
+- Environmental source/habitat: Not specified, but the phages infect Gram-negative bacteria, including pathogenic species like *Salmonella* and *E. coli*.
+- Mention of thermal adaptation: None.
+- Explicit classification: None provided regarding temperature adaptation.
+
+
+Paper: PMC7143992.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C for 12 h (for host range analysis)
+- Environmental source/habitat: Not specified
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by 37 °C growth
+- Heat tolerance: No mention
+- Cold tolerance: No mention
+- Enzymes adapted to temperature: No mention
+- Membrane adaptations: No mention
+- Thermal stress responses: No mention
+
+Environmental Context:
+- Habitat/Source: Not specified
+
+Concise Summary:
+The study utilized standard laboratory growth conditions, with bacterial strains cultured in Luria-Bertani medium at 37 °C with aeration. Host range analysis and cell lysis kinetics were performed at 37 °C. The enzymes and proteins characterized were tested under these mesophilic conditions. No information regarding extreme temperature adaptation (thermophilic or psychrophilic) was provided.
+
+
+Paper: PMC10670071.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but optimal growth was achieved at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37 °C overnight for plaque assays and general incubation.
+- Environmental source/habitat: The study utilized laboratory bacterial strains and phages, with the target pathogen being a food pathogen. No natural environmental source temperature data was provided.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: The optimal growth temperature of 37 °C suggests mesophilic growth conditions for the bacterial host.
+- Heat tolerance: No specific data provided.
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Laboratory culture conditions using bacterial strains and phages; the target pathogen is a food pathogen.
+
+Concise Summary:
+The experimental procedures were conducted under controlled laboratory conditions. The optimal growth temperature for the bacterial host was consistently maintained at 37 °C for bacterial culture, plaque assays, and general incubation. The study did not provide data regarding the organism's natural environmental temperature range, thermophilic, psychrophilic, or cold tolerance adaptations. The observed growth conditions are consistent with mesophilic laboratory culture techniques.
+
+

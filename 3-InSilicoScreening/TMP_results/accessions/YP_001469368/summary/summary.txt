@@ -1,0 +1,94 @@
+Summary file for YP_001469368
+Number of papers: 5
+=============Summaries=============
+
+Paper: PMC12817139.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Grown in lysogeny broth at 37°C with aeration.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by optimal growth at 37°C.
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Gastrointestinal tract (commensal/environmental) and associated with infection (pathogenic).
+- Extreme environment isolation: Not mentioned.
+- Explicit classification: None provided regarding thermal adaptation.
+
+
+Paper: PMC13196028.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but experiments were conducted at 30°C and 38°C.
+- Growth temperature range: 30°C (pre-culture/lysogeny maintenance) and 38°C (induction/main experiments).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Cultures were incubated at 30°C for pre-culturing and at 38°C for induction and main experiments.
+- Environmental source/habitat: Not specified for the organism itself, but the study context involves environmental microbiology and nutrient cycling.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: The operational temperatures (30°C–38°C) are consistent with mesophilic growth conditions.
+- Heat tolerance: The system utilizes a temperature-inducible prophage system, suggesting the ability to undergo temperature-dependent lytic cycles.
+- Cold tolerance: The use of 30°C for initial culturing suggests viability at this temperature.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No mention.
+- Thermal stress responses: The use of temperature-sensitive prophages indicates a controlled response to temperature shifts (30°C vs 38°C).
+
+Environmental Context:
+- Habitat/Source: The study models processes relevant to nutrient cycling in microbial ecosystems, drawing parallels to marine environments, but the specific organism was cultured in a laboratory setting using defined minimal media (M9).
+
+Concise Summary:
+The experimental system utilized two lysogenic strains derived from *Escherichia coli*. The strains were maintained and pre-cultured at 30°C, which represents a condition supporting lysogeny. The critical experimental manipulation involved shifting the culture to 38°C to induce the lytic cycle of the temperature-sensitive prophage. This temperature shift (30°C $\rightarrow$ 38°C) was central to the study's methodology, allowing for the selective induction of lysis. The operational temperatures (30°C and 38°C) are consistent with mesophilic growth conditions. The study does not provide evidence of the organism being isolated from an extreme environment, nor does it classify the organism as thermophilic or psychrophilic; however, the controlled temperature shift demonstrates a temperature-dependent physiological switch (lysogeny to lytic cycle) critical to the observed nutrient recycling dynamics.
+
+
+Paper: PMC13194106.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organisms were studied in the context of aquaculture environments, including freshwater hatcheries and seawater grow-out cages.
+
+Concise Summary:
+The provided text focuses heavily on antimicrobial resistance, disease management, and regulatory frameworks within salmon aquaculture. There is no detailed physiological or microbiological data available regarding the optimal, growth, or survival temperature ranges, nor any specific evidence concerning the thermal adaptations (thermophilic, psychrophilic, mesophilic) of the associated microbial or pathogenic organisms. The environmental context is limited to the aquaculture setting, encompassing both freshwater and seawater stages, with mentions of environmental stressors like low-oxygen conditions and harmful algal blooms, but these are discussed in terms of physiological stress rather than quantifiable thermal adaptation profiles.
+
+
+Paper: PMC11383693.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 34 °C
+- Growth temperature range: Not explicitly stated, but growth assays were performed at 34 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Cultures were grown at 34 °C with shaking.
+- Environmental source/habitat: Not mentioned.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the optimal growth temperature of 34 °C.
+- Heat tolerance: No specific data provided.
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No specific data provided.
+- Membrane adaptations: No specific data provided.
+- Thermal stress responses: No specific data provided.
+
+Environmental Context:
+- Habitat/Source: Not mentioned.
+
+Concise Summary:
+The organism was cultured and assayed at an optimal temperature of 34 °C. The growth conditions utilized involved incubation with shaking at this temperature. The physiological characteristics observed (e.g., growth kinetics, metabolic pathways) are consistent with a mesophilic lifestyle, as indicated by the standard laboratory incubation temperature used throughout the study. No data regarding extreme temperature adaptation, thermal stress responses, or environmental isolation from extreme habitats were provided.
+
+
+Paper: PMC11148124.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold tolerance adaptations was made.
+- No specific enzymes adapted to temperature were discussed.
+
+Environmental Context:
+- The organism was not stated to be isolated from an extreme environment.
+- No explicit thermal classification was given by the authors.
+
+

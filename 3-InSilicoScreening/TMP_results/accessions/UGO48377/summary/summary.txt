@@ -1,0 +1,80 @@
+Summary file for UGO48377
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC13158018.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the organisms discussed.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organisms were studied in the context of human infections, with sources mentioned including urinary tract infections, lower-risk intra-abdominal infections, bloodstream infections, and pneumonia.
+
+Concise Summary:
+This study is a cross-sectional survey evaluating clinical and microbiologic practice patterns for managing infections caused by Enterobacterales at risk of inducible AmpC production. The analysis focuses on antimicrobial stewardship, $\beta$-lactam choice (e.g., cefepime, ceftriaxone, meropenem), and susceptibility reporting for moderate- and low-risk producers. No data regarding the thermal physiology, growth temperatures, or environmental adaptation of these bacteria were presented.
+
+
+Paper: PMC13118744.1.txt
+Thermal Evidence:
+- Optimal decolorization temperature was determined to be 45 °C.
+- The decolorization rates were highest within the temperature range of 30–45 °C.
+- The decolorization rate significantly decreased at 50 °C, attributed to potential loss of cell viability or denaturation of degradation enzymes.
+- The optimal temperature is related to the optimal temperature of the dominant enzyme, azo reductase.
+
+Environmental Context:
+- The organism was isolated from soil samples.
+- The authors did not explicitly classify the organism regarding thermal adaptation (e.g., mesophile, thermophile, psychrophile), but the optimal activity was observed at 45 °C, suggesting mesophilic activity within the tested range.
+
+Concise Summary:
+The organism demonstrated optimal decolorization activity for methyl red at 45 °C, with peak efficiency observed between 30–45 °C. Activity significantly declined at 50 °C, suggesting temperature-sensitive enzyme function. The organism was isolated from soil and exhibits activity consistent with mesophilic conditions, with the optimal temperature linked to the activity of the key degrading enzyme, azo reductase.
+
+
+Paper: PMC13197765.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial indicators) and 30°C (for yeast indicators).
+- Incubation conditions: Static incubation at 37°C for 12h for LAB activation; Shaking at 30°C for 12h for yeast activation.
+- Fermentation temperature: 30°C for 60h.
+- No explicit mention of survival temperature range, thermophilic adaptation, psychrophilic adaptation, or specific enzyme adaptations to temperature.
+
+Environmental Context:
+- The strains were isolated from industrial pickled peppers, homemade pickled pepper sauce, and were used in the fermentation of fresh green peppers.
+
+Concise Summary:
+The study utilized specific temperature controls for microbial activity. LAB activation was performed at 37°C, while yeast activation and the main fermentation process were conducted at 30°C. The initial isolation sources for the strains were pickled peppers and pepper sauces. The physiological data provided focus on optimal growth and fermentation conditions rather than broad thermal adaptation ranges, and no evidence of thermophilic or psychrophilic adaptation was reported.
+
+
+Paper: 42171025.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organisms were cultured in a laboratory setting simulating spacecraft wastewater conditions (headspace analysis).
+- The source/habitat mentioned is spacecraft wastewater, not an extreme natural environment.
+
+Concise Summary:
+The study analyzed the volatile organic compound (VOC) profiles of three bacterial species cultured in a laboratory setting simulating spacecraft wastewater. The detection method relies on headspace gas chromatography-mass spectrometry (GC-MS) to identify species-specific markers, such as dimethyl disulfide, which was found to be consistently produced across all tested species under the experimental conditions. No data regarding the optimal, range, or survival temperatures, or any specific thermal adaptations (e.g., thermophilic, psychrophilic) were reported for these isolates. The analysis confirms the utility of VOC analysis for remote microbial detection in future spaceflight water recovery systems.
+
+
+Paper: 42156216.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The study analyzed samples from freshwater aquaculture environments, specifically associated with three types of aquaculture ponds (grass carp, crayfish, and crab ponds). The samples analyzed included water, sediment, and intestinal contents.
+
+
+Paper: PMC13194893.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, or survival range was provided for any microbial taxa.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The study analyzed the pulmonary microbiota from deep sputum specimens collected from patients in a neurosurgical ICU setting.
+- The source is the lower respiratory tract/airway secretions.
+
+Concise Summary:
+The provided scientific paper focuses on developing a multi-omics diagnostic model to differentiate between respiratory colonization and infectious pneumonia using metagenomic sequencing and host gene expression analysis. The analysis details microbial community profiling, host immune response pathways (e.g., Wnt, MAPK), and the construction of a predictive model (AUC = 0.951). Crucially, the paper contains no data or discussion regarding the thermal physiology, growth temperatures, or environmental adaptation (thermophilic, psychrophilic, mesophilic) of the identified microbial taxa. The samples were sourced from the lower respiratory tract of critically ill patients.
+
+

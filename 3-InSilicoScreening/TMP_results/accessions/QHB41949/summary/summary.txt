@@ -1,0 +1,205 @@
+Summary file for QHB41949
+Number of papers: 11
+=============Summaries=============
+
+Paper: PMC8432352.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Aerobically at 37°C overnight; incubation for 24h at 4°C and 50 rpm.
+- Environmental source/habitat: Not specified, but the phages infect Gram-negative bacteria, including pathogenic species like *E. coli* and *Salmonella*.
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, or mesophilic adaptation.
+
+Environmental Context:
+- Habitat/Source: The phages are associated with Gram-negative bacteria, including pathogenic species, and were studied in vitro using standard laboratory growth conditions.
+
+Concise Summary:
+The experimental procedures utilized standard laboratory incubation conditions, primarily at 37°C for phage plaque assays and overnight incubation. A secondary incubation step was performed at 4°C for 24 hours. No specific data regarding the optimal growth temperature range, survival temperature range, or explicit classification (e.g., mesophile) related to temperature adaptation (thermophilic, psychrophilic) was provided for the phages or the associated bacterial hosts. The phages were studied in the context of infecting Gram-negative bacteria, including pathogenic strains, under controlled laboratory conditions.
+
+
+Paper: PMC12429155.1.txt
+Thermal Evidence:
+- Incubation temperature for the experiment was $27^	ext{o}	ext{C}$.
+
+Environmental Context:
+- The organism was studied in the context of plant pathogenesis in potato tubers, which are grown in agricultural settings. No extreme environment isolation or specific thermal adaptation classification was provided for the pathogen or the host response mechanisms.
+
+Concise Summary:
+The experimental procedures utilized a consistent incubation temperature of $27^	ext{o}	ext{C}$ for the study of pathogen interaction and gene expression in potato tubers. The analysis focused on the molecular response to infection under these controlled, mesophilic conditions. No data regarding the pathogen's optimal growth temperature range, survival temperature range, or specific thermal adaptations (thermophilic, psychrophilic, etc.) were reported in the provided text.
+
+
+Paper: PMC10931765.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28 °C
+- Growth temperature range: 28 °C
+- Survival temperature range: 5 °C to 42 °C (Tested range)
+- Incubation conditions: 28 °C for 24–48 h (General culture); 22 ± 0.5 °C (Plant culture)
+- Environmental source/habitat: Soil, surface water, aerosols, and insects (General context for the genus); Weed host plants (Specific context for the study).
+- Mention of adaptations: None explicitly stated (e.g., thermophilic, psychrophilic).
+
+Environmental Context:
+- Habitat/Source: The organism is a necrotroph found in diverse environmental niches, including surface water, aerosols, and soil, and is associated with plant hosts (both agricultural crops and weeds).
+
+Concise Summary:
+The organism exhibits optimal growth at 28 °C, with general culture and incubation conditions maintained at this temperature. The tested survival temperature range spanned from 5 °C up to 42 °C. Plant culture was maintained at a more moderate temperature of 22 ± 0.5 °C. The organism is noted for its broad environmental distribution, inhabiting niches such as surface water, aerosols, and soil, in addition to its role as a plant pathogen. No specific thermal adaptations (e.g., thermophilic or psychrophilic) were explicitly classified by the authors based on the provided data.
+
+
+Paper: PMC10620192.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28 °C (for TSA plating, TSB incubation, and most assays).
+- Growth temperature range: 28 °C (specified for incubation).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubated at 28 °C for various periods (e.g., 48 h for plating, 24 h for some assays).
+- Environmental source/habitat: Isolated from potato plants, seed potato plantations, and rhizosphere.
+- Mention of thermal adaptation: No explicit mention of thermophilic, psychrophilic, or mesophilic classification, but growth is consistently observed at 28 °C.
+
+Environmental Context:
+- Habitat/Source: Primarily associated with potato plants and soil/rhizosphere.
+
+Concise Summary:
+The organism exhibits optimal growth and activity under standard laboratory conditions, with most assays and plating performed at 28 °C. The organism was isolated from agricultural sources, specifically potato plants and rhizosphere soil. The study details various assays (growth dynamics, enzyme activity, motility) conducted consistently at 28 °C, suggesting a mesophilic lifestyle adapted to temperate agricultural environments. No evidence of adaptation to extreme temperatures (thermophilic or psychrophilic) was reported.
+
+
+Paper: PMC12855182.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28 °C
+- Growth temperature range: 28 °C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 28 °C
+- Environmental source/habitat: Hypersaline environment
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by optimal growth at 28 °C
+- Heat tolerance: No mention
+- Cold tolerance: No mention
+- Enzymes adapted to temperature: No mention
+- Membrane adaptations: No mention
+- Thermal stress responses: No mention
+
+Environmental Context:
+- Habitat/source: Hypersaline environment
+
+Concise Summary:
+The bacterial strains were isolated from a hypersaline environment. The optimal and tested growth temperature for the strains was 28 °C, suggesting mesophilic growth conditions. The study does not provide explicit data on survival temperature ranges, thermophilic, psychrophilic, or specific thermal stress adaptations.
+
+
+Paper: PMC12886445.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C (for bacterial growth and phage assays).
+- Growth temperature range: 28°C (for bacterial growth).
+- Survival temperature range: -20°C to 60°C (for phage infectivity).
+- Incubation conditions: 28°C (for bacterial growth and phage assays).
+- Environmental source/habitat: Sewage water samples (for phage isolation).
+- Thermophilic adaptation: None mentioned.
+- Psychrophilic adaptation: None mentioned.
+- Mesophilic growth: Implied by optimal growth at 28°C.
+- Heat tolerance: Phages retained infectivity up to 60°C; PDS1 and PDS2 retained activity at 70°C.
+- Cold tolerance: Phages retained infectivity down to -20°C.
+- Enzymes adapted to temperature: None mentioned.
+- Membrane adaptations: None mentioned.
+- Thermal stress responses: None mentioned.
+- Organism isolated from extreme environment: No explicit classification given; phages were isolated from sewage water.
+
+Environmental Context:
+- Habitat/Source: Sewage water samples.
+
+Concise Summary:
+The bacterial pathogen was cultured optimally at 28°C. The bacteriophages isolated were tested for thermal stability, demonstrating infectivity across a broad range of -20°C to 60°C. Specifically, the phages maintained activity at 70°C, with one phage showing the highest stability across 25°C to 60°C. The phages were isolated from sewage water samples. The overall physiological evidence points to the system operating within mesophilic conditions, with demonstrated cold tolerance down to -20°C and heat tolerance up to at least 70°C for the phage components.
+
+
+Paper: PMC10169776.1.txt
+Thermal Evidence:
+- Growth rate was tested at various temperatures: 5, 8, 15, 28, and 37 °C.
+- Growth at different temperatures was tested qualitatively on solid rich and minimal media incubated at 5, 8, 15, 28, and 37 °C.
+- The organism was cultured for 24–48 h at 28 °C.
+- Growth was assessed at 28 °C for 16 h in TSB supplemented with selected surfactants.
+- The organism was cultured for 24 h at 28 °C in TSB.
+- The organism was cultured for 24 h at 28 °C in M9 minimal medium.
+- The organism was cultured for 24 h at 28 °C in TSB.
+- The organism was cultured for 24 h at 28 °C in M9 minimal medium.
+- The organism was cultured for 24 h at 28 °C in TSB.
+- The organism was cultured for 24 h at 28 °C in M9 minimal medium.
+- The organism was cultured for 16 h at 28 °C in TSB supplemented with selected surfactants.
+
+Environmental Context:
+- The organism was isolated from diverse ecological niches, including bulk soil and the rhizosphere of agricultural and natural soils, in surface and rainwater, in insects and host and non-host plants.
+
+Concise Summary:
+The organism exhibits optimal growth conditions around 28 °C, as indicated by standard culture protocols (24–48 h incubation) and specific assays (16 h incubation). Growth rate testing was performed across a range of temperatures, including 5 °C, 8 °C, 15 °C, 28 °C, and 37 °C. The organism was cultured in both rich (TSB) and minimal (M9) media under these conditions. No evidence of thermophilic or psychrophilic adaptation was reported; the tested range suggests mesophilic growth characteristics. The organism was isolated from diverse environmental sources, including soil and plant tissues, indicating a broad ecological niche. The study did not report on specific thermal stress responses or temperature-adapted enzymes.
+
+
+Paper: PMC12347403.1.txt
+Thermal Evidence:
+- Optimal growth temperature for one organism was reported at 28 °C.
+- Optimal growth temperature for another organism was reported at 37 °C.
+- Growth temperature range mentioned includes 28 °C and 37 °C.
+- Incubation conditions included 28 °C for swarming motility and 72 h incubation for soft-rotting assays.
+- Incubation conditions for one organism were 28 °C, and for the other, 37 °C.
+
+Environmental Context:
+- One organism was isolated from infected potato tubers.
+- The other organism was isolated from meadow soil in Poland.
+
+Concise Summary:
+The study investigated antagonistic interactions between two bacterial species. Growth and swarming motility assays were conducted at 28 °C, while other growth conditions were maintained at 37 °C. The organisms were sourced from infected potato tubers and meadow soil, respectively. The findings detail the physiological interactions, including the role of surfactin in directional movement, and the genetic basis for antagonism involving a LysR-family transcriptional regulator. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided, but the observed growth temperatures (28 °C and 37 °C) suggest mesophilic growth conditions for both species.
+
+
+Paper: PMC10488565.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 27 °C
+- Growth temperature range: 27 °C
+- Survival temperature range: Not specified
+- Incubation conditions: Incubation at 27 °C under agitation (130 rpm) for overnight to 48 h.
+- Environmental source/habitat: Potato rhizosphere soil.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the optimal growth temperature of 27 °C.
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/source: Potato rhizosphere soil.
+
+Concise Summary:
+The organism was isolated from the potato rhizosphere soil. The optimal growth temperature and standard incubation condition utilized for the study was 27 °C, maintained under agitation (130 rpm) for periods ranging from overnight to 48 hours. The physiological data provided strongly suggest mesophilic growth conditions, as no evidence of thermophilic or psychrophilic adaptation was reported. The study focused on the metabolic activity and biocontrol potential of metabolites produced under these ambient, moderate temperature conditions.
+
+
+Paper: PMC10743776.1.txt
+Thermal Evidence:
+- Incubation conditions for virulence assays were 26 °C for chicory leaves and 28 °C for potato tubers.
+- The study does not specify optimal, minimum, or maximum growth temperatures, nor does it mention any specific thermal adaptations (thermophilic, psychrophilic, etc.).
+
+Environmental Context:
+- The organism was isolated from diverse environments including ornamentals, river water, and a Caribbean island tomato source.
+
+Concise Summary:
+Analysis of the pathogen's physiological parameters is limited to virulence assays, which were conducted at 26 °C (chicory leaves) and 28 °C (potato tubers). No data regarding optimal growth temperature, survival temperature range, or specific thermal adaptations (such as thermophilic or psychrophilic characteristics) were provided in the text. The organism was successfully isolated from diverse sources, including river water, ornamentals, and a tropical island host, suggesting adaptability across varied environmental niches.
+
+
+Paper: PMC12909896.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C
+- Growth temperature range: Not explicitly stated
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 28°C (for bacterial growth/motility/biofilm); 23°C (for plant growth chamber)
+- Environmental source/habitat: Rhizosphere/soil (for bacterial assays); Soil (for plant growth assays)
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by optimal growth at 28°C
+- Heat tolerance: No specific data
+- Cold tolerance: No specific data
+- Enzymes adapted to temperature: No mention
+- Membrane adaptations: No mention
+- Thermal stress responses: No mention
+
+Environmental Context:
+- Habitat/Source: Rhizosphere/soil; Plant growth chamber (23°C).
+
+Concise Summary:
+The bacterial assays utilized an optimal growth temperature of 28°C for culturing, motility, and biofilm formation. Plant growth was maintained in a controlled chamber at 23°C. The organisms were studied in the context of the rhizosphere/soil environment. No specific data regarding thermophilic, psychrophilic, or extreme temperature adaptations were provided; the conditions suggest mesophilic growth within the tested range.
+
+

@@ -1,0 +1,132 @@
+Summary file for ATN94382
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC12466917.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for *E. coli*).
+- Growth temperature range: 37°C (for *E. coli*); 28°C (for *B. thuringiensis*).
+- Survival temperature range: Not explicitly stated for the phages or genes, but growth assays were conducted at 37°C and 28°C.
+- Incubation conditions: Incubation at 37°C or 28°C with shaking at 200 rpm or 480 rpm.
+- Environmental source/habitat: Soil samples.
+- Mention of adaptation: No explicit mention of thermophilic, psychrophilic, or cold/heat tolerance adaptations.
+- Explicit classification: None provided by the authors regarding temperature adaptation.
+
+Environmental Context:
+- Habitat/source: Soil samples.
+
+Concise Summary:
+The study utilized bacterial hosts (*E. coli* and *B. thuringiensis*) cultured at optimal temperatures of 37°C and 28°C, respectively. Phage propagation and functional assays were conducted under these specific temperature regimes, often involving shaking incubation. The phages were isolated from environmental soil samples. No evidence of thermophilic, psychrophilic, or extreme temperature adaptation was reported for the phages or the associated genes.
+
+
+Paper: PMC8892312.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was studied in vitro using standard laboratory growth conditions (e.g., growth curves, protein expression in E. coli). No extreme environmental source was specified.
+
+Concise Summary:
+This study focuses on the molecular mechanism of inhibition of a conserved nucleoid-associated protein (HU) by a bacteriophage protein (Gp46). The research details the structural interaction, the functional consequence (preventing nucleoid segregation and causing filamentation), and the broad cross-species applicability of this inhibition across various pathogenic bacteria and Apicomplexan parasites. The experimental work was conducted under controlled laboratory conditions, with no data provided regarding the organism's natural thermal niche or adaptation to temperature extremes.
+
+
+Paper: PMC9756591.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the phages or their hosts.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+- No specific enzymes adapted to temperature were detailed.
+
+Environmental Context:
+- The phages infect members of the *Bacillus subtilis* group, which are associated with food industries and are generally non-pathogenic, suggesting an environmental source related to food/soil.
+
+Concise Summary:
+This study focused on the genomic diversity and taxonomic classification of 61 bacteriophages infecting *Bacillus subtilis* group members. The analysis utilized comparative genomics, pangenome analysis, and phylogenetic methods to propose new taxonomic classifications, including two new subfamilies. The research details the identification of signature orthologs (e.g., tail fibers/spike proteins, poly-gamma-glutamate hydrolase) crucial for phage taxonomy. No data regarding the thermal physiology, optimal growth temperature, or temperature adaptations (thermophilic, psychrophilic, etc.) of the phages or their bacterial hosts were presented in the provided text.
+
+
+Paper: PMC5977233.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated, but fermentation was conducted at 37 °C.
+- Incubation conditions: Incubation at 37 °C for various periods (e.g., 12 h, 72 h).
+- Environmental source/habitat: Isolated from Meju (a dried fermented soybean brick) and tested in Cheonggukjang (a soybean fermented food).
+- Adaptation mentions: No explicit mention of thermophilic, psychrophilic, or specific thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Soybean-based fermented foods (Meju, Cheonggukjang).
+
+Concise Summary:
+The bacteriophage was isolated from Meju, a dried fermented soybean brick, and its activity was tested in Cheonggukjang, a soybean fermented food. The optimal and tested growth temperature for both the host bacterium and the phage was consistently 37 °C. Incubation conditions for assays ranged from 12 hours to 72 hours at this temperature. The study does not provide data on the organism's survival or growth outside of this mesophilic range, nor does it classify the organism based on thermal adaptation (e.g., mesophile, psychrotolerant). The source material indicates an association with fermented, ambient-temperature food products.
+
+
+Paper: PMC11431453.1.txt
+Thermal Evidence:
+- No specific optimal or growth temperature ranges were explicitly provided for the probiotic strains in the context of thermal adaptation.
+- One study mentioned culturing a strain under anaerobic and pH 6.5 conditions, but did not specify a temperature range.
+- The context of burn wounds involved high temperatures (e.g., 100 °C, 97 °C), which necessitated the use of advanced delivery systems (hydrogels) to maintain a moist environment, but this relates to wound injury, not microbial growth conditions.
+
+Environmental Context:
+- The organisms are generally associated with the human skin microbiome, which maintains a variable environment influenced by moisture and pH.
+- Specific environmental sources mentioned include fermented foods (yogurt, kefir) and the skin surface.
+
+Concise Summary:
+The review focuses on the application of probiotics delivered via hydrogels for burn wound healing, emphasizing antibacterial, anti-inflammatory, and regenerative effects. While numerous studies detail the efficacy of various probiotic strains (e.g., *Lactobacillus* species, *Saccharomyces* species) in treating burn wounds, the provided text does not contain detailed physiological data regarding the optimal growth temperature, temperature range, or thermal adaptation (thermophilic, psychrophilic, mesophilic) of these specific microbial strains. The environmental context is primarily the human skin and fermented foods. The advanced delivery systems (hydrogels) are designed to maintain a moist, stable environment for wound healing, rather than supporting extreme temperature growth for the microbes themselves.
+
+
+Paper: PMC3720193.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but growth was performed at 37°C.
+- Survival temperature range: Not explicitly stated, but freeze-drying was performed at -80°C, followed by storage/testing conditions.
+- Incubation conditions: Anaerobic incubation at 37°C for Bifidobacteria (using BSM agar/broth) and 37°C for Lactobacillus (using MRS agar/broth).
+- Environmental source/habitat: Not explicitly stated for the probiotic bacteria, but the polymer source was derived from a fermentation process involving soyabean.
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, or specific thermal stress responses were detailed for the probiotic bacteria or the polymer source.
+
+Environmental Context:
+- Habitat/Source: The polymer was derived from a fermentation process involving soyabean. The probiotic bacteria were cultured under anaerobic conditions.
+
+Concise Summary:
+The study utilized three probiotic bacterial strains (two *Bifidobacterium* species and one *Lactobacillus* species) for cryoprotectant testing. These bacteria were cultured anaerobically at an optimal temperature of 37°C using specific selective media (BSM for *Bifidobacterium* and MRS for *Lactobacillus*). The polymer, derived from a fermentation process involving soyabean, was sterilized by autoclaving at 110°C for 30 minutes, which did not alter its chemical integrity according to FTIR analysis. The cryoprotection experiments involved freezing cultures at -80°C, followed by freeze-drying at -40°C and 5 mbar. The analysis focused on maintaining viability under these thermal stresses, with the bacteria showing varying degrees of resilience to the freeze-drying process. No specific thermal adaptation classifications were provided for the organisms studied.
+
+
+Paper: PMC11312092.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 35–50 °C
+- Growth temperature range: Not explicitly stated, but optimal range is provided.
+- Survival temperature range: High heat resistance is noted; spores can withstand temperatures up to 180 °C (baking) and show viability after pasteurization (95 °C) and drying (up to 180 °C). Spores exhibit significantly greater resistance to thermal effects compared to vegetative cells.
+- Incubation conditions: Viability tested across various temperatures, including those encountered during baking (65–180 °C), pasteurization, and drying.
+- Environmental source/habitat: Naturally associated with the fermentation of various foods (soy, locust beans, maize, rice, natto).
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: The organism is generally described as aerobic or facultative aerobic, suggesting mesophilic tendencies, though specific mesophilic range is not detailed.
+- Heat tolerance: High heat tolerance is a key feature, attributed to spore formation. Spores maintain viability in baked goods even after high heat treatments, a feat not achievable by most vegetative probiotics.
+- Cold tolerance: Viability has been assessed in refrigerated storage conditions (e.g., 4 °C).
+- Enzymes adapted to temperature: Specific temperature adaptations of enzymes are not detailed.
+- Membrane adaptations: Not detailed.
+- Thermal stress responses: Spore formation is the primary mechanism conferring resistance to harsh conditions, including heat.
+
+Environmental Context:
+- Habitat/Source: Naturally associated with the fermentation of various foods (soy, locust beans, maize, rice, natto). The organism is described as a spore-former, which enhances its resilience to thermal treatment and harsh processing conditions.
+
+Concise Summary:
+The organism is a spore-forming, Gram-positive, rod-shaped bacterium. Its primary advantage as a probiotic is its superior stability under harsh conditions, particularly heat. Spores exhibit significantly greater thermal resistance than vegetative cells, allowing survival through processes like baking (up to 180 °C) and pasteurization (95 °C). The optimal growth temperature is reported to be between 35–50 °C. The organism is naturally associated with the fermentation of various foods. Its spore structure provides robust protection against thermal stress, making it highly suitable for incorporation into processed functional foods with extended shelf lives, even when compared to other probiotics that are sensitive to heat.
+
+
+
+Paper: 28395824.txt
+Thermal Evidence:
+- Heat shock conditions tested: 68°C for 20 minutes (optimal recovery observed).
+- Heat shock conditions tested: 15.61 and 15.24 logCFU/mL recovery observed under these conditions.
+- Significant count reduction observed after heat shock at 80°C for 10 minutes (P≤0.05).
+- Survival during cooking process: 3-4 log reduction observed in raw batter.
+- Survival during cold storage: Counts remained >10⁶ CFU/g.
+
+Environmental Context:
+- No explicit environmental source/habitat mentioned.
+- No explicit classification (e.g., thermophilic, psychrophilic) given by the authors.
+
+Concise Summary:
+Spore-forming bacteria demonstrated significant survival capabilities during food processing and storage. Optimal spore recovery was noted following a heat shock of 68°C for 20 minutes. However, a significant reduction in spore counts was observed after exposure to 80°C for 10 minutes. The bacteria maintained viable counts (>10⁶ CFU/g) throughout the entire cold storage period, and their survival through the cooking process, despite a 3-4 log reduction, highlights their robustness in functional cooked food products. The data strongly support their capacity for heat tolerance and cold tolerance within the context of food preservation.
+
+

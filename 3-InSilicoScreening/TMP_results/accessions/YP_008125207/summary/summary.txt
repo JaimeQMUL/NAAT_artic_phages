@@ -1,0 +1,40 @@
+Summary file for YP_008125207
+Number of papers: 2
+=============Summaries=============
+
+Paper: PMC4122927.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Not specified
+- Environmental source/habitat: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by 37 °C growth
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/source: Marine environment (for one phage pair).
+
+Concise Summary:
+The phages were grown at 37 °C in Luria-Bertani medium. One phage pair was isolated from a marine environment. The text does not provide specific data regarding optimal, range, or survival temperatures, nor does it mention any specific thermal adaptations (thermophilic, psychrophilic, etc.). The growth condition mentioned (37 °C) suggests mesophilic growth for the tested conditions.
+
+
+Paper: 42045670.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+- No specific incubation temperature was mentioned.
+
+Environmental Context:
+- No environmental source or habitat was mentioned.
+
+Concise Summary:
+The study details the use of a bacterial chassis for upcycling protocatechuic acid (PCA) into poly-3-hydroxybutyrate (PHB). The optimization of growth required careful management of substrate concentration and medium composition (e.g., changing $\text{Fe}^{2+}$ to $\text{Fe}^{3+}$) to mitigate PCA-induced oxidative stress and reactive oxygen species (ROS) toxicity. Adaptive laboratory evolution over $\sim 1000$ generations revealed mutations related to the oxidative stress response, including changes in regulatory proteins and cell wall repair mechanisms. Functionally, the adapted strains showed enhanced PHB production compared to the parental strain. No explicit thermal parameters or environmental context were provided for classification.
+
+

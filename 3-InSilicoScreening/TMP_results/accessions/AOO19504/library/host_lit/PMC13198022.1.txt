@@ -1,0 +1,196 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: FEMS Microbiol Lett
+Journal ID: FEMS Microbiol Lett
+Journal ID: femsle
+
+FEMS Microbiology Letters
+
+ISSN: 0378-1097
+EISSN: 1574-6968
+Publisher: Oxford University Press
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13198022
+PMID: 42053500
+DOI: 10.1093/femsle/fnag053
+Article ID: fnag053
+Article version: 1
+Subjects: Research Letter, AcademicSubjects/SCI01150
+
+Phylogenetic support of pebS as a phage-exclusive auxiliary metabolic gene
+
+Baeuerle Nina Microbiology, Department of Biology, RPTU University Kaiserslautern-Landau, 67663 Kaiserslautern, Germany
+
+https://orcid.org/0000-0002-7757-6839 Frankenberg-Dinkel Nicole Microbiology, Department of Biology, RPTU University Kaiserslautern-Landau, 67663 Kaiserslautern, Germany
+
+https://orcid.org/0000-0001-5237-1899 Kupczok Anne Bioinformatics, Department of Plant Science, Wageningen University & Research, 6700 PB Wageningen, The Netherlands
+
+Oren Aharon Editor
+Corresponding author. Bioinformatics, Department of Plant Science, Wageningen University & Research, 6700 PB Wageningen, The Netherlands. E-mail: anne.kupczok@wur.nl
+Publication date: 2026
+Electronic publication date: 2026 Apr 29
+Volume: 373
+Electronic Location ID: fnag053
+Received 2026 Jan 28; Revised 2026 Mar 11; Accepted 2026 Apr 23; 2026 May 23
+Copyright: © The Author(s) 2026. Published by Oxford University Press on behalf of FEMS.
+Copyright year: 2026
+License: This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: auxiliary metabolic genes, cyanophages, cyanobacteria, phycobilin, ferredoxin-dependent bilin reductase
+
+Funding: Deutsche Forschungsgemeinschaft 10.13039/501100001659 SPP2330
+Page count: 7
+
+==============================
+Abstract
+
+Marine picocyanobacteria, including the genera Prochlorococcus and Synechococcus, are major contributors to oceanic photosynthesis and global primary production. Their populations are influenced by T4-like cyanophages, which frequently encode auxiliary metabolic genes (AMGs) capable of altering host metabolism during infection. One such AMG, pebS, encodes a ferredoxin-dependent bilin reductase (FDBR) phycoerythrobilin (PEB) synthase, which converts biliverdin IXα to PEB. In contrast, cyanobacteria perform a two-step reaction using the FDBR enzymes PebA (15,16-dihydrobiliverdin: ferredoxin oxidoreductase) and PebB (PEB:ferredoxin oxidoreductase), whereas pebS has not been reported in cyanobacterial genomes. Here, we re-evaluated whether pebS is truly restricted to cyanophages by searching the Ocean Gene Atlas (OGA) and all available cyanobacterial genomes at National Center for Biotechnology Information (NCBI) using a cyanophage-derived PebS sequence as query. Using protein phylogenies, we found that most search hits group with PebA or PebB, while few sequences from cyanobacterial genome assemblies were confirmed to belong to PebS based on phylogenetic placement. However, genomic context analysis of these pebS sequences revealed their phage origin, consistent with cyanophage infection at the time of sampling. In conclusion, our results support that pebS is absent in cyanobacterial genomes, raising questions about the evolutionary and biochemical causes for the two-step reduction of biliverdin IXα to PEB in these organisms.
+
+Comparative genomics shows that the auxiliary metabolic gene pebS can only be found in phages and their cyanobacterial hosts require two enzymes for the same reaction.
+
+Introduction
+
+The marine picocyanobacteria Prochlorococcus and Synechococcus are the most abundant photosynthetic organisms in the marine environment (Flombaum et al. 2013, Scanlan and West 2002) and thereby play an important role in primary production in the oceans. The populations of Prochlorococcus and Synechococcus, as well as other marine cyanobacteria, are affected by the infection with cyanophages (Dekel-Bird et al. 2015, Warwick-Dugdale et al. 2019). Many cyanophages are T4-like phages possessing genomes that, in addition to the conserved T4 core genes, encode diverse auxiliary metabolic genes (AMGs). Many AMGs are host-like and are thought to have been acquired by the phage via horizontal gene transfer from their host (Bryan et al. 2008, Zeng and Chisholm 2012). These genes are hypothesized to modulate host metabolism during infection, thus conferring an advantage in the production of phage particles (Hurwitz and U’Ren 2016, Puxty et al. 2015). Cyanophage AMGs frequently encode proteins involved in photosynthesis, with psbA, encoding the D1 subunit of photosystem II, being the most common one (Lindell et al. 2005; Sullivan et al. 2006). In addition, genes encoding proteins involved in the biosynthesis of phycobilins are frequently found. These linear tetrapyrrole pigments are essential for the cyanobacterial light-harvesting complexes, the phycobilisomes (PBS) (Dammeyer and Frankenberg-Dinkel 2008). Among them are the genes heme oxygenase (ho1) and phycocyanobilin:ferredoxin oxidoreductase (pcyA), both encoding enzymes with the same activity as their host counterparts (Dammeyer et al. 2008, Sullivan et al. 2005). The heme oxygenase is involved in the cleavage of the heme macrocycle to the first linear tetrapyrrole biliverdin IX α (BV), and PcyA, a ferredoxin-dependent bilin reductase (FDBR) reducing BV to the light harvesting chromophore phycocyanobilin (Dammeyer et al. 2008, Frankenberg and Lagarias 2003).
+
+In the first sequenced cyanophage genomes, an additional AMG encoding a putative FDBR was identified (Sullivan et al. 2006). Interestingly, the FDBR PebS, found in certain phages infecting Prochlorococcus or Synechococcus, catalyzes a reaction that requires two separate enzymes in the host (Dammeyer et al. 2008). Cyanobacteria perform two subsequent two-electron reductions by the FDBRs 15,16-dihydrobilinverdin (DHBV):ferredoxin oxidoreductase PebA and phycoerythrobilin (PEB):ferredoxin oxidoreductase PebB. The FDBR PebA reduces the substrate BV at the 15,16-methine bridge of the tetrapyrrole to the intermediate 15,16-DHBV which is directly converted to PEB by PebB (Dammeyer and Frankenberg-Dinkel 2006). As demonstrated in vitro, PebS catalyzes the complete four-electron reduction of BV to PEB in a single, one-step reaction (Fig. 1). Owing to its high amino acid sequence similarity to PebA, PebS was originally misannotated as PebA (Dammeyer et al. 2008). However, unlike HO1 and PcyA, PebS does not mirror the reaction performed by its host, raising the question on its origin and evolution. In line with this, no cyanobacteria have yet been identified to possess the pebS gene. Here, we re-evaluate the genomic distribution of pebS using publicly available metagenomes and cyanobacteria assemblies, and show that PebS is exclusively encoded by phages.
+
+Figure 1 Reduction of biliverdin via the intermediate DHBV by the enzymes PebA and PebB encoded in cyanobacteria; one-step reduction via the cyanophage-encoded enzyme PebS.
+
+This Figure shows the chemical formula of Biliverdin and its stepwise reduction via 15,16-dihydrobiliverdin to Phycoerythrobilin by ferredoxin-dependent enzymes. The direct conversion is perfomed by the enzyme PebS from phages displayed by the arrow going from BV to PEB. The cyanobacterial enzymes PebA and PebB each only perform half of this conversion as shown in the lower part of the reaction scheme, all reactions run via 15,16-DHBV as a biosynthetic intermediate. All enzymes require the electron donor ferredoxin that is oxidized during the reaction.
+
+Methods
+
+Preparing a dataset of PebA and PebB sequences
+
+To analyze the relationships between PebA, PebB, and PebS, several PebA and PebB amino acid sequences were retrieved from the UniProt database (hereinafter referred to as test data set, Table S1 ). Five sequences from Prochlorococcus and Synechococcus were used for PebA and PebB, respectively. Five sequences were used for PebS.
+
+Preparing an HMM from PebS sequences
+
+Amino acid sequences of the FDBR PebS were obtained by searching in the ClusteredNR database (dated 16 September 2025) using the BLASTp web service at the National Center for Biotechnology Information (NCBI) (Altschul et al. 1990) with the PebS sequence of the cyanophage P-SSM2 (GenBank accession: ACY75934.1) as input. The word size was reduced to two and the number of hits to the maximum, and other parameters were left at default. Hits annotated as PebS belonging to cyanophages were downloaded and aligned with the original PebS using the web service MAFFT v7.511 (Multiple Alignment using Fast Fourier Transform; Katoh et al. 2019, Kuraku et al. 2013) with default parameters. Additionally, for a more sensitive search, a hidden Markov model (HMM) was created from the alignment using hmmbuild rev3.1b2 (Finn et al. 2011, Hoang et al. 2018).
+
+Screening for PebS in the OGA
+
+The HMM was used for screening for bacterial PebS sequences encoded in metagenome assemblies from the Ocean Gene Atlas v2.0 (OGA) v2.0 (Vernette et al. 2022) (dataset OM-RGCv2 + G) with default parameters. The resulting bacterial sequences were extracted and aligned as described above. A phylogenetic tree was constructed from the alignment with IQ-TREE v3.0.1 (-B 1000) and the best selected model (Hoang et al. 2018, Wong et al. 2025).
+
+Search for pebS in cyanobacterial genomes (NCBI database)
+
+Sequences of cyanobacteria (Cyanobacteriota (blue–green bacteria) were obtained from the NCBI genome database (September 24, 2025). All genomes at all assembly levels were used. The completeness of the genomes was determined using CheckM2 v1.1.0 (Chklovski et al. 2023). The contigs of the individual genomes were tested for possible phage origin by detecting phage sequences with geNomad v1.9.0 (Camargo et al. 2024).
+
+The encoded protein sequences were used to create a cyanobacterial database with BLAST v2.16.0+ . The database was then screened for PebS sequences using the cyanophage P-SSM2 PebS as input sequence. The word size was therefore reduced to two, other parameters were left at default. The resulting sequences were aligned using the web service MAFFT v7.511 with the FFT-NS-i method. A phylogenetic tree was constructed from the alignment with IQ-TREE v3.0.1 (-B 1000) and the best selected model.
+
+Search for pebA and pebB in cyanobacterial genomes
+
+To check whether pebA and pebB sequences are also present in the genome alongside pebS, the genomes in which pebS sequences were found were also screened for pebA and pebB. For this purpose, the PebA and PebB sequences from Synechococcus spp. RS9916 were blasted against the translated genomes (webservice tblastn, at NCBI).
+
+Results
+
+PebA, PebB, and PebS form distinct groups in a phylogenetic tree
+
+To detect pebS in cyanobacterial genomes, we first aimed to establish the relationships between the FDBRs PebS, PebA, and PebB (Fig. 1). To this end, a test data set with known amino acid sequences of cyanobacterial PebA and PebB, as well as annotated PebS sequences from cyanophages was used (Table S1). The phylogeny constructed from these sequences supports that PebA, PebB, and PebS form distinct groups (Fig. S1, each with bootstrap support at least 95), confirming previous results (Dammeyer et al. 2008, Ledermann et al. 2016). Since these FDBRs show high sequence similarities, they can be found simultaneously in a BLASTp search and thus a phylogenetic placement of newly detected FDBRs will be used to distinguish them.
+
+pebS sequences are absent in bacterial assemblies from the Ocean Gene Atlas
+
+To investigate whether pebS genes can also be found in cyanobacterial genomes, several databases were systematically screened. In a first approach, the Ocean Gene Atlas (OGA) (Tara Ocean) (Vernette et al. 2022) was searched. For this purpose, an HMM constructed from 30 cyanophage PebS amino acid sequences was used as input. The search resulted in 1 038 amino acid sequences, of which 95 sequences were classified as belonging to cyanobacteria. However, after multiple sequence alignment (MSA) and the construction of a phylogenetic tree, it became apparent that none of the sequences are actual PebS (Fig. 2). Instead, the search found sequences from the related FDBRs PebB (13 sequences) and PebA (79 sequences). In addition, the phylogenetic tree contains an additional group of three sequences that cannot be clearly assigned to any of the three FDBRs. To resolve the origin of the three sequences, an additional blast search was carried out on the blast web server (BLASTp, database: ClusteredNR). For all three sequences, the lowest e-value for a functionally annotated hit was for PebA. However, the best hits were protein sequences without functional annotation. It cannot therefore be ruled out that the three sequences form their own functional group.
+
+Figure 2 Midpoint rooted maximum-likelihood phylogenetic tree of PebS, PebB, and PebA data from the OGA sequences and a test dataset. The tree was constructed using IQ-TREE and visualized with iTOL as midpoint rooted (Letunic and Bork 2011, 2024). The scale bar indicates the average number of amino acid substitutions per site.
+
+ Phylogenetic tree of the OGA sequences and test data set showing which sequences belong to the different FDBRs.
+
+Five pebS sequences can be found in cyanobacterial assemblies from NCBI
+
+In a second approach, a database was created using all cyanobacterial genome sequences available at NCBI. All assembly levels were included, resulting in a database with the protein sequences of 10  892 cyanobacterial genomes (Table S2). Subsequently, a search against this database was performed with BLASTp using PebS from the cyanophage P-SSM2 as the input sequence. A phylogenetic tree was constructed from the top 500 resulting sequences aligned with the test data (Fig. S2). Based on the phylogeny, two main groups can be identified: a large cluster corresponding to PebA (495 sequences excluding the test dataset) and a small cluster corresponding to PebS (five sequences excluding the test dataset). Note that the PebS sequences were initially found as the top five hits of the BLAST search, having a lower e-value than PebA sequences; thus, we conclude that no further pebS sequences are present in cyanobacteria, despite looking only at the top 500 hits. The phylogeny of the test data with the five identified PebS sequences (Fig. 3) also supports the different group and the five sequences belong to PebS.
+
+Figure 3 Midpoint rooted maximum likelihood phylogenetic tree of PebA, PebB, and PebS from NCBI genomes and a test dataset. The tree was constructed using IQ-TREE and visualized with iTOL as midpoint rooted (Letunic and Bork 2011, 2024). The scale bar indicates the average number of amino acid substitutions per site.
+
+Phylogenetic tree of the NCBI sequences and test data set showing which sequences belong to the different FDBRs and to Synechococcus or Prochlorococcus.
+
+The five newly identified PebS sequences are all from the marine environment and originate from one Synechococcus and four Prochlorococcus assemblies (Table 1). The Synechococcus assembly is a metagenome assembled genome (MAG) with a completeness estimated with CheckM2 of 100%. The four Prochlorococcus assemblies are single-cell amplified genomes (SAGs) with completeness ranging between 12% and 96%. The overall contamination rate of the genomes is low, at a maximum of 1.5%.
+
+Table 1 PebS sequences detected in cyanobacterial assemblies.
+
+	JBJBBP010000001.1_32	QCFQ01000027.1_21	QCLS01000003.1_87	QCLT01000001.1_109	QCAK01000003.1_35	
+	MAG	SAG	SAG	SAG	SAG	
+Assembly ID	GCA_047286285.1	GCA_003280165.1	GCA_003214355.1	GCA_003214335.1	GCA_003279285.1	
+Organism	Synechococcus spp. isolate CUG2217	Prochlorococcus spp. AG-363-L17	Prochlorococcus spp. AG-418-C09	Prochlorococcus spp. AG-418-C17	Prochlorococcus spp. AG-341-K05	
+Genome completeness (%)	100	61.31	96.03	57.67	12.09	
+Contamination (%)	0.8	0.9	0.08	1.51	0.02	
+Contig length (bp)	193 981	10 763	189 106	210 333	33 930	
+Predicted Virus length (bp)	192 034	10 535	188 557	209 542	33 073	
+Virus score	0.9998	0.9999	0.9999	0.9998	0.9998	
+PebA	JBJBBP010000002.1_566	QCFQ01000015.1_18	QCLS01000001.1_336	QCLT01000019.1_19	None	
+PebB	JBJBBP010000002.1_565	QCFQ01000015.1_17	QCLS01000001.1_335	QCLT01000019.1_18	None	
+For each of the sequence numbers, the assembly ID as well as the genome type is given. MAG — metagenome assembled genome; SAG — single-cell amplified genome. The genome completeness as well as the contamination was obtained using CheckM2. The predicted virus length as well as the virus score was obtained using geNomad. The genomes were additionally checked for PebA and PebB sequences.
+
+All pebS sequences detected in cyanophage genomes can be traced back to phage DNA
+
+Since pebS was so far only known in cyanophage genomes, we next wanted to test whether the detected pebS sequences are embedded within phage genomes that might have been included in the sequencing during an active phage infection. To this end, the genomes were additionally examined using geNomad to detect phage DNA. The geNomad results show that all contigs containing the pebS sequences are contigs of phage origin (Table 1). In all cases, the predicted virus length fills nearly the entire contig and the virus score is close to one, clearly identifying them as phages. In addition to the pebS sequence, pebA and pebB were also found in the genomes in four of five cases. For the genome where pebA and pebB could not be found, the genome completeness is very low (12%); thus, no statement can be made about the presence or absence of pebA and pebB in the genome.
+
+Discussion
+
+Here, we searched for the phage AMGs pebS in bacterial genomes. First, we searched in the OGA but we did not find it. Second, among 10  892 publicly available cyanobacteria genome assemblies in NCBI, we detected five pebS sequences that we confirmed to encode PebS due to their phylogenetic placement. However, a closer examination of these genome assemblies revealed that they originated from single-cell genomics or metagenomics of environmental samples. Furthermore, the pebS sequences can all be found on phage contigs; thus, the samples likely included phage DNA. Since temperate cyanophages seem to be exceedingly rare (Flores-Uribe et al. 2019, Sullivan et al. 2003) and since the predicted length of the virus region covers nearly the complete contigs with pebS, the detected phage genomes likely originate from a lytic phage infection. The high prevalence of lytic phage infections within public bacterial assemblies was recently discovered and challenges classical phage lifestyle categories (Perfilyev et al. 2026). Here we show how the presence of lytic phage genomes in bacterial assemblies also complicates the evolutionary analysis of AMGs.
+
+From the presented analysis, we can conclude that none of the sequenced cyanobacteria genomes carries the pebS gene. Instead, they harbor pebA and pebB. Nevertheless, we cannot rule out the possibility that cyanobacteria with pebS exist and have simply not yet been found. Further possibilities for searching for PebS in currently known sequence data could be explored in the future. For example, metagenome assemblies could be searched with Logan (Chikhi et al. 2025) using diverse pebS gene sequences.
+
+Our findings raise the question how the AMG pebS evolved. PebS shows a strong similarity to PebA. In addition, the mutation of a crucial active site aspartate residue can alter the function of PebS so that it only performs the reduction of BV to 15,16-DHBV (Busch et al. 2011). This suggests that pebA could have evolved from pebS through mutation, or vice versa. Thus, one possibility is that phages have acquired pebA from their cyanobacterial host via horizontal gene transfer, which then evolved into pebS. However, it is also conceivable that cyanobacteria originally possessed pebS, which was acquired by the phage. After the horizontal gene transfer, gene duplication in the cyanobacterial host could have resulted in the two genes, pebA and pebB. This scenario is also supported by the fact that pebA and pebB genes occur together in a bicistronic operon (Aras et al. 2020, Dammeyer and Frankenberg-Dinkel 2006). Neither evolutionary scenario has been proven conclusively and although extensive phylogenetic analysis has been performed on the whole FDBR family in order to investigate their origin, there is still lacking evidence for the origin of PebS (Rockwell et al. 2023).
+
+Regardless of these two possibilities, another question is why it is advantageous for cyanophages to carry the one-step enzyme, while cyanobacteria split the reaction into two enzymatic steps. This could be advantageous for viruses, as a smaller genome allows faster replication, leading to more rapid release of new virions (DiMaio 2012, Hatfull and Hendrix 2011). Indeed, the gene pebS only needs half of the genetic material compared to pebA and pebB. Furthermore, why is it advantages for cyanobacteria to split the reaction into two enzymatic steps? One explanation for this would be a tighter regulation of PEB production. Another possibility would be the potential use of the reduction product of BV IXα (Beale and Cornejo 1991, Wedemayer et al. 1992). However, no use of 15,16-DHBV in cyanobacteria has been demonstrated to date. This contrasts with findings in cryptophytes, where it has been shown that 15,16-DHBV binds to their specific phycobiliproteins (Wedemayer et al. 1992). Another reason for dividing the reaction into two steps in cyanobacteria could be the possibility of tighter regulation through, for example, feedback inhibition (Dammeyer et al. 2008).
+
+Thus, despite the availability of a single-enzyme alternative, cyanobacteria rely exclusively on the PebA–PebB pathway for PEB biosynthesis, and the reasons for the absence of pebS from their genomes remain to be elucidated.
+
+Supplementary Material
+
+fnag053_Supplemental_Files
+
+Conflicts of interest
+
+None declared.
+
+Funding
+
+This work was supported by the Deutsche Forschungsgemeinschaft (DFG) (priority program SPP2330 to N.F.D.).
+
+
+References
+
+Altschul  SF, Gish  W, Miller  W  et al.  Basic local alignment search tool. J Mol Biol. 1990;215:403–10., 10.1016/s0022-2836(05)80360-2.2231712
+Aras  M, Hartmann  V, Hartmann  J  et al.  Proximity channeling during cyanobacterial phycoerythrobilin synthesis. FEBS J. 2020;287:284–94., 10.1111/febs.15003.31319014
+Beale  SI, Cornejo  J.  Biosynthesis of phycobilins. 15,16-Dihydrobiliverdin IX alpha is a partially reduced intermediate in the formation of phycobilins from biliverdin IX alpha. J Biol Chem. 1991;266:22341–5., 10.1016/S0021-9258(18)54577-4.1939257
+Bryan  MJ, Burroughs  NJ, Spence  EM  et al.  Evidence for the intense exchange of MazG in marine cyanophages by horizontal gene transfer. PLoS One. 2008;3:e2048, 10.1371/journal.pone.0002048.18431505 PMC2297514
+Busch  AWU, Reijerse  EJ, Lubitz  W  et al.  Radical mechanism of cyanophage phycoerythrobilin synthase (PebS). Biochem J. 2011;433:469–76., 10.1042/BJ20101642.21050180
+Camargo  AP, Roux  S, Schulz  F  et al.  Identification of mobile genetic elements with geNomad. Nat Biotechnol. 2024;42:1303–12. 10.1038/s41587-023-01953-y.37735266 PMC11324519
+Chikhi  R, Lemane  T, Loll-Krippleber  R  et al.  Logan: planetary-scale genome assembly surveys life’s diversity. Biorxiv. 2025, 10.1101/2024.07.30.605881.
+Chklovski  A, Parks  DH, Woodcroft  BJ  et al.  CheckM2: a rapid, scalable and accurate tool for assessing microbial genome quality using machine learning. Nat Methods. 2023;20:1203–12., 10.1038/s41592-023-01940-w.37500759
+Dammeyer  T, Bagby  SC, Sullivan  MB  et al.  Efficient phage-mediated pigment biosynthesis in oceanic cyanobacteria. Curr Biol. 2008;18:442–8., 10.1016/j.cub.2008.02.067.18356052
+Dammeyer  T, Frankenberg-Dinkel  N.  Insights into phycoerythrobilin biosynthesis point toward metabolic channeling. J Biol Chem. 2006;281:27081–9., 10.1074/jbc.M605154200.16857683
+Dammeyer  T, Frankenberg-Dinkel  N.  Function and distribution of bilin biosynthesis enzymes in photosynthetic organisms. Photochem Photobiol Sci. 2008;7:1121–30., 10.1039/b807209b.18846276
+Dekel-Bird  NP, Sabehi  G, Mosevitzky  B  et al.  Host-dependent differences in abundance, composition and host range of cyanophages from the Red Sea. Environ Microbiol. 2015;17:1286–99., 10.1111/1462-2920.12569.25041521
+DiMaio  D.  Viruses, masters at downsizing. Cell Host Microbe. 2012;11:560–1., 10.1016/j.chom.2012.05.004.22704616
+Finn  RD, Clements  J, Eddy  SR  HMMER web server: interactive sequence similarity searching. Nucleic Acids Res. 2011;39:W29–37., 10.1093/nar/gkr367.21593126 PMC3125773
+Flombaum  P, Gallegos  JL, Gordillo  RA  et al.  Present and future global distributions of the marine cyanobacteria Prochlorococcus and Synechococcus. Proc Natl Acad Sci USA. 2013;110:9824–9., 10.1073/pnas.1307701110.23703908 PMC3683724
+Flores-Uribe  J, Philosof  A, Sharon  I  et al.  A novel uncultured marine cyanophage lineage with lysogenic potential linked to a putative marine Synechococcus "relic" prophage. Environ Microbiol Rep. 2019;11:598–604., 10.1111/1758-2229.12773.31125500
+Frankenberg  N, Lagarias  JC.  Phycocyanobilin: ferredoxin oxidoreductase of Anabaena sp. PCC 7120. Biochemical and spectroscopic. J Biol Chem. 2003;278:9219–26., 10.1074/jbc.M211643200.12514179
+Hatfull  GF, Hendrix  RW.  Bacteriophages and their genomes. Curr Opin Virol. 2011;1:298–303., 10.1016/j.coviro.2011.06.009.22034588 PMC3199584
+Hoang  DT, Chernomor  O, von  HA  et al.  UFBoot2: improving the ultrafast bootstrap approximation. Mol Biol Evol. 2018;35:518–22., 10.1093/molbev/msx281.29077904 PMC5850222
+Hurwitz  BL, U’Ren  JM.  Viral metabolic reprogramming in marine ecosystems. Curr Opin Microbiol. 2016;31:161–8., 10.1016/j.mib.2016.04.002.27088500
+Katoh  K, Rozewicki  J, Yamada  KD.  MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. Brief Bioinform. 2019;20:1160–6., 10.1093/bib/bbx108.28968734 PMC6781576
+Kuraku  S, Zmasek  CM, Nishimura  O  et al.  aLeaves facilitates on-demand exploration of metazoan gene family trees on MAFFT sequence alignment server with enhanced interactivity. Nucleic Acids Res. 2013;41:W22–8., 10.1093/nar/gkt389.23677614 PMC3692103
+Ledermann  B, Béjà  O, Frankenberg-Dinkel  N.  New biosynthetic pathway for pink pigments from uncultured oceanic viruses. Environ Microbiol. 2016;18:4337–47., 10.1111/1462-2920.13290.26950653
+Letunic  I, Bork  P.  Interactive Tree of Life v2: online annotation and display of phylogenetic trees made easy. Nucleic Acids Res. 2011;39:W475–8., 10.1093/nar/gkr201.21470960 PMC3125724
+Letunic  I, Bork  P.  Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool. Nucleic Acids Res. 2024;52:W78–82., 10.1093/nar/gkae268.38613393 PMC11223838
+Lindell  D, Jaffe  JD, Johnson  ZI  et al.  Photosynthesis genes in marine viruses yield proteins during host infection. Nature. 2005;438:86–89., 10.1038/nature04111.16222247
+Perfilyev  A, Gæde  A, Hooton  S  et al.  Large-scale analysis of bacterial genomes reveals thousands of lytic phages. Nat Microbiol. 2026;11:42–52., 10.1038/s41564-025-02203-4.41461920 PMC12768965
+Puxty  RJ, Millard  AD, Evans  DJ  et al.  Shedding new light on viral photosynthesis. Photosynth Res. 2015;126:71–97., 10.1007/s11120-014-0057-x.25381655
+Rockwell  NC, Martin  SS, Lagarias  JC.  Elucidating the origins of phycocyanobilin biosynthesis and phycobiliproteins. Proc Natl Acad Sci USA. 2023;120:e2300770120. 10.1073/pnas.2300770120.37071675 PMC10151467
+Scanlan  DJ, West  NJ.  Molecular ecology of the marine cyanobacterial genera Prochlorococcus and Synechococcus. FEMS Microbiol Ecol. 2002;40:1–12., 10.1111/j.1574-6941.2002.tb00930.x.19709205
+Sullivan  MB, Coleman  ML, Weigele  P  et al.  Three Prochlorococcus cyanophage genomes: signature features and ecological interpretations. PLoS Biol. 2005;3:e144, 10.1371/journal.pbio.0030144.15828858 PMC1079782
+Sullivan  MB, Lindell  D, Lee  JA  et al.  Prevalence and evolution of core photosystem II genes in marine cyanobacterial viruses and their hosts. PLoS Biol. 2006;4:e234, 10.1371/journal.pbio.0040234.16802857 PMC1484495
+Sullivan  MB, Waterbury  JB, Chisholm  SW.  Cyanophages infecting the oceanic cyanobacterium Prochlorococcus.. Nature. 2003;424:1047–51., 10.1038/nature01929.12944965
+Vernette  C, Lecubin  J, Sánchez  P  et al.  The Ocean Gene Atlas v2.0: online exploration of the biogeography and phylogeny of plankton genes. Nucleic Acids Res. 2022;50:W516–26., 10.1093/nar/gkac420.35687095 PMC9252727
+Warwick-Dugdale  J, Buchholz  HH, Allen  MJ  et al.  Host-hijacking and planktonic piracy: how phages command the microbial high seas. Virol J. 2019;16:15. 10.1186/s12985-019-1120-1.30709355 PMC6359870
+Wedemayer  GJ, Kidd  DG, Wemmer  DE  et al.  Phycobilins of cryptophycean algae. Occurrence of dihydrobiliverdin and mesobiliverdin in cryptomonad biliproteins. J Biol Chem. 1992;267:7315–31., 10.1016/S0021-9258(18)42521-5.1559975
+Wong  T, Ly-Trong  N, Ren  H  et al.  IQ-TREE 3: phylogenomic inference software using complex evolutionary models. EcoEvoRxiv. 2025,; 10.32942/X2P62N.PMC13191116 42085559
+Zeng  Q, Chisholm  SW.  Marine viruses exploit their host’s two-component regulatory system in response to resource limitation. Curr Biol. 2012;22:124–8., 10.1016/j.cub.2011.11.055.22244998

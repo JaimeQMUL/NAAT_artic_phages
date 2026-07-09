@@ -1,0 +1,105 @@
+Summary file for YP_009880227
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC13061930.1.txt
+Thermal Evidence:
+- Optimal replication/activity observed at 28°C (for isolation/assay incubation).
+- Viability maintained after 24h incubation at 4°C and 25°C.
+- Infectivity retained at 37°C for one phage, but reduced for the other two.
+- Infectivity was minimal or undetectable at 50°C and above.
+- The phages showed viability across a broad pH range (pH 3–11), with elimination at pH 1 and pH 13.
+- One phage exhibited comparatively greater thermal tolerance, while another showed broader stability across the tested pH range.
+
+Environmental Context:
+- Isolated from sewage and soil samples.
+- The study notes that the optimal conditions for almond bacterial blast development are typically cool, wet springs.
+
+Concise Summary:
+The phages were characterized using assays incubated at 28°C, which is the optimal temperature for bacterial growth and phage activity. The phages demonstrated viability after 24 hours at 4°C and 25°C, suggesting cold tolerance relevant to the natural environment of the pathogen. Thermal stability assays showed that infectivity was maintained at 37°C for one phage, but significantly reduced for the others. Activity was minimal or undetectable at 50°C and higher. The phages exhibited stability across a wide pH range (pH 3–11), with the most extreme pH values (pH 1 and pH 13) eliminating detectable infectivity. The authors noted that the natural development conditions for the associated pathogen are cool and wet. The data suggest a general mesophilic nature with specific adaptations to cooler temperatures, and the observed stability profiles indicate differential thermal resilience among the three distinct phage lineages.
+
+
+Paper: PMC8217332.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for bacterial cultures and phage enumeration/incubation).
+- Growth temperature range: 30°C (for bacterial cultures and phage enumeration/incubation).
+- Survival temperature range: Not explicitly stated for the phages or bacteria, but incubation was performed at room temperature, 30°C, or 37°C.
+- Incubation conditions: Overnight incubation at 30°C for phage enumeration; incubation at 16h at room temperature, 30°C, or 37°C for tailspike halo assays; incubation overnight at 30°C for phage enumeration.
+- Environmental source/habitat: Food production/processing environments (implied by biocontrol application).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, or specific thermal adaptations was found. The general growth conditions suggest mesophilic activity.
+
+Environmental Context:
+- Habitat/Source: Food production/processing environments (used for biocontrol applications).
+
+Concise Summary:
+The study utilized standard laboratory conditions for culturing and assaying the bacteriophages and their target bacteria. Bacterial cultures were grown overnight in LB medium at 30°C. Phage enumeration and several assays were conducted with incubation temperatures set at 30°C, room temperature, or 37°C. The overall context relates to the application of these phages as biocontrol agents in food production, suggesting the organisms are adapted to mesophilic conditions typical of food matrices. No evidence of isolation from extreme thermal environments or specific thermal adaptations was reported.
+
+
+Paper: PMC12632334.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37°C with shaking at 250rpm.
+- Environmental source/habitat: Not specified; the study utilized laboratory-adapted bacterial strains (e.g., *E. coli* K1, *E. coli* O45:H10, etc.) and bacteriophages.
+- Mention of thermal adaptation: No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The study utilized laboratory-adapted bacterial strains and bacteriophages, with all procedures conducted under controlled laboratory conditions (37°C incubation).
+
+Concise Summary:
+The experimental procedures were conducted entirely under controlled laboratory conditions, with bacterial cultures and phage propagation consistently incubated at 37°C with shaking at 250rpm. The study utilized laboratory-adapted bacterial strains and bacteriophages, and there is no evidence provided regarding the isolation of the organisms from extreme environments or any explicit classification of their thermal adaptation (e.g., mesophile, thermophile). The focus of the research was on the molecular mechanisms of phage-host interaction, utilizing deep mutational scanning to map functional constraints and adaptive potential of the tailspike protein, rather than investigating thermal physiology.
+
+
+Paper: PMC6473133.1.txt
+Thermal Evidence:
+- Incubation temperature for one phage was 37°C.
+- Incubation temperature for the other phage was 20°C.
+- Incubation temperature for subsequent plaque isolation was 30°C.
+
+Environmental Context:
+- Sewage water from The Netherlands.
+
+
+Paper: 35287807.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the target pathogen or the phages.
+
+Environmental Context:
+- The target pathogen was isolated from food matrices (beef and vegetables).
+
+Concise Summary:
+The provided text focuses exclusively on the efficacy of bacteriophages (EP75 and EP335) in reducing viable counts of a specific Shiga toxin-producing *Escherichia coli* strain on beef and vegetables (romaine lettuce, spinach, zucchini). There is no mention of optimal growth temperature, growth temperature range, survival temperature range, incubation conditions, or any specific thermal adaptations (thermophilic, psychrophilic, mesophilic, heat/cold tolerance) for the pathogen or the phages. The study details the reduction of bacterial load ($	ext{log}_{10} 	ext{CFU/cm}^2$) following phage treatment at various concentrations ($	ext{PFU/cm}^2$) over time (e.g., 30 minutes) on food surfaces, but provides no physiological data related to temperature dependence.
+
+
+Paper: PMC13190970.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the analyzed microbial components.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The samples were collected from the feces of wild rodents in a tropical forest environment (Rio de Janeiro, Brazil).
+- The analysis focused on the virome and microbiota, not on culturing or physiological characterization under controlled thermal conditions.
+
+Concise Summary:
+This study characterizes the fecal virome and microbiota of wild rodents using high-throughput sequencing. The analysis is purely metagenomic and does not provide any data regarding the thermal physiology, optimal growth temperatures, or temperature adaptations (thermophilic, psychrophilic, mesophilic) of the detected microbial or viral components. The environmental context is the feces of wild rodents in a tropical forest setting.
+
+
+Paper: PMC13190283.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organisms studied.
+- No mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations was found.
+- No details regarding temperature-adapted enzymes or membrane adaptations were reported.
+
+Environmental Context:
+- The elements were analyzed across green algae, fungi, and bacteria, with the majority of representatives originating from mitochondrial genomes of these groups.
+- The study notes that the elements are found in diverse environments, including marine and terrestrial sources (implied by the source organisms).
+
+Concise Summary:
+The paper focuses on the molecular evolution and structural plasticity of LAGLIDADG homing endonuclease-encoding group II introns. The analysis is comparative and phylogenetic, drawing data from 753 elements across green algae, fungi, and bacteria. No direct physiological data regarding optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were presented. The environmental context is defined by the host organisms' natural habitats (e.g., mitochondrial genomes of algae, fungi, and bacteria), but no specific thermal niche information was provided for the elements themselves.
+
+
+Paper: PMC13191018.1.txt
+No specific information regarding temperature or temperature-dependent growth conditions was found in the provided text snippets.
+
+

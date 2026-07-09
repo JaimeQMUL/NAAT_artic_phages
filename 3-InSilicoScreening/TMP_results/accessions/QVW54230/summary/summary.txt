@@ -1,0 +1,151 @@
+Summary file for QVW54230
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC10610060.1.txt
+Thermal Evidence:
+- Lytic activity retained for at least 60 min at temperatures ranging between 4 and 65 °C.
+- Stable at pH 3 to 12.
+- Highly efficacious at 37 °C and pH 7.4.
+
+Environmental Context:
+- Not explicitly stated, but the activity range suggests adaptability across various conditions.
+
+Concise Summary:
+The analyzed data indicates a broad functional temperature range for the phage activity, with retention of lytic activity observed between 4 °C and 65 °C for at least 60 minutes. The phage also demonstrated stability across a wide pH range (pH 3 to 12). Specific efficacy was noted at 37 °C and pH 7.4. No explicit classification regarding thermophilic, psychrophilic, or mesophilic adaptation was provided, but the broad operational range suggests significant thermal robustness.
+
+
+Paper: PMC10868548.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37ºC (for E. coli bacteriophages)
+- Optimal growth temperature: 30ºC (for Gordonia bacteriophages)
+- Growth temperature range: Not explicitly stated, but assays were conducted at 37ºC and 30ºC.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Assays were performed using drop spot assays with agar plates.
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Implied by the use of standard laboratory temperatures (30ºC and 37ºC).
+- Heat tolerance: Not mentioned.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: The study utilized polyvalent bacteriophages with experimentally validated host ranges, including those infecting *E. coli* and *Gordonia* species. The bacterial strains were cultured in various media (Lysogeny Broth, Tryptic Soy Broth, Brain Heart Infusion, de Man-Rogosa-Sharpe, Luria-Bertani Broth, PYCa liquid media).
+
+Concise Summary:
+The study evaluated computational host range prediction tools using bacteriophages targeting *E. coli* and *Gordonia* species. The experimental validation of host ranges for these phages was conducted under specific, controlled laboratory conditions: *E. coli* phages were tested at 37ºC, while *Gordonia* phages were tested at 30ºC. The bacterial hosts were grown in standard laboratory media (e.g., Tryptic Soy Broth, PYCa liquid media) using drop spot assays. The text does not provide data on the organism's natural thermal adaptation, extreme environment isolation, or specific thermal stress responses, focusing instead on the comparative performance of *in silico* prediction methods across these defined laboratory conditions.
+
+
+Paper: PMC11767321.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for bacteriolytic activity, adsorption, and biofilm assays).
+- Growth temperature range: 4 °C to 37 °C (for efficacy testing in green juice).
+- Survival temperature range: Stable at 4 °C to 37 °C; significant inactivation observed at temperatures above 45 °C.
+- Incubation conditions: Assays were performed at 4 °C and 25 °C for food biocontrol efficacy testing.
+- Environmental source/habitat: Isolated from wastewater collected from a sewage treatment plant.
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: Demonstrated efficacy at 4 °C, suggesting cold tolerance.
+- Mesophilic growth: Optimal activity observed at 37 °C, consistent with mesophilic organisms.
+- Heat tolerance: Stable up to 37 °C; inactivation noted above 45 °C.
+- Cold tolerance: Maintained efficacy at 4 °C, with regrowth observed at 25 °C after 24h.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Stability tested across 4–80 °C, with optimal stability range being pH 4–10 and 4–37 °C.
+
+Environmental Context:
+- Habitat/Source: Wastewater from a sewage treatment plant.
+
+Concise Summary:
+The phage exhibits optimal bacteriolytic activity and stability at 37 °C, consistent with mesophilic growth. Its stability profile shows maintenance of infectivity across a wide pH range (pH 4–10) and moderate temperatures (4–37 °C). The phage demonstrated effective biocontrol efficacy against the target pathogen in green juice samples at both 4 °C and 25 °C, with the effect being more sustained at the lower temperature (4 °C). Stability testing indicated significant inactivation above 45 °C. The phage was isolated from a sewage treatment plant, suggesting an environmental origin. The ability to maintain activity at 4 °C suggests a degree of cold tolerance, while the optimal activity at 37 °C confirms mesophilic characteristics. The phage's stability profile is advantageous for food processing and storage environments.
+
+
+Paper: PMC11539319.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the organisms.
+- Incubation conditions for antimicrobial assays were consistently maintained at $35^	ext{o}	ext{C}$ for 24 hours (antibacterial) and $35^	ext{o}	ext{C}$ for 48 hours (antifungal).
+- The study involved drying samples in an oven at $40^	ext{o}	ext{C}$ for 3 days.
+- The analysis of fatty acids involved heating at $55^	ext{o}	ext{C}$ for 20 minutes, followed by heating at $55^	ext{o}	ext{C}$ for 5 minutes.
+
+Environmental Context:
+- The organisms were collected from the Arequipa province, Peru, at altitudes ranging from 3356 to 4109 meters above sea level.
+- The study notes that the low concentration of usnic acid found in the extracts could be in concordance with the high altitudes where they were collected.
+
+Concise Summary:
+The study focused on the chemical and biological characterization of lichen extracts collected from high-altitude environments in Arequipa, Peru. While the organisms were sourced from elevated altitudes, no specific physiological data regarding optimal growth temperature, survival temperature range, or thermal adaptation (e.g., thermophilic, psychrophilic) were reported. The experimental procedures utilized controlled incubation temperatures ($35^	ext{o}	ext{C}$ for microbial assays) and moderate processing temperatures ($40^	ext{o}	ext{C}$ for drying, $55^	ext{o}	ext{C}$ for FA extraction). The environmental context is characterized by high altitude, which was correlated by the authors with the observed low concentration of secondary metabolites like usnic acid.
+
+
+Paper: 16715793.txt
+Thermal Evidence:
+- Optimal growth temperature: Not specified.
+- Growth temperature range: Not specified.
+- Survival temperature range: Storage at 4 degrees C was tested for up to 33 days.
+- Incubation conditions: Storage at 4 degrees C.
+- Environmental source/habitat: Orange juice (pH 3.6).
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Not explicitly stated, but survival at 4°C suggests mesophilic or psychrotolerant tendencies.
+- Heat tolerance: The study involved high-pressure treatment, but specific heat tolerance data beyond the initial 6°C and 20°C inlet temperatures is absent.
+- Cold tolerance: Survival was monitored at 4°C.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Orange juice.
+
+Concise Summary:
+The study investigated the survival of two strains of *Escherichia coli* inoculated into orange juice (pH 3.6) following ultrahigh-pressure homogenization (UHPH) treatment. The experiment evaluated the effect of the orange juice inlet temperature (6°C and 20°C) on lethality. Post-treatment survival was monitored during refrigerated storage at 4°C for up to 33 days. The viable counts remained high until day 18, followed by a gradual decrease. At 27 days of storage at 4°C, one strain showed greater resistance in samples pressurized at both 6°C and 20°C inlet temperatures. The organism was isolated from orange juice, and the survival monitoring at 4°C suggests adaptation to cold conditions, though no explicit classification (e.g., psychrotolerant) was provided by the authors.
+
+
+Paper: PMC12630848.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial growth/lysis assays).
+- Growth temperature range: Stable bacteriolytic activity observed across 25–55°C.
+- Survival temperature range: Stable phage titer maintained across 25–55°C. Significant reduction in titer observed at 65°C and 75°C.
+- Incubation conditions: Assays performed at 37°C for bacterial growth and phage activity.
+- Environmental source/habitat: Isolated from drainage samples.
+- Adaptation/Tolerance:
+    - The phage demonstrated stability within the temperature danger zone (25–55°C), indicating potential for biocontrol in food matrices.
+    - The phage was stable at 25°C, 35°C, and 55°C.
+    - The phage showed progressive reduction in titer at temperatures exceeding 55°C.
+- Classification: No explicit classification (e.g., psychrotolerant, mesophile) was provided by the authors, but the stability profile suggests mesophilic adaptation within the relevant food safety range.
+
+Environmental Context:
+- Habitat/Source: Drainage samples from Mysuru, Karnataka, India.
+
+Concise Summary:
+The phage exhibited robust stability across a temperature range of 25–55°C, which is relevant for food safety applications. Optimal bacterial growth and lytic activity were observed at 37°C. The phage demonstrated temperature stability within the critical food safety range (25–55°C), showing a progressive reduction in titer at higher temperatures (≥65°C). The phage was isolated from environmental drainage samples, suggesting adaptation to variable environmental conditions, though no formal classification (e.g., mesophile) was assigned by the authors.
+
+
+Paper: 22955353.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range were provided for the tested probiotic strains or the target pathogen.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The target pathogen is described as commonly found in the lower intestine of warm-blooded organisms.
+- The probiotic strains are associated with consumption from fermented foods (yoghurt and fermented milks) or as dietary supplements.
+
+Concise Summary:
+The study assessed the in vitro inhibitory activity of various probiotic strains (Lactobacilli and Bifidobacteria) against different *Escherichia coli* strains, including a diarrhoeagenic serotype. The physiological data provided focuses exclusively on antimicrobial antagonism against specific *E. coli* biotypes under laboratory conditions. No information regarding the optimal growth temperature, temperature range, or thermal adaptation characteristics (e.g., thermophilic, psychrophilic, mesophilic) of the tested microorganisms was presented.
+
+
+Paper: PMC12777444.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C, shaking at 150 rpm (for suspension growth); 37 °C, static conditions (for biofilm formation/eradication); 37 °C (for coating incubation).
+- Environmental source/habitat: Oral cavity (for testing bacteria).
+- Mention of thermal adaptation: None.
+- Explicit classification: None.
+
+Environmental Context:
+- Habitat/Source: Oral cavity (for testing bacteria).
+
+Concise Summary:
+The study utilized standard laboratory conditions for microbial growth and testing. The optimal and consistent incubation temperature for all bacterial assays (suspension growth, biofilm formation, and biofilm eradication) was 37 °C. Bacterial cultures were maintained at this temperature under specific agitation (150 rpm for suspension) or static conditions (for biofilm assays). The tested bacteria were sourced from clinical isolates and were associated with the oral cavity. No information regarding the thermal adaptation, extreme environment isolation, or specific temperature classification (e.g., mesophile) of the tested microorganisms was provided.
+
+

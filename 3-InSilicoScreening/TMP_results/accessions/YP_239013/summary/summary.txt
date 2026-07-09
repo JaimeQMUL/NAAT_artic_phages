@@ -1,0 +1,115 @@
+Summary file for YP_239013
+Number of papers: 7
+=============Summaries=============
+
+Paper: PMC13030884.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Room temperature (RT, about 22 °C) for bacterial growth (Y. enterocolitica).
+- Growth temperature range: 20 °C for enterocoliticin expression and incubation.
+- Survival temperature range: Not explicitly stated for the organisms or components.
+- Incubation conditions: Overnight incubation at RT or 20 °C.
+- Environmental source/habitat: Food samples, water, soil, and air (general phage habitat).
+- Thermal adaptation: No explicit classification (e.g., thermophilic, psychrophilic) was given for the organisms or components.
+
+Environmental Context:
+- Habitat/Source: The study utilized bacterial strains isolated from human stool, food samples, and general environmental sources (water, soil, air).
+
+Concise Summary:
+The study details the characterization of bacteriophage and bacteriocin-like molecules targeting a specific bacterial species. Bacterial growth and initial culture conditions were maintained at room temperature (RT, $\approx 22 °C$). For the production and characterization of the bacteriocin-like molecule, the optimal incubation temperature was $20 °C$. The general habitat for the phages is noted as encompassing water, soil, and air. No specific thermal adaptations (thermophilic, psychrophilic) or temperature ranges beyond the observed growth/incubation temperatures were reported for the organisms or their components.
+
+
+Paper: PMC12619734.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided for the phages.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was made.
+- No specific enzymes adapted to temperature were detailed.
+
+Environmental Context:
+- The phages were identified through metagenomic surveys from diverse aquatic systems, including freshwater ponds and lakes, marine water columns, coastal salt marshes, estuaries, and subsurface sediments (gas well). 
+- The study notes the phages are found across a wide range of environments, suggesting broad environmental adaptability, but no specific thermal niche was defined.
+
+
+Paper: PMC12407873.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37 °C for various assays (e.g., adsorption, infection, complementation).
+- Environmental source/habitat: Not specified; the study utilized laboratory-adapted bacterial strains (E. coli) and bacteriophages.
+- Mention of thermal adaptation: No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+
+Environmental Context:
+- Habitat/Source: Laboratory culture conditions using *E. coli* strains (e.g., B178, C-2, K-12).
+
+Concise Summary:
+The study details molecular and physiological characterization of bacteriophage components, focusing on the spike tip protein of bacteriophage T4. All experimental procedures, including phage growth, adsorption, infection assays (EOP, ECOI), and complementation tests, were conducted under controlled laboratory conditions at an optimal temperature of 37 °C. The source organisms were laboratory-adapted *E. coli* strains, and no information regarding the natural environmental source, extreme temperature adaptation, or thermal physiology of the phage or its components was provided. The findings are purely based on *in vitro* and *in vivo* molecular microbiology assays performed at mesophilic laboratory temperatures.
+
+
+Paper: PMC12115623.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the phages or the bacteria they infect.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+
+Environmental Context:
+- The phages were studied in the context of infections in the gastrointestinal tract of humans and animals (e.g., *E. coli* commensals/pathogens).
+- The phages were tested in various *in vivo* models, including mice, chickens, sheep, and calves.
+
+Concise Summary:
+The provided text focuses heavily on the molecular mechanisms of bacteriophage-mediated horizontal gene transfer, specifically analyzing T4-related phages infecting *E. coli*. The analysis centers on identifying genetic determinants (like those related to non-canonical bases and host DNA degradation enzymes: *denB*, *alc*, *denA*, *ndd*, *hmC*, *dCTPases-dUTPase*) that influence the frequency of generalized transduction. The study concludes that phages from the Tevenvirinae subfamily are the most promising candidates for phage therapy due to their presumed low transduction frequency, while phages from the Ackermannviridae family are suggested to be high-transducers. The entire discussion is rooted in molecular biology and genetics, with no data pertaining to the thermal physiology, growth temperature, or environmental adaptation of the phages or their bacterial hosts.
+
+
+Paper: PMC3486835.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (mentioned multiple times for various assays and growth conditions).
+- Growth temperature range: 22°C to 37°C (observed for plaque formation and growth assays).
+- Survival temperature range: 14°C to 37°C (observed for plaque formation).
+- Incubation conditions: Overnight incubation at 30°C, 43°C, 22°C, or 14°C.
+- Environmental source/habitat: Sewage treatment plants.
+- Mention of thermal adaptation: The study discusses the heat-shock response and the role of chaperones in stress conditions, but does not explicitly classify the organism as thermophilic, psychrophilic, or mesophilic. The growth conditions tested (e.g., 30°C) are consistent with mesophilic growth.
+
+Environmental Context:
+- Habitat/source: Sewage treatment plants.
+
+Concise Summary:
+The bacteriophage was isolated from sewage treatment plants. Growth and plaque formation assays were conducted across a range of temperatures, including 14°C, 22°C, 30°C, and 37°C. The optimal or standard growth temperature utilized in the experiments was 30°C. The phage exhibited growth defects when cultured at lower temperatures (e.g., 14°C) compared to its growth at 30°C, suggesting a preference for mesophilic conditions. The study details the phage's interaction with host chaperones, which are central to the host's heat-shock response, indicating the phage's ability to modulate the host's thermal stress management systems.
+
+
+Paper: PMC13189123.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but growth was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Overnight incubation at 4°C (for reconstitution/storage) and growth at 37°C.
+- Environmental source/habitat: Not explicitly stated.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by optimal growth at 37°C.
+- Heat tolerance: No mention.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/source: Not explicitly stated.
+
+Concise Summary:
+The organism was cultured optimally at 37°C, suggesting mesophilic growth conditions. Storage and reconstitution procedures were performed at 4°C. No information regarding extreme temperature adaptation, survival ranges, or specific thermal stress responses was provided in the text.
+
+
+Paper: PMC13189108.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not specified.
+- Growth temperature range: Not specified.
+- Survival temperature range: Not specified.
+- Incubation conditions: Not specified.
+- Environmental source/habitat: Deep subsurface, crustal, and mantle depths (e.g., 30 km depth, 150 km depth, upper mantle depths).
+- Mention of thermal adaptation: No specific mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations was found.
+
+Environmental Context:
+- Habitat/Source: Deep subsurface geological reservoirs, including the crust and mantle, where H2-rich fluids interact with dry minerals (e.g., carbonates, Fe-oxides).
+
+Concise Summary:
+The paper focuses on abiotic geochemical processes—specifically the redox formation of water ($	ext{H}_2	ext{O}$) from molecular hydrogen ($	ext{H}_2$) reacting with oxygen-bearing, nominally anhydrous minerals (like carbonates and Fe-oxides). The relevant physical conditions explored through natural samples, experiments, and modeling are high pressure and elevated temperatures, ranging from $200^	ext{o}	ext{C}$ to $700^	ext{o}	ext{C}$ and pressures up to $2.5 	ext{ GPa}$ (corresponding to depths of $30 	ext{ km}$ to $80 	ext{ km}$). The text notes that the resulting redox water and associated exothermic reactions could support deep subsurface microbial communities at depths down to $20 	ext{ km}$ and temperatures below $150^	ext{o}	ext{C}$, suggesting a potential habitable zone extension. However, the paper does not describe any specific microbial life, nor does it provide any explicit classification (e.g., thermophilic, mesophilic) or detailed physiological evidence regarding the thermal adaptation of any organism.
+
+

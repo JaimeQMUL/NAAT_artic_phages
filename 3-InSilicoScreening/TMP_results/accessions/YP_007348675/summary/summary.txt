@@ -1,0 +1,118 @@
+Summary file for YP_007348675
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC5219037.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for bacterial growth/assay).
+- Growth temperature range: Not explicitly stated for the phage/enzyme, but bacterial assays were performed at 37°C.
+- Survival temperature range: Stable for at least 1 month at 4°C.
+- Thermostability: Retained activity after 1h incubation at 50°C, 60°C, or 70°C; activity loss of 10% after 15 min at 80°C; 10% loss after 60 min at 80°C; completely inactivated after 30 min at 110°C.
+- Enzyme adaptation: The endolysin exhibits thermostability, suggesting adaptation to elevated temperatures.
+- Incubation conditions: Assays performed at 37°C for bacterial growth; enzyme stability tested at various temperatures.
+
+Environmental Context:
+- Source/Habitat: Isolated from environmental sewage samples.
+- Extreme Environment: Not explicitly stated as isolated from an extreme environment, but the stability profile suggests robustness.
+- Classification: No explicit classification (e.g., thermophilic, mesophile) was given by the authors, but the enzyme shows significant thermostability.
+
+Concise Summary:
+The phage-derived endolysin demonstrated robust thermal stability, retaining activity after incubation at 50°C, 60°C, and 70°C. Its stability profile indicates resilience up to 80°C (10% loss after 15 min) and 90°C (50% loss after 60 min), while complete inactivation occurred at 110°C. The enzyme maintained activity over a month at 4°C. Bacterial assays were conducted at 37°C, and the enzyme showed stability across a wide pH range (pH 2.6 to 10). The phage was isolated from environmental sewage samples, and the enzyme's demonstrated thermostability suggests potential for use under varied thermal conditions.
+
+
+Paper: PMC12686013.1.txt
+Thermal Evidence:
+- Optimal lytic activity was observed up to 50°C.
+- The enzyme retained significant lytic activity at 70°C and 80°C, although activity declined at 80°C.
+- The enzyme demonstrated strong thermal stability, with high lytic activity maintained up to 50°C.
+- The enzyme showed considerable thermal stability, retaining activity at temperatures up to 80°C.
+- The enzyme's thermal tolerance was noted to be competitive, outperforming endolysins with narrower thermal ranges.
+
+Environmental Context:
+- No explicit environmental source or habitat was provided for the enzyme's natural isolation.
+
+Concise Summary:
+The enzyme exhibits strong thermal stability, maintaining high lytic activity up to 50°C and retaining measurable activity at elevated temperatures up to 80°C. The thermal profile suggests robust heat tolerance, positioning it favorably compared to some other characterized endolysins. The optimal lytic activity is observed at temperatures up to 50°C, with activity remaining detectable at higher temperatures, indicating potential for use in thermally challenging applications.
+
+
+Paper: PMC12584253.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37 °C.
+- Survival temperature range: Retained infectivity ($\ge 80\%$ residual infectivity) between 4 °C and 40 °C. Viability decreased drastically above 60 °C.
+- Incubation conditions: Assays were performed at various temperatures, including -20 °C, 4 °C, 25 °C, 37 °C, 40 °C, 50 °C, 60 °C, and 70 °C.
+- Environmental source/habitat: Sewage water.
+- Thermophilic adaptation: No evidence.
+- Psychrophilic adaptation: No evidence.
+- Mesophilic growth: Implied by optimal growth at 37 °C.
+- Heat tolerance: Retained infectivity at 50 °C (approx. 75% residual infectivity).
+- Cold tolerance: Retained infectivity at 4 °C ($\ge 80\%$ residual infectivity).
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Stability was tested across a range of temperatures.
+
+Environmental Context:
+- Habitat/source: Sewage water.
+- Extreme environment isolation: No evidence of isolation from an extreme environment.
+- Explicit classification: No explicit classification given by the authors regarding temperature adaptation (e.g., mesophile, psychrotolerant). The phage showed stability across a broad range, suggesting mesophilic characteristics, with optimal activity observed at 37 °C.
+
+
+Paper: 31111257.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the phages or the host bacterium.
+- No mention of incubation conditions related to temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was provided.
+
+Environmental Context:
+- The phages were isolated from sewage.
+- The host bacterium is known to inhabit aquatic environments and can be found in medical samples.
+
+Concise Summary:
+The study reports the isolation and characterization of two novel bacteriophages infecting a facultative methylotroph. The phages were isolated from sewage. The host bacterium is known to inhabit aquatic environments and can be found in medical samples. No specific thermal parameters (optimal growth temperature, temperature range, or adaptation type) were reported for the phages or the host organism.
+
+
+Paper: PMC13195557.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for any microorganisms.
+
+Environmental Context:
+- No information regarding the environmental source/habitat of the microorganisms was provided.
+
+Concise Summary:
+This document is a clinical guideline for the management of febrile neutropenia in patients with neutropenia. It focuses on epidemiology, diagnosis, risk stratification, and empirical/definitive antimicrobial therapy. There is no microbiological or physiological data provided concerning the thermal characteristics (optimal growth temperature, temperature ranges, or thermal adaptations) of any associated pathogens.
+
+
+Paper: PMC13194946.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were reported for the microbial taxa or metabolic pathways analyzed.
+
+Environmental Context:
+- The samples were derived from the gut microbiome of human patients with advanced melanoma.
+
+Concise Summary:
+This meta-analysis focused on correlating gut microbiome signatures (taxonomic, functional, and BGCs) with response to immune checkpoint inhibitors in melanoma. The study utilized metagenomic sequencing data from human stool samples. No information regarding the optimal growth temperature, temperature range, or thermal adaptations of the identified microbial taxa was provided in the text or supplementary materials. The environmental context is exclusively the human gut.
+
+
+Paper: 42173318.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The study utilized cell-free ascites fluid and ascites macrophages from patients with decompensated cirrhosis. The pathogens studied are associated with the gut/ascites fluid environment.
+
+Concise Summary:
+This study investigated the bactericidal capacity of ascites fluid and macrophages against common pathogens associated with spontaneous bacterial peritonitis (SBP) in patients with decompensated cirrhosis. The analysis focused on the role of bacterial virulence factors, specifically O-antigen and capsule biosynthesis, in host evasion. No data regarding the thermal physiology, such as optimal growth temperature, temperature range, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic), were presented for the tested bacterial strains or the host components.
+
+
+Paper: PMC13195955.1.txt
+Thermal Evidence:
+- No temperature-related physiological data was reported for any microorganisms.
+
+Environmental Context:
+- No information regarding the environmental source or habitat related to temperature was provided for any microorganisms.
+
+Concise Summary:
+This paper is a quasi-experimental study evaluating the impact of an antimicrobial stewardship program on antimicrobial consumption and resistance patterns in an adult critical care unit. The analysis focuses on antimicrobial usage metrics (DDD/1,000 patient days) and microbiological outcomes (resistance rates, infection incidence) for various bacterial and fungal pathogens. No data concerning the optimal growth temperature, growth temperature range, survival temperature range, or any thermal adaptation (thermophilic, psychrophilic, mesophilic) of the isolated microorganisms were presented. The study's scope is limited to clinical microbiology and antimicrobial stewardship, not microbial physiology related to temperature.
+
+

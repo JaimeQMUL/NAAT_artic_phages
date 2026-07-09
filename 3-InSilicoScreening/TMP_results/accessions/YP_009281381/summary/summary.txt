@@ -1,0 +1,132 @@
+Summary file for YP_009281381
+Number of papers: 11
+=============Summaries=============
+
+Paper: 33509500.txt
+Thermal Evidence:
+- Survival temperature range: Viability maintained after exposure to pH 2.5 for 2 hours (simulated gastric fluid).
+- Survival temperature range: Viability maintained under refrigeration for five months.
+- Incubation conditions: Exposure to simulated intestinal fluid (pH 6.8) resulted in $\ge 50\%$ release after 5 minutes, even after prior exposure to simulated gastric fluid (pH 2.5).
+
+Environmental Context:
+- No explicit environmental source or habitat mentioned for the bacteriophage.
+
+Concise Summary:
+The study evaluated the encapsulation of a bacteriophage using various hydrocolloids (alginate, carrageenan, chitosan, whey protein). The primary focus was on improving stability and controlled release. Thermal stability data indicate that the encapsulated phages remained viable under refrigeration for five months. Furthermore, the system demonstrated resilience to acidic conditions, maintaining viability after exposure to pH 2.5 for 2 hours, and showed controlled release kinetics when exposed to simulated intestinal fluid (pH 6.8) following gastric exposure. No information regarding optimal growth temperature, growth temperature range, or specific thermal adaptations (thermophilic, psychrophilic, etc.) was provided for the bacteriophage.
+
+
+Paper: PMC12730012.1.txt
+Thermal Evidence:
+- Thermophilic conditions were noted to outperform mesophilic and psychrophilic conditions, often doubling the degradation rate for several classes of antibiotics.
+- Anaerobic digestion showed that thermophilic conditions were more effective than mesophilic and psychrophilic conditions for antibiotic removal.
+
+Environmental Context:
+- The context for these observations relates to the degradation of antibiotics in wastewater/sludge treatment systems.
+
+
+Paper: PMC12389686.1.txt
+Thermal Evidence:
+- The paper discusses the thermal stability of bacteriophages during formulation and storage, rather than the optimal growth temperature of the phages themselves. 
+- **Thermal Stress During Formulation:** High temperatures (e.g., 100–170 °C) used in spray drying can compromise phage structural integrity and infectivity. 
+- **Stabilization:** Excipients like trehalose are noted for their ability to preserve phage infectivity across various temperature conditions by forming a protective amorphous matrix. 
+- **Storage Stability:** Long-term stability testing guidelines (ICH Q1A(R2)) involve accelerated (40 °C/75% RH) and long-term (25 °C/60% RH) conditions.
+- **Temperature Sensitivity:** Phage viability is sensitive to thermal stress, with Myoviridae phages generally showing greater resilience than Podoviridae or Siphoviridae under identical processing conditions.
+
+Environmental Context:
+- The context is primarily related to the *stability* of the phages during processing (drying, storage) and *in vivo* conditions (e.g., lung environment), not the natural growth environment of the phages or their bacterial hosts.
+
+Concise Summary:
+The review focuses heavily on the physicochemical stability of bacteriophages when formulated for dry powder inhalation, rather than the optimal growth temperature of the phages or their bacterial targets. Thermal stress is a major concern during formulation, particularly during spray drying, where high inlet temperatures (100–170 °C) can denature capsid proteins and reduce infectivity. Stabilization relies on excipients like trehalose, which form protective amorphous matrices to maintain structural integrity. Storage stability is assessed under ICH guidelines (e.g., 25 °C/60% RH). The discussion notes that phage resilience varies by family, with Myoviridae generally being more robust than Podoviridae or Siphoviridae under thermal stress. No specific growth temperature range for the phages is provided; the focus is on preservation during processing and storage.
+
+
+Paper: PMC10236363.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but growth was performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37°C.
+- Environmental source/habitat: Cowshed wastewater.
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations.
+- Explicit classification: None provided by the authors regarding thermal classification.
+
+Environmental Context:
+- Habitat/Source: Cowshed wastewater.
+
+Concise Summary:
+The bacteriophage was isolated from cowshed wastewater. In vitro characterization, including one-step growth curve analysis, was conducted using an incubation temperature of 37°C. No specific data regarding optimal growth temperature range, survival temperature range, or explicit thermal adaptations (thermophilic, psychrophilic, mesophilic) were reported in the provided text.
+
+
+Paper: PMC12843901.1.txt
+The provided text does not contain specific information regarding the optimal growth temperature or temperature tolerance for any microorganisms. Therefore, no summary can be generated based on this criterion.
+
+
+Paper: PMC5064094.1.txt
+Thermal Evidence:
+- No specific optimal or growth temperature range was provided.
+- Survival was tested against sanitization agents (sodium dichloroisocyanurate and hydrogen peroxide) at unspecified conditions, showing viability. Loss of viability was noted with peracetic acid.
+- No mention of thermophilic, psychrophilic, mesophilic adaptation, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Isolated from cowshed wastewater.
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+
+Paper: PMC11946132.1.txt
+The provided text snippets discuss various aspects of food safety, microbiology, and food preservation, but they do not contain specific, detailed information regarding the optimal growth temperature ranges for microorganisms. Therefore, I cannot extract the requested temperature data.
+
+
+Paper: PMC13193606.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37°C and 39°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37°C (for overnight growth) and 39°C (for RAJ-IVOC adherence assays).
+- Environmental source/habitat: The organism was studied in the bovine gastrointestinal tract, specifically the rectoanal junction (RAJ).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, or cold tolerance adaptations was found. The study focused on adherence mechanisms under nutrient limitation.
+
+Environmental Context:
+- Habitat/Source: Bovine gastrointestinal tract (rectoanal junction).
+
+Concise Summary:
+The organism was studied in the context of bovine gastrointestinal colonization, with adherence assays conducted at 39°C and bacterial growth cultures performed overnight at 37°C. The study details adherence mechanisms under nutrient-limited conditions, but provides no specific data regarding the organism's optimal growth temperature range, survival temperature range, or any explicit classification regarding its thermal adaptation (e.g., mesophile). The primary focus was on adherence mediated by the carbon starvation-inducible lipoprotein (Slp) to the polymeric immunoglobulin receptor (pIgR) at the bovine RAJ.
+
+
+Paper: PMC13179399.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: 37°C, 5% CO2 (for cell culture); Room temperature (RT) (for direct bacterial killing assay)
+- Environmental source/habitat: Palatal adipose tissue (for MSCs); Clinical/environmental sources for pathogens (e.g., gastrointestinal, respiratory, foodborne)
+- Thermophilic adaptation: No mention
+- Psychrophilic adaptation: No mention
+- Mesophilic growth: Implied by 37°C incubation
+- Heat tolerance: Not specified
+- Cold tolerance: Not specified
+- Enzymes adapted to temperature: Not specified
+- Membrane adaptations: Not specified
+- Thermal stress responses: Not specified
+
+Environmental Context:
+- Habitat/Source: Palatal adipose tissue (for MSCs); Clinically relevant pathogens (e.g., *E. coli*, *S. aureus*, *B. cereus*, *P. aeruginosa*).
+
+Concise Summary:
+The study utilized *in vitro* models for bacterial assays, maintaining optimal growth conditions at 37°C for bacterial cultures and cell culture. MSCs were cultured under standard conditions (37°C, 5% CO2). The pathogens tested (*P. aeruginosa*, *S. aureus*, *B. cereus*, *E. coli*) are associated with human/environmental infections, suggesting a mesophilic context. No evidence of isolation from extreme thermal environments, or specific thermal adaptations (thermophilic, psychrophilic) was reported for the microorganisms or the MSCs.
+
+
+Paper: 42169340.txt
+Thermal Evidence:
+- No specific optimal, growth range, or survival temperature ranges were provided for the tested microorganisms.
+- Storage conditions mentioned were $4^	ext{o}	ext{C}$ for up to 16 days.
+
+Environmental Context:
+- The microorganisms were tested on fresh-cut lotus roots, implying a food/agricultural surface environment.
+
+Concise Summary:
+The study focused on the decontamination of pathogenic bacteria on fresh-cut lotus roots using combined treatments (e.g., $	ext{CO}_2$ micro-nanobubbles, $	ext{H}_2	ext{O}_2$, and ultrasound). The primary environmental context relates to post-harvest food sanitation and storage, with monitoring conducted at $4^	ext{o}	ext{C}$ over several days. No data regarding the optimal growth temperature, growth range, or survival temperature range of the tested pathogens were presented. The analysis is limited to sanitation efficacy under controlled, low-temperature storage conditions, providing no direct evidence of thermal adaptation or growth kinetics relative to temperature extremes.
+
+
+Paper: PMC13191018.1.txt
+No specific information regarding temperature or temperature-dependent growth conditions was found in the provided text snippets.
+
+

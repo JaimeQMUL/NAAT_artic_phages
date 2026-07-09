@@ -1,0 +1,215 @@
+Summary file for YP_009153642
+Number of papers: 14
+=============Summaries=============
+
+Paper: PMC3530526.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C
+- Growth temperature range: 28°C
+- Survival temperature range: Not explicitly stated for the phage/bacterium combination, but decontamination was tested at room temperature.
+- Incubation conditions: 28°C for bacterial growth/assay incubation.
+- Environmental source/habitat: Isolated from various sources (rodents, fleas, soil, etc.) in various countries.
+- Mention of adaptations: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/Source: Various natural sources (rodents, fleas, soil, etc.).
+
+Concise Summary:
+The study utilized bacterial strains isolated from diverse environmental sources, including rodents, fleas, and soil, across multiple geographic locations. All experimental assays, including phage lytic activity testing and surface decontamination, were conducted under controlled incubation conditions at 28°C. The phages were stored refrigerated (2 to 4°C) until use. No specific information regarding the organism's thermophilic, psychrophilic, or mesophilic adaptation, or its thermal stress responses, was provided in the text.
+
+
+Paper: PMC4122927.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Not specified
+- Environmental source/habitat: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by 37 °C growth
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Marine environment (for one phage pair); general environment (for the other phage pair).
+
+Concise Summary:
+The phages were grown at 37 °C in Luria-Bertani medium. One phage pair was isolated from a marine environment, while the other was isolated from a general environment. The growth conditions suggest mesophilic adaptation, but no specific thermal adaptation details (thermophilic, psychrophilic, etc.) were provided.
+
+
+Paper: PMC7827537.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated, but assays were performed at 37 °C.
+- Incubation conditions: Incubation was performed at 37 °C for various assays (e.g., 24 h incubation, 12 h incubation).
+- Environmental source/habitat: Human whole blood (simulating host environment).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or specific enzyme/membrane adaptations related to temperature.
+- Heat treatment: Blood was subjected to heat inactivation at 56 °C for 60 min.
+
+Environmental Context:
+- Habitat/Source: Human whole blood, BHI-rich medium, and laboratory growth media.
+
+Concise Summary:
+The primary physiological assays were conducted at an optimal temperature of 37 °C, simulating the host environment. The study utilized human whole blood, which was subjected to a heat inactivation step at 56 °C for 60 minutes. The organisms were cultured in rich media (BHI) or human blood. No specific thermal adaptations (thermophilic, psychrophilic, etc.) were characterized; the growth conditions were maintained at mammalian body temperature (37 °C). The comparison between lysis in standard broth versus human blood highlights the physiological relevance of the host environment, which required specific temperature control for accurate assessment.
+
+
+Paper: PMC9024586.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28 °C (for bacterial cultures on BHIA).
+- Optimal growth temperature: 37 °C (for bioluminescence-based lysis assay).
+- Incubation conditions: 28 °C (for bacterial cultures on BHIA); 37 °C (for lysis assay).
+- Survival temperature range: Not explicitly stated.
+- Environmental source/habitat: Not explicitly stated.
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: Not explicitly stated.
+
+Concise Summary:
+The study utilized specific temperature controls for microbiological assays. Bacterial cultures were grown optimally at 28 °C, while the bioluminescence-based lysis assay was conducted at 37 °C. The phage preparation and purification processes involved incubation at 4 °C for certain steps, and the phage stock was stored at 4 °C. No information regarding the organism's thermal adaptation, such as thermophilic, psychrophilic, or mesophilic classification, or its isolation from extreme environments, was provided. The primary focus of the thermal data relates to the optimal conditions for *in vitro* growth and assay performance rather than the organism's natural thermal niche.
+
+
+Paper: PMC13101507.1.txt
+Thermal Evidence:
+- Temperature is mentioned as a key regulator of exopolysaccharide production. Below 30°C, as in the flea vector, a specific diguanylate cyclase is overproduced via increased transcription. In contrast, the mammalian host’s higher body temperature promotes degradation of this cyclase, while another phosphodiesterase-mediated hydrolysis persists, resulting in reduced intracellular levels and inhibition of biofilm formation, which is dispensable during systemic infection.
+- The expression of a specific capsule operon is tightly regulated by temperature, supporting transcriptional adaptation during transition from the flea (<28°C) to the mammalian (37°C) host.
+- The activity of a specific protease exhibits fibrinolytic activity above 37°C and plasma coagulase activity below 28°C.
+- The bacterium can switch to an attenuated form, known as “L-form,” under environmental stress and survive in mammals and arthropods for several months.
+- Viability has been observed in water microcosms under viable but non-cultivable conditions for 28 days at 4°C.
+- The bacterium can persist in the environment for up to 21 days after the death of an infected mammal.
+- Virulent strains have been shown to persist in sterile soil for up to 100 days.
+
+**Summary of Temperature Dependence:** The organism exhibits temperature-dependent metabolic activity, with specific mechanisms noted for survival and virulence. The study highlights the importance of temperature in pathogenesis and survival.
+
+**Key Takeaways:** The organism's physiology is highly sensitive to temperature fluctuations, suggesting adaptation to various environmental niches. The study provides insights into its thermal tolerance range.
+
+
+Paper: PMC12735813.1.txt
+Thermal Evidence:
+- Optimal pH: 6
+- Temperature Stability: Activity remained relatively stable below 60 °C, but activity decreased upon increasing temperature and was completely lost at 70 °C.
+- Growth/Lysis Temperatures Tested: 21 °C, 28 °C, and 37 °C.
+- Stability Testing: Tested across a range of temperatures including 4 °C, 21 °C, 28 °C, 37 °C, 50 °C, 60 °C, and 70 °C.
+- Thermal Tolerance: Exhibited greater thermal tolerance compared to previously reported counterparts.
+
+Environmental Context:
+- Habitat/Source: Soil samples collected from wild rodent nests in plague-endemic areas.
+- Extreme Environment Isolation: Not explicitly stated as isolated from an extreme environment, but sourced from natural foci.
+- Classification: No explicit classification (e.g., thermophilic, psychrophilic) was given by the authors; however, the stability profile suggests adaptation across a mesophilic range with good tolerance up to 60 °C.
+
+Concise Summary:
+The bacteriophage was isolated from soil samples collected from wild rodent nests in plague-endemic areas. Its thermal stability profile indicates that it maintains activity up to 60 °C, with complete inactivation observed at 70 °C. Lysis assays were successfully conducted at 21 °C, 28 °C, and 37 °C. The phage demonstrated good thermal tolerance compared to previously characterized phages. The optimal pH was determined to be 6. The phage's ability to maintain activity across a range including 4 °C up to 60 °C suggests broad environmental adaptability within the mesophilic range, without explicit classification as thermophilic or psychrophilic.
+
+
+Paper: PMC12890325.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were explicitly provided for the organism.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organism was isolated from natural plague foci in Kazakhstan, spanning desert, semi-desert, and high-mountain regions.
+- The study discusses the influence of climatic factors (rising temperatures, changes in precipitation patterns) on the reservoir and vector populations, suggesting environmental temperature variability impacts the pathogen's ecology, but does not provide direct thermal adaptation data for the organism itself.
+
+Concise Summary:
+The study provides extensive molecular and phenotypic characterization of the pathogen isolated from natural plague foci across diverse ecological zones in Kazakhstan (desert, semi-desert, high-mountain). While the authors discuss the impact of climatic changes and rising temperatures on the overall epizootic cycle, the provided text lacks specific quantitative data regarding the organism's optimal growth temperature, growth range, or thermal adaptation mechanisms (e.g., thermophilic/psychrophilic status). The focus remains on genetic diversity, virulence factors, and ecological monitoring rather than detailed physiological thermal profiling.
+
+
+Paper: PMC12645103.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were explicitly detailed for the organism.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was found.
+
+Environmental Context:
+- The organism is described as a zoonotic bacterium naturally occurring in wild rodents, with other small carnivorous animals acting as carriers. The primary source of infection is infected fleas. The research context involves detection in clinical samples (human peripheral blood) and environmental samples (fleas).
+
+Concise Summary:
+This paper focuses on the molecular detection of the bacterium using multiplex PCR, detailing the pathogen's biology, transmission routes (primarily via fleas from rodents), and clinical manifestations. The text provides extensive details on the genetic targets (plasmids like pMT1, pPCP1, and chromosomal genes) and the technical aspects of PCR optimization (e.g., denaturation at 95°C, annealing at 55°C, extension at 72°C). Crucially, the provided literature review and methodology sections do not contain any specific physiological data regarding the organism's optimal growth temperature, temperature range, or thermal adaptation mechanisms (thermophilic, psychrophilic, etc.). The environmental context is established as a zoonotic pathogen found in wild rodents and fleas, with detection methods applied to clinical and environmental samples.
+
+
+Paper: PMC12671086.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 37°C for 6 h (for plaque assays) and overnight incubation at 37°C (for plaque assays).
+- Environmental source/habitat: Small ponds in a botanical garden.
+
+Environmental Context:
+- Habitat/source: Freshwater ponds.
+
+Concise Summary:
+The phages were isolated from environmental water samples collected from small ponds in a botanical garden. All experimental assays, including plaque formation and anti-phage defense testing, were conducted at an optimal temperature of 37°C. The study details the characterization of five environmental phages infecting *Escherichia coli* K-12. No specific information regarding thermophilic, psychrophilic, or extreme temperature adaptations was provided; the observed growth and activity were confined to standard mesophilic laboratory conditions (37°C). The phages were isolated from a mesophilic environmental source.
+
+
+Paper: PMC13191868.1.txt
+Thermal Evidence:
+- Optimal temperature range for flea abundance: 10–20 °C (for one dominant species).
+- Optimal temperature range for flea abundance: 15–20 °C (for another dominant species).
+- Temperature thresholds: Abundance decreases sharply at extreme temperatures (< 5 °C or > 20 °C) for one species.
+- Temperature dependence: Abundance increases with temperature up to a peak, then decreases (unimodal curve) for another species.
+- Three-way interaction: Peak loads occurred at 10–15 °C under specific wind/pollution conditions.
+- Temperature sensitivity: Abundance is highly sensitive to temperature variation, with sharp decreases outside optimal windows.
+
+Environmental Context:
+- Habitat/Source: Ordos Plateau, China (desert grasslands/agro-pastoral ecotones).
+
+Concise Summary:
+The analysis details the thermal regulation of ectoparasitic flea dynamics on a rodent host in a temperate continental monsoon climate. The study identified distinct, non-linear thermal optima for different flea species. Optimal flea abundance was observed within moderate temperature ranges (e.g., 10–20 °C). Abundance showed sharp declines outside these optimal windows, indicating clear thermal constraints. Specific interactions highlighted that peak flea loads were associated with moderate temperatures (10–15 °C) when combined with specific pollution and wind conditions. The findings suggest that the flea community exhibits mesophilic characteristics, with survival and abundance being highly sensitive to deviations from moderate thermal conditions. No explicit classification (e.g., psychrophilic, thermophilic) was provided by the authors, but the observed patterns confirm strong temperature dependence in vector ecology.
+
+
+Paper: PMC13190679.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for any microorganisms.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The paper focuses on the application of CRISPR technology in ovarian cancer research, molecular biology, and diagnostics. No environmental source or habitat for any microorganisms was discussed.
+
+Concise Summary:
+This review article provides a comprehensive overview of the application of CRISPR-Cas9 technology in ovarian cancer research, covering gene editing, functional screening (CRISPRko, CRISPRa, CRISPRi, Base Editing), model construction (organoids, in vivo systems), and diagnostic platforms. The discussion is entirely focused on molecular mechanisms, genetic dependencies, metabolic reprogramming, and delivery systems (viral, nanoparticle, exosome). There is no microbiological or physiological data related to temperature, growth conditions, or thermal adaptation present in the text.
+
+
+Paper: PMC13186357.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the pathogen.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- The pathogen is associated with zoonotic cycles maintained in multi-host reservoir complexes involving diverse small mammal species.
+- Natural foci are noted in regions such as Africa, the Americas, and Asia.
+- The pathogen is associated with environmental changes, including those caused by global climate change, affecting host-vector-pathogen interactions.
+
+Concise Summary:
+This bibliometric analysis focuses on the research trends of a severe zoonotic bacterial pathogen, which is maintained in multi-host reservoir complexes involving small mammals. The pathogen's natural foci overlap with endemic areas of other neglected tropical diseases, suggesting an ecological adaptation to diverse, often co-endemic, environments. The research highlights the pathogen's persistence in nature and its transmission via a rodent–vector–human chain. The study does not contain specific physiological data regarding the pathogen's thermal requirements, such as optimal growth temperature, survival range, or evidence of thermophilic/psychrophilic adaptation. The environmental context is defined by its association with sylvatic cycles, rodent reservoirs, and the impact of climate change on host-vector dynamics.
+
+
+Paper: PMC13192263.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The organism is associated with the human upper respiratory tract, nasopharynx, conjunctivae, and genital tract.
+
+Concise Summary:
+No direct thermal data (optimal, range, survival temperatures) were provided in the text. The organism is described as a mucosal pathobiont, primarily associated with the human upper respiratory tract, suggesting a commensal niche within the human body. The physiological discussions focus heavily on virulence mechanisms, genetic plasticity (phase variation, competence), and vaccine development, rather than thermal adaptation.
+
+
+Paper: 42138633.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, or survival range were provided for the causative agent.
+- No mention of incubation conditions were provided.
+- No evidence of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific enzyme/membrane adaptations to temperature was presented.
+
+Environmental Context:
+- The epizootic was observed in the Mojave Desert of California, involving wild lagomorphs (desert cottontail rabbits and black-tailed jackrabbits).
+
+Concise Summary:
+The provided text describes an epizootic involving a bacterium in wild lagomorphs within the Mojave Desert. There is no physiological or biochemical data presented regarding the bacterium's thermal requirements, such as optimal growth temperature, survival range, or specific adaptations (e.g., thermophilic, psychrophilic). The environmental context is the Mojave Desert, and the organism was isolated from a wildlife reservoir, not an extreme environment.
+
+

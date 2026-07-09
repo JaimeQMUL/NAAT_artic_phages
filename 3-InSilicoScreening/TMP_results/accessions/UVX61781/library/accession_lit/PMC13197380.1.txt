@@ -1,0 +1,358 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Appl Microbiol Biotechnol
+Journal ID: Appl Microbiol Biotechnol
+
+Applied Microbiology and Biotechnology
+
+ISSN: 0175-7598
+EISSN: 1432-0614
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13197380
+PMID: 41986704
+DOI: 10.1007/s00253-026-13769-2
+Article ID: 13769
+Article version: 1
+Subjects: Research
+
+Isolation, characterization and biocontrol of a novel bacteriophage against Ralstonia pseudosolanacearum
+
+Liu Shoude
+Wen Rong
+Li Qifeng
+Sun Ming m98sun@mail.hzau.edu.cn
+
+Peng Donghai donghaipeng@mail.hzau.edu.cn
+
+https://ror.org/023b72294 grid.35155.37 0000 0004 1790 4137 National Key Laboratory of Agricultural Microbiology, College of Life Science and Technology, Huazhong Agricultural University, Wuhan, 430070 Hubei China
+Electronic publication date: 2026 Apr 15
+Print publication date: 2026
+Volume: 110
+Issue: 1
+Electronic Location ID: 152
+Received 2025 Oct 21; Revised 2026 Feb 19; Accepted 2026 Feb 21
+Copyright: © The Author(s) 2026
+Copyright year: 2026
+License: Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Ralstonia pseudosolanacearum, Bacteriophage, Podoviridae, Genome, Plant pathogenic bacteria
+issue-copyright-statement: © Springer-Verlag GmbH Germany, part of Springer Nature 2026
+
+==============================
+Abstract
+
+Ralstonia pseudosolanacearum is an increasingly prominent multidrug-resistant phytopathogen. Phages are an effective alternative for treating R. pseudosolanacearum infections. In this study, the phage vB_RsoP_BMB116, which is specific to R. pseudosolanacearum, was isolated from Fujian, China. Electron microscopy revealed that vB_RsoP_BMB116 exhibited a Podoviridae morphotype. The double-stranded DNA genome of vB_RsoP_BMB116 spans 82,991 bp (base pairs) and encodes 119 predicted unidirectionally oriented genes, of which 40 have putative functions assigned, while the remainder encode hypothetical proteins. Genome analysis indicated that vB_RsoP_BMB116 is a new genus. Furthermore, tomato plant experiments conducted in this study demonstrated that vB_RsoP_BMB116 significantly reduces the disease incidence of tomato bacterial wilt induced by R. pseudosolanacearum, thus providing effective experimental support for its potential as a biological control agent against tomato bacterial wilt in agricultural settings. In summary, these results not only expand the genetic repertoire of phages targeting R. pseudosolanacearum but also establish a theoretical and experimental basis for developing phage-mediated biocontrol approaches to manage bacterial wilt in tomato cultivation.
+
+Key points
+
+• The new R. pseudosolanacearum phage vB_RsoP_BMB116 (novel genus) is a key resource for microbiology and biotechnology, aiding new phage therapies and biocontrol agents
+
+• Observed via transmission electron microscopy (TEM), the novel phage vB_RsoP_BMB116 belongs to the Podoviridae family
+
+• In vitro assays demonstrated that it exhibits significant application potential for the prevention and control of plant bacterial diseases
+
+Supplementary Information
+
+The online version contains supplementary material available at 10.1007/s00253-026-13769-2.
+
+Introduction
+
+Ralstonia pseudosolanacearum, a Gram-negative pathogen, causes bacterial wilt (Hayward 1991). It is classified within the R. pseudosolanacearum species complex (RSSC), which comprises three distinct species: R. pseudosolanacearum, Ralstonia pseudopseudosolanacearum, and Ralstonia syzygii (Prior et al. 2016). All three species are recognized as major bacterial wilt pathogens that contribute to substantial crop losses and are classified as significant phytopathogens (Mansfield et al. 2012; Safni et al. 2014). Bacterial wilt, triggered by the soilborne pathogen R. pseudosolanacearum, severely impacts Solanaceae crops like ginger potato, tomato, eggplant, pepper, and flue-cured tobacco (da Silva Xavier et al. 2018; Fujiwara et al. 2011). The bacterium spreads via soil and water, infects roots, and invades the vascular system, causing potato brown rot and wilting (Alvarez et al. 2008; Hayward 1991; Vasse et al. 1995). Bacterial wilt results in estimated global agricultural losses exceeding $950 million annually, posing a substantial economic burden on Solanaceae cultivation across subtropical, tropical, and temperate regions (Mansfield et al. 2012; Sae-Ueng et al. 2020). Accordingly, R. pseudosolanacearum is regarded as the second most critical bacterial phytopathogen, following Pseudomonas syringae (Mansfield et al. 2012). The development of effective therapeutics for bacterial wilt is imperative, given the limitations of conventional agrochemicals, including resistance emergence, risks to human health, and environmental damage (Jiang et al. 2017; Nischal 2014).
+
+Bacteriophages, the most prevalent viruses in nature, have been employed against bacterial infections since their discovery in the 1910 s due to their unique antibacterial properties (Bruynoghe and Maisin 1921; Sharma et al. 2017). Their ability to infect and lyse Ralstonia spp. has led to growing interest in lytic phages as biocontrol tools for bacterial wilt (Wang et al. 2019). Numerous Ralstonia-infecting phages have been identified. Recent studies have shown that novel Ampunavirus phage LPRS20 potently inhibits R. pseudosolanacearum including tomato-pathogenic strains with negligible phytotoxicity and synergizes with low-concentration agrochemicals for bacterial wilt control (Liu et al. 2024). It is also reported that increasing the application frequency of phages targeting R. pseudosolanacearum significantly enhances the control of phytopathogen density, thereby reducing the incidence of bacterial wilt to a notable extent; meanwhile, such R. pseudosolanacearum-specific phages not only effectively suppress the population of the phytopathogen but also work with the enriched beneficial microbial taxa to further inhibit the occurrence of bacterial wilt. Beyond the biocontrol potential of individual phages, rhizosphere phage communities are demonstrated to mediate soil suppressiveness to bacterial wilt: higher abundances of R. pseudosolanacearum-specific phages in the rhizosphere of healthy tomato plants directly constrain pathogen proliferation and suppress late-stage disease outbreaks (Liu et al. 2024; Yang et al. 2023). This underscores the value of discovering additional R. pseudosolanacearum-infecting phages, as they could further support soil suppressiveness against bacterial wilt.
+
+In this study, we isolated a novel phage, vB_RsoP_BMB116, infecting R. pseudosolanacearum from tomato fields in Fujian, China. Transmission electron microscopy (TEM) revealed that vB_RsoP_BMB116 exhibited a Podoviridae morphology with an isometric head and a short, noncontractile tail. High-throughput sequencing revealed that vB_RsoP_BMB116 comprised a double-stranded deoxyribonucleic acid molecule (dsDNA) with a full length of 82,991 bp, a mean G+C content of 63%, and 119 open reading frames (ORFs). Notably, its low genomic similarity to all characterized phages in the GenBank database supports the classification of vB_RsoP_BMB116 as a representative of a novel Ralstonia phage genus. This taxonomic novelty implies it may possess unique evolutionary traits, as well as potential functional characteristics. To assess its utility in practical bacterial wilt suppression, we conducted tomato plant experiments; results showed that vB_RsoP_BMB116 effectively reduced disease incidence in tomato plants challenged with R. pseudosolanacearum. Therefore, as a novel resource, it holds promising potential for supporting the management of bacterial wilt.
+
+Materials and methods
+
+Bacterial strains and culture protocol
+
+All 19 RSCC strains used in this investigation, including strain Rs3221-2, were provided by Professor Bo Liu (Academy of Agriculture Science, Fujian; Ningde City Academy of Agriculture Science, Fujian Province, China) (Table 1). Seventeen of these strains, excluding the previously characterized GMI1000 and FJAT-1458, were isolated from wilt-infected plants in Fujian Province, China, and verified utilizing the 759/760 species-specific primers (Fegan and Prior 2005; Wang et al. 2022). All isolates were further identified by 16S rRNA gene sequencing and confirmed as R. pseudosolanacearum (phylotype I) via a multiplex PCR (polymerase chain reaction) protocol as previously outlined (Fegan and Prior 2005; Wang et al. 2022). Aerobic cultivation of R. pseudosolanacearum was conducted at 28 °C using sucrose-peptone-agar medium (SPA) broth containing 20 g/L sucrose, 5 g/L peptone, 0.5 g/L K₂HPO₄, and 0.25 g/L anhydrous MgSO₄, as well as on casamino acid-peptone-glucose agar comprising 5 g/L glucose, 10 g/L peptone, 1 g/L casamino acid, and 15 g/L agar (pH 7.2). The aforementioned reagents were supplied by Sinoreagent in China. Table 1 Host Range of Phage vB_RsoP_BMB116
+
+Ralstonia pseudosolanacearum species complex	Strain	Phylotypes, races	Origin or reference	Strains lysed by phage vB_RsoP_BMB116	
+R. pseudosolanacearum	Rs3206	Ⅰ, 1	Wilted tomato plant (Fuzhou, China)	 + 	
+R. pseudosolanacearum	Rs3207	Ⅰ, 1	Wilted tomato plant (Fuzhou, China)	 + 	
+R. pseudosolanacearum	Rs3208-1	Ⅰ, 1	Wilted tomato plant (Fuzhou, China)	 + 	
+R. pseudosolanacearum	Rs3208-2	Ⅰ, 1	Wilted tomato plant (Fuzhou, China)	 + 	
+R. pseudosolanacearum	Rs3211	Ⅰ, 1	Wilted tomato plant (Fuzhou, China)	 + 	
+R. pseudosolanacearum	Rs3217	Ⅰ, 1	Wilted ginger plant (Fuzhou, China)	 + 	
+R. pseudosolanacearum	Rs3220-1	Ⅰ, 1	Wilted tomato plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3220-2	Ⅰ, 1	Wilted tomato plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3221	Ⅰ, 1	Wilted tomato plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3221-1	Ⅰ, 1	Wilted tomato plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3221-2	Ⅰ, 1	Wilted tomato plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3222	Ⅰ, 1	Wilted tomato plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3224	Ⅰ, 1	Wilted eggplant plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3225	Ⅰ, 1	Wilted eggplant plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3226	Ⅰ, 1	Wilted eggplant plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3228	Ⅰ, 1	Wilted pepper plant (Ningde, China)	 + 	
+R. pseudosolanacearum	Rs3239	Ⅰ, 1	Wilted peanut plant (Quanzhou, China)	-	
+R. pseudosolanacearum	GMI1000	Ⅰ, 1	(Drigues et al. 1985)	 + 	
+R. pseudosolanacearum	FJAT-1458	Ⅰ, 1	(Chen et al. 2017)	 + 	
+The presence of a lytic zone is represented by the symbol “ +,” and the lack of a lytic zone is marked with “-.” All experiments included three independent biological replicates, and each biological replicate was tested three times to ensure technical reproducibility
+
+Phage isolation and purification
+
+The vB_RsoP_BMB116 (novel phage) was obtained from tomato field samples in Fujian, China, employing R. pseudosolanacearum Rs3221-2 as the indicator host via the double-layer agar assay. It was isolated utilizing a modified version of a previously established enrichment protocol (Van Twest and Kropinski 2009). Approximately 2 g of soil samples were added to 30 mL of sterile SPA broth in a 250-mL Erlenmeyer flask and incubated at 28 °C with agitation at 200 rpm (revolutions per minute) overnight (Shanghai Yiheng Scientific Instruments Co., Ltd., China). After centrifugation (12,000 rpm, 10 min, 4 °C), the supernatant was filtered through 0.22 µm PES (polyethersulfone) syringe filters (Sartorius AG, Göttingen, Germany) to eliminate bacterial cells, yielding a sterile soil extract (Wang et al. 2022). This filtrate was mixed with exponentially growing R. pseudosolanacearum strain Rs3221-2 with 15-min incubation. Phage detection was then verified utilizing spot assay based on the double-layer agar technique. An isolated plaque was collected with a sterile pipette and subjected to five successive rounds of purification to generate a clonal phage preparation.
+
+The nucleotide sequences of the novel phage vB_RsoP_BMB116, which have been newly determined, were submitted to GenBank (National Center for Biotechnology Information, NCBI), and the accession number provided is PX020966.
+
+Host range assay
+
+To evaluate host specificity, the spot assay was conducted using 19 R. pseudosolanacearum strains. Tenfold serial dilutions of the phage stock starting from 10⁸ PFU (plaque-forming units)/mL were applied (5 µL per spot) onto double-layer agar plates containing target bacteria. Following overnight incubation at 28 °C, plaque formation was observed.
+
+Morphological characterization by transmission electron microscopy (TEM)
+
+The vB_RsoP_BMB116 morphology was examined by TEM negative staining (Wang et al. 2022). The resulting phage pellet was rinsed twice in 0.1 × phosphate-buffered saline (PBS, Beijing Solarbio Science & Technology Co., Ltd., China) to eliminate residual medium and resuspended in 1 mL of the same buffer. The suspension was applied to a carbon-coated grid, followed by 2% phosphotungstic acid pH 6.8 (Hubei Nuona Technology Co., Ltd., China) negative staining for 20 s, then imaged with an H-7650 TEM (Hitachi High-Technologies Corp., Pleasanton, CA, USA) at 100 kV at the State Key Laboratory of Agricultural Microbiology, Huazhong Agricultural University, Wuhan. The morphological characteristics of vB_RsoP_BMB116 were determined using ten phage particles.
+
+One-step growth curve
+
+The one-step growth curve of phage vB_RsoP_BMB116 was determined using standard methodology (Hyman and Abedon 2009; Wang et al. 2022). It was mixed with mid-log-phase R. pseudosolanacearum Rs3221-2 at a multiplicity of infection (MOI) of 0.1 and allowed to adsorb for 30 min. Following adsorption, cells were centrifuged (13,000g, 1 min) to remove free phage, retaining only bacteria-associated phage. The pellet was re-inoculated into 10 mL SPA broth and incubated at 28 °C under agitation at 200 rpm (Shanghai Yiheng Scientific Instruments Co., Ltd., China). Phage titers were measured from samples collected every 15 min utilizing the double-layer agar plaque assay. Burst size was calculated as the ratio of released phage particles to the number of infected bacterial cells at the end of the latency period (Wang et al. 2022).
+
+Phage genome sequencing and annotation
+
+vB_RsoP_BMB116 genomic DNA was purified utilizing a ZnCl₂-based method, as previously described (Santos 1991), and analyzed through paired-end sequencing with Illumina HiSeq 2500 (Beijing Annoroad Gene Technology Co., Ltd., China). Genome assembly of vB_RsoP_BMB116 was performed using ABySS alignment v2.0 with varying k-mer lengths (40–75) (Goris et al. 2007; Jackman et al. 2017). The vB_RsoP_BMB116 genome was annotated via RAST v2.0 (https://rast.nmpdr.org/) (Aziz et al. 2008), and ORF functional predictions were manually refined using BLASTp (Basic Local Alignment Search Tool for Proteins) against NCBI (National Center for Biotechnology Information) protein databases. The tRNAs (transfer RNAs) were predicted utilizing tRNAScan-SE v2.0 (Lowe and Chan 2016).
+
+Phage analysis classification status
+
+The vB_RsoP_BMB116 genome was aligned against public databases via NCBI’s BLASTn tool to identify the vB_RsoP_BMB116 genome sequence similarities (https://blast.ncbi.nlm.nih.gov/Blast.cgi). To screen for phages with the highest VIRIDIC (VIRus IDentification and Classification) and PASC (Pairwise Sequence Comparison) values, the online tools VIRIDIC (http://rhea.icbm.uni-oldenburg.de/VIRIDIC/) (Moraru et al. 2020) and pairwise sequence comparison (PASC; http://www.ncbi.nlm.nih.gov/sutils/pasc) (Bao et al. 2014; Yoon et al. 2017) were utilized to assess nucleotide-based intergenomic similarity (VIRIDIC value) and PASC values between vB_RsoP_BMB116 and other phages, respectively.
+
+A genome-wide proteomic tree of phage vB_RsoP_BMB116 with 128 phages was constructed using the online software ViPTree 3.3 (http://www.genome.jp/viptree). The selection criteria of the 128 reference phages were as follows: Firstly, ViPTree 3.3 was applied to construct a total evolutionary tree containing vB_RsoP_BMB116 with all the viruses in the database, from which the 38 phages with the closest affinity to vB_RsoP_BMB116 were selected. These phages also exhibited the highest homology with vB_RsoP_BMB116 in the BLASTn and PASC searches. Secondly, representative species were randomly selected from each of the four orders (Crassvirales, Kirjokansivirales, Methanobavirales, and Thumleimavirales) in the latest virus classification system released by the International Committee on Taxonomy of Viruses (ICTV). Thirdly, 1–2 representative species were selected from each of the 33 independent families that do not belong to any order (in the latest ICTV virus classification system).
+
+ANI (average nucleotide identity) value and in silico DNA-DNA hybridization value between phage vB_RsoP_BMB116 and proximate phages were estimated utilizing EzGenome online tools (http://www.ezbiocloud.net/ezgenome/ani) (Figueras et al. 2014) and GGDC (Genome-to-Genome Distance Calculator) (Meier-Kolthoff et al. 2013), respectively. Core genes of proximate phages were predicted by VirClust. (http://rhea.icbm.uni-oldenburg.de/VIRCLUST) (Moraru 2023). Taxonomic analysis followed ICTV criteria for species, genera, subfamilies, and families.
+
+Plant experiment
+
+Application efficacy of phage vB_RsoP_BMB116 (1.0 × 10⁸ PFU/mL) in controlling bacterial wilt in tomato caused by R. pseudosolanacearum was evaluated. The experiment included three groups: (1) untreated control group with any intervention except clear water application; (2) negative control group inoculated only with R. pseudosolanacearum strain BMB Rs3221-2, and (3) BMB Rs3221-2-inoculated group treated with phage vB_RsoP_BMB116 for biocontrol, 24 to 48 h after R. pseudosolanacearum inoculation (when initial bacterial wilt symptoms appeared), phages were applied to the experimental treatment group, and the co-cultivation period of phages and R. pseudosolanacearum began immediately after phage inoculation. Uniform tomato seedlings at the three-leaf-one-heart stage were selected for pot experiments, with five plants per group and three replicates. Pathogen inoculation was performed via root irrigation using a bacterial suspension optical density (OD600 = 0.8–1.2) at 40 mL per pot. The treatment group received phage suspension (1.0 × 10⁸ PFU/mL) through root irrigation (40 mL per pot) 24 to 48 h after pathogen inoculation. The plants were cultivated at 30 °C under a 12-h light/12-h dark cycles, and disease incidence and progression were monitored. All plants in the three treatment groups were sown and transplanted in the same batch to ensure no significant difference in initial height at transplantation, and the same shooting conditions including angle, distance,and background board were strictly maintained during photography.
+
+Disease incidence grading criteria for analysis of bacterial wilt in tomato plants are as follows: based on the degree of leaf wilting when the disease occurs, the disease is classified into 5 grades, with 0–4 representing the corresponding disease grades respectively:Grade 0: The plant shows no disease symptoms.
+
+Grade 1: 1–25% of the plant’s leaves exhibit wilting symptoms and can recover.
+
+Grade 2: 26–50% of the plant’s leaves show wilting symptoms, and only some of them can recover.
+
+Grade 3: 51–75% of the plant’s leaves have wilting symptoms.
+
+Grade 4: More than 75% of the plant’s leaves display wilting symptoms, or even the plant dies. The calculation formulas for disease incidence and biocontrol efficacy are as follows:
+
+Disease Incidence (DI) = ni × i/(N × iMax) × 100%, where “i” represents the disease grade, “ni” represents the number of plants with disease grade “i,” “N” represents the total number of plants surveyed, and “iMax” represents the highest disease grade.
+
+Biocontrol Efficacy (BCE) = [(DICK − DIt)/DICK] × 100%, where “t” represents the treatment group, “DICK” represents the disease incidence of the control group, and “DIt” represents the disease incidence of the treatment group.
+
+Statistical analyses
+
+Statistical analysis was conducted for this experiment via GraphPad Prism 10.0 software (GraphPad Software, LLC, San Diego, CA, USA). Moreover, statistical differences between the two groups were analyzed utilizing an independent-samples t-test, with significance levels denoted as *p < 0.05, **p < 0.01, ***p < 0.001, and ****p < 0.0001.
+
+Results
+
+Phage vB_RsoP_BMB116: isolation and structural morphology
+
+The vB_RsoP_BMB116 (novel phage) was obtained from tomato field samples in Fujian, China, employing R. pseudosolanacearum Rs3221-2 as the indicator host via the double-layer agar assay. Moreover, strain Rs3221-2, which was classified as R. pseudosolanacearum, was recovered from tomato fields and shown to cause bacterial wilt. Our results revealed that vB_RsoP_BMB116 produced clear plaques with diameters of 0.5–1 mm on the plate containing Rs3221-2 (Fig. 1b and). Phage vB_RsoP_BMB116 was further amplified and purified according to the aforementioned protocols for TEM imaging and genomic DNA isolation (Dong et al. 2018). TEM identified vB_RsoP_BMB116 as a Podoviridae-type phage, featuring an isometric head (51 ± 2 nm) and a short, noncontractile tail (18 ± 1 nm) (Fig. 1a).Fig. 1 Phage morphology and biological characterization. a TEM image of vB_RsoP_BMB116, depicting phage capsids with an isomethic head (approximately 51 nm) and a short noncontractile tail (approximately 18 nm); the bar is 100 nm. b, c Phage plaques of vB_RsoP_BMB116 infecting Rs3221-2 in double-layer agar plates
+
+Phage vB_RsoP_BMB116 biophysical stability
+
+Thermal and pH stability
+
+vB_RsoP_BMB116 remained biologically active after 1 h of exposure to buffer conditions ranging from pH 6 to 9 (Fig. 2a). The phage maintained high activity at 20–60 °C (Fig. 2b). However, phage efficacy decreased significantly after exposure to 70 °C, and total inactivation occurred at 80 °C for 20 min.Fig. 2 Biophysical Stability of Phage vB_RsoP_BMB116. a The pH stability of vB_RsoP_BMB116. b Temperature stability of vB_RsoP_BMB116. c One-step growth curve of Phage vB_RsoP_BMB116. d Optimal MOI for phage infection
+
+One-step growth curve and MOI of phage vB_RsoP_BMB116
+
+Maximum phage activity was achieved at a multiplicity of infection (MOI) of 0.1 (Fig. 2d). The growth curve of phage vB_RsoP_BMB116 (Fig. 2c) showed a latent period of ~ 20 min and a burst phase of ~ 60 min before reaching a stable phase. The burst size was estimated at 120 ± 15 PFU/cell.
+
+Host range of phage vB_RsoP_BMB116
+
+The biocontrol capacity of vB_RsoP_BMB116 was assessed by testing its lytic activity against 19 R. pseudosolanacearum strains, comprising 17 field isolates from wilted hosts (peanut, ginger, eggplant, tomato, and pepper) and two sequenced strains, GMI1000 and FJAT-1458 (Chen et al. 2017; Drigues et al. 1985). All tested strains were classified as R. pseudosolanacearum (Table 1). Our experimental findings clearly demonstrated that the novel R. pseudosolanacearum phage vB_RsoP_BMB116 exhibits a notably broad lytic spectrum, infecting 18 of 19 R. pseudosolanacearum strains.
+
+Genomic analysis of phage vB_RsoP_BMB116
+
+The phage vB_RsoP_BMB116 genome sequence was completed using high-throughput sequencing, followed by splicing and assembly. Comprehensive genomic features of phage vB_RsoP_BMB116 are provided in Supplementary Table S1. vB_RsoP_BMB116 has an 82,991 bp genome with 63% G+C content, cyclizability, and one fixed end (R1 = 360 > 100, a parameter for evaluating genome terminal type).
+
+Furthermore, a whole-genome comparison of vB_RsoP_BMB116 was conducted utilizing tblastn (translated Basic Local Alignment Search Tool for nucleotide databases) in NCBI’s sequence database. The results revealed that there was no sequence with high similarity to vB_RsoP_BMB116 in the public database, and the phage exhibited low similarity to the reported Achromobacter phage JWF (accession number AJD82914.1). The genome-wide coverage and identity were 2% and 73.12%, respectively, indicating that vB_RsoP_BMB116 could be a novel phage.
+
+To better understand the phage-encoded proteins, the online annotation software RAST (http://rast.nmpdr.org/) was utilized to annotate vB_RsoP_BMB116 the whole genome, while the Proksee online software (https://proksee.ca/) was utilized to generate the phage genome map (Sullivan et al. 2011). The vB_RsoP_BMB116 genome contains 119ORFs, 33.33% of which encode known functional proteins, while the remaining ORFs can only be annotated as hypothetical proteins of unknown function. No known virulence factors and antibiotic resistance genes were identified in the vB_RsoP_BMB116 genome via Comprehensive Antibiotic Resistance Database (CARD, https://card.mcmaster.ca) (Alcock et al. 2023) and Virulence Factor Database (VFDB, https://www.mgc.ac.cn/VFs/) analyses (Zhou et al. 2025).
+
+vB_RsoP_BMB116 encodes 119ORFs, with 10 proteins related to phage morphology, 12 proteins related to DNA replication and metabolism, and two proteins related to phage packaging. The portal protein is encoded by ORF113, and the phage terminase large subunit family protein, with its cleavage module being the lysis system i-spanin subunit Rz, is encoded by ORF79. The phage holin family protein is encoded by ORF81. We discovered that hypothetical proteins occupied nearly 67% of all ORFs, and no conserved structural domains were predicted in these proteins via conserved domain analysis. Given that most phages exhibit very compact gene composition, the emergence of phage genomes containing many non-functional proteins remains to be explored further. Moreover, it was initially hypothesized that these hypothetical proteins might be novel proteins, which we have not been able to define appropriately at this time.
+
+Nine predicted proteins were associated with phage structure or assembly in Supplementary Table S1 and Fig. 3, including the major head protein (ORF110), portal protein (ORF113), tape measure protein (ORF100 and ORF102), tail proteins (ORF92, ORF93, ORF96, ORF97), and phage terminase large subunit family protein (ORF112). Consistent with other temperate phages, the longest phage ORF encodes the tape measure protein, which is responsible for tail length determination (Katsura 1987).Fig. 3 Genome Map of vB_RsoP_BMB116. All predicted ORFs were classified into five categories according to gene function annotation: phage structural proteins (green); DNA-packaging-related proteins (blue); DNA replication and regulation-related proteins (purple); lysis module (red); hypothetical proteins and other proteins (orange)
+
+The site-specific integrase (ORF77) was identified as a putative protein reflecting the temperate nature of vB_RsoP_BMB116. Phage integrase facilitates site-specific recombination between host genomes and phage genomes, a key step in lysogeny initiation (Rajamanickam and Hayes 2018). Efficient lysis of the bacterial host generally requires endolysin and holin in dsDNA phages (Young 1992). A holin-like protein of this phage was predicted to be encoded by ORF81.
+
+Furthermore, a viral proteomic tree was constructed utilizing ViPTree (Fig. 4), based on whole-genome GS (similarity score) (Nishimura et al. 2017). Pairwise SG (sequence similarity) values comparing vB_RsoP_BMB116 with known prokaryotic dsDNA viruses were determined, and a genomic distance matrix was utilized to build the tree via BIONJ (an improved Neighbor-Joining method for phylogenetic tree construction). The findings revealed that vB_RsoP_BMB116 clustered with several viruses (Achromobacter phage JWF and Achromobacter phage 2-1). The low SG values (0.2199–0.2269) between vB_RsoP_BMB116 and related phages suggest its classification as a distinct novel taxon. In the proteomic tree, the viruses with the smallest evolutionary distance from vB_RsoP_BMB116 were Achromobacter phage JWF and Achromobacter phage 2-1. The ANI and isDDH (in silico DNA-DNA hybridization) values shared by vB_RsoP_BMB116 with them are 64.26%, 12.5% (with phage JWF), and 64.85%, 12.5% (with phage 2-1), both of which are less than the boundary values of a species (ANI value > 95% and isDDH value > 70%). The results indicate that vB_RsoP_BMB116 is a new species. Phage taxonomy is undergoing a significant transformation as numerous genome-based families have been introduced. Accordingly, the taxonomic status of vB_RsoP_BMB116 is difficult to ascertain at this moment (Jain et al. 2018).Fig. 4 ViPTree-generated proteomic tree illustrating vB_RsoP_BMB116 and its related phages. Right and left branches indicate host group and family-level classification, respectively. The phage vB_RsoP_BMB116 is represented by a red star
+
+Genome-related phage similarity was evaluated utilizing the VIRIDIC tool. The similarity level between vB_RsoP_BMB116 and the putative phages Achromobacter phage 2-1 and JWF was 18%, significantly below the 70% threshold for phage-genus combination (Turner et al. 2021). Therefore, vB_RsoP_BMB116 likely constitutes a unique genus. Additional phages exhibited minimal intergenomic similarity to both vB_RsoP_BMB116 and the Achromobacter phages 2-1 and JWF (Fig. 5).Fig. 5 VIRIDIC heatmap indicating intergenomic similarity between vB_RsoP_BMB116 and related phages. The horizontally aligned genome fraction ranges from 0 to 1 and represents the degree of alignment between the genomes of different bacteriophages. The higher the value, the greater the aligned genome proportion. The vertical genome length ratio ranges from 0 to 1 and represents the proportional relationship between the lengths of bacteriophage genomes
+
+Biocontrol efficacy of vB_RsoP_BMB116 in plant disease
+
+For the untreated control group without any intervention (Fig. 6a), tomato seedlings maintained vigorous and normal growth throughout the experiment, with fully expanded bright green leaves, upright and sturdy stems, and continuous growth of new tender leaves; in the group inoculated only with R. pseudosolanacearum BMB Rs3221-2 (Fig. 6b), tomato seedlings rapidly developed wilting symptoms, showing severe leaf drooping, stem lodging, and partial leaf yellowing; in contrast, the prevention group treated with both R. pseudosolanacearum BMB Rs3221-2 and phage vB_RsoP_BMB116 (Fig. 6c) demonstrated gradual recovery of tomato seedlings, with significantly alleviated leaf wilting, improved stem uprightness, and restored growth momentum, clearly confirming the biocontrol effect of the phage.Fig. 6 Antimicrobial effects of phages on tomato bacterial wilt management. a Untreated control group: untreated tomato seedlings. b Tomato seedlings infected with BMB Rs3221-2. c Tomato plants inoculated with R. pseudosolanacearum pathogen BMB Rs3221-2 and treated with phage vB_RsoP_BMB116 for biocontrol
+
+Moreover, in the group inoculated with R. pseudosolanacearum (bacteria group), tomato plants initiated the manifestation of disease symptoms at 14 days, with a disease incidence of approximately 30%. The incidence sustained an upward trend, reaching 45% at 21 days, approaching 60% at 28 days, and exceeding 90% by 35 days. These outcomes indicated that R. pseudosolanacearum could induce infection in tomato plants, and its pathogenic potency increased over time (Fig. 7a). Dynamic analysis of the biocontrol efficacy of phages against tomato bacterial wilt showed that, from the 14th day of the observation period onward, the biocontrol efficacy (BCE) of the phage-treated group against tomato bacterial wilt remained at a high level. Specifically, the BCE reached 94.44% on the 14th day, further increased to 96.30% on the 21 st day, slightly decreased to 93.75% on the 28th day, and still was maintained at 91.53% by the 35th day (Fig. 7b).Fig. 7 Bacterial wilt incidence and phage biocontrol efficacy for tomato bacterial wilt management. a Temporal dynamic changes in bacterial wilt incidence of tomato plants under different treatments. The temporal dynamic characteristics of bacterial wilt incidence in tomato plants among the control group, R. pseudosolanacearum-inoculated group, and phage-treated group over a 0–35 days observation period (*p < 0.05, **p < 0.01, ***p < 0.001, and ****p < 0.0001). b Temporal dynamics of phage-mediated biocontrol efficacy against tomato bacterial wilt. Temporal dynamic pattern of biocontrol efficacy (BCE) of the phage-treated group against tomato bacterial wilt
+
+The results indicated that phages could continuously exert a control effect on tomato bacterial wilt throughout the 35-day observation period. Although there were slight fluctuations in the control efficacy at different observation time points, the overall efficacy remained stably in the high-level range of over 90%. This result further verified that phages had a significant and long-lasting effective control ability against tomato bacterial wilt, providing data support for their application in the green control of this disease.
+
+Discussion
+
+The agricultural use of bacteriophages offers a viable strategy for managing bacterial diseases, particularly in light of rising antibiotic resistance. Phages can specifically infect and lyse R. pseudosolanacearum, the causal agent of bacterial wilt, and this property provides an effective means for the prevention and control of this disease while avoiding the damage to non-target organisms that traditional chemical pesticides cause. In this study, a Ralstonia phage was newly isolated, identified, and named vB_RsoP_BMB116, and it belongs to a new genus.
+
+For this novel phage, we first analyzed its genome to understand its genetic behavior at the current research stage, which will provide a basis for further evaluating its potential in relevant research fields. A proteomic tree was derived from high genome similarity with other phages. Proteomic trees, which cluster phages based on shared protein sequences, offer higher resolution for evolutionary classification compared to single-gene phylogenetic trees, especially when genome sequence identities are low (Konstantinidis and Tiedje 2005; Lavigne et al. 2008). Our proteomic tree construction thus supplemented genome-level data, laying a more robust foundation for subsequent taxonomic assignment. Importantly, the proteomic tree placed vB_RsoP_BMB116 in a clade that appears distinct from all currently known Ralstonia phage genera; this observation aligns with the later VIRIDIC-based suggestion that it belongs to a new genus. This finding enriches the taxonomic diversity of Ralstonia phages, which are currently underrepresented in public databases relative to phages of other plant pathogens (e.g., Pseudomonas, Xanthomonas) (Liu et al. 2021; Trotereau et al. 2021). Such a result also provides partial support for the rationale of testing its potential biocontrol function in plants, as taxonomically novel phages have been shown in some studies to exhibit distinct host interaction mechanisms (Yuping et al. 2025). The current species demarcation standard is based on ≥ 95% genome sequence identity, indicating < 5% nucleotide divergence between viruses of the same species (Adriaenssens and Brister 2017). Phage vB_RsoP_BMB116 showed only 73.12% similarity (2% query coverage) with Achromobacter phage JWF and 79.23% similarity (1% coverage) with phage 2-1. These values are far below the 95% threshold, and the extremely low query coverage further suggests minimal overlapping genomic regions, key evidence that vB_RsoP_BMB116 is a new species. For instance, Li et al. (2021) classified Ralstonia phage PHB09 as a new species after finding it shared only 76.5% genome similarity with its closest known relative, a criterion consistent with our findings.
+
+In the pot experiment, phage vB_RsoP_BMB116 exhibited notable biocontrol efficacy against tomato bacterial wilt caused by R. pseudosolanacearum BMB Rs3221-2. Uniform three-leaf-one-heart stage seedlings, selected for their vulnerability to early pathogen colonization, were used (Wang et al. 2024). The treatment group received phage suspension (1.0 × 10⁸ PFU/mL) through root irrigation 24 to 48 h after pathogen inoculation, showing gradual recovery under 30 °C and 12-h light/dark conditions, achieving a 91.53% control rate. This performance surpassed that of previously reported Ralstonia phages in similar pot trials: Liu et al. (2021) observed 82.1% efficacy with phage PHB09 using identical seedling stages and temperature conditions; additionally, in tomato pot experiments, pretreatment with phage φRSM3 delayed the onset of bacterial wilt by 14 days, and the plant survival rate (85%) was 4.25 times higher than that of the control group (20%) (Villalpando-Aguilar et al. 2022).
+
+The superior efficacy of vB_RsoP_BMB116 can be attributed to two key factors: first, its application timing is 24 to 48 h post-inoculation, targeting early R. pseudosolanacearum colonization, when the pathogen has not yet formed dense rhizosphere populations, avoiding the “pathogen overload” issue that reduces phage efficacy in simultaneous application (Liu et al. 2024); second, novel phage genera often carry unique genetic elements, such as rare lytic enzymes or regulatory genes (Wang et al. 2017), that could expand the toolbox for biological control of bacterial wilt. For example, a new Ralstonia phage genus identified by Chen et al. (2023) contained a unique holin gene that enhanced lytic efficiency against R. pseudosolanacearum, implying similar potential for vB_RsoP_BMB116 to be explored in future functional studies. Notably, although the phage vB_RsoP_BMB116 carries a lysogeny-associated integrase gene (ORF77), it remains valuable for bacterial wilt biocontrol, as evidenced by prior studies. Specifically, genetic engineering including knockout of integration-related genes or insertion of depolymerase genes can transform these phages from lysogenic-risk variants into safe biocontrol tools (Born et al. 2017). Additionally, lysogenic phages can be repurposed as delivery vectors for CRISPR-Cas systems or lysozyme genes to achieve precise pathogen suppression (Peng et al. 2024). Thus, this phage effectively broadens the biocontrol resource pool and provides a novel platform for the green management of agricultural bacterial diseases. Overall, vB_RsoP_BMB116 holds great potential for controlling bacterial wilt in tomatoes.
+
+In conclusion, genomic sequence analysis shows that the Ralstonia phage vB_RsoP_BMB116 has no significant genomic similarity to existing tailed viruses or known Ralstonia phages. As a newly identified Ralstonia phage, it further expands the biocontrol resource pool for agricultural bacterial disease management; additionally, investigating its biological properties will deepen insights into host-phage interactions within this bacterial genus. Currently, while phages provide a viable, eco-friendly control strategy, translating phage-based biocontrol from lab research to field applications remains hindered by multiple barriers. Thus, more studies are needed to optimize application protocols ultimately ensuring phages can be effectively and reliably used to control plant and other bacterial diseases.
+
+Supplementary Information
+
+Below is the link to the electronic supplementary material.ESM 1 (PDF 237 KB)
+
+Author contributions
+
+DHP and MS: were in charge of designing the study, overseeing its implementation, and making revisions to the final manuscript. SDL. and RW: conducted experiments, analyzed the data, contributed to the discussion section, and drafted both the initial and final versions of the manuscript. QFL: was responsible for collecting samples, carrying out microbiological assays, and identifying strains. All authors reviewed the final manuscript and gave their approval.
+
+Funding
+
+This work was supported by the Hubei Provincial Major Special Project for Agricultural Microbiology Industry Development (Open Competition Mechanism) for the project entitled “Development of Phage and Nano Pesticides” (Grant No. NYWSWZX2025-2027-02).
+
+Data availability
+
+All data relevant to this study are integrated into the main text and accompanying supplementary materials. Separately, the phage&apos;s genomic nucleotide sequence has been uploaded to NCbi GenBank, and retrieval is possible using accession number PX020966.
+
+Declarations
+
+Ethics approval and consent to participate
+
+The study received approval from the Huazhong Agricultural University Institutional Review Board. Given that the research solely focused on bacterial strains and their phages without involving human materials or patient information, the Review Board of the Huazhong Agricultural University granted an exemption from formal review and waived the requirement for informed consent. All procedures were conducted in line with applicable guidelines and regulations.
+
+Consent for publication
+
+Not applicable.
+
+Competing interests
+
+The authors declare no competing interests.
+
+Publisher’s Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Shoude Liu and Rong Wen contributed equally to this work.
+
+
+References
+
+Adriaenssens E Brister JR How to name and classify your phage: an informal guide Viruses 2017 9 70 10.3390/v9040070 28368359 PMC5408676
+Adriaenssens E, Brister JR (2017) How to name and classify your phage: an informal guide. Viruses 9:70. 10.3390/v904007028368359 10.3390/v9040070 PMC5408676
+Alcock BP Huynh W Chalil R Smith KW Raphenya AR Wlodarski MA Edalatmand A Petkau A Syed SA Tsang KK Baker SJC Dave M McCarthy MC Mukiri KM Nasir JA Golbon B Imtiaz H Jiang X Kaur K Kwong M Liang ZC Niu KC Shan P Yang JYJ Gray KL Hoad GR Jia B Bhando T Carfrae LA Farha MA French S Gordzevich R Rachwalski K Tu MM Bordeleau E Dooley D Griffiths E Zubyk HL Brown ED Maguire F Beiko RG Hsiao WWL Brinkman FSL Van Domselaar G McArthur AG CARD 2023: expanded curation, support for machine learning, and resistome prediction at the Comprehensive Antibiotic Resistance Database Nucleic Acids Res 2023 51 D690 D699 10.1093/nar/gkac920 36263822 PMC9825576
+Alcock BP, Huynh W, Chalil R, Smith KW, Raphenya AR, Wlodarski MA, Edalatmand A, Petkau A, Syed SA, Tsang KK, Baker SJC, Dave M, McCarthy MC, Mukiri KM, Nasir JA, Golbon B, Imtiaz H, Jiang X, Kaur K, Kwong M, Liang ZC, Niu KC, Shan P, Yang JYJ, Gray KL, Hoad GR, Jia B, Bhando T, Carfrae LA, Farha MA, French S, Gordzevich R, Rachwalski K, Tu MM, Bordeleau E, Dooley D, Griffiths E, Zubyk HL, Brown ED, Maguire F, Beiko RG, Hsiao WWL, Brinkman FSL, Van Domselaar G, McArthur AG (2023) CARD 2023: expanded curation, support for machine learning, and resistome prediction at the Comprehensive Antibiotic Resistance Database. Nucleic Acids Res 51:D690–D699. 10.1093/nar/gkac92036263822 10.1093/nar/gkac920 PMC9825576
+Alvarez B Vasse J Le-Courtois V Trigalet-Demery D Lopez MM Trigalet A Comparative behavior of Ralstonia solanacearum biovar 2 in diverse plant species Phytopathology 2008 98 59 68 10.1094/PHYTO-98-1-0059 18943239
+Alvarez B, Vasse J, Le-Courtois V, Trigalet-Demery D, Lopez MM, Trigalet A (2008) Comparative behavior of Ralstonia solanacearum biovar 2 in diverse plant species. Phytopathology 98:59–68. 10.1094/PHYTO-98-1-005918943239 10.1094/PHYTO-98-1-0059
+Aziz RK Bartels D Best AA DeJongh M Disz T Edwards RA Formsma K Gerdes S Glass EM Kubal M Meyer F Olsen GJ Olson R Osterman AL Overbeek RA McNeil LK Paarmann D Paczian T Parrello B Pusch GD Reich C Stevens R Vassieva O Vonstein V Wilke A Zagnitko O The RAST server: rapid annotations using subsystems technology BMC Genomics 2008 9 75 10.1186/1471-2164-9-75 18261238 PMC2265698
+Aziz RK, Bartels D, Best AA, DeJongh M, Disz T, Edwards RA, Formsma K, Gerdes S, Glass EM, Kubal M, Meyer F, Olsen GJ, Olson R, Osterman AL, Overbeek RA, McNeil LK, Paarmann D, Paczian T, Parrello B, Pusch GD, Reich C, Stevens R, Vassieva O, Vonstein V, Wilke A, Zagnitko O (2008) The RAST server: rapid annotations using subsystems technology. BMC Genomics 9:75. 10.1186/1471-2164-9-7518261238 10.1186/1471-2164-9-75 PMC2265698
+Bao Y Chetvernin V Tatusova T Improvements to pairwise sequence comparison (PASC): a genome-based web tool for virus classification Arch Virol 2014 159 3293 3304 10.1007/s00705-014-2197-x 25119676 PMC4221606
+Bao Y, Chetvernin V, Tatusova T (2014) Improvements to pairwise sequence comparison (PASC): a genome-based web tool for virus classification. Arch Virol 159:3293–3304. 10.1007/s00705-014-2197-x25119676 10.1007/s00705-014-2197-x PMC4221606
+Born Y Fieseler L Thony V Leimer N Duffy B Loessner MJ Engineering of bacteriophages Y2::dpoL1-C and Y2::luxAB for efficient control and rapid detection of the fire blight pathogen, Erwinia amylovora Appl Environ Microbiol 2017 83 e00341 e1317 10.1128/AEM.00341-17 28389547 PMC5452800
+Born Y, Fieseler L, Thony V, Leimer N, Duffy B, Loessner MJ (2017) Engineering of bacteriophages Y2::dpoL1-C and Y2::luxAB for efficient control and rapid detection of the fire blight pathogen, Erwinia amylovora. Appl Environ Microbiol 83:e00341-e1317. 10.1128/AEM.00341-1728389547 10.1128/AEM.00341-17 PMC5452800
+Bruynoghe R Maisin J Essais de thérapeutique au moyen du bacteriophage CR Soc Biol 1921 85 1120 1121
+Bruynoghe R, Maisin J (1921) Essais de thérapeutique au moyen du bacteriophage. CR Soc Biol 85:1120–1121
+Chen D Liu B Zhu Y Wang J Chen Z Che J Zheng X Chen X Complete genome sequence of Ralstonia solanacearum FJAT-1458, a potential biocontrol agent for tomato wilt Genome Announc 2017 5 e00070 e117 10.1128/genomeA.00070-17 28385834 PMC5383882
+Chen D, Liu B, Zhu Y, Wang J, Chen Z, Che J, Zheng X, Chen X (2017) Complete genome sequence of Ralstonia solanacearum FJAT-1458, a potential biocontrol agent for tomato wilt. Genome Announc 5:e00070-e117. 10.1128/genomeA.00070-1728385834 10.1128/genomeA.00070-17 PMC5383882
+Chen K Guan Y Hu R Cui X Liu Q Characterization of the LysP2110-HolP2110 lysis system in Ralstonia solanacearum phage P2110 Int J Mol Sci 2023 24 10375 10.3390/ijms241210375 37373522 PMC10299722
+Chen K, Guan Y, Hu R, Cui X, Liu Q (2023) Characterization of the LysP2110-HolP2110 lysis system in Ralstonia solanacearum phage P2110. Int J Mol Sci 24:10375. 10.3390/ijms24121037537373522 10.3390/ijms241210375 PMC10299722
+da Silva Xavier A da Silva FP Vidigal PMP Lima TTM de Souza FO Alfenas-Zerbini P Genomic and biological characterization of a new member of the genus Phikmvvirus infecting phytopathogenic Ralstonia bacteria Arch Virol 2018 163 3275 3290 10.1007/s00705-018-4006-4 30187144
+da Silva Xavier A, da Silva FP, Vidigal PMP, Lima TTM, de Souza FO, Alfenas-Zerbini P (2018) Genomic and biological characterization of a new member of the genus Phikmvvirus infecting phytopathogenic Ralstonia bacteria. Arch Virol 163:3275–3290. 10.1007/s00705-018-4006-430187144 10.1007/s00705-018-4006-4
+Dong Z Xing S Liu J Tang X Ruan L Sun M Tong Y Peng D Isolation and characterization of a novel phage Xoo-sp2 that infects Xanthomonas oryzae pv. oryzae J Gen Virol 2018 99 1453 1462 10.1099/jgv.0.001133 30102145
+Dong Z, Xing S, Liu J, Tang X, Ruan L, Sun M, Tong Y, Peng D (2018) Isolation and characterization of a novel phage Xoo-sp2 that infects Xanthomonas oryzae pv. oryzae. J Gen Virol 99:1453–1462. 10.1099/jgv.0.00113330102145 10.1099/jgv.0.001133
+Drigues P Demery-Lafforgue D Trigalet A Dupin P Samain D Asselineau J Comparative studies of lipopolysaccharide and exopolysaccharide from a virulent strain of Pseudomonas solanacearum and from three avirulent mutants J Bacteriol 1985 162 504 509 10.1128/jb.162.2.504-509.1985 3988700 PMC218876
+Drigues P, Demery-Lafforgue D, Trigalet A, Dupin P, Samain D, Asselineau J (1985) Comparative studies of lipopolysaccharide and exopolysaccharide from a virulent strain of Pseudomonas solanacearum and from three avirulent mutants. J Bacteriol 162:504–509. 10.1128/jb.162.2.504-509.19853988700 10.1128/jb.162.2.504-509.1985 PMC218876
+Fegan M Prior P Allen C Prior P Hayward AC How complex is the Ralstonia solanacearum species complex Bacterial wilt disease and the Ralstonia solanacearum species complex 2005 St. Paul, Minnesota, USA APS Press 449 461
+Fegan M, Prior P (2005) How complex is the Ralstonia solanacearum species complex. In: Allen C, Prior P, Hayward AC (eds) Bacterial wilt disease and the Ralstonia solanacearum species complex. APS Press, St. Paul, Minnesota, USA, pp 449–461
+Figueras MJ Beaz-Hidalgo R Hossain MJ Liles MR Taxonomic affiliation of new genomes should be verified using average nucleotide identity and multilocus phylogenetic analysis Genome Announc 2014 2 e00927-00914 10.1128/genomeA.00927-14 25477398 PMC4256179
+Figueras MJ, Beaz-Hidalgo R, Hossain MJ, Liles MR (2014) Taxonomic affiliation of new genomes should be verified using average nucleotide identity and multilocus phylogenetic analysis. Genome Announc 2:e00927-00914. 10.1128/genomeA.00927-1425477398 10.1128/genomeA.00927-14 PMC4256179
+Fujiwara A Fujisawa M Hamasaki R Kawasaki T Fujie M Yamada T Biocontrol of Ralstonia solanacearum by treatment with lytic bacteriophages Appl Environ Microbiol 2011 77 4155 4162 10.1128/AEM.02847-10 21498752 PMC3131639
+Fujiwara A, Fujisawa M, Hamasaki R, Kawasaki T, Fujie M, Yamada T (2011) Biocontrol of Ralstonia solanacearum by treatment with lytic bacteriophages. Appl Environ Microbiol 77:4155–4162. 10.1128/AEM.02847-1021498752 10.1128/AEM.02847-10 PMC3131639
+Goris J Konstantinidis KT Klappenbach JA Coenye T Vandamme P Tiedje JM DNA-DNA hybridization values and their relationship to whole-genome sequence similarities Int J Syst Evol Microbiol 2007 57 81 91 10.1099/ijs.0.64483-0 17220447
+Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM (2007) DNA-DNA hybridization values and their relationship to whole-genome sequence similarities. Int J Syst Evol Microbiol 57:81–91. 10.1099/ijs.0.64483-017220447 10.1099/ijs.0.64483-0
+Hayward AC Biology and epidemiology of bacterial wilt caused by Pseudomonas solanacearum Annu Rev Phytopathol 1991 29 65 87 10.1146/annurev.py.29.090191.000433 18479193
+Hayward AC (1991) Biology and epidemiology of bacterial wilt caused by Pseudomonas solanacearum. Annu Rev Phytopathol 29:65–87. 10.1146/annurev.py.29.090191.00043318479193 10.1146/annurev.py.29.090191.000433
+Hyman P Abedon ST Practical methods for determining phage growth parameters Methods Mol Biol 2009 501 175 202 10.1007/978-1-60327-164-6_18 19066822
+Hyman P, Abedon ST (2009) Practical methods for determining phage growth parameters. Methods Mol Biol 501:175–202. 10.1007/978-1-60327-164-6_1819066822 10.1007/978-1-60327-164-6_18
+Jackman SD Vandervalk BP Mohamadi H Chu J Yeo S Hammond SA Jahesh G Khan H Coombe L Warren RL Birol I ABySS 2.0: resource-efficient assembly of large genomes using a Bloom filter Genome Res 2017 27 768 777 10.1101/gr.214346.116 28232478 PMC5411771
+Jackman SD, Vandervalk BP, Mohamadi H, Chu J, Yeo S, Hammond SA, Jahesh G, Khan H, Coombe L, Warren RL, Birol I (2017) ABySS 2.0: resource-efficient assembly of large genomes using a Bloom filter. Genome Res 27:768–777. 10.1101/gr.214346.11628232478 10.1101/gr.214346.116 PMC5411771
+Jain C Rodriguez RL Phillippy AM Konstantinidis KT Aluru S High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries Nat Commun 2018 9 5114 10.1038/s41467-018-07641-9 30504855 PMC6269478
+Jain C, Rodriguez RL, Phillippy AM, Konstantinidis KT, Aluru S (2018) High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries. Nat Commun 9:5114. 10.1038/s41467-018-07641-930504855 10.1038/s41467-018-07641-9 PMC6269478
+Jiang G Wei Z Xu J Chen H Zhang Y She X Macho AP Ding W Liao B Bacterial wilt in China: history, current status, and future perspectives Front Plant Sci 2017 8 1549 10.3389/fpls.2017.01549 28955350 PMC5601990
+Jiang G, Wei Z, Xu J, Chen H, Zhang Y, She X, Macho AP, Ding W, Liao B (2017) Bacterial wilt in China: history, current status, and future perspectives. Front Plant Sci 8:1549. 10.3389/fpls.2017.0154928955350 10.3389/fpls.2017.01549 PMC5601990
+Katsura I Determination of bacteriophage lambda tail length by a protein ruler Nature 1987 327 73 75 10.1038/327073a0 2952887
+Katsura I (1987) Determination of bacteriophage lambda tail length by a protein ruler. Nature 327:73–75. 10.1038/327073a02952887 10.1038/327073a0
+Konstantinidis KT Tiedje JM Genomic insights that advance the species definition for prokaryotes Proc Natl Acad Sci U S A 2005 102 2567 2572 10.1073/pnas.0409727102 15701695 PMC549018
+Konstantinidis KT, Tiedje JM (2005) Genomic insights that advance the species definition for prokaryotes. Proc Natl Acad Sci U S A 102:2567–2572. 10.1073/pnas.040972710215701695 10.1073/pnas.0409727102 PMC549018
+Lavigne R Seto D Mahadevan P Ackermann HW Kropinski AM Unifying classical and molecular taxonomic classification: analysis of the Podoviridae using BLASTP-based tools Res Microbiol 2008 159 406 414 10.1016/j.resmic.2008.03.005 18555669
+Lavigne R, Seto D, Mahadevan P, Ackermann HW, Kropinski AM (2008) Unifying classical and molecular taxonomic classification: analysis of the Podoviridae using BLASTP-based tools. Res Microbiol 159:406–414. 10.1016/j.resmic.2008.03.00518555669 10.1016/j.resmic.2008.03.005
+Li J Li Y Ding Y Huang C Zhang Y Wang J Wang X Characterization of a novel Siphoviridae Salmonella bacteriophage T156 and its microencapsulation application in food matrix Food Res Int 2021 140 110004 10.1016/j.foodres.2020.110004 33648237
+Li J, Li Y, Ding Y, Huang C, Zhang Y, Wang J, Wang X (2021) Characterization of a novel Siphoviridae Salmonella bacteriophage T156 and its microencapsulation application in food matrix. Food Res Int 140:110004. 10.1016/j.foodres.2020.11000433648237 10.1016/j.foodres.2020.110004
+Liu Y Liu M Hu R Bai J He X Jin Y Isolation of the novel phage PHB09 and its potential use against the plant pathogen Pseudomonas syringae pv. actinidiae Viruses 2021 13 2275 10.3390/v13112275 34835081 PMC8622976
+Liu Y, Liu M, Hu R, Bai J, He X, Jin Y (2021) Isolation of the novel phage PHB09 and its potential use against the plant pathogen Pseudomonas syringae pv. actinidiae. Viruses 13:2275. 10.3390/v1311227534835081 10.3390/v13112275 PMC8622976
+Liu H Gu W Lu Y Ding L Guo Y Zou G Wu W Zheng D Liu C Wang C Cao Y Li J Exploration of phage-agrochemical interaction based on a novel potent phage LPRS20-targeting Ralstonia solanacearum J Agric Food Chem 2024 72 28005 28018 10.1021/acs.jafc.4c03799 39360931
+Liu H, Gu W, Lu Y, Ding L, Guo Y, Zou G, Wu W, Zheng D, Liu C, Wang C, Cao Y, Li J (2024) Exploration of phage-agrochemical interaction based on a novel potent phage LPRS20-targeting Ralstonia solanacearum. J Agric Food Chem 72:28005–28018. 10.1021/acs.jafc.4c0379939360931 10.1021/acs.jafc.4c03799
+Lowe TM Chan PP tRNAscan-SE on-line: integrating search and context for analysis of transfer RNA genes Nucleic Acids Res 2016 44 W54 57 10.1093/nar/gkw413 27174935 PMC4987944
+Lowe TM, Chan PP (2016) tRNAscan-SE on-line: integrating search and context for analysis of transfer RNA genes. Nucleic Acids Res 44:W54-57. 10.1093/nar/gkw41327174935 10.1093/nar/gkw413 PMC4987944
+Mansfield J Genin S Magori S Citovsky V Sriariyanum M Ronald P Dow M Verdier V Beer SV Machado MA Toth I Salmond G Foster GD Top 10 plant pathogenic bacteria in molecular plant pathology Mol Plant Pathol 2012 13 614 629 10.1111/j.1364-3703.2012.00804.x 22672649 PMC6638704
+Mansfield J, Genin S, Magori S, Citovsky V, Sriariyanum M, Ronald P, Dow M, Verdier V, Beer SV, Machado MA, Toth I, Salmond G, Foster GD (2012) Top 10 plant pathogenic bacteria in molecular plant pathology. Mol Plant Pathol 13:614–629. 10.1111/j.1364-3703.2012.00804.x22672649 10.1111/j.1364-3703.2012.00804.x PMC6638704
+Meier-Kolthoff JP Auch AF Klenk HP Goker M Genome sequence-based species delimitation with confidence intervals and improved distance functions BMC Bioinformatics 2013 14 60 10.1186/1471-2105-14-60 23432962 PMC3665452
+Meier-Kolthoff JP, Auch AF, Klenk HP, Goker M (2013) Genome sequence-based species delimitation with confidence intervals and improved distance functions. BMC Bioinformatics 14:60. 10.1186/1471-2105-14-6023432962 10.1186/1471-2105-14-60 PMC3665452
+Moraru C VirClust-a tool for hierarchical clustering, core protein detection and annotation of (prokaryotic) viruses Viruses 2023 15 1007 10.3390/v15041007 37112988 PMC10143988
+Moraru C (2023) VirClust-a tool for hierarchical clustering, core protein detection and annotation of (prokaryotic) viruses. Viruses 15:1007. 10.3390/v1504100737112988 10.3390/v15041007 PMC10143988
+Moraru C Varsani A Kropinski AM VIRIDIC-a novel tool to calculate the intergenomic similarities of prokaryote-infecting viruses Viruses 2020 12 1268 10.3390/v12111268 33172115 PMC7694805
+Moraru C, Varsani A, Kropinski AM (2020) VIRIDIC-a novel tool to calculate the intergenomic similarities of prokaryote-infecting viruses. Viruses 12:1268. 10.3390/v1211126833172115 10.3390/v12111268 PMC7694805
+Nischal PM First global report on antimicrobial resistance released by the WHO Natl Med J India 2014 27 241 25668175
+Nischal PM (2014) First global report on antimicrobial resistance released by the WHO. Natl Med J India 27:24125668175
+Nishimura Y Yoshida T Kuronishi M Uehara H Ogata H Goto S ViPTree: the viral proteomic tree server Bioinformatics 2017 33 2379 2380 10.1093/bioinformatics/btx157 28379287
+Nishimura Y, Yoshida T, Kuronishi M, Uehara H, Ogata H, Goto S (2017) ViPTree: the viral proteomic tree server. Bioinformatics 33:2379–2380. 10.1093/bioinformatics/btx15728379287 10.1093/bioinformatics/btx157
+Peng S Xu Y Qu H Nong F Shu F Yuan G Ruan L Zheng D Trojan horse virus delivering CRISPR-AsCas12f1 controls plant bacterial wilt caused by Ralstonia solanacearum Mbio 2024 15 e0061924 10.1128/mbio.00619-24 39012150 PMC11323561
+Peng S, Xu Y, Qu H, Nong F, Shu F, Yuan G, Ruan L, Zheng D (2024) Trojan horse virus delivering CRISPR-AsCas12f1 controls plant bacterial wilt caused by Ralstonia solanacearum. Mbio 15:e0061924. 10.1128/mbio.00619-2439012150 10.1128/mbio.00619-24 PMC11323561
+Prior P Ailloud F Dalsing BL Remenant B Sanchez B Allen C Genomic and proteomic evidence supporting the division of the plant pathogen Ralstonia solanacearum into three species BMC Genomics 2016 17 90 10.1186/s12864-016-2413-z 26830494 PMC4736150
+Prior P, Ailloud F, Dalsing BL, Remenant B, Sanchez B, Allen C (2016) Genomic and proteomic evidence supporting the division of the plant pathogen Ralstonia solanacearum into three species. BMC Genomics 17:90. 10.1186/s12864-016-2413-z26830494 10.1186/s12864-016-2413-z PMC4736150
+Rajamanickam K Hayes S The bacteriophage lambda CII phenotypes for complementation, cellular toxicity and replication inhibition are suppressed in cII-oop constructs expressing the small RNA OOP Viruses 2018 10 115 10.3390/v10030115 29518935 PMC5869508
+Rajamanickam K, Hayes S (2018) The bacteriophage lambda CII phenotypes for complementation, cellular toxicity and replication inhibition are suppressed in cII-oop constructs expressing the small RNA OOP. Viruses 10:115. 10.3390/v1003011529518935 10.3390/v10030115 PMC5869508
+Sae-Ueng U Bhunchoth A Phironrit N Treetong A Sapcharoenkun C Chatchawankanphanich O Leartsakulpanich U Chitnumsub P C22 podovirus infectivity is associated with intermediate stiffness Sci Rep 2020 10 12604 10.1038/s41598-020-69409-w 32724109 PMC7387534
+Sae-Ueng U, Bhunchoth A, Phironrit N, Treetong A, Sapcharoenkun C, Chatchawankanphanich O, Leartsakulpanich U, Chitnumsub P (2020) C22 podovirus infectivity is associated with intermediate stiffness. Sci Rep 10:12604. 10.1038/s41598-020-69409-w32724109 10.1038/s41598-020-69409-w PMC7387534
+Safni I Cleenwerck I De Vos P Fegan M Sly L Kappler U Polyphasic taxonomic revision of the Ralstonia solanacearum species complex: proposal to emend the descriptions of Ralstonia solanacearum and Ralstonia syzygii and reclassify current R. syzygii strains as Ralstonia syzygii subsp. syzygii subsp. nov., R. solanacearum phylotype IV strains as Ralstonia syzygii subsp. indonesiensis subsp. nov., banana blood disease bacterium strains as Ralstonia syzygii subsp. celebesensis subsp. nov. and R. solanacearum phylotype I and III strains as Ralstonia pseudosolanacearum sp. nov Int J Syst Evol Microbiol 2014 64 3087 3103 10.1099/ijs.0.066712-0 24944341
+Safni I, Cleenwerck I, De Vos P, Fegan M, Sly L, Kappler U (2014) Polyphasic taxonomic revision of the Ralstonia solanacearum species complex: proposal to emend the descriptions of Ralstonia solanacearum and Ralstonia syzygii and reclassify current R. syzygii strains as Ralstonia syzygii subsp. syzygii subsp. nov., R. solanacearum phylotype IV strains as Ralstonia syzygii subsp. indonesiensis subsp. nov., banana blood disease bacterium strains as Ralstonia syzygii subsp. celebesensis subsp. nov. and R. solanacearum phylotype I and III strains as Ralstonia pseudosolanacearum sp. nov. Int J Syst Evol Microbiol 64:3087–3103. 10.1099/ijs.0.066712-024944341 10.1099/ijs.0.066712-0
+Santos MA An improved method for the small scale preparation of bacteriophage DNA based on phage precipitation by zinc chloride Nucleic Acids Res 1991 19 5442 10.1093/nar/19.19.5442 1656393 PMC328918
+Santos MA (1991) An improved method for the small scale preparation of bacteriophage DNA based on phage precipitation by zinc chloride. Nucleic Acids Res 19:5442. 10.1093/nar/19.19.54421656393 10.1093/nar/19.19.5442 PMC328918
+Sharma S Chatterjee S Datta S Prasad R Dubey D Prasad RK Vairale MG Bacteriophages and its applications: an overview Folia Microbiol Praha 2017 62 17 55 10.1007/s12223-016-0471-x 27718043
+Sharma S, Chatterjee S, Datta S, Prasad R, Dubey D, Prasad RK, Vairale MG (2017) Bacteriophages and its applications: an overview. Folia Microbiol Praha 62:17–55. 10.1007/s12223-016-0471-x27718043 10.1007/s12223-016-0471-x
+Sullivan MJ Petty NK Beatson SA Easyfig: a genome comparison visualizer Bioinformatics 2011 27 1009 1010 10.1093/bioinformatics/btr039 21278367 PMC3065679
+Sullivan MJ, Petty NK, Beatson SA (2011) Easyfig: a genome comparison visualizer. Bioinformatics 27:1009–1010. 10.1093/bioinformatics/btr03921278367 10.1093/bioinformatics/btr039 PMC3065679
+Trotereau A Boyer C Bornard I Pecheur MJB Schouler C Torres-Barcelo C High genomic diversity of novel phages infecting the plant pathogen Ralstonia solanacearum, isolated in Mauritius and Reunion islands Sci Rep 2021 11 5382 10.1038/s41598-021-84305-7 33686106 PMC7940629
+Trotereau A, Boyer C, Bornard I, Pecheur MJB, Schouler C, Torres-Barcelo C (2021) High genomic diversity of novel phages infecting the plant pathogen Ralstonia solanacearum, isolated in Mauritius and Reunion islands. Sci Rep 11:5382. 10.1038/s41598-021-84305-733686106 10.1038/s41598-021-84305-7 PMC7940629
+Turner D Kropinski AM Adriaenssens EM A roadmap for genome-based phage taxonomy Viruses 2021 13 506 10.3390/v13030506 33803862 PMC8003253
+Turner D, Kropinski AM, Adriaenssens EM (2021) A roadmap for genome-based phage taxonomy. Viruses 13:506. 10.3390/v1303050633803862 10.3390/v13030506 PMC8003253
+Van Twest R Kropinski AM Bacteriophage enrichment from water and soil Methods Mol Biol 2009 501 15 21 10.1007/978-1-60327-164-6_2 19066806
+Van Twest R, Kropinski AM (2009) Bacteriophage enrichment from water and soil. Methods Mol Biol 501:15–21. 10.1007/978-1-60327-164-6_219066806 10.1007/978-1-60327-164-6_2
+Vasse J Frey P Trigalet A Microscopic studies of intercellular infection and protoxylem invasion of tomato roots by Pseudomonas solanacearum Mol Plant Microbe Interact 1995 8 241 251 10.1094/mpmi-8-0241
+Vasse J, Frey P, Trigalet A (1995) Microscopic studies of intercellular infection and protoxylem invasion of tomato roots by Pseudomonas solanacearum. Mol Plant Microbe Interact 8:241–251. 10.1094/mpmi-8-0241
+Villalpando-Aguilar JL Matos-Pech G Lopez-Rosas I Castelan-Sanchez HG Alatorre-Cobos F Phage therapy for crops: concepts, experimental and bioinformatics approaches to direct its application Int J Mol Sci 2022 24 325 10.3390/ijms24010325 36613768 PMC9820149
+Villalpando-Aguilar JL, Matos-Pech G, Lopez-Rosas I, Castelan-Sanchez HG, Alatorre-Cobos F (2022) Phage therapy for crops: concepts, experimental and bioinformatics approaches to direct its application. Int J Mol Sci 24:325. 10.3390/ijms2401032536613768 10.3390/ijms24010325 PMC9820149
+Wang M Du J Zhang D Li X Zhao J Modification of different pulps by homologous overexpression alkali-tolerant endoglucanase in Bacillus subtilis Y106 Sci Rep 2017 7 3321 10.1038/s41598-017-03215-9 28607421 PMC5468302
+Wang M, Du J, Zhang D, Li X, Zhao J (2017) Modification of different pulps by homologous overexpression alkali-tolerant endoglucanase in Bacillus subtilis Y106. Sci Rep 7:3321. 10.1038/s41598-017-03215-928607421 10.1038/s41598-017-03215-9 PMC5468302
+Wang X Wei Z Yang K Wang J Jousset A Xu Y Shen Q Friman VP Phage combination therapies for bacterial wilt disease in tomato Nat Biotechnol 2019 37 1513 1520 10.1038/s41587-019-0328-3 31792408
+Wang X, Wei Z, Yang K, Wang J, Jousset A, Xu Y, Shen Q, Friman VP (2019) Phage combination therapies for bacterial wilt disease in tomato. Nat Biotechnol 37:1513–1520. 10.1038/s41587-019-0328-331792408 10.1038/s41587-019-0328-3
+Wang K Chen D Liu Q Zhu P Sun M Peng D Isolation and characterization of novel lytic bacteriophage vB_RsoP_BMB50 infecting Ralstonia solanacearum Curr Microbiol 2022 79 245 10.1007/s00284-022-02940-3 35834130
+Wang K, Chen D, Liu Q, Zhu P, Sun M, Peng D (2022) Isolation and characterization of novel lytic bacteriophage vB_RsoP_BMB50 infecting Ralstonia solanacearum. Curr Microbiol 79:245. 10.1007/s00284-022-02940-335834130 10.1007/s00284-022-02940-3
+Wang X Wang S Huang M He Y Guo S Yang K Wang N Sun T Yang H Yang T Xu Y Shen Q Friman VP Wei Z Phages enhance both phytopathogen density control and rhizosphere microbiome suppressiveness Mbio 2024 15 e0301623 10.1128/mbio.03016-23 38780276 PMC11237578
+Wang X, Wang S, Huang M, He Y, Guo S, Yang K, Wang N, Sun T, Yang H, Yang T, Xu Y, Shen Q, Friman VP, Wei Z (2024) Phages enhance both phytopathogen density control and rhizosphere microbiome suppressiveness. Mbio 15:e0301623. 10.1128/mbio.03016-2338780276 10.1128/mbio.03016-23 PMC11237578
+Yang K Wang X Hou R Lu C Fan Z Li J Wang S Xu Y Shen Q Friman VP Wei Z Rhizosphere phage communities drive soil suppressiveness to bacterial wilt disease Microbiome 2023 11 16 10.1186/s40168-023-01463-8 36721270 PMC9890766
+Yang K, Wang X, Hou R, Lu C, Fan Z, Li J, Wang S, Xu Y, Shen Q, Friman VP, Wei Z (2023) Rhizosphere phage communities drive soil suppressiveness to bacterial wilt disease. Microbiome 11:16. 10.1186/s40168-023-01463-836721270 10.1186/s40168-023-01463-8 PMC9890766
+Yoon SH Ha SM Lim J Kwon S Chun J A large-scale evaluation of algorithms to calculate average nucleotide identity Antonie Van Leeuwenhoek 2017 110 1281 1286 10.1007/s10482-017-0844-4 28204908
+Yoon SH, Ha SM, Lim J, Kwon S, Chun J (2017) A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie Van Leeuwenhoek 110:1281–1286. 10.1007/s10482-017-0844-428204908 10.1007/s10482-017-0844-4
+Young R Bacteriophage lysis: mechanism and regulation Microbiol Rev 1992 56 430 481 10.1128/mr.56.3.430-481.1992 1406491 PMC372879
+Young R (1992) Bacteriophage lysis: mechanism and regulation. Microbiol Rev 56:430–481. 10.1128/mr.56.3.430-481.19921406491 10.1128/mr.56.3.430-481.1992 PMC372879
+Yuping L Guan L Becher I Makarova KS Cao X Hareendranath S Guan J Stein F Yang S Boergel A Lapouge K Remans K Agard D Savitski M Typas A Koonin EV Feng Y Bondy-Denomy J Jumbo phage killer immune system targets early infection of nucleus-forming phages Cell 2025 188 2127 2140 e2121 10.1016/j.cell.2025.02.016 40112800 PMC12147104
+Yuping L, Guan L, Becher I, Makarova KS, Cao X, Hareendranath S, Guan J, Stein F, Yang S, Boergel A, Lapouge K, Remans K, Agard D, Savitski M, Typas A, Koonin EV, Feng Y, Bondy-Denomy J (2025) Jumbo phage killer immune system targets early infection of nucleus-forming phages. Cell 188:2127-2140 e2121. 10.1016/j.cell.2025.02.01640112800 10.1016/j.cell.2025.02.016 PMC12147104
+Zhou S Liu B Zheng D Chen L Yang J VFDB 2025: an integrated resource for exploring anti-virulence compounds Nucleic Acids Res 2025 53 D871 D877 10.1093/nar/gkae968 39470738 PMC11701737
+Zhou S, Liu B, Zheng D, Chen L, Yang J (2025) VFDB 2025: an integrated resource for exploring anti-virulence compounds. Nucleic Acids Res 53:D871–D877. 10.1093/nar/gkae96839470738 10.1093/nar/gkae968 PMC11701737

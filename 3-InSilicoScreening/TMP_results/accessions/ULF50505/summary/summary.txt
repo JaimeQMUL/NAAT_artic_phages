@@ -1,0 +1,119 @@
+Summary file for ULF50505
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC11680127.1.txt
+The provided text snippets do not contain specific information regarding the optimal growth temperature or temperature tolerance for the organisms or bacteria. Therefore, I cannot extract any temperature-related data.
+
+
+Paper: PMC10949491.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37°C with shaking (e.g., 37°C for 18 h at 200 rpm; 37°C for 3 h for phage co-culture).
+- Environmental source/habitat: Wastewater, river, food samples, and factory drains.
+- Mention of adaptations: None explicitly mentioned.
+- Explicit classification: None provided regarding temperature adaptation (e.g., mesophile, thermophile).
+
+Environmental Context:
+- The organism was isolated from diverse environmental sources including wastewater, river, and food processing waste, suggesting adaptation to varied, non-extreme environments.
+
+Concise Summary:
+The study utilized growth conditions optimized for the pathogen, specifically maintaining cultures at 37°C with shaking incubation for extended periods (e.g., 18 hours). The phages and bacteria were isolated from diverse environmental reservoirs such as wastewater, river water, and food processing drains. The physiological data provided focuses on host-pathogen interactions and resistance mechanisms rather than thermal adaptation profiles. The consistent use of 37°C suggests the organism is optimally adapted to mammalian/mesophilic conditions, which is typical for this pathogen group. No evidence of thermophilic, psychrophilic, or extreme temperature adaptation was reported.
+
+
+Paper: PMC12369090.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 4–60 °C
+- Survival temperature range: 4–60 °C
+- Incubation conditions: 37 °C (for plaque assays, biofilm assays, and in vivo models)
+- Environmental source/habitat: Hospital sewage
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by optimal growth at 37 °C
+- Heat tolerance: Demonstrated up to 60 °C
+- Cold tolerance: Demonstrated down to 4 °C
+- Enzymes adapted to temperature: None specified
+- Membrane adaptations: None specified
+- Thermal stress responses: None specified
+
+Environmental Context:
+- Habitat/Source: Hospital sewage
+
+Concise Summary:
+The phages demonstrated robust environmental adaptability with a broad temperature tolerance range of 4–60 °C, indicating significant thermal stability for potential therapeutic applications. Optimal growth and stability were observed at 37 °C, which is consistent with mesophilic organisms. The phages were isolated from hospital sewage, suggesting an environmental reservoir. The study explicitly tested stability across this wide temperature range, confirming their resilience for storage and use in clinical settings.
+
+
+Paper: 42059661.txt
+Thermal Evidence:
+- High temperature requirement mentioned: $>42^{\circ}\text{C}$ (for vancomycin resistance).
+- Stress conditions tested: High temperature ($>42^{\circ}\text{C}$), stationary phase reached from carbon limitation.
+
+Environmental Context:
+- No specific environmental source/habitat mentioned.
+
+Concise Summary:
+The study investigates the role of an inner membrane protein in maintaining the permeability barrier of the gram-negative cell envelope under various stresses. The protein's function is linked to maintaining resistance at high temperatures ($>42^{\circ}\text{C}$) and during stationary phase induced by carbon limitation. The core mechanism involves the coordination of envelope biogenesis, particularly linking envelope integrity to balanced septal peptidoglycan (PG) production. Disruption of this balance, especially when PG precursors are elevated, compromises the outer membrane barrier, suggesting a temperature-sensitive regulatory role in envelope homeostasis.
+
+
+Paper: PMC13198026.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 21°C (for incubation in the 3D-printed devices).
+- Growth temperature range: 21°C (for incubation in the 3D-printed devices).
+- Survival temperature range: Not explicitly stated, but incubation was performed at 21°C.
+- Incubation conditions: Incubated in a desiccator (100% humidity) at 21°C for periods ranging from a few days to up to 3 weeks.
+- Environmental source/habitat: Soil, necromass, and *in planta* (wheat spike) environments.
+- Thermal adaptation: No explicit mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations.
+- Explicit classification: None provided by the authors regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Soil, necromass, and *in planta* (wheat spike) environments.
+
+Concise Summary:
+The study utilized controlled laboratory conditions, primarily involving incubation in a desiccator at 21°C for periods up to three weeks, to evaluate bacterial dispersal mediated by fungal hyphal networks. The organisms were sourced from diverse environments, including soil, fungal necromass, and *in planta* (wheat spike) niches. The experimental design focused on assessing interactions under controlled temperature regimes, with no specific thermal adaptations (thermophilic, psychrophilic, etc.) being highlighted for the tested microbial strains. The primary focus was on the physical and chemical factors governing dispersal rather than temperature-dependent physiological responses.
+
+
+Paper: PMC13197776.1.txt
+Thermal Evidence:
+- Optimal activity was observed at 37 °C for antibacterial assays.
+- Optimal activity was observed at 35 °C for enzyme activity assays.
+- Optimal activity was observed at 60 °C for one enzyme variant.
+- Optimal activity was observed at 65 °C for another enzyme variant.
+
+Environmental Context:
+- The enzymes were studied in the context of wastewater (soy whey wastewater) and were tested under controlled laboratory conditions (in vitro assays).
+
+Concise Summary:
+The study reports enzyme activity measurements under specific, controlled temperatures, including 37 °C for antibacterial assays and 35 °C for general enzyme activity assays. Optimal activity for specific enzyme variants was noted at 60 °C and 65 °C. The environmental context involves the use of wastewater (soy whey wastewater) as a source for candidate enzymes, but the functional characterization and mutagenesis studies were conducted under controlled laboratory incubation conditions, with no explicit mention of the organism's natural optimal growth temperature or adaptation to extreme thermal environments (thermophilic, psychrophilic, etc.).
+
+
+Paper: 42173318.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The study utilized cell-free ascites fluid and ascites macrophages from patients with decompensated cirrhosis. The pathogens studied are associated with the gut/ascites fluid environment.
+
+Concise Summary:
+This study investigated the bactericidal capacity of ascites fluid and macrophages against common pathogens associated with spontaneous bacterial peritonitis (SBP) in patients with decompensated cirrhosis. The analysis focused on the role of bacterial virulence factors, specifically O-antigen and capsule biosynthesis, in host evasion. No data regarding the thermal physiology, such as optimal growth temperature, temperature range, or specific thermal adaptations (thermophilic, psychrophilic, mesophilic), were presented for the tested bacterial strains or the host components.
+
+
+Paper: PMC13164435.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 37 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37 °C.
+- Environmental source/habitat: Not specified, but the organisms are associated with food safety and environmental persistence.
+- Mention of adaptations: No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses was found.
+
+Environmental Context:
+- Habitat/Source: The organisms are associated with food safety and environmental persistence, with the study testing efficacy on surfaces and in liquid matrices.
+
+Concise Summary:
+The tested bacterial strains were incubated and maintained under standard laboratory conditions at 37 °C. The paper does not provide specific data regarding the optimal, growth, or survival temperature ranges, nor does it discuss any specialized thermal adaptations (e.g., thermophilic or psychrophilic) for these organisms. The environmental context relates to food safety and environmental persistence, with the study focusing on inactivation kinetics across various matrices (agar, broth, glass, steel) under controlled, non-extreme temperature conditions (mean exposure temperature around 35.8 °C for the treatment group). The authors classified the general conditions as mesophilic in nature, but no explicit classification was provided for the strains regarding temperature adaptation.
+
+

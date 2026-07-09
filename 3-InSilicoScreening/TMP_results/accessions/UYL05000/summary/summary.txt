@@ -1,0 +1,187 @@
+Summary file for UYL05000
+Number of papers: 13
+=============Summaries=============
+
+Paper: PMC10241881.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not specified
+- Incubation conditions: 37 °C (for bacterial growth/plaque assays); 55 °C (for DNA extraction/proteinase K digestion)
+- Environmental source/habitat: Fecal samples, mesenteric lymph nodes (MLNs), sewage samples
+- Mention of adaptations: None explicitly mentioned.
+
+Environmental Context:
+- Habitat/Source: Gut microbiota (fecal samples, MLNs), sewage.
+
+Concise Summary:
+The study utilized bacterial growth and phage assays conducted at an optimal temperature of 37 °C. DNA extraction and protein digestion steps were performed at 55 °C. The organisms were isolated from human fecal samples and mesenteric lymph nodes, and the phages were isolated from sewage samples. No specific information regarding thermophilic, psychrophilic, or mesophilic adaptation, or thermal stress responses was provided for the microbes or phages studied.
+
+
+Paper: 42156216.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The samples were collected from freshwater aquaculture environments, specifically water, sediment, and intestinal samples associated with three types of aquaculture ponds (grass carp, crayfish, and crab ponds).
+
+Concise Summary:
+This study characterized the resistome and mobilome across different freshwater aquaculture modes using metagenomic sequencing. The analysis focused on the distribution and co-enrichment of antibiotic resistance genes (ARGs) and mobile genetic elements (MGEs) in gut, sediment, and water samples. The intestinal microbiome was identified as a critical hotspot for resistance accumulation, particularly in one specific aquaculture system. High-risk ARGs were found to be significantly more abundant in the gut compared to other compartments. Furthermore, the study noted the co-localization of ARGs, MGEs, and virulence factor genes within prophage sequences, suggesting phage-mediated co-dissemination of resistance and virulence traits. The analysis provided a basis for assessing ARG risks within the One Health framework, but contained no physiological data related to temperature adaptation or thermal ecology.
+
+
+Paper: PMC13070987.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for bacterial growth, phage adsorption, and initial stability testing).
+- Growth temperature range: 37 °C (for bacterial growth and phage assays).
+- Survival temperature range: Stable at 4 °C; retained titer at 4 °C; titer dropped below detection level at 60 °C and 80 °C when compared to 4 °C.
+- Incubation conditions: Assays performed at 37 °C (e.g., plaque formation, adsorption, one-step growth curve). Stability testing included incubation at 4 °C to 80 °C.
+- Environmental source/habitat: Isolated from hospital sewage water sample.
+- Thermophilic/Psychrophilic/Mesophilic: The phage demonstrates stability at 4 °C and optimal activity/growth at 37 °C, consistent with mesophilic conditions.
+- Heat tolerance: The phage is stable at 4 °C but loses titer significantly at 60 °C and 80 °C.
+- Cold tolerance: Stable at 4 °C.
+
+Environmental Context:
+- Habitat/Source: Hospital sewage water sample.
+
+Concise Summary:
+The phage was isolated from hospital sewage water and was characterized using standard laboratory conditions, with bacterial growth and phage assays optimally performed at 37 °C. The phage exhibits good stability at 4 °C, retaining its titer, while its activity significantly decreases at higher temperatures, showing a loss of titer at 60 °C and 80 °C compared to 4 °C. The phage is classified as mesophilic, thriving under conditions suitable for human/animal pathogens, and demonstrated long-term stability when stored at 4 °C. No evidence of thermophilic adaptation was noted; rather, it shows limited heat tolerance above 50 °C.
+
+
+Paper: 42153618.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were reported.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The organism was isolated from a clinical/hospital setting (implied by the context of carbapenem-resistant strains in a hospital setting).
+- No mention of isolation from an extreme environment.
+
+Concise Summary:
+The study focused on the genomic impact of prophages in carbapenem-resistant bacteria. The analysis involved inducing prophages using mitomycin-C and sequencing the resulting lysates and bacterial genomes. The findings characterize prophages as dynamic genetic reservoirs enriched in virulence, stress-tolerance, and immune-evasion determinants, rather than antimicrobial resistance genes. The research highlights the role of these hidden viruses in shaping bacterial pathogenicity and evolutionary adaptation under stressful conditions. No data regarding the organism's thermal physiology or environmental temperature requirements were provided.
+
+
+Paper: PMC13158650.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided for the microorganisms discussed.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The microorganisms were studied in the context of the gut microbiota and associated with the gut-pancreas axis, with sources mentioned including the intestinal mucus layer, bile, and general gastrointestinal tract samples. No explicit classification regarding temperature adaptation was given by the authors.
+
+
+Paper: PMC8841789.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided for the organism.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organism was studied in the context of clinical infection and drug resistance, not explicitly from an extreme environment.
+
+Concise Summary:
+This study focuses on the metabolic profiling and drug target identification in a carbapenem-resistant strain of *Klebsiella pneumoniae* using genome-scale metabolic modeling. The analysis integrates multi-omics data (genomic, transcriptomic) to prioritize metabolic pathways for novel antimicrobial development. The research details the manual refinement of the metabolic network, the identification of topological choke-points, and the scoring of pathways based on druggability, essentiality, and upregulation during carbapenem exposure. Key target pathways identified include those involved in LPS biosynthesis, preQ0 biosynthesis, lipoylation, methionine salvage, flavin biosynthesis, and energy metabolism (TCA cycle). The metabolic analysis is highly focused on biochemical function and drug potential rather than physiological adaptation to temperature extremes.
+
+
+Paper: PMC3904158.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was isolated from a blood culture of a patient admitted to the intensive care unit (ICU) in a hospital setting.
+- The authors did not classify the organism based on temperature adaptation.
+
+Concise Summary:
+The provided manuscript focuses extensively on the comparative genomics, virulence factors, and antimicrobial resistance mechanisms of the bacterial isolate. There is no evidence within the text regarding the organism's optimal growth temperature, temperature range, survival temperature, or any specific thermal adaptations (thermophilic, psychrophilic, etc.). The isolation source was a blood culture from an ICU patient, indicating a clinical, rather than an extreme environmental, origin.
+
+
+Paper: PMC13037700.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was reported.
+- Incubation conditions were not detailed in terms of temperature.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membrane adaptations was found.
+
+Environmental Context:
+- The organism was isolated from clinical samples (blood, bronchial sampling, deep site pus, surgical wound pus, ascitic fluid) in a hospital setting.
+- No mention of isolation from an extreme environment was made.
+
+Concise Summary:
+The provided text focuses exclusively on the antimicrobial resistance, molecular epidemiology, and clinical characteristics of the bacterial isolates. There is no scientific evidence or discussion regarding the organism's thermal physiology, including optimal growth temperature, temperature ranges, or adaptations to extreme thermal conditions.
+
+
+Paper: PMC5088521.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not specified
+- Survival temperature range: Not specified
+- Incubation conditions: Incubated under constant shaking at 37°C
+- Environmental source/habitat: Clinical/nosocomial outbreak setting
+- Mention of thermal adaptation: None
+- Explicit classification: None
+
+Environmental Context:
+- Habitat/source: Clinical/nosocomial outbreak setting
+
+Concise Summary:
+The organism was cultured and analyzed under standard laboratory conditions, with incubation performed at 37°C. The study focused on the transcriptomic response to antibiotic stress (Polymyxin B) and various abiotic stresses (acid pH, magnesium deprivation, high calcium, high iron) rather than thermal adaptation. No data regarding optimal, survival, or temperature range was provided; the organism was not characterized as thermophilic, psychrophilic, or otherwise thermally adapted.
+
+
+Paper: PMC13148056.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were reported.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was isolated from various clinical sites, including urine, blood cultures, respiratory specimens, pus, surgical specimens, wound, bile, catheter, drainage fluid, and peritoneal fluid.
+- The authors did not report isolation from an extreme environment.
+
+Concise Summary:
+The study focuses on the molecular mechanisms of resistance to piperacillin-tazobactam in clinical isolates of a major nosocomial pathogen. The analysis is entirely genomic and epidemiological, detailing the role of plasmid-borne $\beta$-lactamase amplification (specifically $blaSHV-1$ copies) on an epidemic plasmid backbone (IncFIB(K)$_1$Kpn3) as the primary driver of resistance. No data regarding the organism's thermal physiology, growth temperature, or environmental adaptation were presented.
+
+
+Paper: PMC13070987.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for bacterial growth, phage adsorption, and initial stability testing).
+- Growth temperature range: 37 °C (for bacterial growth and phage assays).
+- Survival temperature range: Stable at 4 °C; retained titer at 4 °C; titer dropped below detection level at 60 °C and 80 °C when compared to 4 °C.
+- Incubation conditions: Assays performed at 37 °C (e.g., plaque formation, adsorption, one-step growth curve). Stability testing included incubation at 4 °C to 80 °C.
+- Environmental source/habitat: Isolated from hospital sewage water sample.
+- Thermophilic/Psychrophilic/Mesophilic: The phage demonstrates stability at 4 °C and optimal activity/growth at 37 °C, consistent with mesophilic conditions.
+- Heat tolerance: The phage is stable at 4 °C but loses titer significantly at 60 °C and 80 °C.
+- Cold tolerance: Stable at 4 °C.
+
+Environmental Context:
+- Habitat/Source: Hospital sewage water sample.
+
+Concise Summary:
+The phage was isolated from hospital sewage water and was characterized using standard laboratory conditions, with bacterial growth and phage assays optimally performed at 37 °C. The phage exhibits good stability at 4 °C, retaining its titer, while its activity significantly decreases at higher temperatures, showing a loss of titer at 60 °C and 80 °C compared to 4 °C. The phage is classified as mesophilic, thriving under conditions suitable for human/animal pathogens, and demonstrated long-term stability when stored at 4 °C. No evidence of thermophilic adaptation was noted; rather, it shows limited heat tolerance above 50 °C.
+
+
+Paper: PMC5820359.1.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes was found.
+
+Environmental Context:
+- The organism was isolated from nosocomial infections in Southeast Brazil.
+
+Concise Summary:
+The study focuses on the genomic characterization of a multidrug-resistant clinical isolate. No data regarding the organism's thermal physiology, optimal growth temperature, or temperature adaptation (thermophilic, psychrophilic, mesophilic) were presented in the provided text.
+
+
+Paper: PMC7125228.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37 °C (for various assays, e.g., biofilm formation, phage assays)
+- Environmental source/habitat: Wastewater, hospital samples (urine, blood, sputum, faeces)
+- Mention of adaptation: None explicitly mentioned (no thermophilic, psychrophilic, or specific temperature adaptation noted).
+
+Environmental Context:
+- Habitat/Source: Wastewater and clinical/hospital samples.
+
+Concise Summary:
+The bacteriophage was isolated from wastewater and tested against clinical isolates of a pathogenic bacterium. All laboratory assays, including host range testing, biofilm degradation, and phage growth curve determination, were conducted under standard physiological conditions at 37 °C. The source material indicates an association with human-derived clinical and environmental samples, but there is no evidence provided regarding the organism's adaptation to extreme temperatures (thermophilic or psychrophilic). The conditions utilized are consistent with mesophilic growth requirements for human pathogens.
+
+

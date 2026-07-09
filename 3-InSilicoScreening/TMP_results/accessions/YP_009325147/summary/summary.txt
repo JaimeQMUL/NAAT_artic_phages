@@ -1,0 +1,140 @@
+Summary file for YP_009325147
+Number of papers: 9
+=============Summaries=============
+
+Paper: 27693926.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Isolated from marine environments, specifically comparing coastal versus open ocean sources.
+
+Concise Summary:
+Analysis focused on the genomic content and context of auxiliary metabolic genes (AMGs) in cyanomyoviruses infecting marine cyanobacteria. AMG content showed conservation within operational taxonomic units (OTUs) and correlated with the isolation host and environment (coastal vs. open ocean). The study proposed that the genomic location variation of AMGs relates to selection pressure stability (rare AMGs = fluctuating selection; common AMGs = stable selection). No direct thermal physiological data was presented for classification.
+
+
+Paper: PMC13178680.1.txt
+Thermal Evidence:
+- No specific optimal growth temperature or temperature range was provided for the microalgae species.
+- No mention of survival temperature range, thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The microalgae were cultured in laboratory settings using controlled conditions (shakers, artificial light source) and were not explicitly stated to be isolated from an extreme environment.
+
+Concise Summary:
+The study focused on optimizing the biomanufacturing of extracellular vesicles (EVs) from four microalgae species. The experimental parameters detailed involved culturing under varying photoperiods (0, 16, and 24 h light/day) and controlled agitation/temperature conditions within a laboratory bioreactor setup. No data regarding the optimal growth temperature, temperature range, or thermal adaptation (thermophilic, psychrophilic, mesophilic) of the microalgae were reported. The organisms were cultured in artificial media under controlled laboratory conditions, not explicitly sourced from an extreme natural environment.
+
+
+Paper: PMC13187645.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for *E. coli* assays).
+- Growth temperature range: 37 °C (for *E. coli* assays); 25 °C daytime/20 °C night time (for *N. tabacum* growth).
+- Survival temperature range: Not explicitly stated for the organism itself, but *E. coli* assays were conducted at 37 °C.
+- Incubation conditions: Overnight incubation at 37 °C in air/CO2-supplemented air for *E. coli* assays; controlled-temperature growth room at 25 °C with a 16 h:8 h photoperiod for *N. tabacum* co-cultivation.
+- Environmental source/habitat: Marine $\alpha$-cyanobacteria (from *Synechococcus* spp. and *Prochlorococcus* spp.).
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, or cold tolerance adaptations. The growth conditions tested are standard laboratory/plant growth conditions.
+
+Environmental Context:
+- Habitat/Source: Marine $\alpha$-cyanobacteria, and subsequent expression/testing in *E. coli* and *Nicotiana tabacum* (tobacco).
+
+Concise Summary:
+Functional characterization of bicarbonate transporters from marine $\alpha$-cyanobacteria. The transporters were tested for function in *E. coli*, where optimal growth and assay conditions were maintained at 37 °C. The subsequent plant expression and phenotypic analysis were conducted in *N. tabacum* under controlled growth conditions simulating a diurnal cycle (25 °C day/20 °C night). The source organisms are marine $\alpha$-cyanobacteria, which are known to inhabit aquatic environments. No specific thermal adaptations (thermophilic, psychrophilic, etc.) were reported for the cyanobacterial transporters or the tested systems.
+
+
+Paper: PMC13193486.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: Continuous light (50 $\mu E m^{-2} s^{-1}$) at 37°C and 120 r.p.m.
+- Environmental source/habitat: Not explicitly stated
+- Thermophilic adaptation: The organism is described as an acidophilic alga and the study involves assays at 30°C, suggesting adaptation to varying temperatures.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: The optimal growth temperature of 37°C suggests mesophilic growth conditions.
+- Heat tolerance: The organism is described as acidophilic and the study involves heat-inactivation controls (95°C for 10 min).
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/source: The organism is described as an acidophilic alga.
+
+Concise Summary:
+The organism was cultivated under conditions optimal for growth at 37°C, utilizing continuous light at 50 $\mu E m^{-2} s^{-1}$. The study utilized heat-inactivation controls at 95°C for 10 minutes, indicating inherent heat tolerance. The organism is classified as an acidophilic alga, suggesting adaptation to acidic environments. The biochemical assays were performed at 30°C, and the optimal growth temperature suggests mesophilic characteristics, although its acidophilic nature points to adaptation to extreme pH conditions.
+
+
+Paper: PMC13192157.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C
+- Growth temperature range: Ambient temperature (implied 28°C)
+- Survival temperature range: Not explicitly stated, but growth was maintained at 28°C.
+- Incubation conditions: Continuous illumination (~70–80 µmol photons m⁻² s⁻¹), shaking at 125 rpm. For some experiments, 40°C was used for isoprene production, and 37°C was used for *E. coli* culture.
+- Environmental source/habitat: Not specified, but the organism is a cyanobacterium used in photo-biotechnological applications.
+- Thermal adaptation: No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations.
+
+Environmental Context:
+- Habitat/Source: Not specified; the organism is a model cyanobacterium used in controlled laboratory settings for metabolic engineering studies.
+
+
+Paper: 42018485.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes.
+- Membrane adaptations were noted in relation to silicate availability, but not explicitly linked to temperature stress.
+
+Environmental Context:
+- The study utilized coastal and marine strains, suggesting an environmental context in marine/coastal waters.
+
+Concise Summary:
+The study investigated the physiological and transcriptomic responses of a cyanobacterium to silicate availability using both coastal and marine strains. Growth was tested under silicate-depleted (<1 μmol·L⁻¹) and silicate-repleted (100 μmol·L⁻¹) conditions. The analysis revealed that silicate modulated photosynthetic and oxidative phosphorylation pathways, leading to strain-specific acclimation strategies. The study did not provide any data regarding optimal, range, or survival temperatures, nor did it classify the organism based on thermal adaptation (e.g., mesophile, psychrophile). The strains were sourced from coastal and marine environments.
+
+
+Paper: 42108655.txt
+Thermal Evidence:
+- No specific optimal, range, or survival temperatures were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- No specific environmental source or habitat was detailed regarding temperature extremes.
+
+Concise Summary:
+The study investigated the interaction of phototropism and gravitropism in a cyanobacterium. The physiological mechanisms observed relate to the directional sensing of light, adhesion, and external physical forces (including gravity). Pigment distribution (phycobilins and chlorophyll) is regulated by these directional cues, with polyphosphate bodies being key regulators. The paper reports the first known intracellular directional gravity response mechanism in a prokaryote, but provides no data regarding the organism's thermal optimum, growth range, or adaptation to temperature extremes.
+
+
+Paper: PMC13147198.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but growth was maintained under continuous light conditions.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at room temperature (RT) for DNA-BP complex formation, and subsequent cell incubation was conducted under low light conditions at $30^	ext{o}	ext{C}$ with shaking at $120 	ext{ rpm}$ (for some experiments) or $130 	ext{ rpm}$ (for routine maintenance).
+- Environmental source/habitat: Aquatic environments.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by the $30^	ext{o}	ext{C}$ incubation temperature.
+- Heat tolerance: No mention.
+- Cold tolerance: No mention.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Aquatic ecosystems; the strains are cyanobacteria.
+- Extreme Environment Isolation: No mention of isolation from an extreme environment.
+- Explicit Classification: No explicit thermal classification provided by the authors.
+
+
+Paper: 42082731.txt
+Thermal Evidence:
+- No specific optimal, growth range, or survival temperature was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The study manipulated $\text{CO}_2$ concentrations (comparing air levels to $3\% \text{CO}_2$) to study physiological responses, not environmental temperature gradients.
+- No specific environmental source or habitat was mentioned.
+
+Concise Summary:
+The study investigated the structural and redox adaptability of $\text{CO}_2$ fixation machinery in a cyanobacterium under varying $\text{CO}_2$ concentrations ($0.04\%$ to $3\% \text{CO}_2$). The research utilized redox sensors and microscopy to observe changes in carboxysome encapsulation and redox state, noting the formation of partially encapsulated, procarboxysome-like structures under high $\text{CO}_2$. No data regarding temperature optima, growth ranges, or thermal adaptations were presented.
+
+

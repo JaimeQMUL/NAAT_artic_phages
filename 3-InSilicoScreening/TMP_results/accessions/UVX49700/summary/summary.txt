@@ -1,0 +1,89 @@
+Summary file for UVX49700
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC13198106.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (mentioned multiple times for various assays and general growth).
+- Growth temperature range: 37°C (standard growth temperature for most assays).
+- Survival temperature range: Not explicitly defined, but heat shock was applied at 48°C, 50°C, 52°C, and 54°C for 2 minutes, with optimal temperatures varying by strain/plasmid. The optimal heat shock temperature range was noted as 48°C to 52°C for staphylococci, though 56°C was effective for one species. A 10-minute heat shock was noted to be too harsh.
+- Incubation conditions: Standard incubation was at 37°C, with some assays requiring incubation at 30°C for temperature-sensitive plasmids. Anaerobic incubation was required for one species.
+- Environmental source/habitat: Human nasal and skin microbiomes; canine skin infection; and general commensal/environmental bacteria.
+- Thermophilic adaptation: No evidence of thermophilic adaptation.
+- Psychrophilic adaptation: No evidence of psychrophilic adaptation.
+- Mesophilic growth: Indicated by the standard growth temperature of 37°C.
+- Heat tolerance: Demonstrated by the ability to survive and undergo genetic manipulation following controlled heat shock treatments (e.g., 50°C for 2 min).
+- Cold tolerance: Not explicitly detailed, but the use of 30°C incubation for temperature-sensitive plasmids suggests tolerance to lower temperatures.
+- Enzymes adapted to temperature: No specific enzyme adaptations to temperature were detailed.
+- Membrane adaptations: No evidence provided.
+- Thermal stress responses: The study utilized heat shock, which is related to the bacterial heat shock response (HSR), suggesting the bacteria possess mechanisms to cope with elevated temperatures.
+
+Environmental Context:
+- Habitat/Source: Commensal bacteria from the human nasal and skin microbiomes, and other environmental/clinical isolates.
+
+Concise Summary:
+The study focuses on genetic manipulation of commensal bacteria, primarily staphylococci, which are generally mesophiles with an optimal growth temperature of 37°C. The bacteria were isolated from human nasal and skin microbiomes. The methodology relies on a novel technique combining phage transduction with a short, controlled heat shock (e.g., 2 minutes at 48°C–52°C) to overcome restriction-modification (RM) barriers. The heat shock itself is a form of thermal stress applied to the cells, which transiently inactivates DNA-defense systems. While the bacteria are generally mesophilic, the protocol demonstrates the ability to manipulate strains under varying thermal conditions, including the use of 30°C incubation for temperature-sensitive plasmids. The successful application of this method across different species and genera (including *Cutibacterium acnes*, *Bacillus*, and *Listeria*) confirms the utility of temperature-mediated stress to enhance genetic accessibility.
+
+
+Paper: PMC13198022.1.txt
+Thermal Evidence:
+- No specific optimal, growth, or survival temperature ranges were provided.
+- No mention of thermophilic, psychrophilic, mesophilic, or cold/heat tolerance adaptations was found.
+- No specific details regarding temperature-adapted enzymes or membrane adaptations were reported.
+
+Environmental Context:
+- The organisms studied are marine picocyanobacteria, specifically mentioning genera associated with the oceanic environment.
+- The source material analyzed includes metagenomes and single-cell amplified genomes (SAGs) from marine environments.
+
+Concise Summary:
+This study focuses on the auxiliary metabolic gene pebS, an enzyme involved in phycoerythrobilin biosynthesis, found in cyanophages infecting marine picocyanobacteria. The research utilized genomic data derived from marine environmental samples, including metagenomes and SAGs. The analysis confirms that the phage-encoded pebS gene is distinct from the two-step reduction pathway utilized by the host cyanobacteria (PebA and PebB). The study provides no explicit data regarding the optimal growth temperature, temperature range, or thermal adaptations of the organisms or enzymes involved.
+
+
+Paper: 42008119.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The phages were isolated from wastewater.
+
+Concise Summary:
+Environmental bacteriophages were tested against Gram-negative pathogens isolated from a third-level hospital. The study assessed antibiofilm activity in combination with antibiotics. No specific thermal parameters regarding the phages or the host bacteria were reported.
+
+
+Paper: PMC13197380.1.txt
+Thermal Evidence:
+- Optimal activity observed at 20–60 °C.
+- Significant decrease in efficacy noted after exposure to 70 °C.
+- Total inactivation occurred at 80 °C for 20 min.
+- The phage maintained high activity across a range of 20–60 °C.
+
+Environmental Context:
+- Isolated from tomato fields in Fujian, China.
+
+Concise Summary:
+The phage exhibited optimal biological activity within the mesophilic range of 20–60 °C. Its thermal stability profile showed a marked decline in efficacy upon exposure to 70 °C, with complete inactivation observed at 80 °C after 20 minutes. The phage was isolated from a field environment in Fujian, China. No specific classification regarding thermophilic or psychrophilic adaptation was provided; the observed activity profile is consistent with a mesophilic organism.
+
+
+Paper: PMC13197833.1.txt
+Thermal Evidence:
+- No temperature-related data was found in the provided text.
+
+Environmental Context:
+- No environmental source or habitat information related to temperature was found in the provided text.
+
+Concise Summary:
+This article focuses on identifying novel biomarkers and therapeutic targets for endometriosis using integrative analysis of the plasma proteome and genome via Mendelian randomization. It details proteomic associations, functional pathway analysis (e.g., ECM-receptor interaction, PI3K-Akt signaling), and druggability assessment for five candidate proteins: ALPI, HSPG2, POLR2F, KHK, and STXBP1. The analysis is purely molecular and genetic, with no mention of microbial physiology, growth conditions, or temperature adaptations.
+
+
+Paper: PMC13198047.1.txt
+Thermal Evidence:
+- No temperature-related data was provided in the text.
+
+Environmental Context:
+- No environmental context related to temperature was provided in the text.
+
+Concise Summary:
+This paper focuses on the role of a kinase in pulmonary fibrosis, investigating its upregulation in Idiopathic Pulmonary Fibrosis (IPF) tissues and bleomycin-induced fibrosis models. The study utilized *in vitro* cell culture conditions (37°C in a 5% CO2 incubator) and *in vivo* animal models. No information regarding the organism's optimal growth temperature, temperature range, or thermal adaptations was present in the provided text.
+
+

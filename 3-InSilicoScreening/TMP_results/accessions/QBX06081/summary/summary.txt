@@ -1,0 +1,126 @@
+Summary file for QBX06081
+Number of papers: 9
+=============Summaries=============
+
+Paper: PMC12685585.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 27°C (mentioned for multiple assays).
+- Growth temperature range: 4–37°C (stability range for the phage).
+- Survival temperature range: 4°C to 37°C (phage retained infectivity).
+- Incubation conditions: 27°C (used for plaque assays, adsorption kinetics, and one-step growth).
+- Environmental source/habitat: Marine/aquaculture-relevant conditions.
+- Mention of adaptations: The phage exhibited considerable environmental robustness, retaining infectivity across a broad temperature range.
+
+Environmental Context:
+- Habitat/Source: Marine environment, aquaculture settings.
+
+Concise Summary:
+The phage demonstrated significant environmental robustness, maintaining infectivity across a broad temperature range of 4°C to 37°C. Optimal growth and assay conditions were consistently maintained at 27°C. The phage was characterized in the context of marine and aquaculture-associated pathogens, indicating adaptation to these aquatic environments. No explicit classification (e.g., thermophilic, psychrophilic) was provided by the authors, but the observed stability across this range suggests broad thermal tolerance suitable for diverse aquatic settings.
+
+
+Paper: PMC13084003.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 28°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 28°C for 24h (for biofilm assays).
+- Environmental source/habitat: Coastal/estuarine environments (natural infection source).
+- Mention of adaptation: None explicitly mentioned.
+- Explicit classification: None provided by the authors regarding thermal adaptation.
+
+Environmental Context:
+- Habitat/Source: Coastal/estuarine environments; isolated from naturally infected seabream.
+
+Concise Summary:
+The study utilized an incubation temperature of 28°C for biofilm formation assays, which is the primary temperature condition detailed for the *in vitro* work. The isolates were sourced from naturally infected seabream in coastal/estuarine environments. No specific data regarding optimal growth temperature range, survival temperature range, or explicit classification (e.g., mesophile, thermophile) related to temperature adaptation were provided in the text.
+
+
+Paper: PMC12655614.1.txt
+Thermal Evidence:
+- The survival of a specific pathogen was tested at $25^	ext{o}	ext{C}$ in the context of phage inhibition.
+
+Environmental Context:
+- Food matrices (lettuce leaves and chicken meat) were used as the environment for phage activity testing.
+
+Concise Summary:
+Phage activity was demonstrated against a specific pathogen's biofilm formation on food matrices at $25^	ext{o}	ext{C}$. No explicit classification regarding the organism's thermal adaptation was provided.
+
+
+Paper: PMC13197782.1.txt
+The provided text discusses various aspects of microbiology and biotechnology, but it does not contain specific, quantifiable data regarding the optimal growth temperature ranges for any microorganisms. Therefore, I cannot extract temperature-related data points.
+
+
+Paper: 42101683.txt
+Thermal Evidence:
+- Optimal ureolytic activity was observed at 30 °C.
+- Tested ureolytic activity range included 24 °C, 30 °C, and 36 °C.
+- No specific survival or growth temperature ranges were provided beyond the tested range.
+
+Environmental Context:
+- Seawater-derived.
+- No mention of extreme environments, thermophilic, psychrophilic, or specific thermal adaptations.
+- No explicit thermal classification provided by the authors.
+
+
+Paper: PMC13188858.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for one tested condition).
+- Growth temperature range: Growth was observed at 30°C and 37°C.
+- Survival temperature range: Growth was observed at 30°C and 37°C.
+- Incubation conditions: Growth was tested at 30°C and 37°C.
+- Thermophilic adaptation: No explicit classification given, but growth was tested at 37°C.
+- Psychrophilic adaptation: No explicit mention.
+- Mesophilic growth: Growth was observed at 30°C and 37°C, consistent with mesophilic ranges.
+- Heat tolerance: Growth was observed at 37°C.
+- Cold tolerance: Growth was observed at 30°C.
+- Enzymes adapted to temperature: No specific temperature adaptation of enzymes was detailed.
+- Membrane adaptations: No specific membrane adaptations related to temperature were detailed.
+- Thermal stress responses: The study examined growth across different temperatures (30°C and 37°C) under varying osmotic stress conditions.
+
+Environmental Context:
+- Habitat/Source: One strain was originally isolated from deep-sea hydrothermal vents. The organism is described as a marine bacterium with worldwide distribution. The study tested growth in conditions simulating marine environments (e.g., 3% NaCl).
+
+Concise Summary:
+The organism was isolated from deep-sea hydrothermal vents and is described as a marine bacterium with a worldwide distribution. Growth experiments were conducted across two temperatures, 30°C and 37°C, indicating mesophilic growth capabilities. The study assessed metabolic flexibility (biosynthesis and catabolism of ectoine) under varying osmotic stresses at both tested temperatures. The data support growth at both 30°C and 37°C, suggesting a moderate thermal range rather than strict thermophilic or psychrophilic specialization. The metabolic processes studied (compatible solute utilization) are shown to be environmentally responsive, linking physiological function to the tested temperature regimes.
+
+
+Paper: PMC13190513.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 28°C (for growth curve analysis and initial incubation).
+- Growth temperature range: Implied optimal growth around 28°C.
+- Survival temperature range: Viability was maintained at 50°C (no significant reduction compared to 28°C). Viability significantly declined at 100°C.
+- Incubation conditions: Incubated at 28°C for initial isolation and growth curve analysis. Simulated gastric fluid (SGF) incubation was performed at 29°C. Simulated intestinal fluid (SIF) incubation was performed at 29°C.
+- Thermal stress responses: Showed sensitivity to extreme heat (100°C) but maintained viability at 50°C.
+
+Environmental Context:
+- Habitat/Source: Isolated from mangrove ecosystems of Kochi, southern India.
+- Extreme Environment Isolation: Not explicitly stated as isolated from an extreme environment, but sourced from mangrove ecosystems.
+- Explicit Classification: No explicit classification (e.g., mesophile, psychrotolerant) was given by the authors regarding temperature adaptation, but the optimal growth temperature was observed at 28°C, which is characteristic of mesophilic organisms.
+
+
+Paper: 42178163.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- Isolated from a marine environment (implied by the study context and use of the Tara Oceans dataset).
+- The strain shows a strong positive correlation between core algicidal activity genes and eutrophic signals, indicating adaptation to bloom conditions.
+
+Concise Summary:
+The study describes a marine bacterium exhibiting potent, selective algicidal activity against a toxic dinoflagellate. The physiological mechanism involves a dose-dependent dual-mode strategy: indirect, secretion-mediated inhibition at low bacterial densities, transitioning to rapid, contact-dependent lysis at high densities. Genomic analysis revealed that host contact triggers the immediate upregulation of the Type VI Secretion System (VgrG), followed by Quorum Sensing activation and massive induction of secretory machinery. Host-specific adhesion is linked to a rhamnosyl polysaccharide biosynthesis gene cluster. Biogeographic analysis confirms the strain's ecological adaptation to eutrophic conditions. No specific thermal parameters (optimal, range, or tolerance) were detailed in the provided text.
+
+
+Paper: 42165590.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No specific survival temperature range was provided.
+- The detection method utilized isothermal amplification (LAMP), which operates at a constant temperature, rather than traditional culture-based growth conditions.
+- The protocol details a detection time frame of 30-60 minutes for positive signals, but this relates to amplification kinetics, not organism growth.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes was made.
+
+Environmental Context:
+- The organism was tested in simulated environmental matrices including soil, sand, seawater, tap water, and anthropogenic effluents.
+- No explicit classification regarding temperature adaptation was given by the authors.
+
+

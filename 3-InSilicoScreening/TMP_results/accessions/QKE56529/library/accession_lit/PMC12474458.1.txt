@@ -1,0 +1,246 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Viruses
+Journal ID: Viruses
+Journal ID: viruses
+
+Viruses
+
+EISSN: 1999-4915
+Publisher: Multidisciplinary Digital Publishing Institute (MDPI)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12474458
+PMID: 41012694
+DOI: 10.3390/v17091267
+Article ID: viruses-17-01267
+Article version: 1
+Subjects: Article
+
+Probing Viral Dark Matter: Comparative Genomics of Atypical Bacillus Phage YungSlug
+
+https://orcid.org/0000-0002-3779-7768 Johnson Allison A. Conceptualization Methodology Software Validation Formal analysis Writing – original draft Writing – review & editing Visualization Supervision *
+Hale Andrew Formal analysis Visualization
+Sehnouni Amine Validation Formal analysis Visualization
+Gbadamosi Zainab Formal analysis Visualization
+https://orcid.org/0000-0002-9837-3483 Boyd Bret M. Conceptualization Methodology Software Validation Formal analysis Data curation Writing – original draft Writing – review & editing Visualization Supervision *
+Ely Bert Academic Editor
+School of Life Sciences and Sustainability, Virginia Commonwealth University, Richmond, VA 23284, USA
+* Correspondence: aajohnson@vcu.edu (A.A.J.); boydbm@vcu.edu (B.M.B.)
+Electronic publication date: 2025 Sep 19
+Publication date: 2025 Sep
+Volume: 17
+Issue: 9
+Electronic Location ID: 1267
+Received 2025 Jul 31; Revised 2025 Sep 12; Accepted 2025 Sep 16
+Copyright: © 2025 by the authors.
+Copyright year: 2025
+License: Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: bacteriophage, Bacillus, Spounavirinae, virus diversity
+
+Funding: This research received no external funding.
+
+==============================
+Bacillus phage YungSlug is a novel phage with a genome that has limited homology to known viruses. To better understand this unique phage, we searched for close relatives of YungSlug using traditional comparative genomics approaches and a broad search of a large protein database. YungSlug shares only 9% genome alignment with Bacillus phage Nachito, its closest relative, and less than 1% with others in its subfamily. A search for homologs in the NCBI nr database was dominated by low percent identity homologs from viral, bacteria, and environmental sources, returning matches for only 50% of the predicted proteins in YungSlug’s genome. Additionally, a set of 21 conserved proteins was identified that may define a core gene set for the Spounavirinae subfamily of Herelleviridae. These findings highlight the diversity of phages infecting Bacillus and highlight gaps in our knowledge of the Bacillus-infecting phage community.
+
+1. Introduction
+
+The HHMI SEA PHAGES (Science Education Alliance-Phage Hunters Advancing Genomics and Evolutionary Science) program [1] seeks to document the diversity of phages infecting select bacterial species. While many newly isolated phages cluster with previously described viruses based on homology, evolutionarily distinct phages continue to emerge. It is unclear if these novel phages represent viruses that rarely infect those bacterial species or if detection and classification methods preferentially select phages in certain clusters. To help address this problem, we further examined a genomically well-characterized phage, YungSlug [2], a phage that shares little homology with known phages, using broad database searches.
+
+The SEA PHAGES program has deposited a combined 5123 sequenced phage genomes in NCBI databases (phagesdb.org [3], bacillus.phagesdsb.org (accessed on 15 July 2025)), adding to a rapidly growing collection. As the availability of phage genome sequences increases, newly isolated and sequenced phage genomes are interpreted within the context of this larger dataset. Here, we expand analysis on a recently isolated phage infecting Bacillus thuringiensis [2], examining the genome within the context of curated Bacillus-infecting phage genomes and more broadly through a search of viral, bacterial, and environmental sequences.
+
+There are an estimated 1031 bacteriophages present on Earth, establishing phages as the most abundant and genetically diverse entities on our planet [4,5,6]. Interactions between phage and bacteria are potentially the most frequent biological interaction, with the results of these interactions regulating host population densities, shaping host evolution, altering global carbon cycles, and impacting human health [5,7,8,9,10]. However, the specific nature in which phage genomes evolve can confound our ability to understand the phylogenetic origins of many phage isolates.
+
+Studies of phages that infect a single host genus have revealed a staggering sequence level variation within homologous regions, as well as novel combinations of protein-encoding genes [11,12,13,14,15,16]. Phage genome evolution is shaped by horizontal gene exchange, likely leading to the acquisition of both homologous and non-homologous genes or groups of genes within and between phylogenetic clusters [11,12,14] in both lytic and temperate phages. However, horizontal exchange appears to have had a larger impact on the evolution of temperate phage, which integrate their genome into the host genome, than on lytic phage, which are obligate host-killing parasites that do not integrate into the host genome [17]. For example, the lytic Bacillus-infecting phages, phiAGATE, SPO1, Shanette, JL, CP-51, Bastille [17] have comparatively lower rates of horizontal gene exchange than temperate phage parasitizing the same host species [6,14,18,19,20].
+
+Bacterial species in the genus Bacillus are ubiquitous in natural ecosystems, with some species being pathogenic [21,22], and have been used in industrial biotechnology applications [23]. Studies of phages that infect Bacillus provide insights into the ecology and evolution of bacteriophages impacting a large medically and economically important group of bacteria. Because of their significance, Bacillus phages have been characterized through many individual studies, including the isolation of phages that may be useful for identification and biocontrol of pathogenic hosts [24,25,26,27]. Larger-scale comparative studies have supported results observed with other host genera, showing enormous genetic diversity as well as little genome similarity between phage clusters [12,14,28,29,30]. They have also revealed a large number of functionally uncharacterized protein-coding genes [12,14,28,29,30], and clear genome boundaries between lytic and prophage sequences [30]. Bacillus phage can specifically impact unique properties of their hosts, such as sporulation [31,32,33], the formation of bacterial cell walls and biofilms [30,31], and regulation of host defenses [34]. Yet with the exception of a single comparative genomics study analyzing phage 0305phi8-36 [35], there has been relatively little focus on examining phage diversity from the perspective of “under-sampled” Bacillus phage.
+
+At several SEA PHAGES hosting institutions, B. thuringiensis has been used to isolate phage from the environment, adding to the >419 unique Bacillus phage genomes that have been deposited in NCBI databases, with many genomes closely matching previously sequenced phage genomes. As a result, most of the B. thurinigiensis phage form phylogenetically distinct clusters, with multiple members in each cluster, using traditional clustering methods [12,14,36]. However, in a few instances, studies have isolated phages, which do not cluster with other phages (specifically those known to infect the same host species) [35]. Here we examine one such phage, “YungSlug”, a lytic phage infecting B. thuringiensis, that was isolated by students enrolled in a SEA PHAGES course in 2018 at Virginia Commonwealth University from a water sample collected from the James River near Richmond, VA [2]. The initial genome annotation [2] revealed YungSlug’s 150,011 bp genome lacked significant alignment to any other genome and deserved further study. Of YungSlug’s 227 predicted proteins, function was predicted for 36%, while 50% of proteins lack homologs in GenBank. In this study, we searched genome and protein databases for close relatives of YungSlug using traditional approaches as well as through a broad search of a large protein database. Specifically, we ask if any homologs are shared between YungSlug and other phages, bacteria, eukaryotes, and metagenomic assemblies. From this, we characterize the genetic relationship of an atypical Bacillus phage YungSlug to 12 other sequenced and characterized Bacillus phages from the Spounavirinae and Bastillevirinae subfamilies within Herelleviridae.
+
+2. Materials and Methods
+
+Genomes included in this study: the YungSlug genome was compared to the genome sequences of 12 phages that infect five different Bacillus species hosts (Table 1). Genomes were selected to represent commonly sampled ‘populations’ (NotTheCreek, Bastille, Juglone), as well as those that are more unique and lack homology depth in GenBank. These phages represent the ICTV taxa Spounavirinae (n = 8) and Bastillevirinae (n = 4) subfamilies within Family Herelleviridae [36]. Phage 0305phi8-36 remains characterized in the Class Caudoviricetes.
+
+Phamerator genome database: The comparative genomics tool Phamerator (V1.1) [37] was used to store and visualize a custom database containing 143 Bacillus phage genomes. Phamerator organizes proteins from these phages into phamilies, based on 32.5% sequence identity to another protein, and was also used to visualize genome maps.
+
+Protein content analysis: Phage similarity based on the presence and absence of protein phamilies was visualized as a network phylogeny using Splitstree (V4.17.0) [38]. A custom Python program was written to calculate pairwise gene content similarity (GCS) [39]. Briefly, the protein phamily presence and absence table from Phamerator was used to generate pairwise counts of the number of shared proteins. These counts were averaged to determine the pairwise GCS score of two different genomes. A heat map of GCS scores was visualized using the R programming language.
+
+Dot plot analysis: Regions of identity between whole genome and proteome sequences were visualized using the software Gepard (V1.4) [40]. A text file of concatenated sequences was compared against itself. Word size was set to 15 for nucleotide comparisons and 5 for amino acid comparisons.
+
+Genome-wide examination of relatedness: In order to observe the relatedness of our chosen phages to other organisms, we queried each of the phages’ protein sequences against the NCBI non-redundant protein database (NCBI nr, downloaded 27 October 2022) using BLASTP. In order to optimize computing resources, these protein sequences were split into three to six separate files, and a batch job was submitted for each. After the jobs were completed, the BLASTP outputs were concatenated together for each of the phages. The concatenated final BLASTP output files were filtered to remove self-hits as well as query-target below 30% sequence similarity. The subject IDs remaining after filtering were used to obtain the subject NCBI taxonomy string and classification using Batch Entrez. R was used to visualize a genome-wide dot plot of the best bacterial and virus hits, as well as create histogram profiles of all the hits binned by percent identity.
+
+3. Results
+
+Bacillus phage YungSlug was discovered in 2018 in an undergraduate phage discovery course. Phage plaques were 2 mm in diameter and clear. While we were unable to obtain a transmission microscopy image to verify phage particle morphology, the presence of tail tube and tail sheath genes, as well as synteny to other genomes, supports a prediction of myoviridae morphology. The genome characteristics of YungSlug were initially reported in 2021 [2] MT416612.2, with a note that YungSlug may be an atypical phage.
+
+The Bacillus-infecting phage Nachito (OP380492) shared the greatest sequence similarity to YungSlug, with an overall genome alignment coverage of 9% of the YungSlug genome and an average percent identity of 80% within homologous regions. All other phages examined share <1% of the YungSlug genome.
+
+Because homologs were not identified by BLASTN, we turned to protein-based methods to understand relationships to other sequenced phages. Protein families (herein phams) were identified using Phamerator (amino acid sequences sharing ≥ 32.5% of identical sites were clustered in Phamerator as functional homologs [37]). Genome-wide pham content was used to construct a network phylogeny of Bacillus-infecting phage (Figure 1). The resulting network places YungSlug within the Spounivirinae subfamily. Similar grouping is observed using the ViPTree server [41]. The network also indicates a high frequency of closely related phages in the subfamily Bastillevirinae were frequently isolated, indicated by phage clusters separated by short distances in the network. In comparison, closely related phages were less frequently sampled from the Spounivirinae, with phages often separated by longer network edges. The closest relative of YungSlug in this network is Nachito, but these phages are separated by a comparatively long distance in the network. This network was used to select a comparison set of phages across the ICTV Spounivirinae and Bastillevirinae subfamilies of Herelleviridae for this study (Figure 1, blue and red dots).
+
+YungSlug’s genome and proteome sequences were compared to 12 selected phage genomes and proteomes (Table 1), these being representative of the genomic diversity of Bacillus-infecting phage. The selected phage belongs to the subfamilies Spounavirinae and Bastillevininae (Family Herelleviridae) [36], as well as one unclassified Caudoviricetes. Analysis of genome identity by dot plot found diffuse genomic sequence conservation between YungSlug and Nachito, while YungSlug shares little to no homologous regions with other Spounavirinae or Bastillevirinae phages examined (Figure 2A). When using the proteome to identify regions with conserved amino acid sequences, we see an increase in the detection of candidate homologous regions within Spounavirinae (Figure 2B), indicating greater conservation of the protein sequences compared to the genome sequences.
+
+viruses-17-01267-t001_Table 1 Table 1 Genome characteristics of the Bacillus phage in this study.
+
+Phage	GenBank
+Accession	Host	Genome Length (bp)	GC%	# ORFs	Publication	
+Subfamily: Spounavirinae	
+CP-51	KF554508.2	B. cereus	138,658	40.9	219	[42,43]	
+JL	KC595512.2	B. cereus	137,918	40.8	222	[44]	
+Shanette	KC595513.2	B. cereus	138,877	40.8	223	[44]	
+SP-10	NC_019487.1	B. subtilis	143,986	40.5	236	[45]	
+SP01	FJ230960.1	B. subtilis	132,562	40	209	[46]	
+Goe2	KY368639.1	B. subtilis	146,141	40.3	230	[47]	
+YungSlug	MT416612.2	B. thuringiensis kurstaki	150,011	37.6	227	[2]	
+Nachito	OP380492	Bacillus sp. ET1 lab isolate	148,928	38.5	238	Unpublished	
+Subfamily: Bastillevirinae	
+Bastille	JF966203.1	B. cereus HER1399 a	153,962	38.1	273	[42,48]	
+Juglone	KU737345.1	B. thuringiensis kurstaki	164,227	37.8	293	[49]	
+NotTheCreek	KU737351.1	B. thuringiensis kurstaki	161,929	38.7	296	[49]	
+phiAGATE	JX238501.3	B. pumilus	149,844	41	204	[50]	
+Class: Caudoviricetes	
+0305phi8-36	EF583821.1	B. thuringiensis	218,948	41.8	247	[35,51]	
+a GenBank record lists B. cereus HER1399 as host, Ackerman’s publication says B. thuringiensis is the host.
+
+To quantify the overall functional similarity between YungSlug and other Bacillus-infecting phages, we calculated the GCS [39] score through the identification of shared protein phams. The highest GCS score was obtained from the comparison of YungSlug and Nachito, with a score of 34% (Figure 3A), derived from a set of 79 proteins present in both genomes. Comparisons of YungSlug to other phages yielded scores less than 34%. When examining all pairwise GCS scores of Bacillus-infecting phages (not just comparisons involving YungSlug), we find that YungSlug falls on the lower end of GCS score distribution (GCS score range = 1.3–100%; n = 143, Figure 3B red bars). For example, within Spounavirinae and Bastillevirinae, phages share between 13–100% and 15–100% of their protein families, respectively, with comparisons of phages in the same phylogenetic cluster yielding a GCS score > 80%.
+
+While 34% of proteins were shared between YungSlug and Nachito, extensive regions of the YungSlug genome contain proteins with no obvious homology to any protein in the NCBI protein nr database (blue shaded regions, Figure 4). Fifteen proteins were identified as conserved (>30% amino acid similarity) in the Spounavirinae genomes in our study (Supplemental Table S1; Figure 4), including two phage structural proteins (tail-associated lysozyme and major capsid protein), eight DNA-modifying enzymes (DNA repair exonuclease SbcCD ATPase subunit, helicase, thymidylate synthase, DNA primase, exonuclease, dUTP pyrophosphatase, DNA polymerase and ATP-dependent DNA ligase), two putative RNA polymerase sigma factors and three hypothetical proteins that are functionally uncharacterized. An additional six proteins were identified as conserved more broadly, across Bastillevirinae as well as Spounavirinae: these include terminase large subunit, portal protein, DNA repair exonuclease SbcCD nuclease subunit, tail tube protein, DNA helicase, and a hypothetical protein of an unknown function (Supplemental Table S1; Figure 4, see asterisks). In total, this set of 21 homologous proteins in Spounavirinae subfamily genomes suggests a core set of functions focused on structural and DNA-modifying enzymes.
+
+To examine protein sequence homology relationships more broadly, all predicted amino acid sequences in the YungSlug genome were compared to the proteins in the NCBI nr database using BLASTP, using a search database of candidate homologs in bacteria, viruses, and environmental samples (accepting BLASTP hits with 30–100% identity). Of the 227 predicted amino acid sequences in the YungSlug genome, 50% (113 proteins) did not return a significant BLAST hit (Figure 5A, gray dots). The greatest sequence similarity came from viral hits (blue dots, largely hits to Nachito), with the maximum sequence identity of 82%. For comparative purposes, the search was replicated for seven other Bacillus-infecting phages. Here we illustrate search returns when proteins from phage NotTheCreek served as the queries (Figure 5B). Of the 296 predicted proteins encoded in NotTheCreek’s genome, only one sequence failed to return a BLAST hit. Nearly all the amino acid sequences returned a close viral hit, with percent identity for each being >90% (Figure 5B, blue dots). Likewise, numerous hits were returned from bacterial genomes, ranging from 30 to 98% identity (Figure 5B, red dots).
+
+Results for the other phage examined lie between the results obtained for YungSlug and NotTheCreek (Figure 6). The profile of hits for each phage is dominated by low percent identity homologs from viral, bacteria, and environmental sources. The frequency and percent identity of virus-derived hits for more frequently sampled phages like NotTheCreek are higher than those characteristics for infrequently sampled phages like 0305phi8-36, Nachito, and YungSlug. Despite the enormous contributions of viral sequences from environmental metagenomic studies [6], high-quality hits from these sources were not observed when using these phage proteomes as queries.
+
+Finally, with YungSlug as a query, we examined the total number of BLASTP hits originating from a single genome, allowing us to identify viral or bacterial genomes that may share multiple homologs with YungSlug. We found that Nachito yielded more hits than any other individual genome identified in the BLAST search, as expected, and that other genomes lacked hits, such as gene repeats.
+
+4. Discussion
+
+A rich dataset of genomes of Bacillus-infecting phage has enabled work to improve understanding of the diversity and evolution of this group of viruses [12,28,29,30]. Barylski (2020) found that “SPO1” related viruses formed a distinct network cluster and established the family Herelleviridae, with five potential subfamilies [36]. They reported nucleotide sequence similarities are ‘virtually undetectable’ above the rank of genus, but protein sequences remained considerably similar. This study focused on the analysis of 12 phage genomes from two of those subfamilies, Bastillevirinae, Spounavirinae, and the unclassified 0305phi8-36. In this study, we expand on these methods by incorporating a search of the NCBI nr database and rigorously sorting the results to identify viral, bacterial and metagenomic homologous sequences. We conclude that YungSlug represents a novel phage cluster; its genome contains 113 predicted proteins that are novel; and we define a core set of conserved proteins in the subfamily Spounivirinae.
+
+We characterized the novel lytic phage YungSlug, which has limited genetic relationships to other viruses and represents the sole described member of an evolutionarily distinct phage cluster in our analysis (see [17] for discussion of evolutionarily distinct phage clusters). Our analysis, which included other Bacillus-infecting phages, also indicated that other clusters were only represented by one or two phage isolates (generally Spounavirinae), while other phages grouped into clusters with several isolates (generally Bastillevirinae). This begs the question, why are some lytic phage clusters rarely sampled, while others are sampled more often, when sampling phage infecting one or a few closely related bacterial species? We propose the following, non-mutually exclusive hypotheses:(1) Isolation methods favor specific phage types. Methods used by the SEA PHAGES program for the detection and isolation of phage primarily from soil rely on a homogenous environment with a single host genotype [52] that may fail to replicate important environmental features or host-phage interactions [53,54,55,56]. Likewise, phages may have characteristics that make them difficult to detect, even if able to successfully infect host cells under culture conditions [57,58]. The use of novel culture and metagenomic methods [59] may lead to the identification of additional phage clusters, such as the novel methods reported by Serwer for the isolation of phage 0305phi8-36 [53].
+
+(2) Transient host associations. Sampling methods relying on a single host genotype for phage discovery may preferentially detect phages that are specialist parasites of that host genotype. Phages Bastille, CP-51, and W.Ph. are reported to infect more than one species of Bacillus within the “ACT” family (B. anthracis, B. cereus, and B. thuringiensis [42]), and other work suggests host-switching may have contributed to the overall diversity of phages infecting Bacillus [12,60,61]. Host-switching or the presence of generalist parasites may lead to infrequent infections of a given host genotype, which are less likely to be sampled in culture.
+
+(3) Variation in abundance. Spatial or temporal variation in phage composition has been shown for species communities [10,62]. Sampling schemes focused on specific geographic locations, ecosystems, seasons, or sampling over short time periods may increase sampling biases. For example, recently, three phages closely related to Bacillus-infecting phage SPP1 were identified, despite SPP1 being the sole representative of a cluster for 40 years [63].
+
+(4) Relative abundance. Some phages may persist at high abundance relative to other phages within communities [64], decreasing the likelihood of sampling of low-abundance phage types in the presence of more common forms.
+
+(5) Sporulation. Phage phi29 and CP-51 can persist following host sporulation, suppressing the lytic cycle [33,42,65]. The onset of sporulation following infection with a lytic phage could conceal the phage from traditional culture methods, as the phage may be unable to infect vegetative cells.
+
+The proteomic analysis of YungSlug done here highlights that diverse phages continue to be discovered, even in bacterial host species that have previously been used to survey phage diversity. Here we also highlight multiple reasons why some genomically similar phages are sampled frequently (e.g., phages similar to Juglone, Bastille, and NotTheCreek), while others represent distinct or rarely sampled genotypes (e.g., SP-10, 0305phi8-36, and YungSlug). Together, this analysis of infrequently compared to frequently sampled clusters supports the notion that the discovery of rare clusters will continue to expand our knowledge of the genomic diversity of viruses. Furthermore, our work suggests homologs of such infrequently sampled clusters are not present in current metagenomic datasets, suggesting these sequences may represent a large pool of truly unexplored genetic diversity. While potential explanations include methodological and sampling biases, other explanations highlight potentially complex ecological interactions between bacterial species and their phage. Much work remains to be done to further our understanding of phages infecting the same host, as well as to reveal any universal patterns of evolutionary relationships.
+
+Acknowledgments
+
+We thank Veronique Delesalle and David Bollivar for their review of the manuscript.
+
+Supplementary Materials
+
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/v17091267/s1, Table S1: Proteins conserved in Spounivirinae.
+
+Author Contributions
+
+Conceptualization, A.A.J. and B.M.B.; methodology, A.A.J. and B.M.B.; software, A.A.J. and B.M.B.; validation, A.A.J., A.H. and B.M.B.; formal analysis, A.A.J., A.H., A.S., Z.G. and B.M.B.; writing—original draft preparation, A.A.J. and B.M.B.; writing—review and editing, A.A.J. and B.M.B.; visualization, A.A.J., A.H., A.S., Z.G. and B.M.B.; supervision, A.A.J. and B.M.B. All authors have read and agreed to the published version of the manuscript.
+
+Data Availability Statement
+
+Raw genome sequence reads have been deposited in the NCBI Short Read Archive under accession SRR14661357. The assembled YungSlug genome has been deposited in the NCBI assembly database under ASM1326803. YungSlug genome annotation is posted under the accession number MT416612.2. Raw BLASTP search results and associated NCBI taxonomy strings have been archived in figshare under permanent object identifier 10.6084/m9.figshare.21554463.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+Abbreviations
+
+The following abbreviations are used in this manuscript: HHMI	Howard Hughes Medical Institute	
+SEA PHAGES	Science Education Alliance-Phage Hunters Advancing Genomics and Evolutionary Science	
+NCBI nr	National Center for Biotechnology Information, non-redundant protein records database	
+GCS	Gene content similarity	
+BLAST	Basic Local Alignment Search Tool	
+BLASTP	Standard protein Basic Local Alignment Search Tool	
+ACT family	B. anthracis, B. cereus, and B. thuringiensis	
+ICTV	International Committee on Taxonomy of Viruses	
+
+Figure 1 Phylogenetic networks showing the relationship of YungSlug and other Bacillus-infecting phages, where patristic distance was inferred from the shared functional homologs, or phams, shared between each phage genome. The network is color-coded by older physical morphology classifications, and brackets show current ICTV subfamily groupings. The inset panel shows an isolated network for select Spounivirinae phages. Blue and red dots indicate phage genomes selected for this study.
+
+Figure 2 Syntenic blocks shared between Bacillus-infecting phage, based on the phage’s genome (A) and proteome (B). Plot constructed using Gepard1, with either a 15 bp nucleotide or 5 amino acid word size. Phage names are on the left of the plots, and labels above the plots indicate ICTV taxonomy subfamily groupings.
+
+Figure 3 Pairwise gene content similarity (GCS) comparison for 13 Bacillus-infecting phages (A) and heatmap plot showing the distribution of GCS values calculated by pairwise comparisons of 143 Bacillus-infecting phages (B). In (B), values derived from comparisons of YungSlug and other phages are highlighted in red, following the removal of duplicate and self-matches.
+
+Figure 4 Genome map of YungSlug. Proteins are indicated by rectangles above or below the genome ruler. Green shaded boxes indicate protein regions with homology to Bacillus phage Nachito. Blue shading indicates proteins with no BLASTP hit to the GenBank nr database. Asterisks indicate 21 protein functions that are conserved in the subfamily Spounavirinae-classified phages included in this study.
+
+Figure 5 Comparison of the best BLASTP hits to YungSlug proteins originating from phage and bacterial genomes. Each point represents the best BLASTP hit in the NCBI non-redundant protein database for each protein in the YungSlug (A) and NotTheCreek (B) phage genomes. Best hits originating from phage genomes are colored in red, those from bacterial genomes are colored in blue. Gray dots indicate that a best hit, with sequence similarity ≥ 30% was not found.
+
+Figure 6 Frequency of BLASTP hits in the NCBI non-redundant protein database for ten distinct Bacillus-infecting phages, binned by percent identity. Stacked frequency bars are color-coded by bacteria (yellow), environmental (red), and viral (blue) origin.
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
+References
+
+1. Jordan T.C. Burnett S.H. Carson S. Caruso S.M. Clase K. DeJong R.J. Dennehy J.J. Denver D.R. Dunbar D. Elgin S.C.R. A Broadly Implementable Research Course in Phage Discovery and Genomics for First-Year Undergraduate Students mBio 2014 5 e01051-13 10.1128/mBio.01051-13 24496795 PMC3950523
+2. Kostyk N. Chigbu O. Cochran E. Davis J. Essig J. Do L. Farooque N. Gbadamosi Z. Gnanodayan A. Hale A. Complete Genome Sequences of Bacillus Cereus Group Phages AaronPhadgers, ALPS, Beyonphe, Bubs, KamFam, OmnioDeoPrimus, Phireball, PPIsBest, YungSlug, and Zainny Microbiol. Resour. Announc. 2021 10 e0030021 10.1128/MRA.00300-21 34410150 PMC8375487
+3. Russell D.A. Hatfull G.F. PhagesDB: The Actinobacteriophage Database Bioinformatics 2017 33 784 786 10.1093/bioinformatics/btw711 28365761 PMC5860397
+4. Wommack K.E. Colwell R.R. Virioplankton: Viruses in Aquatic Ecosystems Microbiol. Mol. Biol. Rev. 2000 64 69 114 10.1128/MMBR.64.1.69-114.2000 10704475 PMC98987
+5. Suttle C.A. Viruses in the Sea Nature 2005 437 356 361 10.1038/nature04160 16163346
+6. Dion M.B. Oechslin F. Moineau S. Phage Diversity, Genomics and Phylogeny Nat. Rev. Microbiol. 2020 18 125 138 10.1038/s41579-019-0311-5 32015529
+7. Shkoporov A.N. Turkington C.J. Hill C. Mutualistic Interplay between Bacteriophages and Bacteria in the Human Gut Nat. Rev. Microbiol. 2022 20 737 749 10.1038/s41579-022-00755-4 35773472
+8. Emencheta S.C. Olovo C.V. Eze O.C. Kalu C.F. Berebon D.P. Onuigbo E.B. Vila M.M.D.C. Balcão V.M. Attama A.A. The Role of Bacteriophages in the Gut Microbiota: Implications for Human Health Pharmaceutics 2023 15 2416 10.3390/pharmaceutics15102416 37896176 PMC10609668
+9. Georjon H. Bernheim A. The Highly Diverse Antiphage Defence Systems of Bacteria Nat. Rev. Microbiol. 2023 21 686 700 10.1038/s41579-023-00934-x 37460672
+10. Jansson J.K. Wu R. Soil Viral Diversity, Ecology and Climate Change Nat. Rev. Microbiol. 2023 21 296 311 10.1038/s41579-022-00811-z 36352025
+11. Pope W.H. Bowman C.A. Russell D.A. Jacobs-Sera D. Asai D.J. Cresawn S.G. Jacobs W.R. Hendrix R.W. Lawrence J.G. Hatfull G.F. Whole Genome Comparison of a Large Collection of Mycobacteriophages Reveals a Continuum of Phage Genetic Diversity eLife 2015 4 e06416 10.7554/eLife.06416 25919952 PMC4408529
+12. Grose J.H. Jensen G.L. Burnett S.H. Breakwell D.P. Genomic Comparison of 93 Bacillus Phages Reveals 12 Clusters, 14 Singletons and Remarkable Diversity BMC Genom. 2014 15 855 10.1186/1471-2164-15-855 25280881 PMC4197329
+13. Grose J.H. Casjens S.R. Understanding the Enormous Diversity of Bacteriophages: The Tailed Phages That Infect the Bacterial Family Enterobacteriaceae Virology 2014 468–470 421 443 10.1016/j.virol.2014.08.024 25240328 PMC4301999
+14. Abraha H.B. Lee J.-W. Kim G. Ferdiansyah M.K. Ramesha R.M. Kim K.-P. Genomic Diversity and Comprehensive Taxonomical Classification of 61 Bacillus Subtilis Group Member Infecting Bacteriophages, and the Identification of Ortholog Taxonomic Signature Genes BMC Genom. 2022 23 835 10.1186/s12864-022-09055-w 36526963 PMC9756591
+15. Pope W.H. Mavrich T.N. Garlena R.A. Guerrero-Bustamante C.A. Jacobs-Sera D. Montgomery M.T. Russell D.A. Warner M.H. Science Education Alliance-Phage Hunters Advancing Genomics and Evolutionary Science (SEA-PHAGES) Hatfull G.F. Bacteriophages of Gordonia spp. Display a Spectrum of Diversity and Genetic Relationships mBio 2017 8 e01069-17 10.1128/mBio.01069-17 28811342 PMC5559632
+16. Thompson D.W. Casjens S.R. Sharma R. Grose J.H. Genomic Comparison of 60 Completely Sequenced Bacteriophages That Infect Erwinia and/or Pantoea Bacteria Virology 2019 535 59 73 10.1016/j.virol.2019.06.005 31276862
+17. Mavrich T.N. Hatfull G.F. Bacteriophage Evolution Differs by Host, Lifestyle and Genome Nat. Microbiol. 2017 2 17112 10.1038/nmicrobiol.2017.112 28692019 PMC5540316
+18. Kunst F. Ogasawara N. Moszer I. Albertini A.M. Alloni G. Azevedo V. Bertero M.G. Bessières P. Bolotin A. Borchert S. The Complete Genome Sequence of the Gram-Positive Bacterium Bacillus Subtilis Nature 1997 390 249 256 10.1038/36786 9384377
+19. Roh J.Y. Park J.B. Liu Q. Kim S.E. Tao X. Choi T.W. Choi J.Y. Kim W.J. Jin B.R. Je Y.H. Existence of Lysogenic Bacteriophages in Bacillus Thuringiensis Type Strains J. Invertebr. Pathol. 2013 113 228 231 10.1016/j.jip.2013.04.008 23632013
+20. Lima-Mendez G. Van Helden J. Toussaint A. Leplae R. Reticulate Representation of Evolutionary and Functional Relationships between Phage Genomes Mol. Biol. Evol. 2008 25 762 777 10.1093/molbev/msn023 18234706
+21. Helgason E. Økstad O.A. Caugant D.A. Johansen H.A. Fouet A. Mock M. Hegna I. Kolstø A.-B. Bacillus Anthracis, Bacillus Cereus, and Bacillus Thuringiensis—One Species on the Basis of Genetic Evidence Appl. Environ. Microbiol. 2000 66 2627 2630 10.1128/AEM.66.6.2627-2630.2000 10831447 PMC110590
+22. Ehling-Schulz M. Lereclus D. Koehler T.M. The Bacillus Cereus Group: Bacillus Species with Pathogenic Potential Microbiol. Spectr. 2019 7 1 35 10.1128/microbiolspec.GPP3-0032-2018 PMC6530592 31111815
+23. Put H. Gerstmans H. Capelle H.V. Fauvart M. Michiels J. Masschelein J. Bacillus Subtilis as a Host for Natural Product Discovery and Engineering of Biosynthetic Gene Clusters Nat. Prod. Rep. 2024 41 1113 1151 10.1039/D3NP00065F 38465694
+24. Lee J.-H. Shin H. Son B. Heu S. Ryu S. Characterization and Complete Genome Sequence of a Virulent Bacteriophage B4 Infecting Food-Borne Pathogenic Bacillus Cereus Arch. Virol. 2013 158 2101 2108 10.1007/s00705-013-1719-2 23649177
+25. Ganz H.H. Law C. Schmuki M. Eichenseher F. Calendar R. Loessner M.J. Getz W.M. Korlach J. Beyer W. Klumpp J. Novel Giant Siphovirus from Bacillus Anthracis Features Unusual Genome Characteristics PLoS ONE 2014 9 e85972 10.1371/journal.pone.0085972 24475065 PMC3903500
+26. Minakhin L. Semenova E. Liu J. Vasilov A. Severinova E. Gabisonia T. Inman R. Mushegian A. Severinov K. Genome Sequence and Gene Expression of Bacillus Anthracis Bacteriophage Fah J. Mol. Biol. 2005 354 1 15 10.1016/j.jmb.2005.09.052 16226766
+27. Fouts D.E. Rasko D.A. Cer R.Z. Jiang L. Fedorova N.B. Shvartsbeyn A. Vamathevan J.J. Tallon L. Althoff R. Arbogast T.S. Sequencing Bacillus Anthracis Typing Phages Gamma and Cherry Reveals a Common Ancestry J. Bacteriol. 2006 188 3402 3408 10.1128/JB.188.9.3402-3408.2006 16621835 PMC1447464
+28. Ismail A. Saini T. Al Qaffas A. Erill I. Caruso S.M. Temple L. Johnson A.A. Evidence of a Set of Core-Function Genes in 16 Bacillus Podoviral Genomes with Considerable Genomic Diversity Viruses 2023 15 276 10.3390/v15020276 36851489 PMC9965433
+29. Sauder A.B. Quinn M.R. Brouillette A. Caruso S. Cresawn S. Erill I. Lewis L. Loesser-Casey K. Pate M. Scott C. Genomic Characterization and Comparison of Seven Myoviridae Bacteriophage Infecting Bacillus Thuringiensis Virology 2016 489 243 251 10.1016/j.virol.2015.12.012 26773385
+30. Zhang Y. Miao J. Zhang N. Wang X. Li Z. Richard O.A. Li B. The Analysis of the Function, Diversity, and Evolution of the Bacillus Phage Genome BMC Microbiol. 2023 23 170 10.1186/s12866-023-02907-9 37337195 PMC10278307
+31. Schuch R. Fischetti V.A. The Secret Life of the Anthrax Agent Bacillus Anthracis: Bacteriophage-Mediated Ecological Adaptations PLoS ONE 2009 4 e6532 10.1371/journal.pone.0006532 19672290 PMC2716549
+32. Schwartz D.A. Lehmkuhl B.K. Lennon J.T. Phage-Encoded Sigma Factors Alter Bacterial Dormancy mSphere 2022 7 e00297-22 10.1128/msphere.00297-22 35856690 PMC9429907
+33. Butala M. Dragoš A. Unique Relationships between Phages and Endospore-Forming Hosts Trends Microbiol. 2023 31 498 510 10.1016/j.tim.2022.11.009 36535834
+34. Bernard C. Li Y. Lopez P. Bapteste E. Beyond Arbitrium: Identification of a Second Communication System in Bacillus Phage phi3T That May Regulate Host Defense Mechanisms ISME J. 2021 15 545 549 10.1038/s41396-020-00795-9 33028977 PMC8027211
+35. Hardies S.C. Thomas J.A. Serwer P. Comparative Genomics of Bacillus Thuringiensis Phage 0305φ8-36: Defining Patterns of Descent in a Novel Ancient Phage Lineage Virol. J. 2007 4 97 10.1186/1743-422X-4-97 17919320 PMC2147016
+36. Barylski J. Kropinski A.M. Alikhan N.-F. Adriaenssens E.M. ICTV Report Consortium ICTV Virus Taxonomy Profile: Herelleviridae J. Gen. Virol. 2020 101 362 363 10.1099/jgv.0.001392 32022658 PMC7414437
+37. Cresawn S.G. Bogel M. Day N. Jacobs-Sera D. Hendrix R.W. Hatfull G.F. Phamerator: A Bioinformatic Tool for Comparative Bacteriophage Genomics BMC Bioinform. 2011 12 395 10.1186/1471-2105-12-395 PMC3233612 21991981
+38. Huson D.H. SplitsTree: Analyzing and Visualizing Evolutionary Data Bioinformatics 1998 14 68 73 10.1093/bioinformatics/14.1.68 9520503
+39. Demo S. Kapinos A. Bernardino A. Guardino K. Hobbs B. Hoh K. Lee E. Vuong I. Reddi K. Freise A.C. BlueFeather, the Singleton That Wasn’t: Shared Gene Content Analysis Supports Expansion of Arthrobacter Phage Cluster FE PLoS ONE 2021 16 e0248418 10.1371/journal.pone.0248418 33711060 PMC7954295
+40. Krumsiek J. Arnold R. Rattei T. Gepard: A Rapid and Sensitive Tool for Creating Dotplots on Genome Scale Bioinformatics 2007 23 1026 1028 10.1093/bioinformatics/btm039 17309896
+41. Nishimura Y. Yoshida T. Kuronishi M. Uehara H. Ogata H. Goto S. ViPTree: The Viral Proteomic Tree Server Bioinformatics 2017 33 2379 2380 10.1093/bioinformatics/btx157 28379287
+42. Klumpp J. Schmuki M. Sozhamannan S. Beyer W. Fouts D.E. Bernbach V. Calendar R. Loessner M.J. The Odd One out: Bacillus ACT Bacteriophage CP-51 Exhibits Unusual Properties Compared to Related Spounavirinae W.Ph. and Bastille Virology 2014 462–463 299 308 10.1016/j.virol.2014.06.012 25010479
+43. Thorne C.B. Transducing Bacteriophage for Bacillus Cereus J. Virol. 1968 2 657 662 10.1128/jvi.2.7.657-662.1968 4972780 PMC375670
+44. Grose J.H. Jensen J.D. Merrill B.D. Fisher J.N.B. Burnett S.H. Breakwell D.P. Genome Sequences of Three Novel Bacillus Cereus Bacteriophages Genome Announc. 2014 2 e01118-13 10.1128/genomeA.01118-13 24459255 PMC3900887
+45. Taylor M.J. Thorne C.B. Transduction of Bacillus Licheniformis and Bacillus Subtilis by Each of Two Phages J. Bacteriol. 1963 86 452 461 10.1128/jb.86.3.452-461.1963 14066421 PMC278456
+46. Stewart C.R. Casjens S.R. Cresawn S.G. Houtz J.M. Smith A.L. Ford M.E. Peebles C.L. Hatfull G.F. Hendrix R.W. Huang W.M. The Genome of Bacillus Subtilis Bacteriophage SPO1 J. Mol. Biol. 2009 388 48 70 10.1016/j.jmb.2009.03.009 19285085 PMC2666789
+47. Willms I.M. Hoppert M. Hertel R. Characterization of Bacillus Subtilis Viruses vB_BsuM-Goe2 and vB_BsuM-Goe3 Viruses 2017 9 146 10.3390/v9060146 28604650 PMC5490822
+48. Ackermann H.W. Azizbekyan R.R. Bernier R.L. de Barjac H. Saindoux S. Valéro J.R. Yu M.X. Phage Typing of Bacillus Subtilis and B. Thuringiensis Res. Microbiol. 1995 146 643 657 10.1016/0923-2508(96)81062-X 8584788
+49. Foltz S. Johnson A.A. on behalf of the 2013–2015 VCU Phage Hunters Complete Genome Sequences of Nine Bacillus Cereus Group Phages Genome Announc. 2016 4 e00473-16 10.1128/genomeA.00473-16 27417827 PMC4945787
+50. Barylski J. Nowicki G. Goździcka-Józefiak A. The Discovery of phiAGATE, a Novel Phage Infecting Bacillus Pumilus, Leads to New Insights into the Phylogeny of the Subfamily Spounavirinae PLoS ONE 2014 9 e86632 10.1371/journal.pone.0086632 24466180 PMC3900605
+51. Thomas J.A. Hardies S.C. Rolando M. Hayes S.J. Lieman K. Carroll C.A. Weintraub S.T. Serwer P. Complete Genomic Sequence and Mass Spectrometric Analysis of Highly Diverse, Atypical Bacillus Thuringiensis Phage 0305ϕ8–36 Virology 2007 368 405 421 10.1016/j.virol.2007.06.043 17673272 PMC2171028
+52. Poxleitner M. Pope W.H. Jacobs-Sera D. Sivanathan V. Hatfull G.F. HHMI SEA-PHAGES Phage Discovery Guide HHMI Chevy Chase, MD, USA 2018
+53. Serwer P. Hayes S.J. Thomas J.A. Hardies S.C. Propagating the Missing Bacteriophages: A Large Bacteriophage in a New Class Virol. J. 2007 4 21 10.1186/1743-422X-4-21 17324288 PMC1817643
+54. Krukonis G.P. Diversity of Naturally Occurring Bacteriophage of Bacillus Subtilis and Their Interactions with Their Hosts The University of Arizona Tucson, AZ, USA 1994
+55. Chattopadhyay S. Puls R.W. Forces Dictating Colloidal Interactions between Viruses and Soil Chemosphere 2000 41 1279 1286 10.1016/S0045-6535(99)00519-6 10901259
+56. Williamson K.E. Wommack K.E. Radosevich M. Sampling Natural Viral Communities from Soil for Culture-Independent Analyses Appl. Environ. Microbiol. 2003 69 6628 6633 10.1128/AEM.69.11.6628-6633.2003 14602622 PMC262263
+57. Gallet R. Kannoly S. Wang I.-N. Effects of Bacteriophage Traits on Plaque Formation BMC Microbiol. 2011 11 181 10.1186/1471-2180-11-181 21827665 PMC3176204
+58. Spanakis E. Horne M.T. Co-Adaptation of Escherichia Coli and Coliphage Lambda Vir in Continuous Culture J. Gen. Microbiol. 1987 133 353 360 10.1099/00221287-133-2-353 3309153
+59. Flores V.S. Amgarten D.E. Iha B.K.V. Ryon K.A. Danko D. Tierney B.T. Mason C. da Silva A.M. Setubal J.C. Discovery and Description of Novel Phage Genomes from Urban Microbiomes Sampled by the MetaSUB Consortium Sci. Rep. 2024 14 7913 10.1038/s41598-024-58226-0 38575625 PMC10994904
+60. Mizuno C.M. Ghai R. Rodriguez-Valera F. Evidence for Metaviromic Islands in Marine Phages Front. Microbiol. 2014 5 27 10.3389/fmicb.2014.00027 24550898 PMC3909814
+61. Flores C.O. Meyer J.R. Valverde S. Farr L. Weitz J.S. Statistical Structure of Host–Phage Interactions Proc. Natl. Acad. Sci. USA 2011 108 E288 E297 10.1073/pnas.1101595108 21709225 PMC3136311
+62. Hoffmann K.H. Rodriguez-Brito B. Breitbart M. Bangor D. Angly F. Felts B. Nulton J. Rohwer F. Salamon P. Power Law Rank–Abundance Models for Marine Phage Communities FEMS Microbiol. Lett. 2007 273 224 228 10.1111/j.1574-6968.2007.00790.x 17559407
+63. Delesalle V.A. Tomko B.E. Vill A.C. Lichty K.B. Krukonis G.P. Forty Years without Family: Three Novel Bacteriophages with High Similarity to SPP1 Reveal Decades of Evolutionary Stasis since the Isolation of Their Famous Relative Viruses 2022 14 2106 10.3390/v14102106 36298661 PMC9607348
+64. Guerin E. Shkoporov A.N. Stockdale S.R. Comas J.C. Khokhlova E.V. Clooney A.G. Daly K.M. Draper L.A. Stephens N. Scholz D. Isolation and Characterisation of ΦcrAss002, a crAss-like Phage from the Human Gut That Infects Bacteroides Xylanisolvens Microbiome 2021 9 89 10.1186/s40168-021-01036-7 33845877 PMC8042965
+65. Meijer W.J. Castilla-Llorente V. Villar L. Murray H. Errington J. Salas M. Molecular Basis for the Exploitation of Spore Formation as Survival Mechanism by Virulent Phage Φ29 EMBO J. 2005 24 3647 3657 10.1038/sj.emboj.7600826 16193065 PMC1276709
