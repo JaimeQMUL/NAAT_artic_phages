@@ -1,123 +1,183 @@
-# Creating Curated Database
-To do this is used the uniprot, ncbi and interpro databases. 
-For uniprot and ncbi i used search queries for any uvsx-like/recombinase proteins.
-For interpro i took the 2 interpro ids associated with uvsx and used an api call to extrct all proteins also containing these ids.
-I saved all sequences to a fasta file depending on which database and search method they came from aswell as saving all the metadata I could get for each sequence.
-I found that the accessions obtaining from the interpro search had complete overlap with the ncbi search query.
-Because the ncbi api call returned more sequences I archived the interpro fasta as these sequences would all be found in the ncbi fasta.
-The metadata however would be useful for me at somepoint
+# Methods
 
-This returned roughly 25,000 sequences. However this was uncleaned data in which there may be many duplicate accessions and identical protein sequences from the same species.
+## Selection of gold standard proteins
 
-## Cleaning data
-To clean data I first sorted all accessions to only keep the unique ones. I had taxon ids for all my sequences and so could check what species each individual came from.
-For all my unique accessions I grouped by sequence. All accessions with identical sequences would be grouped together. I then grouped by species using taxon id and disregarded any individual with the same sequence and from the same species as the first individual found of that species.
-This meant i now had a clean database of non-redudant sequences. There wouldnt be any identical sequences found from the same species.
-I made the decision of keeping identical sequences if they had came from different species as this may be useful for downstream analysis.
-This left me with roughly 20,000 sequences.
+Experimentally characterised UvsX proteins were first identified to establish reference sequences for candidate discovery and downstream validation. These proteins provided experimentally supported examples of UvsX proteins with known functionality, thermal characteristics and available structural information.
 
-## Filtering data
-My database had been cleaned however there were still some very short sequences and very long sequences perhaps added due to poor annotation. 
-To filter data I cut any sequences shorter than 326 amino acids and longer than 426 amino acids. 
-UvsX t4 is a protein 391 amino acids long and so my reasoning was any protein significantly shorter or longer than this most likely arised due to some database annotation error.
+The primary reference sequence was bacteriophage T4 UvsX, the recombinase utilised in conventional recombinase polymerase amplification (RPA). Additional validated UvsX orthologues were selected based on their experimentally characterised thermal adaptation properties. These included 7Z3M, a thermophilic UvsX orthologue, and 9GBG, a psychrophilic UvsX orthologue.
 
-# Gold standards
-To guide our discovery process it was crucial to set a ground truth. This would obviously be majority guided by UvsX as it is the primary protein used in rpa
-There were also some other orthologs that have been discovered which we could use. 7Z3M and 9GBG were 2 UvsX orthologs that had been discovered from a proprietary database and wet lab validated to confrim their thermal ranges
-K35G/E198R was an engineered variant using directed evolution that displayed higher catalytic activity. This study also identified a few more engineered variants however using all of them in our analysis could cause bias as the sequences were entirely identical except for single amino acid changes. K35G/E198R was the best performing variant and so it was the one we chose to keep in the analysis
-Crystal structures of all the gold standards are avaliable boosting exploratory power.
-We had 4 gold standards UvsX t4, K35G/E198R, 7Z3M (thermophilic) and 9GBG (psychrophilic) Which we added to our database
+The engineered K35G/E198R UvsX variant was also included as a representative directed-evolution-derived protein exhibiting enhanced catalytic activity. Other engineered variants from the same study were excluded to avoid overrepresentation of highly similar sequences differing only by individual amino acid substitutions.
 
-# Scoring System
-To assess how likely each sequence in the curated database is to be a true UvsX ortholog for downstream thermal classification
-and molecular dynamics analysis. We decided a scoring system would be best. This would be made up of hits from Hidden
-Markov Models and presence of key domains using string matches.
+The resulting set of four gold standard proteins was used to guide downstream sequence-based screening, including HMM construction, conserved motif identification and structural comparison.
 
-## Hidden Markov Models
-We created 5 Hidden Markov Models (hmms) to scan our database. These were created using hmmer3.
-2 Hmms were built using the seed alignments of the domains annotated on pfam (PF00154 & PF21134).
-Seed alignments were installed and `hmmbuild` was used to construct a profile.
-The other 3 were custom hmms. 
-One profile was seeded using an alignment of the 4 gold standards. 
-The final 2 used the pfam hmms to search the gold standards, the regions that matched were extracted and aligned to seed
-the last two profiles that made up our 5 hmm profiles.
-Interestingly PF21134 found no matches in the 2 novel discoveries (7Z3M and 9GBG) as this domain was in the c terminus, 
-which is highly variable as it is involved in the polymerisation of recombinase proteins and so not conserved between species
-This meant that these hmms would be much less useful and so it was removed from downstream analysis. 
+## Construction of a curated UvsX sequence database
 
-This left only 3 hmms The two built from the PF00154 domain and the gold standard alignment hmm
+A comprehensive database of candidate UvsX-like proteins was constructed using three publicly available protein resources: UniProt, NCBI, and InterPro. Candidate sequences were retrieved using database-specific search strategies designed to identify putative UvsX recombinase homologues. For UniProt and NCBI, keyword-based searches were performed using terms associated with UvsX and phage recombinase proteins. To complement these searches, the two InterPro entries associated with UvsX were queried through the InterPro API to retrieve all proteins annotated with the corresponding domains. All Databases were queried in April 2026
 
-## Motif checks
-### ATP binding sites 
-In UvsX there are 2 domains responsible for ATP binding The walker a and walker b motifs
-#### Walker A
-Found in T4 UvsX at positions 59-67. In the wider literature this is classified as a region that follows GxxxxGK[T/S].
-Interestingly in UvsX the walker motif has a F in place of the signature G. GxxxFKS. The string we were searching for
-was updated and we scored protein on whether this string was present Gxxxx[G/F]K[T/S]
+For every retrieved sequence, the associated protein sequence and available metadata, including accession identifiers, organism information and taxonomic identifiers, were collected. Sequences obtained from each source were combined into a single candidate database before undergoing a series of curation and filtering steps to identify high-confidence UvsX orthologues.
 
-#### Walker B
-Found in T4 UvsX at position 138-143 it is characterized by a sequence of hhhh[D/E] with h being any hydrophobic residue
+## Sequence database curation and redundancy removal
 
-### DNA binding sites
-(Structural, do not have a canonical sequence)
+The combined database was first curated to remove redundant entries while preserving biologically meaningful diversity. Duplicate accession identifiers were removed to ensure that each database record was represented only once.
 
-# Predicting Optimal temperatures
-We used seq2topt to predict the optimal temperatures. This is an ab-initio method that uses only the sequence to output
-a thermal optima. When sandboxing it on our wet-lab validated gold standards we found it performed poorly,
-classifying the deep sea ortholog found at 1000m below sea level at 0.4c, as having a much higher optimal temperature
-than the ortholog discovered in a volcano. 
+To further reduce redundancy, protein sequences were grouped according to amino acid identity. Within each group, taxonomic identifiers were used to distinguish proteins originating from the same species from those originating from different species. Where identical sequences originated from the same species, only a single representative sequence was retained. Identical sequences originating from different species were preserved to maintain taxonomic and evolutionary diversity for downstream analyses.
 
-# Phylogeny construction
-To explore relationships between sequences in our database and their relation to our gold standards we wanted to
-create phylogentic trees. 
-To do this we first aligned the sequences in the filtered database. We ran a mafft alignment which took far too long and
-so instead looked to use famsa. The famsa alignment was trimmed using trimal to remove low occupancy regions. 
-Interestingly this trimmed alignment had only 6 residues for each sequence which corresponded to the walker b motif. 
-This highlighted that the creation of the curated database was mainly influenced by the prescence of this motif. Highlighting 
-a limitation in the computational annotation tools used by the uniprot and ncbi databases. 
+The resulting non-redundant sequence set was subsequently subjected to sequence quality filtering.
+
+## Sequence length filtering
+
+Following redundancy removal, candidate proteins were filtered based on sequence length to remove likely annotation artefacts and incomplete protein models. The filtering thresholds were selected relative to the experimentally characterised T4 UvsX recombinase, which consists of 391 amino acids.
+
+Proteins shorter than 326 amino acids or longer than 426 amino acids were excluded from further analysis. This range was selected to retain proteins comparable in size to characterised UvsX recombinases while reducing the inclusion of incomplete or incorrectly annotated sequences.
 
 
-# Scoring system
-From the hidden markov models and the walker a and b motif checks we compliled a scoring system.
-for each sequence we recorded in a binary format whether the sequence was found in the results for each of the 3 HMMs
-used, as well as presence of the walker a and b motif (1 for present and 0 for absent).
-We then filtered for sequences that hit for every check. We could then run an alignment and create a phylogeny.
+## Identification of candidate UvsX orthologues using profile- and motif-based screening
 
-# Agentic Literature search
-At this point we had a scoring system for proteins that hit for the 3 HMMs, as well as having both the walker a and b.
-We also had the predicted optimal temperatures of each protein (its limitations discussed earlier). The next level of
-analysis I wanted to conduct was looking at whether any of these proteins (~1400) had any information about their thermal
-adaption in peer reviewed literature. To do this I created an agentic literature retrieval and prsing software (TMP). 
-This software takes an NCBI accession and pulls the associated literature from NCBI . It is also able to classify the host organism and
-then will also pull literature from NCBI for the host using a query search. 
-The accession from the top_hits were ran through this pipeline utilising the 3 different options provided in the TMP
-package.
-Plotted the classifications against the seq2opt predicitions to get a boxplot of temp by classification.
-Shows a strong correlation
+A multi-stage screening framework was developed to identify high-confidence UvsX orthologues from the curated sequence database. Candidate proteins were evaluated using a combination of Hidden Markov Models (HMMs) and conserved ATP-binding motif identification.
+
+### Hidden Markov model construction
+
+Three Hidden Markov Models (HMMs) were constructed using HMMER3.
+
+The first HMM was generated from the curated Pfam seed alignment corresponding to the conserved UvsX ATPase domain (PF00154) using the `hmmbuild` function.
+
+Two custom HMMs were generated using experimentally characterised UvsX proteins. The first was constructed from a multiple sequence alignment of the four gold standard proteins. The second was generated by identifying the conserved Pfam domain regions within the gold standard proteins, extracting these regions, aligning them, and constructing a profile HMM from the resulting alignment.
+
+Each HMM was used to search the filtered sequence database, and significant matches were retained for downstream candidate evaluation.
+
+### Conserved ATP-binding motif identification
+
+In addition to profile-based screening, candidate proteins were assessed for the presence of conserved ATP-binding motifs characteristic of RecA-family recombinases.
+
+The Walker A motif was identified using a regular expression representing the conserved P-loop nucleotide-binding motif. To accommodate sequence variation within UvsX proteins, the search pattern was adapted to account for the phenylalanine residue present within the T4 UvsX motif:
+
+```
+Gxxxx[G/F]K[T/S]
+```
+
+The Walker B motif was identified using the conserved hydrophobic residue pattern:
+
+```
+hhhh[D/E]
+```
+
+where *h* represents any hydrophobic amino acid.
+
+DNA-binding regions were not included within the screening framework due to the absence of a conserved sequence motif and their predominantly structural mode of conservation. Instead, conserved ATP-binding motifs were used as functional sequence markers to increase confidence that identified candidates possessed the molecular features required for UvsX recombinase activity.
+
+### Candidate selection
+
+Each candidate protein was represented by a binary feature vector describing the presence or absence of each screening criterion. The screening framework comprised:
+
+- Three Hidden Markov Model matches
+- Walker A motif presence
+- Walker B motif presence
+
+Only proteins satisfying all five criteria were retained as high-confidence UvsX orthologues. These proteins formed the candidate dataset used for downstream thermal prediction, literature-based thermal classification, structural modelling and molecular dynamics simulations.
+
+The complete database construction and candidate selection workflow is summarised in Figure X. Approximately 25,000 protein sequences were initially retrieved from public databases. Following redundancy removal, sequence length filtering, HMM screening and motif-based filtering, 1,498 high-confidence UvsX candidates were retained for downstream analyses.
+
+<img src="images/DatabaseWorkflow.png" width="500">
+**Figure X.** Computational workflow used to construct the curated UvsX database and identify high-confidence candidate orthologues. Candidate proteins were retrieved from UniProt, NCBI and InterPro before undergoing redundancy removal, sequence length filtering, Hidden Markov Model screening and conserved motif identification. Proteins satisfying all screening criteria were retained for downstream analyses.
 
 
-# Boltz structural modelling
-Ran predicted structures for the 3 gold standards.
-So far the confidence is low less than 40 TM
-In attempts to improve this I am trimming the fasta files based on the positions used for modelling as seen on uniprot. PDB use postions 30-358 and swiss
-uses positions 31-342. The boltz prediction returned confidence scores similar to the full protein.
-Trimmed fasta still did not improve boltz confidence and alignment.
-Decided to provide boltz with an MSA, initially used colabfold to get an MSA from UniRef100. This again did not improve
-structural predicition confidence or alignment.
-
-SO decided to use mmseqs to generate a3m alignment using the homolog database of the top hits, these were already a db 
-of similar proteins which i believed would carry good signal of the residues in contact to he,p guide a good boltz
-structural predicition. Alas no improvement.
-
-## Comparing boltz predictions to alphafold.
-
-# GROMACS simulation
-started with crystal structures, but seems like the uploaded structures are incomplete and so the gromacs simulation fails
-then did the boltz for uvsx predictions and got back results.
-Ran gromacs simulation on the boltz, and alphafold
-
-For alphafold had multiple predicitions, so first ran usalign to find the model with the best alignment with the crystal
-structures, put the best prediction for each protein into the gromacs pipeline
+## Prediction of protein thermal optima
+Predicted optimal temperatures (Topt) were generated using Seq2Topt, an ab initio machine learning model that predicts enzyme thermal optima directly from amino acid sequence information.
+Predictions were generated for high-confidence candidate sequences identified through the scoring framework.
+These predictions were subsequently used alongside literature-derived thermal classifications to investigate relationships between sequence-derived thermal predictions and experimentally reported thermal adaptations.
 
 
- 
+## Phylogenetic analysis
+Phylogenetic analysis was performed to investigate evolutionary relationships between candidate sequences and experimentally characterised UvsX proteins.
+Selected candidate sequences were aligned using multiple sequence alignment. MAFFT was initially evaluated for sequence alignment; however, due to computational limitations associated with the dataset size, FAMSA was used for large-scale alignment generation.
+Resulting alignments were filtered using trimAl to remove low-confidence alignment regions prior to downstream phylogenetic analysis.
+
+![I never did anything with the database alignments of phylogentic trees in the end but have them in the repo + IToL]
+
+
+## Agentic literature retrieval and thermal classification pipeline
+While Seq2Topt provides ab-initio thermal predictions, experimentally validated evidence describing protein thermal adaptation remains scattered throughout the scientific literature. To integrate this evidence into the discovery pipeline, the Thermophile–Mesophile–Psychrophile (TMP) classification pipeline was developed to identify experimentally reported evidence describing the thermal adaptation of candidate proteins and their associated host organisms. The pipeline derives its name from the three thermal adaptation classes it predicts: thermophile, mesophile and psychrophile.
+
+The workflow accepts NCBI protein accession identifiers as input and automatically retrieves associated metadata from NCBI resources. Metadata extracted includes protein annotations, organism information, taxonomic identifiers and linked scientific publications. Where available, publications directly associated with the queried protein accession are retrieved for analysis. If insufficient literature is associated with the accession, an additional literature search is automatically performed using a search query generated from the available protein and organism metadata to identify further relevant publications. In parallel, the pipeline performs organism-level analysis by identifying the source organism of each protein and retrieving publications associated with the host organism to provide additional evidence for thermal classification.
+
+Retrieved literature is processed using large language models to identify experimentally reported growth temperatures, environmental conditions and other evidence indicative of thermal adaptation. Depending on the pipeline implementation, this evidence is analysed either directly from individual publications or after an intermediate evidence synthesis stage. The extracted information is subsequently used to assign each protein to one of three thermal adaptation classes: psychrophilic, mesophilic or thermophilic.
+
+To evaluate the effectiveness of different agentic reasoning strategies, a benchmark dataset was constructed comprising protein accession identifiers from bacteriophages with experimentally established thermal adaptations. Organisms were selected through manual literature curation to represent psychrophilic, mesophilic and thermophilic phages, and representative protein accession identifiers from these organisms were compiled into a labelled validation dataset. This benchmark enabled quantitative comparison of multiple pipeline architectures against known thermal classifications.
+
+Three iterative versions of TMP were developed and evaluated during software development.
+
+### Fast implementation
+
+The Fast implementation prioritised computational efficiency by terminating literature analysis once the first sufficiently convincing piece of evidence supporting a thermal classification was identified. To maximise the likelihood of analysing informative publications first, retrieved papers were ranked using a regular expression-based scoring system that counted the occurrence of predefined thermal adaptation keywords (e.g. psychrophilic, thermophilic, growth temperature, optimal temperature). Publications containing a greater number of matching terms were prioritised for analysis by the language model. While this substantially reduced inference time and computational cost, classifications remained dependent on a single publication and were therefore more susceptible to misleading, incomplete or contradictory evidence.
+
+<img src="images/FastGraph.png" width="500">
+Figure X. Workflow of the Fast implementation.
+
+### Democratic implementation
+
+The Democratic implementation sought to improve robustness by independently analysing each retrieved publication associated with a protein or host organism. As with the Fast implementation, publications were first ranked using the regular expression-based keyword scoring system to prioritise the most informative literature. Each publication generated an independent thermal classification, with every paper contributing one vote towards the final prediction. The overall thermal classification was then determined using majority voting across all analysed publications. This approach reduced the influence of individual erroneous classifications while allowing conflicting evidence within the literature to be represented during decision making.
+
+<img src="images/DemocraticGraph.png" width="500">
+Figure X. Workflow of the Democratic implementation.
+
+### Summary implementation
+
+The final Summary implementation adopted a hierarchical reasoning strategy. Unlike the previous implementations, retrieved publications first underwent an automated relevance assessment to remove articles that contained little or no information relating to thermal adaptation. Relevant publications were then synthesised into a structured evidence summary describing the collective thermal characteristics reported across the literature. A final thermal classification was subsequently generated from this consolidated summary rather than from individual publications. By reasoning over an integrated body of evidence instead of isolated studies, this approach aimed to reduce inconsistencies arising from individual papers while enabling the language model to consider the complete evidence base before assigning a classification.
+
+<img src="images/SummaryGraph.png" width="500">
+Figure X. Workflow of the Summary implementation.
+
+The performance of each pipeline architecture was evaluated using the curated benchmark dataset, allowing the effect of different agentic reasoning strategies on thermal classification accuracy to be assessed. Literature-derived classifications were subsequently compared with sequence-based thermal predictions generated by the machine learning pipeline to determine the degree of agreement between evidence-based and sequence-based approaches. Together, these complementary analyses provided increased confidence in candidate selection by integrating experimental evidence from the scientific literature with computational predictions derived from protein sequence.
+
+
+## Protein structure prediction and structural comparison
+
+Structural models were generated for selected UvsX proteins using Boltz. Structural prediction was performed using amino acid sequences as input, with additional multiple sequence alignments supplied where appropriate.
+
+Experimentally determined crystal structures of the gold standard proteins were used as structural references. Prior to structural comparison and molecular dynamics simulations, crystal structures were processed using PDBFixer to repair incomplete structural information, including missing residues and atoms, and to generate complete models suitable for downstream analyses.
+
+To investigate strategies for improving Boltz structural predictions, several sequence preparation approaches were evaluated. These included predictions generated from full-length protein sequences and trimmed sequences corresponding to experimentally resolved structural regions. Multiple sequence alignments generated from UniRef100 using ColabFold, as well as custom alignments generated from high-confidence UvsX orthologues identified during the in silico screening workflow, were supplied as additional inputs to Boltz where appropriate.
+
+Predicted structures were compared with experimentally determined crystal structures using US-align to assess structural similarity. AlphaFold-predicted structures were generated for the same proteins and evaluated using the same structural comparison workflow to benchmark prediction accuracy and identify the most suitable structural models for downstream molecular dynamics simulations.
+
+
+## Molecular dynamics simulations
+
+Molecular dynamics (MD) simulations were performed using GROMACS to investigate the structural stability and conformational dynamics of representative UvsX proteins.
+
+Experimentally determined crystal structures of the gold standard proteins were simulated to provide reference trajectories for comparison. In addition, representative psychrophilic, mesophilic, and thermophilic UvsX orthologues identified through the Thermal Metadata Pipeline (TMP) were selected for simulation. Structural models for these orthologues were obtained from AlphaFold and prepared for molecular dynamics simulations. The K35G/E198R was not simulated due to high similarity to UvsX. 
+
+### System preparation
+Protein topologies were generated using the CHARMM27 force field with the TIP3P water model. Each protein was placed within a dodecahedral simulation box with a minimum distance of 1.0 nm between the protein and the box boundary. Systems were solvated, neutralised using potassium and chloride ions, and adjusted to a final ionic concentration of 0.10 M, to mimic RPA reaction conditions.
+
+### Energy minimisation
+Energy minimisation was performed using the steepest descent algorithm with a convergence criterion of 1000 kJ mol⁻¹ nm⁻¹ and a maximum of 500 minimisation steps before equilibration.
+
+### Equilibration
+
+Following minimisation, each system underwent sequential NVT and NPT equilibration.
+
+Simulations were performed under three temperature conditions representing different thermal adaptation environments:
+
+- Psychrophilic: 288 K
+- Mesophilic: 310 K
+- Thermophilic: 338 K
+
+Temperature, pressure and system density were monitored throughout equilibration to confirm system stability before production simulations.
+
+### Production molecular dynamics simulations
+
+Production molecular dynamics simulations were performed using the equilibrated structures under the corresponding temperature conditions.
+
+### Trajectory analysis
+
+Simulation trajectories were processed to remove periodic boundary artefacts before analysis. Structural stability and protein dynamics were characterised using:
+
+- Root mean square deviation (RMSD)
+- Root mean square fluctuation (RMSF)
+- Radius of gyration (Rg)
+- Minimum intramolecular distance
+
+These analyses were used to compare the structural stability and dynamic behaviour of the reference proteins and candidate UvsX orthologues under different thermal conditions.
+
+# References
