@@ -53,3 +53,4 @@ htmlcov/
 # Gromacs plots
 4-MolecularDynamics/gromacs/gold_standards/predicted/alphafold/plots/
 4-MolecularDynamics/gromacs/orthologs/predicted/alphafold/plots/
+*.xtc
