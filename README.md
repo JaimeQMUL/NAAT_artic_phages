@@ -64,7 +64,6 @@ dissertation/
 ├── writeup/                  # Dissertation writing
 │
 ├── environment.yml           # Conda environment
-├── TODO.md                   # Outstanding tasks
 └── README.md
 
 
