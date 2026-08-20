@@ -54,3 +54,8 @@ htmlcov/
 4-MolecularDynamics/gromacs/gold_standards/predicted/alphafold/plots/
 4-MolecularDynamics/gromacs/orthologs/predicted/alphafold/plots/
 *.xtc
+
+# Large MD archives
+4-MolecularDynamics/**/*.zip
+*.xtc
+*.xtc.gz
