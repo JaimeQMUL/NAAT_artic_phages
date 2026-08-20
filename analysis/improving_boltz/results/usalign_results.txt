@@ -1,0 +1,78 @@
+===== P04529 =====
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: results/boltz_results_uvsx_input/predictions/uvsx_input/uvsx_input_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../4-MolecularDynamics/structures/gold_standards/crystal/3IO5.pdb:A
+Length of Structure_1: 391 residues
+Length of Structure_2: 271 residues
+
+Aligned length= 173, RMSD=   5.82, Seq_ID=n_identical/n_aligned= 0.382
+TM-score= 0.29299 (normalized by length of Structure_1: L=391, d0=7.15)
+TM-score= 0.38193 (normalized by length of Structure_2: L=271, d0=6.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MSDLKSRLIKASTSKLTAELTASKFFNEKDVVRTKI-----PMMNIAL-SGEITGGMQSGLLIL---AG-PSKSFKSNFGLTMVSSYMRQYPDAVCLFYDSEFGITPAYLRSMGVD-----PERV-IHTPV-QSLEQLRIDMVNQLDA-----------------I--ER-GEKVVVFIDSLGNLASKKETEDALNEKVV-------------------SDMTRAKT-MKS-------------LFRIVTPYFSTKN-----IPCIAINHTYETQEMFSKTVMGGGTGPMYSADTVFIIGKRQIKDGSDLQGYQFVLNVEKSRTVKEKSKFFIDVKFDGGIDPYSGLLDMAL--EL----------GFV----------V-KPKNGWYAREFLDEETGEMIREEKSWRAKDTNCTTFWGPLFKHQPFRDAIKRAYQLGAIDSNEIVEAEVDELINSKVEKFKSPESKSKSAADLETDLEQLSDMEEFNE
+                                         ..::::: :.::::::::.....   .. ....:..:::.::....                                  .... :.:.: :::.....:.::..                   .  :. :::::::...                                      ...::::. ...             .:::....          ..:::.::                       :::.:.              :::..   .  ::  :::::         .::::..:..  .:          .:.          . ..:::::. ::   .                   .......::::::::::::....                                                   
+------------------------------------VVRTKIPMMNIALSGEITGGMQSGLLILAGPSKSFKSNFGLTMVSSYMRQY-----------------------------PDAVCLFYDSEFGITPAYLRSMGVDPERVI--HTPVQSLEQLRIDMVNQLDAIERGEKVVVFIDS-------------------LGNLASKMTRAKTMKSLFRIVTPYFSTKNIPCIAINHTTGPMYSADTVFIIG-----KRYQFVLNVEKSR-----------------------TVKEKS--------------KFFID---V--KF--DGGID---------PYSGLLDMALELGFVVKPKNGWYAREFLDEETGEMIREEKSWRAKDT-NC---T-------------------TFWGPLFKHQPFRDAIKRAYQLG---------------------------------------------------
+
+#Total CPU time is  0.07 seconds
+====== 7Z3M ======
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: results/boltz_results_7Z3M_input/predictions/7Z3M_input/7Z3M_input_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../4-MolecularDynamics/structures/gold_standards/crystal/7Z3M.pdb:A
+Length of Structure_1: 373 residues
+Length of Structure_2: 304 residues
+
+Aligned length= 165, RMSD=   6.49, Seq_ID=n_identical/n_aligned= 0.079
+TM-score= 0.26908 (normalized by length of Structure_1: L=373, d0=7.00)
+TM-score= 0.31052 (normalized by length of Structure_2: L=304, d0=6.40)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MTM---------------ITHHHHHH---GSTSITDFLRLTGNEFASVAQDGVTAGDISGWVDSGSYAFNALLSGDIYKGFPGNKIVVIGADPSTGKT-FFALGAAKNFLEQNKDGIVI--CFESESAITKNMLVERGIDVK--RF--GV-VP--VS-TVQQFKTQALRIVDNYEKQPK-NERQP--------------VLFILDSLG-MLSTDKEMADSA------------------------EGKDTR--DMTRAQLIKAAFRVLTLKLGRAGIPMIVTNHVYEDVGAGPYASKVQAGGSGAVYAS---------STILTLSKAKDRDTSTNEVTGVIVTVTATKSRLTKENSKIKCLIRYDGGLDRYYGMLELAEEAGVFK------------KV--S-------------------------------------------T--RFELEDGTKLFGKTIMENPEKYFTNDILERINDYVKRKFCYGSGDDQAGADETLDDDEGQGDIH
+                  .....      .:..:..                                   ..  : :  :::::.             ...::::.     .: :...  ..::..      .  ....    .   .. ..  .. .::::: .:  ..  .      .....              .:..:::.. ::::....                            ...::.  ::::.:::.::.::..: ... :::::::::  ...                             ..:.....                                ..::.      ..:::.....::::::            :.  :                                           .  :::..                                  . .                      
+---HHGSTSITDFLRLTGNEFAS---VAQDGVTAGD-----------------------------------IS--G-W--VDSGSY------------AFNALLSGD-----IY-KGFPGNKIVVIG------A--DPST--GKT-FFALGAAKNFLEQNKDGI-VI--CF--E-----SESAITKNMLVERGIDVKRFGVVPVSTVQQFKTQALRI----VDNYEKQPKNERQPVLFILDSLGMLSTDKEMRDTRAQLIKAAFRVLTLK-LGR-AGIPMIVTN--HVY--------------------GAVYASSTILTLSKATG--------------------------------VIVTV------TATKSRLTKENSKIKCLIRYDGGLDRYYGMLELAEEAGVFKKVSTRFELEDGTKLFGKTIMENPEKYFTNDILERINDYVKRKF----------------------------------C-Y----------------------
+
+#Total CPU time is  0.10 seconds
+====== 9GBG ======
+
+ ********************************************************************
+ * US-align (Version 20241108)                                      *
+ * Universal Structure Alignment of Proteins and Nucleic Acids      *
+ * Reference: C Zhang, M Shine, AM Pyle, Y Zhang. (2022) Nat Methods*
+ *            C Zhang, AM Pyle (2022) iScience.                     *
+ * Please email comments and suggestions to zhang@zhanggroup.org    *
+ ********************************************************************
+
+Name of Structure_1: results/boltz_results_9GBG_input/predictions/9GBG_input/9GBG_input_model_0.cif:A (to be superimposed onto Structure_2)
+Name of Structure_2: ../../4-MolecularDynamics/structures/gold_standards/crystal/9GBG.pdb:A
+Length of Structure_1: 334 residues
+Length of Structure_2: 287 residues
+
+Aligned length= 148, RMSD=   6.42, Seq_ID=n_identical/n_aligned= 0.088
+TM-score= 0.26642 (normalized by length of Structure_1: L=334, d0=6.67)
+TM-score= 0.29624 (normalized by length of Structure_2: L=287, d0=6.23)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d < 5.0 Angstrom, "." denotes other aligned residues)
+MDFLKKIIEETGNEYASIVADGV----------------TAGDIESFIDTGSHS-LNALLSGSIYDGLPSNKITAIAGESATGK---------------------TFF--VLGMVKHF-----------------LDANPNGGVLY------------------------------FESESALTKSMIEDRGIDSSRMVIVPV---------------------TTV-QEFRTQSIKIL-DSYLEQPVEK-RQPLFCA--LDSLGM--LSTTKE-----IEDTTEGKETRDMTRAQIIKAAFRVLTLKLGRAKVPMVITNHTYDVVGSYVPMKEMGGGSGLKYAASTIIYLSKKKEKDGKEVVGNIVKCKIQKSRITKE-NS-----S---------VD-VRISYGKGLDKYYGLLDLAVKYDIFKQVSTRIELPDGTKQYGKTILENPEKYFTKDVLDKIDEVSKKEFM---
+                                       .....::::  :::: .....::..  .:::::..                               .::  :::::...                 ...::.:.                                 .. .:. .::....                                  ..  ..:. ::.... ::....     .::..    ..      ...        .. .:.        .  .   :::::::       .:::..                                                ..::::...:: .:     .         :: ::.                            ..:::::..::::..... ..                     
+-----------------------KIIEETGNEYASIVADGVTAGDIES--FIDTGSHSLNALLS--GSIYDGLP----------SNKITAIAGESGKTFFVLGMVKHFLDANPNGGVLYFESESALTKSMIEDRGIDSSRMVI---VPVTTVQEFRTQSIKILDSYLEQPVEKRQPLF-CAL-DSLGMLS-------------TTKEITRAQIIKAAFRVLTLKLG-RAKVP-MVITNHTLKYAAS----TIIYLS--KKNI----VKCKI---QKSRITK-ENS--------S--V---DVRISYG-------KGLDKY------------------------------------------------YGLLDLAVKYDIFKQVSTRIELPDGTKQYGKTILE----------------------------NPEKYFTKDVLDKIDEVS-KK------------------EFM
+
+#Total CPU time is  0.06 seconds

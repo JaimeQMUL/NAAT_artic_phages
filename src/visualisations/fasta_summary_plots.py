@@ -33,6 +33,7 @@ def PlotSequenceLengths(fasta_file):
     return fig, ax
 
 def PlotRankCounts(counts, rank, top_n=10):
+
     df = pd.DataFrame(list(counts.items()), columns=['Virus', 'Count'])
 
     # Sort
@@ -44,6 +45,7 @@ def PlotRankCounts(counts, rank, top_n=10):
 
     # Combine others
     other_count = minor['Count'].sum()
+
     if other_count > 0:
         major = pd.concat(
             [major, pd.DataFrame([['Other', other_count]], columns=['Virus', 'Count'])]
@@ -53,14 +55,15 @@ def PlotRankCounts(counts, rank, top_n=10):
     fig, ax = plt.subplots()
     major.plot(kind='bar', x='Virus', y='Count', ax=ax)
 
+    # Add counts above bars
+    for container in ax.containers:
+        ax.bar_label(container, padding=3)
     ax.set_xlabel(rank)
     ax.set_ylabel('Count')
     ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
-
     plt.tight_layout()
 
     return fig, ax
-
 
 
 
