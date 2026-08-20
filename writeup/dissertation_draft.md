@@ -37,7 +37,7 @@ ATP hydrolysis regulates UvsX filament dynamics, promoting disassembly after suc
 \centering
 \includegraphics[width=0.5\textwidth]{images/rpa_diagram.png}
 \end{figure}
-**Figure 1. Overview of recombinase polymerase amplification (RPA).** Schematic representation of the RPA mechanism. UvsX recombinase binds single-stranded primers and facilitates their invasion into homologous regions of double-stranded DNA. Following primer binding, strand displacement synthesis by polymerase enables rapid DNA amplification under isothermal conditions without the need for thermal cycling.
+**Figure 1. Overview of recombinase polymerase amplification (RPA).** Schematic representation of the RPA mechanism. UvsX recombinase binds single-stranded primers and facilitates their invasion into homologous regions of double-stranded DNA. Following primer binding, strand displacement synthesis by polymerase enables rapid DNA amplification under isothermal conditions without the need for thermal cycling (Figure taken from New England Biolabs).
 
 \newpage
 
